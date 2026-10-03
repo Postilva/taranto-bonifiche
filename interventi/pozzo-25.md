@@ -1,0 +1,127 @@
+# A17 – Area Pozzo 25 (il pozzo che irriga le Collinette ecologiche)
+*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+
+## In breve
+L'Area Pozzo 25 è un piccolo terreno boscoso di circa 5.400 m² nella zona industriale di Taranto, circa 800 m a nord del quartiere Tamburi, dove si trova un pozzo profondo 37 m che serviva a irrigare le "Collinette ecologiche" [6][9][3]. Con il decreto n. 149 del 26 maggio 2026 il Ministero dell'Ambiente ha stabilito che il terreno è sotto i limiti di legge, ma che l'acqua sotterranea dell'area è, per legge, **"contaminata"** [1]. **Non è stato bonificato niente**: il decreto chiede solo di continuare i controlli sull'acqua e di impedire l'accesso all'area, e l'impianto per togliere il sale dall'acqua del pozzo, ordinato nel 2022, alla fine del 2025 non era ancora stato installato [1][12][13].
+
+## Chi se ne occupa
+- **Ilva in amministrazione straordinaria** (i commissari nominati dal Governo per le vecchie aree dell'Ilva): ha fatto le analisi, con la società di consulenza Engea, e ha chiesto le approvazioni [9][1].
+- **Ministero dell'Ambiente** (oggi Direzione generale economia circolare e bonifiche): guida la procedura perché l'area è nel SIN, il "Sito di interesse nazionale" da bonificare; il decreto n. 149 è firmato dal vicario del direttore generale, Pietro Cucumile [1][9].
+- **ARPA Puglia** e **ISPRA**: hanno seguito le analisi sul posto e dato i pareri sull'ambiente [1][15].
+- **ISS** (Istituto superiore di sanità), **INAIL** e **ASL di Taranto**: hanno dato i pareri sulla salute [1][14][16].
+- **Provincia di Taranto**: rilascia la concessione per prelevare acqua dal pozzo [9][3].
+- **Comune di Taranto**: deve riportare la decisione nel certificato di destinazione urbanistica e nel piano regolatore [1].
+
+## Cosa è stato fatto
+**Analizzata. Terreno nei limiti; acqua sotterranea dichiarata "contaminata". Non bonificata e non messa in sicurezza: per ora sono previsti solo controlli.** [1]
+
+- **Piano delle analisi** ("piano di caratterizzazione"): mandato da Ilva il 12 aprile 2021, approvato dal Ministero con il **decreto n. 147 dell'8 settembre 2021**, con 14 prescrizioni (per esempio: 4 pozzetti di controllo invece di 3, più il pozzo 25 stesso) [5].
+- **Analisi sul posto**, 19–29 settembre 2022, con ARPA presente: 4 perforazioni fino a 4–5 m di profondità, trasformate in pozzetti di controllo dell'acqua; 8 campioni di terreno, 4 dello strato superficiale e 4 di "materiale di riporto" (terra mescolata a materiali portati dall'uomo) [9].
+- **Cosa hanno trovato** [9]:
+  - **terreno**: tutti i campioni sotto i limiti di legge per le aree industriali, confermato anche dal laboratorio di ARPA;
+  - **materiale di riporto**: messo in acqua, rilascia piombo, alluminio, ferro e manganese oltre i limiti;
+  - **acqua del pozzo** (falda profonda, settembre 2022): tutto nei limiti tranne i solfati, 295 mg/l contro un limite di 250; per ARPA, tenendo conto dell'errore di misura, non è un superamento sicuro;
+  - **acqua vicina alla superficie**: secondo Ilva non è una vera falda, ma acqua che ristagna nel terreno; solo uno dei 4 pozzetti (PZ3) ha dato abbastanza acqua per i campioni. Nel 2024 ha trovato, in almeno un controllo su quattro, arsenico, nichel, manganese, boro, fluoruri e solfati oltre i limiti (i solfati in tutti e quattro).
+- **Primo tentativo di chiudere la pratica, respinto.** Nel settembre 2023 Ilva ha chiesto di chiudere la procedura per il terreno. Il Ministero, con il **decreto n. 462 del 4 dicembre 2023**, ha detto di no, sulla base delle osservazioni di ARPA e ISPRA [7]. ISPRA chiedeva prima un controllo dell'acqua, per capire se il materiale di riporto inquina l'acqua sotto [1].
+- **Un anno di controlli sull'acqua**: febbraio, aprile, luglio e ottobre 2024 [9].
+- **Analisi di rischio**: mandata da Ilva il 9 giugno 2025 [1]. Non è un calcolo al computer, ma una verifica di "linee di evidenza" (indizi) sul legame tra materiale di riporto e acqua [9]. Ilva conclude che l'effetto del riporto sull'acqua è "nullo o comunque trascurabile" e che i valori alti nell'acqua potrebbero dipendere dal ristagno o da cause esterne all'area, come la strada trafficata vicina [9].
+- **Pareri**: ARPA e ISPRA favorevoli, ma chiedono di continuare i controlli su tutti e 4 i pozzetti [15][1]. L'ASL scrive che si può escludere un rischio immediato per la salute "allo stato attuale", ma non in modo definitivo, e chiede che l'area non sia accessibile [14]. L'ISS chiede di continuare i controlli "a tutela anche della popolazione, considerata la vicinanza al centro abitato" [16].
+- **Decreto n. 149 del 26 maggio 2026** [1]:
+  - approva l'analisi di rischio;
+  - per il **terreno**, chiude la procedura: sotto i limiti di legge;
+  - per l'**acqua sotterranea**, dichiara l'area **"contaminata"** ai sensi dell'articolo 240 del Codice dell'ambiente;
+  - condizioni: controlli dell'acqua su tutti e 4 i pozzetti; impedire accessi non controllati; nuova analisi di rischio se emergono dati nuovi o se si spostano terreni o cambia l'uso dell'area.
+- **Dopo il decreto**: nessuna fonte trovata dice cosa sia successo. Non verificato.
+
+## Tre domande
+
+### 1. Dove si trova e quanto è grande?
+- **Dove:** nel Comune di Taranto, dentro la zona industriale, circa 2,5 km a nord del centro abitato e 1,2 km a nord-est dalla costa del Mar Piccolo, a circa 12 m sul livello del mare [9]. Circa 800 m a nord del quartiere Tamburi, vicino alla Strada provinciale 49 Taranto–Statte, da cui si entra con una pista sterrata e un cancello [6][9].
+- **Coordinate** indicate da Ilva: 688592,6 m E – 4485699,7 m N, "sistema WGS 84 33T", cioè UTM fuso 33 Nord, datum WGS84 [9]; corrispondono a circa **40,501° N – 17,226° E** (conversione nostra, da ricontrollare sulla mappa). Le coordinate non sono uguali in tutti i documenti (vedi "Cosa non sappiamo").
+- **Catasto:** Foglio 202, parte della particella 4 [1].
+- **Quanto è grande:** circa **5.400 m²** [9][6]; Ilva, nel 2022, scriveva 0,5 ettari [3].
+- **Cosa c'è sopra:** alberi e arbusti; il pozzo con il suo impianto di pompaggio [9][3]. Secondo Ilva non ha mai avuto impianti produttivi, serbatoi o depositi [6].
+- **Piano regolatore:** in parte "zona verde di rispetto", in parte "zona industriale con divieto di espansione"; il Comune ha confermato l'uso commerciale/industriale il 13 settembre 2022 [9].
+
+### 2. Cos'è il Pozzo 25 e a cosa serve l'osmosi inversa?
+- **Il pozzo:** è profondo 37 m e pesca nella **falda profonda**, l'acqua che scorre nelle rocce calcaree sotto uno strato di argilla spesso circa 25 m [9]. È in uso almeno dal 2012 con una concessione della Provincia di Taranto (n. 396/2017, rinnovata con la n. 468/2022 del 9 settembre 2022) [6][9].
+- **A cosa serve:** a dare acqua per irrigare e, in caso di incendio, per spegnere le fiamme sulle **"Collinette ecologiche"** del quartiere Tamburi, a circa 300 m di distanza [3]. Le Collinette sono state sotto sequestro (vedi la [scheda](collinette-ecologiche.md)); il pozzo no [3]. Ilva ha rimesso in funzione pompa e tubi a giugno 2021 [3].
+- **Il problema del sale:** le analisi fatte per rinnovare la concessione hanno mostrato una "contaminazione salina" dell'acqua del pozzo [12]. Ilva ha quindi ordinato nel 2022 un **impianto a osmosi inversa**, cioè un impianto per la **desalinizzazione** (togliere i sali) dell'acqua pompata, per avere acqua "di alta qualità a scopo irriguo" [12][3]. Secondo Ilva l'impianto toglierebbe il 99,5% dei solfati [12]. Nel novembre 2022 Ilva ha comunicato alla Provincia di aver **fermato il prelievo** dal pozzo per gli usi della concessione [12].
+- **Perché non c'è ancora:** l'impianto produce un'acqua di scarto salata, che va scaricata nella rete del Consorzio ASI (l'ente della zona industriale) con l'autorizzazione della Provincia [3][12]. Nel 2022 Ilva lamentava di non ricevere risposte dalla Provincia [3]. Alla fine del 2025 Ilva stava ancora cercando un nuovo progettista e direttore dei lavori, e l'installazione dipendeva dalle autorizzazioni ambientali [13].
+- **In pratica:** il pozzo, che dovrebbe irrigare le Collinette, dal 2022 non viene usato per quello scopo secondo Ilva, e l'impianto per renderne l'acqua utilizzabile non è stato costruito [12][13].
+
+### 3. Cosa vuol dire "acqua contaminata" qui?
+- **La regola della legge:** un sito è "contaminato" se i valori superano le soglie calcolate con l'analisi di rischio; in quel caso la legge prevede la messa in sicurezza e la bonifica [11].
+- **Il decreto** dichiara contaminata l'acqua sotterranea dell'area, ma **non ordina lavori**: chiede di continuare i controlli e di rifare l'analisi di rischio se emergono dati nuovi [1].
+- **Il terreno** invece è nei limiti, ma solo per l'uso industriale; se si spostano terreni o cambia l'uso dell'area, serve una nuova valutazione [1][9].
+- Ilva, alla fine del 2025 (prima del decreto), metteva "in agenda" un eventuale piano di bonifica dopo l'approvazione dell'analisi di rischio [13]. Non abbiamo trovato atti successivi. Non verificato.
+
+## Soldi
+- Nel luglio 2022, secondo Ilva: **0,39 milioni €** assegnati all'area, 0,15 impegnati in ordini, meno di 0,01 pagati [2].
+- Costi successivi (analisi, controlli, impianto a osmosi): **non verificato**.
+
+## Date principali
+| Data | Cosa succede | Fonte |
+|---|---|---|
+| maggio 2020 | Ilva formalizza la "retrocessione" dell'area (insieme alle Collinette) | [4] |
+| 12 aprile 2021 | Ilva manda il piano delle analisi | [5] |
+| 10 maggio 2021 | Il Ministero apre la conferenza di servizi | [9] |
+| giugno 2021 | Pompa e tubi verso le Collinette rimessi in funzione | [3] |
+| 8 settembre 2021 | **Decreto n. 147**: piano delle analisi approvato | [5] |
+| 4 maggio 2022 | Ordine per l'impianto a osmosi inversa | [3] |
+| 9 settembre 2022 | Rinnovo della concessione del pozzo (n. 468/2022) | [9] |
+| 19–29 settembre 2022 | Analisi sul posto | [9] |
+| novembre 2022 | Ilva ferma il prelievo dal pozzo | [12] |
+| 4 settembre 2023 | Ilva chiede di chiudere la pratica per il terreno | [1] |
+| 4 dicembre 2023 | **Decreto n. 462**: richiesta respinta | [7] |
+| febbraio–ottobre 2024 | 4 controlli dell'acqua | [9] |
+| 9 giugno 2025 | Ilva manda l'analisi di rischio | [1] |
+| 23 giugno 2025 | Il Ministero apre la conferenza di servizi istruttoria | [8] |
+| agosto 2025 – gennaio 2026 | Pareri di ARPA, ISPRA, INAIL, ASL, ISS (sollecitati dal Ministero il 9 settembre 2025) | [1][10] |
+| 20 gennaio 2026 | Conferenza di servizi decisoria | [1] |
+| 24 marzo 2026 | Il Ministero comunica a Ilva le condizioni | [1] |
+| **26 maggio 2026** | **Decreto n. 149: terreno nei limiti, acqua sotterranea "contaminata"** | [1] |
+
+## Fonti
+Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ — SIN "Taranto", ID Area **3919** [1].
+
+[1] Ministero dell'Ambiente e della Sicurezza energetica (MASE), Direzione generale economia circolare e bonifiche, *Decreto n. 149 del 26 maggio 2026* (approvazione dell'analisi di rischio, Area Pozzo 25), https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=18340_m_amte.MASE.ECB_REGISTRO_DECRETI_R_.0000149.26-05-2026.pdf — copia in `fonti/2026-05_mase_decreto-149-approvazione-adr-pozzo-25.pdf`
+
+[2] Ilva S.p.A. in amministrazione straordinaria, *Aggiornamento all'Osservatorio Ilva sulle aree escluse*, 12 luglio 2022, "Recap interventi" (IV/IV), pag. 5 — copia in `fonti/2022-07_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
+[3] Stesso documento del [2], schede "Area Pozzo 25" (I–III), pagg. 73–75 (pagine 77–79 del PDF)
+
+[4] Stesso documento del [2], scheda "Collinette ecologiche Tamburi", pag. 70 (pagina 74 del PDF)
+
+[5] Ministero della Transizione ecologica (oggi MASE), Direzione generale risanamento ambientale, *Decreto n. 147 dell'8 settembre 2021* (approvazione del piano di caratterizzazione Area Pozzo 25), https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=7945_21_147_decreto.zip — copia in `fonti/2021-09_mite_decreto-147-approvazione-piano-caratterizzazione-pozzo-25.pdf`
+
+[6] Ilva S.p.A. in amministrazione straordinaria, *Progetto Piano di Caratterizzazione Ambientale "Area Pozzo 25"*, marzo 2021, pagg. 6–7, 30–31, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=7922_21_37305_PDC.zip — copia in `fonti/2021-03_ilva-as_piano-caratterizzazione-pozzo-25.pdf`
+
+[7] MASE, Direzione generale uso sostenibile del suolo e delle risorse idriche, *Decreto n. 462 del 4 dicembre 2023* (conclusione negativa della conferenza di servizi sulla chiusura per il terreno), https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=11933_m_amte.MASE.REGISTRO%20UFFICIALE(U).0198746.05-12-2023.zip — copia in `fonti/2023-12_mase_decreto-462-conclusione-negativa-suoli-pozzo-25.pdf`
+
+[8] MASE, *Nota prot. 119158 del 23 giugno 2025* (convocazione della conferenza di servizi istruttoria sull'analisi di rischio), https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=15841_m_amte..REGISTRO_UFFICIALE_U_.0119158.23-06-2025.pdf — copia in `fonti/2025-06_mase_convocazione-cds-istruttoria-adr-pozzo-25.pdf`
+
+[9] Ilva S.p.A. in amministrazione straordinaria (redatto da Engea Consulting), *Relazione descrittiva delle indagini di caratterizzazione e analisi di rischio sanitaria e ambientale sito-specifica – Sito "Area Pozzo 25"*, doc. ILVP25640_ID 18.01, trasmessa al Ministero il 9 giugno 2025 (prot. 108808), pagg. 7, 10–23, 31–38, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=15819_108808.zip — copia (relazione con allegati, 415 pagine) in `fonti/2025-06_ilva-as_analisi-di-rischio-pozzo-25.pdf`
+
+[10] MASE, *Nota prot. 165088 del 9 settembre 2025* (sollecito dei pareri sanitari), https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=18281_m_amte.MASE.REGISTRO_UFFICIALE_U_.0165088.09-09-2025.pdf — copia in `fonti/2025-09_mase_sollecito-pareri-sanitari-adr-pozzo-25.pdf`
+
+[11] D.Lgs. 3 aprile 2006, n. 152 (Codice dell'ambiente), articolo 240, comma 1, lettere c) ed e), testo vigente su Normattiva — copia in `fonti/2026-09_normattiva_dlgs-152-2006-art-240-definizioni.pdf`
+
+[12] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2022*, pagg. 40–41 — copia in `fonti/2022-12_ilva-as_relazione-trimestrale-IV-2022.pdf`
+
+[13] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pag. 47, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
+
+[14] ASL Taranto, Dipartimento di prevenzione, *Parere sanitario favorevole con prescrizioni*, acquisito dal Ministero al prot. 240596 del 18 dicembre 2025 (scansione), https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=17762_2025_240596%20-%20ASL%20-%20Parere%20istruttoria.zip — copia in `fonti/2025-12_asl-taranto_parere-adr-pozzo-25.pdf`
+
+[15] ARPA Puglia, DAP Taranto, *Riscontro alla conferenza di servizi decisoria* (redatto con ISPRA), nota prot. 8691 del 10 febbraio 2026, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=17765_2026_27708%20-%20ARPA%20-%20Parere%20decisoria.zip — copia in `fonti/2026-02_arpa-puglia_parere-adr-pozzo-25.pdf`
+
+[16] Istituto superiore di sanità, Dipartimento Ambiente e salute, *Parere* nota prot. 1093 del 13 gennaio 2026, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=17763_2026_4989%20-%20ISS%20-%20Parere%20istruttoria.zip — copia in `fonti/2026-01_iss_parere-adr-pozzo-25.pdf`
+
+## Cosa non sappiamo
+1. **Cosa succede ora che l'acqua è "contaminata".** Per legge, quando si superano le soglie calcolate con l'analisi di rischio servono messa in sicurezza e bonifica [11]. Il decreto però chiede solo controlli [1], e l'analisi di Ilva non ha calcolato quelle soglie, ma ha usato indizi [9]. Non sappiamo se il Ministero chiederà dei lavori, né se i controlli del 2026 siano stati fatti. Non verificato.
+2. **La relazione di Ilva di fine 2025 non conosce il decreto e ha frasi copiate.** È stata scritta prima del decreto del maggio 2026 [13]. Parla di analisi fatte "in più fasi" per "sottoservizi e strutture interrate nella zona sud ed est" e di pareri di "ARPA, ISPRA e ASL": sono le stesse parole usate per Land D2 [13]. Per il Pozzo 25 il no del 2023 si basava sulle note di ARPA e ISPRA [7], e la relazione delle analisi non parla di strutture interrate [9].
+3. **Di chi è il terreno.** Nel piano del 2021 Ilva scrive che l'area è di proprietà di ArcelorMittal (il gestore dell'acciaieria) e che Ilva usa il pozzo e ne fa la manutenzione [6]. Nel 2022 Ilva parla di una "retrocessione" dell'area formalizzata nel maggio 2020 [4]. Chi sia oggi il proprietario: non verificato.
+4. **Le coordinate non tornano.** Il piano del 2021 dà un punto circa 2,8 km più a nord di quello dell'analisi di rischio [6][9]; anche dentro l'analisi di rischio, due colonne di coordinate dei pozzetti differiscono di circa 190 m [9]. Le misure usate qui sono quelle dell'analisi di rischio, la più recente; vanno controllate sulla mappa.
+5. **L'irrigazione delle Collinette.** Se il pozzo è fermo dal 2022 [12], non sappiamo come vengano irrigate oggi le Collinette. Non verificato.
+6. **L'impianto a osmosi inversa:** quanto costa, se la Provincia ha autorizzato lo scarico dell'acqua salata, e quando sarà installato: non verificato [13].
+7. **Due laboratori, risultati un po' diversi.** ARPA non ha convalidato i dati di Ilva per il manganese nel campione di febbraio 2024; per questo il decreto chiede di controllare tutti e 4 i pozzetti [15][1].

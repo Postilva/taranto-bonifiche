@@ -1,0 +1,120 @@
+# Elenco degli interventi — Bonifiche Taranto
+
+*Aggiornato al 30 settembre 2026. Prima versione, da rileggere insieme.*
+
+## Come leggere questo elenco
+
+Le aree da risanare hanno **responsabili diversi**. Per questo le ho divise in tre gruppi:
+
+- **A. Aree di Ilva** (le vecchie aree della fabbrica non passate ai nuovi gestori). Se ne occupano i commissari di **Ilva in amministrazione straordinaria**.
+- **B. Aree fuori dalla fabbrica** (mare, quartiere Tamburi, Statte…). Se ne occupa il **Commissario straordinario per la bonifica di Taranto**.
+- **C. Altri responsabili** (acciaieria in funzione, raffineria, porto, Marina…). Ancora **da esplorare**.
+
+**I passaggi di una bonifica, dal primo all'ultimo:**
+1. **Caratterizzazione**: si fanno le analisi per capire cosa c'è nel terreno e nell'acqua.
+2. **Analisi di rischio**: si valuta se quello che c'è è pericoloso per le persone.
+3. **Messa in sicurezza**: si "chiude" il problema perché non si allarghi (per esempio coprendolo). Il problema però resta lì.
+4. **Bonifica**: si elimina l'inquinamento.
+5. **Certificazione**: un ente pubblico attesta che il lavoro è finito. Solo a quel punto si può dire "bonificato".
+
+Colonna **Scheda**: ⬜ da fare · 🟡 in corso · ✅ fatta e approvata
+
+---
+
+## A. Aree di Ilva (18 aree)
+
+Fonte di tutto il gruppo: [Relazione trimestrale Ilva in AS, 4° trimestre 2025](https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf), pagine 22–48. Copia in `fonti/`.
+
+| # | Area | A che punto è (in breve) | Pag. | Scheda |
+|---|---|---|---|---|
+| A1 | Gravina Leucaspide *(sotto sequestro)* | Circa 5 milioni di m³ di rifiuti Italsider lungo la gravina, sotto sequestro dal 2018. Analisi approvate nel 2022 ma non partite; messa in sicurezza da progettare. ⚠ Non bonificata né messa in sicurezza. | 22–27 | ✅ [scheda](interventi/gravina-leucaspide.md) |
+| A2 | Discarica Nord-Ovest *(sotto sequestro dal 2018)* | Progetto di copertura (messa in sicurezza permanente, non bonifica) approvato dal Ministero il 16/12/2025, costo stimato 29,8 milioni €. Scadenza per l'inizio dei lavori spostata al 15/06/2026 (gara con un solo concorrente). ⚠ Nessuna fonte dice che i lavori siano partiti. | 22–27 | ✅ [scheda](interventi/discarica-nord-ovest.md) |
+| A3 | Discarica ex cava Due Mari | Discarica coperta (2022, secondo Ilva), ma nessun certificato: Ilva ha perso la causa sulle garanzie (Consiglio di Stato 2025 e 2026). Dati sulla falda non pubblici. ⚠ Messa in sicurezza non certificata. | 28–29 | ✅ [scheda](interventi/discarica-due-mari.md) |
+| A4 | Discarica ex cava Cementir | Copertura finita nel 2023, senza certificato. Falda superficiale inquinata: dal 2022 si pompa acqua d'emergenza ogni settimana. Stessa causa persa sulle garanzie. ⚠ Non bonificata. | 30–31 | ✅ [scheda](interventi/discarica-cementir.md) |
+| A5 | Stoccaggio fanghi dell'altoforno e dell'acciaieria | Tolte circa 333.000 t di fanghi entro il 2023; 113.000 t in un deposito da svuotare entro il 23/08/2026, con uno stop di 5 mesi nel 2025. Non si sa se la scadenza sia stata rispettata. ⚠ Terreno mai analizzato. | 32–33 | ✅ [scheda](interventi/stoccaggio-fanghi.md) |
+| A6 | Aree vicine allo stoccaggio fanghi | Vasche e piazzale usati come base del cantiere dei fanghi: verranno analizzati dopo A5. ⚠ Nessuna analisi finora. | 32–33 | ✅ [scheda](interventi/stoccaggio-fanghi.md) |
+| A7 | Discarica Nuove Vasche | Discarica di rifiuti pericolosi chiusa e sorvegliata fino al 2048. Contenuto e risultati dei controlli non pubblici. Rete per l'acqua piovana troppo piccola, lavori fermi dal 2022. ⚠ Non bonificata. | 34–35 | ✅ [scheda](interventi/discarica-nuove-vasche.md) |
+| A8 | Area a verde ovest (SP Statte) | Terreno contaminato secondo Ilva stessa (PCB, tallio, diossine). Analisi di rischio respinta nel 2023; riporto fino a 21 m. Area aperta a chiunque. ⚠ Non bonificata. | 36–37 | ✅ [scheda](interventi/area-verde-ovest.md) |
+| A9 | Area a verde Nord | Dentro un parco naturale, a circa 100 m dalle case di Statte: due zone contaminate. Analisi di rischio archiviata a febbraio 2024, poi più nulla. ⚠ Non bonificata. | 38 | ✅ [scheda](interventi/area-verde-nord.md) |
+| A10 | Land A | Ex discarica abusiva (anche amianto). Diossine oltre il limite industriale; strato di rifiuti sepolti ancora lì. Analisi di rischio mai presentata. ⚠ Non bonificata. | 39 | ✅ [scheda](interventi/land-a.md) |
+| A11 | Land C | Terreno "non contaminato" (decreto n. 250/2023), ma acqua sotterranea inquinata, pratica aperta. ⚠ **Non** è uscita dal SIN, come invece scrive Ilva. | 40–41 | ✅ [scheda](interventi/land-c.md) |
+| A12 | Land D1 | Lungo il vecchio canale di scarico: IPA, diossine, arsenico oltre i limiti residenziali. Rifiuti sepolti, rimozione "quasi finita" secondo Ilva. Analisi di rischio mai presentata. ⚠ Non bonificata. | 41 | ✅ [scheda](interventi/land-d1.md) |
+| A13 | Land E (ex Sidercomit) | Ex stabilimento Sidercomit: terreno nei limiti, ma acqua sotterranea oltre i limiti per 9 sostanze. Analisi di rischio bloccata a gennaio 2024. ⚠ Non bonificata. | 42 | ✅ [scheda](interventi/land-e.md) |
+| A14 | Land L (Cava L'Amastuola) | Fuori dal SIN, decide la Regione. Cava di 128 ha con una vecchia discarica. Indagini preliminari approvate nel 2023, non ancora partite. ⚠ Mai analizzata a fondo. | 43 | ✅ [scheda](interventi/land-l-amastuola.md) |
+| A15 | Collinette ecologiche (Tamburi) | Sequestrate 2019–2022, scuole vicine chiuse per 6 mesi nel 2019. Analisi complete approvate a dicembre 2024 ma non ancora iniziate. L'analisi di rischio "nessun rischio per i residenti" è di Ilva, non pubblica né approvata da enti pubblici. ⚠ Non messe in sicurezza. | 44–45 | ✅ [scheda](interventi/collinette-ecologiche.md) |
+| A16 | Land D2 | ✔ Decreto del Ministero (dicembre 2024): **area non contaminata**, ma solo finché resta com'è oggi (verde recintato, niente parco né uso ricreativo). Non bonificata perché non serviva; resta nel SIN. | 46 | ✅ [scheda](interventi/land-d2.md) |
+| A17 | Area Pozzo 25 | Decreto 2026: terreno a posto, acqua sotterranea "contaminata". Previsti solo controlli e divieto di accesso. Pozzo fermo dal 2022 (acqua salata). ⚠ Non bonificata. | 47 | ✅ [scheda](interventi/pozzo-25.md) |
+| A18 | Land I (verde vicino ospedale Nord) | Piccola area verde: Ilva la dice "senza problemi", ma non risultano analisi né atti pubblici che lo confermino. ⚠ Non verificato. | 48 | ✅ [scheda](interventi/land-i.md) |
+
+**Da notare:** la relazione non indica **nessuna** delle 18 aree come "bonificata con certificato".
+
+---
+
+## B. Aree fuori dalla fabbrica (Commissario straordinario)
+
+Fonte principale: [Opuscolo del Commissario, maggio 2026](https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf). Copia in `fonti/`.
+
+### Interventi che il Commissario dichiara conclusi
+
+| # | Intervento | Cosa dice la fonte | Pag. | Scheda |
+|---|---|---|---|---|
+| B1 | Ex Cemerad (Statte): deposito di rifiuti radioattivi | Messa in sicurezza e gestione dei rifiuti radioattivi: "intervento concluso". ⚠ In realtà è concluso solo lo svuotamento (16.640 fusti tolti, gennaio 2025): analisi, demolizione e bonifica sono ancora da avviare. | 12 | ✅ [scheda](interventi/ex-cemerad.md) |
+| B2 | Aree verdi delle scuole Deledda, De Carolis, D'Aquino (Tamburi) | Fatte analisi e analisi di rischio. | 13 | ⬜ |
+| B3 | 5 scuole del Tamburi | Ristrutturate, con ventilazione e aree esterne rifatte. *Non è una bonifica vera e propria.* | 13 | ⬜ |
+| B4 | Mar Piccolo: mercato ittico galleggiante affondato | Rimosso. | 19 | ⬜ |
+| B5 | Mar Piccolo: rifiuti sul fondale del 1° seno (1° lotto) | Rimossi. | 19–20 | ⬜ |
+| B6 | Mar Piccolo: studi, indagini, sorvolo lidar | Conclusi. | 20 | ⬜ |
+| B7 | Molo polisettoriale (porto): dragaggio e banchina | "Concluso ma non finanziariamente". | 23 | ⬜ |
+
+### Interventi in corso o da fare
+
+| # | Intervento | Cosa dice la fonte | Pag. | Scheda |
+|---|---|---|---|---|
+| B8 | Cimitero San Brunone | Lavori iniziati nel 2020, fermati dopo 3 mesi, gara annullata nel 2021. Oggi si rifà il progetto: costo stimato 17,5 milioni €, disponibili 9,4. ⚠ Non bonificato né messo in sicurezza. | 14 | ✅ [scheda](interventi/cimitero-san-brunone.md) |
+| B9 | Impianto sportivo "Atleti Azzurri d'Italia" (Tamburi) | 86.876 € per le analisi, campionamenti iniziati. | 15 | ⬜ |
+| B10 | Zona PIP di Statte (falda profonda) | Analisi e intervento d'emergenza fatti; progetto definitivo fermo dal 2020. Nel 2025 assegnati 124 milioni (89,9 dal Fondo coesione), ma a giugno 2026 nessun progetto né gara, 0 € spesi. ⚠ Non messo in sicurezza. | 16–17 | ✅ [scheda](interventi/pip-statte.md) |
+| B11 | Mar Piccolo: rifiuti sul fondale del 1° seno (2° lotto) | Si stanno ancora definendo i finanziamenti. | 21 | ⬜ |
+| B12 | Mar Piccolo: bonifica "Area 170 ha" con dragaggio | Collaborazione con la Marina Militare, zona della base sommergibili. | 21–22 | ⬜ |
+| B13 | Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018) | Gara da 32,3 milioni (2018) sospesa nel 2020, mai aggiudicata né annullata. Dei 55 milioni del programma, pagati circa 5,6 per altre attività. ⚠ Nessun piano finanziato per bonificare il 1° seno. | 19 | ✅ [scheda](interventi/mar-piccolo-gara-2018.md) |
+| B14 | Riduzione del perimetro del SIN | Decreto di dicembre 2024. Si punta a liberare circa 15,5 km² di Mar Grande. | 24–25 | ⬜ |
+| B15 | Filiere verdi | Piante che ripuliscono il terreno (canapa, pioppi…) su circa 90 ettari. Operativo da marzo 2026. | 29–31 | ⬜ |
+| B16 | Cozze: studi sulla decontaminazione + progetto MITICA | Ricerca sulla mitilicoltura. | 26–28 | ⬜ |
+| B17 | Sea Hub (Mar Piccolo, 2° seno) | Rimozione di relitti e strutture abbandonate, passerella in legno. | 34–35 | ⬜ |
+
+### Priorità decise nel 2024 (Delibera Regione Puglia n. 981/2024)
+
+Elencate a pag. 10–11 dell'opuscolo. Di molte **non si sa ancora nulla**:
+PIP Statte · Cimitero San Brunone · ex Yard Belleli · falda del SIN (zona Piccole Industrie, Galeso) · falda del comparto orientale · Mar Piccolo 1° seno · Praia a Mare · aree libere del porto · terrapieno del canale di scarico ex Ilva · dragaggio del porto. Più 5 aree ancora mai analizzate (Distripark, ex depuratore Statte, zona retroportuale, aree tra Piccole Industrie e Italcave, altre).
+
+---
+
+## C. Altri responsabili — da esplorare
+
+Qui non ho ancora cercato. Sono i soggetti elencati dal Ministero ([pagina SIN Taranto](https://bonifichesiticontaminati.mite.gov.it/sin-7/)):
+- **Acciaierie d'Italia** (l'acciaieria in funzione): i suoi obblighi riguardano soprattutto l'inquinamento *attuale* (autorizzazione AIA), non le vecchie contaminazioni.
+- **Raffineria Eni**
+- **Cementir**
+- **Italcave**
+- **Marina Militare / Arsenale**
+- **Autorità portuale**
+
+---
+
+## Cose che già non tornano (da chiarire nelle schede)
+
+1. **Superficie del SIN.** Il Ministero scrive 4.289 ettari a terra e 6.872 a mare. L'opuscolo del Commissario scrive 64 km² a terra e 7,3 km² a mare. Forse sono cifre di prima e dopo la riduzione del perimetro, ma va verificato.
+2. **Gravina di Leucaspide.** Compare sia tra le aree di Ilva (A1) sia tra i lavori del Commissario a Statte (opuscolo pag. 12). È la stessa area? Chi fa cosa?
+3. **"Concluso ma non finanziariamente".** Molti interventi del Commissario sono segnati così: i lavori sono finiti ma i conti non sono chiusi.
+4. **Soldi di Ilva.** Si legge di 1,16 miliardi (dall'accordo con la famiglia Riva nel 2017), di cui circa 410 milioni spesi in bonifiche. Per ora la cifra viene solo da un giornale che cita un'audizione in Senato: **non verificato**.
+5. **"Solo lo 0,1% bonificato".** È una cifra di Legambiente, non ufficiale: **non verificato**.
+
+---
+
+## Fonti usate finora
+
+- [Relazione trimestrale Ilva in AS, 4° trim. 2025](https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf): `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
+- [Opuscolo Commissario, maggio 2026](https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf): `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
+- Scheda A2 (Discarica Nord-Ovest): 21 fonti ufficiali (decreti, verbali e pareri dal [archivio del Ministero](https://bonifichesiticontaminati.mite.gov.it/ricerca/), SIN "Taranto", Area "3000"; relazioni Ilva 2018–2025; relazione della Commissione parlamentare sui rifiuti, 2022), elencate nella scheda e salvate in `fonti/`
+- Scheda B1 (ex Cemerad): 11 documenti ufficiali (DPCM, decreti e accordi del Commissario Cemerad, ISIN, Ministero, 4 schede OpenCoesione), elencati nella scheda e salvati in `fonti/`
+- [OpenCoesione](https://opencoesione.gov.it/): costi e pagamenti dei progetti finanziati con fondi pubblici. Da usare per ogni scheda.
+- [Ministero dell'Ambiente, scheda SIN Taranto](https://bonifichesiticontaminati.mite.gov.it/sin-7/) (pagina ferma al 2021, "in aggiornamento")
