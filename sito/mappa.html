@@ -1,0 +1,203 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Mappa · Bonifiche Taranto</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="stile.css">
+<body class="mappa">
+
+<header class="topbar">
+  <div class="in">
+    <a class="brand" href="index.html">Bonifiche <span>Taranto</span></a>
+    <nav aria-label="Pagine">
+      <a href="index.html">La storia</a>
+      <a href="mappa.html" aria-current="page">Mappa</a>
+    </nav>
+  </div>
+</header>
+
+<div class="mapwrap">
+  <div id="map" role="region" aria-label="Mappa di Taranto con gli interventi"></div>
+
+  <aside class="panel" id="panel" aria-label="Elenco e filtri">
+    <div class="ph">
+      <h1><span class="n-tot">35</span> interventi</h1>
+      <button type="button" class="close" id="panel-close" aria-label="Chiudi l'elenco">✕</button>
+      <p id="intro">Tocca un pallino per leggere il report. Blu: <b class="n-ok">22</b> verificati fonte per fonte. Grigi: ancora da verificare.</p>
+      <div class="filters" role="group" aria-label="Filtri">
+        <button type="button" class="chip" data-g="" aria-pressed="true">Tutti</button>
+        <button type="button" class="chip" data-g="A" aria-pressed="false">Ilva (A)</button>
+        <button type="button" class="chip" data-g="B" aria-pressed="false">Commissario (B)</button>
+        <button type="button" class="chip" data-v="ok" aria-pressed="false" id="chip-ok">✔ Solo verificati</button>
+      </div>
+      <input id="q" class="search" type="search" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un intervento">
+      <p class="lcount" id="lcount"></p>
+    </div>
+    <ul class="list" id="list"></ul>
+  </aside>
+  <button type="button" class="paneltoggle" id="panel-open">☰ Elenco e filtri</button>
+
+  <div class="legend-map" aria-hidden="true">
+    <span><span class="pin ok">A2</span> verificato, con report</span>
+    <span id="lg-todo"><span class="pin">A1</span> da verificare</span>
+    <span><span class="pin ok exact">A9</span> bordo pieno: posizione da documento ufficiale</span>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="dati.js"></script>
+<script src="comune.js"></script>
+<script>
+/* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
+document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
+if (PTS.every(p => p.ok)) {   // tutti verificati: niente pallini grigi, filtro e legenda relativi non servono
+  $("#intro").textContent = `Tocca un pallino per leggere il report. Tutti i ${TOTAL} interventi sono verificati fonte per fonte.`;
+  $("#chip-ok").style.display = $("#lg-todo").style.display = "none";
+}
+const panelOpen = () => !document.body.classList.contains("panel-off");
+const panelW = () => panelOpen() && !isNarrow() ? $("#panel").offsetWidth + 24 : 0;
+function setPanel(on){ document.body.classList.toggle("panel-off", !on); setTimeout(placePv, 220); }
+$("#panel-close").addEventListener("click", () => setPanel(false));
+$("#panel-open").addEventListener("click", () => setPanel(true));
+if (isNarrow()) setPanel(false);   // telefono: si parte dalla mappa, l'elenco si apre col bottone
+
+let map, markers = {}, pinEl = {}, selected = null, pv;
+
+function pvHtml(p){
+  const s = verified[p.code], row = ROW[p.code];
+  return `<div class="band">
+      <span class="badge ${p.ok?"ok":"todo"}" style="${p.ok?"background:rgba(255,255,255,.22);color:#fff":""}">${p.ok?"✔ verificato":"da verificare"}</span>
+      <button type="button" class="x" aria-label="Chiudi l'anteprima">✕</button>
+      <span class="big">${p.code}</span>
+      ${s ? `<span class="vd">${esc(s.verdict)}</span>` : ""}
+    </div>
+    <div class="body">
+      <span class="grp">${GRP_SHORT[p.code[0]]}</span>
+      <span class="nm">${esc(p.name)}</span>
+      ${s ? "" : `<span class="st">${esc(row[2])}</span>`}
+      <span class="pos">${esc(posShort(p))}${p.official ? "" : " · " + esc(p.zone.split(" (")[0].replace(/^Zona generica: /,"zona generica: "))}</span>
+      ${s ? `<a class="go" href="report.html#${s.id}">Leggi il report →</a>` : `<span class="pos"><b>Report in arrivo:</b> la scheda non è ancora stata verificata. Il testo sopra riassume la fonte principale, non ancora controllata.</span>`}
+    </div>`;
+}
+function placePv(){
+  if (!pv || pv.hidden || !selected || isNarrow()) return;
+  const c = map.getSize(), pt = map.latLngToContainerPoint(PT[selected].ll), w = pv.offsetWidth, h = pv.offsetHeight, minL = 12 + panelW();
+  let left = pt.x + 24 + w <= c.x - 12 ? pt.x + 24 : pt.x - 24 - w;   // dal lato con più spazio
+  left = Math.max(minL, Math.min(left, c.x - w - 12));
+  pv.style.left = left + "px"; pv.style.top = Math.max(12, Math.min(pt.y - h/2, c.y - h - 12)) + "px";
+}
+function select(code, opts={}){
+  if (!map || !PT[code]) return;
+  deselect();
+  selected = code;
+  const p = PT[code];
+  pinEl[code]?.classList.add("sel");
+  markers[code]?.setZIndexOffset(2000);
+  const li = document.querySelector(`.list li[data-code="${code}"]`);
+  li?.classList.add("sel");
+  // telefono: l'elenco copre la mappa, quindi si chiude e non si scorre (scorrerlo lo riporterebbe in vista)
+  if (isNarrow()) { if (panelOpen()) setPanel(false); }
+  else if (opts.scroll && li) li.scrollIntoView({block:"nearest", behavior:"smooth"});
+  pv.className = "pv" + (p.ok ? " ok" : ""); pv.innerHTML = pvHtml(p); pv.hidden = false;
+  if (isNarrow()) {   // telefono: l'anteprima copre la parte bassa, il punto va centrato nello spazio sopra
+    const z = Math.max(map.getZoom(), 13), pt = map.project(p.ll, z), H = map.getSize().y, avail = H - pv.offsetHeight - 90;
+    pt.y += H/2 - avail/2;
+    map.setView(map.unproject(pt, z), z);
+  } else map.panInside(p.ll, {paddingTopLeft:[40 + panelW(), 40], paddingBottomRight:[40, 40]});
+  history.replaceState(null, "", "#" + code);
+  placePv();
+}
+function deselect(){
+  if (selected){ pinEl[selected]?.classList.remove("sel"); markers[selected]?.setZIndexOffset(PT[selected].ok ? 500 : 0); }
+  document.querySelectorAll(".list li.sel").forEach(e => e.classList.remove("sel"));
+  if (selected) history.replaceState(null, "", location.pathname);
+  selected = null; if (pv) pv.hidden = true;
+}
+
+(function initMap(){
+  if (!window.L) { $("#map").innerHTML = '<p style="padding:16px">La mappa non si è caricata. Gli interventi sono nell\'elenco.</p>'; return; }
+  map = L.map("map", {minZoom:11, maxZoom:14, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, zoomControl:false});
+  L.control.zoom({position:"topright"}).addTo(map);
+  addTiles(map);
+  // vista iniziale = tutti i punti (a destra del pannello), ma mai così lontana da lasciare zone senza tile;
+  // da lì non ci si può allontanare (lo zoom minimo diventa quello della vista iniziale)
+  const fit = () => {
+    map.setMinZoom(11); map.setMaxBounds(TILE_BOUNDS);
+    map.fitBounds(L.latLngBounds(PTS.map(p => p.ll)).pad(.06), {animate:false, paddingTopLeft:[panelW(), 0]});
+    const z = coverZoom(map, map.getZoom());
+    map.setMaxBounds(tileBounds(z));
+    if (z !== map.getZoom()) map.setZoom(z, {animate:false});
+    map.setMinZoom(z);
+  };
+  fit();
+  let touched = false;
+  ["mousedown","touchstart","wheel","keydown"].forEach(ev => $("#map").addEventListener(ev, () => touched = true, {passive:true}));
+  if (window.ResizeObserver) new ResizeObserver(() => { map.invalidateSize(); if (!touched) fit(); placePv(); }).observe($("#map"));
+  const zcls = () => map.getContainer().classList.toggle("zlo", map.getZoom() < 13);
+  map.on("zoomend", zcls); zcls();
+
+  PTS.forEach(p => {
+    const m = L.marker(p.ll, {icon:pinIcon(p), keyboard:true, title:`${p.code} · ${p.name}`, zIndexOffset: p.official ? 800 : p.ok ? 500 : 0}).addTo(map);
+    m.on("click", e => { L.DomEvent.stopPropagation(e); select(p.code, {scroll:true}); });
+    m.on("mouseover", () => document.querySelector(`.list li[data-code="${p.code}"]`)?.classList.add("hl"));
+    m.on("mouseout", () => document.querySelector(`.list li[data-code="${p.code}"]`)?.classList.remove("hl"));
+    markers[p.code] = m; pinEl[p.code] = m.getElement().querySelector(".pin");
+  });
+
+  pv = document.createElement("div"); pv.className = "pv"; pv.hidden = true;
+  map.getContainer().appendChild(pv);
+  L.DomEvent.disableClickPropagation(pv); L.DomEvent.disableScrollPropagation(pv);
+  pv.addEventListener("click", e => {
+    if (e.target.closest(".x")) { deselect(); return; }
+    if (e.target.closest("a")) return;
+    const s = selected && verified[selected]; if (s) location.href = "report.html#" + s.id;
+  });
+  map.on("click", deselect);
+  map.on("move zoom", placePv);
+  addEventListener("keydown", e => { if (e.key === "Escape") deselect(); });
+})();
+
+/* elenco con filtri */
+const F = {g:"", v:"", q:""};
+const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+function matches(p){
+  if (F.g && p.code[0] !== F.g) return false;
+  if (F.v === "ok" && !p.ok) return false;
+  if (F.q && !norm(`${p.code} ${p.name} ${ROW[p.code][2]}`).includes(norm(F.q))) return false;
+  return true;
+}
+const itemHtml = p => { const s = verified[p.code];
+  return `<li class="${p.ok?"ok":""}" data-code="${p.code}"><span class="dot">${p.code}</span><span class="nm">${esc(p.name)}</span><span class="vd">${s ? esc(s.verdict) : "Da verificare"}</span></li>`; };
+function renderList(){
+  const shown = ORDER.filter(matches), ok = shown.filter(p => p.ok), todo = shown.filter(p => !p.ok);
+  let h = "";
+  if (ok.length) h += `<li class="sub">Con report · ${ok.length}</li>` + ok.map(itemHtml).join("");
+  if (todo.length) h += `<li class="sub">Da verificare · ${todo.length}</li>` + todo.map(itemHtml).join("");
+  $("#list").innerHTML = h || `<li class="empty">Nessun intervento corrisponde ai filtri.</li>`;
+  $("#lcount").textContent = `${shown.length} interventi mostrati`;
+  PTS.forEach(p => pinEl[p.code]?.classList.toggle("off", !matches(p)));
+  if (selected && !matches(PT[selected])) deselect();
+  else if (selected) document.querySelector(`.list li[data-code="${selected}"]`)?.classList.add("sel");
+}
+document.querySelectorAll(".filters .chip").forEach(b => b.addEventListener("click", () => {
+  const k = "g" in b.dataset ? "g" : "v", val = b.dataset[k];
+  F[k] = (k === "v" && F.v === val) ? "" : val;   // "Solo verificati" si accende e si spegne
+  document.querySelectorAll(`.filters .chip[data-${k}]`).forEach(x => x.setAttribute("aria-pressed", String(x.dataset[k] === F[k] && (k === "g" || F[k] !== ""))));
+  renderList();
+}));
+$("#q").addEventListener("input", e => { F.q = e.target.value.trim(); renderList(); });
+$("#list").addEventListener("mouseover", e => { const c = e.target.closest("li[data-code]"); if (c) pinEl[c.dataset.code]?.classList.add("hl"); });
+$("#list").addEventListener("mouseout", e => { const c = e.target.closest("li[data-code]"); if (c && !c.contains(e.relatedTarget)) pinEl[c.dataset.code]?.classList.remove("hl"); });
+$("#list").addEventListener("click", e => {
+  const c = e.target.closest("li[data-code]"); if (!c) return;
+  if (isNarrow()) setPanel(false);
+  setTimeout(() => select(c.dataset.code), isNarrow() ? 230 : 0);
+});
+renderList();
+
+// mappa.html#A10 → pallino già selezionato
+const start = decodeURIComponent(location.hash.slice(1)).toUpperCase();
+if (PT[start]) setTimeout(() => select(start, {scroll:true}), 60);
+</script>

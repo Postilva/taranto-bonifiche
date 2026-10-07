@@ -1,0 +1,134 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Report · Bonifiche Taranto</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="stile.css">
+
+<header class="topbar">
+  <div class="in">
+    <a class="brand" href="index.html">Bonifiche <span>Taranto</span></a>
+    <nav aria-label="Pagine">
+      <a href="index.html">La storia</a>
+      <a href="mappa.html">Mappa</a>
+    </nav>
+  </div>
+</header>
+
+<main class="rp">
+  <div class="wrap" id="rp"></div>
+</main>
+
+<footer class="end">
+  <div class="wrap">
+    <p><strong>Come è fatto questo report.</strong> Il testo viene solo dalle schede approvate del progetto "Bonifiche Taranto". Ogni frase ha una fonte ufficiale, indicata con il numero tra parentesi quadre. I giornali non sono usati come fonte.</p>
+    <p>Mappa: © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. Prototipo, non ancora pubblicato.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="dati.js"></script>
+<script src="comune.js"></script>
+<script>
+/* Report di un intervento: report.html#<id-scheda> (oppure #<id-scheda>-f<n> per aprire una fonte).
+   Ordine fisso: testata, scheda rapida, in breve, la storia, cosa non sappiamo, approfondimenti, fonti. */
+const sec = (title, body, hint="") => `<section class="rp-sec"><h2>${esc(title)}</h2>${hint ? `<p class="hint">${hint}</p>` : ""}${body}</section>`;
+const fold = (title, body, id="") => `<details class="fold"${id ? ` id="${id}"` : ""}><summary>${title}</summary><div class="prose">${body}</div></details>`;
+
+function quickHtml(s, p){
+  const steps = STEPS[s.id], money = MONEY[s.id];
+  const rows = [];
+  rows.push(["A che punto è", steps
+    ? `<ol class="passi">${steps.map(([k,t],i) => `<li><i style="background:var(${STATO[k].color})" title="${esc(STATO[k].label)}"></i><span><b style="color:var(--ink)">${i+1}. ${PASSI[i][0]}</b> · ${esc(STATO[k].label)}. ${esc(t)}</span></li>`).join("")}</ol>`
+    : `<span class="muted">${esc(NO_STEPS[s.id] || "La scheda non permette di dire a che punto sono i 5 passaggi.")}</span>`]);
+  if (s.chi.length) rows.push(["Chi se ne occupa", `<div class="chi">${s.chi.map(c => `<span>${esc(c)}</span>`).join("")}</div>`]);
+  rows.push(["Soldi", money
+    ? `<div class="soldi">${money.map(([k,v,t,lbl]) => `<div title="${esc(t)}"><small>${k}</small>${v==null ? `<b class="na">${esc(lbl)}</b>` : `<b>${lbl || fmtMln(v)}</b><span class="small muted">mln €</span>`}</div>`).join("")}<p class="why">${money.map(m => esc(m[2])).join(" · ")}</p></div>`
+    : `<span class="muted">${s.sections.some(x => /^soldi/i.test(x.title)) ? `Nessun riepilogo in tre cifre: i dettagli sono in <a href="#" data-open="soldi">Approfondimenti → Soldi</a>.` : "Nessuna cifra verificata nella scheda."}</span>`]);
+  rows.push(["Aggiornata al", esc(s.updated)]);
+  const pos = p.official
+    ? `<strong>Posizione da documento ufficiale.</strong> ${esc(p.src.text)} <a href="#${s.id}-f${p.src.n}">Fonte [${p.src.n}]</a>`
+    : `<strong>Posizione indicativa.</strong> ${esc(p.zone)}.`;
+  return `<div class="quick"><dl>${rows.map(([k,v]) => `<div class="row"><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
+    <div class="mini"><div id="minimap" role="region" aria-label="Posizione dell'intervento"></div><p>${pos}</p></div></div>`;
+}
+
+function storyHtml(s){
+  const ev = [...s.date].sort((a,b) => a.t - b.t);
+  if (!ev.length) return "";
+  let h = "", last = null;
+  ev.forEach(e => {
+    const y = Math.floor(e.t);
+    if (last !== null && y - last >= 5) h += `<li class="gap"><span class="q">…</span><span class="rail"></span><span class="t">${y-last-1} anni senza date nella scheda</span></li>`;
+    last = y;
+    h += `<li class="${e.plan ? "plan" : ""}"><span class="q">${esc(e.quando)}</span><span class="rail"><i></i></span><span class="t">${cite(e.cosa, s.id)}${e.fonte ? " " + cite(esc(e.fonte), s.id) : ""}</span></li>`;
+  });
+  return `<ol class="story">${h}</ol>`;
+}
+
+let mini, miniMarker;
+function render(s){
+  const p = PT[s.code], c = t => cite(t, s.id);
+  const i = SCHEDE.indexOf(s), prev = SCHEDE[i-1], next = SCHEDE[i+1];
+  const extra = s.sections.filter(x => !/^date principali/i.test(x.title));
+  let h = `<a class="back" href="mappa.html#${s.code}">← Torna alla mappa</a>
+    <header class="rp-head">
+      <div class="meta"><span class="badge ok">✔ verificato</span><span class="mono">${s.codes.join(" + ")}</span><span>${GRP[s.code[0]]}</span></div>
+      <h1>${esc(s.title)}</h1>
+      ${s.verdict ? `<p class="verdict">${esc(s.verdict)}</p>` : ""}
+      ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}
+    </header>`;
+  h += quickHtml(s, p);
+  if (s.breve) h += sec("In breve", `<div class="lead">${c(s.breve)}</div>`);
+  const story = storyHtml(s);
+  if (story || s.fatto) h += sec("La storia", story + (s.fatto ? fold("Leggi il racconto completo: cosa è stato fatto", c(s.fatto)) : ""),
+    story ? "Le date principali, dalla più vecchia alla più recente. Il cerchio tratteggiato indica una data prevista o una scadenza." : "");
+  if (s.nonsappiamo.length) h += sec("Cosa non sappiamo", `<ol class="unk">${s.nonsappiamo.map(x => `<li><span>${c(x)}</span></li>`).join("")}</ol>`,
+    "Le domande ancora aperte: dati mancanti o fonti che non tornano.");
+  if (extra.length) h += sec("Approfondimenti", `<div class="folds">${extra.map(x => fold(esc(x.title), c(x.html), /^soldi/i.test(x.title) ? "soldi" : "")).join("")}</div>`);
+  h += sec("Fonti", fold(`Tutti i documenti usati (${s.fonti.length})`,
+    `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}</span></li>`).join("")}</ol>`, "fonti"));
+  h += `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="#${prev.id}"><small>← Precedente · ${prev.code}</small>${esc(prev.short)}</a>` : "<span></span>"}${next ? `<a href="#${next.id}"><small>Successivo · ${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
+  $("#rp").innerHTML = h;
+  document.title = `${s.code} ${s.short} · Bonifiche Taranto`;
+
+  if (window.L) {
+    if (mini) mini.remove();
+    mini = L.map("minimap", {minZoom:12, maxZoom:14, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false});
+    addTiles(mini);
+    mini.setView(p.ll, p.official ? 14 : 13, {animate:false});
+    L.marker(p.ll, {icon:pinIcon(p, "sel"), interactive:false}).addTo(mini);
+  }
+}
+
+function showFonte(id){
+  const li = document.getElementById(id);
+  if (!li) return;
+  $("#fonti").open = true;
+  li.scrollIntoView({block:"center"});
+  li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1800);
+}
+
+let cur = null;
+function route(){
+  const h = decodeURIComponent(location.hash.slice(1));
+  const s = SCHEDE.find(x => h === x.id || h.startsWith(x.id + "-f"));
+  if (!s) {
+    cur = null;
+    $("#rp").innerHTML = `<div class="notfound"><h1>Report non trovato</h1><p>Scegli un intervento sulla mappa.</p><a class="btn" href="mappa.html">Apri la mappa →</a></div>`;
+    return;
+  }
+  if (cur !== s.id) { render(s); cur = s.id; if (h === s.id) window.scrollTo(0, 0); }
+  if (h !== s.id) showFonte(h);
+}
+addEventListener("hashchange", route);
+// la stessa citazione cliccata due volte non cambia l'hash: si riapre la fonte a mano
+$("#rp").addEventListener("click", e => {   // "Approfondimenti → Soldi" dalla scheda rapida: apre la voce senza cambiare l'hash
+  const o = e.target.closest("a[data-open]"); if (!o) return;
+  e.preventDefault(); const d = document.getElementById(o.dataset.open); d.open = true; d.scrollIntoView({block:"start"});
+});
+$("#rp").addEventListener("click", e => { const a = e.target.closest('a[href^="#"]'); if (a && a.getAttribute("href") === location.hash) showFonte(location.hash.slice(1)); });
+route();
+</script>
