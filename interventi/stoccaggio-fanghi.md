@@ -1,5 +1,5 @@
 # A5 + A6 – Stoccaggio fanghi dell'altoforno e dell'acciaieria (AFO/ACC) e aree vicine
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 È un piazzale nel Comune di Statte, vicino alla Strada provinciale 48 Taranto–Statte, dove per anni sono stati ammucchiati direttamente sul terreno i fanghi prodotti dall'altoforno e dall'acciaieria dell'Ilva; accanto ci sono le "aree vicine", con quattro vasche per l'acqua piovana [4][7]. Tra il 2019 e il 12 agosto 2023 Ilva ha portato via circa 333.000 tonnellate di fanghi e ha spostato altre 113.107 tonnellate in un deposito impermeabilizzato, che andava svuotato entro il 23 agosto 2026; a fine 2025 lo svuotamento non era finito, anche per uno stop legato a controlli della Procura [1][2][7]. **Il terreno non è bonificato e non è ancora stato nemmeno analizzato**: il Ministero ha chiesto di fare le analisi solo dopo che tutti i fanghi saranno stati portati via [1][6].
@@ -34,6 +34,7 @@
   - due vasche impermeabilizzate, una per i fanghi d'acciaieria (fino a 72.900 t) e una per quelli d'altoforno (fino a 145.600 t) [2];
   - tutti i fanghi rimasti dovevano entrarci entro il 23 agosto 2023 [2];
   - da lì si devono portare via **almeno 60.000 tonnellate all'anno**, e il deposito deve essere **completamente vuoto entro il 23 agosto 2026** [2];
+  - il 30 marzo 2023 Ilva ha mandato il calendario richiesto dal decreto: partendo dal massimo autorizzato di 218.500 t, prevedeva 60.000 t il primo anno e 79.250 t in ciascuno dei due anni seguenti, e si riservava di mandarne uno aggiornato dopo il 24 agosto 2023 [11];
   - finita la rimozione, Ilva deve fare le analisi del terreno liberato [2].
 - **12 agosto 2023**: Ilva comunica di aver finito [1][12]. Il conto della relazione di Ilva è [1]:
   - 95.348 t di fanghi d'altoforno e 237.469 t di fanghi d'acciaieria portati via (in tutto **332.817 t**);
@@ -63,7 +64,7 @@
 **Le analisi del terreno (caratterizzazione).**
 - 12 aprile 2021: Ilva presenta il piano di analisi dell'area fanghi e delle aree vicine, preparato da geologi esterni [4][5]. Il piano è pensato per essere eseguito **dopo** la rimozione dei fanghi [4].
 - 16 giugno 2021: il Ministero apre la conferenza di servizi istruttoria [5].
-- ARPA Puglia dà il suo parere il 2 agosto 2021 (condiviso con ISPRA); il 10 settembre 2021 il Ministero propone alla Regione di **rinviare** l'approvazione a dopo la completa rimozione dei fanghi, che sono la "sorgente primaria di contaminazione"; l'8 marzo 2022 la Regione è d'accordo [6].
+- ARPA Puglia dà il suo parere il 2 agosto 2021 (condiviso con ISPRA); il 10 settembre 2021 il Ministero propone alla Regione di **rinviare** l'approvazione a dopo la completa rimozione dei fanghi, che sono la "sorgente primaria di contaminazione"; l'8 marzo 2022 la Regione è d'accordo [6]. Il rinvio è riportato anche nella relazione della Commissione parlamentare sui rifiuti del settembre 2022 [17].
 - 3 maggio 2022: il Ministero comunica a Ilva i "motivi ostativi" (cioè che il piano così non può essere approvato) e la invita a ripresentarlo dopo la rimozione dei fanghi [6].
 - A fine 2025 il nuovo piano **non era ancora stato presentato**: Ilva scrive che lo farà dopo aver tolto i fanghi residui e demolito il deposito impermeabilizzato, lavori assegnati con ordine del 6 marzo 2025 [1]. Solo dopo, "in funzione degli esiti", si deciderà se serve una bonifica [1].
 
@@ -132,7 +133,7 @@
 
 [16] Ilva S.p.A. in A.S., *Relazione trimestrale, 4° trimestre 2018*, pagina 35 (prescrizioni UP3 e UP8), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_IV_Trim_2018.pdf — copia in `fonti/2018-12_ilva-as_relazione-trimestrale-IV-2018.pdf`
 
-[17] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), 15 settembre 2022, pagine 57–58 della numerazione della Camera, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf` (conferma che il piano di analisi dell'area fanghi è stato rinviato a dopo la rimozione dei rifiuti)
+[17] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), 15 settembre 2022, pagina 59 della numerazione della Camera, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf` (conferma che il piano di analisi dell'area fanghi è stato rinviato a dopo la rimozione dei rifiuti)
 
 Nota sul [10]: la relazione di fine 2024 è la fonte dei dati al 30 settembre 2024 (17.371 t ancora nel deposito), coerenti con il [14].
 

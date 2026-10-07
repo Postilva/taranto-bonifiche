@@ -1,5 +1,5 @@
 # A15 – Collinette ecologiche (quartiere Tamburi)
-*Stato scheda: approvata — aggiornata al 1° ottobre 2026* · ⚠ da completare quando si riesce a scaricare la determina regionale n. 249/2024 [6]
+*Stato scheda: approvata — aggiornata al 1 ottobre 2026* · ⚠ da completare quando si riesce a scaricare la determina regionale n. 249/2024 [6]
 
 ## In breve
 Le "collinette ecologiche" sono tre rilievi artificiali costruiti negli anni '70 tra l'acciaieria e il quartiere Tamburi di Taranto, lungo la Statale 7 Appia, per fare da barriera alle polveri; coprono circa 9–9,6 ettari e la Collinetta n. 3 è attaccata alla scuola Deledda [3][4][5][9][13]. Nel 2019 la magistratura le ha sequestrate, dopo che ARPA vi aveva trovato rifiuti industriali (loppa, scorie d'altoforno) e metalli oltre i limiti, e il Sindaco ha chiuso due scuole vicine da marzo a settembre 2019 [5][9][15]. **Non sono state né bonificate né messe in sicurezza in modo definitivo**: è stata solo coperta con una rete in cocco una parte della Collinetta 3; le analisi complete (piano di caratterizzazione) sono state approvate dalla Regione Puglia il 2 dicembre 2024, ma a fine 2025 non erano ancora iniziate [1][6][11].

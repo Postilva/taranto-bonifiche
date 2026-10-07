@@ -1,5 +1,5 @@
 # B13 – Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018)
-*Stato scheda: approvata — aggiornata al 1 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara europea da 32,3 milioni € (IVA esclusa) per provare tre tecniche di pulizia dei fanghi inquinati sul fondo del 1° seno del Mar Piccolo, prima in piccole aree di prova e poi su aree più grandi [2][3]. La gara si è fermata il 21 agosto 2020, quando è scaduto il mandato della Commissaria, e non è mai stata aggiudicata: nessun lavoro in mare è stato fatto [1][7]. **I fondali del 1° seno non sono bonificati e nemmeno messi in sicurezza**, e oggi non esiste un progetto approvato e finanziato per farlo: il Commissario lavora con la Marina Militare su una sola zona, l'"Area 170 ettari" davanti all'Arsenale, ma i fondi e i tempi non sono ancora decisi [1][11][14].
@@ -73,6 +73,7 @@ Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara eu
 - Nel 2024 la Regione ha indicato il Mar Piccolo 1° seno come priorità **"Alta"**, con un costo complessivo di **429,7 milioni €**, ma ha scritto che il progetto va ancora "definito" e fatto "per fasi e stralci" [11].
 - Nell'Accordo per la Coesione del Ministero dell'Ambiente (novembre 2025), per Taranto sono finanziati solo PIP Statte ed ex Yard Belleli: **il Mar Piccolo non c'è** [12].
 - L'unico intervento sui sedimenti in preparazione è quello sull'Area 170 ettari con la Marina, che è ancora alla fase delle indagini [1].
+- **Settembre 2026, percorso partecipativo:** un percorso con cittadini, enti e associazioni, promosso dal Dipartimento Jonico dell'Università di Bari con la legge regionale sulla partecipazione, ha mandato al Commissario il 14 luglio 2026 le sue raccomandazioni sul Mar Piccolo (il decreto le cita numerate fino alla R16: coordinare i cantieri, qualità dell'acqua come indicatore principale, aiuto ai mitilicoltori, trasparenza e rendiconti aperti) [22]. Con il **decreto n. 48 del 4 settembre 2026** il Commissario le "recepisce" per quanto di sua competenza, ma scrive che questo **non approva nuovi interventi, spese o affidamenti** [22]. Il decreto non contiene date né soldi nuovi per la bonifica del 1° seno [22].
 
 ## Soldi
 - **Valore della gara:** 32.276.250 € IVA esclusa [2]; con l'IVA sono circa 39,4 milioni € (calcolo mio: 32.276.250 × 1,22).
@@ -122,7 +123,9 @@ Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara eu
 | maggio 2026 | L'opuscolo: la gara "non è mai giunta all'aggiudicazione" | [1] |
 | 26 giugno 2026 | Il CIS approva 500.000 € (vecchi fondi CIPE 17/2003) per togliere rifiuti da coste e fondali | [19] |
 | 6 luglio 2026 | Risultati dello studio sulla decontaminazione delle cozze | [21] |
+| 14 luglio 2026 | L'Università di Bari manda al Commissario le raccomandazioni del percorso partecipativo | [22] |
 | 7 agosto 2026 | Parte la rimozione dei rifiuti sulle coste (1° stralcio, 250.000 €) | [20] |
+| 4 settembre 2026 | Decreto n. 48: il Commissario recepisce le raccomandazioni, senza nuove spese | [22] |
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 18–22 (pagine 19–23 del PDF; la gara è a pag. 19), https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
@@ -166,6 +169,8 @@ Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara eu
 [20] Commissario straordinario per la bonifica di Taranto, comunicato *Risanamento Mar Piccolo: al via la rimozione dei rifiuti*, 7 agosto 2026, https://commissari.gov.it/media/2fjpqsuu/2_comunicato-post-avvio-misure_20260807_last.pdf — copia in `fonti/2026-08_commissario-taranto_comunicato-avvio-rimozione-rifiuti.pdf`
 
 [21] Commissario straordinario per la bonifica di Taranto, comunicato *Valutazione dei tassi di decontaminazione in lotti di mitili*, 6 luglio 2026, https://commissari.gov.it/media/vtlbrzfv/2_decontaminazione-post-conferenza-stampa.pdf — copia in `fonti/2026-07_commissario-taranto_comunicato-decontaminazione-mitili.pdf`
+
+[22] Commissario straordinario per la bonifica di Taranto, *Decreto n. 48 del 4 settembre 2026*, raccomandazioni del percorso partecipativo "Nuovi approcci partecipativi per la tutela e la valorizzazione del Mar Piccolo di Taranto" (Università di Bari, Dipartimento Jonico, legge regionale Puglia n. 28/2017), presa d'atto e analisi di coerenza, https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-09_commissario-taranto_decreto-48-percorso-partecipativo-mar-piccolo.pdf`
 
 ## Cosa non sappiamo
 1. **Se la gara è stata chiusa ufficialmente.** C'è solo la sospensione del 21 agosto 2020 [7][8]: non risulta nessun atto che annulli o chiuda la gara. Nella banca dati nazionale delle gare (ANAC) la gara è ancora **"attiva"**, senza vincitori [15][17]. Sullo stesso codice di finanziamento del Mar Piccolo compaiono anche spese che non c'entrano con il Mar Piccolo: per esempio un articolo scientifico sul turismo alle isole Tremiti [16]. Potrebbe essere un errore di compilazione: non si sa. Le 6 imprese ammesse potrebbero avere ancora diritti o pretese. Non verificato. Da chiedere con FOIA.

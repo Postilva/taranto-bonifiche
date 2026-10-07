@@ -1,5 +1,5 @@
 # B15 – Filiere verdi (piante per ripulire il suolo, circa 90 ettari)
-*Stato scheda: approvata — aggiornata al 6 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 "Filiere verdi" è un progetto del Commissario, pagato con il Just Transition Fund (il fondo europeo per la "transizione giusta"), che vuole provare a ripulire il suolo con le piante su circa 90 ettari di terreni pubblici e, in mare, a trattare i fondali del 1° seno del Mar Piccolo con alghe [1][2]. A marzo 2026 la Regione Puglia ha ammesso a finanziamento solo la parte a terra (22.976.046 €), a condizione che il Commissario ottenesse l'uso dei terreni; la parte a mare è rimasta in sospeso e il suo budget è stato tagliato da 10.659.480 € a 3.055.924 € [3][4]. È un'azione "dimostrativa" [2], senza obiettivi di riduzione dell'inquinamento né dati misurati che io abbia trovato, e il progetto è ancora in fase di scrittura (a fine settembre 2026 è stata affidata a Sogesid la parte tecnica) [8].
@@ -10,6 +10,7 @@
 - **Sogesid S.p.A.** (società pubblica del Ministero dell'Ambiente) aiuta a scrivere il progetto, farà la gara per conto del Commissario e controllerà i lavori [8].
 - Il **Raggruppamento Carabinieri Biodiversità** (Reparto di Martina Franca) mette a disposizione i terreni, insieme ad alcune aree dell'Agenzia del Demanio e della Marina Militare che i Carabinieri hanno in uso [6][7][8].
 - Una ricercatrice del **CNR** (Valeria Ancona, esperta di fitorimedio) dà una consulenza gratuita al Commissario [7].
+- Il **Comune di Taranto** ha un progetto simile, la "Green Belt" (alberi e verde in città, pagata anche con il Just Transition Fund). Il Commissario dice di collaborare con il Comune per suggerire le specie adatte al fitorimedio e per evitare "qualsiasi genere di sovrapposizione" tra Green Belt e Filiere verdi [9].
 - L'opuscolo cita anche Carabinieri Forestali, Marina Militare, CNR, Confindustria, Confapi, DIPAR, ASI e ARIF [1]. Il Commissario ha firmato accordi con Confindustria Taranto (20/12/2024), Confapi (20/01/2025), DIPAR (31/01/2025) e ASI Taranto (20/05/2025) per coinvolgere le imprese [2].
 - L'opuscolo dice che il riuso delle acque depurate è "sancito" da una collaborazione con l'Acquedotto Pugliese [1], mentre la pagina web del Commissario parla di un'interlocuzione "in corso" [2].
 

@@ -1,8 +1,8 @@
 # B5 – Mar Piccolo: rifiuti sul fondale del 1° seno, 1° lotto (rimossi)
-*Stato scheda: approvata — aggiornata al 6 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
-Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati tolti dal fondale del 1° seno in due tranche: una prima con la Sogesid (circa 500 tonnellate, 2017–2018) e un "completamento" assegnato nel 2021 per 3,33 milioni € più IVA, con lavori finiti l'8 agosto 2023 [1][2][3][4][6]. L'opuscolo del Commissario (maggio 2026) dice "intervento concluso" per entrambe, ma ha dovuto ricostruire i conti per pagare il saldo alla Sogesid, e non ho trovato il certificato finale del completamento [1][4][5][6]. **Togliere rifiuti dal fondale NON è bonificare: i fanghi inquinati sotto non sono stati toccati e il 1° seno non è bonificato** [1][2].
+Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati tolti dal fondale del 1° seno in due tranche: una prima con la Sogesid (circa 500 tonnellate, 2017–2018) e un "completamento" assegnato nel 2021 per 3,33 milioni € più IVA, con lavori finiti l'8 agosto 2023 [1][2][3][4][6]. L'opuscolo del Commissario (maggio 2026) dice "intervento concluso" per entrambe, ma ha dovuto ricostruire i conti per pagare il saldo alla Sogesid (pagato il 5 dicembre 2025), e non ho trovato il certificato finale del completamento [1][4][5][6][13]. **Togliere rifiuti dal fondale NON è bonificare: i fanghi inquinati sotto non sono stati toccati e il 1° seno non è bonificato** [1][2].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto** ha deciso e pagato gli interventi [4][7].
@@ -29,13 +29,14 @@ Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati to
 - Il 4° stato di avanzamento era pronto, e il responsabile del procedimento aveva dato il suo nulla osta al pagamento [6]. La relazione scrive la data "21.07.2013", che è un errore evidente [6]. Non verificato.
 - **Quanto è stato tolto in questa tranche:** non l'ho trovato. Nei decreti ci sono pagamenti per "smaltimenti marine litter" (con IVA al 10%), ma senza quantità [8][9]. Non verificato.
 
-**"Concluso" secondo chi?** Secondo il Commissario Uricchio, che scrive "intervento concluso" per entrambe le voci [1]. Per la prima tranche scrive che i conti sono stati ricostruiti "al fine del riconoscimento del saldo del compenso alla Sogesid" [1]. Per il completamento scrive che gli ultimi stati di avanzamento e il saldo finale "sono stati liquidati e pagati" [1]. Non ho trovato il decreto di pagamento del saldo né un certificato di regolare esecuzione del completamento. Non verificato.
+**"Concluso" secondo chi?** Secondo il Commissario Uricchio, che scrive "intervento concluso" per entrambe le voci [1]. Per la prima tranche scrive che i conti sono stati ricostruiti "al fine del riconoscimento del saldo del compenso alla Sogesid" [1], e il saldo è stato pagato il 5 dicembre 2025 [13]. Per il completamento scrive che gli ultimi stati di avanzamento e il saldo finale "sono stati liquidati e pagati" [1]. Non ho trovato il decreto di pagamento del saldo né un certificato di regolare esecuzione del completamento. Non verificato.
 
 ## Soldi
 **Prima tranche (Sogesid)**
 - Quadro economico approvato con variante: 1.718.942,36 € (decreto n. 146 del 7 maggio 2018) [4].
 - Fatture della Sogesid per le attività 2015–2018: 1.088.166,09 € IVA esclusa [4]. La Sogesid scrive che i lavori sono costati "oltre 1,1 milioni €" [3].
-- Resta una fattura n. 7/2020 della Sogesid di 463.575,69 €, ancora da verificare nel 2023: il Commissario ha nominato una responsabile del procedimento (21 aprile 2023) e le ha dato più tempo (decreto del 12 luglio 2023) [4][5]. Il decreto la scrive anche come 463.575,59 € [4]. Non ho trovato se e quando sia stata pagata. Non verificato.
+- Restava una fattura n. 7/2020 della Sogesid di 463.575,69 €, ancora da verificare nel 2023: il Commissario ha nominato una responsabile del procedimento (21 aprile 2023) e le ha dato più tempo (decreto del 12 luglio 2023) [4][5]. Il decreto la scrive anche come 463.575,59 € [4].
+- **La fattura è stata saldata il 5 dicembre 2025** (decreto n. 30 del 2025): 462.013,47 €, cioè 414.224,81 € alla Sogesid e 47.788,66 € di IVA versata allo Stato [13]. La cifra è un po' più bassa perché la Sogesid ha tolto 1.562,12 € di spese non ammesse (pubblicazione dei bandi) [13]. Il 31 ottobre 2025 la Sogesid aveva mandato l'atto che fissa il **costo finale della prima tranche: 1.696.752,85 € IVA inclusa** [13].
 - Un parere dell'Avvocatura dello Stato (21 settembre 2021) ha detto che l'attestazione di regolare esecuzione firmata nel 2021 da ex collaboratori della precedente Commissaria non era valida, perché il loro incarico era finito nell'agosto 2020 [4]. Per questo serviva una nuova verifica [4].
 
 **Seconda tranche (completamento)** — tutti importi IVA esclusa [7][8][9][10]
@@ -69,6 +70,7 @@ Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati to
 | 17 marzo 2022 | Consegna dei lavori del completamento | [7] |
 | 8 agosto 2023 | Fine delle attività del completamento | [6] |
 | 24 agosto 2023 | Pagate le somme trattenute | [10] |
+| 5 dicembre 2025 | Decreto n. 30: saldo della fattura Sogesid della prima tranche (462.013,47 €) | [13] |
 | maggio 2026 | L'opuscolo scrive "intervento concluso" | [1] |
 
 ## Fonti
@@ -96,12 +98,13 @@ Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati to
 
 [12] Regione Puglia, Deliberazione della Giunta regionale 8 luglio 2024, n. 981, Allegato 3, riga 7 (BURP n. 67 del 19/08/2024, pag. 54252), https://burp.regione.puglia.it/documents/20135/2515720/DEL_981_2024.pdf/470450b2-7fa0-29b1-03eb-9559ecde6a8a — copia in `fonti/2024-08_regione-puglia_dgr-981-2024-priorita-sin.pdf`
 
+[13] Commissario straordinario per la bonifica di Taranto, *Decreto n. 30 del 5 dicembre 2025*, convenzione con la Sogesid del 23/09/2015, "Rimozione dei materiali di natura antropica presenti sul fondale del Mar Piccolo – I Seno", CUP J56J14000460001, saldo della fattura n. 7 del 27/02/2020 con nota di credito n. 417 del 06/11/2025 (il decreto data il certificato di verifica di conformità "27/11/2028", un errore evidente), https://commissari.gov.it/media/nxbir5ir/30_20251205_lp_cup-j56j14000460001_sogesid_marine_litter_signed_signed.pdf — copia in `fonti/2025-12_commissario-taranto_decreto-30-2025-saldo-sogesid-rifiuti-mar-piccolo.pdf`
+
 ## Cosa non sappiamo
 1. **Quanto è stato tolto nel "completamento".** Per le 500 tonnellate della prima tranche abbiamo i numeri (con piccole differenze tra le fonti); per il completamento non ho trovato né quantità né tipo di rifiuti. Non verificato.
 2. **Se i lavori finali sono stati verificati e pagati.** L'opuscolo dice che sì [1], ma i decreti che ho trovato arrivano ad agosto 2023: mancano il conto finale, il certificato di regolare esecuzione e il pagamento del resto del contratto [6]. Non verificato.
-3. **Se la Sogesid è stata pagata** per l'ultima fattura da 463.575,69 € [4][5]. Non verificato.
-4. **Quando sono partiti i lavori della prima tranche:** primavera 2017 secondo il Commissario, dicembre 2017 secondo la Sogesid [2][3]. Non verificato.
-5. **Cosa resta sul fondale.** Il Commissario parla di "restanti aree" da pulire dopo il 1° lotto [2], e nel 2024 la Regione cita una "prosecuzione" della rimozione (vedi scheda B11) [12]. Non so quanti rifiuti restino. Non verificato.
+3. **Quando sono partiti i lavori della prima tranche:** primavera 2017 secondo il Commissario, dicembre 2017 secondo la Sogesid [2][3]. Non verificato.
+4. **Cosa resta sul fondale.** Il Commissario parla di "restanti aree" da pulire dopo il 1° lotto [2], e nel 2024 la Regione cita una "prosecuzione" della rimozione (vedi scheda B11) [12]. Non so quanti rifiuti restino. Non verificato.
 6. **Cosa c'è sotto i rifiuti.** Nessuna delle fonti dice che i fanghi inquinati siano stati misurati o trattati in questi lavori. Il Mar Piccolo non è bonificato (vedi scheda B13).
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
@@ -113,7 +116,7 @@ Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati to
 >
 > Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
 > 1. **Mercato ittico galleggiante** (CIG 79111263B3, CUP J56J14000460001): la relazione finale del direttore dell'esecuzione, il conto finale e il certificato di regolare esecuzione del 16/03/2022 con i verbali di cantiere, e l'indicazione di quantità, tipo e destinazione dei materiali rimossi; lo stato del giudizio davanti al Tribunale delle Imprese di Bari sulle riserve dell'impresa (960.139,68 €) e gli atti di eventuale transazione o sentenza.
-> 2. **Rimozione dei materiali antropici dal fondale – I lotto (convenzione Sogesid del 23/09/2015)**: la relazione di verifica di conformità del 15/02/2019, l'attestazione di regolare esecuzione rifatta dopo il parere dell'Avvocatura del 21/09/2021, il decreto di liquidazione (o diniego) della fattura Sogesid n. 7/2020 e le quantità rimosse per categoria con le destinazioni di smaltimento.
+> 2. **Rimozione dei materiali antropici dal fondale – I lotto (convenzione Sogesid del 23/09/2015)**: la relazione di verifica di conformità del 15/02/2019, l'attestazione di regolare esecuzione rifatta dopo il parere dell'Avvocatura del 21/09/2021, le quantità rimosse per categoria con le destinazioni di smaltimento.
 > 3. **Completamento I lotto** (CIG 80538539BD): il conto finale, il certificato di regolare esecuzione, i decreti di pagamento successivi al 24/08/2023 con l'importo totale pagato, le quantità rimosse per categoria e le destinazioni di smaltimento.
 > 4. **II lotto (rimozione rifiuti dal fondale del I seno)**: ogni atto di programmazione, il quadro economico e la fonte dei finanziamenti (compresa la quota di 4,7 milioni € indicata nella DGR Puglia n. 981/2024), e l'indicazione se il II stralcio "parte a mare" da 250.000 € (decreto n. 43/2026) ne faccia parte.
 > 5. **Studi e indagini**: l'elenco degli accordi di collaborazione con università, CNR e Forze dell'ordine dichiarati conclusi (opuscolo maggio 2026), con importi previsti e pagati; il contratto, l'affidatario e gli importi delle indagini geognostiche del I seno; la convenzione Sogesid del 19/07/2016 (studio idrodinamico delle falde e sorvolo con sensore lidar), la relazione finale, l'importo e lo stato del pagamento (fattura n. 100/2018); i risultati delle indagini sui sedimenti (concentrazioni di PCB, diossine e metalli).

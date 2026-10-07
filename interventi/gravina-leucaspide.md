@@ -1,5 +1,5 @@
 # A1 – Gravina di Leucaspide e "Vecchie Vasche" (sotto sequestro)
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 Lungo la Gravina di Leucaspide, una valle naturale nel Comune di Statte accanto alla fabbrica, ai tempi dell'Italsider sono stati ammucchiati circa 5 milioni di metri cubi di rifiuti industriali, che formano una fila di colline artificiali alte 25–30 metri con sopra delle vasche dove si facevano asciugare fanghi oleosi [10][4]. L'area, di circa 46,5 ettari, è sotto sequestro penale dal 2018 e tocca a Ilva in amministrazione straordinaria occuparsene [2][5][7]. A fine 2025 c'erano solo indagini, sondaggi e un sistema che controlla se le colline si muovono: il piano delle analisi approvato dal Ministero nel 2022 non era ancora partito e i lavori per mettere in sicurezza le colline erano ancora da progettare; **non è bonificata né messa in sicurezza** [1][2].
@@ -42,7 +42,7 @@ Lungo la Gravina di Leucaspide, una valle naturale nel Comune di Statte accanto 
 
 ## Il progetto del Comune di Statte
 - Il Comune di Statte ha fatto fare la "Progettazione della bonifica ambientale con misura di sicurezza della Gravina Leucaspide in area SIN": costo 191.575,16 €, pagati con il Fondo sviluppo e coesione (Contratto istituzionale di sviluppo per Taranto), con il Commissario per la bonifica come ente che finanzia [11]. Il lavoro risulta svolto tra il 29 marzo e il 26 luglio 2022 [11].
-- Nei documenti del Commissario il progetto si chiama "Bonifica ambientale gravina di Leucaspide – **Tratto sud**" [12]. A settembre 2023 il Commissario aveva versato al Comune 114.915,84 € (oltre all'anticipo), e stava esaminando la richiesta di altri 46.659,32 €; il certificato di regolare esecuzione del lavoro è del 1° febbraio 2023 [12]. A maggio 2026 l'intervento era ancora "in corso di rendicontazione e liquidazione" [13].
+- Nei documenti del Commissario il progetto si chiama "Bonifica ambientale gravina di Leucaspide – **Tratto sud**" [12]. A settembre 2023 il Commissario aveva versato al Comune 114.915,84 € (oltre all'anticipo), e stava esaminando la richiesta di altri 46.659,32 €; il certificato di regolare esecuzione del lavoro è del 1° febbraio 2023 [12]. A maggio 2026 l'intervento era ancora "in corso di rendicontazione e liquidazione" [13]. Con il **decreto n. 53 del 2 ottobre 2026** il Commissario ha liquidato e autorizzato il pagamento al Comune del **saldo di 46.659,32 €**, chiesto il 22 maggio 2026, e il decreto dice che l'intervento è "concluso": in tutto il Comune riceve 191.575,16 € (30.000 € di anticipo, 114.915,84 € nel 2023 e il saldo) [14]. Il decreto aggiunge che i soldi sono serviti per **indagini integrative** sull'acqua sotterranea e sui suoli, per preparare il progetto definitivo della bonifica del tratto sud, e che il 4 marzo 2020 il Comune aveva già mandato al Ministero dell'Ambiente un progetto di fattibilità, senza ricevere risposta [14].
 - Si tratta di un **progetto**, non di lavori: nessuna fonte dice che siano stati fatti lavori di bonifica da parte del Comune.
 - **Nessuna fonte ufficiale spiega se il "tratto sud" progettato dal Comune coincide con l'area di Ilva**, né se Ilva o il Ministero abbiano usato quel progetto.
 
@@ -82,6 +82,8 @@ Lungo la Gravina di Leucaspide, una valle naturale nel Comune di Statte accanto 
 | 11 settembre 2025 | Sopralluogo con ARPA sui punti di sondaggio | [1] |
 | fine 2025 | Incarico a Pro Iter Ambiente per progettare la messa in sicurezza delle colline | [1] |
 | maggio 2026 | Il progetto del Comune risulta ancora "in corso di rendicontazione e liquidazione" | [13] |
+| 22 maggio 2026 | Il Comune chiede il saldo (46.659,32 €) | [14] |
+| 2 ottobre 2026 | Decreto n. 53 del Commissario: pagamento del saldo, intervento "concluso" | [14] |
 
 ## Fonti
 Tutti i documenti del Ministero su questa procedura sono nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ — SIN "Taranto", Area **3917**. Al 2 ottobre 2026 l'ultimo documento in archivio per quest'area è il decreto n. 225 del 2022.
@@ -112,6 +114,8 @@ Tutti i documenti del Ministero su questa procedura sono nell'archivio https://b
 
 [13] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 12 (pagina 13 del PDF), https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
 
+[14] Commissario straordinario per la bonifica di Taranto, *Decreto n. 53 del 2 ottobre 2026*, liquidazione e pagamento al Comune di Statte del saldo dell'intervento CUP J76J20001130001 (il decreto scrive una volta 114.915,80 € e una volta 114.915,84 € per lo stesso versamento del 2023), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-10_commissario-taranto_decreto-53-saldo-progettazione-gravina.pdf`
+
 ## Cosa non sappiamo
 1. **Le analisi complete sono partite?** Non verificato. L'ultima notizia è un sopralluogo con ARPA a settembre 2025 [1]. Le relazioni di Ilva del 2026 non sono ancora pubblicate e nell'archivio del Ministero non ci sono documenti su quest'area dopo il 2022.
 2. **Le analisi guarderanno proprio i rifiuti?** Secondo ISPRA il piano approvato non comprende la zona delle colline e delle vasche, dove stanno i rifiuti [5]. Ilva scrive invece che i risultati delle indagini già fatte lì confluiranno nelle analisi [1]. Non è chiaro chi e quando valuterà nel complesso le colline come fonte di inquinamento.
@@ -120,7 +124,7 @@ Tutti i documenti del Ministero su questa procedura sono nell'archivio https://b
 5. **Le colline sono sicure?** Ilva dice che i controlli non mostrano problemi [1], ma la stessa relazione riporta un abbassamento del terreno nella maggior parte dei sensori e zone che potrebbero franare [1]. Non abbiamo trovato una relazione di ARPA o di un altro ente pubblico che valuti questi dati.
 6. **Quanti rifiuti ci sono.** I 5 milioni di metri cubi vengono dalla relazione del Parlamento, che nel titolo parla di "4 chilometri di rifiuti" ma nel testo di circa 2 chilometri e mezzo [10]. Nessun documento tecnico di Ilva o degli enti che abbiamo letto dà un volume misurato.
 7. **Quanto è stato speso da Ilva.** C'è solo la cifra di luglio 2022 (0,12 milioni pagati su 226,6 milioni messi in conto) [7]. Non verificato dopo.
-8. **Il progetto del Comune di Statte.** Non sappiamo cosa contiene, che parte della gravina riguarda e se è stato usato da qualcuno [11][12]. Alcuni giornali (agosto 2026) scrivono che è stato autorizzato il pagamento del saldo finale al Comune: **non verificato**, non abbiamo trovato l'atto ufficiale. Un giornale del 2021 riportava che il Comune voleva intervenire su due tratti della gravina (dalla cava Mater Gratiae al cimitero di Statte e dal cimitero alla chiesa di San Michele) con 5,5 milioni di fondi del Ministero: **non verificato**.
+8. **Il progetto del Comune di Statte.** Non sappiamo cosa contiene, che parte della gravina riguarda e se è stato usato da qualcuno [11][12]. Il saldo è stato pagato con il decreto n. 53 del 2 ottobre 2026 [14], ma il decreto non descrive i risultati delle indagini né dice se il progetto definitivo sia stato scritto. Un giornale del 2021 riportava che il Comune voleva intervenire su due tratti della gravina (dalla cava Mater Gratiae al cimitero di Statte e dal cimitero alla chiesa di San Michele) con 5,5 milioni di fondi del Ministero: **non verificato**.
 9. **Dentro o fuori dal SIN?** Il decreto dice che l'area è "parzialmente esterna" al SIN [2]; ARPA nel 2021 scriveva "quasi interamente all'interno" [4]. Non abbiamo verificato se la riduzione del SIN di dicembre 2024 abbia cambiato qualcosa per quest'area.
 10. **Il processo penale.** Nel 2022 era in corso [10]. Lo stato attuale e la data esatta del sequestro non sono verificati.
 11. **Piccoli errori nelle fonti:**
@@ -135,7 +139,7 @@ Tutti i documenti del Ministero su questa procedura sono nell'archivio https://b
 > Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
 > 1. l'atto con cui il Comune di Statte si è espresso sulla destinazione d'uso dei terreni dell'area "Gravina Leucaspide" ("Verde pubblico, privato e residenziale" oppure "Commerciale e industriale"), come richiesto dalla prescrizione n. 1 del decreto del Ministero della Transizione ecologica n. 225 del 6 ottobre 2022; se l'atto non è stato adottato, lo stato della pratica;
 > 2. gli elaborati del progetto "Progettazione della bonifica ambientale con misura di sicurezza della Gravina Leucaspide in area SIN" ("Tratto sud", CUP J76J20001130001), compresa la planimetria dell'area interessata, e l'atto di approvazione del progetto;
-> 3. il certificato di regolare esecuzione del 1° febbraio 2023 e gli atti di liquidazione del saldo;
+> 3. il certificato di regolare esecuzione del 1° febbraio 2023, l'atto di omologa della spesa con il quadro economico finale e i risultati delle indagini integrative su falda e suoli;
 > 4. eventuali trasmissioni del progetto al Ministero dell'Ambiente, a ILVA S.p.A. in amministrazione straordinaria o al Commissario straordinario per la bonifica di Taranto.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
