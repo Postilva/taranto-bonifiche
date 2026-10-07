@@ -1,6 +1,6 @@
 """Legge elenco.md e le schede approvate in interventi/ e scrive i dati in sito/dati.js (usato da tutte le pagine).
 
-Uso:  py sito/costruisci.py
+Uso:  py sito/costruisci.py [AAAA-MM-GG]   (data dei dati; senza argomento, oggi)
 
 Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
 - si usano solo le schede con "Stato scheda: approvata";
@@ -9,12 +9,12 @@ Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
 - le bozze FOIA non vanno sul sito.
 Il testo non viene riscritto: viene solo convertito da Markdown a HTML.
 """
-import html, json, math, re
+import html, json, math, re, sys
 from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OGGI = date(2026, 10, 2)
+OGGI = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date.today()
 
 FILTRO = re.compile(r"non verificat|\bgiornal[ei]\b|\bstampa\b|quotidian|noinotizie|legambiente", re.I)
 ESCLUSE = re.compile(r"^(fonti|cosa non sappiamo|bozza)", re.I)
@@ -270,7 +270,7 @@ def leggi_scheda(path):
                                 out["chi"].append(nome)
         h = section_html(body)
         if not h and tl.startswith("soldi"):
-            h = "<p>Nessuna cifra verificata: la scheda segna i costi come non verificati.</p>"
+            h = "<p>Nessuna cifra verificata: i costi non si trovano nei documenti ufficiali.</p>"
         if tl.startswith("in breve"):
             out["breve"] = h; continue
         if tl.startswith("cosa è stato fatto"):

@@ -21,7 +21,7 @@
 <!-- Apertura -->
 <section class="hero">
   <div class="wrap">
-    <p class="eyebrow">Taranto · ex Ilva · dati al 2 ottobre 2026</p>
+    <p class="eyebrow">Taranto · ex Ilva · dati al <span class="oggi"></span></p>
     <h1>Bonifiche a Taranto: <em>cosa è stato fatto davvero?</em></h1>
     <p class="lead">Discariche, terreni e mare inquinati intorno all'acciaieria. Li abbiamo controllati uno per uno, solo con documenti ufficiali.</p>
     <div class="cta">
@@ -54,6 +54,7 @@
       <div><b>Commissario straordinario per la bonifica di Taranto</b><p>Per le zone fuori dalla fabbrica, come il Mar Piccolo e le scuole del Tamburi. Sulla mappa: <strong>gruppo B</strong>, 17 interventi.</p></div>
       <div><b>Ministero dell'Ambiente</b><p>Segue tutta la zona come un unico sito da risanare, chiamato SIN, che comprende migliaia di ettari tra terra e mare.</p></div>
     </div>
+    <p class="note"><strong>Non ancora coperti:</strong> le aree di altri responsabili (l'acciaieria in funzione, la raffineria Eni, Cementir, Italcave, Marina Militare, Autorità portuale). Non le abbiamo ancora controllate e non sono sulla mappa: le aggiungeremo più avanti.</p>
   </div>
 </section>
 
@@ -101,6 +102,10 @@
       <div><b>"Bonificato" solo con il certificato</b><p>Altrimenti scriviamo cosa è stato fatto davvero, per esempio "messo in sicurezza".</p></div>
       <div><b>Quello che non si trova, lo diciamo</b><p>Ogni report ha una parte "Cosa non sappiamo": dati mancanti e fonti che si contraddicono.</p></div>
     </div>
+    <div class="read">
+      <p><strong>Cosa vuol dire "non verificato".</strong> Quando un dato non si trova in un documento ufficiale, nelle nostre schede lo segniamo come "non verificato" e su questo sito non lo mostriamo. Se il dato è importante, lo chiediamo all'ente con una richiesta di accesso agli atti (FOIA) e aggiorniamo il report quando arriva la risposta.</p>
+      <p><strong>Aggiornamento.</strong> I dati di questo sito sono aggiornati al <span class="oggi"></span>. Ogni report riporta anche la data in cui è stato controllato l'ultima volta.</p>
+    </div>
     <details class="more">
       <summary>Altri responsabili, priorità della Regione e cose che non tornano</summary>
       <div id="others-body"></div>
@@ -138,6 +143,8 @@
 })();
 
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
+const OGGI = new Date(DATA.generato + "T12:00:00").toLocaleDateString("it-IT", {day:"numeric", month:"long", year:"numeric"});
+document.querySelectorAll(".oggi").forEach(el => el.textContent = OGGI);
 // certificati: schede in cui il passaggio 5 (Certificazione) è "fatto"
 $("#n-cert").textContent = SCHEDE.filter(s => STEPS[s.id] && STEPS[s.id][4][0] === "done").length;
 
@@ -174,7 +181,7 @@ $("#others-body").innerHTML = `
   <p><strong>Altre priorità decise dalla Regione nel 2024</strong> (opuscolo del Commissario, pag. 10–11; Delibera Regione Puglia n. 981/2024), di molte non si sa ancora nulla: PIP Statte · Cimitero San Brunone · ex Yard Belleli · falda del SIN (zona Piccole Industrie, Galeso) · falda del comparto orientale · Mar Piccolo 1° seno · Praia a Mare · aree libere del porto · terrapieno del canale di scarico ex Ilva · dragaggio del porto. Più 5 aree mai analizzate (Distripark, ex depuratore Statte, zona retroportuale, aree tra Piccole Industrie e Italcave, altre).</p>
   <p><strong>Cose che già non tornano</strong> (da chiarire nelle prossime schede):</p>
   <ol>
-    <li><strong>Superficie del SIN.</strong> Il Ministero scrive 4.289 ettari a terra e 6.872 a mare; l'opuscolo del Commissario 64 km² a terra e 7,3 km² a mare. Forse sono cifre di prima e dopo la riduzione del perimetro: da verificare.</li>
+    <li><strong>Superficie del SIN.</strong> In parte risolto: prima della riduzione del 2024 erano circa 4.383 ettari a terra e 7.006 a mare; dopo, secondo il Ministero, 4.289 a terra e 6.872 a mare. Le cifre dell'opuscolo del Commissario (64 km² a terra e 7,3 km² a mare) non corrispondono a nessun documento ufficiale.</li>
     <li><strong>Gravina di Leucaspide.</strong> Compare sia tra le aree di Ilva (A1) sia tra i lavori del Commissario a Statte. Chi fa cosa?</li>
     <li><strong>"Concluso ma non finanziariamente".</strong> Molti interventi del Commissario sono segnati così: i lavori sono finiti ma i conti non sono chiusi.</li>
     <li><strong>Soldi spesi da Ilva e percentuale di aree bonificate.</strong> Circolano delle cifre, ma vengono da giornali o associazioni e non da fonti ufficiali: non le mostriamo finché non sono verificate.</li>
