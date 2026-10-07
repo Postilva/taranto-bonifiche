@@ -1,4 +1,0 @@
-# Netlify pubblica solo la cartella del sito: schede, fonti ed elenco restano fuori.
-[build]
-  publish = "sito"
-  command = ""
