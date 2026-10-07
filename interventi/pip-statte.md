@@ -252,20 +252,7 @@ La zona PIP di Statte è un'area per le imprese (circa 9 ettari) costruita sopra
     - il "Programma operativo di dettaglio" del Comune [7][22];
     - i decreti del Commissario dopo settembre 2023, con eventuali altri pagamenti per l'intervento d'emergenza: nel registro dei decreti 2025–2026 sul sito del Commissario non c'è nulla sul PIP (controllato fino al decreto n. 50 del 24/09/2026).
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Commissario straordinario per gli interventi urgenti di bonifica, ambientalizzazione e riqualificazione dell'area di Taranto — PEC: commissario_bonifiche.taranto@pec.governo.it (indirizzo verificato sul sito ufficiale commissari.gov.it il 30/09/2026, vedi scheda B8)
-
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) e di accesso all'informazione ambientale (D.Lgs. 195/2005) – Intervento di messa in sicurezza/bonifica della zona PIP di Statte (CUP J72B25002080003, J73J12001570001, J73G12000200001)
->
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. gli atti che individuano i soggetti responsabili della contaminazione dell'area PIP di Statte (ex cava riempita tra il 1972 e il 1995) ed eventuali azioni di rivalsa avviate nei loro confronti ai sensi dell'art. 250 e 253 del D.Lgs. 152/2006;
-> 2. lo stato della "ricostruzione procedurale e contabile" citata nell'opuscolo di maggio 2026: l'elenco delle spese sostenute e dei pagamenti effettuati (importi, date, beneficiari) per la caratterizzazione, l'analisi di rischio e la messa in sicurezza d'emergenza del surnatante (Fase 1), e le risorse residue dei 37 milioni € della delibera CIPE 87/2012;
-> 3. il certificato di ultimazione e il collaudo dei lavori di messa in sicurezza d'emergenza (contratto Rep. n. 670 del 26/06/2019), gli stati di avanzamento successivi al n. 1 (a tutto il 06/05/2022) con i relativi decreti di trasferimento, con i quantitativi di prodotto surnatante rimosso e l'eventuale prosecuzione del pompaggio e dei monitoraggi della falda;
-> 4. il Programma operativo di dettaglio previsto dal decreto commissariale prot. n. 23398 del 04/05/2021 (nomina del Comune di Statte quale soggetto attuatore), l'indicazione se tale nomina sia ancora in vigore, e l'indicazione del soggetto attuatore e della stazione appaltante attuali dell'intervento finanziato con l'Accordo per la Coesione MASE (89,9 milioni € FSC 2021-2027);
-> 5. l'origine dei 34.173.987,94 € di "cofinanziamento con altre risorse" indicati nell'Accordo per la Coesione e il cronoprogramma (progettazione, gara, inizio e fine lavori) dell'intervento;
-> 6. gli atti relativi alla collaborazione con l'Unità tecnica amministrativa della Presidenza del Consiglio dei ministri per questo intervento.
->
-> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
-> [Luogo, data, firma] — allegare copia di un documento d'identità.
-
-*Si può mandare la stessa richiesta (punti 2 e 3) anche al Comune di Statte, che è stato stazione appaltante dell'intervento d'emergenza — PEC del settore Ambiente: ambiente.statte@pec.rupar.puglia.it (indirizzo preso dalla nota ufficiale del Comune del 14/03/2022 [9]; da ricontrollare sul sito del Comune prima di inviare).*
+### Richieste FOIA (pronte, da inviare con email ordinaria)
+Testi completi in `.tmp/foia/` (non pubblicati); canali verificati il 7/10/2026 in `.tmp/foia/canali.md`.
+- **FOIA 01, al Commissario straordinario** (commissario_bonifiche.taranto@pec.governo.it, in copia v.uricchio@governo.it, con il modulo ufficiale del Commissario). Si chiedono: spese dei primi interventi e resto dei 37 milioni; fine, collaudo e quantità di olio tolto dell'intervento d'emergenza (contratto Rep. 670/2019); chi attua il nuovo intervento; origine dei 34,17 milioni e calendario; atti con l'Unità tecnica della Presidenza del Consiglio, compreso il sopralluogo del 19/06/2026; responsabili dell'inquinamento ed eventuali azioni per farli pagare.
+- **FOIA 02, al Comune di Statte** (ambiente@comune.statte.ta.it, in copia segreteria@comune.statte.ta.it). Si chiedono: fine lavori, conto finale e liquidazioni dell'intervento d'emergenza; il Programma operativo del 2021; gli atti sulla nuova progettazione e sul sopralluogo del 19/06/2026; i monitoraggi dell'aria e dei gas dopo il 2020.
