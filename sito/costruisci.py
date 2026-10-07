@@ -1,4 +1,4 @@
-"""Legge elenco.md e le schede approvate in interventi/ e scrive i dati dentro sito/index.html.
+"""Legge elenco.md e le schede approvate in interventi/ e scrive i dati in sito/dati.js (usato da tutte le pagine).
 
 Uso:  py sito/costruisci.py
 
@@ -9,7 +9,7 @@ Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
 - le bozze FOIA non vanno sul sito.
 Il testo non viene riscritto: viene solo convertito da Markdown a HTML.
 """
-import html, json, math, re, sys
+import html, json, math, re
 from datetime import date
 from pathlib import Path
 
@@ -219,7 +219,7 @@ def leggi_scheda(path):
         elif cur:
             cur[1].append(ln)
     out = {"id": path.stem, "codes": codes, "code": codes[0], "title": title, "updated": upd, "warnNote": warn,
-           "sections": [], "nonsappiamo": [], "fonti": [], "date": [], "verdict": ""}
+           "sections": [], "nonsappiamo": [], "fonti": [], "date": [], "verdict": "", "breve": "", "fatto": "", "chi": []}
     for t, body in secs:
         tl = t.lower()
         if tl.startswith("cosa è stato fatto"):
@@ -260,11 +260,27 @@ def leggi_scheda(path):
                                 quando = re.sub(r"\*\*", "", r[0])
                                 out["date"].append({"t": dn, "quando": quando, "cosa": inline(re.sub(r"\*\*", "", r[1])),
                                                     "fonte": r[2] if len(r) > 2 else "", "plan": dn > OGGI.year + (OGGI.month - 1) / 12 + OGGI.day / 372})
+        if tl.startswith("chi se ne occupa"):
+            for kind, val in blocks(body):
+                if kind in ("ul", "ol"):
+                    for it in val:   # i nomi in grassetto nella prima riga di ogni punto, prima delle note [n]
+                        for b in re.findall(r"\*\*(.+?)\*\*", it[0].split("[")[0]):
+                            nome = b.strip(" :")
+                            if nome[:1].isupper() and nome.lower() != "attenzione" and not FILTRO.search(nome) and nome not in out["chi"]:
+                                out["chi"].append(nome)
         h = section_html(body)
         if not h and tl.startswith("soldi"):
             h = "<p>Nessuna cifra verificata: la scheda segna i costi come non verificati.</p>"
+        if tl.startswith("in breve"):
+            out["breve"] = h; continue
+        if tl.startswith("cosa è stato fatto"):
+            out["fatto"] = h; continue
         if h:
             out["sections"].append({"title": t, "html": h})
+    if not out["verdict"]:   # "Cosa è stato fatto" non inizia con una frase in grassetto: si usa quella di "In breve"
+        b = re.search(r"<strong>(.+?)</strong>", out["breve"])
+        if b:
+            out["verdict"] = re.sub(r"<[^>]+>", "", b.group(1)).strip(" :.") + "."
     out["coord"] = coordinate(txt)
     return out
 
@@ -273,14 +289,9 @@ def main():
     elenco, conclusi = leggi_elenco()
     schede = [s for s in (leggi_scheda(p) for p in sorted((ROOT / "interventi").glob("*.md"))) if s]
     data = {"elenco": elenco, "conclusiB": conclusi, "schede": schede, "generato": OGGI.isoformat()}
-    js = "const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";"
-    idx = ROOT / "sito" / "index.html"
-    s = idx.read_text(encoding="utf-8")
-    a, b = "/* @@DATI-INIZIO@@ */", "/* @@DATI-FINE@@ */"
-    if a not in s:
-        sys.exit("Segnaposto dei dati non trovato in index.html")
-    s = s[: s.index(a) + len(a)] + "\n" + js.replace("</", "<\\/") + "\n" + s[s.index(b):]
-    idx.write_text(s, encoding="utf-8")
+    js = ("/* Generato da sito/costruisci.py leggendo elenco.md e le schede approvate: non modificare a mano. */\n"
+          "const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    (ROOT / "sito" / "dati.js").write_text(js, encoding="utf-8")
     print(f"{len(schede)} schede approvate, {len(elenco)} righe dell'elenco, "
           f"{sum(1 for x in schede if x['coord'])} con coordinate, {sum(len(x['date']) for x in schede)} date.")
 

@@ -59,27 +59,27 @@ Fonte principale: [Opuscolo del Commissario, maggio 2026](https://commissari.gov
 | # | Intervento | Cosa dice la fonte | Pag. | Scheda |
 |---|---|---|---|---|
 | B1 | Ex Cemerad (Statte): deposito di rifiuti radioattivi | Messa in sicurezza e gestione dei rifiuti radioattivi: "intervento concluso". ⚠ In realtà è concluso solo lo svuotamento (16.640 fusti tolti, gennaio 2025): analisi, demolizione e bonifica sono ancora da avviare. | 12 | ✅ [scheda](interventi/ex-cemerad.md) |
-| B2 | Aree verdi delle scuole Deledda, De Carolis, D'Aquino (Tamburi) | Fatte analisi e analisi di rischio. | 13 | ⬜ |
-| B3 | 5 scuole del Tamburi | Ristrutturate, con ventilazione e aree esterne rifatte. *Non è una bonifica vera e propria.* | 13 | ⬜ |
-| B4 | Mar Piccolo: mercato ittico galleggiante affondato | Rimosso. | 19 | ⬜ |
-| B5 | Mar Piccolo: rifiuti sul fondale del 1° seno (1° lotto) | Rimossi. | 19–20 | ⬜ |
-| B6 | Mar Piccolo: studi, indagini, sorvolo lidar | Conclusi. | 20 | ⬜ |
-| B7 | Molo polisettoriale (porto): dragaggio e banchina | "Concluso ma non finanziariamente". | 23 | ⬜ |
+| B2 | Aree verdi delle scuole Deledda, De Carolis, D'Aquino (Tamburi) | Analisi del terreno e analisi di rischio fatte (2015–2016). Secondo il Commissario non c'è rischio per la salute, quindi nessuna bonifica ma solo sistemazione delle aree. Sostanze trovate non pubbliche. ⚠ Nessun certificato. | 13 | ✅ [scheda](interventi/scuole-tamburi-aree-verdi.md) |
+| B3 | 5 scuole del Tamburi | Non è una bonifica: ristrutturazione di 5 scuole, filtri dell'aria nelle aule (collaudati nel 2022), cortili rifatti (fine lavori non documentata). ⚠ Non tocca il terreno né l'inquinamento del quartiere. | 13 | ✅ [scheda](interventi/scuole-tamburi-riqualificazione.md) |
+| B4 | Mar Piccolo: mercato ittico galleggiante affondato | Relitto rimosso (fine lavori dicembre 2021, circa 2,43 milioni €). L'impresa ha una causa per altri 960.000 €. ⚠ Togliere il relitto non è bonificare i fondali. | 19 | ✅ [scheda](interventi/mar-piccolo-mercato-ittico.md) |
+| B5 | Mar Piccolo: rifiuti sul fondale del 1° seno (1° lotto) | Circa 500 t di rifiuti tolte nel 2017–2018, più un "completamento" da 3,33 milioni finito nel 2023. Conti finali non trovati. ⚠ I fanghi inquinati non sono stati toccati. | 19–20 | ✅ [scheda](interventi/mar-piccolo-rifiuti-lotto1.md) |
+| B6 | Mar Piccolo: studi, indagini, sorvolo lidar | Studi, indagini e accordi "conclusi" secondo l'opuscolo: risultati e costi non pubblici, nessuna traccia del sorvolo lidar. ⚠ Sono studi, non bonifica. | 20 | ✅ [scheda](interventi/mar-piccolo-studi.md) |
+| B7 | Molo polisettoriale (porto): dragaggio e banchina | Il Commissario ha pagato tutta la sua quota (16,9 milioni), ma a fine 2025 era dragato circa l'1% del previsto. Progetto di completamento (2026) sospeso. ⚠ "Concluso" vale solo per i pagamenti. | 23 | ✅ [scheda](interventi/molo-polisettoriale.md) |
 
 ### Interventi in corso o da fare
 
 | # | Intervento | Cosa dice la fonte | Pag. | Scheda |
 |---|---|---|---|---|
 | B8 | Cimitero San Brunone | Lavori iniziati nel 2020, fermati dopo 3 mesi, gara annullata nel 2021. Oggi si rifà il progetto: costo stimato 17,5 milioni €, disponibili 9,4. ⚠ Non bonificato né messo in sicurezza. | 14 | ✅ [scheda](interventi/cimitero-san-brunone.md) |
-| B9 | Impianto sportivo "Atleti Azzurri d'Italia" (Tamburi) | 86.876 € per le analisi, campionamenti iniziati. | 15 | ⬜ |
+| B9 | Impianto sportivo "Atleti Azzurri d'Italia" (Tamburi) | Piombo e IPA trovati dal Comune (2024), campo chiuso in via cautelativa. Piano delle analisi approvato nel 2025, 86.876 € dal Commissario, prelievi iniziati. ⚠ Non bonificato. | 15 | ✅ [scheda](interventi/atleti-azzurri-tamburi.md) |
 | B10 | Zona PIP di Statte (falda profonda) | Analisi e intervento d'emergenza fatti; progetto definitivo fermo dal 2020. Nel 2025 assegnati 124 milioni (89,9 dal Fondo coesione), ma a giugno 2026 nessun progetto né gara, 0 € spesi. ⚠ Non messo in sicurezza. | 16–17 | ✅ [scheda](interventi/pip-statte.md) |
-| B11 | Mar Piccolo: rifiuti sul fondale del 1° seno (2° lotto) | Si stanno ancora definendo i finanziamenti. | 21 | ⬜ |
-| B12 | Mar Piccolo: bonifica "Area 170 ha" con dragaggio | Collaborazione con la Marina Militare, zona della base sommergibili. | 21–22 | ⬜ |
+| B11 | Mar Piccolo: rifiuti sul fondale del 1° seno (2° lotto) | Solo programmazione: nessun progetto, gara o data. La Regione stimava 4,7 milioni (2024). ⚠ Non partito, e comunque non tocca i fanghi. | 21 | ✅ [scheda](interventi/mar-piccolo-rifiuti-lotto2.md) |
+| B12 | Mar Piccolo: bonifica "Area 170 ha" con dragaggio | Collaborazione Commissario-Marina avviata nel 2025, piano di indagini accelerato. Nessun progetto né fondi assegnati (33,5 milioni solo proposti). I lavori della Difesa riguardano il Mar Grande. ⚠ Non bonificata. | 21–22 | ✅ [scheda](interventi/mar-piccolo-area-170.md) |
 | B13 | Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018) | Gara da 32,3 milioni (2018) sospesa nel 2020, mai aggiudicata né annullata. Dei 55 milioni del programma, pagati circa 5,6 per altre attività. ⚠ Nessun piano finanziato per bonificare il 1° seno. | 19 | ✅ [scheda](interventi/mar-piccolo-gara-2018.md) |
-| B14 | Riduzione del perimetro del SIN | Decreto di dicembre 2024. Si punta a liberare circa 15,5 km² di Mar Grande. | 24–25 | ⬜ |
-| B15 | Filiere verdi | Piante che ripuliscono il terreno (canapa, pioppi…) su circa 90 ettari. Operativo da marzo 2026. | 29–31 | ⬜ |
-| B16 | Cozze: studi sulla decontaminazione + progetto MITICA | Ricerca sulla mitilicoltura. | 26–28 | ⬜ |
-| B17 | Sea Hub (Mar Piccolo, 2° seno) | Rimozione di relitti e strutture abbandonate, passerella in legno. | 34–35 | ⬜ |
+| B14 | Riduzione del perimetro del SIN | Dicembre 2024: uscite dal SIN 7 aree (pratiche chiuse e opere portuali nuove). Mar Grande: approvato solo il piano delle analisi. ⚠ Uscire dal SIN non vuol dire essere puliti. | 24–25 | ✅ [scheda](interventi/deperimetrazione-sin.md) |
+| B15 | Filiere verdi | Piante per ripulire il suolo su circa 90 ettari pubblici: finanziata solo la parte a terra (23 milioni, marzo 2026), progetto in scrittura, nessuna gara. ⚠ Non "operativo" come dice l'opuscolo; nessun dato sui risultati. | 29–31 | ✅ [scheda](interventi/filiere-verdi.md) |
+| B16 | Cozze: studi sulla decontaminazione + progetto MITICA | Non è una bonifica: lo studio misura quanto in fretta le cozze si depurano in Mar Grande (30–48 giorni); MITICA studia caldo e ossigeno. Effetto concreto: un mese di rinvio per spostare le cozze piccole. ⚠ Il mare non viene ripulito. | 26–28 | ✅ [scheda](interventi/mitili-mitica.md) |
+| B17 | Sea Hub (Mar Piccolo, 2° seno) | Progetto per togliere pontili, relitti e strutture dalla costa nord del 2° seno (13,2 milioni, stima): candidatura presentata il 30/9/2026, nessun finanziamento deciso. ⚠ Non tocca i fanghi; parte dei soldi tolta al risanamento a mare delle Filiere verdi. | 34–35 | ✅ [scheda](interventi/sea-hub.md) |
 
 ### Priorità decise nel 2024 (Delibera Regione Puglia n. 981/2024)
 
@@ -102,7 +102,7 @@ Qui non ho ancora cercato. Sono i soggetti elencati dal Ministero ([pagina SIN T
 
 ## Cose che già non tornano (da chiarire nelle schede)
 
-1. **Superficie del SIN.** Il Ministero scrive 4.289 ettari a terra e 6.872 a mare. L'opuscolo del Commissario scrive 64 km² a terra e 7,3 km² a mare. Forse sono cifre di prima e dopo la riduzione del perimetro, ma va verificato.
+1. **Superficie del SIN.** *In parte risolto (scheda B14):* prima della riduzione del 2024 erano circa 4.383 ettari a terra e 7.006 a mare; dopo, secondo il Ministero, 4.289 a terra e 6.872 a mare. Le cifre dell'opuscolo del Commissario (64 km² a terra e 7,3 km² a mare) non corrispondono a nessun documento ufficiale e restano inspiegate.
 2. **Gravina di Leucaspide.** Compare sia tra le aree di Ilva (A1) sia tra i lavori del Commissario a Statte (opuscolo pag. 12). È la stessa area? Chi fa cosa?
 3. **"Concluso ma non finanziariamente".** Molti interventi del Commissario sono segnati così: i lavori sono finiti ma i conti non sono chiusi.
 4. **Soldi di Ilva.** Si legge di 1,16 miliardi (dall'accordo con la famiglia Riva nel 2017), di cui circa 410 milioni spesi in bonifiche. Per ora la cifra viene solo da un giornale che cita un'audizione in Senato: **non verificato**.
@@ -117,4 +117,4 @@ Qui non ho ancora cercato. Sono i soggetti elencati dal Ministero ([pagina SIN T
 - Scheda A2 (Discarica Nord-Ovest): 21 fonti ufficiali (decreti, verbali e pareri dal [archivio del Ministero](https://bonifichesiticontaminati.mite.gov.it/ricerca/), SIN "Taranto", Area "3000"; relazioni Ilva 2018–2025; relazione della Commissione parlamentare sui rifiuti, 2022), elencate nella scheda e salvate in `fonti/`
 - Scheda B1 (ex Cemerad): 11 documenti ufficiali (DPCM, decreti e accordi del Commissario Cemerad, ISIN, Ministero, 4 schede OpenCoesione), elencati nella scheda e salvati in `fonti/`
 - [OpenCoesione](https://opencoesione.gov.it/): costi e pagamenti dei progetti finanziati con fondi pubblici. Da usare per ogni scheda.
-- [Ministero dell'Ambiente, scheda SIN Taranto](https://bonifichesiticontaminati.mite.gov.it/sin-7/) (pagina ferma al 2021, "in aggiornamento")
+- [Ministero dell'Ambiente, scheda SIN Taranto](https://bonifichesiticontaminati.mite.gov.it/sin-7/) (aggiornata dopo il decreto n. 449/2024 di riduzione del SIN: 4.289 ha a terra e 6.872 a mare)
