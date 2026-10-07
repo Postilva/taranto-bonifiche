@@ -1,5 +1,5 @@
 # B16 – Cozze: studio sulla decontaminazione + progetto MITICA
-*Stato scheda: approvata — aggiornata al 6 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce il mare**. Lo studio sulla decontaminazione (ARPA Puglia, ASL, CNR-IRSA, Capitaneria, Comune, Commissario) ha misurato quanto in fretta le cozze del 1° seno del Mar Piccolo, spostate nel Mar Grande, perdono diossine e PCB: secondo il comunicato del 6 luglio 2026 la contaminazione "si azzera stabilmente" tra 30 e 48 giorni, ma i numeri misurati non sono pubblici [3]. Il progetto MITICA (498.448 € in tutto, 400.000 € dalla Regione Puglia, con CNR e CoNISMa) non studia l'inquinamento: studia come far resistere le cozze al caldo e alla mancanza di ossigeno, e come ottenere crediti di carbonio [5][6].
@@ -49,8 +49,9 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 - **Candidatura al fondo europeo:** la pagina del Commissario scrive che MITICA è stata candidata al Just Transition Fund "in integrazione" con il Sea Hub [5]. Non ho trovato nessun atto che lo confermi (vedi scheda B17).
 
 ## Effetto sull'ordinanza regionale sulle cozze
-- **Quale ordinanza?** Il Commissario cita l'ordinanza regionale "n. 1989/2011 e successive modifiche" [2][3]. Nel registro ufficiale della Regione la catena che ho trovato parte dall'ordinanza n. 188 del 25/03/2016, seguita da n. 532 del 13/09/2018, n. 323 del 16/09/2021 (proroga di 36 mesi), n. 379 del 05/09/2024 (proroga dei termini) e n. 84 del 25/02/2026 [10][11]. Il numero 1989/2011 non compare nel registro che ho consultato [10]. Non verificato.
-- **Cosa è cambiato davvero:** con l'ordinanza n. 84 del 25 febbraio 2026 la Regione ha modificato il termine per la "movimentazione del novellame" (le cozze piccole) previsto all'art. 2 dell'ordinanza n. 532/2018 [10]. Il Commissario dice che grazie ai dati dello studio si è ottenuto di rinviare di "un intero mese" il trasferimento dal 1° seno [1][2]. Non ho letto il testo dell'ordinanza, quindi non so se citi lo studio. Non verificato.
+- **Quale ordinanza?** Il Commissario cita l'ordinanza regionale "n. 1989/2011 e successive modifiche" [2][3]. Nel registro ufficiale della Regione la catena che ho trovato parte dall'ordinanza n. 188 del 25/03/2016, seguita da n. 532 del 13/09/2018, n. 323 del 16/09/2021 (proroga di 36 mesi), n. 379 del 05/09/2024 (altra proroga di 36 mesi, che decorre dal giorno dopo la pubblicazione nel Bollettino regionale, quindi fino a circa settembre 2027) e n. 84 del 25/02/2026 [10][11][13][14]. Il numero 1989/2011 non compare nel registro che ho consultato [10]. Non verificato.
+- **Cosa è cambiato davvero:** con l'ordinanza n. 84 del 25 febbraio 2026 la Regione ha spostato il termine per la "movimentazione del novellame" (le cozze piccole) dal 1° seno del Mar Piccolo **dal 28 febbraio al 31 marzo 2026**, **solo per il 2026** [14]. Le regole generali restano quelle dell'ordinanza n. 532/2018, prorogata fino a circa settembre 2027 [13][14].
+- **Chi l'ha chiesto e su quali dati:** la richiesta è venuta dalle associazioni dei pescatori Coldiretti Impresa Pesca e Lega Pesca (18 febbraio 2026); la ASL di Taranto ha dato parere favorevole il 19 febbraio sulla base delle analisi dell'Istituto zooprofilattico di Teramo su cozze prelevate nel 1° seno [14]. L'ordinanza **non cita lo studio del Commissario né il CNR-IRSA** [14]. Il Commissario dice che il rinvio di "un intero mese" è stato ottenuto grazie ai dati dello studio [1][2]: è possibile, perché la ASL partecipa allo studio [4], ma l'ordinanza non lo dice.
 - **Revisione delle regole:** il comunicato dice che i risultati "aprono la strada" a una revisione dei calendari di raccolta e di trasferimento [3]. Le regole non sono ancora cambiate in modo stabile in nessun atto che io abbia trovato [10]. La decisione spetta alla Regione, non al Commissario; il CNR-IRSA parla di "eventuali valutazioni sull'aggiornamento dell'Ordinanza" [3].
 - **In pratica:** lo studio può portare a calendari meno rigidi per i mitilicoltori, cioè riguarda la gestione dell'allevamento [3]. Non riduce la contaminazione dei fondali: le cozze devono comunque lasciare il 1° seno per depurarsi [2][3].
 - Per orientarsi (non usato come prova): giornali dell'8 settembre 2026 parlano di un "tavolo tecnico" per aggiornare l'ordinanza. Non verificato.
@@ -89,7 +90,7 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 | 8 luglio 2025 | Firma dell'accordo MITICA | [6] |
 | gennaio 2026 | Finiscono i campionamenti dello studio | [1][2] |
 | 6 febbraio 2026 | Verbale: risultati positivi, effetto entro circa 30 giorni | [4] |
-| 25 febbraio 2026 | Ordinanza regionale n. 84: cambia il termine per spostare le cozze piccole | [10] |
+| 25 febbraio 2026 | Ordinanza regionale n. 84: solo per il 2026, le cozze piccole si possono spostare fino al 31 marzo invece che fino al 28 febbraio | [14] |
 | 29 aprile 2026 | Il Commissario prende atto dell'accordo MITICA e nomina il responsabile | [6] |
 | 6 maggio 2026 | Il Commissario ratifica le modifiche all'accordo sullo studio: fine il 30 giugno 2026 | [4] |
 | 6 luglio 2026 | Presentati in Prefettura i risultati dello studio | [3] |
@@ -120,14 +121,18 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 
 [12] Commissario straordinario (Prefetto Martino), *Relazione attività commissariali – periodo 30/03/2022–1/10/2023*, prot. n. 56411 del 29/09/2023, pag. 17–18 del PDF — copia in `fonti/2023-09_commissario-taranto_relazione-fine-mandato-martino.pdf`
 
+[13] Regione Puglia, Ordinanza del Presidente della Giunta regionale 5 settembre 2024, n. 379, *Misure sanitarie straordinarie di controllo del rischio per diossina e PCB-DL nelle produzioni di mitili di Taranto. Proroga termini OPGR n. 323 del 16 settembre 2021* — copia in `fonti/2024-09_regione-puglia_opgr-379-proroga-misure-mitili.pdf`
+
+[14] Regione Puglia, Ordinanza del Presidente della Giunta regionale 25 febbraio 2026, n. 84, *Misure sanitarie straordinarie di controllo del rischio per diossina e PCB-DL nelle produzioni di mitili di Taranto. Modifica del termine per la movimentazione del novellame*, pag. 2–3 — copia in `fonti/2026-02_regione-puglia_opgr-84-misure-mitili.pdf`
+
 ## Cosa non sappiamo
 1. **I numeri dello studio.** La relazione finale non è pubblica e il comunicato non riporta le concentrazioni di diossine e PCB (né all'inizio né dopo 15, 30 o 45 giorni), né i limiti di legge [3]. Il comunicato dice "tra i 30 e i 48 giorni", ma le analisi sono a 15, 30 e 45 giorni [3]. Da chiedere con FOIA al Commissario o all'ARPA Puglia.
 2. **Se la depurazione vale per tutte le cozze e tutte le stagioni.** Il comunicato lo afferma ("in ogni stagione") [3]; non ho visto dati.
 3. **Se le cozze del 1° seno oggi rispettano i limiti.** L'opuscolo parla di valori "sotto soglia" nei primi mesi del 2026 [1], senza numeri e senza dire quali cozze (di allevamento, di quale zona) siano state misurate. Non verificato.
 4. **Quanto è costato lo studio.** 540.000 € di stima nel 2023 [12], 418.000 € nel piano operativo [4]; i costi finali saranno decisi alla rendicontazione [4]. Non verificato.
 5. **Le date dell'accordo sullo studio non tornano.** Lo stesso decreto lo dice stipulato il 2 maggio 2023 e sottoscritto con protocollo del 19 giugno 2023 [4]. Probabilmente il 2 maggio è l'approvazione dello schema. Non verificato.
-6. **Il numero dell'ordinanza.** Il Commissario cita la n. 1989/2011 [2][3]; il registro della Regione che ho consultato non la contiene e la catena parte dalla n. 188/2016 [10][11]. Non so inoltre fino a quando valgano oggi le misure dopo l'ordinanza n. 379/2024: la durata non l'ho letta. Non verificato.
-7. **Il testo dell'ordinanza n. 84/2026.** Non l'ho trovato; non so quale sia il nuovo termine di trasferimento (giornali parlano del 31 marzo 2026: non verificato) né se citi lo studio [10].
+6. **Il numero dell'ordinanza.** Il Commissario cita la n. 1989/2011 [2][3]; il registro della Regione che ho consultato non la contiene e la catena parte dalla n. 188/2016 [10][11]. Le misure valgono fino a circa settembre 2027 (36 mesi dalla pubblicazione dell'ordinanza n. 379/2024, di cui non ho letto la data esatta di pubblicazione) [13].
+7. **Che peso abbia avuto lo studio sul rinvio del 2026.** L'ordinanza n. 84 si basa sul parere della ASL e sulle analisi dell'Istituto zooprofilattico di Teramo, senza citare lo studio [14]; il Commissario invece attribuisce il rinvio allo studio [1][2]. Non verificato.
 8. **Se e quando l'ordinanza verrà cambiata davvero.** Per ora ci sono solo auspici e un tavolo citato dai giornali [3].
 9. **MITICA: due numeri sulla mortalità che non coincidono.** L'opuscolo scrive che a ossigeno al 30% la mortalità può arrivare all'86,7% [1]; la pagina dei risultati dice che a quel livello i mitili hanno più stress ma nessuna morte [5]. L'opuscolo non dice da dove venga l'86,7%. Non verificato.
 10. **Perché ci sono molti più maschi che femmine nelle cozze studiate.** Il progetto parla di possibili "interferenti endocrini" ma è solo un'ipotesi [5]. Se fosse vero, sarebbe un segnale di inquinamento che MITICA non sta misurando.

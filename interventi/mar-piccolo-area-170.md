@@ -1,5 +1,5 @@
 # B12 – Mar Piccolo: bonifica dell'"Area 170 ha" con ecodragaggio (con la Marina Militare)
-*Stato scheda: approvata — aggiornata al 6 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale della Marina Militare, dove le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante" da PCB, arsenico e mercurio [6]. Dal 2025 il Commissario per la bonifica vuole ripulirla togliendo i fanghi con un "ecodragaggio" insieme alla Marina Militare, ma oggi c'è solo l'accelerazione del "piano di indagini": nessun lavoro è partito, i soldi non sono assegnati e le date non ci sono [1][2]. **L'area non è bonificata e nemmeno messa in sicurezza**, e il collegamento con i lavori di ammodernamento delle basi della Marina è dichiarato dal Commissario ma non ho trovato nessun atto che lo spieghi [1].
@@ -54,7 +54,7 @@ L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale
 - Il programma "Basi Blu" della Difesa prevede l'ammodernamento delle basi navali di Taranto, La Spezia, Augusta e Brindisi, con un costo stimato complessivo di 2,5 miliardi € [8]. Per Taranto ci sono diversi interventi [8]:
   - **Intervento A**: adeguamento della base, 512 milioni € di lavori più 7,7 milioni € di servizi di ingegneria; gara dei lavori "prevista 2026"; tra le opere c'è il dragaggio [8].
   - **Intervento C**: nuovo pontile "Chiapparo", 130 milioni € di lavori più 11,7 milioni € di ingegneria; gara "prevista 2028" [8].
-- L'Intervento A riguarda la **Stazione Navale in Mar Grande**, non il Mar Piccolo [9][10][11]. La Difesa ha affidato la progettazione nel 2021 (gara da 5.820.435,29 € IVA esclusa; contratto del 29 luglio 2021) [9][10].
+- L'Intervento A riguarda la **Stazione Navale in Mar Grande**, non il Mar Piccolo [9][10][11]. La Difesa ha affidato la progettazione nel 2021 (gara da 5.820.435,29 € IVA esclusa; contratto del 29 luglio 2021) [9][10]. A maggio 2021 ha messo a gara anche la **verifica** del progetto (1.252.825,29 € a base di gara, offerte entro il 5 luglio 2021) [15].
 - Su OpenCoesione l'Intervento A ha un costo pubblico di 191.400.000 €, tutti del Fondo sviluppo e coesione 2014-2020 ("Piano stralcio Taranto"), 5.598.450,23 € pagati al 30 giugno 2026, inizio previsto 1 aprile 2026 (inizio effettivo non disponibile), fine prevista 30 dicembre 2029; beneficiario l'Arsenale Militare Marittimo di Taranto [11].
 - La cifra di 512 milioni (Difesa) e quella di 191,4 milioni (OpenCoesione) sono due dati diversi e non si sa come si raccordino. Non verificato.
 - **Base Sommergibili:** l'opuscolo parla di "ammodernamento della Base Sommergibili" nel Mar Piccolo [1]. Nei documenti ufficiali della Difesa che ho trovato non compare né la Base Sommergibili né il Mar Piccolo: solo la Stazione Navale in Mar Grande [8][9][10]. Una notizia di giornale parla di un progetto da 17 milioni € per una nuova caserma nella base sommergibili: non verificato, non ho una fonte ufficiale.
@@ -120,6 +120,8 @@ L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale
 
 [14] Parlamento, Commissione d'inchiesta sul ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33), 15 settembre 2022, capitolo introduttivo sull'area di Taranto — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf` (link in scheda B13, fonte [8])
 
+[15] Ministero della Difesa, Direzione dei Lavori e del Demanio, Ufficio Basi Blu, *Bando di gara per procedura aperta – Servizio di verifica della progettazione definitiva ed esecutiva dei lavori della Stazione Navale Mar Grande di Taranto – Intervento A*, CIG 8763242810, pubblicato sulla Gazzetta UE il 26 maggio 2021, pag. 1–2 e 6 — copia in `fonti/2021-05_difesa_bando-verifica-progetto-basi-blu-taranto.pdf`
+
 ## Cosa non sappiamo
 1. **L'accordo con la Marina del 2025–2026.** Non ho trovato nessun atto firmato sull'Area 170 ha: né l'accordo, né il piano di indagini, né chi lo paga, né il costo [1][2]. L'opuscolo dice che i ruoli sono ancora da "formalizzare" [1]. Non verificato.
 2. **Il testo dell'accordo del 2015** e la sua data esatta: il sito del Commissario dà il 15 luglio 2015, il file collegato porta nel nome "25.06.2016" [4]. Non verificato.
@@ -129,7 +131,7 @@ L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale
 6. **Cosa c'è davvero nei fanghi.** Non ho trovato i valori misurati; ci sono solo le conclusioni degli studi [6]. Non verificato.
 7. **Se i lavori della base citati dal Commissario riguardano il Mar Piccolo.** Nei documenti ufficiali della Difesa trovati parlano della Stazione Navale in Mar Grande [8][9][10]. Come questo si colleghi alla "Base Sommergibili" dell'opuscolo [1] non è chiaro. Non verificato.
 8. **A che punto è la VIA dei lavori della base.** Nel 2023 era in fase iniziale [10]; non ho trovato come sia andata. Non verificato.
-9. **Quali soldi della Difesa sono veri e quando partono i lavori.** 512 milioni € di lavori stimati dalla Difesa [8], 191,4 milioni € su OpenCoesione [11]: non so come si raccordino. La gara dei lavori era "prevista 2026" [8]; non ho trovato se sia stata bandita. Non verificato.
+9. **Quali soldi della Difesa sono veri e quando partono i lavori.** 512 milioni € di lavori stimati dalla Difesa [8], 191,4 milioni € su OpenCoesione [11]: non so come si raccordino. La gara dei lavori era "prevista 2026" [8]; non ho trovato se sia stata bandita: l'unico altro bando trovato è quello del 2021 per la verifica del progetto [15]. Non verificato.
 10. **L'attività della Marina del 2015 sul fondale.** Un articolo di giornale (Buonasera24, "La Marina completa la caratterizzazione") parla di una mappatura dell'Area 170 ha in 63 giorni e di oltre 550 oggetti trovati: è solo una pista, non verificato, non ho trovato la fonte ufficiale.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
