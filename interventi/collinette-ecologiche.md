@@ -1,8 +1,8 @@
 # A15 – Collinette ecologiche (quartiere Tamburi)
-*Stato scheda: approvata — aggiornata al 1 ottobre 2026* · ⚠ da completare quando si riesce a scaricare la determina regionale n. 249/2024 [6]
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
-Le "collinette ecologiche" sono tre rilievi artificiali costruiti negli anni '70 tra l'acciaieria e il quartiere Tamburi di Taranto, lungo la Statale 7 Appia, per fare da barriera alle polveri; coprono circa 9–9,6 ettari e la Collinetta n. 3 è attaccata alla scuola Deledda [3][4][5][9][13]. Nel 2019 la magistratura le ha sequestrate, dopo che ARPA vi aveva trovato rifiuti industriali (loppa, scorie d'altoforno) e metalli oltre i limiti, e il Sindaco ha chiuso due scuole vicine da marzo a settembre 2019 [5][9][15]. **Non sono state né bonificate né messe in sicurezza in modo definitivo**: è stata solo coperta con una rete in cocco una parte della Collinetta 3; le analisi complete (piano di caratterizzazione) sono state approvate dalla Regione Puglia il 2 dicembre 2024, ma a fine 2025 non erano ancora iniziate [1][6][11].
+Le "collinette ecologiche" sono tre rilievi artificiali costruiti negli anni '70 tra l'acciaieria e il quartiere Tamburi di Taranto, lungo la Statale 7 Appia, per fare da barriera alle polveri; coprono circa 9–10 ettari e la Collinetta n. 3 è attaccata alla scuola Deledda [3][4][5][6][9][13]. Nel 2019 la magistratura le ha sequestrate, dopo che ARPA vi aveva trovato rifiuti industriali (loppa, scorie d'altoforno) e metalli oltre i limiti, e il Sindaco ha chiuso due scuole vicine da marzo a settembre 2019 [5][9][15]. **Non sono state né bonificate né messe in sicurezza in modo definitivo**: è stata solo coperta con una rete in cocco una parte della Collinetta 3; le analisi complete (piano di caratterizzazione) sono state approvate dalla Regione Puglia il 2 dicembre 2024, ma a fine 2025 non erano ancora iniziate [1][6][11]. Nel 2024 ARPA ha scritto che la loro funzione di barriera per la fabbrica è ormai superata, e la Regione ha chiesto di valutarle anche con i limiti per verde pubblico e case, pensando a quando l'area non servirà più alla fabbrica [6].
 
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria**: gestisce le collinette da marzo 2019. Il passaggio da ArcelorMittal (oggi Acciaierie d'Italia) a Ilva è stato formalizzato a maggio 2020 [4][8]. Al momento del sequestro le aree erano "nella disponibilità" di ArcelorMittal [9]. Acciaierie d'Italia resta responsabile delle reti frangivento montate sopra le collinette [8].
@@ -22,7 +22,14 @@ Le "collinette ecologiche" sono tre rilievi artificiali costruiti negli anni '70
 - **Indagini per la Procura** (2019–2020): ARPA prepara il piano a maggio 2019, Ilva finisce le indagini nel luglio 2020 e manda i risultati a Procura e ARPA [4].
 - **Analisi di rischio** (giugno 2021): Ilva la deposita in Procura. Conclude che non ci sono rischi né per chi lavora dentro né per chi vive fuori, adulti e bambini [4]. Vedi la domanda 1 qui sotto.
 - **Fine del sequestro**: il giudice (GIP) ha disposto il dissequestro, valido dal 24 ottobre 2022 e notificato il 7 novembre 2022 [3].
-- **Piano di caratterizzazione** (il piano delle analisi complete): Ilva lo presenta alla Regione il 4 novembre 2022 e lo rifà più volte; la Regione lo approva con la **determina n. 249 del 2 dicembre 2024** [1][2][6]. A fine 2025 Ilva ha affidato i lavori e sta programmando le attività, legate all'invio ad ARPA del piano operativo per concordare i punti di campionamento [1].
+- **Piano di caratterizzazione** (il piano delle analisi complete): Ilva lo presenta alla Regione il 4 novembre 2022 e lo rifà più volte; la Regione lo approva con la **determina n. 249 del 2 dicembre 2024** [1][2][6]. Cosa dice la determina [6]:
+  - le collinette sono recintate, non accessibili e chiuse al pubblico; il piano regolatore del Comune le classifica come verde di rispetto, zona per parchi giochi e sport, zona "di ricomposizione spaziale dell'edilizia" e strada;
+  - ARPA, il 14 novembre 2024, scrive che le coperture dei parchi minerali sono state fatte e quindi le collinette non vanno più considerate un "presidio passivo di protezione" della fabbrica;
+  - per questo il piano deve contenere anche lo "Scenario A": le collinette valutate con i limiti per verde pubblico, privato e residenziale (tabella A), che varranno quando cesserà l'attività industriale o saranno dismessi i depositi. Nel giugno 2024 la Regione aveva chiesto anche di aggiungere il **bario**, che mancava tra le analisi del terreno;
+  - prescrizione: alla futura analisi di rischio vanno allegati documenti tecnici e amministrativi che mostrino se ci sono obblighi di rimettere i luoghi in pristino o altri lavori di trasformazione ancora da fare con la dismissione, così da sapere su quale forma dell'area applicare la tabella A;
+  - prima di cominciare Ilva deve mandare il **piano operativo**, con il metodo del laboratorio privato e un **cronoprogramma con la data di inizio**, e chiedere ad ARPA il preventivo per i controlli;
+  - la determina non comporta spese per la Regione.
+  - **Dopo:** a fine 2025 Ilva ha affidato i lavori e sta programmando le attività, legate all'invio ad ARPA del piano operativo per concordare i punti di campionamento [1].
 - **Controllo dell'acqua sotterranea (falda)**: ogni tre mesi da gennaio 2024; la quarta campagna è del 10–11 novembre 2025 [1]. I risultati non sono pubblicati.
 - **Incendio** (20 giugno 2024): brucia circa il 75–80% della Collinetta 3. Un agronomo indica di abbattere diversi alberi pericolanti, soprattutto vicino alla scuola e alle case; i lavori iniziano il 31 marzo 2025 [1][2].
 - **Manutenzione**: taglio dell'erba, fasce antincendio, rimozione di rifiuti abbandonati da altri [1].
@@ -35,7 +42,7 @@ Le "collinette ecologiche" sono tre rilievi artificiali costruiti negli anni '70
   - "assenza di rischio sanitario ed ambientale" legato ai materiali delle collinette;
   - nessun rischio per la salute né per i lavoratori dentro l'area né per la popolazione che vive fuori, "adulti e bambini".
 - **Chi l'ha fatta.** L'ha fatta Ilva, cioè chi gestisce l'area, e l'ha consegnata alla Procura nel giugno 2021 [4]. Non abbiamo trovato **nessun atto di approvazione** da parte di Regione, ARPA, ASL o Ministero. La relazione di Ilva di fine 2025 dice che una nuova analisi di rischio verrà fatta solo **dopo** le nuove analisi [1].
-- **Su quali dati si basa.** Sulle indagini del 2020 [4]. Secondo Ilva, il terreno superficiale e quello più profondo erano in generale nei limiti **per le aree industriali** [4]. La legge prevede anche limiti per le aree a verde pubblico e residenziali [8]. Per un'area accanto a case e scuole non sappiamo come vada rispetto a quei limiti.
+- **Su quali dati si basa.** Sulle indagini del 2020 [4]. Secondo Ilva, il terreno superficiale e quello più profondo erano in generale nei limiti **per le aree industriali** [4]. La legge prevede anche limiti per le aree a verde pubblico e residenziali [8]. Per un'area accanto a case e scuole non sappiamo come vada rispetto a quei limiti. Nel 2024 la Regione, su indicazione di ARPA, ha chiesto che le nuove analisi tengano conto anche di questi limiti più severi ("Scenario A") e che la futura analisi di rischio spieghi su quale configurazione dell'area applicarli [6].
 - **Cosa è stato trovato** (dalle sintesi disponibili):
   - nel 2018–2019, ARPA ha trovato superamenti dei limiti (CSC) [9][14]. Il Sindaco parla di "metalli in particolare" [9]. Le relazioni di ARPA non sono pubbliche;
   - nel 2020, secondo Ilva: diverse non conformità nel "test di cessione" dei materiali di riporto (cioè gli inquinanti possono passare nell'acqua) e alcuni superamenti dei limiti nella falda [4];
@@ -59,8 +66,10 @@ Le fonti indicano quattro motivi:
    - 29 febbraio 2024: primo esito positivo della Regione;
    - 29 marzo 2024: nuova versione del piano;
    - 14 maggio 2024: conferenza di servizi;
-   - 18 giugno 2024: la Regione chiede di rifare il piano secondo le indicazioni di ARPA;
-   - 2 dicembre 2024: approvazione [1][2].
+   - 18 giugno 2024: la Regione chiede di rifare il piano secondo le indicazioni di ARPA: aggiungere lo "Scenario A" (limiti per verde e case), i possibili bersagli e percorsi di esposizione e il bario [6];
+   - 14 ottobre 2024: Ilva manda il piano rivisto (revisione 02) [6];
+   - 14 novembre 2024: parere di ARPA, che dà atto che le osservazioni sono state accolte [6];
+   - 2 dicembre 2024: approvazione [1][2][6].
    
    A fine 2025 Ilva stava ancora programmando i lavori con ARPA [1].
 - **Il confronto.** Nel 2019 Ilva stessa scriveva che la bonifica o messa in sicurezza definitiva richiedeva "tipicamente" 2–5 anni [11]. Dal sequestro sono passati più di sette anni, e a fine 2025 le analisi complete non erano ancora partite [1].
@@ -92,6 +101,7 @@ Le fonti indicano quattro motivi:
 | gennaio 2024 | Inizio dei controlli della falda ogni tre mesi | [1] |
 | 15 maggio 2024 | La Regione chiede al Ministero di inserire le collinette nel SIN | [7] |
 | 20 giugno 2024 | Incendio sul 75–80% della Collinetta 3 | [1] |
+| 14 novembre 2024 | ARPA: le collinette non vanno più considerate una barriera di protezione della fabbrica | [6] |
 | **2 dicembre 2024** | **Determina regionale n. 249: piano di caratterizzazione approvato** | [6][1] |
 | 11 dicembre 2024 | Il Ministero: le collinette non possono entrare nel SIN con questa procedura | [7] |
 | 31 marzo 2025 | Iniziano i tagli degli alberi pericolanti | [1] |
@@ -108,7 +118,7 @@ Le fonti indicano quattro motivi:
 
 [5] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), approvata il 15 settembre 2022, paragrafo 4.1, pagine 63–67 della numerazione della Camera, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
 
-[6] Regione Puglia, Dipartimento Ambiente, Sezione Ciclo dei rifiuti e bonifiche, *Determinazione dirigenziale n. 249 del 2 dicembre 2024* (codice ufficio 090), oggetto: "Aree di competenza ILVA S.p.A. in A.S. Collinette ecologiche (ID 16) nel comune di Taranto (TA). Piano di caratterizzazione ai sensi dell'art. 242, comma 3 del D.Lgs. 152/2006". Trovata nel registro ufficiale dei provvedimenti dirigenziali della Regione (https://app.sistema.puglia.it/ords/f?p=130, cercando "collinette"). ⚠ **Il PDF non è stato scaricato**: il 1° ottobre 2026 il server della Regione che lo ospita (www.sistema.puglia.it) rifiutava la connessione. **Non è in `fonti/`**. Per ora conosciamo solo l'oggetto; il contenuto (prescrizioni, tempi) non è verificato.
+[6] Regione Puglia, Dipartimento Ambiente, Sezione Ciclo dei rifiuti e bonifiche, Servizio Bonifiche e pianificazione, *Determinazione dirigenziale n. 249 del 2 dicembre 2024* (codice ufficio 090), oggetto: "Aree di competenza ILVA S.p.A. in A.S. Collinette ecologiche (ID 16) nel comune di Taranto (TA). Piano di caratterizzazione ai sensi dell'art. 242, comma 3 del D.Lgs. 152/2006", pagine 2–5. Si scarica dal registro ufficiale dei provvedimenti dirigenziali della Regione, https://app.sistema.puglia.it/ords/f?p=130, cercando "collinette" e premendo "Scarica" (il registro non dà un link diretto) — copia scaricata il 7 ottobre 2026 in `fonti/2024-12_regione-puglia_determina-249-2024-caratterizzazione-collinette.pdf`
 
 [7] Ministero dell'Ambiente e della Sicurezza energetica (MASE), Direzione generale economia circolare e bonifiche, *Decreto n. 249 dell'11 dicembre 2024* (parziale deperimetrazione del SIN "Taranto"), pagina 6, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=14430_m_amte.MASE.ECB%20REGISTRO%20DECRETI(R).0000249.11-12-2024.pdf — copia in `fonti/2024-12_mase_decreto-249-deperimetrazione-sin-taranto.pdf`
 
@@ -136,7 +146,7 @@ Le fonti indicano quattro motivi:
 
 ## Cosa non sappiamo
 1. **L'analisi di rischio del 2021.** Non è pubblica e non sappiamo se un ente pubblico l'abbia mai valutata o approvata. Conosciamo solo la sintesi di Ilva [4]. ARPA aveva chiesto integrazioni nell'aprile 2021 [4], ma non sappiamo se poi le abbia accettate. Vedi la bozza FOIA n. 2.
-2. **La determina n. 249/2024 della Regione.** Ne conosciamo l'oggetto ma non il testo: il PDF non si è potuto scaricare [6]. Da riprovare, oppure da chiedere con la bozza FOIA n. 1.
+2. **Quando partono le analisi.** La determina chiede a Ilva, prima di iniziare, un piano operativo con la data presunta di inizio [6]. Non sappiamo se l'abbia mandato né quale data indichi. Anche il piano approvato (revisione 02) non è pubblico. Vedi la bozza FOIA n. 1.
    ⚠ **Attenzione allo stesso numero:** il 2 dicembre 2024 c'è la determina **regionale** n. 249 (piano delle analisi delle collinette) [6]. L'11 dicembre 2024 c'è il decreto **del Ministero** n. 249 (riduzione del SIN), che parla delle collinette solo per dire che non possono entrare nel SIN [7]. Sono due atti diversi.
 3. **Di cosa sono fatte esattamente.** Le fonti ufficiali parlano di "loppa, scorie d'altoforno" [9]. La Commissione parlamentare parla di "residui dell'attività produttiva", "presumibilmente scorie e polveri di abbattimento delle emissioni" [5]. Ilva scrive solo "materiali di riporto" [4]. Le relazioni di ARPA del 2018–2019 con i valori non sono pubbliche. Alcuni giornali citano diossine nel terreno superficiale fino a 45 ng/kg, contro un limite di 10: **non verificato** su fonti ufficiali.
 4. **Le polveri nel quartiere: quanto vengono dalle collinette?** Nessuna fonte ufficiale lo misura separatamente.
@@ -148,34 +158,43 @@ Le fonti indicano quattro motivi:
 6. **La falda.** In Parlamento il pubblico ministero ha parlato di cromo esavalente [5]. Ilva parla di "alcuni superamenti" senza legame con i materiali delle collinette [4]. I risultati dei controlli trimestrali 2024–2025 non sono pubblici [1].
 7. **Il procedimento penale.** Le fonti ufficiali trovate parlano solo di dissequestro [3]. Che l'indagine sia stata archiviata lo dice solo la stampa: non verificato.
 8. **Le reti frangivento** sopra le collinette sono di Acciaierie d'Italia, non di Ilva [8]. Nel 2022 un pannello era crollato sulla Collinetta 1 [4]. Non sappiamo in che stato siano oggi.
-9. **Superficie.** Il Comune scrive nove ettari [9], Ilva 9,6 ettari [4]. La Commissione parla di "vari chilometri" di lunghezza [5]. Nessuna fonte dà la lunghezza esatta né l'altezza.
+9. **Superficie.** Il Comune scrive nove ettari [9], Ilva 9,6 ettari [4], la Regione "circa 10 ha" [6]. La Commissione parla di "vari chilometri" di lunghezza [5]. Nessuna fonte dà la lunghezza esatta né l'altezza.
 10. **Da non confondere.** Nelle tabelle di Ilva compare una "collinetta A5-20" con lavori di "messa in sicurezza permanente": è un intervento AIA dentro lo stabilimento, a quanto pare diverso da questo [2][3]. Da verificare.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
-**A:** Regione Puglia — Sezione Ciclo dei rifiuti e bonifiche — PEC: serv.rifiutiebonifica@pec.rupar.puglia.it (indirizzo verificato il 1° ottobre 2026 sulla [pagina Trasparenza della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0))
+**A:** Regione Puglia — Sezione Ciclo dei rifiuti e bonifiche — email ordinaria ciclorifiutiebonifiche@regione.puglia.it, in copia l'Ufficio relazioni con il pubblico quiregione@regione.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina Trasparenza della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – "Collinette ecologiche" (ID 16), Comune di Taranto, aree di competenza ILVA S.p.A. in A.S.
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Collinette ecologiche (ID 16), Taranto – Determinazione dirigenziale n. 249 del 02/12/2024
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti:
-> 1. la determinazione dirigenziale n. 249 del 2 dicembre 2024 (cod. 090) di approvazione del piano di caratterizzazione, con tutti gli allegati;
-> 2. il piano di caratterizzazione approvato, nella versione finale trasmessa da ILVA S.p.A. in A.S.;
-> 3. i pareri di ARPA Puglia e degli altri enti resi nel procedimento, e il verbale o le conclusioni della conferenza di servizi indetta il 14 maggio 2024;
-> 4. la nota con cui, nel maggio 2024, la Regione ha chiesto al Ministero di includere le collinette nel SIN di Taranto, e l'eventuale risposta;
-> 5. lo stato attuale del procedimento: data di inizio delle indagini, eventuale cronoprogramma ed eventuali risultati già trasmessi.
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti relativi al procedimento "Aree di competenza ILVA S.p.A. in A.S. – Collinette ecologiche (ID 16)" nel comune di Taranto, concluso con la determinazione dirigenziale n. 249 del 02/12/2024 (cod. 090):
+>
+> 1. **Piano approvato.** Il piano di caratterizzazione approvato, "PDCA 'Collinette Ecologiche' Taranto_rev02", trasmesso da ILVA S.p.A. in A.S. con PEC del 14/10/2024 (prot. n. 0500365/2024), con i relativi file cartografici.
+> 2. **Istruttoria.** Le note di trasmissione degli esiti della Conferenza di servizi prot. n. 0108495/2024 del 29/02/2024, n. 0301920/2024 del 18/06/2024 e n. 0570124/2024 del 19/11/2024, e i contributi istruttori di ARPA Puglia, compreso quello prot. n. 0082846 del 14/11/2024.
+> 3. **Avvio delle indagini.** Il Piano operativo con il cronoprogramma e la data presunta di inizio dei lavori, che la determinazione n. 249/2024 chiede a ILVA di trasmettere prima dell'inizio delle attività, e le comunicazioni successive sull'avvio o sull'esecuzione dei campionamenti.
+> 4. **Falda.** I risultati del monitoraggio trimestrale delle acque sotterranee sulle collinette svolto da ILVA dal gennaio 2024, se trasmessi alla Regione.
+> 5. **SIN.** La nota con cui, nel maggio 2024, la Regione ha chiesto al Ministero dell'Ambiente di includere le collinette nel Sito di interesse nazionale di Taranto, e l'eventuale risposta.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se la Regione non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
-**A:** ARPA Puglia — Dipartimento provinciale di Taranto — PEC: dap.ta.arpapuglia@pec.rupar.puglia.it (indirizzo preso dall'intestazione della PEC ufficiale dell'ASL [13]; da ricontrollare sul sito di ARPA prima dell'invio)
+**A:** ARPA Puglia — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (canali indicati per l'accesso ambientale e l'accesso civico generalizzato nella [pagina URP di ARPA](https://www.arpa.puglia.it/pagina2819_urp.html), verificata il 7 ottobre 2026)
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – "Collinette ecologiche" del quartiere Tamburi, Taranto
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – "Collinette ecologiche" del quartiere Tamburi, Taranto (DAP Taranto)
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti, ove detenuti da codesta Agenzia, considerato che il sequestro penale dell'area è cessato nell'ottobre 2022:
-> 1. le relazioni con i risultati delle analisi eseguite da ARPA sulle collinette nel 2018 e 2019 (terreno superficiale, materiali, falda), comprese la nota prot. 15105 del 28 febbraio 2019 e la nota prot. 23445 del 29 marzo 2019;
-> 2. l'analisi di rischio sanitario-ambientale elaborata da ILVA S.p.A. in A.S. e depositata presso la Procura nel giugno 2021, e le valutazioni o osservazioni di ARPA su di essa;
-> 3. i risultati dei monitoraggi della falda eseguiti dal 2024 sulle collinette, in contraddittorio o validati da ARPA;
-> 4. eventuali misure di qualità dell'aria indoor nelle scuole Deledda e De Carolis, e qualsiasi misura delle polveri fatta dopo l'incendio del 20 giugno 2024 sulla Collinetta n. 3.
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi alle "collinette ecologiche" del quartiere Tamburi di Taranto, considerato che il sequestro penale dell'area è cessato nell'ottobre 2022:
+>
+> 1. **Analisi 2018–2019.** Le relazioni con i risultati delle analisi svolte da ARPA sulle collinette nel 2018 e 2019 (terreno superficiale, materiali, acque sotterranee), comprese le note prot. n. 0015105 del 28/02/2019 e prot. n. 23445 del 29/03/2019.
+> 2. **Analisi di rischio 2021.** L'analisi di rischio sanitario-ambientale elaborata da ILVA S.p.A. in A.S. e depositata in Procura nel giugno 2021, e le valutazioni di ARPA su di essa, comprese le richieste di integrazione dell'aprile 2021 e l'esito finale.
+> 3. **Falda.** I risultati del monitoraggio trimestrale delle acque sotterranee svolto da ILVA dal gennaio 2024, e gli eventuali campionamenti in contraddittorio o di validazione eseguiti da ARPA.
+> 4. **Avvio della caratterizzazione.** Il Piano operativo e il cronoprogramma trasmessi da ILVA in attuazione della determinazione della Regione Puglia n. 249 del 02/12/2024, la richiesta di preventivo per le attività di validazione e la data di inizio dei campionamenti, se già fissata.
+> 5. **Aria.** Eventuali misure della qualità dell'aria all'interno (indoor) delle scuole Deledda e De Carolis, e qualsiasi misura delle polveri eseguita dopo l'incendio del 20/06/2024 sulla Collinetta n. 3.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'Agenzia non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
