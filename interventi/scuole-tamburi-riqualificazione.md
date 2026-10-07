@@ -1,5 +1,5 @@
 # B3 – Cinque scuole del quartiere Tamburi: lavori di riqualificazione, ventilazione e aree esterne
-*Stato scheda: approvata — aggiornata al 6 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabelli e Giusti) hanno avuto tre tipi di lavori: ristrutturazione degli edifici con risparmio energetico, impianti che filtrano l'aria dentro le aule (la "ventilazione meccanica controllata") e rifacimento dei cortili e delle aree esterne [1][2]. **Non sono una bonifica**: nessuno di questi lavori ha tolto inquinamento dal terreno o dall'acqua, e nessun certificato di bonifica è collegato a questi lavori [1][4][9]. Secondo il Commissario sono tutti conclusi [1]: i lavori sulle aule sono documentati da atti ufficiali (fino al 2022), mentre per le aree esterne non ho trovato un documento finale [1][6][8].
@@ -30,6 +30,7 @@ Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabel
 - **Cosa sono:** apparecchi nelle aule e nelle sale dei docenti, con quattro livelli di filtri, recupero del calore e raffrescamento naturale [9]. Il progetto prevede filtri per le polveri sottili (PM10 e PM2.5) e un filtro elettrostatico per le polveri di ferro [2][3].
 - **Gara e lavori:** gara pubblicata nel 2019 con base d'asta di 2.410.499,73 € [6]. Aggiudicata al Consorzio Soledil con il decreto n. 178 dell'11/07/2019 per 1.950.652,68 € più IVA [6]. Lavori consegnati d'urgenza il 19/08/2019 e contratto firmato il 29/10/2019 [6]. Sospesi l'11/03/2020 per il Covid, ripresi il 27/05/2020 [6]. Il 9 marzo 2020 è stata approvata una variante da 186.673,98 € [6]. L'impresa ha comunicato la fine dei lavori il 25/07/2020 [6].
 - **Collaudo:** l'atto di collaudo è del 21/12/2021 e il Commissario lo ha approvato con il decreto n. 5424 del 28 gennaio 2022, insieme allo stato finale dei lavori (credito residuo dell'impresa: 266.078,20 € più IVA) [5][6].
+- **Ultimo atto trovato:** con il decreto n. 30 del 12 maggio 2026 il Commissario ha versato allo Stato 2.299,52 € per il "Fondo salva opere" (lo 0,5% del ribasso offerto in gara dall'impresa), su richiesta del Ministero delle Infrastrutture del 12 giugno 2024 [10]. È un adempimento contabile: non dice nulla sull'uso degli impianti. Il decreto conferma che i lavori sono finiti il 25 luglio 2020 [10].
 - **Funziona oggi?** Nessun documento ufficiale trovato dice se gli impianti sono accesi e usati ogni giorno. Un titolo di giornale trovato in rete mette in dubbio che lo siano stati negli anni dopo i lavori: solo come pista, non verificato.
 
 ### 3. Aree esterne delle scuole
@@ -67,6 +68,7 @@ Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabel
 | 25 luglio 2020 | L'impresa dichiara finiti i lavori di ventilazione | [6] |
 | 21 dicembre 2021 | Atto di collaudo della ventilazione | [6] |
 | 28 gennaio 2022 | Il Commissario approva collaudo e stato finale (decreto n. 5424) | [6] |
+| 12 maggio 2026 | Decreto n. 30: versamento di 2.299,52 € al "Fondo salva opere" per la gara della ventilazione | [10] |
 | maggio 2026 | L'opuscolo segna tutti gli interventi come "conclusi" | [1] |
 
 ## Fonti
@@ -87,6 +89,8 @@ Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabel
 [8] Commissario straordinario per la bonifica di Taranto, sito ufficiale (non più online), pagina *Procedura aperta: lavori di riqualificazione e sistemazione funzionale delle aree esterne di alcuni plessi scolastici del quartiere Tamburi*, copia di Internet Archive del 19/09/2020: http://web.archive.org/web/20200919050804/http://www.commissariobonificataranto.it/amministrazione-trasparente-trasparenza/bandi-gara-contratti/tutti-bandi-del-2018/tutti-bandi-del-2018-quartiere-tamburi/ — copia in `fonti/2020-09_commissario-taranto_sito-web-gara-aree-esterne-scuole-tamburi.pdf`
 
 [9] Commissario straordinario per la bonifica di Taranto, sito ufficiale (non più online), pagina *Intervento di ventilazione meccanica controllata delle scuole del quartiere Tamburi*, copia di Internet Archive del 19/09/2020: http://web.archive.org/web/20200919034250/http://www.commissariobonificataranto.it/amministrazione-trasparente-trasparenza/bandi-gara-contratti/tutti-bandi-del-2019/intervento-di-ventilazione-meccanica-controllata-delle-scuole-del-quartiere-tamburi-nel-comune-di-taranto/ — copia in `fonti/2020-09_commissario-taranto_sito-web-gara-ventilazione-scuole-tamburi.pdf`
+
+[10] Commissario straordinario per la bonifica di Taranto, *Decreto n. 30 del 12 maggio 2026*, ventilazione meccanica controllata delle scuole del quartiere Tamburi (CUP J54G17000030001, CIG 7786799DCD), liquidazione e pagamento di 2.299,52 € al "Fondo salva opere" (art. 47, comma 1-bis, del decreto-legge 34/2019), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-05_commissario-taranto_decreto-30-vmc-scuole-tamburi.pdf`
 
 ## Cosa non sappiamo
 1. **Le aree esterne sono davvero finite?** Solo l'opuscolo lo dice [1]. Non ho trovato atti di fine lavori, collaudo, costo finale o i testi degli affidamenti (decreti n. 156 e n. 239) [8]. Da chiedere con FOIA.

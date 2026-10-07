@@ -1,5 +1,5 @@
 # B10 – Zona PIP di Statte: messa in sicurezza dei rifiuti industriali e della falda profonda
-*Stato scheda: approvata — aggiornata al 1 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 La zona PIP di Statte è un'area per le imprese (circa 9 ettari) costruita sopra una vecchia cava: tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattutto scorie d'altoforno, insieme a fanghi oleosi che contengono PCB, e da lì l'inquinamento scende nella falda profonda [4][10]. Dal 2013 sono state fatte le analisi e un primo intervento d'emergenza, cioè il pompaggio dell'olio che galleggia sulla falda, ma **il sito non è né bonificato né messo in sicurezza in modo definitivo**: il progetto definitivo è fermo dal 2020 e i conti dei primi lavori non sono ancora chiusi [1][7]. Nel novembre 2025 il Ministero dell'Ambiente ha assegnato 89,9 milioni € (124 milioni € in tutto, con altri fondi): la delibera è registrata, ma al 30 giugno 2026 non c'è ancora un progetto approvato, non c'è una gara e non è stato speso nulla [2][15][17].
@@ -118,7 +118,7 @@ La zona PIP di Statte è un'area per le imprese (circa 9 ettari) costruita sopra
 - **Ma arrivano a rate.** I soldi vengono trasferiti un po' alla volta, a seconda di quanto c'è ogni anno nel bilancio dello Stato: per tutto l'Accordo, le rate vanno dal 2026 al 2033 [15]. Non ho trovato una divisione per anno del solo PIP.
 - **La delibera chiedeva una conferma.** Entro tre mesi dalla pubblicazione (cioè entro metà luglio 2026) il governo doveva confermare che gli altri finanziamenti, come i 34,17 milioni del PIP, ci sono davvero [15]. Non ho trovato questa conferma.
 - **Al 30 giugno 2026 non è stato speso nulla:** OpenCoesione indica 0 € di impegni e 0 € di pagamenti [17].
-- **Una contraddizione:** l'opuscolo di maggio 2026, uscito dopo la pubblicazione in Gazzetta Ufficiale, scrive ancora "Si è in attesa di risorse" dal Fondo 2021-2027 [1]. Forse i soldi sono assegnati al Ministero ma non ancora passati al Commissario. Non verificato.
+- **Una contraddizione:** l'opuscolo di maggio 2026, uscito dopo la pubblicazione in Gazzetta Ufficiale, scrive ancora "Si è in attesa di risorse" dal Fondo 2021-2027 [1]. Forse i soldi sono assegnati al Ministero ma non ancora passati al Commissario. Nei decreti del Commissario del 2026 (fino al n. 54 del 2 ottobre) non c'è nessun atto su questi fondi: i due decreti che nominano una "zona PIP" (n. 7 e n. 44) riguardano la rete per l'acqua piovana del PIP di un altro Comune, Montemesola, pagata con altri fondi (delibera CIPE 93/2017) [25]. Non verificato.
 
 **Quando partono i lavori?** Nessuna fonte ufficiale dà una data [1][17].
 - Prima dei lavori servono nuove analisi, un nuovo progetto, la sua approvazione al Ministero e una gara [1][7][13][14].
@@ -228,6 +228,8 @@ La zona PIP di Statte è un'area per le imprese (circa 9 ettari) costruita sopra
 [24] Commissario straordinario per la bonifica di Taranto (Prefetto Martino), Decreto prot. n. 17149/2021, *Attività di supporto tecnico-scientifico per la redazione del progetto definitivo della Messa in Sicurezza Permanente dell'area P.I.P. del Comune di Statte – Liquidazione fatture A.G.S. S.r.l.* (pubblicato il 9/04/2021), https://www1.prefettura.it/taranto/allegati/Download:Decreto_prot._n._17149_2021-22055356.htm — copia in `fonti/2021-04_commissario-taranto_decreto-17149-supporto-progetto-misp-pip.pdf`
 
 *Elenco completo dei decreti 2020–2023 del Commissario: https://www1.prefettura.it/taranto/contenuti/Provvedimenti_del_commissario-9974480.htm (controllato tutto il 1/10/2026: sul PIP ci sono solo i decreti [6], [22], [23] e [24]).*
+
+[25] Commissario straordinario per la bonifica di Taranto, sito ufficiale, Amministrazione trasparente, *Decreti 2026* (elenco n. 1–54, controllato il 7/10/2026), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-10_commissario-taranto_sito-web-elenco-decreti-2026.html`
 
 ## Cosa non sappiamo
 1. **Chi ha inquinato.** Nessun documento ufficiale nomina chi ha riempito la cava di rifiuti tra il 1972 e il 1995, né spiega se qualcuno ha provato a farlo pagare [1][4][10]. Le scorie d'altoforno fanno pensare all'industria dell'acciaio vicina [10], ma è solo un'ipotesi. **Non verificato.** Da chiedere con FOIA.

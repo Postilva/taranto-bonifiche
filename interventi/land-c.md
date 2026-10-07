@@ -1,5 +1,5 @@
 # A11 – Land C (area verde vicino alla fabbrica)
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 Land C è un'area verde di circa 1,8 ettari rimasta a Ilva in amministrazione straordinaria, appena fuori dalla fabbrica, nella zona industriale di Taranto; non ci sono mai stati impianti ed è coperta da macchia mediterranea [7][20]. Con il decreto n. 250 del 5 luglio 2023 (notificato il 7 luglio) il Ministero dell'Ambiente ha dichiarato **"non contaminato" solo il terreno**, mentre nell'acqua sotterranea sono stati trovati arsenico, boro, manganese, nichel, nitriti e solfati oltre i limiti [2][3]. **Non è stata bonificata (per il terreno non serviva) e non è uscita dal SIN**: la relazione di Ilva parla di "svincolo dal SIN", ma il decreto non lo dice e l'area non è tra quelle tolte dal SIN nel dicembre 2024 [1][2][16][18].
@@ -66,6 +66,7 @@ Land C è un'area verde di circa 1,8 ettari rimasta a Ilva in amministrazione st
 | dicembre 2022 – febbraio 2023 | Pareri di INAIL, ARPA e ISPRA: servono altri pozzetti | [9][10][11] |
 | 27 febbraio 2023 | Il Ministero: la pratica non si può chiudere così | [12] |
 | 4–5 maggio 2023 | Ilva chiede di chiudere la pratica per il solo terreno | [2] |
+| 15 maggio 2023 | Il Ministero apre la conferenza di servizi decisoria (in forma scritta) sulla chiusura per il solo terreno | [13] |
 | 15 giugno 2023 | Pareri favorevoli di ARPA e ISPRA (solo terreno) | [14][15] |
 | **5 luglio 2023** | **Decreto n. 250: terreno "non contaminato"** | [2] |
 | 7 luglio 2023 | Decreto notificato a Ilva | [3] |

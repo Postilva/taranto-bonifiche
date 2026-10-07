@@ -1,5 +1,5 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
-*Stato scheda: approvata — aggiornata al 6 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 L'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 502) è nel quartiere Tamburi, e il Comune di Taranto vuole rifarlo con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3]. Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA (idrocarburi policiclici aromatici) oltre i limiti di legge e l'ha comunicato agli enti il 13 maggio 2024 [3]. **Il sito non è bonificato né messo in sicurezza**: nell'ottobre 2025 il Commissario ha dato 86.876,20 € al Comune solo per fare le analisi complete e l'analisi di rischio, e nel maggio 2026 l'opuscolo del Commissario dice che i prelievi sono iniziati [1][2].
@@ -49,7 +49,7 @@ L'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 5
 
 ## Soldi
 - **Soldi per le analisi:** 86.876,20 € IVA compresa, concessi e impegnati il 3 ottobre 2025 [2].
-- **Come verranno pagati:** il 40% come anticipo, dopo la firma del contratto del Comune con la ditta e l'inizio vero del servizio; il 60% a saldo, dopo la rendicontazione [2]. Non ho trovato nessun atto che dica se l'anticipo o il saldo siano stati pagati: non verificato.
+- **Come verranno pagati:** il 40% come anticipo, dopo la firma del contratto del Comune con la ditta e l'inizio vero del servizio; il 60% a saldo, dopo la rendicontazione [2]. Negli elenchi dei decreti del Commissario non c'è nessun pagamento al Comune per questo intervento: dopo il decreto n. 23 del 3 ottobre 2025 non ci sono altri decreti sul quartiere Tamburi fino al n. 54 del 2 ottobre 2026, a parte quello sulla ventilazione delle scuole [7][8]. Quindi, al 2 ottobre 2026, **né l'anticipo né il saldo risultano pagati** con un decreto pubblicato.
 - **Soldi per la riqualificazione (CIS Taranto, Lotto 1):** 3.359.060,32 € di fondi FSC (Fondo sviluppo e coesione), impegnati il 22/03/2022; pagati finora 81.202,06 € [4].
 - **Lotto 2** dello stesso sottoprogetto, intitolato "Completamento struttura Marcatale" (scritto così): 1.640.939,68 € di fondi FSC, impegnati il 19/01/2022; pagati 98.655,35 € [5]. Lotto 1 e Lotto 2 sommati fanno 5.000.000 € (calcolo mio) [4][5]. Se il Lotto 2 riguardi questo impianto: non verificato.
 - **Costo della bonifica o messa in sicurezza:** non esiste, perché prima servono le analisi e l'analisi di rischio. La determinazione regionale parla di bonifica solo come "eventuale" [3].
@@ -84,11 +84,13 @@ L'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 5
 
 [7] Commissario straordinario per la bonifica di Taranto, sito ufficiale, Amministrazione trasparente, *Decreti 2025* (elenco con il decreto n. 23 del 03/10/2025), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2025/ — copia in `fonti/2026-10_commissario-taranto_sito-web-registro-decreti-2025.html`
 
+[8] Commissario straordinario per la bonifica di Taranto, sito ufficiale, Amministrazione trasparente, *Decreti 2026* (elenco n. 1–54, controllato il 7/10/2026), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-10_commissario-taranto_sito-web-elenco-decreti-2026.html`
+
 ## Cosa non sappiamo
 1. **Che cosa c'è esattamente nel terreno.** Sappiamo solo che piombo e IPA superano i limiti [3]. Non abbiamo né i valori, né le profondità, né la data delle analisi di maggio 2024 o prima [3]. Non verificato.
 2. **Da quanto tempo si sa.** La prima data certa è il 13 maggio 2024 [3]. Non sappiamo se ci fossero analisi più vecchie. Non verificato.
 3. **Se l'impianto era usato da persone o bambini, e quando è stato chiuso.** L'unico dato ufficiale è che oggi è in "interdizione cautelativa" [3]. L'atto di chiusura (chi, quando, perché) non l'ho trovato. Alcuni giornali scrivono che il campo era chiuso da tempo per altri motivi e che i ragazzi vi giocavano: **non verificato**.
-4. **A che punto sono le analisi.** L'opuscolo dice che sono iniziate [1] ma non quando, e non c'è ancora nessun risultato pubblico. Non sappiamo chi ha vinto la gara del Comune né se l'anticipo sia stato pagato [2].
+4. **A che punto sono le analisi.** L'opuscolo dice che sono iniziate [1] ma non quando, e non c'è ancora nessun risultato pubblico. Non sappiamo chi ha vinto la gara del Comune [2]; l'anticipo, al 2 ottobre 2026, non risulta pagato [8].
 5. **Date che non tornano.** L'opuscolo data il decreto commissariale al 2 ottobre 2025 [1], ma il decreto e l'elenco ufficiale dicono 3 ottobre 2025 [2][7]. Nella determinazione regionale la conferenza dei servizi risulta convocata una volta il 9 giugno 2025 e una volta il 24 marzo 2025 [3]. Sono probabilmente errori di scrittura, ma non lo so con certezza.
 6. **La superficie.** L'opuscolo scrive "circa 150.200 m²" [1]. Non so se è l'area di questa particella o dell'intero progetto: nessun atto ufficiale lo specifica. Non verificato.
 7. **Gli atti del Comune di Taranto sul progetto di demolizione e ricostruzione.** Non ho trovato le delibere o le determine sul sito del Comune; quello che so del progetto viene dagli atti del Commissario e della Regione [1][2][3]. Sulle notizie dei giornali (approvazione del progetto definitivo, costi): non verificato.

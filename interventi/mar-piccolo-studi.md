@@ -1,5 +1,5 @@
 # B6 – Mar Piccolo: studi, indagini, sorvolo lidar (conclusi)
-*Stato scheda: approvata — aggiornata al 6 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
 ## In breve
 Il Commissario ha fatto studi e indagini sul Mar Piccolo con accordi con università, CNR e Forze dell'ordine, una campagna di indagini geognostiche (sondaggi e analisi del fondale) e una convenzione con la Sogesid sulle acque sotterranee e sul sorvolo "lidar" [1][2]. L'opuscolo del 2026 dice che gli accordi e le indagini sono "conclusi anche finanziariamente", mentre la convenzione con la Sogesid è "conclusa, ma non finanziariamente" dal Commissario precedente [1]. **Sono studi, non bonifica: non hanno tolto né trattato nessun inquinante, e non ho trovato né i risultati misurati né i costi** [1][2].
@@ -34,19 +34,20 @@ Il Commissario ha fatto studi e indagini sul Mar Piccolo con accordi con univers
   - finite le analisi in laboratorio (geologiche, chimiche, ecotossicologiche, microbiologiche);
   - fatta la "zonazione delle criticità" dei fondali del 1° seno e definito un modello concettuale (una descrizione di come l'inquinamento si distribuisce e si muove).
 - Il Commissario Martino ha scritto nel 2023 che la documentazione cartacea dei precedenti commissari è conservata presso la Prefettura di Taranto, con due hard disk esterni [4].
+- **Analisi in più sull'acqua sotterranea (pagate nel 2026):** nel marzo 2019 il Commissario ha chiesto all'IRSA, l'istituto del CNR che studia le acque, analisi chimiche su 15 campioni di acqua sotterranea intorno al Mar Piccolo, nell'ambito dell'accordo del 29 gennaio 2015 con Università di Bari e CNR [6]. Il 28 aprile 2020 l'IRSA ha consegnato i risultati di **12 campioni**, prelevati a nord-ovest del 1° seno [6]. Il pagamento (16.000 €, dai fondi della delibera CIPE 87/2012 per i PCB del 1° seno) è arrivato solo con il **decreto n. 35 dell'8 luglio 2026**, dopo che l'IRSA aveva mandato i conti nel 2025–2026 [6]. Il decreto non riporta i risultati delle analisi.
 - I risultati misurati (quanti milligrammi di PCB, diossine e metalli per chilo di fango) non sono nei documenti ufficiali che ho letto. Non verificato.
 
 **3) Convenzione con la Sogesid: caratterizzazione idrogeologica e sorvolo lidar**
 - L'opuscolo scrive: "Intervento concluso, ma non finanziariamente dal precedente Commissario". Il Commissario attuale ha dovuto "ricostruire" le carte per poter riconoscere il saldo alla Sogesid, "soggetto attuatore" [1].
 - Nei decreti del 2023 compare una "Convenzione attuativa" con la Sogesid del 19 luglio 2016 per lo "studio idrodinamico delle falde acquifere (superficiali e profonde)" [3]. La Sogesid ha chiesto il pagamento di una fattura (n. 100/2018, 1 luglio 2018) di 147.550,25 € [3][5].
-- Il 12 luglio 2023 il Commissario ha nominato una responsabile del procedimento per verificare se la fattura si può pagare, con 90 giorni di tempo in più [5]. Non ho trovato il decreto di pagamento. Non verificato.
+- Il 12 luglio 2023 il Commissario ha nominato una responsabile del procedimento per verificare se la fattura si può pagare, con 90 giorni di tempo in più [5]. Non ho trovato il decreto di pagamento: non è negli elenchi dei decreti del 2025 e del 2026 (fino al n. 54 del 2 ottobre 2026) [7][8]; i decreti del 2023 e del 2024 sono ancora da controllare. Non verificato.
 - Il "sorvolo lidar" (rilievo del terreno con un laser montato su un aereo) è citato nel 2018 solo come uno dei dati di base per studiare l'intera area vasta di Taranto, non solo il Mar Piccolo [2]. Non ho trovato il contratto, il rapporto finale né la data del sorvolo. Non verificato.
 - Non è provato che la convenzione del 2016 sulle falde sia la stessa dell'opuscolo "caratterizzazione idrogeologica e sorvolo lidar": è probabile ma non verificato.
 
 **"Concluso" secondo chi?** Secondo il Commissario Uricchio, nell'opuscolo [1]. Non ho trovato un atto di chiusura né i certificati di regolare esecuzione di nessuna di queste attività. Non verificato.
 
 ## Soldi
-- Non ho trovato l'importo di nessuno degli accordi né delle indagini geognostiche. Non verificato.
+- Non ho trovato l'importo di nessuno degli accordi né delle indagini geognostiche. Non verificato. L'unica cifra trovata è quella delle analisi aggiuntive dell'IRSA sull'acqua sotterranea: 16.000 €, pagati nel 2026 [6].
 - Per la Sogesid ci sono solo la fattura da 147.550,25 € (2018), ancora da verificare nel 2023 [3][5]. I codici di finanziamento di queste attività non li ho verificati. Non verificato.
 
 ## Date principali
@@ -61,7 +62,9 @@ Il Commissario ha fatto studi e indagini sul Mar Piccolo con accordi con univers
 | 1 luglio 2018 | Fattura della Sogesid da 147.550,25 € | [3] |
 | dicembre 2018 | Indagini geognostiche e analisi di laboratorio completate | [2] |
 | 12 luglio 2023 | Responsabile nominata per verificare il pagamento alla Sogesid | [5] |
+| 28 aprile 2020 | L'IRSA-CNR consegna le analisi di 12 campioni di acqua sotterranea | [6] |
 | maggio 2026 | L'opuscolo li dichiara "conclusi" | [1] |
+| 8 luglio 2026 | Decreto n. 35: pagati all'IRSA-CNR 16.000 € per quelle analisi | [6] |
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 20, https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
@@ -73,6 +76,12 @@ Il Commissario ha fatto studi e indagini sul Mar Piccolo con accordi con univers
 [4] Commissario straordinario (Prefetto Martino), *Relazione attività commissariali 30/03/2022–1/10/2023*, prot. 56411 del 29/09/2023, ultima pagina, https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Progettodilegge/leg19.com05.Progettodilegge.Altro.PUBBLICO.ideGes.26863.16-01-2024-10-27-10.315.pdf — copia in `fonti/2023-09_commissario-taranto_relazione-fine-mandato-martino.pdf`
 
 [5] Commissario straordinario, decreto n. 40819 del 12/07/2023, https://www1.prefettura.it/FILES/AllegatiPag/1140/decretomodificasogesid-signed.pdf — copia in `fonti/2023-07_commissario-taranto_decreto-40819-proroga-convenzione-sogesid.pdf`
+
+[6] Commissario straordinario per la bonifica di Taranto, *Decreto n. 35 dell'8 luglio 2026*, accordo di collaborazione del 29/01/2015 con Università di Bari e CNR, "Campagna geognostica […] – Analisi di laboratorio sulle acque di falda" condotte dall'IRSA-CNR, liquidazione di 16.000 € (fondi delibera CIPE 87/2012), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-07_commissario-taranto_decreto-35-campagna-geognostica-mar-piccolo.pdf`
+
+[7] Commissario straordinario per la bonifica di Taranto, sito ufficiale, Amministrazione trasparente, *Decreti 2025* (elenco n. 1–31), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2025/ — copia in `fonti/2026-10_commissario-taranto_sito-web-registro-decreti-2025.html`
+
+[8] Commissario straordinario per la bonifica di Taranto, sito ufficiale, Amministrazione trasparente, *Decreti 2026* (elenco n. 1–54, controllato il 7/10/2026), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-10_commissario-taranto_sito-web-elenco-decreti-2026.html`
 
 ## Cosa non sappiamo
 1. **Quanto sono costati** gli accordi, le indagini e il sorvolo. Non verificato.
