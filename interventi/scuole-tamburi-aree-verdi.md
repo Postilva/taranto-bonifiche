@@ -76,7 +76,7 @@ Sono i cortili e le aree verdi (circa 23.650 m²) di tre scuole del quartiere Ta
 6. **Quali ordinanze abbiano limitato l'uso dei giardini delle scuole** del quartiere, citate dalla Commissione parlamentare senza numeri né date [9], e se riguardassero anche queste tre scuole. Nessun atto trovato.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
-**A:** Commissario straordinario per la bonifica di Taranto — la PEC commissario_bonifiche.taranto@pec.governo.it rifiuta la posta ordinaria (provato il 7/10/2026): email ordinaria ad Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (indirizzi della [pagina "Telefono e posta elettronica"](https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/organizzazione/telefono-e-posta-elettronica/), verificata il 7 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Commissario straordinario per la bonifica di Taranto — PEC: commissario_bonifiche.taranto@pec.governo.it (verificata il 7 ottobre 2026 sul sito ufficiale commissari.gov.it/commta; accetta solo messaggi inviati da un'altra PEC).
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Caratterizzazione e analisi di rischio delle aree a verde delle scuole Deledda, De Carolis ed ex D'Aquino (quartiere Tamburi, Taranto)
 >
@@ -93,7 +93,7 @@ Sono i cortili e le aree verdi (circa 23.650 m²) di tre scuole del quartiere Ta
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
-**A:** Regione Puglia — Sezione Ciclo dei rifiuti e bonifiche — email ordinaria ciclorifiutiebonifiche@regione.puglia.it, in copia l'Ufficio relazioni con il pubblico quiregione@regione.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina Trasparenza della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Regione Puglia — Sezione Ciclo dei rifiuti e bonifiche — PEC: serv.rifiutiebonifica@pec.rupar.puglia.it (verificata il 7 ottobre 2026 sulla [pagina Trasparenza della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0)).
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Comprensorio scolastico via Deledda, quartiere Tamburi, Taranto (matrice suolo) – Determinazione n. 145 del 24/06/2016
 >

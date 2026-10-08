@@ -162,7 +162,7 @@ Le fonti indicano quattro motivi:
 10. **Da non confondere.** Nelle tabelle di Ilva compare una "collinetta A5-20" con lavori di "messa in sicurezza permanente": è un intervento AIA dentro lo stabilimento, a quanto pare diverso da questo [2][3]. Da verificare.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
-**A:** Regione Puglia — Sezione Ciclo dei rifiuti e bonifiche — email ordinaria ciclorifiutiebonifiche@regione.puglia.it, in copia l'Ufficio relazioni con il pubblico quiregione@regione.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina Trasparenza della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Regione Puglia — Sezione Ciclo dei rifiuti e bonifiche — PEC: serv.rifiutiebonifica@pec.rupar.puglia.it (verificata il 7 ottobre 2026 sulla [pagina Trasparenza della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0)).
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Collinette ecologiche (ID 16), Taranto – Determinazione dirigenziale n. 249 del 02/12/2024
 >
@@ -181,7 +181,7 @@ Le fonti indicano quattro motivi:
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
-**A:** ARPA Puglia — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (canali indicati per l'accesso ambientale e l'accesso civico generalizzato nella [pagina URP di ARPA](https://www.arpa.puglia.it/pagina2819_urp.html), verificata il 7 ottobre 2026)
+**A:** ARPA Puglia — PEC: info.arpapuglia@pec.rupar.puglia.it (canale indicato per l'accesso ambientale e l'accesso civico generalizzato nella [pagina URP di ARPA](https://www.arpa.puglia.it/pagina2819_urp.html), verificata il 7 ottobre 2026)
 
 > Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – "Collinette ecologiche" del quartiere Tamburi, Taranto (DAP Taranto)
 >
