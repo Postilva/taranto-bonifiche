@@ -1,8 +1,8 @@
 # B8 – Cimitero San Brunone (Taranto): bonifica delle aree non pavimentate
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata all'8 ottobre 2026*
 
 ## In breve
-Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino all'ex Ilva: il terreno dei campi dove si seppelliscono i morti (i "campi di inumazione") e delle aiuole è contaminato [1][2][4]. La bonifica è stata progettata tra il 2015 e il 2018 e i lavori sono iniziati nel maggio 2020, ma si sono fermati dopo tre mesi, e nel 2021 la gara è stata annullata [3]. **Il cimitero non è bonificato e nemmeno messo in sicurezza**: nel 2026 si sta rifacendo il progetto, con un costo stimato di 17,5 milioni €, mentre i soldi disponibili sono circa 9,4 milioni €, e nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha ricevuto nulla [1][3][12].
+Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino all'ex Ilva: il terreno dei campi dove si seppelliscono i morti (i "campi di inumazione") e delle aiuole è contaminato [1][2][4]. La bonifica è stata progettata tra il 2015 e il 2018 e i lavori sono iniziati nel maggio 2020, ma si sono fermati dopo tre mesi, e nel 2021 la gara è stata annullata [3]. **Il cimitero non è bonificato.** Ad agosto 2026 il Commissario scrive che la "messa in sicurezza d'emergenza" dei suoli è "completata" [14], ma nessun altro documento la descrive: risultano solo i lavori interrotti nel 2020, le recinzioni e i teloni sulla terra scavata [3][10][11]. Nel 2026 si sta rifacendo il progetto, con un costo stimato di 17,5 milioni €, mentre i soldi disponibili sono circa 9,4 milioni €, e nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha ricevuto nulla [1][3][12].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto**, che è anche la stazione appaltante [3][7]. Negli anni sono cambiati i commissari: Vera Corbelli fino ad agosto 2020, il Prefetto Demetrio Martino dal 2020 al 2023, Vito Felice Uricchio dal 1° marzo 2024 (incarico prorogato fino al 31/12/2026) [3].
@@ -13,18 +13,21 @@ Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino 
 - **Attenzione:** il cimitero è **fuori dal perimetro del SIN** di Taranto (il "Sito di interesse nazionale" da bonificare), anche se gli sta accanto. È però **nell'elenco degli interventi del SIN di Taranto** [2], ed è per questo che se ne occupa il Commissario per la bonifica di Taranto.
 
 ## Cosa è stato fatto
-**Né bonificato né messo in sicurezza.** I lavori sono iniziati e si sono interrotti dopo circa tre mesi [3].
+**Non bonificato.** I lavori sono iniziati e si sono interrotti dopo circa tre mesi [3].
+
+**Messo in sicurezza? Le fonti non tornano.** La pagina del Commissario sul CIS Taranto (aggiornata ad agosto 2026) dice: "completata la fase di Messa in Sicurezza d'Emergenza (MISE) sui suoli non pavimentati finanziata da risorse MASE e CIPE 55/2016" [14]. Ma il decreto n. 18 di aprile 2026 scrive che l'intervento "risulta interrotto" e parla di "messa in sicurezza" solo per i cumuli di terra coperti con teloni nel 2022 [3]; la Commissione parlamentare sui rifiuti, dopo il sopralluogo del 12 luglio 2022, scrive che la bonifica "deve essere ancora completata" [15]. Non ho trovato nessun atto che approvi o descriva una messa in sicurezza d'emergenza dei campi. Non verificato.
 
 **Le analisi (cosa c'è nel terreno e perché)**
-- Il terreno è stato analizzato (caratterizzazione) e ARPA Puglia ha convalidato i risultati [5]. Le carte oggi le ha il Comune, che le ha mandate al Commissario a febbraio 2026 [3]. Non è scritto chiaramente chi abbia fatto le analisi, né quando. L'analisi di rischio è stata completata ad agosto 2015 e approvata dalla Regione il 12/02/2016 [5].
+- Per l'anagrafe dei siti da bonificare della Regione il procedimento è iniziato nel **2012**, per "deposizione inquinanti su suolo"; ad aprile 2020 il cimitero era tra i "siti contaminati", con il piano di bonifica approvato [17].
+- Il terreno è stato analizzato (caratterizzazione) e ARPA Puglia ha convalidato i risultati [5]. Le carte oggi le ha il Comune, che le ha mandate al Commissario a febbraio 2026 [3]. Non è scritto chiaramente chi abbia fatto le analisi, né quando. L'analisi di rischio è stata completata ad agosto 2015, esaminata in Conferenza di servizi l'11/12/2015 e approvata dalla Regione il 12/02/2016 [5][18].
 - La Regione scrive che il sito è stato "dichiarato contaminato" secondo il Codice dell'ambiente [2].
 - La superficie contaminata è di circa 1,2 ettari (12.000 m²), su un cimitero di circa 181.000 m² [4][8].
-- **Perché:** l'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vicinanza all'ex Ilva [1]. Inoltre le sepolture, rimuovendo di continuo il terreno, hanno portato lo strato inquinato della superficie fino a due metri di profondità [8].
+- **Perché:** l'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vicinanza all'ex Ilva [1]; la Regione, nel 2025, indica "in particolare" le cokerie [16]. Nel sopralluogo del 2022 la Commissione parlamentare ha visto "la colorazione rossastra delle tombe e dei manufatti", effetto delle emissioni dell'acciaieria [15]. Inoltre le sepolture, rimuovendo di continuo il terreno, hanno portato lo strato inquinato della superficie fino a due metri di profondità [8].
 - **Quali sostanze:** in nessun documento ufficiale pubblico ho trovato l'elenco delle sostanze e dei valori misurati. Non verificato (vedi "Cosa non sappiamo").
 
 **Il progetto (2016–2018)**
 - Il progetto prevedeva di scavare e portare via il terreno contaminato, riempire con materiale di cava, sistemare le fosse con lastre o con una copertura isolante (il "capping") e un prato, e rifare le fognature per l'acqua piovana [4][8].
-- Il progetto operativo è stato approvato in Conferenza di servizi il 9 marzo 2017 e dalla Regione Puglia con la determina n. 87 del 3 aprile 2017 [3][5]. È stato poi modificato su richiesta della Soprintendenza (il cimitero è censito tra i beni culturali della Regione [2]) e riapprovato dalla Regione con la determina n. 181 del 17 luglio 2018 [3][5]. **Quindi l'approvazione della Regione di cui parla l'opuscolo [1] è del 2017–2018, non recente.**
+- Il progetto operativo è stato approvato in Conferenza di servizi il 9 marzo 2017 e dalla Regione Puglia con la determina n. 87 del 3 aprile 2017 [3][5]. È stato poi modificato su richiesta della Soprintendenza (il cimitero è censito tra i beni culturali della Regione [2]), riapprovato in Conferenza di servizi il 7 giugno 2018 [18] e dalla Regione con la determina n. 181 del 17 luglio 2018 [3][5]. **Quindi l'approvazione della Regione di cui parla l'opuscolo [1] è del 2017–2018, non recente.**
 - Il progetto esecutivo è stato approvato dal Commissario il 5 ottobre 2018 [3].
 
 **La gara e i lavori (2018–2021)**
@@ -37,7 +40,7 @@ Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino 
 - Il TAR di Lecce ha respinto il ricorso di CISA (sentenza n. 1754 del 2 dicembre 2021) [3]. CISA ha poi chiesto **926.173,95 €** di danni davanti al Tribunale di Bari: la causa è ancora in corso [3][11].
 
 **Dopo lo stop (2022–2023)**
-- Nel cimitero sono rimasti 4 cumuli di terra scavata, circa 1.500 m³, nel campo 15 [10]. A giugno 2022 CISA ha rimesso in sicurezza la tenda e le recinzioni dei campi 15, 19 e 20 [10]. Nell'autunno 2022 CISA ha smontato la tenda e i cumuli sono stati coperti con teloni contro pioggia e odori (lavoro finito il 28/10/2022) [3][10].
+- Nel cimitero sono rimasti 4 cumuli di terra scavata, circa 1.500 m³, nel campo 15 [10]. La Commissione parlamentare, che li ha visti a luglio 2022, parla invece di "circa 3.000 m³", classificati come "rifiuto speciale non pericoloso" [15]. A giugno 2022 CISA ha rimesso in sicurezza la tenda e le recinzioni dei campi 15, 19 e 20 [10]. Nell'autunno 2022 CISA ha smontato la tenda e i cumuli sono stati coperti con teloni contro pioggia e odori (lavoro finito il 28/10/2022) [3][10].
 - A settembre 2022 il Commissario ha affidato le analisi di quei cumuli, per decidere in quale discarica portarli [10]. A settembre 2023 i cumuli erano ancora lì: bisognava progettarne la rimozione, ma il tecnico incaricato è andato in pensione a maggio 2023 e, scrive il Commissario Martino, 'la carenza di personale tecnico' non ha permesso di andare avanti [11]. Dopo il 2023 non ho trovato nessun documento che dica se sono stati portati via. Non verificato.
 
 **La ripartenza (2025–2026)**
@@ -61,8 +64,9 @@ Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino 
   - 6.175.862,58 € dal bilancio 2012 del Ministero dell'Ambiente, già versati sul conto del Commissario [3];
   - 3.201.250,00 € dal Fondo sviluppo e coesione 2014-2020 (delibera CIPE 55/2016) [3].
 - **Quindi mancano circa 8,1 milioni €** rispetto alla stima di 17,5 milioni (calcolo fatto da me: 17,5 − 9,38) [1][3].
+- **I fondi europei persi:** l'intervento era cofinanziato con **3.929.293,74 €** del programma europeo FESR 2014-2020 della Regione Puglia, "poi revocati per incompatibilità con i tempi di attuazione" [16]. Il rischio era noto già a dicembre 2021, quando il responsabile del CIS Taranto stimava 2 milioni in più di fabbisogno se fossero stati tolti i circa 3,9 milioni del programma regionale [15].
 - **Richiesta della Regione (2024):** con la delibera n. 981/2024 la Regione Puglia ha chiesto al Ministero dell'Ambiente 5,9 milioni € dal Fondo sviluppo e coesione 2021-2027 per completare la copertura dei costi, con **priorità "Alta"** [2]. La Regione spiega che la copertura completa era "venuta meno" perché, con i ritardi dovuti ai problemi della gara e dei lavori, i vecchi fondi non si potevano più spendere in tempo [2]. Già nel 2023 il Commissario Martino scriveva che la Regione aveva **revocato la sua quota di finanziamento**, perché dopo i problemi dell'appalto non si poteva prevedere quando sarebbero stati fatti i lavori [11].
-- **Risposta del Ministero (novembre 2025): niente.** Nell'Accordo per la Coesione del Ministero dell'Ambiente (Fondo sviluppo e coesione 2021-2027), per la Puglia sono finanziati solo tre interventi: la falda della centrale di Cerano (Brindisi), la zona PIP di Statte (89,9 milioni €) e l'ex Yard Belleli (7,1 milioni €) [12]. **Il cimitero San Brunone non c'è** [12].
+- **Risposta del Ministero (novembre 2025): niente.** Nell'Accordo per la Coesione del Ministero dell'Ambiente (Fondo sviluppo e coesione 2021-2027), per la Puglia sono finanziati solo tre interventi: la falda della centrale di Cerano (Brindisi), la zona PIP di Statte (89,9 milioni €) e l'ex Yard Belleli (7,1 milioni €) [12]. **Il cimitero San Brunone non c'è** [12]. A dicembre 2025 la Regione lo chiede ancora al Governo: servono "circa 6,5 milioni" in più, stima fatta aggiornando il quadro economico del progetto del 2019 [16].
 - **Stime precedenti:** 13.917.491,35 € nel 2018 [5]; 13.693.169,78 € nel 2019–2020, di cui 6.127.022,20 € di lavori, 4.653.051 € di costi di discarica e 2.913.096,22 € di altre spese [7][8].
 - **OpenCoesione** (dati al 30 giugno 2026, CUP J54G16000010001) [4]:
   | Voce | Importo |
@@ -82,6 +86,7 @@ Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino 
 ## Date principali
 | Data | Cosa succede | Fonte |
 |---|---|---|
+| 2012 | Inizio del procedimento secondo l'anagrafe regionale dei siti da bonificare | [17] |
 | 12 febbraio 2015 | Primo accordo tra Commissario e Comune di Taranto | [5] |
 | agosto 2015 | Completata l'analisi di rischio (le analisi del terreno erano già finite) | [5] |
 | 12 febbraio 2016 | La Regione approva l'analisi di rischio (determina n. 8) | [5] |
@@ -89,6 +94,7 @@ Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino 
 | 2 agosto 2016 | Nuovo accordo con il Comune per accelerare | [5] |
 | 9 marzo 2017 | La Conferenza di servizi approva il progetto operativo di bonifica | [5] |
 | 3 aprile 2017 | La Regione approva il progetto operativo (determina n. 87) | [3] |
+| 7 giugno 2018 | La Conferenza di servizi approva il progetto modificato per la Soprintendenza | [18] |
 | 17 luglio 2018 | La Regione riapprova il progetto modificato dopo il parere della Soprintendenza (determina n. 181) | [3] |
 | 5 ottobre 2018 | Il Commissario approva il progetto esecutivo e avvia la gara | [3] |
 | 14 maggio 2019 | Gara aggiudicata all'ATI CO.GE.A. | [7][11] |
@@ -101,17 +107,21 @@ Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino 
 | 6 maggio 2021 | Il Commissario Martino annulla la gara e l'affidamento | [3][10] |
 | 3 settembre 2021 | Data in cui i lavori sarebbero dovuti finire | [9] |
 | 2 dicembre 2021 | Il TAR respinge il ricorso di CISA | [3] |
+| 7 dicembre 2021 | Il responsabile del CIS Taranto segnala il rischio di perdere circa 3,9 milioni di fondi europei regionali | [15] |
 | 2022 | CISA fa causa per 926.173,95 € di danni al Tribunale di Bari (ancora aperta) | [3][11] |
+| 12 luglio 2022 | Sopralluogo della Commissione parlamentare sui rifiuti | [15] |
 | 27 settembre 2022 | Affidate le analisi dei 1.500 m³ di terra ammucchiata nel campo 15 | [10] |
 | 28 ottobre 2022 | Cumuli coperti con teloni | [3] |
 | settembre 2023 | I cumuli sono ancora nel cimitero; la Regione ha revocato la sua quota di fondi | [11] |
 | 8 luglio 2024 | La Regione mette il cimitero tra le priorità "Alte" e chiede 5,9 milioni € (delibera n. 981) | [2] |
 | 29 luglio 2025 | Accordo generale tra Commissario e Sogesid | [3] |
 | 10 novembre 2025 | Accordo per la Coesione del Ministero: per Taranto finanziati PIP Statte e Yard Belleli, non il cimitero | [12] |
+| 9 dicembre 2025 | La Regione chiede al Governo circa 6,5 milioni € in più per il cimitero | [16] |
 | 8 gennaio 2026 | Sopralluogo di Commissario, Comune e Sogesid | [3] |
 | 20 marzo 2026 | Il Commissario accetta l'offerta di Sogesid per aggiornare il progetto | [3] |
 | 17 aprile 2026 | Decreto n. 18: incarico a Sogesid formalizzato (50 giorni per il progetto) | [3] |
 | maggio 2026 | L'opuscolo stima 17,5 milioni € e annuncia lavori in lotti | [1] |
+| agosto 2026 | Il Commissario scrive che la messa in sicurezza d'emergenza è "completata" | [14] |
 | 31 dicembre 2026 | Scadenza dell'attuale Commissario | [3] |
 
 ## Fonti
@@ -141,51 +151,71 @@ Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino 
 
 [13] Commissario straordinario per la bonifica di Taranto, sito ufficiale, Amministrazione trasparente, *Decreti 2026* (elenco n. 1–54, controllato il 7/10/2026), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-10_commissario-taranto_sito-web-elenco-decreti-2026.html`
 
+[14] Commissario straordinario per la bonifica di Taranto, sito ufficiale, pagina *L'azione della struttura commissariale nell'ambito del CIS Taranto* (aggiornata il 5/08/2026), paragrafo sul Cimitero San Brunone, https://commissari.gov.it/commta/attivita/l-azione-della-struttura-commissariale-nell-ambito-del-cis-taranto/ — copia in `fonti/2026-08_commissario-taranto_sito-web-azione-cis-taranto.html`
+
+[15] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), approvata il 15 settembre 2022, pag. 44 (due diligence del responsabile del CIS Taranto, 7 dicembre 2021) e paragrafo 4.2, pagine 67–68 (sopralluogo al cimitero del 12 luglio 2022) della numerazione della Camera, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
+
+[16] Regione Puglia, *Compensazioni territoriali per Taranto e l'area ionica – Riflessioni e proposte per un confronto con il Governo*, 9 dicembre 2025, pag. 6, punto 2.1 (allegato all'audizione del Presidente della Regione al Senato), https://www.senato.it/application/xmanager/projects/leg19/attachments/documento_evento_procedura_commissione/files/000/435/047/2025_12_9_Presidente_Regione_Puglia_-_Allegato.pdf — copia in `fonti/2025-12_regione-puglia_compensazioni-territoriali-taranto-senato.pdf`
+
+[17] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020), tabella 4 "Siti contaminati", riga 145, pag. 53, https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
+
+[18] Commissario straordinario per la bonifica di Taranto, sito ufficiale (non più online), pagina *Comune di Taranto – Quartiere Tamburi* (stato avanzamento lavori, punto a.2), copia di Internet Archive del 19/09/2020: http://web.archive.org/web/20200919032356/http://www.commissariobonificataranto.it/attivita/avanzamento-fisico-dei-progetti/comune-taranto-quartiere-tamburi-progetti/ — copia in `fonti/2020-09_commissario-taranto_sito-web-avanzamento-progetti-tamburi.pdf`
+
+[19] Commissario straordinario per la bonifica di Taranto, *Decreto n. 30 del 12 maggio 2026* (premesse: Protocollo d'intesa del 28 febbraio 2018 sui fondi FSC 2014-2020 della delibera CIPE 55/2016, pag. 4 del PDF), elenco dei decreti 2026: https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-05_commissario-taranto_decreto-30-vmc-scuole-tamburi.pdf`
+
 ## Cosa non sappiamo
 1. **Quali sostanze ci sono nel terreno, e in che quantità.** Il piano di caratterizzazione, i risultati e l'analisi di rischio esistono (il Comune li ha mandati al Commissario il 2 febbraio 2026) [3], ma non sono pubblicati. Un articolo del *Fatto Quotidiano* del 6 aprile 2013 cita analisi di ARPA Puglia con diossine, benzo(a)pirene, berillio, mercurio e nichel: **è solo un giornale, quindi non verificato**. Da chiedere con FOIA.
-2. **Da quando si sa.** Nei documenti ufficiali la prima data certa è il 2015: le analisi erano già finite prima dell'analisi di rischio di agosto 2015 [5]. Ma sul sito del Comune c'era una gara del 2013 per il "piano della caratterizzazione" dell'area del cimitero (appalto n. 12/2013), e lo stesso articolo del 2013 parla di analisi ARPA chieste a ottobre 2012 e consegnate a febbraio 2013. La pagina del Comune oggi non esiste più (errore 410). **Probabilmente si sa dal 2012–2013, ma non verificato.**
+2. **Da quando si sa.** Per l'anagrafe regionale dei siti da bonificare il procedimento è iniziato nel 2012 [17], ma senza un mese né un atto. La prima data precisa nei documenti ufficiali è il 2015: le analisi erano già finite prima dell'analisi di rischio di agosto 2015 [5]. Ma sul sito del Comune c'era una gara del 2013 per il "piano della caratterizzazione" dell'area del cimitero (appalto n. 12/2013), e lo stesso articolo del 2013 parla di analisi ARPA chieste a ottobre 2012 e consegnate a febbraio 2013. La pagina del Comune oggi non esiste più (errore 410). **L'anno 2012 è confermato dalla Regione [17]; il resto (chi ha fatto le analisi, quando, con quali risultati) non è verificato.**
 3. **L'ordinanza del Comune** che ha vietato l'accesso ai campi di inumazione [4]: numero, data e se è ancora in vigore. Non verificato.
 4. **Controlli sulla salute** di lavoratori del cimitero e visitatori: nessun documento trovato. Non verificato.
-5. **I 1.500 m³ di terra scavata** coperti con teloni nel campo 15 [3][10]: a settembre 2023 erano ancora lì [11]. Ci sono ancora oggi? I teloni erano pensati per una durata "media/breve" [11]. Non verificato.
+5. **La terra scavata** coperta con teloni nel campo 15 [3][10]: circa 1.500 m³ secondo il decreto del 2022 [10], "circa 3.000 m³" secondo la Commissione parlamentare che l'ha vista a luglio 2022 [15]. Quale sia il dato giusto non si sa. A settembre 2023 i cumuli erano ancora lì [11]. Ci sono ancora oggi? I teloni erano pensati per una durata "media/breve" [11]. Non verificato.
 6. **Quanto è stato speso.** OpenCoesione registra solo 21.417,72 € di pagamenti [4], ma CISA ha lavorato da maggio ad agosto 2020 e c'è una "contabilità finale" [3]. Non si sa quanto sia stato pagato, né con quali fondi. C'è anche la causa per danni di CISA (926.173,95 € chiesti), che potrebbe costare altri soldi pubblici [3][11]. Non verificato.
-7. **I 5,9 milioni chiesti dalla Regione** [2] non sono nell'Accordo per la Coesione del Ministero di novembre 2025 [12]. Non si sa se arriveranno da altri fondi, né da dove il Commissario pensi di prendere gli 8,1 milioni che mancano [1][3]. Anche con i 5,9 milioni (9,38 + 5,9 = 15,28) ne mancherebbero circa 2,2 [1][2][3]. Non verificato.
+7. **I 5,9 milioni chiesti dalla Regione** [2] non sono nell'Accordo per la Coesione del Ministero di novembre 2025 [12]. Non si sa se arriveranno da altri fondi, né da dove il Commissario pensi di prendere gli 8,1 milioni che mancano [1][3]. Anche con i 5,9 milioni (9,38 + 5,9 = 15,28) ne mancherebbero circa 2,2 [1][2][3]. Le cifre di quanto manca non coincidono: 5,9 milioni per la Regione nel 2024 [2], "circa 6,5 milioni" per la Regione a dicembre 2025 [16], circa 8,1 milioni facendo il conto con la stima dell'opuscolo [1][3]. Non verificato.
 8. **Perché il costo è passato da circa 13,7–13,9 milioni (2018–2020) a 17,5 milioni** [1][5][8]. L'opuscolo non lo spiega. Non verificato.
-9. **I fondi del Fondo sviluppo e coesione non tornano:** 3.250.000 € su OpenCoesione [4], 3.201.250 € nel decreto del 2026 [3]. La differenza (48.750 €) potrebbe essere già spesa, ma nessuna fonte lo dice. Il "Fondo di rotazione" da 9,26 milioni indicato su OpenCoesione [4] non compare tra i soldi disponibili nel 2026 [3]: forse corrisponde alla quota regionale revocata [2][11]. Non verificato.
+9. **I fondi del Fondo sviluppo e coesione non tornano:** 3.250.000 € su OpenCoesione [4] e nel Protocollo d'intesa del 28 febbraio 2018 [19], 3.201.250 € nel decreto del 2026 [3]. La differenza (48.750 €) potrebbe essere già spesa, ma nessuna fonte lo dice. Il "Fondo di rotazione" da 9,26 milioni indicato su OpenCoesione [4] non compare tra i soldi disponibili nel 2026 [3]: La Regione dice che la sua quota revocata era di 3.929.293,74 € di fondi europei FESR 2014-2020 [16]: non è chiaro come si colleghi ai 9,26 milioni di OpenCoesione. Non verificato.
 10. **Il progetto aggiornato di Sogesid** doveva essere consegnato in 50 giorni, cioè intorno all'inizio di giugno 2026 [3]. Non ho trovato nessun documento che dica se sia stato consegnato, né quando partiranno le gare dei lotti. Di sicuro non è stato approvato con un decreto pubblicato: dopo il n. 18 non c'è nessun altro decreto sul cimitero fino al n. 54 del 2 ottobre 2026 [13]. Non verificato.
 11. **Piccole incongruenze nei documenti ufficiali:**
     - il decreto di aggiudicazione del 2019 è il "n. 115 del 14.5.2019" secondo i documenti del 2023 e del 2026 [3][11], ma "n. 156 del 14.05.19" secondo il vecchio sito del Commissario [7][8];
     - il decreto del 2026 data l'accordo con Sogesid a volte "29.07.2025", a volte "29.07.2026" [3] (quella giusta è con ogni probabilità il 2025, perché il decreto è di aprile 2026);
-    - nella delibera regionale il CUP è scritto senza la "J" iniziale [2].
+    - nella delibera regionale il CUP è scritto senza la "J" iniziale [2];
+    - la Commissione parlamentare scrive che il cimitero "è inclusa nel SIN di Taranto" [15], mentre la Regione lo indica fuori dal perimetro, tra le aree da aggiungere [2][16].
 12. **Documenti non trovati online:** le determine della Regione n. 8/2016, n. 87/2017 e n. 181/2018 [3][5] non sono sul Bollettino ufficiale della Regione. Le schede tecniche del progetto sul vecchio sito del Commissario non sono state salvate da Internet Archive (ricontrollato il 1/10/2026). Anche la revoca dei fondi da parte della Regione [11] non l'ho trovata come atto.
+13. **La messa in sicurezza d'emergenza "completata"** [14]: quando è stata fatta, con quale atto, su quali campi e con quanta spesa. Nessun decreto pubblicato, né il decreto n. 18 del 2026 [3], ne parla. Non verificato.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Commissario straordinario per gli interventi urgenti di bonifica, ambientalizzazione e riqualificazione dell'area di Taranto — PEC: commissario_bonifiche.taranto@pec.governo.it (indirizzo verificato sul sito ufficiale commissari.gov.it il 30/09/2026)
+### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC commissario_bonifiche.taranto@pec.governo.it rifiuta la posta ordinaria (provato il 7/10/2026): email ordinaria ad Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (indirizzi della [pagina "Telefono e posta elettronica"](https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/organizzazione/telefono-e-posta-elettronica/), verificata il 7 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) e di accesso all'informazione ambientale (D.Lgs. 195/2005) – Bonifica aree non pavimentate del Cimitero San Brunone, CUP J54G16000010001
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Bonifica aree non pavimentate del Cimitero San Brunone, CUP J54G16000010001 – Decreto n. 18 del 17/04/2026
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. il piano di caratterizzazione, i risultati delle analisi (con le sostanze trovate e i valori misurati) e l'analisi di rischio del sito, trasmessi dal Comune di Taranto con nota prot. n. 0024829/2026 del 02.02.2026;
-> 2. la contabilità finale dei lavori eseguiti da CISA S.p.A. fino al 21 agosto 2020, lo stato del contenzioso civile R.G. 13784/2022 presso il Tribunale di Bari, e l'elenco dei pagamenti effettuati per l'intervento, con importi, date e fonte di finanziamento;
-> 3. le informazioni sulla destinazione dei circa 1.500 m³ di terreno stoccati nel campo di inumazione n. 15 (esiti delle analisi affidate con decreto n. 55482 del 27.09.2022, data dell'eventuale smaltimento);
-> 4. il progetto esecutivo aggiornato consegnato da Sogesid S.p.A. (decreto n. 18 del 17.04.2026), la stima del costo di 17,5 milioni € con la sua suddivisione in lotti e il cronoprogramma delle gare;
-> 5. l'elenco aggiornato delle risorse disponibili e di quelle richieste per coprire il costo stimato di 17,5 milioni €, considerato che l'intervento non risulta tra quelli finanziati dall'Accordo per la Coesione MASE 2021-2027 (pur indicato come prioritario nella DGR Puglia n. 981/2024);
-> 6. le eventuali misure adottate per tutelare la salute dei lavoratori del cimitero e dei visitatori.
+> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti relativi all'intervento "Bonifica delle aree non pavimentate del Cimitero San Brunone" (CUP J54G16000010001):
+>
+> 1. **Contaminazione.** Il piano di caratterizzazione, i risultati delle analisi (sostanze trovate e valori misurati) e l'analisi di rischio sito specifica, trasmessi dal Comune di Taranto con nota prot. n. 0024829/2026 del 02/02/2026.
+> 2. **Messa in sicurezza d'emergenza.** Gli atti sulla "Messa in Sicurezza d'Emergenza (MISE) sui suoli non pavimentati", indicata come "completata" nella pagina "L'azione della struttura commissariale nell'ambito del CIS Taranto" (aggiornata al 5/08/2026): atto di approvazione o affidamento, data di conclusione, campi interessati e spesa.
+> 3. **Terreno scavato.** Gli esiti delle analisi affidate con decreto n. 55482 del 27/09/2022, il volume effettivo dei cumuli nel campo n. 15 (circa 1.500 m³ nel decreto del 2022, circa 3.000 m³ nella relazione della Commissione parlamentare sui rifiuti del 15/09/2022) e, se avvenuto, la data e la destinazione dello smaltimento.
+> 4. **Spese.** La contabilità finale dei lavori eseguiti da CISA S.p.A. fino al 21/08/2020 e l'elenco dei pagamenti effettuati per l'intervento, con importi, date e fonte di finanziamento.
+> 5. **Progetto aggiornato.** Il progetto esecutivo aggiornato consegnato da Sogesid S.p.A. ai sensi del decreto n. 18 del 17/04/2026 (o, se non consegnato, lo stato dell'incarico), con la stima di 17,5 milioni €, la suddivisione in lotti e il cronoprogramma delle gare.
+> 6. **Copertura finanziaria.** Il quadro aggiornato delle risorse disponibili e delle richieste fatte per coprire la differenza rispetto ai 9.377.112,58 € indicati nel decreto n. 18/2026.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
 
-*Per l'ordinanza di divieto di accesso ai campi e per le analisi del 2012–2013 c'è una richiesta separata al Comune, qui sotto.*
+### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
+**A:** Comune di Taranto — email ordinaria dell'Ufficio relazioni con il pubblico comunicazione.urp@comune.taranto.it, in copia la Direzione Ambiente, Salute e Qualità della Vita (che gestisce i servizi cimiteriali) ambiente@comune.taranto.it (indirizzi verificati l'8 ottobre 2026 sul sito ufficiale comune.taranto.it: piè di pagina e [pagina della Direzione Ambiente](https://www.comune.taranto.it/it/unita_organizzative/18598); l'art. 5 c. 3 D.Lgs. 33/2013 ammette la richiesta all'URP). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
-### Bozza di richiesta di accesso civico al Comune — da inviare tu
-**A:** Comune di Taranto, Direzione Ambiente, Salute e Qualità della Vita – Servizi cimiteriali — PEC: protocollo.comunetaranto@pec.rupar.puglia.it (indirizzo verificato sul sito ufficiale comune.taranto.it, pagina "Servizi cimiteriali", il 1/10/2026)
-
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) e di accesso all'informazione ambientale (D.Lgs. 195/2005) – Contaminazione dei suoli del Cimitero San Brunone
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Contaminazione dei suoli del Cimitero San Brunone, quartiere Tamburi (CUP J54G16000010001)
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. le ordinanze sindacali o dirigenziali che hanno sospeso le inumazioni e/o vietato l'accesso del pubblico ai campi di inumazione del Cimitero San Brunone (in particolare i campi n. 9, 15, 19, 20, 28, 29 e 36), con l'indicazione di quali sono ancora in vigore;
-> 2. gli esiti delle analisi sui suoli del cimitero richieste dal Comune ad ARPA Puglia (ottobre 2012 – febbraio 2013), il piano di caratterizzazione con i relativi risultati e l'analisi di rischio sito specifica (la stessa documentazione trasmessa al Commissario straordinario con nota prot. n. 0024829/2026 del 02.02.2026);
-> 3. gli atti della procedura "Area cimitero San Brunone nel quartiere Tamburi – Piano della caratterizzazione – Esecuzione del piano della caratterizzazione" (Appalto n. 12/2013, CIG 53122775A8): aggiudicazione, importo e data di conclusione;
-> 4. le misure adottate per tutelare la salute del personale cimiteriale e dei visitatori (dispositivi di protezione, valutazioni dei rischi, eventuali controlli sanitari).
+> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti relativi al Cimitero San Brunone, quartiere Tamburi:
+>
+> 1. **Divieti di accesso.** Le ordinanze sindacali o dirigenziali che hanno sospeso le inumazioni e/o vietato l'accesso del pubblico ai campi di inumazione contaminati, con l'indicazione di quelle ancora in vigore.
+> 2. **Analisi.** Gli esiti delle analisi sui suoli del cimitero, il piano di caratterizzazione con i risultati e l'analisi di rischio sito specifica (la documentazione trasmessa al Commissario straordinario con nota prot. n. 0024829/2026 del 02/02/2026).
+> 3. **Caratterizzazione del 2013.** Gli atti della procedura "Area cimitero San Brunone nel quartiere Tamburi – Piano della caratterizzazione – Esecuzione del piano della caratterizzazione" (Appalto n. 12/2013, CIG 53122775A8): aggiudicazione, importo e data di conclusione.
+> 4. **Salute.** Le misure adottate per tutelare il personale cimiteriale e i visitatori (valutazione dei rischi, dispositivi di protezione, eventuali controlli sanitari).
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
