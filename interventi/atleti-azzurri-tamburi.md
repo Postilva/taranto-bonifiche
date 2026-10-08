@@ -1,8 +1,8 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata all'8 ottobre 2026*
 
 ## In breve
-L'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 502) è nel quartiere Tamburi, e il Comune di Taranto vuole rifarlo con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3]. Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA (idrocarburi policiclici aromatici) oltre i limiti di legge e l'ha comunicato agli enti il 13 maggio 2024 [3]. **Il sito non è bonificato né messo in sicurezza**: nell'ottobre 2025 il Commissario ha dato 86.876,20 € al Comune solo per fare le analisi complete e l'analisi di rischio, e nel maggio 2026 l'opuscolo del Commissario dice che i prelievi sono iniziati [1][2].
+L'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 502) è nel quartiere Tamburi, e il Comune di Taranto vuole rifarlo con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3]. Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA (idrocarburi policiclici aromatici) oltre i limiti di legge e l'ha comunicato agli enti il 13 maggio 2024 [3]. **Il sito non è bonificato né messo in sicurezza**: nell'ottobre 2025 il Commissario ha dato 86.876,20 € al Comune solo per fare le analisi complete e l'analisi di rischio, e nel maggio 2026 l'opuscolo del Commissario dice che i prelievi sono iniziati [1][2]. A gennaio 2026 il Responsabile del CIS aveva annunciato la fine delle analisi "entro il prossimo marzo" e subito dopo la messa in sicurezza permanente [9]; a fine giugno 2026 il Commissario le descrive ancora "in via di completamento" [10]. Nessun risultato è pubblico.
 
 ## Chi se ne occupa
 - Il **Comune di Taranto** è il proprietario dei terreni, ha trovato la contaminazione, ha presentato il piano delle analisi e ha avviato la gara per eseguirlo [2][3].
@@ -35,10 +35,13 @@ L'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 5
 - Il decreto commissariale n. 23 del 3 ottobre 2025 concede e impegna 86.876,20 € al Comune di Taranto per eseguire il piano e fare l'analisi di rischio [2][7].
 - I soldi vengono dalle economie (242.873,13 € in tutto) dell'intervento "Riqualificazione delle aree esterne alle scuole del quartiere Tamburi", finanziato con fondi del Ministero dell'Ambiente del 2012 [2].
 - Il decreto scrive che la gara del Comune per il servizio era "in fase di aggiudicazione" e che 86.876,20 € è il costo con IVA [2].
+- Il 30 gennaio 2026, al vertice in Prefettura, il Responsabile del CIS ha detto che "la fase di caratterizzazione giungerà a compimento entro il prossimo marzo, prefigurando l'immediato avvio degli interventi di messa in sicurezza permanente" [9].
 - L'opuscolo di maggio 2026 dice che "i campionamenti per la caratterizzazione sono già iniziati" [1]. Non dice la data di inizio [1].
+- La pagina del Commissario sulla collaborazione con il Comune (aggiornata a fine giugno 2026) descrive la caratterizzazione dell'impianto, "Q.re Tamburi Via Deledda", come "in via di completamento e propedeutica alla successiva attività di bonifica" [10]. Quindi la scadenza di marzo annunciata dal Responsabile del CIS non è stata rispettata [9][10].
+- La pagina del Commissario sul CIS Taranto (aggiornata ad agosto 2026) scrive che la caratterizzazione riguarda "circa 70.000 mq" dell'impianto [11].
 
 **Il progetto di riqualificazione**
-- L'opuscolo spiega che l'obiettivo è la "demolizione e ricostruzione integrale del complesso sportivo esistente" (circa 150.200 m² "totali di standard urbanistico") [1]. Il decreto parla di "ammodernamento del campo sportivo" [2].
+- L'opuscolo spiega che l'obiettivo è la "demolizione e ricostruzione integrale del complesso sportivo esistente" (circa 150.200 m² "totali di standard urbanistico") [1]. La pagina del Commissario sul CIS distingue le due superfici: circa 70.000 m² per le analisi, 150.200 m² per la demolizione e ricostruzione del complesso [11]. Il decreto parla di "ammodernamento del campo sportivo" [2].
 - Il progetto fa parte dell'intervento CIS "Riqualificazione impianti sportivi per la rigenerazione del quartiere Tamburi – Sottoprogetto 2, codice 2.21.1.B7 – Impianti sportivi (Lotto 1)" del Comune [2][3].
 - OpenCoesione (dati al 30 giugno 2026) mette il Lotto 1 in fase di "progettazione definitiva", con fine prevista al 31/12/2025, senza lavori iniziati [4].
 
@@ -66,7 +69,9 @@ L'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 5
 | 15 luglio 2025 | Il Commissario dà la disponibilità a trovare i fondi (nota COMMTA-314) | [2] |
 | 24 settembre 2025 | Nulla osta del Ministero dell'Ambiente | [2] |
 | 3 ottobre 2025 | Decreto commissariale n. 23: 86.876,20 € al Comune | [2][7] |
+| 30 gennaio 2026 | Vertice in Prefettura: il Responsabile del CIS annuncia la fine delle analisi entro marzo 2026 | [9] |
 | maggio 2026 | L'opuscolo dice che i campionamenti sono iniziati | [1] |
+| fine giugno 2026 | Il Commissario scrive che le analisi sono "in via di completamento" | [10] |
 | 30 giugno 2026 | Dati OpenCoesione: Lotto 1 ancora in progettazione definitiva | [4] |
 
 ## Fonti
@@ -86,44 +91,51 @@ L'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 5
 
 [8] Commissario straordinario per la bonifica di Taranto, sito ufficiale, Amministrazione trasparente, *Decreti 2026* (elenco n. 1–54, controllato il 7/10/2026), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-10_commissario-taranto_sito-web-elenco-decreti-2026.html`
 
+[9] Commissario straordinario per la bonifica di Taranto, notizia *Il risanamento ambientale di Taranto al centro del vertice in Prefettura*, 30 gennaio 2026, https://commissari.gov.it/commta/news/il-risanamento-ambientale-di-taranto-al-centro-del-vertice-in-prefettura/ — copia in `fonti/2026-01_commissario-taranto_vertice-prefettura.pdf`
+
+[10] Commissario straordinario, sito ufficiale, pagina *Collaborazione con il Comune di Taranto su progettualità presentate nell'ambito del JTF* (aggiornata 26/06/2026), https://commissari.gov.it/commta/attivita/altre-attivita/collaborazione-con-il-comune-di-taranto-su-progettualita-presentate-nell-ambito-del-jtf/ — copia in `fonti/2026-06_commissario-taranto_sito-web-collaborazione-comune-jtf-sea-hub.html`
+
+[11] Commissario straordinario, sito ufficiale, pagina *L'azione della struttura commissariale nell'ambito del CIS Taranto* (aggiornata 5/08/2026), https://commissari.gov.it/commta/attivita/l-azione-della-struttura-commissariale-nell-ambito-del-cis-taranto/ — copia in `fonti/2026-08_commissario-taranto_sito-web-azione-cis-taranto.html`
+
 ## Cosa non sappiamo
 1. **Che cosa c'è esattamente nel terreno.** Sappiamo solo che piombo e IPA superano i limiti [3]. Non abbiamo né i valori, né le profondità, né la data delle analisi di maggio 2024 o prima [3]. Non verificato.
 2. **Da quanto tempo si sa.** La prima data certa è il 13 maggio 2024 [3]. Non sappiamo se ci fossero analisi più vecchie. Non verificato.
 3. **Se l'impianto era usato da persone o bambini, e quando è stato chiuso.** L'unico dato ufficiale è che oggi è in "interdizione cautelativa" [3]. L'atto di chiusura (chi, quando, perché) non l'ho trovato. Alcuni giornali scrivono che il campo era chiuso da tempo per altri motivi e che i ragazzi vi giocavano: **non verificato**.
-4. **A che punto sono le analisi.** L'opuscolo dice che sono iniziate [1] ma non quando, e non c'è ancora nessun risultato pubblico. Non sappiamo chi ha vinto la gara del Comune [2]; l'anticipo, al 2 ottobre 2026, non risulta pagato [8].
-5. **Date che non tornano.** L'opuscolo data il decreto commissariale al 2 ottobre 2025 [1], ma il decreto e l'elenco ufficiale dicono 3 ottobre 2025 [2][7]. Nella determinazione regionale la conferenza dei servizi risulta convocata una volta il 9 giugno 2025 e una volta il 24 marzo 2025 [3]. Sono probabilmente errori di scrittura, ma non lo so con certezza.
-6. **La superficie.** L'opuscolo scrive "circa 150.200 m²" [1]. Non so se è l'area di questa particella o dell'intero progetto: nessun atto ufficiale lo specifica. Non verificato.
+4. **A che punto sono le analisi.** L'opuscolo dice che sono iniziate [1] ma non quando. Dovevano finire entro marzo 2026 [9], a fine giugno erano "in via di completamento" [10], e non c'è ancora nessun risultato pubblico. Non sappiamo chi ha vinto la gara del Comune [2]; l'anticipo, al 2 ottobre 2026, non risulta pagato [8].
+5. **Date che non tornano.** L'opuscolo e la pagina sul CIS datano il decreto commissariale al 2 ottobre 2025 [1][11], ma il decreto e l'elenco ufficiale dicono 3 ottobre 2025 [2][7]. Nella determinazione regionale la conferenza dei servizi risulta convocata una volta il 9 giugno 2025 e una volta il 24 marzo 2025 [3]. Sono probabilmente errori di scrittura, ma non lo so con certezza.
+6. **La superficie.** Il Commissario scrive circa 70.000 m² per le analisi e 150.200 m² per il progetto di demolizione e ricostruzione [1][11]. Nessun atto (decreto, determinazione) indica la superficie della particella 502: il dato viene solo dalle pagine informative del Commissario.
 7. **Gli atti del Comune di Taranto sul progetto di demolizione e ricostruzione.** Non ho trovato le delibere o le determine sul sito del Comune; quello che so del progetto viene dagli atti del Commissario e della Regione [1][2][3]. Sulle notizie dei giornali (approvazione del progetto definitivo, costi): non verificato.
 8. **Il legame con i Giochi del Mediterraneo 2026.** Nessun atto ufficiale che ho letto collega questo impianto ai Giochi [1][2][3]. L'impianto non compare nell'elenco dei progetti sul sito del Commissario dei Giochi, ma quell'elenco potrebbe non essere completo [6]. Non verificato.
 9. **I soldi della riqualificazione non tornano del tutto.** Su OpenCoesione i due lotti hanno lo stesso numero di progetto (CUP) [4][5]. L'intervento risulta ancora in progettazione dopo la data di fine lavori prevista (31/12/2025) [4]. Non so se e come i tempi siano stati cambiati. Non verificato.
-10. **Cosa succederà dopo le analisi.** Se serviranno bonifica o messa in sicurezza, quanto costeranno e chi pagherà: nessun atto lo dice [2][3].
+10. **Cosa succederà dopo le analisi.** Il Responsabile del CIS ha parlato di "messa in sicurezza permanente" subito dopo le analisi [9], ma nessun atto lo prevede: se serviranno bonifica o messa in sicurezza, quanto costeranno e chi pagherà, non lo dice nessun atto [2][3].
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
-**A:** Comune di Taranto — PEC: protocollo.comunetaranto@pec.rupar.puglia.it (indirizzo scritto nel decreto commissariale n. 23/2025 [2] e già verificato sul sito del Comune per la scheda B8; da ricontrollare prima dell'invio)
+**A:** Comune di Taranto — email ordinaria dell'Ufficio relazioni con il pubblico comunicazione.urp@comune.taranto.it, in copia la Direzione Ambiente ambiente@comune.taranto.it (indirizzi verificati l'8 ottobre 2026 sul sito ufficiale comune.taranto.it: piè di pagina e [pagina della Direzione Ambiente](https://www.comune.taranto.it/it/unita_organizzative/18598); l'art. 5 c. 3 D.Lgs. 33/2013 ammette la richiesta all'URP). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) e di accesso all'informazione ambientale (D.Lgs. 195/2005) – Impianto sportivo "Atleti Azzurri d'Italia", quartiere Tamburi (Foglio 203, particella 502)
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Impianto sportivo "Atleti Azzurri d'Italia", quartiere Tamburi (Foglio 203, particella 502) – CUP E53B19000020001, CIG B814D04423
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. le analisi e le relazioni delle indagini preliminari sullo stato delle strutture da cui è emerso il superamento delle CSC per piombo e IPA (nota di comunicazione prot. n. 6183/2024 del 13/05/2024), con i valori misurati, le profondità e le date dei prelievi;
-> 2. il Piano di caratterizzazione (Rev 01/2025, pec prot. n. 0066359/2025) e i pareri di ARPA Puglia;
-> 3. l'atto con cui l'accesso all'impianto è stato interdetto o l'impianto è stato chiuso (ordinanza o altro), con data e motivazione, e la data dell'ultimo utilizzo pubblico dell'impianto;
-> 4. gli atti della gara per il servizio di esecuzione del Piano di caratterizzazione e analisi di rischio (CIG B814D04423): aggiudicazione, ditta, importo, contratto, data di inizio dei prelievi e stato di avanzamento;
-> 5. le delibere e gli atti di approvazione del progetto di demolizione e ricostruzione dell'impianto (CUP E53B19000020001) e il cronoprogramma aggiornato dei lavori;
-> 6. ogni atto da cui risulti un collegamento dell'impianto con i XX Giochi del Mediterraneo Taranto 2026;
-> 7. le eventuali misure a tutela della salute di chi ha frequentato l'impianto.
+> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti relativi all'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 502), quartiere Tamburi:
+> 1. **Prime analisi.** I rapporti di prova delle indagini preliminari da cui è emerso il superamento delle CSC per piombo e IPA nel suolo, comunicato con la nota prot. n. 6183/2024 del 13/05/2024 (valori misurati, profondità, punti e date dei prelievi, laboratorio).
+> 2. **Caratterizzazione.** Per il servizio di esecuzione del Piano di caratterizzazione e dell'analisi di rischio (CIG B814D04423): il provvedimento di aggiudicazione, il contratto, la data di inizio dei prelievi e, se disponibili, i risultati della caratterizzazione e l'analisi di rischio trasmessi agli enti.
+> 3. **Chiusura dell'impianto e salute.** L'atto con cui è stata disposta l'"interdizione cautelativa" dell'impianto (data e motivazione), la data dell'ultimo utilizzo pubblico e le eventuali misure adottate a tutela di chi lo ha frequentato.
+> 4. **Progetto.** Il cronoprogramma aggiornato dell'intervento "Riqualificazione impianti sportivi per la rigenerazione del quartiere Tamburi – Lotto 1" (CUP E53B19000020001) e l'atto di approvazione dell'ultimo livello di progetto.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
-**A:** Commissario straordinario per gli interventi urgenti di bonifica, ambientalizzazione e riqualificazione dell'area di Taranto — PEC: commissario_bonifiche.taranto@pec.governo.it (indirizzo verificato sul sito ufficiale commissari.gov.it/commta il 6/10/2026)
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC commissario_bonifiche.taranto@pec.governo.it rifiuta la posta ordinaria (provato il 7/10/2026): email ordinaria ad Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (indirizzi della [pagina "Telefono e posta elettronica"](https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/organizzazione/telefono-e-posta-elettronica/), verificata il 7 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – Decreto n. 23 del 03/10/2025, contributo di 86.876,20 € al Comune di Taranto (Foglio 203, particella 502)
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Decreto n. 23 del 03/10/2025, contributo di 86.876,20 € al Comune di Taranto per la caratterizzazione del sito Foglio 203, particella 502 (CIG B814D04423 – CUP E53B19000020001)
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. le note prot. COMMTA-0000314-P-15072025 e COMMTA-0000408-P-18092025 e il nulla osta della DG ECB del MASE prot. 0174545 del 24/09/2025;
-> 2. le domande di anticipazione e di saldo presentate dal Comune di Taranto, con i documenti di affidamento, e i pagamenti effettuati con date e importi;
-> 3. la comunicazione della data di avvio effettivo dell'intervento da parte del RUP (come richiesto dal decreto) e le eventuali relazioni sui risultati dei campionamenti.
+> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti relativi al contributo concesso con il decreto n. 23 del 03/10/2025:
+> 1. **Pagamenti.** La domanda di anticipazione del Comune di Taranto con i documenti allegati (provvedimento di aggiudicazione, quadro economico rideterminato) e gli eventuali atti di pagamento, con date e importi.
+> 2. **Avvio e risultati.** La comunicazione del RUP sulla data di avvio effettivo dell'intervento, prevista dal decreto, e le relazioni o i risultati della caratterizzazione ricevuti dal Comune. Nella pagina "Collaborazione con il Comune di Taranto su progettualità presentate nell'ambito del JTF" la caratterizzazione risulta "in via di completamento"; al vertice in Prefettura del 30/01/2026 se ne annunciava la conclusione entro marzo 2026.
+> 3. **Atti preparatori.** Le note prot. COMMTA-0000314-P-15072025 e COMMTA-0000408-P-18092025 e il nulla osta della DG ECB del MASE prot. 0174545 del 24/09/2025.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
