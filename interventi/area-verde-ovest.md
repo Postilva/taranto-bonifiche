@@ -1,5 +1,5 @@
 # A8 – Area a verde ovest (lungo la strada provinciale per Statte)
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata all'8 ottobre 2026*
 
 ## In breve
 È un terreno incolto di circa 6,8 ettari (come 9-10 campi da calcio), rimasto a Ilva in amministrazione straordinaria, nel Comune di Statte, tra la fabbrica e la zona artigianale (PIP) di Statte, lungo la strada provinciale 48 [4][5][8]. Le analisi del 2021 hanno trovato nella metà ovest del terreno PCB, metalli (tallio, cadmio, zinco, piombo), idrocarburi, diossine e solventi oltre i limiti per le aree verdi, e la stessa analisi di rischio di Ilva conclude che il terreno è **contaminato** [5]. **Non è stato bonificato né messo in sicurezza**: l'analisi di rischio del 2023 è stata respinta e va rifatta, nel 2025 sono stati trovati materiali di riporto fino a 21 metri di profondità, e il terreno non è recintato e ha rifiuti abbandonati al confine nord [10][12][17][18][1].
@@ -16,11 +16,11 @@
 
 - **Prime analisi nel 2005**: 25 sondaggi, tutti nei limiti allora usati (quelli per le aree industriali); nell'acqua sotterranea, nel 2006 piombo e manganese oltre i limiti, nel 2016 solo un po' di manganese [4][5].
 - **Piano delle analisi** (piano di caratterizzazione): approvato dal Ministero con il **decreto n. 16 del 27 gennaio 2021**, con 14 prescrizioni. Tra queste: almeno 3 pozzi per controllare l'acqua sotterranea, controlli col georadar per via del metanodotto, e la richiesta ai Comuni di Taranto e Statte di dire quale uso urbanistico considerare [3]. Il decreto chiedeva di consegnare risultati e analisi di rischio **entro sei mesi** [3]: sono arrivati **dopo oltre due anni**, il 1° marzo 2023 [6].
-- **Analisi sul posto**, luglio–novembre 2021, con ARPA presente: 9 sondaggi (fino a 20 m, uno fino a 50 m per un nuovo pozzo di controllo), 13 campioni di terreno, 5 campioni dello strato superficiale ("top soil"), campioni d'acqua da 3 pozzi [5]. ARPA ha validato i risultati con note del 4 novembre e 14 dicembre 2022 [5][1].
+- **Analisi sul posto**, luglio–novembre 2021, con ARPA presente: 9 sondaggi (fino a 20 m, uno fino a 50 m per un nuovo pozzo di controllo), 13 campioni di terreno, 5 campioni dello strato superficiale ("top soil"), campioni d'acqua da 3 pozzi [5]. ARPA ha validato i risultati con note del 4 novembre e 14 dicembre 2022 [5][1]. Nella prima validazione ARPA ha confrontato **tutta l'area** con i limiti per le aree verdi; il 6 dicembre 2022 Ilva le ha chiesto un confronto anche con i limiti industriali, perché il Comune di Statte non aveva ancora detto quale uso vale [20].
 - **Cosa hanno trovato** (vedi sotto, domanda 2) [5][8].
 - **Analisi di rischio**, inviata il 1° marzo 2023 [6]. INAIL non ha trovato problemi per i lavoratori, ma ha chiesto che chi fa manutenzione nella parte ovest usi protezioni per non toccare il terreno con la pelle [7]. ARPA e ISPRA hanno invece contestato il metodo: con ipotesi più prudenti, e considerando persone che frequentano l'area per svago invece che solo lavoratori, "emergono rischi superiori ai limiti tollerabili" (per esempio per alcuni metalli) [8][9].
 - **Analisi di rischio respinta e da rifare**: il 15 maggio 2023 il Ministero ha scritto che le richieste degli enti impedivano l'approvazione [10]. Il 9 giugno 2023 Ilva ha risposto che ne presenterà una nuova, dopo aver aggiunto pozzi di controllo e controllato l'acqua per un anno [11]. Il 16 giugno 2023 il Ministero ne ha preso atto e ha annunciato l'archiviazione della pratica [12].
-- **Nuovi pozzi di controllo**: a novembre 2023 ARPA ha approvato la posizione di 5 nuovi pozzi (PZ4–PZ8), tenendo conto della fascia di rispetto del metanodotto SNAM [13]. Il 13 novembre 2023 il Ministero ha chiesto a Ilva di procedere [17]. A novembre 2025 i lavori erano in corso [18]; secondo Ilva la rete di pozzi è stata completata a dicembre 2025 [1].
+- **Nuovi pozzi di controllo**: a novembre 2023 ARPA ha approvato la posizione di 5 nuovi pozzi (PZ4–PZ8), tenendo conto della fascia di rispetto del metanodotto SNAM [13]. Il 13 novembre 2023 il Ministero ha chiesto a Ilva di procedere [17]. Il Comune di Statte ha approvato la posizione dei pozzi il 19 marzo 2024 e SNAM ha dato il nulla osta il 23 aprile 2024 [22]. A novembre 2025 i lavori erano in corso [18]; secondo Ilva la rete di pozzi è stata completata a dicembre 2025 [1].
 - **Sorpresa a novembre 2025**: scavando il pozzo PZ8, fino a 21,1 m di profondità è uscito solo **materiale di riporto "di chiara origine antropica"** (cioè portato dall'uomo: tra l'altro un pezzo di laterizio, un oggetto ferroso, livelli neri, rossastri e verdastri) [18]. Nelle analisi del 2021 il riporto arrivava al massimo a circa 6 m [18]. Per questo ARPA chiede un **nuovo piano di indagini** prima di qualsiasi nuova analisi di rischio [17][18].
 - **Oggi** Ilva fa solo lo sfalcio delle fasce tagliafuoco [1]. Ha in programma la recinzione e la rimozione dei rifiuti, entrambe ancora da fare [1].
 
@@ -49,8 +49,13 @@ Il terreno è stato confrontato con due limiti diversi: quelli per le **aree ver
 ### 3. Chi lo frequenta?
 - **Secondo INAIL** l'area "non è frequentata, eccetto che per rari interventi di manutenzione" [7]. Non ci sono case né edifici vicini [5].
 - **Ma non è recintata.** Già nel 2020 Ilva scriveva che l'area era "priva di recinzioni" e soggetta ad abbandono di rifiuti [4]. Nel 2023 Ilva ha scritto che il sito "è precluso all'accesso" di estranei [11]; ARPA ha risposto che **non è interamente recintato**, che spesso non c'è nessuna recinzione e a tratti c'è solo il guard-rail della strada [13]. Nel 2025 Ilva stessa scrive che l'area "risulta accessibile a chiunque" [1].
-- Per questo ARPA chiede di calcolare il rischio anche per **chi ci va per svago** (per esempio a passeggiare), non solo per i lavoratori [8][13]. Ilva scrive di aver assegnato l'ordine per la recinzione il "17 luglio" (senza anno), ma dice di non poterla fare finché non si tolgono i rifiuti [1][17].
-- **I rifiuti abbandonati**: nel 2020 erano "modesti" (pneumatici, inerti, legno vicino all'ingresso) [4]. Oggi c'è un cumulo al confine nord, a cavallo con il terreno del vicino, che va tolto insieme al vicino per evitare crolli; Ilva lo ha segnalato al Comune di Statte e il 6 marzo 2024 c'è stato un sopralluogo con il Comune [1][17]. Quantità e tipo dei rifiuti: non verificato.
+- Per questo ARPA chiede di calcolare il rischio anche per **chi ci va per svago** (per esempio a passeggiare), non solo per i lavoratori [8][13]. - **La recinzione aspetta da sei anni.** Il primo ordine è il n. 673 del **30 ottobre 2020**; il Comune di Statte ha dato l'ok ai lavori (CILA) [21]. Nel 2022 la prima ditta ha chiesto di rinegoziare il contratto scaduto, Ilva ha dovuto verificare il confine con l'area espropriata da SNAM e il 15 dicembre 2022 ha incaricato il direttore dei lavori [20]. Poi, durante i sopralluoghi, sono saltati fuori i rifiuti, e da allora i lavori sono fermi [20][21][22]. Nel 2025 Ilva scrive di aver assegnato l'ordine il "17 luglio" (senza anno), ma ripete che non può farla finché non si tolgono i rifiuti [1][17].
+- **I rifiuti abbandonati**: nel 2020 erano "modesti" (pneumatici, inerti, legno vicino all'ingresso) [4]. Dal 2022 c'è un cumulo al confine nord, a cavallo con il terreno del vicino, che va tolto insieme al vicino per evitare crolli [1][20]. Come è andata, secondo Ilva [20][21][22][1]:
+  - a fine 2022 Ilva scrive che il terreno vicino è **del Comune di Statte** [20]; nel 2023 parla invece di "proprietà di terzi" [21];
+  - il 12 maggio 2023 Ilva ha dato l'ordine per togliere i rifiuti dalla sua parte (ordine n. 97/23, ditta Fratelli Semeraro), da fare insieme al vicino [21];
+  - dopo due solleciti di Ilva, il Comune di Statte ha emesso un'**ordinanza** di rimozione contro i proprietari del terreno vicino; il 20 dicembre 2023 il Comune ha chiuso la pratica dicendo che i rifiuti erano stati tolti, ma **quelli sul confine sono rimasti** [21]. Ilva annunciava una richiesta di riesame al Comune [21];
+  - il 6 marzo 2024 c'è stato un sopralluogo con il Comune e i vicini; a fine 2024 il Comune aspettava il rilievo topografico dei vicini [22]. Nel 2025 i rifiuti sono ancora lì [1];
+  - quantità e tipo dei rifiuti: non verificato.
 
 ### 4. È uscita dal SIN?
 **No.** Il decreto n. 249 dell'11 dicembre 2024, che ha tolto alcune aree dal SIN (il "Sito di interesse nazionale" da bonificare), elenca solo aree nel Comune di Taranto: la particella di Statte di quest'area non c'è [19]. Il piano del 2022 di Ilva la indica dentro il SIN [2].
@@ -64,16 +69,21 @@ Il terreno è stato confrontato con due limiti diversi: quelli per le **aree ver
 |---|---|---|
 | 2005–2006, 2016 | Prime analisi di terreno e acqua | [4][5] |
 | settembre–ottobre 2020 | Ilva prepara e invia il piano delle analisi | [3][4] |
+| 30 ottobre 2020 | Primo ordine di Ilva per la recinzione (mai fatta) | [21] |
 | **27 gennaio 2021** | **Decreto n. 16**: piano approvato, risultati attesi entro 6 mesi | [3] |
 | luglio–novembre 2021 | Sondaggi e prelievi, con ARPA | [5] |
 | novembre–dicembre 2022 | ARPA valida i risultati | [5] |
+| 15 dicembre 2022 | Incarico al direttore dei lavori della recinzione; poi si trovano i rifiuti al confine nord | [20] |
 | 1 marzo 2023 | Ilva invia risultati e analisi di rischio | [6] |
 | 15 marzo 2023 | Il Ministero chiede al Comune di Statte di indicare l'uso dell'area | [6] |
 | aprile–maggio 2023 | Pareri di INAIL, ARPA e ISPRA | [7][8][9] |
 | 15 maggio 2023 | Il Ministero comunica i motivi che impediscono l'approvazione | [10] |
 | 9 e 16 giugno 2023 | Ilva farà una nuova analisi di rischio; il Ministero annuncia l'archiviazione della pratica | [11][12] |
 | 7 e 13 novembre 2023 | ARPA approva 5 nuovi pozzi; il Ministero chiede a Ilva di procedere | [13][17] |
-| 6 marzo 2024 | Sopralluogo con il Comune di Statte per i rifiuti | [1] |
+| 12 maggio 2023 | Ordine di Ilva per togliere i rifiuti dalla sua parte, da fare insieme al vicino | [21] |
+| 20 dicembre 2023 | Il Comune di Statte chiude la pratica dei rifiuti del vicino; quelli sul confine restano | [21] |
+| 6 marzo 2024 | Sopralluogo con il Comune di Statte per i rifiuti | [1][22] |
+| 19 marzo e 23 aprile 2024 | Il Comune approva la posizione dei nuovi pozzi; nulla osta di SNAM | [22] |
 | 8 settembre 2025 | Ilva diffida il Comune di Statte a indicare l'uso dell'area | [14] |
 | 13–25 novembre 2025 | Pozzo PZ8: riporto fino a 21 m; sopralluogo ARPA | [18] |
 | 14 novembre 2025 e 29 gennaio 2026 | Il Comune di Statte risponde: parte rurale e parte per nuove attività | [15][16] |
@@ -120,12 +130,56 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [19] MASE, Direzione generale economia circolare e bonifiche, *Decreto n. 249 dell'11 dicembre 2024* (parziale deperimetrazione del SIN "Taranto"), articolo 1, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=14430_m_amte.MASE.ECB%20REGISTRO%20DECRETI(R).0000249.11-12-2024.pdf — copia in `fonti/2024-12_mase_decreto-249-deperimetrazione-sin-taranto.pdf`
 
+[20] Ilva S.p.A. in AS, *Relazione trimestrale, 4° trimestre 2022*, pagine 37–38 (paragrafo "Area ad ovest SP Statte"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2022_omissisb.pdf — copia in `fonti/2022-12_ilva-as_relazione-trimestrale-IV-2022.pdf`
+
+[21] Ilva S.p.A. in AS, *Relazione trimestrale, 4° trimestre 2023*, pagine 35–36 (paragrafo "Area a verde ovest SP Statte"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2023_omissisb.pdf — copia in `fonti/2023-12_ilva-as_relazione-trimestrale-IV-2023.pdf`
+
+[22] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pagine 48–49 (paragrafo "Area a verde ovest SP Statte"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
+
 ## Cosa non sappiamo
-1. **Quale limite vale.** Da cinque anni non è chiaro se il terreno va giudicato con i limiti per le aree verdi o per le aree industriali. Il Comune di Statte ha risposto solo dopo una diffida di Ilva, e la sua proposta deve ancora essere valutata dagli enti [14][16]. ARPA e ISPRA fanno notare che, con i limiti industriali, quasi tutti i valori trovati sarebbero in regola, tranne il tallio e i PCB misurati da ARPA [8][9]. La scelta cambia molto il risultato.
+1. **Quale limite vale.** Da cinque anni non è chiaro se il terreno va giudicato con i limiti per le aree verdi o per le aree industriali. Il Comune di Statte ha risposto solo dopo una diffida di Ilva, e la sua proposta deve ancora essere valutata dagli enti [14][16]. ARPA, nel 2022, aveva validato i risultati confrontando tutta l'area con i limiti per le aree verdi [20]. ARPA e ISPRA fanno notare che, con i limiti industriali, quasi tutti i valori trovati sarebbero in regola, tranne il tallio e i PCB misurati da ARPA [8][9]. La scelta cambia molto il risultato.
 2. **La relazione di Ilva del 2025 racconta i fatti in modo impreciso.** Scrive che l'analisi di rischio è "in corso" e che le integrazioni sono state chieste il 13 novembre 2023 "in funzione dei pareri di ARPA, ISPRA e ASL" [1]. In realtà: la prima analisi di rischio è stata respinta a maggio 2023 e la pratica archiviata [10][12]; i pareri erano di INAIL, ARPA e ISPRA (nell'archivio non c'è un parere dell'ASL) [10]; la richiesta del 13 novembre 2023 riguardava i nuovi pozzi chiesti da ARPA [17]. La relazione non parla del riporto trovato fino a 21 m nel novembre 2025 [1][18].
 3. **Recintata o no?** Ilva nel 2023 dice che estranei non possono entrare, ARPA e la stessa relazione di Ilva del 2025 dicono il contrario [11][13][1].
-4. **I rifiuti al confine nord**: quanti sono, di che tipo, di chi è il terreno vicino e chi deve toglierli. Non verificato.
+4. **I rifiuti al confine nord**: quanti sono e di che tipo, non lo dice nessuno. Non è chiaro nemmeno di chi sia il terreno vicino: nel 2022 Ilva scrive che è del Comune di Statte, nel 2023 parla di "terzi" contro cui il Comune ha emesso un'ordinanza [20][21]. Il Comune ha chiuso la pratica a dicembre 2023, ma i rifiuti sul confine sono ancora lì, e con loro resta ferma la recinzione [21][1]. Non verificato.
 5. **Da dove vengono PCB, tallio e diossine**, e da dove viene il riporto profondo trovato nel 2025: nessuna fonte lo dice. Non verificato.
 6. **L'acqua sotterranea**: i risultati dei nuovi pozzi del 2025 non sono pubblici. Il decreto del 2021 voleva i pozzi coordinati con il progetto di messa in sicurezza della falda della zona PIP di Statte, che è fermo [3] (vedi scheda [PIP Statte](pip-statte.md)). Non verificato.
 7. **Quanto è stato speso** dopo il 2022: non verificato.
 8. **Un numero sbagliato nei documenti**: nella relazione di Ilva il limite per i PCB è scritto come "60 mg/kg"; ARPA ha corretto: è 0,06 mg/kg per le aree verdi (5 per quelle industriali) [5][8].
+
+### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
+**A:** Comune di Statte — email ordinaria del Servizio Ecologia e ambiente ambiente@comune.statte.ta.it, in copia la Segreteria generale segreteria@comune.statte.ta.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina Contatti](https://www.comune.statte.ta.it/contatti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Area a verde ovest lungo la SP 48 (Foglio 51, particella 10), rifiuti abbandonati al confine nord e recinzione
+>
+> Il/La sottoscritto/a [nome e cognome], chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'"Area a verde ovest SP Statte" di ILVA S.p.A. in A.S. (Comune di Statte, Foglio 51, particella 10; SIN di Taranto) e al terreno confinante a nord:
+>
+> 1. **Ordinanza sui rifiuti.** L'ordinanza di rimozione dei rifiuti abbandonati emessa nel 2023 sul fondo confinante a nord con la particella 10 (con i dati personali oscurati, se necessario) e gli atti con cui è stata chiusa la pratica, compresa la comunicazione inviata a ILVA il 20/12/2023 e la documentazione dell'avvenuta rimozione (quantità, tipo di rifiuti, formulari).
+> 2. **Rifiuti ancora presenti.** L'eventuale istanza di riesame presentata da ILVA dopo il 20/12/2023 e la risposta del Comune; il verbale del sopralluogo del 06/03/2024 con ILVA e i confinanti; il rilievo topografico dei confinanti, se consegnato; gli atti successivi sulla rimozione dei rifiuti rimasti lungo il confine.
+> 3. **Proprietà del terreno confinante.** Se il terreno confinante a nord, dove si trovano i rifiuti, è di proprietà comunale (nella relazione trimestrale di ILVA del 4° trimestre 2022 è indicato come "Comune di Statte").
+> 4. **Recinzione.** La CILA presentata da ILVA per la recinzione perimetrale dell'area (data, protocollo, esito) e ogni comunicazione successiva sulla sua realizzazione.
+> 5. **Controlli.** Eventuali verbali di sopralluogo o segnalazioni di Polizia locale, ASL o ARPA sull'abbandono di rifiuti e sull'accesso di estranei all'area, dal 2020 a oggi.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti. Se l'ufficio competente è un altro, chiede di inoltrare la richiesta e di comunicare il numero di protocollo assegnato.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
+**A:** ARPA Puglia, Dipartimento provinciale di Taranto — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina URP](https://www.arpa.puglia.it/pagina2819_urp.html)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – "Area a verde ovest SP Statte" di ILVA in A.S. (SIN Taranto, ID area 3017), piezometri PZ4–PZ8 e acque sotterranee (DAP Taranto)
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'"Area a verde ovest SP Statte" di ILVA S.p.A. in A.S. (Comune di Statte, Foglio 51, particella 10; SIN di Taranto, ID area 3017):
+>
+> 1. **Validazione 2022.** I certificati di validazione analitica dei risultati della caratterizzazione trasmessi a ILVA il 04/11/2022 e il 14/12/2022, compreso il confronto con le CSC della colonna B richiesto da ILVA il 06/12/2022.
+> 2. **Nuovi piezometri.** I verbali di sopralluogo e le stratigrafie della realizzazione dei piezometri PZ4–PZ8 (2025), oltre al verbale n. 978/ST/2025 già pubblicato, e la data di completamento della rete.
+> 3. **Acque sotterranee.** I risultati delle campagne di monitoraggio della falda sui nuovi piezometri, eseguite da ILVA dal dicembre 2025 in poi, e gli eventuali campionamenti in contraddittorio o le validazioni di ARPA.
+> 4. **Nuove indagini.** Il piano di indagini integrative richiesto da ARPA con la nota trasmessa al MASE il 22/01/2026 (prot. MASE 12567), se ILVA lo ha presentato, e il relativo parere di ARPA.
+> 5. **Rifiuti e accessi.** Eventuali sopralluoghi o controlli di ARPA sui rifiuti abbandonati al confine nord dell'area e sulla mancanza di recinzione, con quantità e tipo dei rifiuti, se rilevati.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti. Se l'ufficio competente è un altro, chiede di inoltrare la richiesta e di comunicare il numero di protocollo assegnato.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
