@@ -207,7 +207,7 @@ def leggi_scheda(path):
     codes = re.findall(r"[AB]\d+", m.group(1))
     title = m.group(2).strip()
     stato = lines[1].strip("* ")
-    upd = re.search(r"aggiornata al ([^*·]+)", stato).group(1).strip()
+    upd = re.search(r"aggiornata all?'?([^*·]+)", stato).group(1).strip()
     warn = None
     if "·" in lines[1]:
         warn = re.sub(r"^[*\s]*|[*\s]*$", "", lines[1].split("·", 1)[1]).replace("⚠", "").strip()
