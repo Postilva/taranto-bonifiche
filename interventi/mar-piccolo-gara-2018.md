@@ -1,5 +1,5 @@
 # B13 – Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018)
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
 ## In breve
 Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara europea da 32,3 milioni € (IVA esclusa) per provare tre tecniche di pulizia dei fanghi inquinati sul fondo del 1° seno del Mar Piccolo, prima in piccole aree di prova e poi su aree più grandi [2][3]. La gara si è fermata il 21 agosto 2020, quando è scaduto il mandato della Commissaria, e non è mai stata aggiudicata: nessun lavoro in mare è stato fatto [1][7]. **I fondali del 1° seno non sono bonificati e nemmeno messi in sicurezza**, e oggi non esiste un progetto approvato e finanziato per farlo: il Commissario lavora con la Marina Militare su una sola zona, l'"Area 170 ettari" davanti all'Arsenale, ma i fondi e i tempi non sono ancora decisi [1][11][14].
@@ -173,7 +173,7 @@ Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara eu
 [22] Commissario straordinario per la bonifica di Taranto, *Decreto n. 48 del 4 settembre 2026*, raccomandazioni del percorso partecipativo "Nuovi approcci partecipativi per la tutela e la valorizzazione del Mar Piccolo di Taranto" (Università di Bari, Dipartimento Jonico, legge regionale Puglia n. 28/2017), presa d'atto e analisi di coerenza, https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-09_commissario-taranto_decreto-48-percorso-partecipativo-mar-piccolo.pdf`
 
 ## Cosa non sappiamo
-1. **Se la gara è stata chiusa ufficialmente.** C'è solo la sospensione del 21 agosto 2020 [7][8]: non risulta nessun atto che annulli o chiuda la gara. Nella banca dati nazionale delle gare (ANAC) la gara è ancora **"attiva"**, senza vincitori [15][17]. Sullo stesso codice di finanziamento del Mar Piccolo compaiono anche spese che non c'entrano con il Mar Piccolo: per esempio un articolo scientifico sul turismo alle isole Tremiti [16]. Potrebbe essere un errore di compilazione: non si sa. Le 6 imprese ammesse potrebbero avere ancora diritti o pretese. Non verificato. Da chiedere con FOIA.
+1. **Se la gara è stata chiusa ufficialmente.** C'è solo la sospensione del 21 agosto 2020 [7][8]: non risulta nessun atto che annulli o chiuda la gara. Nella banca dati nazionale delle gare (ANAC) la gara è ancora **"attiva"**, senza vincitori [15][17]. Sullo stesso codice di finanziamento del Mar Piccolo compaiono anche spese che non c'entrano con il Mar Piccolo: per esempio un articolo scientifico sul turismo alle isole Tremiti [16]. Potrebbe essere un errore di compilazione: non si sa. Le 6 imprese ammesse potrebbero avere ancora diritti o pretese. Non verificato. Il 9 ottobre 2026 abbiamo ricontrollato: l'elenco dei decreti 2026 del Commissario non contiene atti sulla gara, e due ricerche sul web non hanno trovato notizie sulla sua chiusura. Da chiedere con FOIA.
 2. **L'opuscolo e i documenti ufficiali non coincidono sul perché si è fermata.** L'opuscolo parla di problemi emersi "durante la fase di negoziazione con i raggruppamenti di imprese" e di "nuove prospettive" scientifiche [1]. Ma secondo la relazione del Prefetto Martino e la Commissione parlamentare la gara è stata sospesa per la scadenza del mandato della Commissaria, subito dopo l'ammissione dei concorrenti, prima della trattativa [7][8]; poi è rimasta ferma per i dubbi sui costi e sui benefici [7][8].
 3. **Chi erano le imprese.** I nomi dei 9 operatori selezionati e dei 6 raggruppamenti ammessi non sono pubblicati online [3][4]. Non verificato.
 4. **Quanto è costata la gara.** Il Commissario parlava di 1.726.613 € spesi (2021) [8], ma non dice per cosa (commissioni di gara, Università delle Marche, indagini?). Il costo dell'accordo con l'Università delle Marche non è indicato [7]. Non verificato.
@@ -190,18 +190,18 @@ Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara eu
 11. **Se i 55 milioni sono ancora disponibili.** Soldi vecchi come quelli del 2012 e del 2016 rischiano di scadere: il cimitero San Brunone ha perso così la quota della Regione (vedi scheda B8). Per i 55 milioni del Ministero il taglio è stato evitato con la delibera CIPESS n. 78/2024 [18]; per i 21 milioni della Regione non ho trovato nessun documento che dica se siano ancora validi o siano stati tolti. Non verificato.
 12. **Il numero dell'ordinanza sulle cozze.** La Commissione parlamentare parla dell'ordinanza regionale n. 188/2016 [8], il Commissario nel 2026 dell'ordinanza n. 1989/2011 "e successive modifiche" [21]. Probabilmente la seconda è quella originale e la prima una modifica. Non verificato.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Commissario straordinario per gli interventi urgenti di bonifica, ambientalizzazione e riqualificazione dell'area di Taranto — PEC: commissario_bonifiche.taranto@pec.governo.it (indirizzo verificato sul sito ufficiale commissari.gov.it il 30/09/2026)
+### Richieste di accesso civico (FOIA) n. 21 e 22 — da inviare tu
+La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`). La domanda sulla Marina Militare è nella scheda B12.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) e di accesso all'informazione ambientale (D.Lgs. 195/2005) – Partenariato per l'innovazione per il risanamento dei sedimenti nelle aree prioritarie del Mar Piccolo di Taranto, I seno (bando GUUE 2018/S 103-234537, CIG 750408138A, 7505691427, 7505781E69 – CUP J56J14000460001)
->
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. la nota del 21 agosto 2020 con cui è stata sospesa la procedura e gli eventuali atti successivi di revoca, annullamento o conclusione della procedura, con le relative comunicazioni agli operatori economici;
-> 2. il decreto n. 170 del 23 maggio 2018 e il decreto n. 147 del 30 luglio 2020, con l'elenco degli operatori prequalificati e dei raggruppamenti ammessi alla fase di negoziazione;
-> 3. l'elenco delle spese sostenute per la procedura e per le attività preparatorie (compreso l'accordo con l'Università Politecnica delle Marche), con importi, date, beneficiari e fonte di finanziamento;
-> 4. la situazione aggiornata delle risorse del CUP J56J14000460001 (delibere CIPE 87/2012 e 55/2016): importi assegnati, trasferiti sulla contabilità speciale, impegnati, pagati, ancora disponibili ed eventualmente revocati o riprogrammati, con i verbali del Tavolo istituzionale del CIS del 4 dicembre 2020 e del 13 luglio 2021 e le decisioni successive;
-> 5. i risultati della campagna di indagini sui sedimenti del I seno svolta da settembre 2016 a marzo 2017 (concentrazioni di PCB, diossine e metalli);
-> 6. gli atti relativi alla collaborazione con la Marina Militare per l'"Area 170 ha" (accordo, piano di indagini, stima dei costi, fonti di finanziamento e cronoprogramma).
->
-> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
-> [Luogo, data, firma] — allegare copia di un documento d'identità.
+**FOIA 21 — Commissario straordinario bonifiche Taranto** (A: Armento.Rita@mase.gov.it, Cc: v.uricchio@governo.it)
+1. la nota del 21 agosto 2020 che ha sospeso la gara e gli eventuali atti successivi di revoca, annullamento o chiusura, con le comunicazioni alle imprese;
+2. i decreti n. 170 del 23 maggio 2018 e n. 147 del 30 luglio 2020, con l'elenco delle imprese prequalificate e dei raggruppamenti ammessi;
+3. l'elenco delle spese per la gara e per le attività preparatorie (compreso l'accordo con l'Università Politecnica delle Marche), compresi i 1.726.613 € indicati come "spesi" nel 2021;
+4. la situazione aggiornata dei soldi del CUP J56J14000460001 (delibere CIPE 87/2012 e 55/2016): assegnati, versati al Commissario, impegnati, pagati, ancora disponibili, tolti o spostati, con le decisioni del Tavolo del CIS dal 2020;
+5. i risultati della campagna sui sedimenti del 1° seno (settembre 2016 – marzo 2017): PCB, diossine e metalli.
+
+**FOIA 22 — Regione Puglia** (A: quiregione@regione.puglia.it, Cc: ciclorifiutiebonifiche@regione.puglia.it; si chiede di inoltrarla alla struttura che gestisce il Fondo sviluppo e coesione)
+1. lo stato dei 21 milioni € del Fondo sviluppo e coesione 2007-2013 (delibera CIPE 87/2012) per i sedimenti del Mar Piccolo: quanto è stato versato al Commissario, quanto speso, e se la somma è ancora valida o è stata tolta o spostata, con i relativi atti;
+2. il motivo per cui su OpenCoesione il progetto da 21 milioni risulta con 0 € di pagamenti.
+
+Testo completo in `.tmp/foia/21-*.md` e `22-*.md`.
