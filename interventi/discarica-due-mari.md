@@ -1,5 +1,5 @@
 # A3 – Discarica ex cava Due Mari
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
 ## In breve
 È una grande discarica di rifiuti dell'acciaieria, ricavata in una vecchia cava fuori dalla fabbrica, che è rimasta a Ilva in amministrazione straordinaria; solo una parte è dentro il SIN, il "Sito di interesse nazionale" da bonificare [8][9][10]. Secondo Ilva è stata **messa in sicurezza** con una copertura di terra e teli, ma **non è stata bonificata** (i rifiuti sono ancora lì) e **nessun ente pubblico ha ancora certificato** che i lavori siano finiti e fatti bene [1][6]. Dal 2020 Ilva e la Provincia di Taranto litigano sulle garanzie economiche che Ilva deve dare per i 30 anni di controlli dopo la chiusura: la Provincia ha respinto le garanzie, i giudici le hanno dato ragione, e senza garanzie adeguate la Provincia non rilascia il certificato [1][3][4][5].
@@ -132,17 +132,5 @@ Nota: nell'archivio del Ministero (https://bonifichesiticontaminati.mite.gov.it/
 7. **Notizie di giornale (non verificato).** Un articolo online del luglio 2025 scrive che nella discarica Due Mari ci sarebbero fanghi dell'acciaieria e dell'altoforno. Le fonti ufficiali trattano i fanghi in un'area separata (vedi scheda A5). Non verificato.
 8. **Il decreto di approvazione del progetto.** Ilva cita "decreti di approvazione MISP" anche per Due Mari [8], ma non li abbiamo trovati. Non verificato.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Provincia di Taranto — PEC: **protocollo@pec.provincia.ta.it** (indirizzo verificato il 2 ottobre 2026 sul sito ufficiale della Provincia, avviso "Nuovo indirizzo PEC istituzionale", https://www.provincia.taranto.it/index.php/archivio-news-e-avvisi/avvisi/item/349-nuovo-indirizzo-pec-istituzionale. Attenzione: gli indirizzi "...@pec.provincia.taranto.gov.it" che compaiono nei documenti del 2021–2022 sono vecchi). La stessa richiesta vale anche per la discarica Cementir (scheda A4).
-
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – discariche "ex cava Due Mari" (prescrizione UA5) ed "ex cava Cementir" (prescrizione UA25) di ILVA S.p.A. in amministrazione straordinaria
->
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. la nota della Provincia del 7 maggio 2025 (inammissibilità dell'istanza di avvio della post-gestione), la nota del 12 maggio 2025 (motivi ostativi sulle garanzie) e la determina trasmessa con nota prot. 683 del 26 maggio 2025 (non accettazione delle garanzie finanziarie UA5 e UA25);
-> 2. la nota prot. 25238 del 19 giugno 2025 sulla certificazione ex art. 248 D.Lgs. 152/2006;
-> 3. l'eventuale istanza di certificazione presentata da ILVA in AS e la relativa relazione tecnica di ARPA Puglia;
-> 4. l'eventuale certificazione di completamento della messa in sicurezza permanente rilasciata per le due discariche;
-> 5. l'importo delle garanzie finanziarie richieste e lo stato attuale delle garanzie prestate.
->
-> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
-> [Luogo, data, firma] — allegare copia di un documento d'identità.
+### Richiesta di accesso civico (FOIA) — da inviare tu
+La richiesta alla Provincia di Taranto è la **FOIA 19**, preparata nella scheda A4 (discarica Cementir): copre anche questa discarica e va inviata con l'email ordinaria (A: aniello.polignano@provincia.ta.it, Cc: info@provincia.ta.it). Testo completo in `.tmp/foia/19-*.md`.

@@ -1,5 +1,5 @@
 # A4 – Discarica ex cava Cementir
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
 ## In breve
 È una vecchia discarica di rifiuti dell'acciaieria, di circa 8 ettari, dentro una cava di proprietà del cementificio Cementir (oggi Cemitaly), vicino alla raffineria ENI, nel SIN di Taranto; l'ha gestita prima l'Italsider/Ilva e oggi tocca a Ilva in amministrazione straordinaria [13][14][11]. Tra il 2019 e il 2023 è stata **messa in sicurezza** (barriera tutto intorno e copertura come per i rifiuti pericolosi), ma **non bonificata** e **senza certificato ufficiale** di fine lavori [1][18][24]. **La falda superficiale vicino alla discarica è inquinata**: dal 2022, su richiesta del Ministero, si pompa l'acqua dai pozzi a valle ogni settimana, e intanto c'è la stessa lite con la Provincia sulle garanzie economiche che riguarda la discarica Due Mari [1][3][4].
@@ -31,13 +31,15 @@
 - **Prima dei lavori** (situazione a fine 2020): erano stati tolti materiali contenenti amianto dalla superficie della discarica e il percolato di 4 pozzi veniva portato via con autobotti [22].
 - **Progetto approvato**: decreto del Ministro dell'Ambiente n. 286 del 19 ottobre 2018 (domanda di Ilva del 22 febbraio 2018, conferenza di servizi del 17 maggio 2018) [6].
 - **Lavori affidati** all'impresa Riccoboni: la prima richiesta d'acquisto di Ilva per copertura e barriera è del 15 ottobre 2019, l'ordine è il n. 703/19 [15][1].
+- **Inizio lavori**: il verbale di inizio è del 16 luglio 2020; a dicembre 2020 c'è stata anche una bonifica da ordigni bellici, con due sospensioni dei lavori [26].
 - **Modifica del progetto** ("variante"): chiesta da Ilva a dicembre 2021 dopo le indagini del 2021 [7]. Prevede una copertura come per le discariche di rifiuti pericolosi, con un telo di plastica (HDPE), e una barriera laterale più ampia per comprendere tutta la discarica [7][13]. La copertura passa da 85.000 a circa 89.000 m² [9]. Approvata, con parere favorevole all'unanimità della conferenza, dal **decreto del Ministro n. 116 del 16 marzo 2022** [12][13]. Condizione: entro 6 mesi Ilva deve migliorare il sistema di controllo, d'accordo con il Ministero e con gli enti di controllo [13].
 - **Dubbi degli enti durante la conferenza** [10][11][12]:
   - ISPRA chiedeva se alcuni rifiuti trovati a nord-ovest (verso la raffineria ENI) fossero davvero dentro la nuova barriera [10];
   - ARPA scriveva che **non si può escludere** che tra la vecchia e la nuova barriera ci siano altri rifiuti, perché lì non sono state fatte indagini [11];
   - ARPA chiedeva un piano di controllo della falda più fitto, anche fuori dalla discarica [8][11].
 - **Luglio 2022**: durante una visita della Commissione parlamentare, ARPA ha osservato che la nuova barriera sembrava **più corta** del progetto originario, lasciando fuori una piccola parte della discarica [14]. Ilva ha fatto 20 sondaggi tra novembre 2022 e gennaio 2023: verso ENI odori di idrocarburi; a sud resti di materiale "antropico" (probabilmente carpenteria) [16][17]. Il 10 febbraio 2023 Ilva ha mandato i risultati agli enti; a fine 2023 non aveva ancora ricevuto risposta [17][18].
-- **Avanzamento**: 78% a dicembre 2022 [16]; 100% nel 2023 [18]. Il direttore dei lavori ha chiuso i lavori con **contestazioni** all'impresa; i lavori mancanti sono stati poi fatti [18][19][1].
+- **Calendario**: il 31 gennaio 2023 Ilva ha confermato al Ministero la fine della messa in sicurezza per l'8 febbraio 2023, spostando solo alcune opere accessorie: impianto del percolato al 31 marzo, inerbimento della copertura al 21 aprile, chiusura del cantiere all'8 maggio 2023 [25][26].
+- **Avanzamento**: 78% a dicembre 2022 [16]; 100% al 30 giugno 2023, con il collegamento al canale ASI finito e il collaudo previsto entro 60 giorni dalla chiusura dei lavori [27]; lavori chiusi nel 2023 [18]. Nessuna fonte trovata dice se il collaudo sia stato fatto. Il direttore dei lavori ha chiuso i lavori con **contestazioni** all'impresa; i lavori mancanti sono stati poi fatti [18][19][1].
 - **Cosa è stato fatto in tutto** [1]: barriera laterale in plastica ("diaframma"), argilla sulla copertura, strato drenante, terra vegetale, telo HDPE, canalette, terre rinforzate, biostuoia.
 - **Percolato**: l'impianto per estrarlo è pronto dal 3 aprile 2023; dal 21 settembre 2023 si estrae ogni settimana [18][1]. In precedenza era stato tolto con autobotti: 9.252 tonnellate nel 2021, circa 7.000 tra luglio e dicembre 2022 [15][16].
 
@@ -50,9 +52,14 @@
 ### La falda è inquinata?
 **Sì, la falda superficiale, almeno vicino alla discarica.** [1]
 - ARPA Puglia ha comunicato superamenti dei limiti di legge nei **pozzi spia** della discarica; per questo il Ministero, con la nota n. 31374 dell'11 marzo 2022, ha chiesto a Ilva misure d'emergenza ("messa in sicurezza d'emergenza") [1]. Conosciamo questa nota solo da come la riporta Ilva: il testo non l'abbiamo trovato.
-- **Cosa si fa**: si pompa l'acqua dai pozzi a valle della discarica. Prima fase ad aprile 2022, seconda da novembre 2022 (con nuovi pozzi), terza dall'11 settembre 2023 con pompaggio ogni settimana [15][16][18]. Secondo Ilva servirà "fino all'avvenuta decontaminazione della falda superficiale, certificata dall'Ente di Controllo" [1].
+- **Cosa si fa**: si pompa l'acqua dai pozzi a valle della discarica. Prima fase ad aprile 2022, seconda da novembre 2022 (con nuovi pozzi), terza dall'11 settembre 2023 con pompaggio ogni settimana [15][16][18]. I risultati della seconda fase sono stati mandati ad ARPA a marzo 2023; Ilva ha deciso la terza fase anche perché la nuova barriera ha cambiato il movimento dell'acqua sotterranea nella zona [27]. Secondo Ilva servirà "fino all'avvenuta decontaminazione della falda superficiale, certificata dall'Ente di Controllo" [1].
 - **Quali sostanze e quanto**: **non verificato**. ARPA ha mandato i suoi risultati alla conferenza di servizi del febbraio 2022 ("piano straordinario discariche"), ma non sono pubblicati [12]. Un esperto della commissione AIA ha chiesto a Ilva se la discarica contribuisse a quei dati; Ilva ha risposto che gli idrocarburi trovati da ARPA non vengono dalla discarica, che non ha mai ricevuto idrocarburi [12]. ARPA nel 2022 parlava di parti della discarica "aventi caratteristiche ecotossiche per le acque di falda" [8].
 - Anche il cementificio ha un suo progetto di bonifica della falda, approvato dal Ministero il 7 settembre 2012, con una "barriera idraulica" in funzione dal 2017 secondo l'azienda [21][8]. ARPA chiedeva di capire come questo impianto influisce sulla falda sotto la discarica [8].
+
+### Il piano di controllo della falda chiesto dal decreto del 2022
+- ISPRA (10 luglio 2023) e ARPA (11 luglio 2023) hanno dato i loro pareri sul piano proposto da Ilva; il Ministero li ha mandati a Ilva il 25 luglio 2023 [28].
+- Il 6 ottobre 2023 Ilva ha risposto con le sue osservazioni, sostenendo che fare il piano è già di per sé una "misura di prevenzione" [28].
+- Il 21 novembre 2023 il Ministero ha chiesto ad ARPA e ISPRA di arrivare, anche con un tavolo tecnico, alla **condivisione definitiva** del piano, e ha precisato che dopo i controlli Ilva dovrà prendere le misure di prevenzione che risulteranno necessarie [28]. **A fine 2023, quindi, il piano non era ancora approvato.** Non abbiamo trovato atti successivi.
 
 ## La lite con la Provincia sulle garanzie (comune con la discarica Due Mari, A3)
 **Cos'è la garanzia.** Chi gestisce una discarica deve dare all'ente pubblico una polizza o fideiussione: se non fa i controlli e la manutenzione dopo la chiusura, l'ente incassa i soldi e fa i lavori al suo posto. Per la fase dopo la chiusura la garanzia deve valere **30 anni** [4].
@@ -70,6 +77,8 @@
 - 19 giugno 2025: la Provincia chiede la domanda di certificazione, da rilasciare solo con garanzie adeguate [1].
 - 28 luglio 2025: Ilva chiede al Consiglio di Stato la "revocazione" delle sentenze e fa ricorso contro una sentenza del TAR di Lecce [1].
 - 26 marzo 2026: il Consiglio di Stato dichiara **inammissibili** le richieste di revocazione (Ilva ripete gli stessi argomenti) e la condanna a pagare altri 6.000 € alla Provincia [5].
+
+- 28 agosto 2026: il **decreto-legge n. 154** stabilisce che le società in amministrazione straordinaria "che gestiscono almeno un impianto dichiarato di interesse strategico nazionale" possono dare garanzie per le discariche, anche per il dopo-chiusura, **di un anno alla volta**, fino alla vendita dell'azienda [29]. Il decreto non nomina Ilva: non sappiamo se vale per Ilva in amministrazione straordinaria, che l'acciaieria non la gestisce più, e quindi se chiude la lite. I giornali lo collegano alle discariche interne dell'acciaieria (Acciaierie d'Italia): non verificato.
 
 **Cosa sosteneva Ilva:** che la messa in sicurezza era "sostanzialmente conclusa" e che banche e assicurazioni non danno garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
@@ -90,15 +99,18 @@
 | 19 ottobre 2018 | Decreto n. 286: progetto di messa in sicurezza approvato | [6] |
 | fine 2018 | Area dissequestrata | [14][15] |
 | 15 ottobre 2019 | Prima richiesta d'acquisto di Ilva per i lavori (impresa Riccoboni) | [15] |
+| 16 luglio 2020 | Verbale di inizio lavori | [26] |
 | 15 luglio 2020 | La Provincia non accetta la garanzia (determina n. 580) | [3] |
 | 13 dicembre 2021 | Ilva presenta la modifica del progetto | [7] |
 | 26 gennaio e 15 febbraio 2022 | Conferenza di servizi: parere favorevole con condizioni | [10][12] |
 | 11 marzo 2022 | Il Ministero chiede misure d'emergenza per la falda | [1] |
 | 16 marzo 2022 | Decreto n. 116: modifica approvata | [13] |
 | 12 luglio 2022 | Visita della Commissione parlamentare: dubbi sulla barriera | [14] |
-| 2023 | Lavori al 100%, chiusi con contestazioni all'impresa | [18] |
+| 8 febbraio 2023 | Data fissata per la fine della messa in sicurezza (opere accessorie fino all'8 maggio) | [25] |
+| 2023 | Lavori al 100%, chiusi con contestazioni all'impresa | [18][27] |
 | 11 aprile 2023 | Sentenza del TAR di Lecce n. 458 | [3] |
 | 11 settembre 2023 | Inizia il pompaggio settimanale della falda (3ª fase) | [18] |
+| 21 novembre 2023 | Il Ministero chiede ad ARPA e ISPRA di condividere in modo definitivo il piano di controllo della falda | [28] |
 | 21 settembre 2023 | Inizia l'estrazione settimanale del percolato | [18] |
 | 18 marzo 2025 | Ilva chiede la post-gestione | [20] |
 | 22 maggio 2025 | Consiglio di Stato, sentenza n. 4443: appello di Ilva respinto | [4] |
@@ -106,6 +118,7 @@
 | 19 giugno 2025 | La Provincia chiede la domanda di certificazione | [1] |
 | 12–14 novembre 2025 | Ultimo controllo della falda citato da Ilva | [1] |
 | 26 marzo 2026 | Consiglio di Stato, sentenza n. 2519: revocazione inammissibile | [5] |
+| 28 agosto 2026 | Decreto-legge n. 154: garanzie di un anno per le società in amministrazione straordinaria che gestiscono impianti strategici | [29] |
 
 ## Fonti
 [1] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pagine 30–31, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
@@ -156,31 +169,43 @@
 
 [24] D.Lgs. 3 aprile 2006, n. 152 (Codice dell'ambiente), articolo 248, comma 2, testo vigente su Normattiva, https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152~art248 — copia (pagina salvata il 2 ottobre 2026) in `fonti/2026-10_normattiva_dlgs-152-2006-art-248.html`
 
-Nota: questa discarica non segue la normale procedura di bonifica del SIN. I suoi progetti sono stati approvati con le conferenze speciali previste dalle leggi sull'Ilva, pubblicate sul portale del Ministero per le autorizzazioni (va.mite.gov.it), e non nell'archivio delle bonifiche (https://bonifichesiticontaminati.mite.gov.it/ricerca/), dove non abbiamo trovato documenti su quest'area [10][13].
+[25] Ilva S.p.A. in AS, *Comunicazione aggiornamento cronoprogramma dei lavori di MISP*, 31 gennaio 2023 (prot. MASE 13508), https://va.mite.gov.it/File/Documento/762453 (archivio zip) — copia in `fonti/2023-01_ilva-as_nota-13508-cronoprogramma-misp-cementir.pdf`
+
+[26] Ilva S.p.A. in AS, *Programma lavori MISP ex Cementir, rev. 03 del 17/01/2023* (allegato al [25]), https://va.mite.gov.it/File/Documento/762453 — copia in `fonti/2023-01_ilva-as_programma-lavori-misp-cementir-rev03.pdf`
+
+[27] Ilva S.p.A. in AS, *Relazione trimestrale, 2° trimestre 2023*, pagine 32–33, copia in `fonti/2023-06_ilva-as_relazione-trimestrale-II-2023.pdf`
+
+[28] Ministero dell'Ambiente e della Sicurezza energetica, Divisione VII bonifica dei SIN, *Nota prot. 189471 del 21 novembre 2023* (ID 7/3060, piano di monitoraggio, richiesta pareri), dall'archivio del Ministero, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=11757_m_amte.MASE.REGISTRO%20UFFICIALE(U).0189471.21-11-2023.pdf — copia in `fonti/2023-11_mase_nota-189471-piano-monitoraggio-cementir.pdf`
+
+[29] Gazzetta Ufficiale, Serie generale n. 199 del 28 agosto 2026, *Decreto-legge 28 agosto 2026, n. 154* (Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale), articolo 1, https://www.gazzettaufficiale.it/eli/gu/2026/08/28/199/sg/pdf — copia in `fonti/2026-08_gazzetta-ufficiale_dl-154-2026-garanzie-discariche.pdf`
+
+Nota: questa discarica non segue la normale procedura di bonifica del SIN. I suoi progetti sono stati approvati con le conferenze speciali previste dalle leggi sull'Ilva, pubblicate sul portale del Ministero per le autorizzazioni (va.mite.gov.it), e solo in piccola parte nell'archivio delle bonifiche (https://bonifichesiticontaminati.mite.gov.it/ricerca/), dove per quest'area (codice 7/3060) c'è un solo documento, il [28] (controllato il 9 ottobre 2026) [10][13].
 
 ## Cosa non sappiamo
 1. **Quanto è inquinata la falda.** Sappiamo che i limiti di legge sono superati nei pozzi vicino alla discarica, ma non quali sostanze né di quanto: i dati di ARPA e quelli dei controlli di Ilva non sono pubblici. Non abbiamo trovato neanche il testo della richiesta del Ministero dell'11 marzo 2022.
 2. **Di chi è l'inquinamento.** Vicino ci sono anche il cementificio e la raffineria ENI. Ilva dice che gli idrocarburi non vengono dalla discarica [12]; nessun ente pubblico, nelle fonti trovate, ha deciso questa questione.
 3. **La barriera chiude tutta la discarica?** ARPA e la Commissione parlamentare hanno avuto dubbi su rifiuti rimasti fuori [11][14]. Ilva ha mandato i risultati dei sondaggi a febbraio 2023 e a fine 2023 non aveva avuto risposta [18]. Non sappiamo come è finita.
-4. **Il controllo migliorato chiesto dal decreto del 2022** (entro 6 mesi): Ilva ha mandato piani di monitoraggio nel 2022–2024 [16][19], ma non sappiamo se il Ministero o gli enti li abbiano approvati.
-5. **Il certificato.** Non sappiamo se Ilva abbia chiesto il certificato alla Provincia né se sia stato rilasciato.
+4. **Il controllo migliorato chiesto dal decreto del 2022** (entro 6 mesi): Ilva ha mandato piani di monitoraggio nel 2022–2024 [16][19]; a novembre 2023 il Ministero chiedeva ancora ad ARPA e ISPRA di condividerlo in modo definitivo [28]. Non sappiamo se poi sia stato approvato.
+5. **Il certificato e il collaudo.** Non sappiamo se Ilva abbia chiesto il certificato alla Provincia né se sia stato rilasciato, e nemmeno se il collaudo previsto nel 2023 sia stato fatto [27].
 6. **Le misure non tornano del tutto**: 75.000 m² secondo il Ministero (2017), 8,6 ettari secondo Ilva, 85.000–89.000 m² di copertura secondo la Regione [21][15][9]. Probabilmente dipende da cosa si misura (corpo dei rifiuti, area recintata, copertura).
 7. **I soldi**: quanto è costato davvero il lavoro, e quanto vale la garanzia chiesta dalla Provincia. Non verificato.
 8. **Il nuovo ricorso di Ilva** contro una sentenza del TAR di Lecce (luglio 2025): non abbiamo identificato la sentenza né l'esito. Non verificato.
 9. **Le morchie con PCB**: la notizia viene dall'audizione di una magistrata riportata dal Parlamento [14]; non abbiamo trovato analisi ufficiali sul contenuto della discarica che la confermino o la smentiscano.
+10. **Il decreto-legge del 2026 sulle garanzie** vale anche per Ilva in amministrazione straordinaria? Il testo parla delle società che "gestiscono" un impianto strategico [29]. Non sappiamo se Ilva abbia presentato nuove garanzie annuali né se la Provincia le abbia accettate.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**1) Alla Provincia di Taranto**: usare la richiesta nella scheda A3 (discarica Due Mari), che copre anche questa discarica. PEC verificata sul sito ufficiale della Provincia: protocollo@pec.provincia.ta.it.
+### Richieste di accesso civico (FOIA) n. 19 e 20 — da inviare tu
+Il Ministero ha solo la PEC: le domande vanno alla Provincia e ad ARPA, con l'email ordinaria.
 
-**2) Al Ministero dell'Ambiente e della Sicurezza energetica** – Direzione generale economia circolare e bonifiche — PEC: ECB@pec.mase.gov.it (indirizzo verificato sulla nota ufficiale del Ministero del 18/12/2025, vedi scheda A2)
+**FOIA 19 — Provincia di Taranto**, Settore Pianificazione Ambiente (A: aniello.polignano@provincia.ta.it, Cc: info@provincia.ta.it). Vale anche per la discarica Due Mari (A3).
+1. le note del 7 e del 12 maggio 2025 e la determina di non accettazione delle garanzie trasmessa il 26 maggio 2025;
+2. la nota del 19 giugno 2025 sulla certificazione, l'eventuale domanda di Ilva, la relazione di ARPA e l'eventuale certificato;
+3. l'importo delle garanzie richieste per le due discariche e lo stato attuale delle garanzie;
+4. eventuali nuove garanzie presentate da Ilva dopo il decreto-legge n. 154/2026 e le decisioni della Provincia.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – discarica "ex cava Cementir" (prescrizione UA25), ILVA S.p.A. in amministrazione straordinaria, SIN di Taranto
->
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. la nota del Ministero prot. 31374 dell'11 marzo 2022 (richiesta di misure di prevenzione e messa in sicurezza d'emergenza della falda) e la comunicazione di ARPA Puglia ex art. 244 D.Lgs. 152/2006 che l'ha preceduta, con i risultati analitici;
-> 2. le relazioni di ILVA in AS sugli esiti della messa in sicurezza d'emergenza della falda superficiale e i risultati dei monitoraggi trimestrali dal 2024;
-> 3. il piano di monitoraggio prescritto dal decreto del Ministro n. 116 del 16 marzo 2022 e gli eventuali atti di approvazione;
-> 4. la relazione di ILVA in AS del 10 febbraio 2023 sui sondaggi tra la "Cintura Cotecchia" e il nuovo diaframma, e le eventuali risposte degli enti.
->
-> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
-> [Luogo, data, firma] — allegare copia di un documento d'identità.
+**FOIA 20 — ARPA Puglia**, Dipartimento provinciale di Taranto (A: info@arpa.puglia.it, Cc: responsabile.trasparenza@arpa.puglia.it)
+1. la comunicazione di ARPA che ha portato alla nota del Ministero n. 31374 dell'11 marzo 2022 e i risultati delle analisi della falda;
+2. i risultati della messa in sicurezza d'emergenza della falda (fasi 2 e 3) e dei controlli dal 2024;
+3. il parere di ARPA dell'11 luglio 2023 sul piano di monitoraggio e gli esiti del tavolo tecnico chiesto dal Ministero il 21 novembre 2023;
+4. il riscontro di ARPA alla relazione di Ilva del 10 febbraio 2023 sui sondaggi tra la "Cintura Cotecchia" e la nuova barriera.
+
+Testo completo in `.tmp/foia/19-*.md` e `20-*.md`.
