@@ -1,5 +1,5 @@
 # A2 – Discarica Nord-Ovest (con area ex Fintecna e aree vicine)
-*Stato scheda: approvata — aggiornata al 30 settembre 2026*
+*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
 ## In breve
 È una vecchia discarica di rifiuti dell'acciaieria, senza nessuna protezione sul fondo, al confine nord della fabbrica, nel territorio di Statte, vicino alla Gravina di Leucaspide [2][6]. L'area è sotto sequestro penale da ottobre 2018 [14][16]. Il Ministero dell'Ambiente ha approvato il progetto per coprirla ("messa in sicurezza permanente") il 16 dicembre 2025, ma **non si trova nessuna fonte che dica che i lavori sono partiti**, e comunque l'area **non sarà bonificata**: i rifiuti restano dove sono, sotto una copertura [2][5].
@@ -24,10 +24,10 @@ Le analisi hanno trovato nella falda profonda (a circa 100 m) valori oltre i lim
 
 **La storia, in breve:**
 - Un primo progetto di copertura della Discarica Nord-Ovest era stato approvato già nel 2015, insieme a una copertura provvisoria per l'area ex Fintecna [6].
-- Nel 2017 la Guardia di Finanza, per conto della Procura, ha chiesto informazioni su depositi di rifiuti vicino alla Gravina di Leucaspide; dopo nuove ricerche Ilva ha deciso di allargare il progetto anche all'area ex Fintecna e alle aree vicine [6].
+- Nel 2017 la Guardia di Finanza, per conto della Procura, ha chiesto informazioni su depositi di rifiuti vicino alla Gravina di Leucaspide; dopo nuove ricerche Ilva ha capito che le tre zone erano in origine **un'unica discarica** e ha deciso di allargare il progetto anche all'area ex Fintecna e alle aree vicine [6][22]. Nel piano di caratterizzazione del 2003 l'area ex Fintecna non era indicata come discarica, anche se i sondaggi del 2004–2006 vi avevano trovato rifiuti; per questo i dati raccolti allora non dicono che rifiuti ci sono [22].
 - A fine 2018 Ilva stava rifacendo il progetto, unendo i due interventi; da ottobre 2018 l'area è sotto sequestro [16].
-- Tra il 2020 e il 2023 Ilva ha fatto indagini sui rifiuti e sul terreno, concordate con ARPA e ISPRA [1][18].
-- Il 7 luglio 2023 Ilva ha mandato il nuovo progetto al Ministero [1][2].
+- Tra il 2020 e il 2023 Ilva ha fatto indagini sui rifiuti e sul terreno, concordate con ARPA e ISPRA [1][18]. Il giudice (GIP) le ha autorizzate il 26 novembre 2020; dopo uno stop chiesto da ARPA, i sondaggi nell'area ex Fintecna sono stati fatti il 29–31 luglio 2021 e, secondo il rapporto di Ilva del 28 ottobre 2021, **tutti i campioni di rifiuti sono risultati "non pericolosi"** [22]. Una seconda fase, nelle aree vicine, si è svolta tra aprile e giugno 2023 [23][24]. Il progetto approvato prevede comunque una copertura come quella delle discariche di rifiuti pericolosi [1][2].
+- Il 7 luglio 2023 Ilva ha mandato il nuovo progetto, scritto dalla società AECOM URS Italia, al Ministero [1][2][24].
 - Tra luglio 2023 e novembre 2025 ci sono state una conferenza di servizi "istruttoria" e quattro riunioni di quella "decisoria" [2]. ISPRA e ARPA hanno dato **parere favorevole con condizioni** già a novembre 2023 [6][7], e ARPA lo ha confermato nel 2024 e nel 2025 [8][9].
 - Il ritardo è dipeso soprattutto dalle **autorizzazioni per il paesaggio e per il bosco**: parte dell'area è bosco protetto e il progetto prevede di togliere tutta la vegetazione, cosa vietata dal piano paesaggistico della Puglia; per questo è servita un'autorizzazione "in deroga" della Regione, arrivata con la delibera della Giunta n. 1488 del 7 ottobre 2025 [2].
 - Alle riunioni del 31 ottobre 2024, del 28 novembre 2024 e dell'8 gennaio 2025 molti enti convocati non si sono presentati [12][13][14]. A dicembre 2024 Ilva ha mandato una diffida agli enti, minacciando azioni legali [2].
@@ -50,6 +50,8 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 - Prima di togliere gli alberi serve ancora un'altra autorizzazione della Regione ("trasformazione boschiva"), che si può chiedere solo con il progetto esecutivo e che la Regione ha 180 giorni per rilasciare [2].
 
 **Ci sono stati lavori sul posto?** Sì, ma solo preparatori, non la messa in sicurezza: sondaggi e analisi, il controllo dei pozzi della falda e la sistemazione dei piezometri chiesta da Procura, Ministero, ARPA e ISPRA [1][17].
+
+**La falda sotto la discarica.** Ilva controlla la falda profonda una volta l'anno, anche se dice di non esserne più obbligata [22]. Da giugno 2022, "considerati gli esiti del monitoraggio", lo fa ogni tre mesi "a scopo cautelativo" [24]. I risultati non sono pubblicati.
 
 ## Rapporto con la Gravina di Leucaspide (A1)
 - **Sono aree vicine e unite dallo stesso sequestro.** Le relazioni di Ilva le trattano insieme, in un'unica sezione, come "aree sotto sequestro con interventi in corso" [1][18]. Il sequestro riguarda il procedimento penale n. 2318/13 della Procura di Taranto [14], lo stesso citato per le indagini sui "rilevati Vecchie Vasche" della Gravina [6].
@@ -140,14 +142,22 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 
 [21] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 12 (pagina 13 del PDF), https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
 
+[22] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2022*, pagine 34–36, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2022_omissisb.pdf — copia in `fonti/2022-03_ilva-as_relazione-trimestrale-I-2022.pdf`
+
+[23] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 2° trimestre 2023*, pagina 32, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_II_trim_2023_omissisb.pdf — copia in `fonti/2023-06_ilva-as_relazione-trimestrale-II-2023.pdf`
+
+[24] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagine 35–36, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
+[25] Ilva S.p.A. in A.S., *Aggiornamento sullo stato di attuazione degli interventi in capo a ILVA in AS* (aggiornato al 12 luglio 2022), per l'Osservatorio ILVA, pagine PDF 30–36 (scheda "Discarica Nord Ovest"), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=291 — copia in `fonti/2022-07_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
 Tutti i documenti del Ministero si trovano anche nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ scegliendo SIN "Taranto" e Area "3000".
 
 ## Cosa non sappiamo
-1. **I lavori sono partiti?** Non verificato. Nessuna fonte, né del Ministero né di Ilva, dice se i lavori sono partiti. L'ultimo documento del Ministero su quest'area è del 19 giugno 2026. Le relazioni di Ilva del 2026 non sono ancora pubblicate. Abbiamo cercato anche nelle banche dati pubbliche su progetti e gare, senza risultati. Questo però non prova che non ci sia nulla, perché Ilva potrebbe non usare quei sistemi.
+1. **I lavori sono partiti?** Non verificato. Nessuna fonte, né del Ministero né di Ilva, dice se i lavori sono partiti. L'ultimo documento del Ministero su quest'area è del 19 giugno 2026 (archivio controllato il 9 ottobre 2026). Le relazioni di Ilva del 2026 non sono ancora pubblicate. Abbiamo cercato anche nelle banche dati pubbliche su progetti e gare, senza risultati. Questo però non prova che non ci sia nulla, perché Ilva potrebbe non usare quei sistemi.
 2. **Cosa vuol dire "inizio dei lavori".** Il decreto di proroga fissa il 15 giugno 2026 per l'inizio dei "lavori" [5], ma Ilva in quella data prevedeva di iniziare solo la progettazione esecutiva e le indagini [5]. Il cantiere vero e proprio (togliere gli alberi, coprire la discarica) deve aspettare anche l'autorizzazione della Regione sul bosco, che richiede fino a 180 giorni [2]. È quindi probabile che a settembre 2026 la copertura non sia ancora iniziata, ma nessuna fonte lo dice.
 3. **La fideiussione di circa 14,9 milioni € è stata data?** Non verificato [2][5].
 4. **Quanto è stato speso davvero, e con quali soldi.** Ci sono solo le cifre del 2018 (circa 417.000 € in tutto) [16]. Non verificato.
-5. **Quanti rifiuti ci sono.** Le fonti danno le superfici (circa 11 ettari in tutto) ma non il volume dei rifiuti della Discarica Nord-Ovest [6]. I 5 milioni di metri cubi citati dal Parlamento si riferiscono al complesso della Gravina di Leucaspide [19]; non è chiaro se comprendono anche questa discarica.
+5. **Quanti rifiuti ci sono.** Le fonti danno le superfici (circa 11 ettari in tutto secondo ISPRA [6]; 12,9 ettari nella scheda di Ilva per l'Osservatorio del 2022 [25]) ma non il volume dei rifiuti della Discarica Nord-Ovest [6]. I 5 milioni di metri cubi citati dal Parlamento si riferiscono al complesso della Gravina di Leucaspide [19]; non è chiaro se comprendono anche questa discarica.
 6. **La falda resta inquinata.** La copertura serve a non peggiorare la situazione, ma non pulisce la falda, che ha una procedura separata [6]. ISPRA ha chiesto di non tenere del tutto separati i due problemi [6].
 7. **Il sequestro:** la data precisa (i giornali scrivono 30 ottobre 2018) e l'estensione esatta dell'area sequestrata si trovano solo sui giornali, non in un atto giudiziario pubblicato. Anche lo stato attuale del processo penale non è verificato.
 8. **Piccole incongruenze nelle fonti:**
@@ -157,17 +167,39 @@ Tutti i documenti del Ministero si trovano anche nell'archivio https://bonifiche
    - il decreto di proroga è firmato il **16 giugno 2026**, ma fissa la nuova scadenza per l'inizio dei lavori al **15 giugno 2026**, cioè un giorno prima: il termine viene spostato a una data già passata [5].
 9. **Il progetto del Comune di Statte sulla Gravina di Leucaspide** (191.575 €, concluso nel 2022) [20]: non si sa cosa contenga né se sia stato usato da Ilva o dal Ministero.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Ministero dell'Ambiente e della Sicurezza energetica – Direzione generale economia circolare e bonifiche — PEC: ECB@pec.mase.gov.it (indirizzo verificato sulla nota ufficiale del Ministero del 18/12/2025 [3])
+Il Ministero dell'Ambiente, che ha in mano quasi tutti gli atti, pubblica solo indirizzi PEC: per chi ha la PEC, la stessa richiesta si può mandare a ecb@pec.mase.gov.it (Direzione generale economia circolare e bonifiche).
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – SIN di Taranto, ID Area 3000, "Progetto di Messa in sicurezza permanente dell'Area Discarica Nord Ovest, Area ex Fintecna e dell'Area posta ad ovest rispetto all'area ex Fintecna" (decreti DG ECB n. 423/2025, n. 26/2026 e n. 169/2026)
+### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
+**A:** Regione Puglia, Sezione Ciclo dei rifiuti e bonifiche — email ordinaria ciclorifiutiebonifiche@regione.puglia.it, in copia l'Ufficio relazioni con il pubblico quiregione@regione.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Messa in sicurezza permanente della "Discarica Nord Ovest, Area ex Fintecna e Area posta ad ovest" di ILVA in A.S. (SIN Taranto, ID area 3000) – fideiussione (art. 4 decreto MASE n. 423/2025) e trasformazione boschiva
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. le comunicazioni di ILVA S.p.A. in A.S. sull'effettivo inizio dei lavori, previsto entro il 15 giugno 2026 dall'art. 2 del decreto n. 423/2025 come modificato dal decreto n. 169/2026;
-> 2. il cronoprogramma dettagliato delle attività inviato da ILVA S.p.A. in A.S. in base alla prescrizione vi del decreto n. 423/2025;
-> 3. la documentazione relativa alla fideiussione in favore della Regione Puglia prevista dall'art. 4 del decreto n. 423/2025 (data di emissione e importo);
-> 4. la nota del Ministero prot. n. 105958 del 18 maggio 2026 e l'istanza di ILVA S.p.A. in A.S. del 31 marzo 2026 (prot. MASE n. 75926);
-> 5. ogni altro atto relativo al procedimento successivo al 19 giugno 2026.
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi al "Progetto di Messa in sicurezza permanente dell'Area Discarica Nord Ovest, Area ex Fintecna e dell'Area posta ad ovest rispetto all'area ex Fintecna" di ILVA S.p.A. in A.S. (Comune di Statte, SIN di Taranto, ID area 3000), approvato con decreto MASE – DG ECB n. 423 del 16/12/2025, modificato con i decreti n. 26 del 05/02/2026 e n. 169 del 16/06/2026:
+>
+> 1. **Fideiussione.** La fideiussione prestata dai Commissari straordinari di ILVA S.p.A. in A.S. in favore della Regione Puglia in base all'art. 4 del decreto n. 423/2025 (50% dell'importo stimato di 29.812.351,53 €), o in mancanza i dati su data di ricezione, importo, garante e durata; se non è ancora pervenuta, la corrispondenza con ILVA o con il Ministero su questo punto (compresa, se ricevuta in copia, la nota MASE prot. 105958 del 18/05/2026).
+> 2. **Trasformazione boschiva.** L'istanza di autorizzazione alla "Trasformazione boschiva con compensazione" presentata da ILVA S.p.A. in A.S. per la rimozione della vegetazione nell'area (nota regionale del 14/04/2025, prot. MASE 71245), con la data di presentazione, lo stato del procedimento e l'eventuale provvedimento rilasciato, comprese le misure di compensazione.
+> 3. **Inizio dei lavori.** Le comunicazioni ricevute da ILVA S.p.A. in A.S., dopo il 18/12/2025, sull'avvio dei lavori o delle attività preliminari (termine fissato al 15/06/2026 dal decreto n. 169/2026) e sul cronoprogramma delle attività.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti. Se l'ufficio competente è un altro, chiede di inoltrare la richiesta e di comunicare il numero di protocollo assegnato.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
+**A:** ARPA Puglia, Dipartimento provinciale di Taranto — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina URP](https://www.arpa.puglia.it/pagina2819_urp.html)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – "Discarica Nord Ovest, Area ex Fintecna e Area posta ad ovest" di ILVA in A.S. (SIN Taranto, ID area 3000), inizio dei lavori di messa in sicurezza permanente, rifiuti e acque sotterranee (DAP Taranto)
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi alla "Discarica Nord Ovest, Area ex Fintecna e Area posta ad ovest rispetto all'area ex Fintecna" di ILVA S.p.A. in A.S. (Comune di Statte, SIN di Taranto, ID area 3000), il cui progetto di messa in sicurezza permanente è stato approvato con decreto MASE – DG ECB n. 423 del 16/12/2025 (termine per l'inizio dei lavori spostato al 15/06/2026 dal decreto n. 169/2026):
+>
+> 1. **Inizio dei lavori.** Le comunicazioni ricevute da ILVA S.p.A. in A.S., dopo il 18/12/2025, sull'avvio dei lavori, della progettazione esecutiva o delle indagini preliminari, il cronoprogramma trasmesso, e gli eventuali verbali di sopralluogo o di controllo di ARPA in cantiere.
+> 2. **Acque nel corpo dei rifiuti.** Gli esiti delle indagini prescritte dal decreto n. 423/2025 (prescrizioni ii e xi) per individuare ed emungere eventuali accumuli o acque di impregnazione nel corpo dei rifiuti, comprese le indagini geofisiche sul substrato roccioso, se eseguite, con le relative validazioni.
+> 3. **Acque sotterranee.** I risultati del monitoraggio della falda profonda sotto la discarica (eseguito con frequenza trimestrale da giugno 2022, secondo le relazioni di ILVA) per gli anni 2024, 2025 e 2026, e le relative validazioni o i campionamenti in contraddittorio di ARPA.
+> 4. **Classificazione dei rifiuti.** Il report di fine lavori della caratterizzazione dei rifiuti dell'area ex Fintecna (28/10/2021) e gli esiti della seconda fase di indagine nelle aree vicine (aprile–giugno 2023), con le relative validazioni di ARPA.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti. Se l'ufficio competente è un altro, chiede di inoltrare la richiesta e di comunicare il numero di protocollo assegnato.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
