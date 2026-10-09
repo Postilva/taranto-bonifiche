@@ -1,5 +1,5 @@
 # B5 – Mar Piccolo: rifiuti sul fondale del 1° seno, 1° lotto (rimossi)
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
 ## In breve
 Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati tolti dal fondale del 1° seno in due tranche: una prima con la Sogesid (circa 500 tonnellate, 2017–2018) e un "completamento" assegnato nel 2021 per 3,33 milioni € più IVA, con lavori finiti l'8 agosto 2023 [1][2][3][4][6]. L'opuscolo del Commissario (maggio 2026) dice "intervento concluso" per entrambe, ma ha dovuto ricostruire i conti per pagare il saldo alla Sogesid (pagato il 5 dicembre 2025), e non ho trovato il certificato finale del completamento [1][4][5][6][13]. **Togliere rifiuti dal fondale NON è bonificare: i fanghi inquinati sotto non sono stati toccati e il 1° seno non è bonificato** [1][2].
@@ -47,11 +47,16 @@ Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati to
 | 1° stato di avanzamento (a tutto il 15/09/2022) | 540.702,21 € | decreto 3677 del 19/01/2023 |
 | 2° stato di avanzamento (a tutto il 20/12/2022) | 486.016,60 € | decreto 4318 del 23/01/2023 |
 | 3° stato di avanzamento (a tutto il 20/04/2023) | 647.174,06 € | decreto 34130 del 12/06/2023 |
-| **Totale pagato, documentato** | **2.674.339,94 €** | calcolo mio |
+| 4° stato di avanzamento (a tutto il 21/07/2023) | 524.638,41 € | decreto n. 1 del 13/01/2025 |
+| 5° stato di avanzamento (a tutto il 29/08/2023) | 100.078,77 € | decreto n. 1 del 13/01/2025 |
+| Stato finale | 8.295,47 € | decreto n. 1 del 13/01/2025 |
+| **Totale pagato, documentato** | **3.307.352,59 €** | calcolo mio |
 
-- Dei 3.334.823,56 € del contratto, risultano quindi documentati 2.674.339,94 €; restano 660.483,62 € (calcolo mio) di cui non ho trovato i decreti. Non verificato.
+- Gli ultimi tre pagamenti (633.012,65 € più IVA, in tutto 757.985,51 €) sono stati decisi solo il 13 gennaio 2025, più di un anno dopo la fine del servizio: i documenti erano stati mandati alla struttura del Commissario precedente nel 2023 e il Comune li ha rimandati il 9 dicembre 2024 perché non erano più disponibili [14].
+- Dei 3.334.823,56 € del contratto risultano quindi pagati 3.307.352,59 € (calcolo mio); i 27.470,97 € di differenza non sono spiegati nelle fonti, probabilmente lavori contati a misura in meno. Non verificato.
+- Il decreto del 2025 attribuisce il pagamento del 3° stato di avanzamento al decreto 48416 del 24/08/2023, mentre il decreto 34130 del 12/06/2023 dice di pagarlo lui stesso [9][10][14]: una piccola incoerenza tra atti.
 - Con il decreto del 24 agosto 2023 sono stati pagati 5.808,36 € trattenuti per una irregolarità fiscale di una delle imprese del raggruppamento, poi risolta [10].
-- Codice di finanziamento: il completamento è pagato con il CUP J56J14000460001, quello del programma "sedimenti del Mar Piccolo" da 55 milioni € [9][11]. Per la prima tranche il codice non l'ho verificato.
+- Codice di finanziamento: il completamento è pagato con il CUP J56J14000460001, quello del programma "sedimenti del Mar Piccolo" [9][11]; nel decreto del 2025 compare anche un secondo codice, J98C16000070001, probabilmente quello del Comune di Taranto, soggetto attuatore [14]. I soldi vengono dai **21 milioni € della Regione** (Fondo sviluppo e coesione, delibera CIPE 87/2012), destinati alla "messa in sicurezza di emergenza per la rimozione dei sedimenti contaminati da PCB" del Mar Piccolo: il quadro economico del completamento era di 4.890.551,90 € [14]. Per la prima tranche il codice non l'ho verificato.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -69,7 +74,10 @@ Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati to
 | 21 settembre 2021 | Parere dell'Avvocatura sull'attestazione della Sogesid | [4] |
 | 17 marzo 2022 | Consegna dei lavori del completamento | [7] |
 | 8 agosto 2023 | Fine delle attività del completamento | [6] |
+| 11 agosto 2023 | Fine del servizio secondo il verbale del 16 agosto 2023 | [14] |
+| 20–22 dicembre 2023 | Conto finale e certificato di collaudo (verifica di conformità) del completamento | [14] |
 | 24 agosto 2023 | Pagate le somme trattenute | [10] |
+| 13 gennaio 2025 | Decreto n. 1: pagati gli ultimi 757.985,51 € del completamento | [14] |
 | 5 dicembre 2025 | Decreto n. 30: saldo della fattura Sogesid della prima tranche (462.013,47 €) | [13] |
 | maggio 2026 | L'opuscolo scrive "intervento concluso" | [1] |
 
@@ -100,14 +108,27 @@ Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati to
 
 [13] Commissario straordinario per la bonifica di Taranto, *Decreto n. 30 del 5 dicembre 2025*, convenzione con la Sogesid del 23/09/2015, "Rimozione dei materiali di natura antropica presenti sul fondale del Mar Piccolo – I Seno", CUP J56J14000460001, saldo della fattura n. 7 del 27/02/2020 con nota di credito n. 417 del 06/11/2025 (il decreto data il certificato di verifica di conformità "27/11/2028", un errore evidente), https://commissari.gov.it/media/nxbir5ir/30_20251205_lp_cup-j56j14000460001_sogesid_marine_litter_signed_signed.pdf — copia in `fonti/2025-12_commissario-taranto_decreto-30-2025-saldo-sogesid-rifiuti-mar-piccolo.pdf`
 
+[14] Commissario straordinario per la bonifica di Taranto, *Decreto n. 1 del 13 gennaio 2025*, "Rimozione dei materiali di natura antropica sul fondale del I seno del Mar Piccolo – Completamento I Lotto", CIG 80538539BD, liquidazione degli stati di avanzamento n. 4 e 5 e dello stato finale (757.985,51 €), pagine 2–6, https://commissari.gov.it/media/44hpmemr/20250113_d_1_lp_4-5-sf_rti-serveco_compl_i_lotto.pdf — copia in `fonti/2025-01_commissario-taranto_decreto-1-2025-stato-finale-completamento-lotto1.pdf`
+
 ## Cosa non sappiamo
 1. **Quanto è stato tolto nel "completamento".** Per le 500 tonnellate della prima tranche abbiamo i numeri (con piccole differenze tra le fonti); per il completamento non ho trovato né quantità né tipo di rifiuti. Non verificato.
-2. **Se i lavori finali sono stati verificati e pagati.** L'opuscolo dice che sì [1], ma i decreti che ho trovato arrivano ad agosto 2023: mancano il conto finale, il certificato di regolare esecuzione e il pagamento del resto del contratto [6]. Non verificato.
+2. **I documenti finali del completamento.** Sappiamo che il conto finale e il certificato di collaudo esistono (dicembre 2023) e che tutto è stato pagato a gennaio 2025 [14], ma i documenti non sono pubblici: non sappiamo cosa dicono su quantità, tipo di rifiuti e dove sono stati portati.
 3. **Quando sono partiti i lavori della prima tranche:** primavera 2017 secondo il Commissario, dicembre 2017 secondo la Sogesid [2][3]. Non verificato.
 4. **Cosa resta sul fondale.** Il Commissario parla di "restanti aree" da pulire dopo il 1° lotto [2], e nel 2024 la Regione cita una "prosecuzione" della rimozione (vedi scheda B11) [12]. Non so quanti rifiuti restino. Non verificato.
-6. **Cosa c'è sotto i rifiuti.** Nessuna delle fonti dice che i fanghi inquinati siano stati misurati o trattati in questi lavori. Il Mar Piccolo non è bonificato (vedi scheda B13).
+5. **Cosa c'è sotto i rifiuti.** Nessuna delle fonti dice che i fanghi inquinati siano stati misurati o trattati in questi lavori. Il Mar Piccolo non è bonificato (vedi scheda B13).
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+### Richiesta di accesso civico (FOIA) n. 24 — da inviare tu
+La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`).
+
+**FOIA 24 — Commissario straordinario bonifiche Taranto** (A: Armento.Rita@mase.gov.it, Cc: v.uricchio@governo.it)
+1. prima tranche (Sogesid): la relazione di verifica di conformità del 15/02/2019, l'attestazione di regolare esecuzione o il certificato di verifica di conformità rifatti dopo il parere dell'Avvocatura del 2021, e le quantità tolte per tipo di rifiuto, con gli impianti di destinazione;
+2. completamento: la relazione sullo stato finale del direttore dell'esecuzione e il certificato di collaudo (dicembre 2023), con le quantità tolte per tipo di rifiuto e gli impianti di destinazione.
+
+Testo completo in `.tmp/foia/24-*.md`.
+
+### Vecchia bozza comune per B4, B6 e B11 (non inviata)
+I punti 2 e 3 sono superati dalla FOIA 24. I punti 1, 4 e 5 vanno rifiniti quando si ripassano le schede B4, B11 e B6.
+
 *Una sola richiesta, valida per le quattro schede B4, B5, B6 e B11.*
 
 **A:** Commissario straordinario per gli interventi urgenti di bonifica, ambientalizzazione e riqualificazione dell'area di Taranto — PEC: commissario_bonifiche.taranto@pec.governo.it (indirizzo verificato sul sito ufficiale commissari.gov.it il 30/09/2026 e di nuovo il 06/10/2026)

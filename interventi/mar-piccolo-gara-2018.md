@@ -78,7 +78,7 @@ Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara eu
 ## Soldi
 - **Valore della gara:** 32.276.250 € IVA esclusa [2]; con l'IVA sono circa 39,4 milioni € (calcolo mio: 32.276.250 × 1,22).
 - **Soldi per tutto il programma "sedimenti del Mar Piccolo"** (CUP J56J14000460001): **55 milioni €** [6][9]:
-  - 21 milioni € dal Fondo sviluppo e coesione 2007-2013 della Regione Puglia (delibera CIPE 87/2012): 17,85 milioni già versati al Commissario [6][7];
+  - 21 milioni € dal Fondo sviluppo e coesione 2007-2013 della Regione Puglia (delibera CIPE 87/2012): 17,85 milioni già versati al Commissario secondo le relazioni del 2018 e del 2023 [6][7]. Un decreto del Commissario del 2025 scrive invece che la Regione ha versato 75 milioni € dei 75,17 assegnati con la stessa delibera a tre interventi (molo polisettoriale, PIP di Statte e Mar Piccolo), con tre determine del 2013, 2020 e 2021; con questi soldi è stato pagato anche il "completamento" della rimozione dei rifiuti dal fondale (scheda B5) [23];
   - 34 milioni € dal Fondo sviluppo e coesione 2014-2020 del Ministero dell'Ambiente (delibera CIPE 55/2016): 3,4 milioni versati al Commissario (dato 2023) [7].
   Questi 55 milioni non servivano solo per la gara: con lo stesso codice (CUP) sono stati pagati anche altri lavori nel Mar Piccolo, per esempio la rimozione del mercato ittico galleggiante affondato [1][7][9].
 - **OpenCoesione** (dati al 30 giugno 2026) [9][10]:
@@ -172,6 +172,8 @@ Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara eu
 
 [22] Commissario straordinario per la bonifica di Taranto, *Decreto n. 48 del 4 settembre 2026*, raccomandazioni del percorso partecipativo "Nuovi approcci partecipativi per la tutela e la valorizzazione del Mar Piccolo di Taranto" (Università di Bari, Dipartimento Jonico, legge regionale Puglia n. 28/2017), presa d'atto e analisi di coerenza, https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-09_commissario-taranto_decreto-48-percorso-partecipativo-mar-piccolo.pdf`
 
+[23] Commissario straordinario per la bonifica di Taranto, *Decreto n. 1 del 13 gennaio 2025* (completamento del I lotto di rimozione dei rifiuti dal fondale del Mar Piccolo), pagine 2–3, https://commissari.gov.it/media/44hpmemr/20250113_d_1_lp_4-5-sf_rti-serveco_compl_i_lotto.pdf — copia in `fonti/2025-01_commissario-taranto_decreto-1-2025-stato-finale-completamento-lotto1.pdf`
+
 ## Cosa non sappiamo
 1. **Se la gara è stata chiusa ufficialmente.** C'è solo la sospensione del 21 agosto 2020 [7][8]: non risulta nessun atto che annulli o chiuda la gara. Nella banca dati nazionale delle gare (ANAC) la gara è ancora **"attiva"**, senza vincitori [15][17]. Sullo stesso codice di finanziamento del Mar Piccolo compaiono anche spese che non c'entrano con il Mar Piccolo: per esempio un articolo scientifico sul turismo alle isole Tremiti [16]. Potrebbe essere un errore di compilazione: non si sa. Le 6 imprese ammesse potrebbero avere ancora diritti o pretese. Non verificato. Il 9 ottobre 2026 abbiamo ricontrollato: l'elenco dei decreti 2026 del Commissario non contiene atti sulla gara, e due ricerche sul web non hanno trovato notizie sulla sua chiusura. Da chiedere con FOIA.
 2. **L'opuscolo e i documenti ufficiali non coincidono sul perché si è fermata.** L'opuscolo parla di problemi emersi "durante la fase di negoziazione con i raggruppamenti di imprese" e di "nuove prospettive" scientifiche [1]. Ma secondo la relazione del Prefetto Martino e la Commissione parlamentare la gara è stata sospesa per la scadenza del mandato della Commissaria, subito dopo l'ammissione dei concorrenti, prima della trattativa [7][8]; poi è rimasta ferma per i dubbi sui costi e sui benefici [7][8].
@@ -179,7 +181,7 @@ Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara eu
 4. **Quanto è costata la gara.** Il Commissario parlava di 1.726.613 € spesi (2021) [8], ma non dice per cosa (commissioni di gara, Università delle Marche, indagini?). Il costo dell'accordo con l'Università delle Marche non è indicato [7]. Non verificato.
 5. **I numeri dei soldi non tornano tra le fonti:**
    - pagamenti: 4.588.677,56 € a dicembre 2018 secondo il Commissario [6], ma OpenCoesione registra il primo pagamento solo ad aprile 2021 [9];
-   - i 21 milioni della Regione: 17,85 milioni versati al Commissario secondo il Commissario [6][7], 0 € pagati secondo OpenCoesione [10];
+   - i 21 milioni della Regione: 17,85 milioni versati al Commissario secondo le relazioni [6][7], praticamente tutto versato secondo il decreto del 2025 [23], 0 € pagati secondo OpenCoesione [10], anche se almeno il completamento della rimozione dei rifiuti (scheda B5) è stato pagato con questi soldi [23];
    - risorse "finanziate" per la gara: 39.345.637,64 € nel 2021 [8], 32.276.250 € + IVA nel bando [2].
    Non verificato.
 6. **Quanto era grande l'area.** "Poco più di 14 ettari" secondo il Prefetto Martino [7], 30.000 m² (3 ettari) di superficie prevista su OpenCoesione [9]. Non verificato.
@@ -201,7 +203,7 @@ La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staf
 5. i risultati della campagna sui sedimenti del 1° seno (settembre 2016 – marzo 2017): PCB, diossine e metalli.
 
 **FOIA 22 — Regione Puglia** (A: quiregione@regione.puglia.it, Cc: ciclorifiutiebonifiche@regione.puglia.it; si chiede di inoltrarla alla struttura che gestisce il Fondo sviluppo e coesione)
-1. lo stato dei 21 milioni € del Fondo sviluppo e coesione 2007-2013 (delibera CIPE 87/2012) per i sedimenti del Mar Piccolo: quanto è stato versato al Commissario, quanto speso, e se la somma è ancora valida o è stata tolta o spostata, con i relativi atti;
+1. lo stato dei 21 milioni € del Fondo sviluppo e coesione 2007-2013 (delibera CIPE 87/2012) per i sedimenti del Mar Piccolo: quanto risulta speso e rendicontato dal Commissario, e se la parte non spesa è ancora valida o è stata tolta o spostata, con i relativi atti;
 2. il motivo per cui su OpenCoesione il progetto da 21 milioni risulta con 0 € di pagamenti.
 
 Testo completo in `.tmp/foia/21-*.md` e `22-*.md`.
