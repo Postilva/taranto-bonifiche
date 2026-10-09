@@ -1,5 +1,5 @@
 # B12 – Mar Piccolo: bonifica dell'"Area 170 ha" con ecodragaggio (con la Marina Militare)
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
 ## In breve
 L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale della Marina Militare, dove le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante" da PCB, arsenico e mercurio [6]. Dal 2025 il Commissario per la bonifica vuole ripulirla togliendo i fanghi con un "ecodragaggio" insieme alla Marina Militare, ma oggi c'è solo l'accelerazione del "piano di indagini": nessun lavoro è partito, i soldi non sono assegnati e le date non ci sono [1][2]. **L'area non è bonificata e nemmeno messa in sicurezza**, e il collegamento con i lavori di ammodernamento delle basi della Marina è dichiarato dal Commissario ma non ho trovato nessun atto che lo spieghi [1].
@@ -15,7 +15,9 @@ L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale
 **Né bonificato né messo in sicurezza.** Per i sedimenti dell'Area 170 ha non risulta nessun lavoro in mare e nessun certificato di bonifica [1].
 
 **Studi ufficiali sull'inquinamento**
+- Già l'Accordo di programma quadro dell'11 giugno 2004 (Ministero dell'Ambiente, Ministero dell'Economia, Commissario delegato per l'emergenza ambientale e Regione Puglia) prevedeva per l'Area 170 ha tre interventi: analisi (500.000 €), progettazione e sperimentazione (1.550.000 €) e bonifica (23.950.000 €), in tutto 26 milioni €, poi portati a 37.244.000 € con altri fondi del Programma nazionale di bonifica [17]. Le fonti trovate non dicono che fine abbiano fatto questi soldi, a parte le analisi del 2005.
 - Nel 2005 la zona davanti all'Arsenale è stata analizzata dal Commissario delegato per l'emergenza rifiuti in Puglia; risultato: contaminazione estesa e rilevante da PCB e da metalli pesanti (arsenico e mercurio), rispetto ai limiti fissati da ICRAM-ISPRA e dal D.Lgs. 152/2006 [6].
+- Nel 2018 il Commissario scriveva di aver completato le indagini geofisiche (cioè con strumenti, senza prelievi) sul fondale, compresa l'Area 170 ha [18].
 - ARPA Puglia e ISPRA scrivono (2015) che una delle possibili fonti "secondarie" di inquinamento nel 1° seno è la risospensione dei sedimenti dell'Area 170 ha, cioè i fanghi vecchi che si rimescolano e rilasciano inquinanti [6]. Non hanno scritto chi li ha inquinati.
 - La Commissione parlamentare (2022) scrive che i problemi del Mar Piccolo sono dovuti in larga misura all'intensa attività industriale dell'area, che comprende cantieristica e l'Arsenale Militare, e che sopra si è sovrapposta l'attività siderurgica [14]. Il documento parla dell'area in generale, non dice quanta parte spetti a ciascuno.
 - Le **concentrazioni misurate** (milligrammi per chilo) dei fanghi dell'Area 170 ha non sono in nessun documento pubblico che ho trovato. Non verificato.
@@ -31,6 +33,7 @@ L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale
 - **Piano di indagini:** grazie al coordinamento di Commissario e MASE è stato "velocizzato l'iter" del piano di indagini, "passaggio obbligatorio per avviare i dragaggi tecnici e ambientali" [1]. Non ho trovato il piano, né la data di approvazione, né chi lo fa e quanto costa. Non verificato.
 - **Espansione:** sono in corso tavoli tecnici per estendere la rimozione dei sedimenti anche alle aree vicine alla Base Sommergibili [1].
 - A gennaio 2026 il responsabile del CIS ha detto che da parte del CIS "non vi è alcun ostacolo" e che darà l'assenso formale [2]. Non ho trovato l'atto formale.
+- Ad agosto 2026 il Commissario scrive che l'Area 170 ha e la Base Sommergibili sono contaminate da metalli pesanti, PCB e IPA, che **ISPRA ha dato un "nulla osta tecnico" il 24 novembre 2025**, che a **gennaio 2026 è iniziata la bonifica da ordigni bellici** e che seguirà "la programmazione dei dragaggi e delle indagini banchinali" [16]. Non ho trovato il nulla osta di ISPRA né l'atto che ha avviato la bonifica da ordigni (chi la fa, dove, quanto costa). Non verificato.
 
 **Il progetto del Commissario nei documenti**
 - L'opuscolo lo chiama "Interventi di bonifica, ambientalizzazione e riqualificazione del bacino del Mar Piccolo di Taranto – I e II stralcio – **II lotto** di bonifica con ecodragaggio dell'Area 170 ha" e lo mette tra i progetti "in cantiere" [1]. Il documento della Regione Puglia lo chiama invece "**I lotto**" [3]. Non so quale sia giusto (vedi "Cosa non sappiamo").
@@ -70,11 +73,13 @@ L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale
 ## Soldi
 - Bonifica Area 170 ha: circa 33,5 milioni € indicati nel documento di proposta della Regione (dicembre 2025) [3]; nessun finanziamento approvato trovato [1][12].
 - Difesa, Intervento A (Mar Grande): 512 milioni € di lavori stimati [8]; 191,4 milioni € monitorati su OpenCoesione, di cui 5,6 milioni € pagati al 30 giugno 2026 [11].
+- Accordo di programma del 2004: 26 milioni € previsti per l'Area 170 ha (analisi, sperimentazione e bonifica), poi 37,244 milioni € [17]. Non si sa quanto sia stato speso né se i soldi rimasti siano stati spostati altrove. Non verificato.
 - Speso per l'Area 170 ha: non verificato.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
 |---|---|---|
+| 11 giugno 2004 | Accordo di programma: 26 milioni € per analisi, sperimentazione e bonifica dell'Area 170 ha | [17] |
 | 2005 | Analisi dei sedimenti dell'Area 170 ha davanti all'Arsenale | [6] |
 | febbraio 2015 | Studio ARPA/ISPRA con simulazione di dragaggio nell'Area 170 ha | [6] |
 | 15 luglio 2015 | Il sito del Commissario annuncia l'accordo di collaborazione con la Marina Militare | [4] |
@@ -85,8 +90,10 @@ L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale
 | 20 giugno 2023 | Si chiude la conferenza di servizi preliminare sull'Intervento A | [10] |
 | 2025 | Il Commissario promuove la collaborazione con la Marina sull'Area 170 ha | [1] |
 | 10 novembre 2025 | Accordo per la Coesione: l'Area 170 ha non è finanziata | [12] |
+| 24 novembre 2025 | "Nulla osta tecnico" di ISPRA (secondo il Commissario) | [16] |
 | 9 dicembre 2025 | La Regione indica "circa 33,5 milioni €" per l'ecodragaggio | [3] |
 | 30 gennaio 2026 | Vertice in Prefettura: il CIS darà l'assenso formale | [2] |
+| gennaio 2026 | Inizia la bonifica da ordigni bellici (secondo il Commissario) | [16] |
 | maggio 2026 | L'opuscolo: piano di indagini "velocizzato", nessun cronoprogramma | [1] |
 | 2026 (prevista) | Gara dei lavori dell'Intervento A della Difesa | [8] |
 | 30 dicembre 2029 (prevista) | Fine prevista dell'Intervento A su OpenCoesione | [11] |
@@ -122,8 +129,14 @@ L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale
 
 [15] Ministero della Difesa, Direzione dei Lavori e del Demanio, Ufficio Basi Blu, *Bando di gara per procedura aperta – Servizio di verifica della progettazione definitiva ed esecutiva dei lavori della Stazione Navale Mar Grande di Taranto – Intervento A*, CIG 8763242810, pubblicato sulla Gazzetta UE il 26 maggio 2021, pag. 1–2 e 6 — copia in `fonti/2021-05_difesa_bando-verifica-progetto-basi-blu-taranto.pdf`
 
+[16] Commissario straordinario per la bonifica di Taranto, sito ufficiale, pagina *L'azione della struttura commissariale nell'ambito del CIS Taranto* (aggiornata il 5/08/2026), https://commissari.gov.it/commta/attivita/l-azione-della-struttura-commissariale-nell-ambito-del-cis-taranto/ — copia in `fonti/2026-08_commissario-taranto_sito-web-azione-cis-taranto.html`
+
+[17] ARPA Puglia, *Indicatori ambientali della Puglia – Siti contaminati*, novembre 2022, pagina 19 del PDF (Accordo di programma quadro dell'11 giugno 2004), https://www.arpa.puglia.it/moduli/output_immagine.php?id=7311 — copia in `fonti/2022-11_arpa-puglia_indicatori-ambientali-siti-contaminati.pdf`
+
+[18] Commissario straordinario, *Relazione sintetica – Aggiornamento dello stato di attuazione*, dicembre 2018, pag. 38–39 (punto VII), https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/000/520/RELAZIONE_dicembre_2018.pdf — copia in `fonti/2018-12_commissario-taranto_relazione-stato-attuazione.pdf`
+
 ## Cosa non sappiamo
-1. **L'accordo con la Marina del 2025–2026.** Non ho trovato nessun atto firmato sull'Area 170 ha: né l'accordo, né il piano di indagini, né chi lo paga, né il costo [1][2]. L'opuscolo dice che i ruoli sono ancora da "formalizzare" [1]. Non verificato.
+1. **L'accordo con la Marina del 2025–2026.** Non ho trovato nessun atto firmato sull'Area 170 ha: né l'accordo, né il piano di indagini, né chi lo paga, né il costo [1][2]. L'opuscolo dice che i ruoli sono ancora da "formalizzare" [1]. Non ho trovato nemmeno il "nulla osta tecnico" di ISPRA del 24 novembre 2025 né gli atti della bonifica da ordigni bellici iniziata a gennaio 2026 [16]. Non verificato. Il 9 ottobre 2026 due ricerche sul web non hanno trovato altro.
 2. **Il testo dell'accordo del 2015** e la sua data esatta: il sito del Commissario dà il 15 luglio 2015, il file collegato porta nel nome "25.06.2016" [4]. Non verificato.
 3. **Quanto costerà e chi pagherà la bonifica.** C'è solo "circa 33,5 milioni €" in un documento di proposta della Regione [3]; il Commissario non dà cifre [1]. Non si sa se useranno i vecchi soldi del Mar Piccolo [13]. Non verificato.
 4. **Se è il "I" o il "II" lotto.** L'opuscolo dice II lotto [1], la Regione dice I lotto [3]. Non verificato.
@@ -133,20 +146,17 @@ L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale
 8. **A che punto è la VIA dei lavori della base.** Nel 2023 era in fase iniziale [10]; non ho trovato come sia andata. Non verificato.
 9. **Quali soldi della Difesa sono veri e quando partono i lavori.** 512 milioni € di lavori stimati dalla Difesa [8], 191,4 milioni € su OpenCoesione [11]: non so come si raccordino. La gara dei lavori era "prevista 2026" [8]; non ho trovato se sia stata bandita: l'unico altro bando trovato è quello del 2021 per la verifica del progetto [15]. Non verificato.
 10. **L'attività della Marina del 2015 sul fondale.** Un articolo di giornale (Buonasera24, "La Marina completa la caratterizzazione") parla di una mappatura dell'Area 170 ha in 63 giorni e di oltre 550 oggetti trovati: è solo una pista, non verificato, non ho trovato la fonte ufficiale.
+11. **I 26 milioni dell'accordo del 2004** (poi 37,2 milioni) per l'Area 170 ha: quanti sono stati spesi e dove sono finiti gli altri [17]. Non verificato.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Commissario straordinario per gli interventi urgenti di bonifica, ambientalizzazione e riqualificazione dell'area di Taranto — PEC: commissario_bonifiche.taranto@pec.governo.it (indirizzo verificato sul sito ufficiale commissari.gov.it il 30/09/2026, vedi scheda B13)
-**Copia (per il punto 5):** Ministero della Difesa, Segretariato Generale della Difesa – Direzione dei lavori e del demanio, Ufficio di Programma Basi Blu — PEC: geniodife@postacert.difesa.it (indirizzo che compare nell'intestazione del verbale ufficiale del 11/07/2023 [10]; da ricontrollare sul sito prima dell'invio)
+### Richiesta di accesso civico (FOIA) n. 23 — da inviare tu
+La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`). Il Ministero della Difesa ha solo la PEC: per ora la domanda sui lavori della base resta fuori.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) e di accesso all'informazione ambientale (D.Lgs. 195/2005) – Bonifica con ecodragaggio dell'"Area 170 ha" nel 1° seno del Mar Piccolo e collaborazione con la Marina Militare
->
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. l'accordo o l'intesa con la Marina Militare per l'"Area 170 ha" (anno 2025 e successivi) e l'accordo di collaborazione del 2015 (file "accordo-di-collaborazione-cs-marina-militare-25.06.2016"), con le eventuali integrazioni;
-> 2. il "piano di indagini" per i dragaggi dell'Area 170 ha e le eventuali altre aree vicine alla Base Sommergibili: testo, data di approvazione, soggetto che lo esegue, costo e fonte di finanziamento, risultati già disponibili;
-> 3. il progetto, anche preliminare, dell'ecodragaggio, con la tecnica prevista, il volume stimato dei sedimenti e la loro destinazione (trattamento, deposito o smaltimento);
-> 4. il quadro economico dell'intervento ("circa 33,5 milioni €"), con la fonte di finanziamento prevista e il cronoprogramma, e gli atti con cui il Tavolo del CIS ha dato o darà l'assenso;
-> 5. (anche alla Difesa) l'indicazione dell'opera della Difesa a cui l'opuscolo del Commissario si riferisce con "ammodernamento della Base Sommergibili", con atti di approvazione, finanziamento, procedura di VIA e autorizzazione al dragaggio ai sensi dell'art. 5-bis legge 84/1994;
-> 6. i risultati delle analisi dei sedimenti dell'Area 170 ha (PCB, arsenico, mercurio e altri parametri) disponibili presso il Commissario.
->
-> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
-> [Luogo, data, firma] — allegare copia di un documento d'identità.
+**FOIA 23 — Commissario straordinario bonifiche Taranto** (A: Armento.Rita@mase.gov.it, Cc: v.uricchio@governo.it)
+1. gli accordi con la Marina Militare per l'Area 170 ha (quello del 2015 e quelli dal 2025), con le integrazioni;
+2. il "nulla osta tecnico" di ISPRA del 24 novembre 2025 e la richiesta a cui risponde;
+3. gli atti della bonifica da ordigni bellici iniziata a gennaio 2026: chi la fa, dove, costo e risultati;
+4. il piano di indagini per i dragaggi (testo, approvazione, chi lo fa, costo, risultati) e l'eventuale progetto di ecodragaggio, con il volume dei fanghi e dove andranno;
+5. il quadro economico dell'intervento ("circa 33,5 milioni €"), la fonte dei soldi, il calendario e l'assenso del Tavolo del CIS;
+6. i risultati delle analisi dei sedimenti dell'Area 170 ha (PCB, arsenico, mercurio e altro) che ha il Commissario.
+
+Testo completo in `.tmp/foia/23-*.md`.
