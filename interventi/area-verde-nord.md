@@ -1,5 +1,5 @@
 # A9 – Area a verde Nord (Statte, accanto alla Gravina di Leucaspide)
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
 ## In breve
 È un grande terreno incolto di circa 26,7 ettari, rimasto a Ilva in amministrazione straordinaria, nel Comune di Statte, tra la Gravina di Leucaspide e il paese (a meno di 1 km dal centro e a circa 100 m dalle prime case), dentro un'area naturale protetta [4][6]. Le analisi del 2021–2022 hanno trovato berillio quasi ovunque e, in alcuni punti, arsenico, zinco, cadmio, idrocarburi e solventi oltre i limiti per le aree verdi; l'analisi di rischio di Ilva dice che due zone sono **contaminate** (è il "primo stato di contaminazione" di cui parla Ilva) [4][1]. **Non è stato bonificato né messo in sicurezza**: l'analisi di rischio è stata respinta e la pratica archiviata dal Ministero a febbraio 2024, e da allora nell'archivio pubblico non c'è niente di nuovo [12].
@@ -18,11 +18,12 @@
 - **Prime analisi nel 2005**: 71 sondaggi, nessun superamento dei limiti per le aree verdi; nessun pozzo per l'acqua [4]. Nell'area ci sono 4 pozzi di controllo fatti nel 2006 dal Comune di Statte per le indagini sulla Gravina di Leucaspide [4]. Analisi precedenti dell'acqua sotterranea avevano trovato **cromo esavalente** oltre i limiti [3].
 - **Piano delle analisi** (piano di caratterizzazione): approvato con il **decreto n. 17 del 27 gennaio 2021**, con 14 prescrizioni: tenere conto dei vincoli (sito Natura 2000 "Area delle Gravine", Parco "Terra delle Gravine"), almeno 3 pozzi per l'acqua, campioni anche dove c'erano rifiuti abbandonati, e consegnare i risultati **entro sei mesi** [3]. Sono arrivati **dopo due anni e mezzo**, a luglio 2023 [5].
 - **Rifiuti abbandonati**: nel 2022 Ilva scriveva di aver concluso la rimozione dei cumuli [2]. Oggi scrive che l'area "è soggetta ad abbandono di rifiuti", che vengono "regolarmente rimossi" [1]. Quantità e tipo: non verificato.
-- **Analisi sul posto**, giugno 2021–settembre 2022, con ARPA: 25 sondaggi poco profondi (la roccia è a circa 30 cm), 25 campioni di terreno, 25 di top soil (4 dove erano stati tolti i rifiuti), 2 nuovi pozzi profondi 117 e 125 m, acqua campionata da 4 pozzi [4]. ARPA ha validato i risultati il 10 febbraio 2023 [4].
+- **Analisi sul posto**, giugno 2021–settembre 2022, con ARPA: 25 sondaggi poco profondi (la roccia è a circa 30 cm), 25 campioni di terreno, 25 di top soil (4 dove erano stati tolti i rifiuti), 2 nuovi pozzi profondi 117 e 125 m, acqua campionata da 4 pozzi [4]. L'acqua è stata campionata dal 20 al 23 settembre 2022 insieme ai tecnici di ARPA [14]. ARPA ha validato i risultati il 10 febbraio 2023 [4].
 - **Cosa hanno trovato**: vedi sotto, domanda 2 [4][7].
-- **Analisi di rischio**: inviata da Ilva con nota del 6 luglio 2023, ricevuta dal Ministero l'11 luglio [5]. INAIL non ha trovato criticità per i lavoratori, ricordando che se cambia l'uso dell'area serve una nuova analisi [6]. ARPA e ISPRA hanno chiesto di rifarla: con ipotesi più prudenti "emergono rischi... talvolta superiori ai limiti tollerabili", e mancavano alcuni calcoli [7][8].
-- **Respinta e archiviata**: il 20 dicembre 2023 il Ministero ha comunicato i motivi che impedivano l'approvazione [9]; il 2 gennaio 2024 Ilva ha risposto che presenterà una nuova analisi di rischio dopo aver aggiunto pozzi e controllato l'acqua, più 4 saggi con escavatore per capire quanto è estesa la contaminazione [10]; ARPA ha dato le sue indicazioni il 22 gennaio 2024 [11]; il **16 febbraio 2024 il Ministero ha archiviato la pratica** [12].
-- **Oggi**: secondo Ilva si stanno completando i pozzi di controllo, poi si controllerà l'acqua ogni tre mesi per almeno 2 anni; dopo verranno una nuova analisi di rischio e, se servirà, un progetto di bonifica [1]. Sull'area si fa lo sfalcio delle fasce tagliafuoco [1]. Nell'archivio del Ministero, al 2 ottobre 2026, non c'è nessun documento su quest'area dopo il 16 febbraio 2024.
+- **Analisi di rischio**: affidata alla società Engea con l'ordine n. 7 del 19 gennaio 2022 [14]. Il 22 giugno 2023, con il documento quasi pronto, la ditta delle analisi (Ecotrend) ha segnalato un dato sbagliato del laboratorio e l'analisi di rischio è stata rifatta [15]. Inviata da Ilva con nota del 6 luglio 2023, ricevuta dal Ministero l'11 luglio [5]. INAIL non ha trovato criticità per i lavoratori, ricordando che se cambia l'uso dell'area serve una nuova analisi [6]. ARPA e ISPRA hanno chiesto di rifarla: con ipotesi più prudenti "emergono rischi... talvolta superiori ai limiti tollerabili", e mancavano alcuni calcoli [7][8].
+- **Respinta e archiviata**: il 20 dicembre 2023 il Ministero ha comunicato i motivi che impedivano l'approvazione [9]; il 2 gennaio 2024 (con PEC del 29 dicembre, secondo Ilva [16]) Ilva ha risposto che presenterà una nuova analisi di rischio dopo aver aggiunto pozzi e controllato l'acqua, più 4 saggi con escavatore per capire quanto è estesa la contaminazione [10]; ARPA ha dato le sue indicazioni il 22 gennaio 2024 [11]; il **16 febbraio 2024 il Ministero ha archiviato la pratica** [12].
+- **Dopo l'archiviazione**: Ilva si era impegnata a fare i nuovi pozzi e a controllare l'acqua ogni tre mesi **per un anno** [16]. Il 19 giugno 2024 ha mandato agli enti un "Piano di monitoraggio della falda delle Aree Escluse", unico per tutte le sue aree, che porta il controllo a **non meno di 2 anni** [17]. I pozzi erano "in fase di pianificazione" a dicembre 2024 [17] e "in fase di avvio" a marzo 2025 [18].
+- **Oggi**: secondo Ilva si stanno completando i pozzi di controllo, poi si controllerà l'acqua ogni tre mesi per almeno 2 anni; dopo verranno una nuova analisi di rischio e, se servirà, un progetto di bonifica [1]. Con questi tempi, i due anni di controlli finirebbero non prima della fine del 2027, e solo dopo arriverebbe la nuova analisi di rischio (stima nostra). Sull'area si fa lo sfalcio delle fasce tagliafuoco [1]. Nell'archivio del Ministero, al 2 ottobre 2026, non c'è nessun documento su quest'area dopo il 16 febbraio 2024.
 
 ## Quattro domande
 
@@ -63,6 +64,7 @@ Valori confrontati con i limiti per le aree verdi e residenziali, in mg/kg [4][7
 | 8 ottobre 2020 | Ilva invia il piano delle analisi | [3] |
 | **27 gennaio 2021** | **Decreto n. 17**: piano approvato, risultati attesi entro 6 mesi | [3] |
 | settembre–dicembre 2021 | Permessi per area protetta, parco e taglio della vegetazione | [4] |
+| 19 gennaio 2022 | Analisi di rischio affidata a Engea | [14] |
 | giugno 2021–settembre 2022 | Sondaggi, pozzi e prelievi, con ARPA | [4] |
 | luglio 2022 | Ilva: conclusa la rimozione dei cumuli di rifiuti | [2] |
 | 10 febbraio 2023 | ARPA valida i risultati | [4] |
@@ -71,7 +73,9 @@ Valori confrontati con i limiti per le aree verdi e residenziali, in mg/kg [4][7
 | 20 dicembre 2023 | Il Ministero comunica i motivi che impediscono l'approvazione | [9] |
 | 2 e 22 gennaio 2024 | Ilva farà una nuova analisi di rischio; indicazioni di ARPA | [10][11] |
 | **16 febbraio 2024** | **Il Ministero archivia la pratica** | [12] |
-| 2025 | Secondo Ilva, pozzi di controllo in costruzione | [1] |
+| 19 giugno 2024 | Ilva invia il piano di controllo dell'acqua per tutte le sue aree (almeno 2 anni) | [17] |
+| dicembre 2024 – marzo 2025 | Nuovi pozzi "in fase di pianificazione", poi "in fase di avvio" | [17][18] |
+| fine 2025 | Secondo Ilva, pozzi di controllo in completamento | [1] |
 
 ## Fonti
 Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ — SIN "Taranto", ID Area **3884** (Ilva la chiama "ID 08") [5]. Controllato il 2 ottobre 2026: l'ultimo documento è del 16 febbraio 2024.
@@ -102,12 +106,60 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [13] MASE, Direzione generale economia circolare e bonifiche, *Decreto n. 249 dell'11 dicembre 2024* (parziale deperimetrazione del SIN "Taranto"), articolo 1, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=14430_m_amte.MASE.ECB%20REGISTRO%20DECRETI(R).0000249.11-12-2024.pdf — copia in `fonti/2024-12_mase_decreto-249-deperimetrazione-sin-taranto.pdf`
 
+[14] Ilva S.p.A. in AS, *Relazione trimestrale, 4° trimestre 2022*, pagina 38 (paragrafo "Area a verde Nord"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2022_omissisb.pdf — copia in `fonti/2022-12_ilva-as_relazione-trimestrale-IV-2022.pdf`
+
+[15] Ilva S.p.A. in AS, *Relazione trimestrale, 2° trimestre 2023*, pagina 34 (paragrafo "Area a verde Nord"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_II_trim_2023_omissisb.pdf — copia in `fonti/2023-06_ilva-as_relazione-trimestrale-II-2023.pdf`
+
+[16] Ilva S.p.A. in AS, *Relazione trimestrale, 4° trimestre 2023*, pagina 35 (paragrafo "Area a verde Nord"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2023_omissisb.pdf — copia in `fonti/2023-12_ilva-as_relazione-trimestrale-IV-2023.pdf`
+
+[17] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pagina 50 (paragrafo "Area a verde Nord"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
+
+[18] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagina 48 (paragrafo "Area a verde Nord"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
 ## Cosa non sappiamo
-1. **La relazione di Ilva del 2025 è imprecisa.** Scrive che l'analisi di rischio è stata inviata il 20 luglio 2023 e che è "in corso" [1]. Secondo il Ministero la nota di Ilva è del 6 luglio (ricevuta l'11) e la pratica è stata **archiviata** il 16 febbraio 2024 [5][12]. Scrive anche che i pareri erano di "ARPA, ISPRA e ASL" [1]: erano di ARPA, ISPRA e INAIL [9][12].
+1. **La relazione di Ilva del 2025 è imprecisa.** Scrive che l'analisi di rischio è stata inviata il 20 luglio 2023 e che è "in corso" [1]. Secondo il Ministero la nota di Ilva è del 6 luglio (ricevuta l'11) e la pratica è stata **archiviata** il 16 febbraio 2024 [5][12]. Scrive anche che i pareri erano di "ARPA, ISPRA e ASL" [1]: erano di ARPA, ISPRA e INAIL [9][12]. Gli stessi errori sono nelle relazioni di dicembre 2024 e marzo 2025 [17][18], mentre quella di dicembre 2023 dava le date giuste [16].
 2. **Dove sono esattamente le zone contaminate** e quanto sono grandi: le mappe sono negli allegati dell'analisi di rischio, ma Ilva stessa vuole fare saggi per capire quanto è estesa la contaminazione [10]. Non verificato.
 3. **L'area è davvero recintata?** Ilva dice "segnalata e delimitata" [4]; nessun ente lo ha verificato, e i rifiuti abbandonati fanno pensare che qualcuno ci entri [1]. Non verificato.
-4. **Il cromo esavalente** trovato nell'acqua in passato [3] non è ricomparso nei controlli del 2022, che però hanno usato solo 4 pozzi, nessuno al confine a valle [4]. I risultati dei nuovi pozzi non sono pubblici. Non verificato.
+4. **Il cromo esavalente** trovato nell'acqua in passato [3] non è ricomparso nei controlli del 2022, che però hanno usato solo 4 pozzi, nessuno al confine a valle [4]. Il piano di controllo dell'acqua del 19 giugno 2024 [17] e i risultati dei nuovi pozzi non sono pubblici. Non verificato.
 5. **Da dove vengono berillio, zinco, arsenico e solventi**: nessuna fonte lo dice. Non verificato.
 6. **I rifiuti abbandonati**: quanti, che tipo, quante volte sono stati tolti e con che spesa. Non verificato.
 7. **Quanto è stato speso** dopo il 2022: non verificato.
 8. **L'uso urbanistico**: il decreto chiedeva ai Comuni di esprimersi [3]; per quest'area non abbiamo trovato la risposta. Non verificato.
+
+### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
+**A:** Comune di Statte — email ordinaria del Servizio Ecologia e ambiente ambiente@comune.statte.ta.it, in copia la Segreteria generale segreteria@comune.statte.ta.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina Contatti](https://www.comune.statte.ta.it/contatti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – "Area a verde Nord" di ILVA in A.S. presso la Gravina di Leucaspide (Foglio 7), destinazione urbanistica, rifiuti abbandonati, recinzione e piezometri
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'"Area a verde Nord" di ILVA S.p.A. in A.S. (Comune di Statte, Foglio 7, particelle 26, 27, 38, 773, 1121 e 1157; SIN di Taranto, ID area 3884):
+>
+> 1. **Destinazione urbanistica.** La nota con cui il Comune ha indicato la destinazione d'uso dell'area, come chiesto dal decreto del Ministero dell'Ambiente n. 17 del 27/01/2021 (approvazione del piano di caratterizzazione), oppure, se non c'è, il certificato di destinazione urbanistica rilasciato a ILVA per le particelle indicate.
+> 2. **Rifiuti abbandonati.** Le segnalazioni, i verbali della Polizia locale, le eventuali ordinanze e le comunicazioni di ILVA sulla rimozione dei rifiuti abbandonati nell'area dal 2021 a oggi, con quantità, tipo di rifiuti e formulari, se disponibili.
+> 3. **Recinzione e accessi.** Eventuali comunicazioni o titoli edilizi presentati da ILVA per recintare o delimitare l'area, e gli atti da cui risulti se l'area è oggi recintata e segnalata.
+> 4. **Nuovi piezometri.** Eventuali titoli, comunicazioni o nulla osta presentati da ILVA dal 2024 per realizzare nuovi piezometri nell'area, con la data di rilascio.
+> 5. **Piezometri comunali.** La relazione e i risultati delle analisi delle acque dei piezometri realizzati dal Comune nel 2006 nell'area, per le indagini sulla Gravina di Leucaspide (anche sul cromo esavalente), e gli eventuali campionamenti successivi.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti. Se l'ufficio competente è un altro, chiede di inoltrare la richiesta e di comunicare il numero di protocollo assegnato.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
+**A:** ARPA Puglia, Dipartimento provinciale di Taranto — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina URP](https://www.arpa.puglia.it/pagina2819_urp.html)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – "Area a verde Nord" di ILVA in A.S. a Statte (SIN Taranto, ID area 3884), nuovi piezometri, monitoraggio della falda e delimitazione della contaminazione (DAP Taranto)
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'"Area a verde Nord" di ILVA S.p.A. in A.S. (Comune di Statte, Foglio 7, particelle 26, 27, 38, 773, 1121 e 1157; SIN di Taranto, ID area 3884):
+>
+> 1. **Piano di monitoraggio.** Il "Piano di monitoraggio della falda delle Aree Escluse" trasmesso da ILVA il 19/06/2024, almeno nella parte sull'Area a verde Nord, e il parere o la nota con cui ARPA lo ha condiviso o approvato.
+> 2. **Nuovi piezometri.** I verbali di sopralluogo, le stratigrafie e l'ubicazione dei nuovi piezometri realizzati da ILVA nell'area dopo il 2024 (ampliamento della rete richiesto con la nota MASE del 20/12/2023 e la nota ARPA prot. 4072 del 22/01/2024), e la data di completamento della rete.
+> 3. **Acque sotterranee.** I risultati delle campagne di monitoraggio della falda eseguite dopo settembre 2022, compresi cromo esavalente, ferro, manganese e solventi clorurati, e gli eventuali campionamenti in contraddittorio o le validazioni di ARPA.
+> 4. **Delimitazione della contaminazione.** Gli esiti dei saggi con escavatore e dei campionamenti proposti da ILVA con la nota del 02/01/2024 per delimitare le zone contaminate attorno ai sondaggi S4 (arsenico) e S17 (1,2-dibromoetano), se eseguiti, con i relativi verbali e validazioni.
+> 5. **Rifiuti e accessi.** Eventuali sopralluoghi o controlli di ARPA, dal 2021 a oggi, sui rifiuti abbandonati nell'area e sulla sua recinzione o delimitazione, con quantità e tipo dei rifiuti, se rilevati.
+>
+> Se alcuni documenti sono già pubblicati, basta indicare il link. Se l'ente non detiene alcuni documenti, chiede di indicarlo. Chiede l'accoglimento parziale per i punti non soggetti a limiti. Se l'ufficio competente è un altro, chiede di inoltrare la richiesta e di comunicare il numero di protocollo assegnato.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+>
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
