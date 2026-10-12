@@ -1,5 +1,5 @@
 # B14 – Riduzione del perimetro del SIN di Taranto (deperimetrazione)
-*Stato scheda: approvata — aggiornata al 6 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
 ## In breve
 Il SIN (Sito di interesse nazionale) è l'elenco di aree di Taranto, a terra e a mare, la cui bonifica segue la procedura statale; con due decreti di dicembre 2024 (n. 249 dell'11/12 e n. 449 del 20/12) il Ministero dell'Ambiente ha tolto dal SIN alcune aree, soprattutto zone dove la pratica ambientale risulta chiusa e opere portuali nuove, e ha ridisegnato il confine [2][3]. Sulla pagina ufficiale del Ministero il SIN misura oggi 4.289 ettari a terra e 6.872 a mare, contro 4.383 e circa 7.000 prima [6][5]; le cifre dell'opuscolo (64 km² a terra, 7,3 km² a mare) non corrispondono a nessun documento ufficiale che ho trovato [1]. **Uscire dal SIN non vuol dire essere "bonificati"**: vuol dire che la pratica passa alla Regione [3], e per ora per il Mar Grande (circa 15,5 km²) il Ministero ha approvato solo il piano delle analisi, quindi, a quanto risulta, nessuna area di mare è ancora uscita per questa strada [7][8].
@@ -72,13 +72,14 @@ Altri esempi dal lavoro di ISPRA [5]:
 |---|---|---|
 | ISPRA, ottobre 2023 (prima) | 4.383 ha | "circa 7000" ha [5] |
 | Proposta MASE, marzo 2024 | da 4.383 a **4.348 ha** (−35) | da 7.006 a **6.873 ha** (−133) [4] |
+| Shapefile ufficiale del DM 449 (file della mappa pubblicato dal Ministero; area calcolata da noi) | **4.290 ha** | **6.871 ha** [12] |
 | Pagina ufficiale MASE "SIN Taranto" (oggi, cita il DM 449) | **4.289 ha** | **6.872 ha** [6] |
 | Decreti n. 249 e n. 449 | nessuna cifra | nessuna cifra [2][3] |
 | Opuscolo del Commissario, pag. 10 | "64 Kmq a terra" | "7,3 Kmq a Mare" [1] |
 
 **Come leggere i numeri (conti nostri):**
 - 1 km² = 100 ettari. Quindi 4.289 ha sono 42,9 km² e 6.872 ha sono 68,7 km².
-- Rispetto al 2023, la pagina del Ministero implica circa −94 ettari a terra e −134 a mare. Fra proposta di marzo 2024 e pagina attuale, a terra mancano altri 59 ettari: coerente con le aree aggiunte dal decreto n. 249, ma nessun documento lo scrive. Per questo non posso dire con certezza che 4.289 e 6.872 siano i valori "dopo" il decreto n. 449; è probabile, perché la pagina cita il decreto n. 449 [6]. **Non verificato.**
+- Rispetto al 2023, la pagina del Ministero implica circa −94 ettari a terra e −134 a mare. Fra proposta di marzo 2024 e pagina attuale, a terra mancano altri 59 ettari: coerente con le aree aggiunte dal decreto n. 249, ma nessun documento lo scrive. Ho misurato le aree disegnate nello shapefile ufficiale del decreto n. 449 (il file della mappa, in coordinate in metri): **4.290 ettari a terra e 6.871 a mare**, praticamente uguali ai valori della pagina del Ministero [12][6]. Quindi 4.289 e 6.872 ettari sono davvero il SIN **dopo** il decreto n. 449 (calcolo nostro, scarto di 1 ettaro per arrotondamenti) [12].
 - Il testo della proposta dice che alcune aree prima "a mare" sono state "riportate a terra" [4]. Penso (ipotesi nostra, non scritta nella fonte) che per questo a mare la riduzione sia più grande (133 ha) e a terra più piccola (35 ha) [4].
 - **L'opuscolo non torna.** I suoi 64 km² a terra e 7,3 km² a mare non corrispondono né ai valori prima né a quelli dopo: a terra sono 21 km² in più del Ministero, a mare circa un decimo [1][6]. Nell'opuscolo l'area a mare risulta più piccola di quella a terra, il contrario di tutti i documenti del Ministero [1][5][6]. L'opuscolo non spiega da dove vengano e non cita la fonte. Non verificato; sembrano numeri sbagliati o riferiti ad altro.
 
@@ -89,7 +90,8 @@ Altri esempi dal lavoro di ISPRA [5]:
 - **La superficie.** L'area "vasta" interessata è "circa 15,5 km²" [7][1], cioè circa 1.550 ettari, circa il 22% dei 6.872 ettari a mare (conto nostro) [6].
 - **A cosa serve.** Secondo il Commissario, a rilanciare il porto "agevolando i dragaggi di approfondimento dei fondali" per le grandi portacontainer e le navi da crociera [7][8]. È una finalità di sviluppo del porto, scritta così dal Commissario [7].
 - **Soldi.** Il Commissario scrive di aver chiesto al MASE di "rimodulare" le risorse già stanziate per coprire le campagne di campionamento [7]. Non ho trovato né il costo delle analisi né l'esito della richiesta. Non verificato.
-- **Dopo novembre 2025:** non ho trovato nulla di ufficiale (non ho potuto consultare l'archivio del Ministero, vedi "Cosa non sappiamo").
+- **25 marzo 2026:** il Commissario e l'Autorità portuale hanno firmato un accordo (art. 15 della legge 241/1990) per gestire insieme "le articolate operazioni di deperimetrazione, di bonifica e messa in sicurezza" delle aree portuali, con un tavolo tecnico di almeno cinque esperti per parte; costi e calendari saranno fissati in "convenzioni tecnico-operative" successive [13]. Il comunicato non dà cifre né date per le analisi in mare [13].
+- **Dopo marzo 2026:** non ho trovato nulla di ufficiale sui prelievi. Nell'archivio del Ministero (controllato il 12/10/2026) l'ultimo atto sulla perimetrazione di Taranto è del 7 gennaio 2025 [11]; l'approvazione del 27/11/2025 non c'è.
 
 ## Uscire dal SIN vuol dire essere puliti?
 **No.** [2][3][5]
@@ -120,6 +122,8 @@ Altri esempi dal lavoro di ISPRA [5]:
 | **20 dicembre 2024** | **Decreto del Ministro n. 449: nuovo perimetro** | [3] |
 | 6 marzo – 4 settembre 2025 | Piano di indagini per il Mar Grande (riunioni, integrazioni) | [7] |
 | **27 novembre 2025** | **Il MASE approva il progetto delle indagini nel Mar Grande** | [7][8] |
+| 7 gennaio 2025 | Il Ministero manda il decreto n. 449 alla Gazzetta Ufficiale | [11] |
+| 25 marzo 2026 | Accordo Commissario–Autorità portuale sulla deperimetrazione del porto | [13] |
 | maggio 2026 | L'opuscolo ricorda il decreto n. 449 e il piano del 27/11/2025 | [1] |
 
 ## Fonti
@@ -143,30 +147,32 @@ Altri esempi dal lavoro di ISPRA [5]:
 
 [10] D.Lgs. 3 aprile 2006, n. 152, articolo 248, comma 2 (certificazione della Provincia), testo su Normattiva — copia in `fonti/2026-10_normattiva_dlgs-152-2006-art-248.html`
 
+[11] MASE, Direzione generale economia circolare e bonifiche, nota prot. 1157 del 7/01/2025, *Decreto del Ministro n. 449 del 20 dicembre 2024 […] Pubblicazione su Gazzetta Ufficiale* (al Ministero della Giustizia), archivio del Ministero, SIN "Taranto", categoria "Perimetrazione/riperimetrazione", https://bonifichesiticontaminati.mite.gov.it/ricerca/ — copia in `fonti/2025-01_mase_nota-1157-invio-gazzetta-decreto-449.pdf`
+
+[12] MASE, *Decreto n. 449 del 20/12/2024 e documentazione tecnica* (testo del decreto e shapefile "Perimetrazione_terra" e "Perimetrazione_mare", sistema WGS84 UTM 33N), https://bonifichesiticontaminati.mite.gov.it/wp-content/uploads/2025/01/24-449_Dec-Ministro-Taranto.zip — copia in `fonti/2024-12_mase_decreto-449-shapefile-nuovo-perimetro-sin-taranto.zip`. Superfici calcolate da noi sui poligoni del file.
+
+[13] Commissario straordinario per la bonifica di Taranto, *Comunicato stampa: Siglata l'Intesa Istituzionale tra il Commissario Straordinario e l'AdSP del Mar Ionio*, 25 marzo 2026, https://commissari.gov.it/media/z05dkfnz/comunicato-stampa-accordo-commissario-autorita-portuale.pdf — copia in `fonti/2026-03_commissario-taranto_comunicato-accordo-adsp-deperimetrazione-mar-grande.pdf`
+
 ## Cosa non sappiamo
 1. **Da dove vengono i numeri dell'opuscolo.** 64 km² a terra e 7,3 km² a mare [1] non tornano con gli ettari del Ministero [6] e l'opuscolo non cita la fonte. Non verificato.
-2. **Quanti ettari sono davvero usciti.** I decreti non danno cifre [2][3]. I numeri sono quelli della proposta di marzo 2024 [4] e quelli della pagina del Ministero [6]; non ho trovato un documento che dica "prima e dopo il decreto n. 449". Non verificato.
-3. **L'elenco definitivo delle particelle uscite.** Il decreto n. 249 elenca sette aree [2], il file della proposta ne elenca 95 particelle in altri fogli [4], e la carta del decreto n. 449 non ha elenco [3]. Non ho scaricato lo shapefile del Commissario [7]. Il file Excel che ho ha un solo foglio ("Catastali Out"), mentre il testo dice che l'allegato indica anche le particelle "riportate a terra" [4]. Non verificato.
+2. **Quanti ettari sono davvero usciti.** I decreti non danno cifre [2][3]. Il "dopo" ora è confermato dallo shapefile ufficiale (4.290 ha a terra, 6.871 a mare) [12]; il "prima" viene dalla proposta di marzo 2024 (4.383 e 7.006) [4]. La differenza (circa 93 ettari a terra e 135 a mare) è un calcolo nostro, non scritto in un atto.
+3. **L'elenco definitivo delle particelle uscite.** Il decreto n. 249 elenca sette aree [2], il file della proposta ne elenca 95 particelle in altri fogli [4], e la carta del decreto n. 449 non ha elenco [3]. Lo shapefile ufficiale disegna solo il nuovo confine, senza elenco delle particelle [12]. Il file Excel che ho ha un solo foglio ("Catastali Out"), mentre il testo dice che l'allegato indica anche le particelle "riportate a terra" [4]. Non verificato.
 4. **Se i siti dell'elenco ISPRA hanno davvero un certificato di bonifica.** La tabella si intitola "bonificati e certificati", ma gli atti citati sono conferenze di servizi e decreti che non ho letto [5].
 5. **"Area B" del porto.** ISPRA e la proposta ne chiedono l'uscita per la Determinazione n. 240 della Provincia [5][4], ma l'area non compare nel decreto n. 249 [2]. Non so se sia uscita.
-6. **Pubblicazione in Gazzetta Ufficiale.** Il decreto n. 449 dice che sarà pubblicato [3]; non ho verificato data e numero.
+6. **Pubblicazione in Gazzetta Ufficiale.** Il Ministero ha mandato il decreto n. 449 alla Gazzetta il 7 gennaio 2025 [11]; non ho trovato data e numero di pubblicazione.
 7. **Cosa fa la Regione.** Il decreto assegna alla Regione le pratiche delle aree uscite [3]; non so quante siano aperte, né se la Regione le abbia riprese.
-8. **Mar Grande.** Non ho trovato l'atto del MASE del 27 novembre 2025, il costo delle analisi, il calendario dei prelievi o il risultato della richiesta di rimodulare le risorse [7][8]. Ho provato a cercare nell'archivio del Ministero (SIN "Taranto"), ma la ricerca non funziona da script: i documenti dopo il gennaio 2025 non sono stati controllati.
+8. **Mar Grande.** Non ho trovato l'atto del MASE del 27 novembre 2025, il costo delle analisi, il calendario dei prelievi o il risultato della richiesta di rimodulare le risorse [7][8]. Nell'archivio del Ministero (SIN "Taranto", controllato il 12/10/2026) l'atto non c'è [11]. Dopo l'accordo del 25 marzo 2026 [13] non ho trovato notizie ufficiali sui prelievi.
 9. **Una piccola differenza di numero.** Il Commissario indica la nota del 6 marzo 2024 come "n. 43907" [7], ma la proposta e il decreto indicano "n. 43905" [4][2]. Non verificato quale sia giusto.
 10. **L'ISPRA e le aree portuali nuove.** Per vasca di colmata, IV sporgente e Darsena il decreto riporta pareri di assenza di motivi ostativi senza i dati analitici [2]. Non so quali analisi siano state fatte.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Ministero dell'Ambiente e della Sicurezza energetica — Direzione generale economia circolare e bonifiche — PEC: ecb@pec.mase.gov.it (indirizzo letto il 6 ottobre 2026 sulla [pagina ufficiale della Direzione](https://www.mase.gov.it/pagina/direzione-generale-economia-circolare-e-bonifiche-ecb))
+### Richiesta di accesso civico (FOIA) n. 31 — da inviare tu
+La Direzione generale economia circolare e bonifiche del Ministero ha un'email ordinaria, scritta nelle sue note: ecb-udg@mase.gov.it [11] (vedi `.tmp/foia/canali.md`).
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) e di accesso all'informazione ambientale (D.Lgs. 195/2005) – Riperimetrazione del SIN "Taranto" (decreti n. 249 dell'11/12/2024 e n. 449 del 20/12/2024)
->
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. l'elenco completo e definitivo delle particelle catastali escluse dal SIN "Taranto" con il decreto del Ministro n. 449 del 20/12/2024, con le superfici (ettari) del SIN a terra e a mare prima e dopo il decreto, e il file shapefile ufficiale del nuovo perimetro;
-> 2. l'Allegato 2 ("particelle catastali") alla Relazione per la deperimetrazione prot. 43905 del 6/3/2024, in tutti i suoi fogli, compresa la tabella delle particelle precedentemente incluse come aree a mare e ricomprese tra le aree a terra;
-> 3. i pareri di ISPRA (nota del 25/11/2024, prot. 64497, e del 27/11/2024, prot. 64992) e di ARPA Puglia (nota del 26/11/2024, prot. 85166) richiamati nel decreto n. 249;
-> 4. gli atti con cui sono stati chiusi i procedimenti dei 19 siti elencati nella Tabella 1 della relazione ISPRA del 19/10/2023 e della "Area B" (Determinazione della Provincia di Taranto n. 240 del 28/2/2023), compresi eventuali certificati di avvenuta bonifica, e l'indicazione se tali aree siano state escluse dal perimetro;
-> 5. l'atto del 27/11/2025 con cui è stato approvato il "Progetto di deperimetrazione del SIN Mar Grande di Taranto: definizione delle indagini ambientali", il piano di indagini, il cronoprogramma, il costo e le fonti di finanziamento delle indagini, e l'eventuale risposta alla richiesta del Commissario di rimodulare le risorse;
-> 6. gli estremi di pubblicazione in Gazzetta Ufficiale del decreto n. 449 e l'elenco dei procedimenti ai sensi dell'art. 242 D.Lgs. 152/2006 trasferiti alla Regione Puglia in base all'art. 2, comma 1, del decreto, con il loro stato.
->
-> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
-> [Luogo, data, firma] — allegare copia di un documento d'identità.
+**FOIA 31 — MASE, Direzione generale economia circolare e bonifiche** (A: ecb-udg@mase.gov.it)
+1. elenco definitivo delle particelle uscite con il decreto n. 449 e Allegato 2 della proposta in tutti i fogli;
+2. pareri di ISPRA e ARPA di novembre 2024;
+3. atti di chiusura e certificati dei 19 siti ISPRA e dell'"Area B" del porto;
+4. Mar Grande: atto del 27/11/2025, piano, costi, calendario e stato delle indagini;
+5. estremi in Gazzetta Ufficiale del decreto n. 449 e procedimenti passati alla Regione.
+
+Testo completo in `.tmp/foia/31-*.md`. Rispetto alla vecchia bozza (alla PEC) sono state tolte le domande sugli ettari e sullo shapefile, ora risolte [12].
