@@ -1,5 +1,5 @@
 # B1 – Ex Cemerad (Statte): deposito di rifiuti radioattivi
-*Stato scheda: approvata — aggiornata al 30 settembre 2026*
+*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
 ## In breve
 L'ex Cemerad è un vecchio capannone in località Vocchiaro, a Statte (Taranto), dove un'azienda privata ha ammassato per anni fusti di rifiuti radioattivi e pericolosi di origine medica, industriale e di ricerca [5]. Tra il 2017 e il 29 gennaio 2025 sono stati portati via tutti i 16.640 fusti [5][6][7]. **Il sito però non è bonificato**: le analisi del terreno, la demolizione del capannone e la bonifica vera e propria sono ancora "da avviare" [5][8].
@@ -102,7 +102,7 @@ Secondo OpenCoesione, il progetto da 8,8 milioni € (quello che dovrebbe arriva
 
 ## Cosa non sappiamo
 1. **"Intervento concluso" è vero solo in parte.** L'opuscolo di Taranto lo dà per concluso [1], ma lo stesso Commissario Cemerad scrive che analisi, demolizione e bonifica sono ancora da avviare [5][8]. Concluso è lo svuotamento del deposito, non la bonifica.
-2. **Da gennaio 2025 in poi non si trova nulla** su analisi del terreno, demolizione del capannone o bonifica. Il sito del Commissario non ha aggiornamenti su questo (l'ultima notizia è di settembre 2025 e parla solo dei fusti tolti). Non verificato.
+2. **Da gennaio 2025 in poi non si trova nulla** su analisi del terreno, demolizione del capannone o bonifica. Il sito del Commissario non ha aggiornamenti su questo (controllato di nuovo il 12/10/2026: l'ultima notizia è ancora quella del 25 settembre 2025 e parla solo dei fusti tolti), e una ricerca in rete non ha trovato altro. Non verificato.
 3. **Perché si è pagato più della stima.** OpenCoesione registra circa 16,86 milioni € pagati [9][10], più dei 16,43 milioni previsti per Sogin [4]. Forse la differenza sono altre spese (per esempio la vigilanza armata), ma nessuna fonte lo spiega. Non verificato.
 4. **Il progetto da 8,8 milioni € è in ritardo.** Doveva finire il 20 giugno 2026 ed è ancora "in corso" [10]. Mancano da pagare circa 1,8 milioni € [10]. Non si sa a cosa servano: se alla bonifica radiologica, oppure ai conti ancora da chiudere dello svuotamento. Non verificato.
 5. **Numero di fusti radioattivi.** Nel 2016 si stimavano circa 3.500 fusti radioattivi [8], poi circa 3.480 [5]; alla fine ne sono risultati 5.427 (5.336 + 91) [5]. La differenza si spiega probabilmente con i fusti senza etichetta [4], ma nessuna fonte lo dice esplicitamente.
@@ -111,16 +111,14 @@ Secondo OpenCoesione, il progetto da 8,8 milioni € (quello che dovrebbe arriva
 8. **Fonti non raggiungibili oggi:** la pagina del progetto sul Contratto Istituzionale di Sviluppo di Taranto (cistaranto.coesionemezzogiorno.it) non si apre. Sul sito del Comune di Statte non c'è nulla.
 9. **Piccola incongruenza di legge:** il sito del Commissario cita la "L. n. 17 del 27.02.2017", la brochure la "L. n. 18 del 27 febbraio 2017" e l'addendum la "L. 28 febbraio 2017 n. 18" [4][5][8]. Non cambia la sostanza.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Commissario straordinario per l'intervento ex Cemerad — PEC: veracorbelli@pec.commissariostraordinariocemerad.it (indirizzo verificato sul sito ufficiale del Commissario il 30/09/2026)
+### Richiesta di accesso civico (FOIA) n. 30 — da inviare tu
+Il Commissario ex Cemerad indica sul suo sito solo una PEC (verificato il 12/10/2026): si prova a scrivere dalla Gmail ordinaria; se il messaggio viene respinto, si spedisce per raccomandata alla sede di Caserta (vedi `.tmp/foia/canali.md`).
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – sito ex Cemerad, Statte (TA)
->
-> Il/La sottoscritto/a [nome e cognome], chiede di ricevere i seguenti documenti o dati:
-> 1. il dettaglio dei pagamenti effettuati per l'intervento ex Cemerad (CUP J79D15002130001 e J79I15000000001), divisi per destinatario (Sogin, Nucleco, altri fornitori), e l'importo ancora da pagare;
-> 2. il cronoprogramma aggiornato delle attività successive al 29 gennaio 2025 (caratterizzazione del sito, demolizione del capannone, bonifica e rilascio senza vincoli radiologici), con le relative risorse, compreso il progetto CUP J79J21014240005;
-> 3. i risultati della caratterizzazione radiologica delle matrici ambientali già eseguita e, se disponibili, quelli della caratterizzazione del 2005 (CUP E22C04000040001);
-> 4. la destinazione dei 135 fusti di materiale di risulta prodotti durante i lavori.
->
-> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
-> [Luogo, data, firma] — allegare copia di un documento d'identità.
+**FOIA 30 — Commissario straordinario ex Cemerad** (A: veracorbelli@pec.commissariostraordinariocemerad.it)
+1. pagamenti divisi per destinatario e a cosa servono gli 1,8 milioni non ancora pagati del progetto da 8,8 milioni;
+2. cronoprogramma e atti per caratterizzazione, demolizione, bonifica radiologica e riqualificazione (progetto da 2,2 milioni);
+3. risultati della caratterizzazione radiologica iniziale e di quella del 2005;
+4. destinazione dei 135 fusti di materiale di risulta;
+5. atto di fine rimozione dei fusti e prescrizioni dell'ISIN per le fasi successive.
+
+Testo completo in `.tmp/foia/30-*.md`.
