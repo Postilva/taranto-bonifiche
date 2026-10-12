@@ -1,5 +1,5 @@
 # B4 – Mar Piccolo: mercato ittico galleggiante affondato (rimosso)
-*Stato scheda: approvata — aggiornata al 6 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
 ## In breve
 Il relitto di un mercato ittico galleggiante, affondato nel 1° seno del Mar Piccolo, è stato tolto dal fondale dall'impresa Serveco: i lavori sono finiti il 17 dicembre 2021 [2][3][4]. Il certificato di regolare esecuzione del 16 marzo 2022 dice che il lavoro è stato fatto bene secondo il contratto, e il saldo è stato pagato il 12 settembre 2022; l'impresa però chiede altri 960.139,68 € e ha fatto causa al Commissario [2][3][5]. **Togliere il relitto NON è bonificare i fanghi inquinati del fondale**: il contratto riguardava solo il relitto, e i fondali del 1° seno restano non bonificati [2][1].
@@ -22,6 +22,7 @@ Il relitto di un mercato ittico galleggiante, affondato nel 1° seno del Mar Pic
 - Il 14 maggio 2019 il Commissario ha avviato la gara (decreto n. 120), con base d'asta di 2.512.305,42 € [2].
 - L'8 aprile 2020 il lavoro è stato assegnato al raggruppamento Serveco/Sub Technical per 2.476.580,83 € più IVA (decreto n. 66) [2].
 - Il cantiere è rimasto fermo dal 21 agosto 2020, perché l'incarico della Commissaria precedente era finito e nessuno poteva gestire l'appalto [5]. I lavori sono ripresi il 15 marzo 2021 [5].
+- A fine 2021 una verifica sul Contratto istituzionale di sviluppo (CIS) di Taranto, riportata dalla Commissione parlamentare sui rifiuti, metteva tra le criticità la "mancata sostituzione dei RUP messi a disposizione da Investitalia per gli interventi di rimozione del mercato ittico" [8].
 - Il direttore dell'esecuzione ha certificato la fine dei lavori il 17 dicembre 2021 [3]. Lo stato finale è del 20 gennaio 2022 [2].
 - Il 7 settembre 2022 il Commissario ha approvato la relazione finale del responsabile del procedimento [3]; il 12 settembre 2022 ha pagato il saldo [2].
 
@@ -72,11 +73,23 @@ Il relitto di un mercato ittico galleggiante, affondato nel 1° seno del Mar Pic
 
 [7] OpenCoesione, progetto CUP J56J14000460001 (55 milioni), dati al 30/06/2026, https://opencoesione.gov.it/it/dati/progetti/1mattmdgsta_23_0014/ — copia in `fonti/2026-06_opencoesione_mar-piccolo-bonifica-55mln.pdf`
 
+[8] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), 15 settembre 2022, pag. 47 della numerazione della Camera (criticità della verifica sul CIS Taranto), https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
+
 ## Cosa non sappiamo
 1. **Quanto è stato tolto.** Nei documenti letti non ci sono peso, volume e destinazione dei rifiuti del mercato. Non verificato.
 2. **Cosa c'è sul fondale dove stava il mercato.** Non ho trovato analisi dei fanghi prima o dopo la rimozione. Non verificato.
-3. **Come è finita la causa** dell'impresa per i 960.139,68 €: l'ultima notizia è "giudizio in corso" a settembre 2023 [5]. Non verificato.
+3. **Come è finita la causa** dell'impresa per i 960.139,68 €: l'ultima notizia è "giudizio in corso" a settembre 2023 [5]. Negli elenchi dei decreti del Commissario dal 2024 al 2026 e in rete non ho trovato nulla. Non verificato.
 4. **Quando e perché il mercato è affondato:** le fonti ufficiali lette non lo dicono, e non lo scrivo. Non verificato.
 5. **Quanto sono costate in tutto** le attività di direzione dei lavori e sicurezza: non le ho sommate. Non verificato.
 
-(La richiesta di accesso civico per questa scheda è nella scheda B5: vedi `mar-piccolo-rifiuti-lotto1.md`.)
+### Richiesta di accesso civico (FOIA) n. 28 — da inviare tu
+La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`).
+
+**FOIA 28 — Commissario straordinario bonifiche Taranto** (A: Armento.Rita@mase.gov.it, Cc: v.uricchio@governo.it)
+1. relazione finale del direttore dell'esecuzione, conto finale e certificato di regolare esecuzione del 16/03/2022 con le riserve;
+2. quantità, tipo e destinazione dei materiali rimossi (formulari e registri);
+3. analisi del fondale prima o dopo la rimozione;
+4. stato della causa davanti al Tribunale delle Imprese di Bari (960.139,68 €) ed eventuali sentenze o transazioni;
+5. costo totale dell'intervento, con direzione dei lavori, sicurezza e altre spese.
+
+Testo completo in `.tmp/foia/28-*.md`. Sostituisce il punto 1 della vecchia bozza comune nella scheda B5.
