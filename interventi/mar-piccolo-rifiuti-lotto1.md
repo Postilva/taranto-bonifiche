@@ -127,7 +127,7 @@ La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staf
 Testo completo in `.tmp/foia/24-*.md`.
 
 ### Vecchia bozza comune per B4, B6 e B11 (non inviata)
-I punti 2 e 3 sono superati dalla FOIA 24, il punto 4 dalle FOIA 25 e 26 (scheda B11). I punti 1 e 5 vanno rifiniti quando si ripassano le schede B4 e B6.
+I punti 2 e 3 sono superati dalla FOIA 24, il punto 4 dalle FOIA 25 e 26 (scheda B11), il punto 5 dalla FOIA 27 (scheda B6). Il punto 1 va rifinito quando si ripassa la scheda B4.
 
 *Una sola richiesta, valida per le quattro schede B4, B5, B6 e B11.*
 
