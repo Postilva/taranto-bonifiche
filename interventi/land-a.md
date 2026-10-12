@@ -1,5 +1,5 @@
 # A10 – Land A (area verde al confine con Statte)
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
 ## In breve
 Land A è un terreno incolto di circa 3 ettari rimasto a Ilva in amministrazione straordinaria, nella zona industriale di Taranto, circa 6 km a nord-ovest della città, al confine con il Comune di Statte; senza recinzione, per anni è stato usato come discarica abusiva di macerie, anche con amianto [7][1][3]. Dal 2021 Ilva ha tolto molti cumuli di rifiuti e nel 2023 ha fatto le analisi, che ARPA Puglia ha validato nel 2024: nel terreno ci sono idrocarburi, PCB e diossine oltre i limiti per le zone abitate (in un punto, le diossine superano anche il limite per le aree industriali), nell'acqua sotterranea manganese, boro e cloroformio [12]. **Non è bonificato e non è messo in sicurezza**: alla fine del 2025 l'analisi di rischio non era ancora stata presentata al Ministero e uno strato di rifiuti compattati, in parte sepolto, risulta ancora sul posto [1][12].
@@ -18,7 +18,7 @@ Land A è un terreno incolto di circa 3 ettari rimasto a Ilva in amministrazione
 - **Piano di caratterizzazione** (il piano delle analisi): mandato da Ilva l'8 ottobre 2020, integrato il 23 ottobre, approvato con il **decreto n. 21 del 27 gennaio 2021** dopo i pareri di ARPA e ISPRA [6][8][10]. Il decreto chiede almeno 3 pozzetti per controllare l'acqua sotterranea e chiede ai Comuni di Taranto e Statte di esprimersi sull'uso dell'area [10]. Era già stata fatta una caratterizzazione nel 2008 [7].
 - **Rimozione dei rifiuti in superficie, 2021–2022.** Da giugno 2021 Ilva toglie i cumuli; a dicembre 2021 i lavori riguardano soprattutto la parte ovest e i rifiuti sono "in prevalenza" macerie, asfalto, terre e rocce, e in parte materiali con amianto [11]. Servì un secondo ordine per l'"elevato quantitativo" di rifiuti trovati sotto la vegetazione [11]. A fine 2022 Ilva scrive che la rimozione dei cumuli è terminata [4].
 - **La scoperta dei rifiuti compattati.** Nella parte est dell'area Ilva trova materiale portato dall'uomo, compattato, che sporge di circa 1,5 m e in parte è sepolto, "di volumetria non definibile" [11]. Il 7 luglio 2022 Ilva propone un'indagine preliminare per capire quanto ce n'è e che cos'è [11].
-- **Indagine preliminare**, 15 febbraio – 9 marzo 2023, con ARPA: 12 scavi fino a 3,3 m di profondità [12]. Risultati [12]:
+- **Indagine preliminare**, 15 febbraio – 9 marzo 2023, con ARPA: 12 scavi fino a 3,3 m di profondità [12]. Secondo Ilva, ARPA ha seguito i lavori ma non ha prelevato campioni propri in questa fase [15]. Risultati [12]:
   - su tutta l'area c'è uno strato di **materiale di riporto** (terra mescolata a materiali portati dall'uomo) spesso da 15 cm a 3,3 m; messo in acqua rilascia alluminio, ferro, manganese e fluoruri oltre i limiti;
   - 3 cumuli di macerie in superficie, classificati come rifiuti **non pericolosi**;
   - in uno scavo, tra 1,8 e 2,4 m, uno strato fatto soprattutto di rifiuti, anch'esso non pericoloso;
@@ -116,6 +116,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [14] MASE, pagina ufficiale della *Direzione generale economia circolare e bonifiche (ECB)*, consultata il 2 ottobre 2026 (indirizzo PEC per la richiesta FOIA), https://www.mase.gov.it/pagina/direzione-generale-economia-circolare-e-bonifiche-ecb
 
+[15] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2023*, pagina 36, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2023_omissisb.pdf — copia in `fonti/2023-03_ilva-as_relazione-trimestrale-I-2023.pdf`
+
 ## Cosa non sappiamo
 1. **Quanti rifiuti sono stati tolti e dove sono finiti.** Le fonti dicono solo "grandi quantità" [4][11]. I formulari dei rifiuti esistono (Ilva li ha mandati al Ministero) ma non sono pubblici [11][3]. Non verificato. Vedi la bozza FOIA qui sotto.
 2. **Lo strato di rifiuti sepolto e il manufatto con amianto sono ancora lì?** ARPA li descrive nel 2024 [12]; nessun documento successivo dice che siano stati tolti [1]. Non verificato.
@@ -128,6 +130,23 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 9. **Chi ha abbandonato i rifiuti**: nessuna fonte lo dice.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+**A:** ARPA Puglia, Dipartimento provinciale di Taranto — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina URP](https://www.arpa.puglia.it/pagina2819_urp.html)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – Area "Land A" di ILVA in A.S. (SIN Taranto, ID area 3886): rifiuti compattati e manufatto in amianto, acque sotterranee 2025 e destinazione d'uso (DAP Taranto)
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'area "Land A" di ILVA S.p.A. in A.S. (Comune di Taranto, Foglio 138, particelle 45, 46 e 47; SIN di Taranto, ID area 3886), dopo il report di validazione ARPA prot. 40510 del 9/05/2024:
+>
+> 1. **Rifiuti e amianto.** Eventuali sopralluoghi, verbali o comunicazioni ricevute da ILVA, dal 2024 a oggi, sulla rimozione dello strato di rifiuti compattati e del manufatto contenente amianto descritti nel report del 9/05/2024, con quantità e destinazione dei rifiuti, se note.
+> 2. **Acque sotterranee.** I risultati della verifica del passaggio degli inquinanti in falda del 4–5/09/2025 e del campionamento della falda profonda del 10–11/11/2025, gli eventuali campioni in contraddittorio di ARPA e qualunque verifica sul boro nel pozzetto in cui ILVA aveva misurato 8.410 µg/l e ARPA 212 µg/l.
+> 3. **Destinazione d'uso.** L'eventuale espressione dei Comuni di Taranto e di Statte sulla destinazione d'uso dell'area (prescrizione n. 11 del decreto n. 21 del 27/01/2021), che il report del 9/05/2024 indicava come ancora da acquisire, se nota ad ARPA.
+> 4. **Analisi di rischio.** L'eventuale piano di monitoraggio della falda o documento di analisi di rischio trasmesso da ILVA dopo maggio 2024, con le osservazioni di ARPA.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta al Ministero (FOIA) — in attesa
+Da inviare all'email ordinaria della Direzione (ecb-udg@mase.gov.it) solo se la prima richiesta mandata lì (FOIA 31, 12 ottobre 2026) viene protocollata; i punti 3 e 4 sono chiesti anche ad ARPA nella bozza qui sopra.
+
 **A:** Ministero dell'Ambiente e della Sicurezza energetica — Direzione generale economia circolare e bonifiche — PEC: ecb@pec.mase.gov.it (indirizzo verificato il 2 ottobre 2026 sulla [pagina ufficiale della Direzione](https://www.mase.gov.it/pagina/direzione-generale-economia-circolare-e-bonifiche-ecb) [14])
 
 > Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – area "Land A" di Ilva in A.S., SIN di Taranto (ID Area 3886)

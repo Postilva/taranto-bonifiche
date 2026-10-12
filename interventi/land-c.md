@@ -1,5 +1,5 @@
 # A11 – Land C (area verde vicino alla fabbrica)
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
 ## In breve
 Land C è un'area verde di circa 1,8 ettari rimasta a Ilva in amministrazione straordinaria, appena fuori dalla fabbrica, nella zona industriale di Taranto; non ci sono mai stati impianti ed è coperta da macchia mediterranea [7][20]. Con il decreto n. 250 del 5 luglio 2023 (notificato il 7 luglio) il Ministero dell'Ambiente ha dichiarato **"non contaminato" solo il terreno**, mentre nell'acqua sotterranea sono stati trovati arsenico, boro, manganese, nichel, nitriti e solfati oltre i limiti [2][3]. **Non è stata bonificata (per il terreno non serviva) e non è uscita dal SIN**: la relazione di Ilva parla di "svincolo dal SIN", ma il decreto non lo dice e l'area non è tra quelle tolte dal SIN nel dicembre 2024 [1][2][16][18].
@@ -119,17 +119,39 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [21] D.Lgs. 3 aprile 2006, n. 152 (Codice dell'ambiente), articolo 240, comma 1, lettera f) (definizione di sito non contaminato), testo vigente su Normattiva, https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152~art240 — copia in `fonti/2026-09_normattiva_dlgs-152-2006-art-240-definizioni.pdf`
 
+[22] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2023*, pagina 37, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2023_omissisb.pdf — copia in `fonti/2023-03_ilva-as_relazione-trimestrale-I-2023.pdf`
+
+[23] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2023*, pagine 35–36, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2023_omissisb.pdf — copia in `fonti/2023-12_ilva-as_relazione-trimestrale-IV-2023.pdf`
+
+[24] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pagina 52, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
+
 ## Cosa non sappiamo
 1. **"Svincolo dal SIN": la relazione di Ilva sbaglia.** Scrive che il Ministero ha deciso "l'esito positivo della caratterizzazione del suolo con svincolo dal SIN" [1]. Il decreto riguarda solo il terreno e non dice nulla sull'uscita dal SIN [2], e l'area non è tra quelle escluse nel dicembre 2024 [16][18]. Ilva stessa nel 2022 scriveva che le analisi servivano "ai fini dello svincolo" [20]: era un obiettivo, non un risultato.
 2. **Da dove viene l'inquinamento dell'acqua sotterranea.** Arsenico, boro, manganese, nichel, nitriti e solfati sono oltre i limiti, ma nessun ente ha stabilito l'origine [2][12]. Ilva sostiene che potrebbe venire da fuori dell'area [7]: è una sua ipotesi, non verificata.
 3. **I risultati dei nuovi controlli dell'acqua.** Secondo Ilva i nuovi pozzetti sono pronti dal 20 giugno 2025 e a novembre 2025 c'è stata la seconda campagna [1], ma nell'archivio del Ministero non c'è nessun risultato [3]. Non verificato. Vedi la bozza di richiesta FOIA qui sotto.
-4. **Una data che non torna.** Ilva scrive che il Ministero ha chiesto i nuovi pozzetti e un anno di controlli "in data 20/03/2023" [1]. Nell'archivio c'è invece la lettera del 27 febbraio 2023 [12]; una lettera del 20 marzo 2023 non l'abbiamo trovata. Non verificato.
+4. **Una data che non torna (probabilmente un errore di Ilva).** Dal 2024 Ilva scrive che il Ministero ha chiesto i nuovi pozzetti e un anno di controlli "in data 20/03/2023" [1]. Nell'archivio c'è invece la lettera del 27 febbraio 2023 [12], e la relazione di Ilva scritta subito dopo, quella del 1° trimestre 2023, dà la stessa data, 27 febbraio 2023 [22]. Una lettera del 20 marzo 2023 non l'abbiamo trovata.
 5. **L'incendio di aprile 2022.** Secondo Ilva ha distrutto 8 cassette su 12 di campioni dei sondaggi [20]. Nessun documento pubblico dice se questo ha cambiato le analisi, né chi ha appiccato il fuoco. Ilva dice di aver avvisato il Ministero il 7 luglio 2022 [20]: questa nota non è nell'archivio. Non verificato.
 6. **La distanza dalla città.** Le relazioni di Ilva su Land C e Land E usano la stessa frase ("circa 4,5 km a Nord-Ovest dal centro abitato") [7], ma le due aree, secondo le coordinate, distano tra loro circa 2,5 km (calcolo nostro). Il dato va ricontrollato sulla mappa.
 7. **Le spese dopo il 2022**: non verificato (vedi "Soldi").
-8. **Il taglio degli alberi.** Secondo Ilva, Comune di Taranto e Autorità di Bacino stanno valutando il rischio di allagamento prima di autorizzarlo [1]: nessun atto pubblico trovato. Non verificato.
+8. **Il taglio degli alberi.** Il 10 ottobre 2023 Ilva ha chiesto un parere sul rischio idraulico per i lavori sul verde; il 22 novembre 2023 il Comune di Taranto ha risposto che serviva una domanda di abbattimento con la relazione di un agronomo, e il 26 novembre 2024 ha rimandato la valutazione del rischio idraulico all'Autorità di Bacino [23][24]. Sono tutte informazioni di Ilva: nessun atto del Comune o dell'Autorità di Bacino trovato. Non verificato.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+**A:** ARPA Puglia, Dipartimento provinciale di Taranto — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina URP](https://www.arpa.puglia.it/pagina2819_urp.html)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – Area "Land C" di ILVA in A.S. (SIN Taranto, ID area 3048): acque sotterranee dopo il decreto MASE n. 250/2023, nuovi piezometri e monitoraggio 2025 (DAP Taranto)
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'area "Land C" di ILVA S.p.A. in A.S. (Comune di Taranto, Foglio 183, particella 1; SIN di Taranto, ID area 3048), per la quale il decreto MASE n. 250 del 5/07/2023 ha chiuso il procedimento per il solo suolo:
+>
+> 1. **Nuovi piezometri.** I verbali di sopralluogo, le stratigrafie e l'ubicazione dei nuovi piezometri realizzati da ILVA (rete completata secondo ILVA il 20/06/2025), con le eventuali osservazioni di ARPA.
+> 2. **Acque sotterranee 2025–2026.** I risultati delle campagne di monitoraggio trimestrale della falda eseguite dopo giugno 2025 (compresa quella del 13–14/11/2025), gli eventuali campioni in contraddittorio di ARPA e le relative validazioni, in particolare per arsenico, boro, manganese, nichel, nitriti e solfati.
+> 3. **Origine della contaminazione.** Eventuali valutazioni di ARPA sull'origine dei superamenti nelle acque sotterranee dell'area (interna o esterna all'area), anche nell'ambito del "Piano di monitoraggio della falda delle Aree Escluse" trasmesso da ILVA il 19/06/2024.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta al Ministero (FOIA) — in attesa
+Da inviare all'email ordinaria della Direzione (ecb-udg@mase.gov.it) solo se la prima richiesta mandata lì (FOIA 31, 12 ottobre 2026) viene protocollata; il punto 2 è chiesto anche ad ARPA nella bozza qui sopra.
+
 **A:** Ministero dell'Ambiente e della Sicurezza energetica — Direzione generale economia circolare e bonifiche — PEC: ecb@pec.mase.gov.it (indirizzo verificato il 2 ottobre 2026 sulla [pagina ufficiale della Direzione](https://www.mase.gov.it/pagina/direzione-generale-economia-circolare-e-bonifiche-ecb))
 
 > Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – area "Land C" di Ilva in A.S., SIN di Taranto (ID Area 3048)
