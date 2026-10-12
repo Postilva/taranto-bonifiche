@@ -1,5 +1,5 @@
 # A3 – Discarica ex cava Due Mari
-*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
 ## In breve
 È una grande discarica di rifiuti dell'acciaieria, ricavata in una vecchia cava fuori dalla fabbrica, che è rimasta a Ilva in amministrazione straordinaria; solo una parte è dentro il SIN, il "Sito di interesse nazionale" da bonificare [8][9][10]. Secondo Ilva è stata **messa in sicurezza** con una copertura di terra e teli, ma **non è stata bonificata** (i rifiuti sono ancora lì) e **nessun ente pubblico ha ancora certificato** che i lavori siano finiti e fatti bene [1][6]. Dal 2020 Ilva e la Provincia di Taranto litigano sulle garanzie economiche che Ilva deve dare per i 30 anni di controlli dopo la chiusura: la Provincia ha respinto le garanzie, i giudici le hanno dato ragione, e senza garanzie adeguate la Provincia non rilascia il certificato [1][3][4][5].
@@ -20,6 +20,8 @@
 
 **Perché la deve chiudere Ilva.** Il Piano ambientale per l'Ilva (decreto del Presidente del Consiglio del 29 settembre 2017) mette la chiusura della discarica "ex cava Due Mari" (prescrizione **UA5**) tra i lavori che restano ai commissari di Ilva in amministrazione straordinaria, e non ai nuovi gestori della fabbrica [2]. L'obbligo viene da un documento del 2014 del sub-commissario Ilva, reso legge nel 2015, che parla di "chiusura, bonifica e gestione post-operativa" della discarica [4].
 
+**Il progetto.** Secondo Ilva il progetto definitivo della copertura è stato approvato direttamente dalla legge, con il decreto-legge n. 1 del 5 gennaio 2015 (poi legge n. 20 del 4 marzo 2015), e non con un decreto del Ministero [15].
+
 **I lavori, secondo Ilva** [1][6][8]:
 1. tolta la terra vegetale in superficie;
 2. sistemata la superficie e posata una nuova copertura ("capping") come prevista per le discariche di rifiuti non pericolosi;
@@ -32,6 +34,7 @@
 
 **Dopo i lavori.**
 - Fino al 2023 mancava la corrente elettrica per il cantiere: Ilva aspettava da e-distribuzione un nuovo allacciamento [8][12][13].
+- Il progetto approvato prevede, dopo i lavori, controlli della falda e dell'acqua di drenaggio ogni sei mesi e controlli della forma della discarica (per vedere se si abbassa) ogni anno per i primi tre anni e poi ogni cinque [15]. Nel 2022 Ilva aveva affidato i controlli delle acque (ordini n. 8/22 e 102/22) e diceva che quelli della forma sarebbero partiti entro il 31 dicembre 2022 [15]; nel 2023 un nuovo ordine (n. 9 del 16 gennaio 2023) e un prelievo il 19 luglio 2023 [16].
 - Ilva controlla la falda (l'acqua sotto terra) ogni tre mesi; l'ultimo prelievo citato è del 3–4 novembre 2025 [1].
 - Il 18 marzo 2025 Ilva ha chiesto alla Provincia di passare alla "post-gestione", cioè ai 30 anni di sorveglianza dopo la chiusura [7][1].
 - Il 7 maggio 2025 la Provincia ha risposto che la richiesta era **inammissibile e improcedibile**; il 12 maggio ha contestato le garanzie economiche di Ilva [1].
@@ -62,6 +65,7 @@
 - 26 maggio 2025: la Provincia manda a Ilva una nuova decisione di non accettazione delle garanzie per le due discariche [1].
 - 28 luglio 2025: Ilva chiede al Consiglio di Stato di annullare le sue stesse sentenze ("revocazione") e presenta un ricorso al Consiglio di Stato contro una sentenza del TAR di Lecce [1].
 - 26 marzo 2026: il Consiglio di Stato dichiara **inammissibili** le richieste di revocazione, perché Ilva ripete gli stessi argomenti dell'appello; Ilva paga altri 6.000 € di spese alla Provincia [5].
+- 28 agosto 2026: il **decreto-legge n. 154** permette alle società in amministrazione straordinaria "che gestiscono almeno un impianto dichiarato di interesse strategico nazionale" di dare garanzie per le discariche **di un anno alla volta** [18]. Il decreto non nomina Ilva: non sappiamo se vale per Ilva in amministrazione straordinaria, che l'acciaieria non la gestisce più (vedi scheda [A4](discarica-cementir.md)).
 
 **Cosa sosteneva Ilva:** che i lavori di messa in sicurezza erano "sostanzialmente conclusi" e che banche e assicurazioni non concedono garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
@@ -90,6 +94,7 @@
 | 28 luglio 2025 | Ilva chiede la revocazione delle sentenze | [1] |
 | 3–4 novembre 2025 | Ultimo prelievo della falda citato da Ilva | [1] |
 | 26 marzo 2026 | Consiglio di Stato, sentenza n. 2519: revocazione inammissibile | [5] |
+| 28 agosto 2026 | Decreto-legge n. 154: garanzie di un anno per le società in amministrazione straordinaria che gestiscono impianti strategici | [18] |
 
 ## Fonti
 [1] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pagine 28–29 (anche pagine 30–31 per la parte comune con la discarica Cementir), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
@@ -122,15 +127,38 @@
 
 Nota: nell'archivio del Ministero (https://bonifichesiticontaminati.mite.gov.it/ricerca/, SIN "Taranto") non abbiamo trovato documenti su questa discarica di Ilva. L'unica "Due Mari" presente è la **Nuova Cava Due Mari srl**, un'azienda privata (ID area 3007), che è un'altra cosa.
 
+[15] Ilva S.p.A. in AS, *Relazione trimestrale, 1° trimestre 2022*, pagine 38–39, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2022_omissisb.pdf — copia in `fonti/2022-03_ilva-as_relazione-trimestrale-I-2022.pdf`
+
+[16] Ilva S.p.A. in AS, *Relazione trimestrale, 2° trimestre 2023*, pagina 32, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_II_trim_2023_omissisb.pdf — copia in `fonti/2023-06_ilva-as_relazione-trimestrale-II-2023.pdf`
+
+[17] Ilva S.p.A. in AS, *Nota del 27 settembre 2023* (prot. MASE 153461) con i rapporti di prova sui materiali inattesi dell'area fanghi (prelievi del 14 luglio 2023), pagine 4, 19, 37 e 57 del PDF, https://va.mite.gov.it/File/Documento/909054 — copia in `fonti/2023-09_ilva-as_nota-153461-analisi-materiali-inattesi.pdf`
+
+[18] Gazzetta Ufficiale, Serie generale n. 199 del 28 agosto 2026, *Decreto-legge 28 agosto 2026, n. 154* (Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale), articolo 1, https://www.gazzettaufficiale.it/eli/gu/2026/08/28/199/sg/pdf — copia in `fonti/2026-08_gazzetta-ufficiale_dl-154-2026-garanzie-discariche.pdf`
+
 ## Cosa non sappiamo
 1. **Il certificato.** Nessuna fonte dice che Ilva abbia chiesto alla Provincia il certificato di fine messa in sicurezza, né che la Provincia l'abbia rilasciato. Senza certificato non si può dire che il lavoro sia stato controllato da un ente pubblico.
 2. **Cosa c'è dentro.** Le fonti dicono solo "rifiuti non pericolosi". Quali rifiuti, quanti, e da quando a quando la discarica è stata usata: non verificato.
 3. **La falda.** Ilva fa i controlli ma i risultati non sono pubblici. Non sappiamo se l'acqua sotto la discarica è inquinata.
 4. **Le misure non tornano.** Il Ministero nel 2017 parlava di circa 12,5 ettari, Ilva nel 2022 di 14 ettari [10][8]. Anche sul SIN le fonti non coincidono: ARPA e Ilva dicono che la discarica è dentro il SIN solo in parte [9][8], mentre il documento del 2017 in un punto la mette tra le discariche del SIN e in un altro no [10]. Va verificato sulla mappa del SIN.
-5. **La garanzia oggi.** Dopo la decisione della Provincia del 26 maggio 2025 non sappiamo se Ilva abbia presentato una garanzia valida, né di quanti soldi. Il 28 luglio 2025 Ilva ha fatto anche ricorso contro una sentenza del TAR di Lecce che non abbiamo identificato (forse sulla decisione del 2025): non verificato.
+5. **La garanzia oggi.** Dopo la decisione della Provincia del 26 maggio 2025 non sappiamo se Ilva abbia presentato una garanzia valida, né di quanti soldi. Il 28 luglio 2025 Ilva ha fatto anche ricorso contro una sentenza del TAR di Lecce che non abbiamo identificato (forse sulla decisione del 2025): non verificato. Non sappiamo nemmeno se il decreto-legge n. 154/2026 sulle garanzie di un anno valga per Ilva in amministrazione straordinaria [18].
 6. **Cosa succede se la garanzia manca.** Il TAR scrive che il Ministero potrebbe revocare le autorizzazioni di Ilva [3], ma non abbiamo trovato atti del Ministero su questo.
-7. **Notizie di giornale (non verificato).** Un articolo online del luglio 2025 scrive che nella discarica Due Mari ci sarebbero fanghi dell'acciaieria e dell'altoforno. Le fonti ufficiali trattano i fanghi in un'area separata (vedi scheda A5). Non verificato.
-8. **Il decreto di approvazione del progetto.** Ilva cita "decreti di approvazione MISP" anche per Due Mari [8], ma non li abbiamo trovati. Non verificato.
+7. **Notizie di giornale (non verificato).** Un articolo online del luglio 2025 scrive che nella discarica Due Mari ci sarebbero fanghi dell'acciaieria e dell'altoforno. Le fonti ufficiali trattano i fanghi in un'area separata (vedi scheda A5). Non verificato. Un indizio: nei rapporti di laboratorio di luglio 2023 sui materiali dell'area fanghi (scheda A5), il punto di prelievo si chiama "Area fanghi ex cava Due Mari – Baia 1" e "Ex cava Due Mari – baia 3" [17]. L'area dei fanghi sembra quindi trovarsi presso la ex cava Due Mari, ma nessuna fonte ufficiale dice che i fanghi siano dentro la discarica coperta.
+8. **Il decreto di approvazione del progetto.** In parte chiarito: secondo Ilva il progetto è stato approvato dal decreto-legge n. 1/2015 [15]. Non abbiamo però visto un documento pubblico (progetto o parere) con il contenuto tecnico approvato. Ilva cita anche "decreti di approvazione MISP" per Due Mari [8]: non trovati.
 
 ### Richiesta di accesso civico (FOIA) — da inviare tu
-La richiesta alla Provincia di Taranto è la **FOIA 19**, preparata nella scheda A4 (discarica Cementir): copre anche questa discarica e va inviata con l'email ordinaria (A: aniello.polignano@provincia.ta.it, Cc: info@provincia.ta.it). Testo completo in `.tmp/foia/19-*.md`.
+Sulle garanzie, la richiesta alla Provincia di Taranto è la **FOIA 19**, preparata nella scheda A4 (discarica Cementir): copre anche questa discarica e va inviata con l'email ordinaria (A: aniello.polignano@provincia.ta.it, Cc: info@provincia.ta.it). Testo completo in `.tmp/foia/19-*.md`.
+
+### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+**A:** Provincia di Taranto, Settore Pianificazione Ambiente — email ordinaria aniello.polignano@provincia.ta.it, in copia info@provincia.ta.it (indirizzi verificati il 9 ottobre 2026 sulla [pagina Rifiuti](https://www.provincia.taranto.it/-/rifiuti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Discarica per rifiuti non pericolosi "ex cava Due Mari" di ILVA S.p.A. in A.S. (prescrizione UA5): autorizzazione, rifiuti conferiti, progetto di copertura e fine lavori
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi alla discarica per rifiuti non pericolosi "ex cava Due Mari" di ILVA S.p.A. in amministrazione straordinaria (prescrizione UA5 del DPCM 29/09/2017):
+>
+> 1. **Autorizzazione.** L'ultimo atto di autorizzazione all'esercizio della discarica, con l'elenco dei codici EER autorizzati.
+> 2. **Rifiuti conferiti.** I dati in possesso della Provincia sui rifiuti messi in discarica (tipi e codici EER, quantità totali, anni di inizio e fine dei conferimenti), anche dal registro di carico e scarico o dalle relazioni annuali del gestore.
+> 3. **Progetto e fine lavori.** Gli elaborati principali del progetto definitivo di copertura e sistemazione finale (approvato secondo ILVA con il D.L. n. 1/2015, convertito dalla L. n. 20/2015), la comunicazione di fine lavori e la relazione di fine lavori del direttore dei lavori, con la data di ultimazione.
+> 4. **Controlli dopo la chiusura.** Le relazioni sui controlli delle acque sotterranee, delle acque di drenaggio e della forma della discarica (monitoraggio morfologico) trasmesse da ILVA alla Provincia dal 2022 a oggi, con gli eventuali superamenti.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.

@@ -1,5 +1,5 @@
 # A7 – Discarica Nuove Vasche
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
 ## In breve
 È una discarica per rifiuti pericolosi dell'Ilva, nella zona della cava Mater Gratiae, fuori dal SIN (il "Sito di interesse nazionale" da bonificare): circa 3,5 ettari, divisa in tre vasche chiamate V1, V2 e V3 [2][4][1]. Non riceve più rifiuti ed è in "post-gestione", cioè chiusa e sorvegliata: Ilva deve controllarla per 30 anni, fino al 2048, misurando acqua sotterranea, liquido che cola dai rifiuti (percolato), polveri e fibre di amianto [1][2]. **Non è bonificata e non lo sarà**, perché in una discarica i rifiuti restano dove sono; inoltre i controlli chiesti da ISPRA hanno mostrato che la rete che raccoglie l'acqua piovana è troppo piccola, e a fine 2025 i lavori per potenziarla non erano ancora iniziati [1].
@@ -16,19 +16,20 @@
 **Che cos'è.**
 - Il Ministero dell'Ambiente la descriveva, in un documento consegnato al Parlamento, come "discarica ex 2ª categoria di tipo C denominata Nuove Vasche", nell'area della cava Mater Gratiae, con una superficie di circa 35.000 m² e una capacità di 51.600 m³ [4]. Le discariche di "2ª categoria tipo C" erano, secondo la vecchia classificazione, quelle per rifiuti pericolosi: il Ministero la chiama infatti "discarica per rifiuti pericolosi" [3].
 - In quel documento risultava tra le discariche "in esercizio", fuori dal SIN, e non di competenza dell'ufficio bonifiche del Ministero [4].
-- È formata da tre vasche, V1, V2 e V3 [1][5]. Il documento di Ilva per l'Osservatorio (2022) indica 3,6 ettari e conferma che non è nel SIN [2].
+- È formata da tre vasche, V1, V2 e V3 [1][5]. In un documento del febbraio 2007 per l'autorizzazione ambientale (AIA) dello stabilimento, Ilva scriveva che le tre vasche sono costruite "fuori terra" e contengono rispettivamente 7.600, 18.000 e 26.000 m³; che la discarica sta in un'area recintata a **sud-est della cava Mater Gratiae**; e che allora era in uso solo la vasca V2, mentre V1 e V3 erano già piene e coperte [11]. Il documento di Ilva per l'Osservatorio (2022) indica 3,6 ettari e conferma che non è nel SIN [2].
 - Vicino ci sono l'area di stoccaggio dei fanghi (schede A5+A6) e, nella stessa zona della cava, un'altra discarica "di tipo B speciale" per rifiuti non pericolosi [4][1].
 
 **Cosa c'è dentro?** Non verificato. Nessuna fonte ufficiale trovata dice quali rifiuti siano stati messi nelle tre vasche, né in che quantità. Sappiamo solo che è una discarica per rifiuti pericolosi [3][4] e che nel piano di controllo c'è la misura delle **fibre di amianto** nell'aria, due volte l'anno, "per verificarne l'eventuale presenza" [2]. Questo non prova che dentro ci sia amianto: dice solo che viene controllato.
 
 **La post-gestione** (cioè cosa si fa su una discarica chiusa), secondo il documento di Ilva del 2022 [2]:
-- controllo dell'acqua sotterranea due volte l'anno, da tre pozzi (uno a monte e due a valle della discarica);
+- controllo dell'acqua sotterranea due volte l'anno, da tre pozzi (P6 a monte, P7 e MF3 a valle della discarica) [2][10];
 - controllo della quantità e della composizione del percolato due volte l'anno;
 - misura delle polveri due volte l'anno, a monte e a valle rispetto al vento;
 - misura delle fibre di amianto due volte l'anno;
 - misura della forma del terreno (per vedere se i rifiuti si abbassano o la copertura cede) una volta l'anno;
 - dati meteo giornalieri;
 - manutenzione di recinzione, strade, impianti, rete dell'acqua piovana e sistema che estrae il percolato.
+- Il piano della Provincia del 2008 è stato integrato con le prescrizioni di ISPRA del verbale del 18 giugno 2018 [10].
 - Durata: **30 anni** dall'inizio della post-gestione, cioè fino al **2048** (Ilva indica come termine il 31 luglio 2048) [2].
 
 **Cosa risulta fatto negli ultimi anni:**
@@ -55,6 +56,7 @@
 ## Date principali
 | Data | Cosa succede | Fonte |
 |---|---|---|
+| febbraio 2007 | Secondo Ilva è in uso solo la vasca V2; V1 e V3 sono già piene e coperte | [11] |
 | 6 marzo 2008 | La Provincia approva il Piano di sorveglianza e controllo | [2][3] |
 | 27 marzo 2014 | Nota di Ilva (DIR 123) con il "piano di adeguamento" della discarica e la richiesta di chiusura | [3] |
 | 18 giugno 2018 | Verbale ISPRA con le prescrizioni per l'avvio della post-gestione | [2] |
@@ -86,27 +88,31 @@
 
 [9] Ilva S.p.A. in A.S., *Relazione trimestrale, 4° trimestre 2025*, pagina 33 (sezione "Stoccaggio fanghi", stesso documento del [1])
 
+[10] Ilva S.p.A. in A.S., *Relazione trimestrale, 1° trimestre 2022*, pagina 40, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2022_omissisb.pdf — copia in `fonti/2022-03_ilva-as_relazione-trimestrale-I-2022.pdf`
+
+[11] Ilva S.p.A., *Stabilimento di Taranto – Ulteriore documentazione per la gestione rifiuti*, febbraio 2007 (documentazione per l'autorizzazione integrata ambientale), pagina 6 del PDF, portale Valutazioni ambientali del Ministero dell'Ambiente, https://va.mite.gov.it/File/Documento/260025 — copia in `fonti/2007-02_ilva_aia-ulteriore-documentazione-gestione-rifiuti.pdf`
+
 ## Cosa non sappiamo
 1. **Cosa c'è dentro la discarica, e se c'è amianto.** Non verificato. Si sa solo che è una discarica per rifiuti pericolosi e che si misurano le fibre di amianto nell'aria [2][3][4]. Alcuni giornali hanno scritto negli anni di amianto nelle discariche dell'Ilva (non verificato, e non è chiaro se si riferiscano a questa).
 2. **Cosa dicono i controlli.** Le relazioni di Ilva dicono quando sono stati fatti i prelievi, ma non i risultati: non sappiamo se l'acqua sotterranea, le polveri o le fibre abbiano mai superato i limiti [1][8].
-3. **Quando è stata chiusa davvero e da chi.** Un documento del Ministero la indicava ancora "in esercizio" [4]; dal 2018 risulta in post-gestione [2][5]. Non abbiamo trovato l'atto della Provincia che ne certifica la chiusura definitiva.
+3. **Quando è stata chiusa davvero e da chi.** Nel 2007 era ancora in uso la vasca V2 [11] e un documento del Ministero la indicava ancora "in esercizio" [4]; dal 2018 risulta in post-gestione [2][5]. Non abbiamo trovato l'atto della Provincia che ne certifica la chiusura definitiva. Ilva collega l'avvio della post-gestione alle prescrizioni di ISPRA del verbale del 18 giugno 2018 [10][1], che non abbiamo trovato.
 4. **Una data che non torna.** Il verbale del Ministero scrive che il "piano di adeguamento" della nota Ilva del 27 marzo 2014 è stato approvato dalla Provincia con una determinazione del 6 marzo 2008, cioè sei anni prima [3]. Probabilmente si confondono due atti diversi, ma non è verificato.
-5. **Dove si trova esattamente** (Comune di Taranto o di Statte, particelle catastali): non verificato. Le fonti dicono solo "area cava Mater Gratiae" [4].
+5. **Dove si trova esattamente** (Comune di Taranto o di Statte, particelle catastali): non verificato. Le fonti dicono solo "area cava Mater Gratiae" [4], a sud-est della cava secondo Ilva [11].
 6. **I lavori per l'acqua piovana**: quando inizieranno, quanto costano, e se nel frattempo l'acqua che scorre sui fianchi abbia causato danni. Non verificato [1].
 7. **Chi pagherà la post-gestione fino al 2048** e se c'è una garanzia economica a favore della Provincia: non verificato.
 8. **Cosa contiene la "vasca di accumulo" dell'acqua piovana e dove finisce il percolato estratto**: le fonti non lo dicono.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Provincia di Taranto — PEC: protocollo@pec.provincia.ta.it (indirizzo verificato sul sito ufficiale https://www.provincia.taranto.it)
+**A:** Provincia di Taranto, Settore Pianificazione Ambiente — email ordinaria aniello.polignano@provincia.ta.it, in copia info@provincia.ta.it (indirizzi verificati il 9 ottobre 2026 sulla [pagina Rifiuti](https://www.provincia.taranto.it/-/rifiuti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – Discarica ex 2ª categoria tipo C denominata "Nuove Vasche" (vasche V1, V2, V3) di ILVA S.p.A. in A.S., area cava Mater Gratiae
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Discarica per rifiuti pericolosi "Nuove Vasche" (vasche V1, V2, V3, area cava Mater Gratiae) di ILVA S.p.A. in A.S. (prescrizione UP8): rifiuti smaltiti, chiusura, controlli e garanzie della gestione post-operativa
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. la determinazione dirigenziale n. 39 del 6 marzo 2008 e il Piano di sorveglianza e controllo approvato;
-> 2. gli atti relativi alla chiusura della discarica e all'avvio della gestione post-operativa, compresa la nota ILVA DIR 123 del 27 marzo 2014;
-> 3. le autorizzazioni originarie della discarica con l'elenco dei rifiuti (codici e quantità) che vi sono stati smaltiti, in particolare se vi sono rifiuti contenenti amianto;
-> 4. i rapporti dei monitoraggi (acque sotterranee, percolato, polveri, fibre di amianto) trasmessi da ILVA S.p.A. in A.S. dal 2018 a oggi;
-> 5. la garanzia finanziaria prestata per la gestione post-operativa.
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi alla discarica ex 2ª categoria tipo C "Nuove Vasche" (vasche V1, V2 e V3, area cava Mater Gratiae) di ILVA S.p.A. in amministrazione straordinaria, in gestione post-operativa (prescrizione UP8 del DPCM 29/09/2017):
+>
+> 1. **Rifiuti smaltiti.** I dati in possesso della Provincia sui rifiuti messi nelle tre vasche (codici EER, quantità, anni dei conferimenti), in particolare se vi sono stati smaltiti rifiuti contenenti amianto.
+> 2. **Chiusura.** La determinazione dirigenziale n. 39 del 6/03/2008 con il Piano di sorveglianza e controllo, la nota ILVA DIR 123 del 27/03/2014 e l'atto con cui la Provincia ha preso atto della chiusura definitiva della discarica e dell'avvio della gestione post-operativa.
+> 3. **Controlli.** I rapporti dei controlli trasmessi da ILVA dal 2018 a oggi (acque sotterranee dei pozzi P6, P7 e MF3, percolato, polveri, fibre di amianto, rilievi topografici), con gli eventuali superamenti dei livelli di guardia.
+> 4. **Garanzia e acque piovane.** La garanzia finanziaria per la gestione post-operativa (estremi, importo, durata) e il progetto di potenziamento della rete di raccolta delle acque meteoriche, se trasmesso alla Provincia, con i tempi previsti.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
