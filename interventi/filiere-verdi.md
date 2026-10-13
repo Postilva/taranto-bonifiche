@@ -1,5 +1,5 @@
 # B15 – Filiere verdi (piante per ripulire il suolo, circa 90 ettari)
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
 "Filiere verdi" è un progetto del Commissario, pagato con il Just Transition Fund (il fondo europeo per la "transizione giusta"), che vuole provare a ripulire il suolo con le piante su circa 90 ettari di terreni pubblici e, in mare, a trattare i fondali del 1° seno del Mar Piccolo con alghe [1][2]. A marzo 2026 la Regione Puglia ha ammesso a finanziamento solo la parte a terra (22.976.046 €), a condizione che il Commissario ottenesse l'uso dei terreni; la parte a mare è rimasta in sospeso e il suo budget è stato tagliato da 10.659.480 € a 3.055.924 € [3][4]. È un'azione "dimostrativa" [2], senza obiettivi di riduzione dell'inquinamento né dati misurati che io abbia trovato, e il progetto è ancora in fase di scrittura (a fine settembre 2026 è stata affidata a Sogesid la parte tecnica) [8].
@@ -26,6 +26,7 @@
 
 **Dove sono i 90 ettari?**
 - L'opuscolo dice solo "circa 90 ettari di suolo pubblico" e mostra una cartina senza nomi [1].
+- **Un sito pilota con un nome.** La scheda del percorso partecipativo della Regione (aprile 2026) indica come sito pilota l'area "Le Leggiadrezze" dell'ARIF, sulla sponda nord del 1° seno del Mar Piccolo, con il recupero di una serra come centro visite; cita come inquinanti da trasformare in risorsa berillio, vanadio e arsenico [12]. Le altre aree sono "da individuare" [12]. Non so se Le Leggiadrezze sia fra i terreni dell'accordo con i Carabinieri.
 - Gli atti dicono che il 13 maggio 2026 il Commissario ha firmato con il Raggruppamento Carabinieri Biodiversità di Martina Franca un accordo per usare "superfici agricole demaniali" dei Carabinieri e alcune aree demaniali date in uso ai Carabinieri dall'Agenzia del Demanio e dalla Marina Militare [6][7][8].
 - L'elenco delle particelle e dei Comuni si trova nell'"Allegato 1" del Quadro esigenziale (documento di progetto), che il Commissario ha approvato il 20 settembre 2025 e che non ho trovato online [5]. **Non so quindi in quali Comuni siano i terreni, né se siano dentro il SIN.** Non verificato.
 - La Regione ha chiesto che entro 60 giorni dalla pubblicazione dell'atto (28 maggio 2026) il Commissario avesse gli accordi di uso con tutti i proprietari pubblici [3]. Gli atti successivi citano l'accordo con i Carabinieri come perfezionato [8], ma non dicono se copra tutti i 90 ettari. Non verificato.
@@ -35,6 +36,7 @@
 - Il Commissario stesso scrive che si tratta di una bonifica dei sedimenti "in zone limitate rispetto all'estensione del Mar Piccolo" [2].
 - Il 13 marzo 2026 la Regione non ha ammesso questa parte: lo farà con un atto successivo, solo dopo che l'autorità competente avrà avviato e concluso la ricerca del responsabile dell'inquinamento (principio "chi inquina paga") [3]. Il Commissario stesso, nella sua richiesta, scrive che per il 1° seno "l'autorità competente non ha avviato il procedimento di individuazione del responsabile" [3].
 - Il 24 giugno 2026 la Regione ha ridotto la parte a mare da 10.659.480 € a 3.055.924,10 € e ha spostato 7.603.555,90 € sul progetto Sea Hub (vedi scheda B17) [4].
+- **Il taglio l'ha chiesto il Commissario stesso.** Il 27 aprile 2026, in un incontro alla Regione, il Commissario si è detto disponibile a spostare parte dei soldi di "Filiere verdi" sull'Arco Nord del Sea Hub, e lo ha proposto ufficialmente con una lettera del 20 maggio 2026 [4][11]. Gli atti non spiegano perché proprio la parte a mare.
 
 ## Quanto riduce davvero l'inquinamento?
 In breve: **oggi non è possibile saperlo, perché negli atti ufficiali che ho letto non ci sono né i valori di partenza né un obiettivo né un risultato.**
@@ -79,6 +81,7 @@ In breve: **oggi non è possibile saperlo, perché negli atti ufficiali che ho l
 | 13 maggio 2026 | Accordo di uso dei terreni con i Carabinieri Biodiversità | [8] |
 | maggio 2026 | L'opuscolo scrive che il progetto è in fase operativa "dal marzo 2026" | [1] |
 | 28 maggio 2026 | L'atto della Regione è pubblicato sul Bollettino ufficiale | [3] |
+| 27 aprile – 20 maggio 2026 | Il Commissario propone di spostare 7.603.555,90 € della parte a mare sul Sea Hub | [4][11] |
 | 24 giugno 2026 | La Regione taglia la parte a mare a 3.055.924,10 € | [4] |
 | 13–14 luglio 2026 | Nominato il responsabile del progetto; il disciplinare è firmato dal Commissario e controfirmato dalla Regione | [6][8] |
 | 10 agosto 2026 | Nominato il gruppo di progettazione | [7] |
@@ -105,7 +108,11 @@ In breve: **oggi non è possibile saperlo, perché negli atti ufficiali che ho l
 
 [10] OpenCoesione, scheda del soggetto *Commissario straordinario per gli interventi urgenti di bonifica di Taranto*, dati al 30/06/2026, https://opencoesione.gov.it/it/dati/soggetti/commissario-straordinario-per-gli-interventi-urgenti-di-bonifica-di-taranto-90221090732/ — copia in `fonti/2026-06_opencoesione_soggetto-commissario-taranto-progetti.html`
 
+[11] Commissario straordinario, Decreto n. 51 del 29/09/2026, *Sea Hub – approvazione del Quadro esigenziale e candidatura dell'intervento "Arco Nord"*, premesse, pag. 3–4 — copia in `fonti/2026-09_commissario-taranto_decreto-51-quadro-esigenziale-sea-hub.pdf`
+
 *Per orientarsi (non usati come prova): articoli di giornale di luglio 2026 e marzo 2026 parlano di un bando Sogesid "a settembre" e dell'affidamento "entro dicembre 2026", e di un numero di ettari diverso da 90 (cifra non leggibile con certezza nel testo che ho consultato). Non verificato.*
+
+[12] Regione Puglia, percorso partecipativo "Nuovi approcci partecipativi per la tutela e valorizzazione del Mar Piccolo di Taranto" (L.R. 28/2017; responsabile scientifico Dipartimento Jonico dell'Università di Bari), *Schede di intervento*, 30 aprile 2026, scheda INT-08 "Filiere Verdi – Biorisanamento fito-assistito", pag. 4 del PDF, https://partecipazione.regione.puglia.it/uploads/decidim/attachment/file/6486/Schede_Intervento_INT07-INT11.pdf — copia in `fonti/2026-04_regione-puglia_percorso-partecipativo-mar-piccolo-schede-intervento.pdf`
 
 ## Cosa non sappiamo
 1. **Dove sono i 90 ettari.** Sappiamo di chi sono (Carabinieri Biodiversità, Demanio, Marina Militare), ma non in quali Comuni, né se siano terreni inquinati e quanto [6][7][8]. L'elenco non l'ho trovato online [5]. Da chiedere con FOIA al Commissario.
@@ -114,7 +121,25 @@ In breve: **oggi non è possibile saperlo, perché negli atti ufficiali che ho l
 4. **Quando comincia e quanto dura.** Il calendario firmato con la Regione non è pubblico [3]. Il bando di gara non l'ho trovato (controllato il 6 ottobre 2026 su sito del Commissario e di Sogesid). Non verificato.
 5. **La data dell'atto di ammissione.** L'atto porta la data 13 marzo 2026, ma cita lettere del 18 e 19 marzo 2026 [3]. Probabilmente la data giusta è un'altra. Non verificato.
 6. **Cosa c'è dentro i 22,98 milioni.** Non è spiegato quanto va a piante e coltivazioni, quanto a analisi, personale, comunicazione e formazione [3][8].
-7. **Se la parte a mare si farà.** Dipende dalla ricerca del responsabile dell'inquinamento [3]. Il budget è già stato ridotto [4].
+7. **Se la parte a mare si farà.** Dipende dalla ricerca del responsabile dell'inquinamento [3]. Il budget è già stato ridotto, su proposta dello stesso Commissario [4][11].
 8. **Opuscolo e atti non coincidono su due punti:** l'opuscolo scrive "operativa a marzo 2026" [1], ma a marzo c'è stata solo l'ammissione al finanziamento della parte a terra, subordinata a una condizione [3] e il progetto è ancora in scrittura a settembre [8]. L'opuscolo scrive anche che la collaborazione con l'Acquedotto Pugliese è "sancita" [1], mentre la pagina web parla di un dialogo "in corso" [2].
 9. **Chi pagherà se il Fondo non basta o i tempi non vengono rispettati.** Non è scritto negli atti pubblici [3].
 10. **Il progetto non è su OpenCoesione** (dati al 30 giugno 2026) [10]: potrebbe comparire nei prossimi aggiornamenti.
+
+Ricerca online del 13 ottobre 2026 (Filiere verdi, Sogesid, gara, Carabinieri Biodiversità, 90 ettari): solo rassegne stampa del Commissario, nessun atto nuovo. Elenco dei decreti 2026 del Commissario: dopo il n. 50 nessun nuovo decreto su Filiere verdi. Portali gare di Sogesid: nessun bando visibile.
+
+### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive all'ufficio di staff: Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (vedi `.tmp/foia/canali.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Intervento "Filiere Verdi: interventi di bio-rimedio fito-assistito per il risanamento di aree a terra e a mare dell'area vasta di Taranto" (PN JTF Italia 2021-2027, procedura 2.3.3, CUP J41J26000640006): terreni, analisi, obiettivi, disciplinare e quadro economico
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'intervento "Filiere Verdi" (CUP J41J26000640006), Quadro esigenziale approvato con decreto n. 21 del 20/09/2025, parte a terra ammessa a finanziamento dalla Regione Puglia per 22.976.046,00 euro:
+>
+> 1. **Terreni.** L'Allegato 1 al Quadro esigenziale con l'elenco delle particelle e dei Comuni dei circa 90 ettari, la relativa cartografia, l'indicazione delle aree che ricadono nel SIN di Taranto, e l'accordo del 13/05/2026 con il Raggruppamento Carabinieri Biodiversità (Reparto di Martina Franca), con gli eventuali accordi o atti di consegna dell'Agenzia del Demanio e della Marina Militare.
+> 2. **Analisi e obiettivi.** I dati disponibili sulle concentrazioni di inquinanti nei terreni scelti (valori di partenza), gli obiettivi di riduzione previsti e il piano di monitoraggio dei risultati (misure prima e dopo il trattamento).
+> 3. **Disciplinare e tempi.** Il disciplinare firmato con la Regione Puglia nel luglio 2026, con il cronoprogramma previsto dall'articolo 5, e il cronoprogramma aggiornato della gara affidata a Sogesid S.p.A. (decreto n. 50 del 24/09/2026).
+> 4. **Quadro economico.** Il quadro economico della parte a terra (22.976.046,00 euro), diviso fra servizi di coltivazione, analisi e monitoraggio, progettazione, personale, comunicazione e formazione.
+> 5. **Parte a mare.** La nota prot. COMMTA-0000324-P-20/05/2026 con cui il Commissario ha proposto di ridurre di 7.603.555,90 euro la parte a mare a favore della procedura "Sea Hub", e gli eventuali atti successivi sulla ricerca del responsabile dell'inquinamento nel 1° seno del Mar Piccolo richiesta dalla Regione per ammettere la parte a mare.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.

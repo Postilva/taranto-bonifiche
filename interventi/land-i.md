@@ -1,5 +1,5 @@
 # A18 – Land I (area verde vicino all'Ospedale Nord)
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
 Land I è un piccolo terreno verde di circa 0,2 ettari (2.000 m²), rimasto a Ilva in amministrazione straordinaria, vicino all'"Ospedale Nord" e lontano dalla zona industriale [1][2]. Ilva lo considera "cedibile e privo di pendenze" e pensa di cederlo così com'è [1]. **Però non abbiamo trovato nessuna analisi del terreno né nessun atto pubblico che dica che è pulito**: il giudizio "senza problemi" è solo di Ilva, e secondo Ilva l'area è fuori dal SIN, il "Sito di interesse nazionale" da bonificare [2][3].
@@ -13,6 +13,7 @@ Land I è un piccolo terreno verde di circa 0,2 ettari (2.000 m²), rimasto a Il
 
 - Nel luglio 2022 Ilva scriveva, per quest'area: "nessuna attività evidenziata", "nessuna criticità evidenziata" [2], e "possibile cessione dell'area vista l'assenza di criticità ambientali" [4].
 - Dal 2022 al 2025 le relazioni di Ilva ripetono sempre la stessa frase: area verde "non utilizzata a scopi produttivi e lontana dalla zona industriale", che Ilva "ipotizza di cedere nell'attuale stato di fatto" [5][1].
+- Dalla fine del 2024 Ilva divide le sue 18 aree in 3 gruppi invece di 4; Land I resta l'unica nel gruppo "aree cedibili e prive di pendenze" [8].
 - Nessuna di queste relazioni cita analisi del terreno o dell'acqua [2][5][1].
 
 ## Due domande
@@ -43,6 +44,7 @@ Land I è un piccolo terreno verde di circa 0,2 ettari (2.000 m²), rimasto a Il
 | marzo 2022 | Prima relazione trimestrale di Ilva che cita l'area come "cedibile" | [5] |
 | luglio 2022 | Scheda di Ilva: 0,2 ettari, fuori dal SIN, nessuna criticità | [2] |
 | 2022–2025 | Ilva ripete che pensa di cederla così com'è | [5][1] |
+| dicembre 2024 | Ilva riduce i gruppi di aree da 4 a 3: Land I resta "cedibile" | [8] |
 
 ## Fonti
 [1] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pag. 48, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
@@ -59,10 +61,29 @@ Land I è un piccolo terreno verde di circa 0,2 ettari (2.000 m²), rimasto a Il
 
 [7] Stesso documento del [2], pag. 1 (mappa delle 18 aree e nota in fondo; pagina 5 del PDF)
 
+[8] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, paragrafo "Aree Escluse di competenza Ilva" (pagina 36 del PDF) — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`; stessa divisione nella relazione del 1° trimestre 2025 (pagina 34 del PDF) — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
 ## Cosa non sappiamo
 1. **Se il terreno è davvero pulito.** Non c'è nessuna analisi pubblica: "senza problemi" è un giudizio di Ilva, non di un ente di controllo [1][2]. Non verificato.
 2. **Dove si trova esattamente** e **a chi verrebbe ceduta**: nessuna fonte lo dice [1][2]. Non verificato.
 3. **Se è davvero fuori dal SIN:** lo dicono Ilva e una tabella basata su dati di Ilva [2][3]; senza la posizione esatta non l'abbiamo potuto controllare sulla mappa ufficiale del SIN.
 4. **Perché sia rimasta a Ilva** e non sia passata, con il resto della fabbrica, ai nuovi gestori dell'acciaieria: nessuna fonte lo spiega. Non verificato.
 
-*Prossimo passo possibile:* chiedere ai commissari di Ilva in amministrazione straordinaria i dati catastali e l'eventuale documentazione ambientale dell'area. Non abbiamo verificato se Ilva in A.S. sia tenuta a rispondere a una richiesta di accesso civico (FOIA); per questo non prepariamo una bozza.
+Ricerca online del 13 ottobre 2026 (Land I, Ospedale Nord, cessione di aree di Ilva in A.S.): nessun risultato sull'area.
+
+I commissari di Ilva in A.S. lavorano sotto la vigilanza del Ministero delle Imprese e del Made in Italy, che riceve le loro relazioni trimestrali. Per questo la richiesta va al Ministero.
+
+### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+**A:** Ministero delle Imprese e del Made in Italy — email ordinaria dell'Ufficio relazioni con il pubblico urp@mise.gov.it, indicata per le domande di accesso sul [sito del Ministero](https://www.mimit.gov.it/it/urp) (verificata il 13 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Area "Land I" (area a verde vicino all'Ospedale Nord, Taranto) di ILVA S.p.A. in A.S.: identificazione catastale, verifiche ambientali e cessione
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'area "Land I – Area a verde vicino a Ospedale Nord" (circa 0,2 ettari), una delle 18 "aree escluse" rimaste a ILVA S.p.A. in A.S., che le relazioni trimestrali dei commissari dal 2022 al 2025 classificano come "area cedibile e priva di pendenze" e che ILVA "ipotizza di cedere nell'attuale stato di fatto":
+>
+> 1. **Dove si trova.** I dati catastali (Comune, foglio, particelle) e una planimetria dell'area.
+> 2. **Verifiche ambientali.** Le eventuali indagini, analisi del suolo o della falda, o valutazioni (anche di due diligence) su cui si basa il giudizio "priva di pendenze" e "assenza di criticità ambientali", e l'indicazione dell'atto o del documento che colloca l'area fuori dal Sito di interesse nazionale di Taranto.
+> 3. **Cessione.** Le eventuali istanze dei commissari per la cessione dell'area, le relative autorizzazioni o pareri del Ministero e del Comitato di sorveglianza, e lo stato della procedura (offerte ricevute, acquirente, prezzo), dal 2022 a oggi.
+> 4. **Esclusione dal trasferimento.** L'atto o l'allegato contrattuale che ha escluso l'area dal perimetro dei beni affidati in gestione al gestore dello stabilimento, con l'eventuale motivazione.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.

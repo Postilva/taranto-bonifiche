@@ -1,5 +1,5 @@
 # B17 – Sea Hub, Arco Nord del 2° seno del Mar Piccolo (rimozione di pontili e relitti, passerella in legno)
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
 Il progetto "Arco Nord" prevede di togliere dalla costa nord del 2° seno del Mar Piccolo 89 pontili, 33 strutture in muratura, 10 container, 4 relitti, 4 boe arenate e 90 boe galleggianti, e di costruire una passerella in legno con una strada verde [1]. Costa 13.203.555,90 € (stima del Commissario) e fa parte del "Sea Hub", una procedura da 55.203.555,90 € del Just Transition Fund (fondo europeo per la "transizione giusta"), ma **non è ancora finanziato**: il Commissario ha presentato la candidatura il 30 settembre 2026 e la Regione deve ancora decidere [2][4]. Non c'è ancora un progetto né una gara, e **non è una bonifica**: toglie rifiuti e strutture dalla riva, ma non ripulisce i fanghi del fondale [1][4].
@@ -24,11 +24,12 @@ Il progetto "Arco Nord" prevede di togliere dalla costa nord del 2° seno del Ma
 - La pagina web del Commissario aggiunge la rimozione di "reti intrise di inquinanti ed altri rifiuti" e parla di "risanamento delle matrici ambientali e sedimentarie" e di "biorimedio marino" [5]. Nei documenti di spesa che ho letto non c'è nessuna voce di bonifica dei sedimenti [2][4].
 - I numeri delle strutture (89, 33, 10, 4, 4, 90) compaiono solo nell'opuscolo [1]: non ho trovato un elenco o un censimento ufficiale con posizione e proprietà [1][4]. Non verificato.
 
-**Dove:** costa nord del 2° seno [1]. Gli atti indicano le particelle catastali: foglio 213 (particelle 11, 12), foglio 215 (16, 17), foglio 221 (8), foglio 226 (3) come demanio marittimo, e nel foglio 213 la particella 53 (del Comune di Taranto) e le particelle 9, 10, 54 e 72 (patrimonio dello Stato, in uso alla Marina Militare) [4].
+**Dove:** costa nord del 2° seno [1], dalla foce del fiume Cervaro lungo la strada provinciale 78, accanto al Parco naturale regionale del Mar Piccolo: circa 9 ettari e circa 3 km di riva, secondo la scheda del percorso partecipativo della Regione (aprile 2026) [14]. Gli atti indicano le particelle catastali: foglio 213 (particelle 11, 12), foglio 215 (16, 17), foglio 221 (8), foglio 226 (3) come demanio marittimo, e nel foglio 213 la particella 53 (del Comune di Taranto) e le particelle 9, 10, 54 e 72 (patrimonio dello Stato, in uso alla Marina Militare) [4].
 
 **Quanto riduce davvero l'inquinamento?**
 - **Toglie possibili fonti di inquinamento**, non l'inquinamento già presente: pontili, container, relitti, boe e reti sono definiti dal Commissario "potenziale fonte di inquinamento" e "detrattori ambientali e paesaggistici" [6][8].
 - **Non ho trovato nessun dato** sull'inquinamento di questo tratto di costa e del suo fondale (né sostanze, né valori, né quantità di materiali pericolosi da rimuovere) [1][4][5]. Non verificato.
+- **La parola "bonifica" usata per le demolizioni.** La scheda della Regione chiama "rimozione e bonifica" la demolizione di moli informali in cemento, di baracche in lamiera e la rimozione dei rifiuti [14]: non c'è una bonifica di suolo o fondali nel senso della legge. La stessa scheda dice che la rinaturalizzazione "presuppone la ricollocazione dignitosa degli operatori" che oggi usano la riva, e che la scadenza del fondo europeo è il 31 dicembre 2030 [14].
 - **Non c'è una bonifica dei fanghi:** le opere elencate sono rimozione di strutture, rinaturalizzazione, passerella e strada verde; la Regione descrive questa procedura come riqualificazione di coste e infrastrutture per mitilicoltura e blue economy [1][2][3]. Gli stessi comunicati del Commissario chiamano l'Arco Nord "riqualificazione ambientale e rinaturalizzazione" [6].
 - **Effetto sulla salute o sulle cozze:** nei documenti non c'è alcuna stima [1][2][4]. Il Commissario scrive che il Mar Piccolo ricade nel SIN [6][7]; non so se questo tratto di costa sia dentro il perimetro. Non verificato.
 - **Da dove vengono i soldi:** 7.603.555,90 € dei 13,2 milioni sono tolti alla parte "a mare" del progetto Filiere verdi, cioè alla sperimentazione di biorisanamento dei fanghi del 1° seno (vedi scheda B15) [2][4]. In pratica, una parte dei fondi pensati per trattare i sedimenti va a finanziare la passerella e la rimozione di strutture [2][4].
@@ -85,6 +86,7 @@ Il progetto "Arco Nord" prevede di togliere dalla costa nord del 2° seno del Ma
 | 26 giugno 2026 | Comunicato: il CIS approva 500.000 € per togliere rifiuti da coste e fondali | [6] |
 | 21 luglio 2026 | La Regione porta la dotazione del Sea Hub a 55.203.555,90 € | [2] |
 | 31 luglio 2026 | Decreto n. 43: 500.000 € in due stralci; 250.000 € al Comune per il I stralcio | [8] |
+| 30 aprile 2026 | Scheda del percorso partecipativo della Regione: Arco Nord "pre-progettuale", circa 9 ettari | [14] |
 | 7 agosto 2026 | La Regione apre la procedura Sea Hub; parte la pulizia della costa (I stralcio) | [2][7] |
 | 25 settembre 2026 | Parere preliminare favorevole della Capitaneria | [4] |
 | 30 settembre 2026 | Scadenza della candidatura; il Commissario firma il decreto n. 51 alle 11:58 | [4] |
@@ -116,6 +118,8 @@ Il progetto "Arco Nord" prevede di togliere dalla costa nord del 2° seno del Ma
 
 [13] Commissario straordinario, sito ufficiale, pagina *Accordi di collaborazione interistituzionale*, https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/accordi-di-collaborazione-interistituzionale/ — copia in `fonti/2026-10_commissario-taranto_accordi-collaborazione-interistituzionale.html`
 
+[14] Regione Puglia, percorso partecipativo "Nuovi approcci partecipativi per la tutela e valorizzazione del Mar Piccolo di Taranto" (L.R. 28/2017; responsabile scientifico Dipartimento Jonico dell'Università di Bari), *Schede di intervento*, 30 aprile 2026, scheda INT-07 "SeaHub – Arco Nord del Secondo Seno", pag. 2–3 del PDF, https://partecipazione.regione.puglia.it/uploads/decidim/attachment/file/6486/Schede_Intervento_INT07-INT11.pdf — copia in `fonti/2026-04_regione-puglia_percorso-partecipativo-mar-piccolo-schede-intervento.pdf`
+
 ## Cosa non sappiamo
 1. **Se la candidatura è arrivata in tempo e sarà finanziata.** Il decreto è firmato due minuti prima della scadenza e mancano ancora risposte della Marina e del Comune sulle aree [4]. La decisione della Regione non c'è ancora [2][4].
 2. **Quando partiranno progetto, gara e lavori, e quanto dureranno.** Il cronoprogramma presentato non è pubblico [4].
@@ -129,18 +133,36 @@ Il progetto "Arco Nord" prevede di togliere dalla costa nord del 2° seno del Ma
 10. **La data del protocollo con il Comune di Taranto:** 24 febbraio 2026 in una parte del decreto n. 43 e 26 febbraio 2026 nel resto del decreto e sul sito del Commissario [8][13].
 11. **Se una parte dei fanghi del 1° seno sarà mai trattata con il biorisanamento.** I soldi della parte a mare di "Filiere verdi" sono stati ridotti da 10,66 a 3,06 milioni € per finanziare l'Arco Nord [2][4].
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Comune di Taranto — PEC: protocollo.comunetaranto@pec.rupar.puglia.it (indirizzo verificato sul sito del Comune, pagina "Contatti", e nel decreto del Commissario n. 43/2026, il 6/10/2026)
+Ricerca online del 13 ottobre 2026 (Sea Hub, Arco Nord, pulizia delle coste del Mar Piccolo): trovata la scheda della Regione di aprile 2026 [14]; nessun esito della candidatura. Elenco dei decreti del Commissario (controllato il 13 ottobre 2026): nessun decreto dopo il n. 54 del 2 ottobre 2026. La pagina della Regione sulla procedura non è cambiata.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) e di accesso all'informazione ambientale (D.Lgs. 195/2005) – Sea Hub (PN JTF Italia 2021-2027, Azione 2.3, procedura 2.3.2) e misure di prevenzione su coste, arenili e fondali del Mar Piccolo (CUP J51J26001250001)
+### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
+**A:** Comune di Taranto — email ordinaria dell'URP comunicazione.urp@comune.taranto.it, in copia la Direzione Ambiente ambiente@comune.taranto.it (indirizzi verificati l'8 ottobre 2026 sul [sito ufficiale del Comune](https://www.comune.taranto.it/)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Procedura "Sea Hub" (PN JTF Italia 2021-2027, Azione 2.3, procedura 2.3.2) e "Misure di prevenzione su coste, arenili e fondali del Mar Piccolo", I stralcio parte a terra (CUP J51J26001250001)
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. il Protocollo d'intesa tra il Comune di Taranto e il Commissario straordinario per la bonifica, sottoscritto nel febbraio 2026, con gli eventuali allegati;
-> 2. la proposta progettuale e la scheda tecnica presentate dal Comune alla Regione Puglia per i primi tre cluster del Sea Hub (procedura 2.3.2), con quadro economico e cronoprogramma, e la nota prot. n. 0133340/2026 del 05/06/2026 con gli esiti degli incontri con il Commissario;
-> 3. la nota del Comune del 30 settembre 2026 (prot. n. 0227463/2026) con cui è stata espressa la condivisione della proposta "Arco Nord" del Commissario, e le risposte della Direzione Patrimonio e Demanio alla richiesta di impegno agli espropri (nota commissariale COMMTA-0000631-P del 24/09/2026);
-> 4. l'elenco delle strutture sulla costa nord del 2° seno del Mar Piccolo da rimuovere (pontili, strutture in muratura, container, relitti, boe), con localizzazione, proprietà o concessione e stato di regolarità, e gli eventuali rilievi o censimenti da cui derivano i numeri indicati nell'opuscolo del Commissario di maggio 2026;
-> 5. per l'intervento "Misure di prevenzione sulle coste, arenili e fondali del Mar Piccolo", I stralcio "parte a terra": gli atti di affidamento e il contratto, l'impresa esecutrice, il verbale di consegna del 7 agosto 2026, il quadro economico, i quantitativi e le tipologie di rifiuti rimossi e la loro destinazione, lo stato di avanzamento e la rendicontazione; e il programma e il cronoprogramma del II stralcio "parte a mare";
-> 6. eventuali analisi di acque, sedimenti o materiali rimossi in possesso del Comune per la costa nord del 2° seno e per i tratti interessati dall'intervento.
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi alla procedura "Sea Hub" della Regione Puglia (PN JTF Italia 2021-2027, Azione 2.3, procedura 2.3.2) e all'intervento "Misure di prevenzione su coste, arenili e fondali del Mar Piccolo" (CUP J51J26001250001), di cui il Comune è soggetto attuatore per il I stralcio "parte a terra" (decreto del Commissario straordinario per la bonifica di Taranto n. 43 del 31/07/2026):
+>
+> 1. **Protocollo d'intesa.** Il Protocollo d'intesa tra il Comune di Taranto e il Commissario straordinario per la bonifica sottoscritto nel febbraio 2026, con gli allegati.
+> 2. **Proposta del Comune per il Sea Hub.** La proposta progettuale e la scheda tecnica presentate dal Comune alla Regione Puglia per i primi tre cluster del Sea Hub (fabbisogno stimato 42.000.000 euro), con quadro economico e cronoprogramma, e la nota prot. n. 0133340/2026 del 05/06/2026.
+> 3. **Arco Nord.** La nota del Comune prot. n. 0227463/2026 del 30/09/2026 sulla proposta "Arco Nord" del Commissario, le risposte della Direzione Patrimonio e Demanio alla nota commissariale COMMTA-0000631-P del 24/09/2026, e l'eventuale elenco delle strutture sulla costa nord del 2° seno (pontili, strutture in muratura, container, relitti, boe) con localizzazione, titolo di proprietà o concessione e stato di regolarità.
+> 4. **Pulizia delle coste, I stralcio.** Gli atti di affidamento e il contratto, l'impresa esecutrice, il verbale di consegna del 07/08/2026, il quadro economico, i tratti di costa interessati, le quantità e i tipi di rifiuti rimossi con la loro destinazione (formulari), lo stato di avanzamento e la rendicontazione.
+> 5. **Analisi.** Le eventuali analisi di acque, sedimenti o materiali rimossi in possesso del Comune per la costa nord del 2° seno del Mar Piccolo e per i tratti interessati dalla pulizia.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive all'ufficio di staff: Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (vedi `.tmp/foia/canali.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Intervento "Riqualificazione ambientale e rinaturalizzazione dell'Area Arco Nord del Secondo Seno del Mar Piccolo" (procedura "Sea Hub", PN JTF Italia 2021-2027, decreto n. 51 del 29/09/2026) e "Misure di prevenzione su coste, arenili e fondali del Mar Piccolo" (CUP J51J26001250001)
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'intervento "Arco Nord" del 2° seno del Mar Piccolo, candidato alla procedura regionale "Sea Hub" con il decreto n. 51 del 29/09/2026, e all'intervento "Misure di prevenzione su coste, arenili e fondali del Mar Piccolo" (decreto n. 43 del 31/07/2026):
+>
+> 1. **Quadro esigenziale e candidatura.** Gli elaborati del Quadro esigenziale approvato con il decreto n. 51 (concept, cronoprogramma, quadro finanziario con la ripartizione dei 13.203.555,90 euro fra rimozioni, passerella, strada verde e impianti) e la ricevuta di presentazione della candidatura alla Regione Puglia.
+> 2. **Strutture da rimuovere.** Il censimento o i rilievi da cui derivano i numeri indicati nell'opuscolo di maggio 2026 (89 pontili, 33 strutture in muratura, 10 container, 4 relitti, 4 boe arenate, 90 boe galleggianti), con localizzazione, proprietà o concessione e stato di regolarità.
+> 3. **Stato ambientale.** Le eventuali analisi di sedimenti, acque o materiali (per esempio amianto, reti, scafi) sulla costa nord del 2° seno, e l'indicazione se l'area ricade nel SIN di Taranto.
+> 4. **Aree.** Le risposte del Comando Marittimo Sud della Marina Militare, dell'Agenzia del Demanio e della Direzione Patrimonio del Comune di Taranto alle richieste del Commissario sulle particelle dell'Arco Nord.
+> 5. **Pulizia delle coste e dei fondali.** La ratifica del decreto n. 43 da parte degli organi del CIS Taranto, gli atti di avvio del II stralcio "parte a mare" (250.000 euro), e i dati disponibili sui rifiuti già rimossi nel I stralcio (quantità, tipi, destinazione, tratti di costa).
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
 > [Luogo, data, firma] — allegare copia di un documento d'identità.

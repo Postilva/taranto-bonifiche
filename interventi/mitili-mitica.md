@@ -1,5 +1,5 @@
 # B16 – Cozze: studio sulla decontaminazione + progetto MITICA
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
 Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce il mare**. Lo studio sulla decontaminazione (ARPA Puglia, ASL, CNR-IRSA, Capitaneria, Comune, Commissario) ha misurato quanto in fretta le cozze del 1° seno del Mar Piccolo, spostate nel Mar Grande, perdono diossine e PCB: secondo il comunicato del 6 luglio 2026 la contaminazione "si azzera stabilmente" tra 30 e 48 giorni, ma i numeri misurati non sono pubblici [3]. Il progetto MITICA (498.448 € in tutto, 400.000 € dalla Regione Puglia, con CNR e CoNISMa) non studia l'inquinamento: studia come far resistere le cozze al caldo e alla mancanza di ossigeno, e come ottenere crediti di carbonio [5][6].
@@ -22,7 +22,7 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 **Né bonificato né messo in sicurezza: nessuno dei due progetti interviene su fanghi o acqua del Mar Piccolo.** Lo dice implicitamente anche il CNR-IRSA nel comunicato: i risultati servono "nelle more del completamento degli interventi di bonifica del Mar Piccolo", cioè la bonifica è ancora da fare [3].
 
 ### A. Studio "Valutazione dei tassi di decontaminazione in lotti di mitili trasferiti dal Primo Seno al Mar Grande"
-- **Perché esiste:** una regola regionale obbliga a spostare le cozze piccole dal 1° al 2° seno entro il 28 febbraio di ogni anno, per evitare che accumulino sostanze inquinanti organiche; i mitilicoltori la considerano molto pesante [2]. Lo studio vuole capire se si può essere più flessibili [2].
+- **Perché esiste:** già nel 2010–2011 le cozze allevate nel Mar Piccolo superavano i limiti europei per diossine e PCB "diossina-simili" [16]. Una regola regionale obbliga a spostare le cozze piccole dal 1° al 2° seno entro il 28 febbraio di ogni anno, per evitare che accumulino sostanze inquinanti organiche; i mitilicoltori la considerano molto pesante [2]. Lo studio vuole capire se si può essere più flessibili [2].
 - **Come:** erano previsti 5 campi sperimentali (4 nel Mar Piccolo e 1 nel Mar Grande), con cozze del 1° seno spostate e analizzate per diossine, furani e PCB; ARPA ha misurato dopo 15, 30 e 45 giorni di permanenza in Mar Grande [3][4].
 - **Tempi:** accordo del 2023, sospeso a fine mandato del Prefetto Martino, riattivato il 7 giugno 2024; campionamenti dall'autunno 2024 (ARPA parte a metà novembre 2024, dopo la moria di seme dell'estate 2024); il 16 giugno 2025 sono state rubate le "reste" (le corde con le cozze) di un campo, poi sostituite; campionamenti finiti a gennaio 2026; fine del progetto 30 giugno 2026 [2][4]. Il 6 luglio 2026 è stata presentata la relazione finale [3].
 - **Cosa dice il comunicato del 6 luglio 2026 (non la relazione):**
@@ -36,6 +36,7 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 
 ### B. Progetto MITICA ("Mitilicoltura Integrata per la Tutela, l'Innovazione e la Capacità di adattamento")
 - **Obiettivo reale:** far resistere le cozze a ondate di calore e a poco ossigeno, dopo la moria dell'estate 2024 (temperature del mare oltre 30 °C); studiare l'allevamento di cozze insieme ad alghe; avviare i crediti di carbonio [5].
+- **Nuova moria nel 2026:** il 7 settembre 2026 il Commissario ha parlato di una "recente e grave moria" di cozze adulte e di seme nel 1° e nel 2° seno, legata al caldo; per gli interventi di adattamento si pensa ai fondi europei per la pesca (FEAMPA 2021-2027), non ancora assegnati [17].
 - **Tempi:** accordo firmato l'8 luglio 2025, durata prevista 18 mesi [1][6][8]. Se i 18 mesi partono dalla firma, finirebbero verso gennaio 2027 (calcolo mio; l'articolo dell'accordo con la data di inizio non l'ho letto). Non verificato.
 - **Cosa si studia (4 azioni + crediti di carbonio):** resistenza al caldo ("heat-hardening"), resistenza alla mancanza di ossigeno, coltivazione di alghe insieme alle cozze, crescita e riproduzione delle cozze nei due seni, arrivo naturale del seme, aspetti giuridici ed economici dei crediti di carbonio, carbonio nei gusci [5].
 - **Risultati dopo un anno (pagina del Commissario, agosto 2026):**
@@ -54,7 +55,8 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 - **Chi l'ha chiesto e su quali dati:** la richiesta è venuta dalle associazioni dei pescatori Coldiretti Impresa Pesca e Lega Pesca (18 febbraio 2026); la ASL di Taranto ha dato parere favorevole il 19 febbraio sulla base delle analisi dell'Istituto zooprofilattico di Teramo su cozze prelevate nel 1° seno [14]. L'ordinanza **non cita lo studio del Commissario né il CNR-IRSA** [14]. Il Commissario dice che il rinvio di "un intero mese" è stato ottenuto grazie ai dati dello studio [1][2]: è possibile, perché la ASL partecipa allo studio [4], ma l'ordinanza non lo dice.
 - **Revisione delle regole:** il comunicato dice che i risultati "aprono la strada" a una revisione dei calendari di raccolta e di trasferimento [3]. Le regole non sono ancora cambiate in modo stabile in nessun atto che io abbia trovato [10]. La decisione spetta alla Regione, non al Commissario; il CNR-IRSA parla di "eventuali valutazioni sull'aggiornamento dell'Ordinanza" [3].
 - **In pratica:** lo studio può portare a calendari meno rigidi per i mitilicoltori, cioè riguarda la gestione dell'allevamento [3]. Non riduce la contaminazione dei fondali: le cozze devono comunque lasciare il 1° seno per depurarsi [2][3].
-- Per orientarsi (non usato come prova): giornali dell'8 settembre 2026 parlano di un "tavolo tecnico" per aggiornare l'ordinanza. Non verificato.
+- **Il tavolo tecnico.** Il 7 settembre 2026 il Commissario ha presentato i risultati agli assessori regionali di agricoltura, salute e ambiente; è stato deciso un "Tavolo Tecnico" con i partner dello studio e funzionari regionali "che verranno a breve designati", con l'obiettivo di aggiornare l'ordinanza [17]. Il comunicato non riporta numeri dello studio [17]. Nell'elenco della Regione non ho trovato una nuova ordinanza dopo la n. 84 [10].
+- **Bonificare per togliere l'ordinanza costerebbe molto di più.** Nel 2022 il Commissario Martino disse alla Commissione parlamentare che, per arrivare alla revoca dell'ordinanza chiesta dai mitilicoltori, "bisognerebbe intervenire, se non su tutti i sedimenti, almeno sull'80 per cento" del 1° seno [15]. Lo studio sulla decontaminazione cerca invece di allentare le regole senza pulire i fondali [3][17].
 - **MITICA e l'ordinanza:** MITICA non incide sull'ordinanza: studia caldo e ossigeno, non diossine e PCB [5].
 
 ## Soldi
@@ -95,6 +97,7 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 | 6 maggio 2026 | Il Commissario ratifica le modifiche all'accordo sullo studio: fine il 30 giugno 2026 | [4] |
 | 6 luglio 2026 | Presentati in Prefettura i risultati dello studio | [3] |
 | agosto 2026 | Il Commissario pubblica i risultati di MITICA a un anno | [5] |
+| 7 settembre 2026 | Riunione con tre assessori regionali: deciso un Tavolo Tecnico per aggiornare l'ordinanza | [17] |
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 26–28 (pagine 27–29 del PDF), https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
@@ -125,6 +128,12 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 
 [14] Regione Puglia, Ordinanza del Presidente della Giunta regionale 25 febbraio 2026, n. 84, *Misure sanitarie straordinarie di controllo del rischio per diossina e PCB-DL nelle produzioni di mitili di Taranto. Modifica del termine per la movimentazione del novellame*, pag. 2–3 — copia in `fonti/2026-02_regione-puglia_opgr-84-misure-mitili.pdf`
 
+[15] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), 15 settembre 2022, pag. 33 della numerazione della Camera (audizione del Commissario Martino), https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
+
+[16] ARPA Puglia e ISPRA (N. Ungaro e altri), *Il Mar Piccolo di Taranto: elaborazione di un modello concettuale finalizzato alla bonifica/messa in sicurezza del bacino*, febbraio 2015, diapositiva 3, https://www.isprambiente.gov.it/files/eventi/eventi-2015/ricerca-siti-inquinati/Ungaro.pdf — copia in `fonti/2015-02_arpa-puglia-ispra_mar-piccolo-modello-concettuale.pdf`
+
+[17] Commissario straordinario, comunicato stampa *Confronto positivo con gli Assessori regionali Paolicelli, Pentassuglia e Ciliento sugli esiti "Valutazione dei tassi di decontaminazione in lotti di mitili"*, Bari, 7 settembre 2026, https://commissari.gov.it/media/xxeavpmk/riunione-in-regione-per-decontaminazione.pdf — copia in `fonti/2026-09_commissario-taranto_comunicato-riunione-regione-mitili.pdf`
+
 ## Cosa non sappiamo
 1. **I numeri dello studio.** La relazione finale non è pubblica e il comunicato non riporta le concentrazioni di diossine e PCB (né all'inizio né dopo 15, 30 o 45 giorni), né i limiti di legge [3]. Il comunicato dice "tra i 30 e i 48 giorni", ma le analisi sono a 15, 30 e 45 giorni [3]. Da chiedere con FOIA al Commissario o all'ARPA Puglia.
 2. **Se la depurazione vale per tutte le cozze e tutte le stagioni.** Il comunicato lo afferma ("in ogni stagione") [3]; non ho visto dati.
@@ -133,9 +142,26 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 5. **Le date dell'accordo sullo studio non tornano.** Lo stesso decreto lo dice stipulato il 2 maggio 2023 e sottoscritto con protocollo del 19 giugno 2023 [4]. Probabilmente il 2 maggio è l'approvazione dello schema. Non verificato.
 6. **Il numero dell'ordinanza.** Il Commissario cita la n. 1989/2011 [2][3]; il registro della Regione che ho consultato non la contiene e la catena parte dalla n. 188/2016 [10][11]. Le misure valgono fino a circa settembre 2027 (36 mesi dalla pubblicazione dell'ordinanza n. 379/2024, di cui non ho letto la data esatta di pubblicazione) [13].
 7. **Che peso abbia avuto lo studio sul rinvio del 2026.** L'ordinanza n. 84 si basa sul parere della ASL e sulle analisi dell'Istituto zooprofilattico di Teramo, senza citare lo studio [14]; il Commissario invece attribuisce il rinvio allo studio [1][2]. Non verificato.
-8. **Se e quando l'ordinanza verrà cambiata davvero.** Per ora ci sono solo auspici e un tavolo citato dai giornali [3].
+8. **Se e quando l'ordinanza verrà cambiata davvero.** Per ora c'è solo la decisione di fare un Tavolo Tecnico, con componenti regionali ancora da nominare a settembre 2026 [17].
 9. **MITICA: due numeri sulla mortalità che non coincidono.** L'opuscolo scrive che a ossigeno al 30% la mortalità può arrivare all'86,7% [1]; la pagina dei risultati dice che a quel livello i mitili hanno più stress ma nessuna morte [5]. L'opuscolo non dice da dove venga l'86,7%. Non verificato.
 10. **Perché ci sono molti più maschi che femmine nelle cozze studiate.** Il progetto parla di possibili "interferenti endocrini" ma è solo un'ipotesi [5]. Se fosse vero, sarebbe un segnale di inquinamento che MITICA non sta misurando.
 11. **Quando finisce MITICA e quanto è stato pagato.** Durata 18 mesi [1][8], inizio e fine non scritti con date [6]; pagamenti non trovati [6].
 12. **Se MITICA è stato davvero candidato al fondo europeo (JTF).** Lo scrive solo la pagina del Commissario [5]; nel decreto del 29 settembre 2026 sul Sea Hub non compare.
 13. **Il progetto sui "crediti di carbonio" non ha ancora dato crediti.** La pagina dei risultati parla di criteri e metodi, non di crediti ottenuti o venduti [5].
+
+Ricerca online del 13 ottobre 2026 (ordinanza sulle cozze, tavolo tecnico, risultati MITICA): trovato il comunicato del 7 settembre 2026 [17]; nessun risultato pubblicato di MITICA dopo agosto 2026, nessuna nuova ordinanza.
+
+### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive all'ufficio di staff: Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (vedi `.tmp/foia/canali.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Studio "Valutazione dei tassi di decontaminazione in lotti di mitili trasferiti dal Primo Seno del Mar Piccolo al Mar Grande" (CUP J98C16000070001): relazione finale, dati analitici, costi e Tavolo Tecnico sull'ordinanza regionale
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi allo studio "Valutazione dei tassi di decontaminazione in lotti di mitili trasferiti dal Primo Seno del Mar Piccolo al Mar Grande" (accordo con ARPA Puglia, ASL Taranto, CNR-IRSA, Capitaneria di Porto e Comune di Taranto; modifiche ratificate con decreto n. 27 del 06/05/2026), concluso il 30/06/2026 e presentato il 06/07/2026:
+>
+> 1. **Relazione finale.** La relazione finale dello studio, con i suoi allegati.
+> 2. **Dati analitici.** Le concentrazioni di PCDD, PCDF e PCB (anche come TEQ) misurate nei mitili di ciascun campo sperimentale e di ciascun lotto, all'inizio e dopo 15, 30 e 45 giorni di permanenza in Mar Grande, con le date di campionamento, i laboratori e il confronto con i tenori massimi del Regolamento (UE) 2023/915; e i dati delle analisi dei primi mesi del 2026 sui mitili del Primo Seno indicati come "al di sotto delle soglie di contaminazione".
+> 3. **Costi.** Il rendiconto delle spese dello studio per ciascun ente partecipante, gli importi riconosciuti e pagati e gli atti di liquidazione.
+> 4. **Tavolo Tecnico.** Gli atti di istituzione del Tavolo Tecnico per l'aggiornamento dell'ordinanza regionale sui mitili deciso nella riunione del 07/09/2026 con gli Assessori regionali, l'elenco dei componenti designati e i verbali delle riunioni tenute finora.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.

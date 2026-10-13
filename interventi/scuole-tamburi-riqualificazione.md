@@ -1,5 +1,5 @@
 # B3 – Cinque scuole del quartiere Tamburi: lavori di riqualificazione, ventilazione e aree esterne
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
 Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabelli e Giusti) hanno avuto tre tipi di lavori: ristrutturazione degli edifici con risparmio energetico, impianti che filtrano l'aria dentro le aule (la "ventilazione meccanica controllata") e rifacimento dei cortili e delle aree esterne [1][2]. **Non sono una bonifica**: nessuno di questi lavori ha tolto inquinamento dal terreno o dall'acqua, e nessun certificato di bonifica è collegato a questi lavori [1][4][9]. Secondo il Commissario sono tutti conclusi [1]: i lavori sulle aule sono documentati da atti ufficiali (fino al 2022), mentre per le aree esterne non ho trovato un documento finale [1][6][8].
@@ -31,6 +31,8 @@ Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabel
 - **Gara e lavori:** gara pubblicata nel 2019 con base d'asta di 2.410.499,73 € [6]. Aggiudicata al Consorzio Soledil con il decreto n. 178 dell'11/07/2019 per 1.950.652,68 € più IVA [6]. Lavori consegnati d'urgenza il 19/08/2019 e contratto firmato il 29/10/2019 [6]. Sospesi l'11/03/2020 per il Covid, ripresi il 27/05/2020 [6]. Il 9 marzo 2020 è stata approvata una variante da 186.673,98 € [6]. L'impresa ha comunicato la fine dei lavori il 25/07/2020 [6].
 - **Collaudo:** l'atto di collaudo è del 21/12/2021 e il Commissario lo ha approvato con il decreto n. 5424 del 28 gennaio 2022, insieme allo stato finale dei lavori (credito residuo dell'impresa: 266.078,20 € più IVA) [5][6].
 - **Ultimo atto trovato:** con il decreto n. 30 del 12 maggio 2026 il Commissario ha versato allo Stato 2.299,52 € per il "Fondo salva opere" (lo 0,5% del ribasso offerto in gara dall'impresa), su richiesta del Ministero delle Infrastrutture del 12 giugno 2024 [10]. È un adempimento contabile: non dice nulla sull'uso degli impianti. Il decreto conferma che i lavori sono finiti il 25 luglio 2020 [10].
+- **Mentre si faceva la gara, due scuole erano chiuse.** Il 2 marzo 2019 il Sindaco ha chiuso la Deledda e la De Carolis per le polveri della vicina Collinetta ecologica n. 3 (vedi scheda A15); le ha riaperte il 10 settembre 2019 [11][12]. I lavori della ventilazione sono stati consegnati il 19 agosto 2019, prima della riapertura [6].
+- **Consegna al Comune.** Nel settembre 2021 il Commissario Martino ha detto a un giornale che gli impianti "sono stati montati e funzionano" e che erano stati collaudati "prima di consegnarli stabilmente al Comune di Taranto" [13]. È una dichiarazione riportata dalla stampa: il verbale di consegna non l'ho trovato.
 - **Funziona oggi?** Nessun documento ufficiale trovato dice se gli impianti sono accesi e usati ogni giorno. Un titolo di giornale trovato in rete mette in dubbio che lo siano stati negli anni dopo i lavori: solo come pista, non verificato.
 
 ### 3. Aree esterne delle scuole
@@ -62,10 +64,12 @@ Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabel
 | luglio 2015 – febbraio 2017 | Lavori di riqualificazione nelle scuole (Deledda per prima, Giusti per ultima) | [2] |
 | 1 dicembre 2016 | Delibera CIPE 55/2016: 2,75 milioni € per la ventilazione | [5] |
 | 10 dicembre 2018 | Scadenza delle offerte per le aree esterne | [2][3] |
+| 2 marzo – 10 settembre 2019 | Deledda e De Carolis chiuse per le polveri della Collinetta n. 3 | [11][12] |
 | 11 luglio 2019 | Aggiudicazione dei lavori di ventilazione | [6] |
 | 11 settembre 2019 | Pubblicato l'affidamento dei lavori delle aree esterne (decreto n. 239) | [8] |
 | 29 ottobre 2019 | Contratto per la ventilazione | [6] |
 | 25 luglio 2020 | L'impresa dichiara finiti i lavori di ventilazione | [6] |
+| settembre 2021 | Il Commissario dichiara alla stampa che gli impianti funzionano e vanno consegnati al Comune | [13] |
 | 21 dicembre 2021 | Atto di collaudo della ventilazione | [6] |
 | 28 gennaio 2022 | Il Commissario approva collaudo e stato finale (decreto n. 5424) | [6] |
 | 12 maggio 2026 | Decreto n. 30: versamento di 2.299,52 € al "Fondo salva opere" per la gara della ventilazione | [10] |
@@ -92,10 +96,16 @@ Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabel
 
 [10] Commissario straordinario per la bonifica di Taranto, *Decreto n. 30 del 12 maggio 2026*, ventilazione meccanica controllata delle scuole del quartiere Tamburi (CUP J54G17000030001, CIG 7786799DCD), liquidazione e pagamento di 2.299,52 € al "Fondo salva opere" (art. 47, comma 1-bis, del decreto-legge 34/2019), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-05_commissario-taranto_decreto-30-vmc-scuole-tamburi.pdf`
 
+[11] Comune di Taranto, *Ordinanza sindacale n. 9 del 2 marzo 2019* ("Collinette Ecologiche del Quartiere Tamburi – Provvedimenti consequenziali d'urgenza"), pubblicata nell'Osservatorio ambientale del Comune, https://municipium-images-production.s3-eu-west-1.amazonaws.com/s3/7152/allegati/osservatorio-ambientale/qualit-dellaria/ordinanza-sindacale-numero-9-del-2-marzo-2019.pdf — copia in `fonti/2019-03_comune-taranto_ordinanza-9-chiusura-scuole-collinette.pdf`; proroga con l'*Ordinanza n. 10 del 29 marzo 2019* — copia in `fonti/2019-03_comune-taranto_ordinanza-10-proroga-chiusura-scuole.pdf`
+
+[12] Comune di Taranto, *Ordinanza sindacale n. 40 del 10 settembre 2019* (revoca delle ordinanze n. 9 e 10), https://municipium-images-production.s3-eu-west-1.amazonaws.com/s3/7152/allegati/osservatorio-ambientale/qualit-dellaria/20190910_ordinanza-n-40_revoca-ordinanze-09_2019-e-10_2019-ordinanza-n-40_revoca-ordinanze-09_2019-e-10_2019.pdf — copia in `fonti/2019-09_comune-taranto_ordinanza-40-revoca-chiusura-scuole.pdf`
+
+[13] Domenico Palmiotti, *Bonifiche di Taranto, piano del commissario per accelerare i lavori*, Il Sole 24 Ore, 20 settembre 2021, https://www.ilsole24ore.com/art/bonifiche-di-taranto-piano-commissario-accelerare-lavori-AENUMof (articolo di giornale: riporta parole del Commissario Martino)
+
 ## Cosa non sappiamo
 1. **Le aree esterne sono davvero finite?** Solo l'opuscolo lo dice [1]. Non ho trovato atti di fine lavori, collaudo, costo finale o i testi degli affidamenti (decreti n. 156 e n. 239) [8]. Da chiedere con FOIA.
 2. **Il costo finale** di riqualificazione e aree esterne, e se i soldi avanzati dai ribassi di gara (9.350.600 € previsti, 8.028.476 € dopo i ribassi [2]) siano stati usati altrove. Non verificato.
-3. **Se gli impianti di ventilazione funzionano e sono usati.** Il collaudo c'è [6], ma non ho trovato documenti sull'uso quotidiano né sulla manutenzione, né su chi ne paghi la gestione (corrente, filtri). Non verificato.
+3. **Se gli impianti di ventilazione funzionano e sono usati.** Il collaudo c'è [6] e nel 2021 il Commissario diceva che funzionavano [13], ma non ho trovato documenti sull'uso quotidiano né sulla manutenzione, né su chi ne paghi la gestione (corrente, filtri). Non verificato.
 4. **Se gli impianti riducano davvero le polveri nelle aule.** Non ho trovato misure dell'aria dentro le aule prima e dopo i lavori. Non verificato.
 5. **Collaudo di Gabelli.** A dicembre 2018 mancava [2]. Non verificato.
 6. **Piccole incongruenze nei documenti ufficiali:**
@@ -105,16 +115,34 @@ Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabel
    - OpenCoesione mostra il progetto "in corso" [7] anche se il collaudo è stato approvato nel 2022 [6].
 7. **Le cifre di OpenCoesione:** costo pubblico 3.430.793,78 €, ma pagati 2.607.447,69 € [7]. La differenza (circa 823.000 €) può essere economie o spese non registrate: nessuna fonte lo dice. Non verificato.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Commissario straordinario per gli interventi urgenti di bonifica, ambientalizzazione e riqualificazione dell'area di Taranto — PEC: commissario_bonifiche.taranto@pec.governo.it (indirizzo verificato sul sito ufficiale commissari.gov.it/commta il 6/10/2026)
+Ricerca online del 13 ottobre 2026 (ventilazione e aree esterne delle scuole del Tamburi, Giampietruzzi, collaudo): solo l'articolo del Sole 24 Ore del 2021 [13]; nessun atto nuovo.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – Interventi sulle scuole del quartiere Tamburi (riqualificazione, ventilazione meccanica controllata CUP J54G17000030001, aree esterne)
+### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive all'ufficio di staff: Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (vedi `.tmp/foia/canali.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Interventi sulle scuole Deledda, De Carolis, Vico, Gabelli e Giusti del quartiere Tamburi: aree esterne (decreti n. 156 e n. 239 del 2019), riqualificazione ed efficientamento, ventilazione meccanica controllata (CUP J54G17000030001)
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati:
-> 1. per la riqualificazione delle aree esterne delle scuole del quartiere Tamburi (importo 1.173.835,62 €): i decreti n. 156 e n. 239 del Commissario, il contratto, il certificato di ultimazione dei lavori, il collaudo e l'elenco dei pagamenti;
-> 2. per la riqualificazione e l'adeguamento termico-impiantistico delle scuole Deledda, De Carolis, Vico, Gabelli e Giusti: il costo finale di ogni scuola e l'atto di collaudo della scuola Gabelli;
-> 3. per la ventilazione meccanica controllata: gli eventuali documenti sul funzionamento e la manutenzione degli impianti dopo la consegna al Comune di Taranto e le misure della qualità dell'aria nelle aule prima e dopo i lavori;
-> 4. l'elenco dei pagamenti totali, con fonte di finanziamento, per i tre interventi.
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi agli interventi sulle cinque scuole del quartiere Tamburi (Deledda, De Carolis, Vico, Gabelli e Giusti), indicati come "conclusi" nell'opuscolo del Commissario di maggio 2026 (pag. 13):
+>
+> 1. **Aree esterne.** Per i lavori di riqualificazione e sistemazione funzionale delle aree esterne (importo 1.173.835,62 euro, gara con offerte entro il 10/12/2018): i decreti n. 156 e n. 239 del 2019 di affidamento all'impresa Giampietruzzi s.r.l., il contratto, il verbale di consegna, il certificato di ultimazione dei lavori, il collaudo o certificato di regolare esecuzione e l'elenco dei pagamenti.
+> 2. **Riqualificazione degli edifici.** Il costo finale di ciascuna scuola e l'atto di collaudo della scuola Gabelli, che a dicembre 2018 mancava per un problema di allacciamento alla rete del gas.
+> 3. **Ventilazione meccanica controllata.** Il verbale di consegna degli impianti al Comune di Taranto e gli eventuali documenti su manutenzione, sostituzione dei filtri e misure della qualità dell'aria nelle aule prima e dopo i lavori.
+> 4. **Pagamenti e residui.** L'elenco dei pagamenti totali per i tre interventi, con la fonte di finanziamento, e l'uso delle economie di gara (9.350.600 euro previsti e 8.028.476 euro dopo i ribassi per la riqualificazione; 3.430.793,78 euro di costo pubblico e 2.607.447,69 euro pagati per la ventilazione secondo OpenCoesione).
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
+**A:** Comune di Taranto — email ordinaria dell'URP comunicazione.urp@comune.taranto.it, in copia la Direzione Ambiente ambiente@comune.taranto.it (indirizzi verificati l'8 ottobre 2026 sul [sito ufficiale del Comune](https://www.comune.taranto.it/)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Impianti di ventilazione meccanica controllata delle scuole Deledda, De Carolis, Vico, Gabelli e Giusti del quartiere Tamburi (CUP J54G17000030001): consegna al Comune, funzionamento e manutenzione
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi agli impianti di ventilazione meccanica controllata (VMC) realizzati dal Commissario straordinario per la bonifica di Taranto nelle scuole Deledda, De Carolis, Vico, Gabelli e Giusti del quartiere Tamburi (lavori finiti il 25/07/2020, collaudo approvato con decreto del Commissario n. 5424 del 28/01/2022), consegnati al Comune di Taranto:
+>
+> 1. **Consegna.** Il verbale di presa in consegna degli impianti da parte del Comune.
+> 2. **Funzionamento.** Gli eventuali documenti che indicano se gli impianti sono accesi e usati durante l'anno scolastico, e le eventuali segnalazioni di guasti o fermi dal 2021 a oggi.
+> 3. **Manutenzione.** Il contratto o l'affidamento della manutenzione (compresa la sostituzione dei filtri), con importi e date, e chi ne sostiene il costo.
+> 4. **Qualità dell'aria nelle aule.** Le eventuali misure della qualità dell'aria (polveri sottili PM10 e PM2,5) fatte dentro le aule dopo l'installazione degli impianti.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
