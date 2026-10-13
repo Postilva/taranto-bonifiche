@@ -347,3 +347,5 @@ details.fold>div{padding:0 16px 16px;font-size:.95rem}
 .rp-nav a:last-child{text-align:right;margin-left:auto}
 @media (max-width:560px){ .rp-nav a{max-width:100%} }
 .unk,.fonti{display:grid;gap:8px;margin:0}
+/* contatto: nascosto finché non c'è il link del modulo */
+.contatto[hidden],.contatto-sep:has(+ .contatto[hidden]),p:has(> .contatto[hidden]:only-child){display:none!important}
