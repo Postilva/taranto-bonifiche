@@ -88,7 +88,7 @@
       <h3>A che punto sono, passaggio per passaggio</h3>
       <div class="legend" id="lg-steps"></div>
       <div id="bars-steps" style="display:grid;gap:10px"></div>
-      <p class="note">Per ognuno dei 5 passaggi, quante delle <span id="n-steps">30</span> schede verificate che descrivono una bonifica lo hanno fatto, lo hanno iniziato o solo progettato, non lo hanno ancora fatto, non lo prevedono, o non ne parlano. Passa sopra (o tocca) una barra per vedere quali.</p>
+      <p class="note">Per ognuno dei 5 passaggi, quante delle <span id="n-steps">30</span> schede verificate che descrivono una bonifica lo hanno fatto, lo hanno iniziato o solo progettato, non lo hanno ancora fatto, non lo prevedono, o non ne parlano. Passa sopra (o tocca) una barra per vedere quali. <span id="n-steps-why"></span></p>
     </div>
   </div>
 </section>
@@ -172,6 +172,15 @@ addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
 (function(){
   const S = SCHEDE.filter(s => STEPS[s.id]), N = S.length;
   $("#n-steps").textContent = N;
+  // perché le schede del grafico sono meno degli interventi: schede con più codici e schede senza passaggi
+  const amb = SCHEDE.filter(s => !s.codes.some(c => FUORI.has(c)));
+  const multi = amb.filter(s => s.codes.length > 1), senza = amb.filter(s => !STEPS[s.id]);
+  const e = a => a.length === 2 ? a.join(" e ") : a.slice(0, -1).join(", ") + (a.length > 1 ? " e " : "") + a.slice(-1);
+  const why = [
+    ...multi.map(s => `${e(s.codes)} hanno un'unica scheda`),
+    ...(senza.length ? [`${e(senza.map(s => `${s.code} (${s.short})`))} ${senza.length > 1 ? "non hanno" : "non ha"} passaggi perché non ${senza.length > 1 ? "sono interventi" : "è un intervento"} sul terreno`] : [])
+  ];
+  if (TOTAL !== N && why.length) $("#n-steps-why").textContent = `I ${TOTAL} interventi sono ${N} schede: ${e(why)}.`;
   $("#lg-steps").innerHTML = STATI.map(s => `<span><i class="sw" style="background:var(${s[2]})"></i>${s[1]}</span>`).join("");
   $("#bars-steps").innerHTML = PASSI.map(([step,sub],i) => {
     const segs = STATI.map(([k,l,v]) => {
