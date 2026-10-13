@@ -1,5 +1,5 @@
 # A14 – Land L (Cava L'Amastuola)
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
 Land L è una grande cava di calcare di circa 128 ettari, rimasta a Ilva in amministrazione straordinaria, lontana dalla fabbrica e fuori dal SIN (il "Sito di interesse nazionale" da bonificare), dove negli anni '80 c'era una discarica [2][3][4]. Nel maggio 2023 la Regione Puglia non ha approvato il piano delle analisi presentato da Ilva e ha chiesto prima un'indagine preliminare nelle zone con cumuli di residui industriali; ARPA l'ha valutata favorevolmente a dicembre 2023 [7][8]. **Alla fine del 2025 le indagini non erano ancora partite**: Ilva aspettava le autorizzazioni per i vincoli dell'area, e il terreno **non è né analizzato a fondo, né messo in sicurezza, né bonificato** [1].
@@ -14,11 +14,11 @@ Land L è una grande cava di calcare di circa 128 ettari, rimasta a Ilva in ammi
 **Nessuna analisi completa, nessuna messa in sicurezza, nessuna bonifica. Sono stati rimossi solo rifiuti abbandonati vicino all'ingresso.** [1][8]
 
 - **Cosa c'è sotto.** Secondo Ilva, nell'area c'è una "discarica di 2ª categoria degli anni '80" [3][5]. Da documenti precedenti risulta che una parte della cava sarebbe stata usata per stoccare rifiuti dal 1985 al 1995 [6]. La Regione ha segnalato "cumuli costituiti da residui industriali depositati" [7]. Che rifiuti siano e quanti: non verificato.
-- **Idea di una nuova discarica (2022).** Ilva ha fatto studiare la possibilità di realizzare nella cava una discarica per rifiuti non pericolosi, per i fanghi dell'altoforno e dell'acciaieria (fino a 500.000 m³), solo per le bonifiche di Ilva [3]. Lo studio è arrivato il 7 dicembre 2022 "con la relazione sulle criticità" [6]. Le relazioni successive non ne parlano più [7][8][1].
-- **Piano delle analisi (piano di caratterizzazione).** Preparato da Engea, mandato da Ilva il 27 gennaio 2023 [5]. Nella conferenza di servizi del **18 maggio 2023** la Regione ha trovato "motivi ostativi" e ha chiesto prima un piano di indagine preliminare, nelle zone con cumuli di residui industriali e in quelle indicate da ARPA [7]. Nelle relazioni più recenti Ilva scrive che il piano è stato "rigettato" [1].
-- **Piano di indagine preliminare.** Mandato il 1° agosto 2023, corretto dopo le prescrizioni di ARPA e rimandato il 16 novembre 2023; il **22 dicembre 2023** ARPA lo ha valutato favorevolmente con prescrizioni [8]. Ad agosto 2025 Ilva ha chiesto le autorizzazioni per i vincoli dell'area (per esempio quelli del paesaggio); le indagini sono state appaltate, ma alla fine del 2025 l'inizio era ancora "in programmazione" [1].
+- **Idea di una nuova discarica (2022).** Ilva ha fatto studiare la possibilità di realizzare nella cava una discarica per rifiuti non pericolosi, per i fanghi dell'altoforno e dell'acciaieria (fino a 500.000 m³), solo per le bonifiche di Ilva [3]. Dopo un sopralluogo l'11 ottobre 2022 e una riunione con il professionista il 17 novembre, lo studio è arrivato il 7 dicembre 2022 "con la relazione sulle criticità" [6][10]. Le relazioni successive non ne parlano più [7][8][1].
+- **Piano delle analisi (piano di caratterizzazione).** Affidato a Engea il 2 settembre 2022, proprio perché da documenti precedenti risultava lo stoccaggio di rifiuti dal 1985 al 1995; mandato da Ilva il 27 gennaio 2023 [5][10]. Nella conferenza di servizi del **18 maggio 2023** la Regione ha trovato "motivi ostativi" e ha chiesto prima un piano di indagine preliminare, nelle zone con cumuli di residui industriali e in quelle indicate da ARPA [7]. Nelle relazioni più recenti Ilva scrive che il piano è stato "rigettato" [1].
+- **Piano di indagine preliminare.** Mandato il 1° agosto 2023, corretto dopo le prescrizioni di ARPA e rimandato il 16 novembre 2023; il **22 dicembre 2023** ARPA lo ha valutato favorevolmente con prescrizioni [8]. Un anno dopo il parere di ARPA, a dicembre 2024, le domande di autorizzazione per i vincoli dell'area erano ancora "in fase di redazione"; a marzo 2025 "in fase di trasmissione" [11][12]. Ad agosto 2025 Ilva ha chiesto le autorizzazioni per i vincoli dell'area (per esempio quelli del paesaggio); le indagini sono state appaltate, ma alla fine del 2025 l'inizio era ancora "in programmazione" [1].
 - **Cosa succede dopo.** Solo se le indagini preliminari trovassero problemi ambientali, Ilva presenterebbe un nuovo piano delle analisi, poi l'analisi di rischio ed "eventuale bonifica" [1].
-- **Rifiuti abbandonati e recinzione.** Vicino al cancello sulla Strada provinciale 42 sono stati trovati molti cumuli di rifiuti urbani abbandonati, rimossi da Ilva [8][1]. Sono previsti il rifacimento della recinzione lungo la SP 42, un nuovo cancello e una recinzione lungo il bordo della cava [1].
+- **Rifiuti abbandonati e recinzione.** Vicino al cancello sulla Strada provinciale 42 sono stati trovati molti cumuli di rifiuti urbani abbandonati, rimossi da Ilva [8][1]. Ilva prevede di togliere anche i rifiuti che saranno trovati e analizzati con le indagini preliminari [11]. Sono previsti il rifacimento della recinzione lungo la SP 42, un nuovo cancello e una recinzione lungo il bordo della cava [1]: il rilievo per il progetto è stato fatto il 20 e 21 marzo 2023 [10], ma a fine 2024 i lavori erano ancora "in corso" [11].
 - **La cava è ancora una cava.** Per la legge sulle miniere e cave (D.Lgs. 624/1996) serve un direttore di cava e ogni anno vanno mandate comunicazioni alla Regione; l'ultima citata è del 30 luglio 2025, per il 2024 [1]. Nel 2022 Ilva la descriveva come "cava di calcare attiva" [3].
 - **Piano di recupero della cava.** Autorizzato dalla Regione Puglia il **13 agosto 2010** [1]. Per chiudere la cava va attuato, ma andrà forse aggiornato alle regole di oggi sul paesaggio (PPTR); può partire solo dopo le analisi del sito; e, scrive Ilva, **non è coperto dai fondi** assegnati a quest'area [1].
 
@@ -32,7 +32,7 @@ Land L è una grande cava di calcare di circa 128 ettari, rimasta a Ilva in ammi
 ### 2. Perché la procedura è della Regione e non del Ministero?
 - **Perché l'area è fuori dal SIN.** Ilva la indica come "non nel SIN" [3], e la Commissione parlamentare d'inchiesta sui rifiuti, nella sua tabella delle aree di Ilva, la segna come "area esterna al SIN di Taranto"; la tabella però è un estratto di una relazione dei commissari di Ilva [4]. Nessun atto del Ministero lo conferma esplicitamente.
 - **Cosa dice la legge.** Per i siti fuori dal SIN, il piano delle analisi va presentato alla Regione, che convoca la conferenza di servizi e lo autorizza; sempre la Regione approva poi l'analisi di rischio e l'eventuale progetto di bonifica [9].
-- **Per questo** i documenti non sono nell'archivio del Ministero, dove infatti non abbiamo trovato nulla su quest'area. Non abbiamo trovato online neanche gli atti della Regione (verbale del 18 maggio 2023, autorizzazione del 2010): vedi la bozza di richiesta FOIA qui sotto.
+- **Per questo** i documenti non sono nell'archivio del Ministero, dove infatti non abbiamo trovato nulla su quest'area. Non abbiamo trovato online neanche gli atti della Regione (verbale del 18 maggio 2023, autorizzazione del 2010): vedi le bozze di richiesta FOIA qui sotto. Una ricerca online del 13 ottobre 2026 (notizie e atti sulla cava, sulle indagini e sulle autorizzazioni) non ha trovato altro.
 
 ### 3. Perché serve?
 - **Per sapere cosa c'è nella vecchia discarica** e se inquina terreno e acqua, cosa che oggi nessuno ha misurato [1][7].
@@ -50,12 +50,15 @@ Land L è una grande cava di calcare di circa 128 ettari, rimasta a Ilva in ammi
 | anni '80 – 1995 | Discarica e stoccaggio di rifiuti in una parte della cava | [3][6] |
 | 13 agosto 2010 | La Regione Puglia autorizza il piano di recupero della cava | [1] |
 | gennaio 2022 | Ilva nomina un direttore di cava esterno | [3][5] |
+| 2 settembre 2022 | Il piano delle analisi viene affidato a Engea | [10] |
+| 11 ottobre 2022 | Sopralluogo per lo studio sulla discarica per fanghi | [10] |
 | 7 dicembre 2022 | Arriva a Ilva lo studio su una discarica per fanghi nella cava | [6] |
 | 27 gennaio 2023 | Ilva manda il piano delle analisi | [5] |
 | **18 maggio 2023** | **Conferenza di servizi: la Regione non approva il piano e chiede un'indagine preliminare** | [7] |
 | 1 agosto 2023 | Ilva manda il piano di indagine preliminare | [8] |
 | 16 novembre 2023 | Piano rimandato con le correzioni chieste da ARPA | [8] |
 | 22 dicembre 2023 | Valutazione favorevole di ARPA, con prescrizioni | [8] |
+| dicembre 2024 | Domande di autorizzazione per i vincoli ancora "in fase di redazione" | [11] |
 | agosto 2025 | Ilva chiede le autorizzazioni per i vincoli dell'area | [1] |
 | fine 2025 | Indagini appaltate, non ancora iniziate | [1] |
 
@@ -80,6 +83,12 @@ Land L è una grande cava di calcare di circa 128 ettari, rimasta a Ilva in ammi
 
 *Piste non verificate (giornali, non usati come prova):* articoli di Cosmopolismedia, TarantoBuonasera/Buonasera24, La Ringhiera e Recover Web sulla cava (Comune di Crispiano, superficie, progetto dell'architetto Fuksas, trattamento del percolato).
 
+[10] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2023*, pag. 38, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2023_omissisb.pdf — copia in `fonti/2023-03_ilva-as_relazione-trimestrale-I-2023.pdf`
+
+[11] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pag. 55, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
+
+[12] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pag. 53, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
 ## Cosa non sappiamo
 1. **Nessun documento della Regione.** Tutto quello che sappiamo sulla procedura viene dalle relazioni di Ilva [1][7][8]. Il verbale della conferenza del 18 maggio 2023, il parere di ARPA e l'autorizzazione del piano di recupero del 2010 non sono pubblicati online. Non verificato.
 2. **"Rigettato" o "da integrare"?** Nel 2023 Ilva scriveva che la Regione aveva trovato "motivi ostativi" e chiesto un piano preliminare [7]; dal 2024 scrive che il piano è stato "rigettato" [1]. Non sappiamo quale sia la formula esatta dell'atto regionale.
@@ -89,16 +98,31 @@ Land L è una grande cava di calcare di circa 128 ettari, rimasta a Ilva in ammi
 6. **La superficie:** 128,2 ettari per Ilva [3]; i giornali danno altre cifre (non verificato).
 7. **Il progetto di nuova discarica per i fanghi** (2022): abbandonato o ancora possibile? Non verificato [6].
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Regione Puglia — Sezione Ciclo Rifiuti e Bonifiche — PEC: serv.rifiutiebonifica@pec.rupar.puglia.it (verificata il 2 ottobre 2026 sulla [pagina ufficiale della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0) in Amministrazione trasparente)
+### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
+**A:** Regione Puglia, Sezione Ciclo rifiuti e bonifiche — email ordinaria ciclorifiutiebonifiche@regione.puglia.it, in copia l'URP quiregione@regione.puglia.it (verificati il 7 ottobre 2026 sulla [pagina ufficiale della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – area "Land L – Cava L'Amastuola" di Ilva S.p.A. in amministrazione straordinaria
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Area "Land L – Cava L'Amastuola" di ILVA in A.S. (fuori dal SIN di Taranto, accesso dalla S.P. 42): conferenza di servizi del 18/05/2023, piano di indagine preliminare e piano di recupero della cava del 13/08/2010
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti relativi alla cava denominata "L'Amastuola" (area "Land L" di Ilva S.p.A. in A.S., accesso dalla S.P. 42):
-> 1. il verbale della conferenza di servizi del 18 maggio 2023 sul piano di caratterizzazione presentato da Ilva S.p.A. in A.S. il 27 gennaio 2023, e l'eventuale provvedimento conclusivo;
-> 2. il parere di ARPA Puglia del 22 dicembre 2023 sul "Piano di indagine integrativo preliminare" e l'eventuale atto regionale di approvazione;
-> 3. l'atto del 13 agosto 2010 con cui è stato autorizzato il piano di recupero ambientale della cava;
-> 4. l'indicazione del Comune e dei dati catastali dell'area.
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi alla cava denominata "L'Amastuola" (area "Land L" di ILVA S.p.A. in A.S., circa 128 ettari, accesso dalla S.P. 42), sito esterno al SIN di Taranto per il quale il procedimento ai sensi dell'art. 242 del D.Lgs. 152/2006 è di competenza regionale:
+>
+> 1. **Piano di caratterizzazione.** Il verbale della conferenza di servizi del 18/05/2023 sul piano di caratterizzazione trasmesso da ILVA il 27/01/2023, con i pareri acquisiti, e l'eventuale provvedimento conclusivo.
+> 2. **Piano di indagine preliminare.** L'eventuale atto regionale di approvazione o di presa d'atto del "Piano di indagine preliminare" trasmesso da ILVA il 01/08/2023 e, in versione definitiva, il 16/11/2023, valutato favorevolmente da ARPA Puglia il 22/12/2023.
+> 3. **Stato del procedimento.** Le comunicazioni ricevute da ILVA dopo il 22/12/2023 sulle autorizzazioni per i vincoli dell'area (richieste, secondo ILVA, nell'agosto 2025) e sull'avvio delle indagini, e la data prevista di inizio.
+> 4. **Cava.** L'atto del 13/08/2010 con cui la Regione ha autorizzato il piano di recupero ambientale della cava e l'indicazione del Comune e dei dati catastali dell'area.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
+**A:** ARPA Puglia, Dipartimento provinciale di Taranto — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina URP](https://www.arpa.puglia.it/pagina2819_urp.html)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – Area "Land L – Cava L'Amastuola" di ILVA in A.S. (accesso dalla S.P. 42): pareri sul piano di caratterizzazione e sul piano di indagine preliminare 2023 (DAP Taranto)
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi alla cava denominata "L'Amastuola" (area "Land L" di ILVA S.p.A. in A.S., circa 128 ettari, accesso dalla S.P. 42, esterna al SIN di Taranto):
+>
+> 1. **Piano di caratterizzazione.** Il parere di ARPA sul piano di caratterizzazione trasmesso da ILVA il 27/01/2023, esaminato nella conferenza di servizi regionale del 18/05/2023, con l'indicazione delle zone in cui ARPA chiedeva le indagini.
+> 2. **Piano di indagine preliminare.** Il parere del 22/12/2023 sul "Piano di indagine preliminare" trasmesso da ILVA il 01/08/2023 e, in versione definitiva, il 16/11/2023, con le prescrizioni.
+> 3. **Sopralluoghi.** Eventuali verbali di sopralluogo o dati in possesso di ARPA sui cumuli di residui industriali depositati nella cava e sulla vecchia discarica degli anni '80, e l'eventuale comunicazione di ILVA sull'inizio delle indagini.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
 > [Luogo, data, firma] — allegare copia di un documento d'identità.

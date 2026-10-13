@@ -1,5 +1,5 @@
 # A16 – Land D2 (area verde vicino alla Statale 7 Appia)
-*Stato scheda: approvata — aggiornata al 30 settembre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
 Land D2 è un piccolo terreno di circa 910 m², rimasto a Ilva in amministrazione straordinaria, nella zona industriale di Taranto, lungo la Statale 7 Appia; sopra ci sono solo erbacce, una chiesetta abbandonata e un traliccio ENEL [12][9]. Le analisi hanno trovato nel terreno idrocarburi e arsenico oltre i limiti previsti per le zone abitate, ma il Ministero dell'Ambiente, con il decreto n. 185 del 4 dicembre 2024, l'ha dichiarata **"non contaminata"**, perché il rischio è accettabile per chi ci lavora saltuariamente [2][12]. **Non è stato bonificato niente, perché secondo la legge non serviva**, e l'area **è rimasta dentro il SIN** (il "Sito di interesse nazionale" da bonificare) [2][22].
@@ -24,6 +24,7 @@ Land D2 è un piccolo terreno di circa 910 m², rimasto a Ilva in amministrazion
 - **Analisi di rischio**: Ilva l'ha presentata nel 2022 e, aggiornata dopo il controllo della falda, di nuovo a maggio 2024 [12][13]. Nel 2024 INAIL, ARPA, ISPRA e ASL hanno dato parere favorevole; l'ISS non ha sollevato obiezioni e ha rimandato agli altri enti [14][15][16][18][19].
 - **Decreto n. 185 del 4 dicembre 2024**: il Ministero approva l'analisi di rischio e dichiara l'area "non contaminata" per il terreno e per la falda, con due condizioni (vedi sotto) [2]. Notificato a Ilva il 5 dicembre 2024 [3].
 - **Oggi**: secondo Ilva, sull'area si fa solo la manutenzione del verde [1].
+- **Il restauro della chiesa (2022).** Nel 2022 Ilva valutava di restaurare la chiesetta e di cederla "ad Enti culturali o religiosi": ha incontrato la Soprintendenza il 22 aprile 2022, ha fatto un sopralluogo con un suo architetto l'11 maggio e ha approvato l'incarico a un professionista per un progetto di "messa in sicurezza strutturale, restauro e recupero conservativo" (richiesta d'acquisto n. 855/22 del 17 maggio 2022) [28]. Dalle relazioni successive l'idea sparisce: non sappiamo se il progetto sia stato fatto [1].
 
 ## Tre domande
 
@@ -33,7 +34,7 @@ Land D2 è un piccolo terreno di circa 910 m², rimasto a Ilva in amministrazion
 - **Catasto:** Foglio 184, particella 8, e Foglio 192, particelle 1, 2, 125 e 152 [2].
 - **Quanto è grande:** circa **910 m²** [12][6]. ISPRA e ARPA parlano di "esigua estensione" [9][10]. È molto più piccola delle altre aree di Ilva.
 - **Cosa c'è sopra:** vegetazione spontanea, un traliccio ENEL e una piccola chiesa abbandonata, che ARPA chiama "**Chiesa del Mucchio**" e che è protetta dal piano paesaggistico della Regione [9][12]. Secondo Ilva l'area non ha mai avuto impianti, tubi interrati, serbatoi o depositi [12].
-- **Piano regolatore:** "zona verde di rispetto" [12][2].
+- **Piano regolatore:** "zona verde di rispetto" [12][2]. Secondo Ilva, il certificato di destinazione urbanistica (che quindi esiste, almeno dal 2022) mette l'area tra quelle "a vincoli", culturali: per questo l'analisi di rischio è stata confrontata con i limiti per le zone residenziali e verdi (colonna A) [29][28].
 
 ### 2. Cosa vuol dire "non contaminata solo per uso industriale"?
 - **La regola della legge.** Un'area è "non contaminata" se gli inquinanti sono sotto i limiti fissi della legge **oppure**, se sono sopra, restano sotto i limiti calcolati con l'**analisi di rischio**, che guarda chi frequenta davvero l'area e per quanto tempo [24]. Land D2 rientra nel secondo caso: gli inquinanti ci sono e **restano lì** [2][12].
@@ -49,10 +50,11 @@ Land D2 è un piccolo terreno di circa 910 m², rimasto a Ilva in amministrazion
 **No.** [2][22][23]
 - Il decreto n. 185 dichiara l'area "non contaminata", ma **non la toglie dal SIN** [2].
 - A dicembre 2024 il Ministero ha ridotto il SIN di Taranto: prima con il decreto n. 249 dell'11 dicembre 2024, che elenca le aree escluse, poi con il decreto del Ministro n. 449 del 20 dicembre 2024, che disegna il nuovo confine [22][23][25]. **Le particelle di Land D2 non sono tra le aree escluse** [22]. La proposta di riduzione era del marzo 2024, prima che Land D2 fosse dichiarata non contaminata [22].
-- Nell'archivio del Ministero, al 30 settembre 2026, non risultano altri decreti di riduzione del SIN di Taranto dopo quello di dicembre 2024.
+- Nell'archivio del Ministero, al 13 ottobre 2026, non risultano altri decreti di riduzione del SIN di Taranto dopo quello di dicembre 2024.
 
 ## Soldi
-- **Non verificato.** Nessuno dei documenti trovati dice quanto sono costate le analisi, il controllo della falda e la manutenzione del verde, né con quali fondi. Non ci sono spese di bonifica, perché la bonifica non è stata necessaria [2][12].
+- Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land D2 erano stati **stanziati 0,10 milioni €** (gestione del verde, analisi di terreno e acqua, "bonifica soprassuolo e ripristino condizioni ambientali"), di cui **0,05 milioni impegnati** in ordini e 0,05 pagati [28]. Sono cifre di Ilva, non verificate da un ente pubblico.
+- Quanto sono costati in tutto le analisi, il controllo della falda (ordine n. 42/23 [30]) e la manutenzione del verde dopo il 2022: **non verificato**. Non ci sono spese di bonifica, perché la bonifica non è stata necessaria [2][12].
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -63,6 +65,8 @@ Land D2 è un piccolo terreno di circa 910 m², rimasto a Ilva in amministrazion
 | 27 gennaio 2021 | **Decreto n. 18**: piano delle analisi approvato | [4] |
 | giugno–luglio 2021 | Analisi sul posto (sondaggi e campioni) | [8] |
 | 11 novembre 2021 | ARPA verifica che nei pozzetti c'è pochissima acqua | [9] |
+| 19 gennaio 2022 | Ilva affida l'analisi di rischio a Engea (ordine n. 7/22) | [28] |
+| 22 aprile – 17 maggio 2022 | Incontri con la Soprintendenza e incarico per il progetto di restauro della chiesa | [28] |
 | 1 agosto 2022 | Ilva manda la prima analisi di rischio | [11] |
 | 2 settembre 2022 | ARPA valida le analisi | [7] |
 | settembre–novembre 2022 | Pareri di ISS, ARPA e ISPRA: serve un anno di controlli sulla falda | [8][9][10] |
@@ -137,24 +141,32 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [27] Ilva S.p.A. in amministrazione straordinaria, piano di caratterizzazione, *Tavola A.1 – Corografia dell'area su foto aerea*, settembre 2020 (stesso archivio del [26]) — copia in `fonti/2020-09_ilva-as_corografia-foto-aerea-land-d2.pdf`
 
+[28] Ilva S.p.A. in amministrazione straordinaria, *Aggiornamento sullo stato di attuazione degli interventi in capo a ILVA in AS* (aggiornato al 12 luglio 2022), trasmesso al Ministero della Transizione ecologica per l'Osservatorio ILVA, tabella dei fondi (pagina 9 del PDF) e scheda "Area Land D2 ID17" (pagine 75–76 del PDF), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=291 — copia in `fonti/2022-07_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
+[29] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2022*, pagina 43, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2022_omissisb.pdf — copia in `fonti/2022-03_ilva-as_relazione-trimestrale-I-2022.pdf`
+
+[30] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2023*, pagina 39, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2023_omissisb.pdf — copia in `fonti/2023-12_ilva-as_relazione-trimestrale-IV-2023.pdf`
+
 ## Cosa non sappiamo
-1. **Le condizioni sono state scritte nel piano regolatore?** Il decreto chiede di annotare negli strumenti urbanistici che l'analisi vale solo per i lavoratori [2]. Non abbiamo trovato nessun atto del Comune di Taranto che lo faccia. Non verificato. Anche il decreto del 2021 chiedeva ai Comuni di Taranto e Statte di esprimersi sulla destinazione d'uso [4], e Ilva nel 2020 stava chiedendo il certificato di destinazione urbanistica [26]: non abbiamo trovato né l'uno né l'altro. Vedi la bozza di richiesta FOIA qui sotto.
+1. **Le condizioni sono state scritte nel piano regolatore?** Il decreto chiede di annotare negli strumenti urbanistici che l'analisi vale solo per i lavoratori [2]. Non abbiamo trovato nessun atto del Comune di Taranto che lo faccia. Non verificato. Anche il decreto del 2021 chiedeva ai Comuni di Taranto e Statte di esprimersi sulla destinazione d'uso [4], e Ilva nel 2020 stava chiedendo il certificato di destinazione urbanistica [26], che nel 2022 dice di avere [29]: non abbiamo trovato né l'espressione dei Comuni né il certificato. Vedi la bozza di richiesta FOIA qui sotto.
 2. **La pagina 46 della relazione di Ilva è in parte copiata da quella di Land D1.** Dice che le analisi sono state fatte "in più fasi" per la presenza di "sottoservizi e strutture interrate nella zona sud ed est" [1]: è la stessa frase usata per Land D1 (pag. 41). Ma per Land D2 Ilva stessa scrive che l'area non ha mai avuto sottoservizi o impianti [12]. Scrive anche che il controllo della falda è stato chiesto "in funzione dei pareri di ARPA, ISPRA e ASL" [1]; in realtà, nel 2022, i pareri erano di ISS, INAIL, ARPA e ISPRA [11].
 3. **Due laboratori, due risultati.** Per gli idrocarburi ARPA ha trovato 256 mg/kg e Ilva 150 [7]. Per l'arsenico è il contrario: Ilva ha trovato valori oltre il limite, ARPA no [7]. L'analisi di rischio ha usato il valore più alto (256), quindi la conclusione non cambia [12].
 4. **Il nome della strada.** Tutti i documenti parlano di Statale 7 Appia [12][9], ma nei rapporti di laboratorio allegati all'analisi di rischio l'area è descritta "lungo S.P. per Statte" [12]. Probabilmente è la stessa zona, ma va controllato sulla mappa.
 5. **Chi è il proprietario oggi** e se Ilva intende vendere o cedere l'area: nessuna fonte lo dice. Non verificato.
 6. **I costi** delle analisi e dei controlli: non verificato (vedi "Soldi").
-7. **La chiesa.** ARPA la chiama "Chiesa del Mucchio" e dice che è protetta dal piano paesaggistico [9]. Nessun documento dice se qualcuno vuole restaurarla: se accadesse, secondo il decreto servirebbe una nuova analisi di rischio [2].
+7. **La chiesa.** ARPA la chiama "Chiesa del Mucchio" e dice che è protetta dal piano paesaggistico [9]; una ricerca online del 13 ottobre 2026 non ha trovato nessuna pagina con questo nome. Nel 2022 Ilva aveva avviato un progetto di restauro e pensava di cederla [28], ma nessun documento successivo ne parla. Se l'area fosse usata per visitare la chiesa, secondo il decreto servirebbe una nuova analisi di rischio [2].
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Comune di Taranto — Direzione Ambiente, Salute e Qualità della Vita — PEC: ambiente.comunetaranto@pec.rupar.puglia.it; protocollo.comunetaranto@pec.rupar.puglia.it (indirizzi presi dall'elenco dei destinatari del decreto n. 185 [3] e verificati il 30/09/2026: la PEC della Direzione Ambiente è quella pubblicata sulla [pagina ufficiale della Direzione](https://www.comune.taranto.it/it/unita_organizzative/18598); la PEC del protocollo compare negli atti ufficiali del Comune)
+**A:** Comune di Taranto — email ordinaria dell'URP comunicazione.urp@comune.taranto.it, in copia la Direzione Ambiente ambiente@comune.taranto.it (indirizzi verificati l'8 ottobre 2026 sul [sito ufficiale del Comune](https://www.comune.taranto.it/)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
-> Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – area "Land D2" di Ilva in A.S., SIN di Taranto (ID Area 4135)
+> Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Area "Land D2" di ILVA in A.S. (Foglio 184, p.lla 8; Foglio 192, p.lle 1, 2, 125 e 152; SIN Taranto, ID area 4135): annotazione negli strumenti urbanistici prescritta dal decreto MASE n. 185 del 4/12/2024 e certificato di destinazione urbanistica
 >
-> Il/La sottoscritto/a [nome e cognome] chiede di ricevere i seguenti documenti o dati, relativi all'area in Comune di Taranto identificata al Foglio 184, particella 8, e al Foglio 192, particelle 1, 2, 125 e 152:
-> 1. l'atto con cui il Comune ha annotato negli strumenti urbanistici il modello concettuale, i bersagli e lo scenario di esposizione dell'analisi di rischio, come prescritto dall'art. 1, comma 1, punto 2 del decreto MASE n. 185 del 4 dicembre 2024; se l'annotazione non è stata ancora fatta, lo stato della pratica;
-> 2. l'eventuale espressione del Comune sulla destinazione d'uso dell'area, chiesta dal decreto del Ministero dell'Ambiente n. 18 del 27 gennaio 2021 (prescrizione n. 11);
-> 3. il certificato di destinazione urbanistica dell'area eventualmente rilasciato a Ilva S.p.A. in amministrazione straordinaria.
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 5, comma 2, del D.Lgs. 33/2013 e dell'art. 3 del D.Lgs. 195/2005, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'area "Land D2" di ILVA S.p.A. in A.S. lungo la S.S. 7 Appia (Comune di Taranto, Foglio 184, particella 8, e Foglio 192, particelle 1, 2, 125 e 152), con la piccola chiesa abbandonata presente sull'area:
+>
+> 1. **Annotazione urbanistica.** L'atto con cui il Comune ha riportato negli strumenti urbanistici il modello concettuale, i bersagli e lo scenario di esposizione dell'analisi di rischio, come prescritto dall'art. 1, comma 1, punto 2 del decreto MASE n. 185 del 04/12/2024 (notificato anche al Comune con nota MASE prot. 223212 del 05/12/2024); se l'annotazione non è stata ancora fatta, lo stato della pratica.
+> 2. **Destinazione d'uso.** L'eventuale espressione del Comune sulla destinazione d'uso dell'area, chiesta dalla prescrizione n. 11 del decreto del Ministero dell'Ambiente n. 18 del 27/01/2021.
+> 3. **Certificato di destinazione urbanistica.** Il certificato rilasciato a ILVA S.p.A. in A.S. per queste particelle (secondo ILVA, prima del 2022), che indica i vincoli gravanti sull'area.
+> 4. **Chiesa.** Eventuali istanze o progetti presentati da ILVA dal 2022 a oggi per la messa in sicurezza strutturale, il restauro o la cessione della chiesa presente sull'area.
 >
 > Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
 > [Luogo, data, firma] — allegare copia di un documento d'identità.

@@ -1,11 +1,11 @@
 # A12 – Land D1 (area verde lungo il vecchio canale di scarico della fabbrica)
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
 Land D1 è un'area verde di circa 3 ettari rimasta a Ilva in amministrazione straordinaria, appena fuori dalla fabbrica, sul lato sud-ovest, vicino a Land D2; lungo il suo confine sud passa, sotto terra, il primo canale di scarico dello stabilimento [5][8]. Le analisi, validate da ARPA Puglia nel novembre 2023, hanno trovato idrocarburi, IPA (sostanze cancerogene tipiche della combustione), diossine, arsenico e zinco oltre i limiti per le zone abitate; nel terreno di riempimento sopra il canale sono stati trovati rifiuti sepolti, e sotto una strada vicina si è aperta una cavità [8][1]. **Non è bonificata e non è messa in sicurezza**: alla fine del 2025 la rimozione dei rifiuti sepolti era "in corso di ultimazione" secondo Ilva e l'analisi di rischio non era ancora stata presentata al Ministero [1].
 
 ## Chi se ne occupa
-- **Ilva in amministrazione straordinaria**, cioè i commissari nominati dal Governo per le vecchie aree dell'Ilva: hanno fatto le analisi (ditta Eco-Trend, consulente Engea) e devono togliere i rifiuti [5][3].
+- **Ilva in amministrazione straordinaria**, cioè i commissari nominati dal Governo per le vecchie aree dell'Ilva: hanno fatto le analisi (ditta Eco-Trend, consulente Engea) e devono togliere i rifiuti [5][3]. L'analisi di rischio è stata affidata a Engea con l'ordine n. 7/22 del 19 gennaio 2022 [12].
 - **Ministero dell'Ambiente** (allora MATTM, oggi MASE): guida la procedura; ha approvato il piano delle analisi con il decreto n. 19 del 27 gennaio 2021, firmato dal direttore generale Giuseppe Lo Presti [7].
 - **ARPA Puglia** (Dipartimento di Taranto) e **ISPRA**: hanno dato i pareri sul piano; ARPA ha controllato le analisi sul posto e le ha validate [7][8].
 - **Comuni di Taranto e Statte**: secondo il decreto devono dire quale uso del terreno considerare [7]. Non abbiamo trovato la loro risposta.
@@ -19,15 +19,16 @@ Land D1 è un'area verde di circa 3 ettari rimasta a Ilva in amministrazione str
   - giugno 2021: primi sondaggi, con ARPA presente; il 21 giugno 2021 i lavori si fermano perché alcuni punti sono troppo vicini al canale di scarico e il georadar mostra oggetti sepolti non noti;
   - ottobre 2021: il Consorzio ASI manda i disegni storici del canale, che passa a circa 10 m di profondità [5];
   - 1–23 dicembre 2021: altri sondaggi, alcuni spostati per evitare i tubi e i cavi sotto la strada;
+  - 24 novembre 2022: sopralluogo con Eco-Trend, che manda un'offerta per finire le analisi; l'ufficio acquisti di Ilva la giudica negativamente [13]. Il 28 aprile 2023 Ilva affida il completamento delle analisi a Engea, senza gara ("single sourcing", richiesta d'acquisto n. 557/23) [14];
   - 2022–2023: scavi e campioni aggiuntivi sui cumuli di rifiuti, chiesti da ARPA il 16 giugno 2022 [8];
-  - 23 maggio – 8 giugno 2023: le analisi si concludono [3].
+  - 23 maggio – 8 giugno 2023: le analisi si concludono [3] (un'altra relazione di Ilva scrive 7 giugno [14]).
   In totale: 12 sondaggi fino a 18,6 m di profondità, 35 campioni di terreno, 5 scavi, 12 campioni di materiale di riporto (terra mescolata a materiali portati dall'uomo) e 13 dello strato superficiale ("top soil") [8].
 - **Acqua sotterranea**: i 3 pozzetti costruiti sono rimasti **asciutti**, quindi non è stato possibile prelevare acqua [8]. ARPA ha chiesto un anno di controlli, ogni 3 mesi, come per Land D2 [8]. Secondo Ilva i controlli sono stati fatti da gennaio a ottobre 2025 [1]. I risultati non sono pubblicati: non verificato.
 - **Validazione di ARPA**: 27 novembre 2023 [8]. ARPA chiede anche di rivedere la ricostruzione geologica: ci sono una zona di probabile ex cava con circa 5 m di materiale di riporto, una zona con poco terreno sopra la roccia vicino a una masseria e una zona "profondamente perturbata" accanto al canale di scarico, dove in uno scavo è stata trovata una soletta di cemento [8].
 - **Rifiuti in superficie**: cumuli abbandonati, che secondo Ilva sono stati "prontamente rimossi" [1].
 - **Rifiuti sepolti**: durante le analisi sono stati trovati "rifiuti tombati" nel materiale usato per riempire lo scavo sopra il primo canale di scarico della fabbrica [1][2]. Nel 2024 Ilva scriveva che toglierli era "molto complesso" per gli alberi e la cavità, e che serviva uno studio di fattibilità [2]. A fine 2025 Ilva ha dato l'incarico per toglierli, trasportarli e smaltirli: lavoro "in corso di ultimazione" [1].
-- **La cavità sotto la strada**: durante le analisi è stata trovata una cavità nel sottofondo di una strada [3]. Un'indagine geofisica della ditta Geosolution (2023) l'attribuisce all'acqua piovana che ha portato via il terreno intorno a una condotta [3][1]. Non si sa di chi sia la condotta [1]. A fine 2025 Ilva ha dato l'incarico di progettare la messa in sicurezza della strada [1].
-- **Analisi di rischio**: Ilva la manderà al Ministero dopo i controlli dell'acqua [1]. Al 2 ottobre 2026 nell'archivio del Ministero non c'è [8].
+- **La cavità sotto la strada**: durante le analisi è stata trovata una cavità nel sottofondo di una strada [3]. Ilva ha ordinato la verifica di stabilità della strada a Geosolution già nel 2023 (ordine n. 122/23), da fare solo dopo aver tolto i depositi di terra e materiali prodotti dalle analisi e lasciati lungo la strada [14]. L'indagine geofisica di Geosolution (2023) attribuisce la cavità all'acqua piovana che ha portato via il terreno intorno a una condotta [3][1]. Non si sa di chi sia la condotta [1]. A fine 2025 Ilva ha dato l'incarico di progettare la messa in sicurezza della strada [1].
+- **Analisi di rischio**: Ilva la manderà al Ministero dopo i controlli dell'acqua [1]. Secondo Ilva sarà fatta "secondo lo scenario previsto da certificato di destinazione d'uso" [12]. Al 13 ottobre 2026 nell'archivio del Ministero non c'è [8].
 
 ## Le domande principali
 
@@ -50,7 +51,7 @@ Tutti i valori vengono dalla validazione di ARPA, che li confronta con i limiti 
 - **Dove finiscono: non verificato.** Ilva ha dato l'incarico di "rimozione, trasporto e smaltimento" [1], ma nessun documento dice in quale impianto.
 
 ### 4. Chi la frequenta?
-- **Non verificato.** Nessun documento dice chi entra nell'area. Ilva la descrive come area verde senza attività produttive, che pensava di usare per la selvicoltura [5].
+- **Non verificato.** Nessun documento dice chi entra nell'area. Ilva la descrive come area verde senza attività produttive, che pensava di usare per la selvicoltura [5]; nel 2022 scriveva di valutare un nuovo uso "di tipo produttivo", "preferibilmente nell'ambito della green economy (energia verde, selvicoltura, etc.)" [12].
 - Accanto all'area c'è una **strada**, con tubi e cavi sotto, nel cui sottofondo si è aperta la cavità [8][3]. Quale strada sia e quanto traffico abbia: non verificato. Secondo Ilva, se la situazione resta così può avere conseguenze sulla rimozione dei rifiuti e sulle analisi [2].
 
 ### 5. È uscita dal SIN?
@@ -73,8 +74,10 @@ Tutti i valori vengono dalla validazione di ARPA, che li confronta con i limiti 
 | 21 giugno 2021 | Analisi sospese: interferenza con il canale di scarico | [8] |
 | 15 ottobre 2021 | Il Consorzio ASI manda i disegni del canale (a circa 10 m) | [5] |
 | 1–23 dicembre 2021 | Ripresa dei sondaggi | [8] |
+| 19 gennaio 2022 | Ilva affida l'analisi di rischio a Engea (ordine n. 7/22) | [12] |
 | 6 giugno 2022 | Ilva informa Ministero, ISPRA e ARPA sui rifiuti compattati | [5] |
 | 24 novembre 2022 | Sopralluogo per completare le analisi; Ilva valuta se cambiare ditta | [4] |
+| 28 aprile 2023 | Completamento delle analisi affidato a Engea senza gara | [14] |
 | 23 maggio – 8 giugno 2023 | Fine delle analisi | [3] |
 | 8 agosto 2023 | Ilva manda i risultati | [3][8] |
 | 18 settembre e 22 dicembre 2023 | Indagini sulla cavità sotto la strada | [3] |
@@ -83,7 +86,7 @@ Tutti i valori vengono dalla validazione di ARPA, che li confronta con i limiti 
 | fine 2025 | Rimozione dei rifiuti sepolti "in corso di ultimazione"; progetto per la strada | [1] |
 
 ## Fonti
-Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ — SIN "Taranto", ID Area **3882**. Al 2 ottobre 2026 l'archivio elenca 4 documenti per quest'area: 3 sono usati qui, il quarto (il piano delle analisi) non si scarica [9].
+Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ — SIN "Taranto", ID Area **3882**. Al 13 ottobre 2026 l'archivio elenca 4 documenti per quest'area, l'ultimo del 27 novembre 2023: 3 sono usati qui, il quarto (il piano delle analisi) non ha un file scaricabile [9]. Una ricerca online del 13 ottobre 2026 (notizie e documenti su Land D1 e sui rifiuti del canale di scarico) non ha trovato altro.
 
 [1] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pagina 41, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
 
@@ -107,6 +110,12 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [11] MASE, pagina ufficiale della *Direzione generale economia circolare e bonifiche (ECB)*, consultata il 2 ottobre 2026 (indirizzo PEC per la richiesta FOIA), https://www.mase.gov.it/pagina/direzione-generale-economia-circolare-e-bonifiche-ecb
 
+[12] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2022*, pagina 42, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2022_omissisb.pdf — copia in `fonti/2022-03_ilva-as_relazione-trimestrale-I-2022.pdf`
+
+[13] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2023*, pagina 37, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2023_omissisb.pdf — copia in `fonti/2023-03_ilva-as_relazione-trimestrale-I-2023.pdf`
+
+[14] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 2° trimestre 2023*, pagina 35, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_II_trim_2023_omissisb.pdf — copia in `fonti/2023-06_ilva-as_relazione-trimestrale-II-2023.pdf`
+
 ## Cosa non sappiamo
 1. **Che rifiuti sono sepolti, quanti, e dove vanno.** Nessuna fonte lo dice [1][2]. Non verificato. Vedi la bozza FOIA qui sotto.
 2. **"Rifiuti a 10 metri"?** La relazione di Ilva dice che il canale passa a circa 10 m; non dice a che profondità siano i rifiuti [1][5].
@@ -119,6 +128,23 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 9. **I costi dopo il 2022**: non verificato (vedi "Soldi").
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+**A:** ARPA Puglia, Dipartimento provinciale di Taranto — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina URP](https://www.arpa.puglia.it/pagina2819_urp.html)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – Area "Land D1" di ILVA in A.S. (SIN Taranto, ID area 3882): monitoraggio della falda 2025, rifiuti sepolti sopra il I Canale di Scarico e analisi di rischio (DAP Taranto)
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'area "Land D1" di ILVA S.p.A. in A.S. (Comune di Taranto, SIN di Taranto, ID area 3882), dopo il report di validazione ARPA prot. 77823 del 27/11/2023:
+>
+> 1. **Acque sotterranee.** I risultati del monitoraggio annuale della falda, con frequenza trimestrale, eseguito da ILVA tra gennaio e ottobre 2025 nei piezometri PZ1, PZ10 e PZ13 (o in quelli nuovi), compresi gli eventuali campioni in contraddittorio di ARPA o i verbali che attestino che i piezometri erano asciutti.
+> 2. **Rifiuti sepolti.** Eventuali sopralluoghi, verbali o comunicazioni ricevute da ILVA, dal 2024 a oggi, sulla rimozione dei rifiuti rinvenuti nel materiale di colmamento del I Canale di Scarico dello stabilimento, con tipologia, quantità e destinazione dei rifiuti, se note.
+> 3. **Analisi di rischio e modello geologico.** L'eventuale documento di analisi di rischio, o la revisione del modello geologico richiesta nel report del 27/11/2023, trasmessi da ILVA, con le osservazioni di ARPA.
+> 4. **Destinazione d'uso.** L'eventuale espressione dei Comuni di Taranto e di Statte sulla destinazione d'uso dell'area (prescrizione n. 11 del decreto n. 19 del 27/01/2021), se nota ad ARPA.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta al Ministero (FOIA) — in attesa
+Da inviare all'email ordinaria della Direzione (ecb-udg@mase.gov.it) solo se la prima richiesta mandata lì (FOIA 31, 12 ottobre 2026) viene protocollata; i punti 3 e 4 sono chiesti, in parte, anche ad ARPA nella bozza qui sopra.
+
 **A:** Ministero dell'Ambiente e della Sicurezza energetica — Direzione generale economia circolare e bonifiche — PEC: ecb@pec.mase.gov.it (indirizzo verificato il 2 ottobre 2026 sulla [pagina ufficiale della Direzione](https://www.mase.gov.it/pagina/direzione-generale-economia-circolare-e-bonifiche-ecb) [11])
 
 > Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – area "Land D1" di Ilva in A.S., SIN di Taranto (ID Area 3882)
