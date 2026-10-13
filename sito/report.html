@@ -48,6 +48,7 @@ function quickHtml(s, p){
     ? `<div class="soldi">${money.map(([k,v,t,lbl]) => `<div title="${esc(t)}"><small>${k}</small>${v==null ? `<b class="na">${esc(lbl)}</b>` : `<b>${lbl || fmtMln(v)}</b><span class="small muted">mln €</span>`}</div>`).join("")}<p class="why">${money.map(m => esc(m[2])).join(" · ")}</p></div>`
     : `<span class="muted">${s.sections.some(x => /^soldi/i.test(x.title)) ? `Nessun riepilogo in tre cifre: i dettagli sono in <a href="#" data-open="soldi">Approfondimenti → Soldi</a>.` : "Nessuna cifra verificata nella scheda."}</span>`]);
   rows.push(["Aggiornata al", esc(s.updated)]);
+  if (!p) return `<div class="quick nomap"><dl>${rows.map(([k,v]) => `<div class="row"><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl></div>`;   // voci fuori dalla mappa
   const pos = p.official
     ? `<strong>Posizione da documento ufficiale.</strong> ${esc(p.src.text)} <a href="#${s.id}-f${p.src.n}">Fonte [${p.src.n}]</a>`
     : `<strong>Posizione indicativa.</strong> ${esc(p.zone)}.`;
@@ -73,9 +74,9 @@ function render(s){
   const p = PT[s.code], c = t => cite(t, s.id);
   const i = SCHEDE.indexOf(s), prev = SCHEDE[i-1], next = SCHEDE[i+1];
   const extra = s.sections.filter(x => !/^date principali/i.test(x.title));
-  let h = `<a class="back" href="mappa.html#${s.code}">← Torna alla mappa</a>
+  let h = `<a class="back" href="mappa.html${p ? "#" + s.code : ""}">← Torna alla mappa</a>
     <header class="rp-head">
-      <div class="meta"><span class="badge ok">✔ verificato</span><span class="mono">${s.codes.join(" + ")}</span><span>${GRP[s.code[0]]}</span></div>
+      <div class="meta"><span class="badge ok">✔ verificato</span><span class="mono">${s.codes.join(" + ")}</span><span>${GRP[s.code[0]]}</span>${NON_AMB.has(s.code) ? `<span class="badge expl">Non è un'opera ambientale</span>` : FUORI.has(s.code) ? `<span class="badge expl">Contesto, non è un intervento</span>` : ""}</div>
       <h1>${esc(s.title)}</h1>
       ${s.verdict ? `<p class="verdict">${esc(s.verdict)}</p>` : ""}
       ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}
@@ -94,8 +95,8 @@ function render(s){
   $("#rp").innerHTML = h;
   document.title = `${s.code} ${s.short} · Bonifiche Taranto`;
 
-  if (window.L) {
-    if (mini) mini.remove();
+  if (mini) { mini.remove(); mini = null; }
+  if (window.L && p) {
     mini = L.map("minimap", {minZoom:12, maxZoom:14, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false});
     addTiles(mini);
     mini.setView(p.ll, p.official ? 14 : 13, {animate:false});

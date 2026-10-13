@@ -1,5 +1,5 @@
 # B14 – Riduzione del perimetro del SIN di Taranto (deperimetrazione)
-*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 12 ottobre 2026* · Non è un intervento: è un atto del Ministero che cambia i confini del SIN.
 
 ## In breve
 Il SIN (Sito di interesse nazionale) è l'elenco di aree di Taranto, a terra e a mare, la cui bonifica segue la procedura statale; con due decreti di dicembre 2024 (n. 249 dell'11/12 e n. 449 del 20/12) il Ministero dell'Ambiente ha tolto dal SIN alcune aree, soprattutto zone dove la pratica ambientale risulta chiusa e opere portuali nuove, e ha ridisegnato il confine [2][3]. Sulla pagina ufficiale del Ministero il SIN misura oggi 4.289 ettari a terra e 6.872 a mare, contro 4.383 e circa 7.000 prima [6][5]; le cifre dell'opuscolo (64 km² a terra, 7,3 km² a mare) non corrispondono a nessun documento ufficiale che ho trovato [1]. **Uscire dal SIN non vuol dire essere "bonificati"**: vuol dire che la pratica passa alla Regione [3], e per ora per il Mar Grande (circa 15,5 km²) il Ministero ha approvato solo il piano delle analisi, quindi, a quanto risulta, nessuna area di mare è ancora uscita per questa strada [7][8].

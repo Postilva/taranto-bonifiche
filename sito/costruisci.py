@@ -190,11 +190,10 @@ def leggi_elenco():
         warn = "⚠" in note
         clean = lambda s: re.sub(r"\s+", " ", re.sub(r"\*\*|\*|⚠|✔", "", s)).strip()
         righe[m.group(1)] = [m.group(1), clean(name), clean(note), pag, link.group(1) if link else None, warn]
-    # sottogruppi del gruppo B
-    conclusi, b = [], txt.split("## B.")[1].split("## C.")[0]
-    parte = b.split("### Interventi in corso")[0]
-    conclusi = re.findall(r"^\|\s*(B\d+)\s*\|", parte, re.M)
-    return righe, conclusi
+    # sottogruppi del gruppo B, nell'ordine di elenco.md: [titolo, [codici]] (si saltano quelli senza righe)
+    b = txt.split("## B.")[1].split("## C.")[0]
+    gruppi = [[s.split("\n", 1)[0].strip(), re.findall(r"^\|\s*(B\d+)\s*\|", s, re.M)] for s in b.split("\n### ")[1:]]
+    return righe, [g for g in gruppi if g[1]]
 
 
 # ---------- schede ----------
@@ -286,9 +285,9 @@ def leggi_scheda(path):
 
 
 def main():
-    elenco, conclusi = leggi_elenco()
+    elenco, gruppi = leggi_elenco()
     schede = [s for s in (leggi_scheda(p) for p in sorted((ROOT / "interventi").glob("*.md"))) if s]
-    data = {"elenco": elenco, "conclusiB": conclusi, "schede": schede, "generato": OGGI.isoformat()}
+    data = {"elenco": elenco, "gruppiB": gruppi, "schede": schede, "generato": OGGI.isoformat()}
     js = ("/* Generato da sito/costruisci.py leggendo elenco.md e le schede approvate: non modificare a mano. */\n"
           "const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")
     (ROOT / "sito" / "dati.js").write_text(js, encoding="utf-8")

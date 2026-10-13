@@ -1,5 +1,5 @@
 # B7 – Molo polisettoriale del porto: dragaggio e banchina
-*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 12 ottobre 2026* · ⚠ Non è un'opera ambientale: è un'opera portuale (banchina e dragaggio per le navi), pagata anche con i fondi del Commissario per la bonifica.
 
 ## In breve
 Il molo polisettoriale è la banchina del porto di Taranto dove attraccano le navi portacontainer; in questa zona c'erano due lavori finanziati anche dal Commissario: rifare la banchina, e dragare 2,3 milioni di m³ di sedimenti da mettere in una grande vasca (la "cassa di colmata") per allargare il V sporgente [1][2]. Il Commissario scrive che entrambi sono "conclusi, ma non finanziariamente", cioè solo per la parte sua [1]: per la banchina c'è un collaudo del novembre 2017 [2], mentre per il dragaggio il Commissario ha versato tutta la sua quota (16,9 milioni €) entro dicembre 2022 [4]. **Ma il dragaggio non è finito**: a fine 2025 i dati ufficiali dicono che erano stati dragati circa 19.600 m³ su 1,78 milioni previsti [9], e nel marzo 2026 l'Autorità portuale ha presentato un nuovo progetto di "completamento", oggi sospeso [7]. L'opuscolo non parla di nessun certificato di bonifica [1], e io non ne ho trovati.

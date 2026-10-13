@@ -1,5 +1,5 @@
 # B16 – Cozze: studio sulla decontaminazione + progetto MITICA
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026* · ⚠ Non è un'opera ambientale: sono studi su allevamento e sicurezza alimentare delle cozze; il mare non viene ripulito.
 
 ## In breve
 Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce il mare**. Lo studio sulla decontaminazione (ARPA Puglia, ASL, CNR-IRSA, Capitaneria, Comune, Commissario) ha misurato quanto in fretta le cozze del 1° seno del Mar Piccolo, spostate nel Mar Grande, perdono diossine e PCB: secondo il comunicato del 6 luglio 2026 la contaminazione "si azzera stabilmente" tra 30 e 48 giorni, ma i numeri misurati non sono pubblici [3]. Il progetto MITICA (498.448 € in tutto, 400.000 € dalla Regione Puglia, con CNR e CoNISMa) non studia l'inquinamento: studia come far resistere le cozze al caldo e alla mancanza di ossigeno, e come ottenere crediti di carbonio [5][6].

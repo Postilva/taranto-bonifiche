@@ -1,5 +1,5 @@
 # B17 – Sea Hub, Arco Nord del 2° seno del Mar Piccolo (rimozione di pontili e relitti, passerella in legno)
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026* · ⚠ Non è un'opera ambientale: è una riqualificazione della costa (demolizione di pontili e strutture, passerella in legno).
 
 ## In breve
 Il progetto "Arco Nord" prevede di togliere dalla costa nord del 2° seno del Mar Piccolo 89 pontili, 33 strutture in muratura, 10 container, 4 relitti, 4 boe arenate e 90 boe galleggianti, e di costruire una passerella in legno con una strada verde [1]. Costa 13.203.555,90 € (stima del Commissario) e fa parte del "Sea Hub", una procedura da 55.203.555,90 € del Just Transition Fund (fondo europeo per la "transizione giusta"), ma **non è ancora finanziato**: il Commissario ha presentato la candidatura il 30 settembre 2026 e la Regione deve ancora decidere [2][4]. Non c'è ancora un progetto né una gara, e **non è una bonifica**: toglie rifiuti e strutture dalla riva, ma non ripulisce i fanghi del fondale [1][4].

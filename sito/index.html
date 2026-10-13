@@ -51,7 +51,7 @@
     <h2>Chi deve ripulire</h2>
     <div class="who">
       <div><b>Ilva in amministrazione straordinaria</b><p>I commissari del Governo, arrivati nel 2013, per le vecchie aree della fabbrica non passate ai nuovi gestori. Sulla mappa: <strong>gruppo A</strong>, 18 aree.</p></div>
-      <div><b>Commissario straordinario per la bonifica di Taranto</b><p>Per le zone fuori dalla fabbrica, come il Mar Piccolo e le scuole del Tamburi. Sulla mappa: <strong>gruppo B</strong>, 17 interventi.</p></div>
+      <div><b>Commissario straordinario per la bonifica di Taranto</b><p>Per le zone fuori dalla fabbrica, come il Mar Piccolo e le scuole del Tamburi. Sulla mappa: <strong>gruppo B</strong>, <span class="n-b">12 interventi</span>. Altre <span class="n-x">4</span> voci del suo programma non sono opere ambientali: sono a parte (vedi sotto).</p></div>
       <div><b>Ministero dell'Ambiente</b><p>Segue tutta la zona come un unico sito da risanare, chiamato SIN, che comprende migliaia di ettari tra terra e mare.</p></div>
     </div>
     <p class="note"><strong>Non ancora coperti:</strong> le aree di altri responsabili (l'acciaieria in funzione, la raffineria Eni, Cementir, Italcave, Marina Militare, Autorità portuale). Non le abbiamo ancora controllate e non sono sulla mappa: le aggiungeremo più avanti.</p>
@@ -79,10 +79,11 @@
     <p class="num">04</p>
     <h2>Cosa abbiamo trovato finora</h2>
     <div class="bignums">
-      <div><b class="n-tot">35</b><p>interventi censiti tra le aree di Ilva e quelle del Commissario.</p></div>
+      <div><b class="n-tot">35</b><p>interventi ambientali censiti tra le aree di Ilva e quelle del Commissario.</p></div>
       <div class="sea"><b class="n-ok">22</b><p>verificati fonte per fonte, ognuno con il suo report.</p></div>
       <div class="alert"><b id="n-cert">0</b><p>con un certificato ufficiale di avvenuta bonifica, tra quelli verificati.</p></div>
     </div>
+    <p class="note" id="fuori"></p>
     <div class="chart">
       <h3>A che punto sono, passaggio per passaggio</h3>
       <div class="legend" id="lg-steps"></div>
@@ -147,6 +148,15 @@ const OGGI = new Date(DATA.generato + "T12:00:00").toLocaleDateString("it-IT", {
 document.querySelectorAll(".oggi").forEach(el => el.textContent = OGGI);
 // certificati: schede in cui il passaggio 5 (Certificazione) è "fatto"
 $("#n-cert").textContent = SCHEDE.filter(s => STEPS[s.id] && STEPS[s.id][4][0] === "done").length;
+
+/* voci del Commissario fuori dai conteggi */
+{
+  const link = r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : `${r[0]} ${esc(r[1])}`; };
+  $("#fuori").innerHTML = `<strong>Fuori dal conto.</strong> Il Commissario presenta tra i risultati del programma di bonifica anche ${NON_AMB.size} voci che non sono opere ambientali: ` +
+    ELENCO.X.filter(g => g[0].startsWith("Nel programma")).flatMap(g => g[1]).map(link).join(" · ") +
+    `. Non intervengono su terreno, acqua o fondali inquinati, quindi non le contiamo e non sono sulla mappa; i loro report restano consultabili. A parte anche ` +
+    ELENCO.X.filter(g => g[0].startsWith("Contesto")).flatMap(g => g[1]).map(link).join(" · ") + `, che non è un intervento ma un atto che cambia i confini del SIN.`;
+}
 
 /* grafico dei passaggi */
 const tip = $("#tip");

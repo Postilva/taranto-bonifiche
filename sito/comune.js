@@ -3,6 +3,10 @@
 /* ---------- elenco.md: gruppi A, B, C ---------- */
 const byCode = (a,b) => a[0]===b[0] ? (+a.slice(1))-(+b.slice(1)) : (a<b?-1:1);
 const ROWS = Object.values(DATA.elenco);
+const GRUPPI_B = DATA.gruppiB;   // [titolo, [codici]] nell'ordine di elenco.md
+const FUORI_G = GRUPPI_B.filter(g => /^(Nel programma|Contesto)/.test(g[0]));
+const FUORI = new Set(FUORI_G.flatMap(g => g[1]));
+const NON_AMB = new Set((FUORI_G.find(g => g[0].startsWith("Nel programma")) || ["",[]])[1]);
 const ELENCO = {
   A: {
     title: "Aree di Ilva", count: "18 aree",
@@ -10,20 +14,19 @@ const ELENCO = {
     items: ROWS.filter(r => r[0][0]==="A").sort((a,b)=>byCode(a[0],b[0]))
   },
   B: {
-    title: "Aree fuori dalla fabbrica", count: "17 interventi",
+    title: "Aree fuori dalla fabbrica", count: "",
     who: "Mare, quartiere Tamburi, Statte. Se ne occupa il Commissario straordinario per la bonifica di Taranto. Fonte: opuscolo del Commissario, maggio 2026.",
-    subs: [
-      ["Che il Commissario dichiara conclusi", ROWS.filter(r => DATA.conclusiB.includes(r[0])).sort((a,b)=>byCode(a[0],b[0]))],
-      ["In corso o da fare", ROWS.filter(r => r[0][0]==="B" && !DATA.conclusiB.includes(r[0])).sort((a,b)=>byCode(a[0],b[0]))]
-    ]
+    subs: GRUPPI_B.filter(g => !FUORI_G.includes(g)).map(g => [g[0].replace(/^Interventi c/,"C").replace(/^Interventi i/,"I"), g[1].map(c => DATA.elenco[c])])
   },
+  // voci del programma del Commissario che non sono opere ambientali, e il contesto (B14): fuori da conteggi e mappa
+  X: FUORI_G.map(g => [g[0], g[1].map(c => DATA.elenco[c])]),
   C: {
     title: "Altri responsabili", count: "da esplorare",
     who: "Soggetti elencati dal Ministero nella pagina del SIN di Taranto. Qui non abbiamo ancora cercato.",
     items: ["Acciaierie d'Italia (l'acciaieria in funzione)","Raffineria Eni","Cementir","Italcave","Marina Militare / Arsenale","Autorità portuale"]
   }
 };
-const TOTAL = 35;
+ELENCO.B.count = ELENCO.B.subs.reduce((n,s) => n + s[1].length, 0) + " interventi";
 
 // nome breve per lista, grafici e cronologia (se manca si usa il titolo fino alla parentesi)
 const SHORT = {"discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-mercato-ittico":"Mar Piccolo, mercato ittico","mar-piccolo-rifiuti-lotto1":"Mar Piccolo, rifiuti 1° lotto","mar-piccolo-rifiuti-lotto2":"Mar Piccolo, rifiuti 2° lotto","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","scuole-tamburi-riqualificazione":"Scuole Tamburi, lavori","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","deperimetrazione-sin":"Riduzione del SIN","molo-polisettoriale":"Molo polisettoriale","mitili-mitica":"Cozze e MITICA","sea-hub":"Sea Hub, Arco Nord","filiere-verdi":"Filiere verdi"};
@@ -37,12 +40,15 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":
 // schede in ordine di codice: A prima di B, poi per numero
 SCHEDE.sort((a,b)=> a.code[0]===b.code[0] ? (+a.code.slice(1))-(+b.code.slice(1)) : a.code<b.code?-1:1);
 const verified = Object.fromEntries(SCHEDE.flatMap(s => s.codes.map(c => [c, s])));
-document.querySelectorAll(".n-ok").forEach(el => el.textContent = Object.keys(verified).length);
+document.querySelectorAll(".n-ok").forEach(el => el.textContent = Object.keys(verified).filter(c => !FUORI.has(c)).length);
 document.querySelectorAll(".n-sch").forEach(el => el.textContent = SCHEDE.length);
 function cite(html, sid){ return html.replace(/\[(\d+)\]/g, (m,n) => `<sup class="c"><a href="#${sid}-f${n}" aria-label="fonte ${n}">[${n}]</a></sup>`); }
 /* ---------- interventi A e B: dati comuni a lista, mappa e report ---------- */
 const ALL = [...ELENCO.A.items, ...ELENCO.B.subs.flatMap(s=>s[1])];   // [codice, nome, nota, pagina, id scheda, avviso]
 const ROW = Object.fromEntries(ALL.map(i => [i[0], i]));
+const TOTAL = ALL.length;   // interventi ambientali (gruppi A e B, senza le voci FUORI)
+document.querySelectorAll(".n-b").forEach(el => el.textContent = ELENCO.B.count);
+document.querySelectorAll(".n-x").forEach(el => el.textContent = NON_AMB.size);
 const codeCmp = (a,b) => a[0]===b[0] ? (+a.slice(1))-(+b.slice(1)) : (a<b?-1:1);
 const GRP = {A:"Gruppo A · Ilva in amministrazione straordinaria", B:"Gruppo B · Commissario per la bonifica"};
 const GRP_SHORT = {A:"Gruppo A · Ilva", B:"Gruppo B · Commissario"};
@@ -134,16 +140,16 @@ const STEPS = {
   "mar-piccolo-rifiuti-lotto1":[["na","La scheda non ne parla"],["na","La scheda non ne parla"],["todo","Sedimenti non messi in sicurezza"],["todo","Rifiuti e relitti tolti dal fondale (circa 500 tonnellate nella prima tranche); nessuna bonifica dei sedimenti"],["todo","Nessun certificato di bonifica"]],
   "mar-piccolo-rifiuti-lotto2":[["na","La scheda non ne parla"],["na","La scheda non ne parla"],["todo","Non messo in sicurezza"],["todo","Non c'è progetto, gara o cantiere"],["todo","Non ancora"]],
   "mar-piccolo-area-170":[["done","Analisi del 2005 e studi ARPA e ISPRA: inquinamento esteso da PCB e metalli; i valori misurati non sono pubblici"],["na","La scheda non ne parla"],["todo","Sedimenti non messi in sicurezza"],["todo","Nessun lavoro in mare; circa 33,5 mln € solo proposti dalla Regione (dicembre 2025)"],["todo","Non ancora"]],
-  "molo-polisettoriale":[["na","La scheda non ne parla"],["na","La scheda non ne parla"],["na","La scheda non ne parla"],["part","Dragaggio e cassa di colmata incompiuti: rimossi 19.597 m³ su 1.776.445 previsti (OpenCoesione, dicembre 2025)"],["todo","Nessun certificato di bonifica; la banchina ha un collaudo dei lavori (2017)"]],
   "filiere-verdi":[["na","La scheda non ne parla: non si sa ancora dove siano i 90 ettari"],["na","La scheda non ne parla"],["todo","Non messo in sicurezza"],["part","Pulizia del suolo con le piante su circa 90 ettari: parte a terra ammessa a finanziamento (marzo 2026), non ancora partita sul campo"],["todo","Non ancora"]],
-  "sea-hub":[["na","La scheda non ne parla"],["na","La scheda non ne parla"],["todo","Non messo in sicurezza"],["part","Solo la procedura della Regione e la candidatura del Commissario; nessun lavoro sull'Arco Nord"],["todo","Non ancora"]]
 };
 // schede che non descrivono un intervento di bonifica: i 5 passaggi non si applicano
 const NO_STEPS = {
   "deperimetrazione-sin":"È un atto del Ministero che riduce il perimetro del SIN, non un intervento sul terreno. Nessuna area è stata dichiarata \"bonificata\" con questi decreti.",
   "mar-piccolo-studi":"Sono studi e analisi: nessuna bonifica, nessuna messa in sicurezza.",
   "mitili-mitica":"Sono studi sulle cozze: nessuno dei due progetti interviene su fanghi o acqua del Mar Piccolo.",
-  "scuole-tamburi-riqualificazione":"Sono lavori su edifici, aria delle aule e cortili: non sono una bonifica."
+  "scuole-tamburi-riqualificazione":"Sono lavori su edifici, aria delle aule e cortili: non è un'opera ambientale.",
+  "molo-polisettoriale":"È un'opera portuale (banchina e dragaggio per le navi): non è un'opera ambientale.",
+  "sea-hub":"È una riqualificazione della costa (demolizione di pontili e strutture): non è un'opera ambientale."
 };
 // soldi (milioni di euro). null = dato assente o "non verificato" nella scheda: non si disegna.
 // [tipo, valore, spiegazione, etichetta se assente o testo al posto del numero]

@@ -289,6 +289,7 @@ body.panel-off .paneltoggle{display:inline-flex}
 .verdict{font:700 1.25rem/1.25 var(--f-display);letter-spacing:.01em;color:var(--oxide);border-left:5px solid var(--oxide);background:var(--oxide-soft);border-radius:0 8px 8px 0;padding:10px 14px}
 .quick{background:var(--surface);border:1px solid var(--line);border-top:5px solid var(--sea);border-radius:12px;display:grid;grid-template-columns:minmax(0,1fr) 270px;overflow:hidden}
 .quick dl{margin:0;padding:4px 18px;display:grid}
+.quick.nomap{grid-template-columns:minmax(0,1fr)}
 .quick .row{display:grid;grid-template-columns:7rem minmax(0,1fr);gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}
 .quick .row:last-child{border-bottom:0}
 .quick dt{font:600 .74rem/1.4 var(--f-body);letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);padding-top:2px}
