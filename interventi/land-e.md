@@ -1,11 +1,11 @@
 # A13 – Land E (ex Sidercomit, stabilimento dismesso sulla Statale Appia)
-*Stato scheda: approvata — aggiornata al 2 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
 Land E è un vecchio stabilimento di circa 4,3 ettari nella zona industriale di Taranto, dove la ditta Sidercomit produceva e immagazzinava prodotti siderurgici (soprattutto profilati di alluminio e acciaio inox); dal 1997 è di Ilva e oggi è chiuso, recintato e quasi tutto asfaltato, con due capannoni e una palazzina [9][5][6]. Le analisi del 2022 hanno trovato il terreno nei limiti, ma lo strato di materiale di riporto rilascia alluminio, ferro, manganese, vanadio e fluoruri, e l'acqua sotterranea supera i limiti per nove sostanze, tra cui arsenico, cromo esavalente e triclorometano [9][13]. **Non è bonificato né messo in sicurezza dal punto di vista ambientale**: a gennaio 2024 il Ministero ha respinto l'analisi di rischio così com'era e ha chiesto nuovi pozzetti e controlli dell'acqua, che secondo Ilva sono ancora in corso alla fine del 2025 [14][1].
 
 ## Chi se ne occupa
-- **Ilva in amministrazione straordinaria**, cioè i commissari nominati dal Governo per le vecchie aree dell'Ilva: hanno fatto le analisi (consulente Engea) e presentato l'analisi di rischio [9][6]. Le bonifiche delle aree come questa, rimaste fuori dalla fabbrica ceduta ai nuovi gestori, spettano ai commissari [2].
+- **Ilva in amministrazione straordinaria**, cioè i commissari nominati dal Governo per le vecchie aree dell'Ilva: hanno fatto le analisi (consulente Engea, ordine n. 80/22 del 10 marzo 2022, che comprende anche l'analisi di rischio) e presentato l'analisi di rischio [9][6][18]. Le bonifiche delle aree come questa, rimaste fuori dalla fabbrica ceduta ai nuovi gestori, spettano ai commissari [2].
 - **Ministero dell'Ambiente** (allora MiTE, oggi MASE): guida la procedura e decide; il decreto n. 123 del 2021 è firmato dal direttore generale Giuseppe Lo Presti [2].
 - **ARPA Puglia** (Dipartimento di Taranto) e **ISPRA**: hanno controllato le analisi sul posto e dato i pareri tecnici sull'ambiente [11][12].
 - **INAIL**: ha dato il parere sulla salute dei lavoratori [13].
@@ -14,19 +14,20 @@ Land E è un vecchio stabilimento di circa 4,3 ettari nella zona industriale di 
 ## Cosa è stato fatto
 **Analizzato. Non bonificato e non messo in sicurezza: l'analisi di rischio non è stata approvata e si aspettano nuovi controlli sull'acqua sotterranea.** [14][1]
 
-- **Analisi precedenti**: secondo Ilva, nel 2016 erano stati fatti 11 sondaggi e 5 pozzetti, ma dei terreni non sono rimasti dati; nell'acqua, nel 2016 e nel 2018, erano stati trovati fluoruri, solfati, arsenico, cromo esavalente e IPA (sostanze cancerogene tipiche della combustione) oltre i limiti [9].
+- **Analisi precedenti**: secondo Ilva, nel 2016 erano stati fatti 11 sondaggi e 5 pozzetti, ma dei terreni non sono rimasti dati; nell'acqua, nel 2016 e nel 2018, erano stati trovati fluoruri, solfati, arsenico, cromo esavalente e IPA (sostanze cancerogene tipiche della combustione) oltre i limiti [9]. Come chiesto dal decreto di approvazione, Ilva ha chiesto i dati ambientali più vecchi ad Acciaierie d'Italia, il gestore della fabbrica, con PEC dell'agosto 2021 e del marzo 2022 [18]; non sappiamo se li ha ricevuti.
 - **Piano di caratterizzazione** (il piano delle analisi): mandato da Ilva il 12 aprile 2021, approvato con il **decreto n. 123 del 23 luglio 2021**, con prescrizioni: 15 sondaggi invece di 12, almeno un sondaggio dentro i capannoni se sicuro, 4 nuovi pozzetti a monte e a valle, prove sul materiale di riporto [2][3][4].
-- **Lavori preliminari**, 2022, secondo Ilva: rimosso amianto trovato lungo una parte del perimetro, rimosso e smaltito un vecchio serbatoio (4–5 luglio 2022), messa in sicurezza d'emergenza della strada interna [6]. Durante le analisi è stata segnalata un'altra zona con lastre che potrebbero contenere amianto, vicino a un vecchio pozzetto che per questo non è stato campionato [9].
-- **Analisi sul posto**, giugno–luglio 2022, con ARPA presente: 15 sondaggi fino a 8,5 m, 45 campioni di terreno, 16 campioni del materiale di riporto, 4 nuovi pozzetti per l'acqua; acqua campionata il 13 luglio 2022 [9]. Il Ministero aveva concesso a Ilva una proroga fino al 25 settembre 2022 per consegnare i risultati [7].
+- **Lavori preliminari**, 2022, secondo Ilva: rimosso amianto trovato lungo una parte del perimetro, rimosso e smaltito un vecchio serbatoio (4–5 luglio 2022, ordine n. 146 del 13 giugno 2022 [19]), messa in sicurezza d'emergenza della strada interna [6]. Durante le analisi è stata segnalata un'altra zona con lastre che potrebbero contenere amianto, vicino a un vecchio pozzetto che per questo non è stato campionato [9].
+- **Analisi sul posto**, giugno–luglio 2022, con ARPA presente: 15 sondaggi fino a 8,5 m, 45 campioni di terreno, 16 campioni del materiale di riporto, 4 nuovi pozzetti per l'acqua; acqua campionata il 13 luglio 2022 [9]. Il piano operativo era stato mandato ad ARPA il 18 maggio 2022 e condiviso il 9 giugno; sondaggi e pozzetti sono stati fatti dal 9 al 28 giugno 2022 [19]. Il Ministero aveva concesso a Ilva una proroga fino al 25 settembre 2022 per consegnare i risultati [7]; il 26 settembre Ilva gli ha scritto che non poteva rispettarla perché ARPA non aveva ancora validato i dati [19].
+- **Validazione di ARPA**: dopo due richieste di chiarimenti (21 febbraio e 12 aprile 2023), ARPA valida i risultati il **16 maggio 2023**, segnalando i superamenti nell'acqua e nei test sul materiale di riporto [20]. Ilva doveva mandare l'analisi di rischio entro il 14 luglio 2023 [20]. Il ritardo, secondo Ilva, è dovuto al laboratorio, che per l'acqua aveva cercato sostanze diverse da quelle concordate con ARPA: certificati rifatti il 6 ottobre 2023, poi il via libera di ARPA [21][8].
 - **Cosa hanno trovato** [9][13]:
   - **terreno**: tutti i valori nei limiti per le zone industriali, confermati da ARPA [9];
   - **materiale di riporto** (uno strato di circa 1,5 m di terra mescolata a materiali portati dall'uomo, sotto l'asfalto): messo in acqua, **tutti i campioni** rilasciano sostanze oltre i limiti, soprattutto alluminio e ferro, poi manganese, vanadio e fluoruri [9][11][13];
   - **acqua sotterranea**: oltre i limiti alluminio, arsenico, cromo esavalente, ferro, manganese, fluoruri, nitriti, solfati e **triclorometano** (cloroformio), distribuiti in modo irregolare tra i pozzetti [9][13]. I PCB sono risultati nei limiti; nel 2023 Ilva ha dovuto rifare i certificati perché aveva cercato 19 tipi di PCB invece dei 29 previsti [8][9].
 - **Analisi di rischio**: Ilva l'ha mandata il 16 novembre 2023 [10]. Secondo Ilva il rischio per un lavoratore è accettabile, ma il materiale di riporto dà un rischio **non accettabile per l'acqua sotterranea** per alluminio, ferro e manganese [9]. Ilva propone altri 5 pozzetti e un anno di controlli [13].
 - **Pareri**: INAIL ha trovato condivisibili i calcoli per i lavoratori [13]. ARPA e ISPRA invece hanno notato che il pozzetto a valle (PZ5) supera i limiti per le stesse sostanze rilasciate dal riporto, e che anche l'attività della Sidercomit (alluminio e acciaio) è un possibile collegamento con l'inquinamento dell'acqua; hanno chiesto controlli periodici con nuovi pozzetti e una nuova analisi secondo le linee guida nazionali del 2023 sui materiali di riporto [11][12].
-- **19 gennaio 2024**: il Ministero comunica a Ilva che queste osservazioni impediscono di approvare l'analisi di rischio e le chiede di rispondere o di presentarne una nuova [14]. Nell'archivio del Ministero non ci sono documenti su Land E successivi a questa data (verificato il 2 ottobre 2026).
-- **Dopo**, secondo Ilva: recinzione rifatta tra marzo e aprile 2024; rimozione periodica di rifiuti abbandonati; seconda campagna di controllo dell'acqua il 6 e 7 novembre 2025; controlli previsti per almeno 2 anni [1].
-- **"Messa in sicurezza delle strutture esistenti"**: secondo Ilva, il 12 aprile 2024 è stato completato un progetto per mettere in sicurezza gli edifici (i vecchi capannoni), con incarichi già affidati per direzione lavori e sicurezza; il progetto è ancora in valutazione [1]. **Attenzione**: si tratta di sicurezza degli edifici, non di una "messa in sicurezza" ambientale dell'inquinamento. Nessun documento del Ministero ne parla. Non verificato.
+- **19 gennaio 2024**: il Ministero comunica a Ilva che queste osservazioni impediscono di approvare l'analisi di rischio e le chiede di rispondere o di presentarne una nuova [14]. Nell'archivio del Ministero non ci sono documenti su Land E successivi a questa data (verificato il 13 ottobre 2026; anche una ricerca online dello stesso giorno non ha trovato altro).
+- **Dopo**, secondo Ilva: recinzione rifatta tra marzo e aprile 2024; rimozione periodica di rifiuti abbandonati; seconda campagna di controllo dell'acqua il 6 e 7 novembre 2025; controlli previsti per almeno 2 anni [1]. I controlli seguono il "Piano di monitoraggio della falda delle Aree Escluse", mandato da Ilva il 19 giugno 2024 per tutte le sue aree [22]. A dicembre 2024 i nuovi pozzetti chiesti dal Ministero erano ancora "in fase di pianificazione"; a marzo 2025 il completamento della rete di pozzetti era "in fase di avvio" [22][23].
+- **"Messa in sicurezza delle strutture esistenti"**: secondo Ilva, il 12 aprile 2024 è stato completato un progetto per mettere in sicurezza gli edifici (i vecchi capannoni), con incarichi già affidati per direzione lavori e sicurezza; il progetto è ancora in valutazione [1]. Nelle relazioni del 2024 e 2025 Ilva lo chiama "ripristino delle strutture" e scrive di aver affidato anche i lavori a una ditta [22][23]. **Attenzione**: si tratta di sicurezza degli edifici, non di una "messa in sicurezza" ambientale dell'inquinamento. Nessun documento del Ministero ne parla. Non verificato.
 
 ## Tre domande
 
@@ -62,11 +63,15 @@ Land E è un vecchio stabilimento di circa 4,3 ettari nella zona industriale di 
 | 1981 – 1997 | Area intestata a società Sidercomit | [5] |
 | 17 luglio e 18 dicembre 1997 | Passa a Ilva Laminati Piani, poi a Ilva S.p.A. | [5] |
 | 2016 e 2018 | Prime indagini: acqua oltre i limiti | [9] |
+| agosto 2021 e marzo 2022 | Ilva chiede i dati ambientali più vecchi ad Acciaierie d'Italia | [18] |
 | 12 aprile 2021 | Ilva manda il piano delle analisi | [2] |
 | 10 maggio 2021 | Il Ministero apre la conferenza di servizi | [4] |
 | 23 luglio 2021 | **Decreto n. 123**: piano delle analisi approvato | [2] |
 | primavera – luglio 2022 | Rimozione di amianto e di un vecchio serbatoio (dato Ilva) | [6] |
-| giugno – luglio 2022 | Analisi sul posto; acqua campionata il 13 luglio | [9] |
+| 9 – 28 giugno 2022 | Sondaggi e pozzetti, con ARPA | [19] |
+| 13 luglio 2022 | Acqua campionata con ARPA | [9] |
+| 26 settembre 2022 | Ilva al Ministero: senza validazione di ARPA non può rispettare la proroga | [19] |
+| 16 maggio 2023 | ARPA valida i risultati | [20] |
 | 9 agosto 2022 | Proroga fino al 25 settembre 2022 per i risultati | [7] |
 | 17 ottobre 2023 | ARPA accetta i certificati PCB corretti | [8] |
 | 16 – 22 novembre 2023 | Ilva manda l'analisi di rischio | [10] |
@@ -75,6 +80,7 @@ Land E è un vecchio stabilimento di circa 4,3 ettari nella zona industriale di 
 | **19 gennaio 2024** | **Il Ministero: l'analisi di rischio così non va, servono nuovi controlli** | [14] |
 | marzo – aprile 2024 | Recinzione rifatta (dato Ilva) | [1] |
 | 12 aprile 2024 | Progetto di sicurezza degli edifici completato (dato Ilva) | [1] |
+| 19 giugno 2024 | Ilva manda il piano di monitoraggio della falda delle Aree Escluse | [22] |
 | 11 e 20 dicembre 2024 | Riduzione del SIN: Land E resta dentro | [15][16] |
 | 6 – 7 novembre 2025 | Seconda campagna di controllo dell'acqua (dato Ilva) | [1] |
 
@@ -115,6 +121,18 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [17] MASE, Direzione generale uso sostenibile del suolo e delle risorse idriche, *Relazione per la deperimetrazione del S.I.N. Taranto* (proposta), prot. 43905 del 6 marzo 2024, con l'Allegato 2 "particelle catastali" escluse, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=12830_24-43905.zip — copie in `fonti/2024-03_mase_proposta-deperimetrazione-sin-taranto.pdf` e `fonti/2024-03_mase_proposta-deperimetrazione-sin-taranto-particelle-escluse.xlsx`
 
+[18] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2022*, pagina 43, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2022_omissisb.pdf — copia in `fonti/2022-03_ilva-as_relazione-trimestrale-I-2022.pdf`
+
+[19] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2022*, pagina 39, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2022_omissisb.pdf — copia in `fonti/2022-12_ilva-as_relazione-trimestrale-IV-2022.pdf`
+
+[20] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 2° trimestre 2023*, pagina 35, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_II_trim_2023_omissisb.pdf — copia in `fonti/2023-06_ilva-as_relazione-trimestrale-II-2023.pdf`
+
+[21] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2023*, pagina 37, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2023_omissisb.pdf — copia in `fonti/2023-12_ilva-as_relazione-trimestrale-IV-2023.pdf`
+
+[22] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pagina 54, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
+
+[23] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagina 52, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
 ## Cosa non sappiamo
 1. **Da dove viene l'inquinamento dell'acqua.** ARPA e ISPRA indicano due possibili collegamenti, il materiale di riporto e la vecchia attività della Sidercomit, ma scrivono che non è un rapporto di causa certo [11][12]. Ilva fa notare che a nord c'è un altro sito con l'acqua inquinata e che l'inquinamento potrebbe arrivare da lì [9]. Nessun ente ha deciso. Non verificato.
 2. **Ilva ha risposto al Ministero?** Dopo la lettera del 19 gennaio 2024 [14], nell'archivio non c'è né una risposta di Ilva né una nuova analisi di rischio. Ilva scrive solo che i nuovi pozzetti e i controlli sono "in fase di pianificazione" e, nella stessa frase, che la seconda campagna è stata fatta il 6–7 novembre 2025 [1]. Non è chiaro se i nuovi pozzetti esistano. Vedi la bozza di richiesta FOIA qui sotto.
@@ -125,6 +143,23 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 7. **Le spese dopo il 2022**: non verificato (vedi "Soldi").
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+**A:** ARPA Puglia, Dipartimento provinciale di Taranto — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina URP](https://www.arpa.puglia.it/pagina2819_urp.html)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – Area "Land E" (ex Sidercomit) di ILVA in A.S. (SIN Taranto, ID area 3918): validazione 2023, nuovi piezometri e monitoraggio della falda, amianto (DAP Taranto)
+>
+> Il/La sottoscritto/a [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere i seguenti documenti o, in mancanza, i dati, relativi all'area "Land E" (ex Sidercomit) di ILVA S.p.A. in A.S. (Comune di Taranto, Foglio 192, particella 70, e Foglio 194, particella 120; SIN di Taranto, ID area 3918):
+>
+> 1. **Validazione.** La relazione di validazione dei risultati della caratterizzazione trasmessa da ARPA a ILVA il 16/05/2023, che non risulta pubblicata nell'archivio del Ministero.
+> 2. **Nuovi piezometri e falda.** Le comunicazioni ricevute da ILVA, dopo la nota del Ministero prot. 10587 del 19/01/2024, sulla realizzazione dei 5 nuovi piezometri proposti nell'analisi di rischio, e i risultati del monitoraggio delle acque sotterranee eseguito dal 2024 a oggi (compresa la campagna del 6–7/11/2025), con gli eventuali campioni in contraddittorio di ARPA.
+> 3. **Analisi di rischio.** L'eventuale risposta di ILVA alla nota del 19/01/2024 o la nuova analisi di rischio, se trasmesse anche ad ARPA, con le osservazioni dell'Agenzia.
+> 4. **Amianto.** Eventuali verbali o comunicazioni sulle lastre potenzialmente contenenti amianto segnalate durante la caratterizzazione del 2022 vicino a un pozzetto esistente, e sulla loro analisi o rimozione.
+>
+> Chiede di ricevere i documenti in formato elettronico all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.
+
+### Bozza di richiesta al Ministero (FOIA) — in attesa
+Da inviare all'email ordinaria della Direzione (ecb-udg@mase.gov.it) solo se la prima richiesta mandata lì (FOIA 31, 12 ottobre 2026) viene protocollata; i punti 1, 2 e 5 sono chiesti, in parte, anche ad ARPA nella bozza qui sopra.
+
 **A:** Ministero dell'Ambiente e della Sicurezza energetica — Direzione generale economia circolare e bonifiche — PEC: ecb@pec.mase.gov.it (indirizzo verificato il 2 ottobre 2026 sulla [pagina ufficiale della Direzione](https://www.mase.gov.it/pagina/direzione-generale-economia-circolare-e-bonifiche-ecb))
 
 > Oggetto: Richiesta di accesso civico generalizzato (art. 5, comma 2, D.Lgs. 33/2013) – area "Land E (ex Sidercomit)" di Ilva in A.S., SIN di Taranto (ID Area 3918)
