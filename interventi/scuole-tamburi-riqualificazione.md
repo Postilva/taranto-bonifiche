@@ -1,5 +1,5 @@
 # B3 – Cinque scuole del quartiere Tamburi: lavori di riqualificazione, ventilazione e aree esterne
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 13 ottobre 2026* · ⚠ Non è un'opera ambientale: lavori su edifici, aria delle aule e cortili, non su terreno o acqua inquinati.
 
 ## In breve
 Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabelli e Giusti) hanno avuto tre tipi di lavori: ristrutturazione degli edifici con risparmio energetico, impianti che filtrano l'aria dentro le aule (la "ventilazione meccanica controllata") e rifacimento dei cortili e delle aree esterne [1][2]. **Non sono una bonifica**: nessuno di questi lavori ha tolto inquinamento dal terreno o dall'acqua, e nessun certificato di bonifica è collegato a questi lavori [1][4][9]. Secondo il Commissario sono tutti conclusi [1]: i lavori sulle aule sono documentati da atti ufficiali (fino al 2022), mentre per le aree esterne non ho trovato un documento finale [1][6][8].

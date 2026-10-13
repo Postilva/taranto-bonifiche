@@ -1,6 +1,6 @@
 # Elenco degli interventi — Bonifiche Taranto
 
-*Aggiornato al 30 settembre 2026. Prima versione, da rileggere insieme.*
+*Aggiornato al 13 ottobre 2026. Prima versione, da rileggere insieme.*
 
 ## Come leggere questo elenco
 
@@ -60,11 +60,9 @@ Fonte principale: [Opuscolo del Commissario, maggio 2026](https://commissari.gov
 |---|---|---|---|---|
 | B1 | Ex Cemerad (Statte): deposito di rifiuti radioattivi | Messa in sicurezza e gestione dei rifiuti radioattivi: "intervento concluso". ⚠ In realtà è concluso solo lo svuotamento (16.640 fusti tolti, gennaio 2025): analisi, demolizione e bonifica sono ancora da avviare. | 12 | ✅ [scheda](interventi/ex-cemerad.md) |
 | B2 | Aree verdi delle scuole Deledda, De Carolis, D'Aquino (Tamburi) | Analisi del terreno e analisi di rischio fatte (2015–2016). Secondo il Commissario non c'è rischio per la salute, quindi nessuna bonifica ma solo sistemazione delle aree. Per la Regione (2020) è un sito "non contaminato – rischio accettabile", ma senza la formula di chiusura del procedimento. Pagati 75.751 € su 106.240 € a maggio 2022. Sostanze trovate non pubbliche. ⚠ Nessun certificato. | 13 | ✅ [scheda](interventi/scuole-tamburi-aree-verdi.md) |
-| B3 | 5 scuole del Tamburi | Non è una bonifica: ristrutturazione di 5 scuole, filtri dell'aria nelle aule (collaudati nel 2022), cortili rifatti (fine lavori non documentata). ⚠ Non tocca il terreno né l'inquinamento del quartiere. | 13 | ✅ [scheda](interventi/scuole-tamburi-riqualificazione.md) |
 | B4 | Mar Piccolo: mercato ittico galleggiante affondato | Relitto rimosso (fine lavori dicembre 2021, circa 2,43 milioni €). L'impresa ha una causa per altri 960.000 €. ⚠ Togliere il relitto non è bonificare i fondali. | 19 | ✅ [scheda](interventi/mar-piccolo-mercato-ittico.md) |
 | B5 | Mar Piccolo: rifiuti sul fondale del 1° seno (1° lotto) | Circa 500 t di rifiuti tolte nel 2017–2018, più un "completamento" da 3,33 milioni finito nel 2023. Ultimi pagamenti a gennaio 2025: 3,31 milioni + IVA pagati su 3,33; quantità tolte non pubbliche. ⚠ I fanghi inquinati non sono stati toccati. | 19–20 | ✅ [scheda](interventi/mar-piccolo-rifiuti-lotto1.md) |
 | B6 | Mar Piccolo: studi, indagini, sorvolo lidar | Studi, indagini e accordi "conclusi" secondo l'opuscolo: risultati e costi singoli non pubblici, nessuna traccia del sorvolo lidar. Nel 2022 il Commissario stesso diceva che quei fondi erano stati spesi in ricerca, "ma non per un'attività di bonifica". ⚠ Sono studi, non bonifica. | 20 | ✅ [scheda](interventi/mar-piccolo-studi.md) |
-| B7 | Molo polisettoriale (porto): dragaggio e banchina | Il Commissario ha pagato tutta la sua quota (16,9 milioni), ma a fine 2025 era dragato circa l'1% del previsto. Nel 2026 il Ministero chiede conto delle "non conformità" della vasca; il progetto di completamento è sospeso. ⚠ "Concluso" vale solo per i pagamenti. | 23 | ✅ [scheda](interventi/molo-polisettoriale.md) |
 
 ### Interventi in corso o da fare
 
@@ -76,10 +74,26 @@ Fonte principale: [Opuscolo del Commissario, maggio 2026](https://commissari.gov
 | B11 | Mar Piccolo: rifiuti sul fondale del 1° seno (2° lotto) | Solo programmazione: nessun progetto, gara o data. La Regione stimava 4,7 milioni (2024) e nel 2025 ha chiesto al Governo circa 5 milioni; i fondali sono quelli davanti al waterfront del Comune (6 milioni, ancora in affidamento). ⚠ Non partito, e comunque non tocca i fanghi. | 21 | ✅ [scheda](interventi/mar-piccolo-rifiuti-lotto2.md) |
 | B12 | Mar Piccolo: bonifica "Area 170 ha" con dragaggio | Collaborazione Commissario-Marina avviata nel 2025; secondo il Commissario nulla osta ISPRA (novembre 2025) e bonifica da ordigni bellici (gennaio 2026), poi indagini e dragaggi. Nessun progetto né fondi assegnati (33,5 milioni solo proposti). I lavori della Difesa riguardano il Mar Grande. ⚠ Non bonificata. | 21–22 | ✅ [scheda](interventi/mar-piccolo-area-170.md) |
 | B13 | Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018) | Gara da 32,3 milioni (2018) sospesa nel 2020, mai aggiudicata né annullata. Dei 55 milioni del programma, pagati circa 5,6 per altre attività. ⚠ Nessun piano finanziato per bonificare il 1° seno. | 19 | ✅ [scheda](interventi/mar-piccolo-gara-2018.md) |
-| B14 | Riduzione del perimetro del SIN | Dicembre 2024: uscite dal SIN 7 aree (pratiche chiuse e opere portuali nuove). Oggi 4.289 ettari a terra e 6.872 a mare (confermati dalla mappa ufficiale). Mar Grande: approvato solo il piano delle analisi; accordo Commissario–porto a marzo 2026. ⚠ Uscire dal SIN non vuol dire essere puliti. | 24–25 | ✅ [scheda](interventi/deperimetrazione-sin.md) |
 | B15 | Filiere verdi | Piante per ripulire il suolo su circa 90 ettari pubblici: finanziata solo la parte a terra (23 milioni, marzo 2026), progetto in scrittura, nessuna gara. ⚠ Non "operativo" come dice l'opuscolo; nessun dato sui risultati. | 29–31 | ✅ [scheda](interventi/filiere-verdi.md) |
-| B16 | Cozze: studi sulla decontaminazione + progetto MITICA | Non è una bonifica: lo studio misura quanto in fretta le cozze si depurano in Mar Grande (30–48 giorni); MITICA studia caldo e ossigeno. Effetto concreto: un mese di rinvio, solo per il 2026, per spostare le cozze piccole (ordinanza regionale n. 84/2026, che non cita lo studio). ⚠ Il mare non viene ripulito. | 26–28 | ✅ [scheda](interventi/mitili-mitica.md) |
-| B17 | Sea Hub (Mar Piccolo, 2° seno) | Progetto per togliere pontili, relitti e strutture dalla costa nord del 2° seno (13,2 milioni, stima): candidatura presentata il 30/9/2026, nessun finanziamento deciso. ⚠ Non tocca i fanghi; parte dei soldi tolta al risanamento a mare delle Filiere verdi. | 34–35 | ✅ [scheda](interventi/sea-hub.md) |
+
+### Nel programma del Commissario, ma non sono opere ambientali
+
+L'opuscolo del Commissario le presenta tra i risultati del programma di bonifica, in parte pagate con i suoi fondi, ma non intervengono su terreno, acqua o fondali inquinati. Le teniamo per questo, separate dalle altre e fuori dai conteggi e dalla mappa.
+
+| # | Intervento | Cosa dice la fonte | Pag. | Scheda |
+|---|---|---|---|---|
+| B3 | 5 scuole del Tamburi | Non è un'opera ambientale: ristrutturazione di 5 scuole, filtri dell'aria nelle aule (collaudati nel 2022), cortili rifatti (fine lavori non documentata). ⚠ Non tocca il terreno né l'inquinamento del quartiere. | 13 | ✅ [scheda](interventi/scuole-tamburi-riqualificazione.md) |
+| B7 | Molo polisettoriale (porto): dragaggio e banchina | Non è un'opera ambientale: è un'opera portuale (banchina e dragaggio per le navi), pagata anche con i fondi del Commissario. Il Commissario ha pagato tutta la sua quota (16,9 milioni), ma a fine 2025 era dragato circa l'1% del previsto. Nel 2026 il Ministero chiede conto delle "non conformità" della vasca; il progetto di completamento è sospeso. ⚠ "Concluso" vale solo per i pagamenti. | 23 | ✅ [scheda](interventi/molo-polisettoriale.md) |
+| B16 | Cozze: studi sulla decontaminazione + progetto MITICA | Non è un'opera ambientale: sono studi su allevamento e sicurezza alimentare. Lo studio misura quanto in fretta le cozze si depurano in Mar Grande (30–48 giorni); MITICA studia caldo e ossigeno. Effetto concreto: un mese di rinvio, solo per il 2026, per spostare le cozze piccole (ordinanza regionale n. 84/2026, che non cita lo studio). ⚠ Il mare non viene ripulito. | 26–28 | ✅ [scheda](interventi/mitili-mitica.md) |
+| B17 | Sea Hub (Mar Piccolo, 2° seno) | Non è un'opera ambientale: è una riqualificazione della costa. Progetto per togliere pontili, relitti e strutture dalla costa nord del 2° seno (13,2 milioni, stima): candidatura presentata il 30/9/2026, nessun finanziamento deciso. ⚠ Non tocca i fanghi; parte dei soldi tolta al risanamento a mare delle Filiere verdi. | 34–35 | ✅ [scheda](interventi/sea-hub.md) |
+
+### Contesto: i confini del SIN (non è un intervento)
+
+Non è un'opera ma un atto del Ministero che decide quali aree fanno parte del SIN. Resta come contesto, fuori dai conteggi e dalla mappa.
+
+| # | Intervento | Cosa dice la fonte | Pag. | Scheda |
+|---|---|---|---|---|
+| B14 | Riduzione del perimetro del SIN | Dicembre 2024: uscite dal SIN 7 aree (pratiche chiuse e opere portuali nuove). Oggi 4.289 ettari a terra e 6.872 a mare (confermati dalla mappa ufficiale). Mar Grande: approvato solo il piano delle analisi; accordo Commissario–porto a marzo 2026. ⚠ Uscire dal SIN non vuol dire essere puliti. | 24–25 | ✅ [scheda](interventi/deperimetrazione-sin.md) |
 
 ### Priorità decise nel 2024 (Delibera Regione Puglia n. 981/2024)
 

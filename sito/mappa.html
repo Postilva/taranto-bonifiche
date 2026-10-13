@@ -36,6 +36,7 @@
       <p class="lcount" id="lcount"></p>
     </div>
     <ul class="list" id="list"></ul>
+    <p class="lcount" id="fuori"></p>
   </aside>
   <button type="button" class="paneltoggle" id="panel-open">☰ Elenco e filtri</button>
 
@@ -196,6 +197,8 @@ $("#list").addEventListener("click", e => {
   setTimeout(() => select(c.dataset.code), isNarrow() ? 230 : 0);
 });
 renderList();
+$("#fuori").innerHTML = "Non sono sulla mappa le voci del Commissario che non sono opere ambientali né la riduzione del SIN: " +
+  ELENCO.X.flatMap(g => g[1]).map(r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]}</a>` : r[0]; }).join(", ") + ".";
 
 // mappa.html#A10 → pallino già selezionato
 const start = decodeURIComponent(location.hash.slice(1)).toUpperCase();
