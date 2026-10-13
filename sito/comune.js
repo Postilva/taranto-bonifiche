@@ -34,6 +34,11 @@ const SHORT = {"discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2
 const COORD_NOTE = {"pozzo-25":"Attenzione: la scheda segnala che le fonti danno coordinate diverse tra loro (il piano del 2021 indica un punto circa 2,8 km più a nord)."};
 const SCHEDE = DATA.schede.map(s => ({...s, short: SHORT[s.id] || s.title.split(/ \(|:/)[0]}));
 
+/* ---------- contatto ---------- */
+// link del modulo Google per scriverci; vuoto = i link "Scrivici" restano nascosti
+const CONTATTO = "";
+document.querySelectorAll(".contatto").forEach(a => { if (CONTATTO) a.href = CONTATTO; else a.hidden = true; });
+
 /* ---------- utilità ---------- */
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
