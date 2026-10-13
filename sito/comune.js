@@ -36,7 +36,7 @@ const SCHEDE = DATA.schede.map(s => ({...s, short: SHORT[s.id] || s.title.split(
 
 /* ---------- contatto ---------- */
 // link del modulo Google per scriverci; vuoto = i link "Scrivici" restano nascosti
-const CONTATTO = "";
+const CONTATTO = "https://forms.gle/fLbgTRdhU5ES3kXw5";
 document.querySelectorAll(".contatto").forEach(a => { if (CONTATTO) a.href = CONTATTO; else a.hidden = true; });
 
 /* ---------- utilità ---------- */
