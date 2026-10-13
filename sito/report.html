@@ -76,7 +76,7 @@ function render(s){
   const extra = s.sections.filter(x => !/^date principali/i.test(x.title));
   let h = `<a class="back" href="mappa.html${p ? "#" + s.code : ""}">← Torna alla mappa</a>
     <header class="rp-head">
-      <div class="meta"><span class="badge ok">✔ verificato</span><span class="mono">${s.codes.join(" + ")}</span><span>${GRP[s.code[0]]}</span>${NON_AMB.has(s.code) ? `<span class="badge expl">Non è un'opera ambientale</span>` : FUORI.has(s.code) ? `<span class="badge expl">Contesto, non è un intervento</span>` : ""}</div>
+      <div class="meta"><span class="badge ok">✔ verificato</span><span class="mono">${s.codes.join(" + ")}</span><span>${GRP[s.code] || GRP[s.code[0]]}</span>${NON_AMB.has(s.code) ? `<span class="badge expl">Non è un'opera ambientale</span>` : FUORI.has(s.code) ? `<span class="badge expl">Contesto, non è un intervento</span>` : ""}</div>
       <h1>${esc(s.title)}</h1>
       ${s.verdict ? `<p class="verdict">${esc(s.verdict)}</p>` : ""}
       ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}

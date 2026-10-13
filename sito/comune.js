@@ -50,7 +50,7 @@ const TOTAL = ALL.length;   // interventi ambientali (gruppi A e B, senza le voc
 document.querySelectorAll(".n-b").forEach(el => el.textContent = ELENCO.B.count);
 document.querySelectorAll(".n-x").forEach(el => el.textContent = NON_AMB.size);
 const codeCmp = (a,b) => a[0]===b[0] ? (+a.slice(1))-(+b.slice(1)) : (a<b?-1:1);
-const GRP = {A:"Gruppo A · Ilva in amministrazione straordinaria", B:"Gruppo B · Commissario per la bonifica"};
+const GRP = {A:"Gruppo A · Ilva in amministrazione straordinaria", B:"Gruppo B · Commissario per la bonifica", B14:"Ministero dell'Ambiente"};   // B14: i decreti di riduzione del SIN sono del Ministero
 const GRP_SHORT = {A:"Gruppo A · Ilva", B:"Gruppo B · Commissario"};
 
 /* Posizioni "da documento ufficiale": solo se la scheda riporta le coordinate di un documento (riga **Coordinate**,
