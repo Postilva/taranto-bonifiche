@@ -1,5 +1,5 @@
 # B18 – Falda superficiale del comparto orientale (bacino del Galeso, Piccole Industrie – SP 49)
-*Stato scheda: bozza — aggiornata al 14 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 14 ottobre 2026*
 
 ## In breve
 È il progetto per fermare l'acqua sotterranea inquinata che scorre sotto la zona industriale delle Piccole Industrie, lungo la strada provinciale 49, verso il quartiere Tamburi e il Mar Piccolo [2][3]. Il Comune di Taranto ha presentato il progetto al Ministero dell'Ambiente il 7 novembre 2025: pozzi e trincee che pompano l'acqua e un impianto che la ripulisce prima di scaricarla in mare [2][3][6]. **A ottobre 2026 il progetto non è ancora approvato e i lavori non sono cominciati.** Se ne parla dal 2009 [6].

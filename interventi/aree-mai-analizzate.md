@@ -1,5 +1,5 @@
 # B20 – Aree del SIN mai analizzate (8 aree)
-*Stato scheda: bozza — aggiornata al 14 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 14 ottobre 2026*
 
 ## In breve
 Dentro il SIN di Taranto ci sono ancora zone dove nessuno ha mai fatto le analisi del terreno e dell'acqua: non si sa se siano inquinate o no [1]. Nel 2024 la Regione ne ha elencate 8, tra Taranto e Statte, e ha stimato **15,6 milioni €** per analizzarle [1]. **Sono solo stime: non risultano fondi assegnati, piani delle analisi o lavori**, tranne un terreno del Comune di 6.000 m² vicino al depuratore Gennarini: lì, con 500.000 € dell'accordo del 2021, il Comune sta togliendo ordigni bellici e coperture di amianto prima di fare le analisi [2][9][10]. Nel frattempo due di queste zone, Distripark ed ex Cantieri Tosi, sono uscite dal SIN a dicembre 2024 [4].
