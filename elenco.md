@@ -1,6 +1,6 @@
 # Elenco degli interventi — Bonifiche Taranto
 
-*Aggiornato al 13 ottobre 2026. Prima versione, da rileggere insieme.*
+*Aggiornato al 14 ottobre 2026. Prima versione, da rileggere insieme.*
 
 ## Come leggere questo elenco
 
@@ -8,7 +8,8 @@ Le aree da risanare hanno **responsabili diversi**. Per questo le ho divise in t
 
 - **A. Aree di Ilva** (le vecchie aree della fabbrica non passate ai nuovi gestori). Se ne occupano i commissari di **Ilva in amministrazione straordinaria**.
 - **B. Aree fuori dalla fabbrica** (mare, quartiere Tamburi, Statte…). Se ne occupa il **Commissario straordinario per la bonifica di Taranto**.
-- **C. Altri responsabili** (acciaieria in funzione, raffineria, porto, Marina…). Ancora **da esplorare**.
+- **C. Altri responsabili** (acciaieria in funzione, raffineria, altre aziende, porto, Marina): procedimenti del Ministero dentro il SIN.
+- **D. Fuori dal SIN**: siti dell'anagrafe regionale a Taranto e Statte, dove decidono Regione, Provincia e Comune.
 
 **I passaggi di una bonifica, dal primo all'ultimo:**
 1. **Caratterizzazione**: si fanno le analisi per capire cosa c'è nel terreno e nell'acqua.
@@ -95,22 +96,126 @@ Non è un'opera ma un atto del Ministero che decide quali aree fanno parte del S
 |---|---|---|---|---|
 | B14 | Riduzione del perimetro del SIN | Dicembre 2024: uscite dal SIN 7 aree (pratiche chiuse e opere portuali nuove). Oggi 4.289 ettari a terra e 6.872 a mare (confermati dalla mappa ufficiale). Mar Grande: approvato solo il piano delle analisi; accordo Commissario–porto a marzo 2026. ⚠ Uscire dal SIN non vuol dire essere puliti. | 24–25 | ✅ [scheda](interventi/deperimetrazione-sin.md) |
 
-### Priorità decise nel 2024 (Delibera Regione Puglia n. 981/2024)
+### Priorità della Regione non ancora schedate (Delibera n. 981/2024)
 
-Elencate a pag. 10–11 dell'opuscolo. Di molte **non si sa ancora nulla**:
-PIP Statte · Cimitero San Brunone · ex Yard Belleli · falda del SIN (zona Piccole Industrie, Galeso) · falda del comparto orientale · Mar Piccolo 1° seno · Praia a Mare · aree libere del porto · terrapieno del canale di scarico ex Ilva · dragaggio del porto. Più 5 aree ancora mai analizzate (Distripark, ex depuratore Statte, zona retroportuale, aree tra Piccole Industrie e Italcave, altre).
+Fonte: [Delibera della Giunta regionale n. 981 dell'8/7/2024](https://commissari.gov.it/media/e0tj43m2/del_981_2024.pdf), Allegato 3 (pag. 20–21 del PDF): 23 interventi prioritari nel SIN Taranto, fabbisogno totale 639 milioni €. Copia in `fonti/2024-08_regione-puglia_dgr-981-2024-priorita-sin.pdf`. Le altre voci dell'allegato sono già nelle schede: PIP Statte (B10), Cimitero (B8), Mar Piccolo 1° seno (B11–B13), piattaforma area vasta (B6), molo polisettoriale (B7); ex Yard Belleli e porto sono nel gruppo C (Autorità portuale). Colonna "Pag.": numero della voce nell'Allegato 3.
+
+| # | Intervento | Cosa dice la fonte | Pag. | Scheda |
+|---|---|---|---|---|
+| B18 | Falda superficiale del comparto orientale (bacino del Galeso, Piccole Industrie – SP 49) | Priorità alta: 5,2 + 20 milioni €. Progetto di messa in sicurezza della falda del Comune di Taranto (Sogesid), 33,7 milioni € dall'accordo di programma del 2021: istanza al Ministero a novembre 2025, ancora in istruttoria nel 2026 (archivio MASE, area 4575). ⚠ Solo progetto. | voci 5–6 | ⬜ |
+| B19 | Praia a Mare (falesia di materiali di riporto e spiaggia) | 5 milioni € per la bonifica + 0,5 per completare le analisi. L'accordo di programma del 2021 finanzia le analisi e una messa in sicurezza provvisoria della falesia, con rimozione dei frammenti di amianto dalla spiaggia. Nessun atto nell'archivio del Ministero. ⚠ Non verificato. | voci 8, 12 | ⬜ |
+| B20 | Aree del SIN mai analizzate (8 aree) | Distripark, aree esterne alla Palude La Vela, depuratore Gennarini, ex depuratore di Statte, zona retroportuale, aree tra Piccole Industrie e Italcave, ex Cantieri Tosi, suoli non indagati di Statte: 15,6 milioni € in tutto, solo stime dei costi. Unica traccia: analisi di rischio della Palude La Vela approvata dal Ministero (decreto 33 del 26/2/2025, area 3895). ⚠ Quasi tutto da iniziare. | voci 13–20 | ⬜ |
+
+L'**accordo di programma del 2021** (Ministero, Regione, Commissario, Comuni di Taranto e Statte, 8,45 milioni €) finanzia 6 interventi, elencati da ISPRA (`fonti/2023-10_ispra_relazione-deperimetrazione-sin-taranto.pdf`, par. 4.2). Comune di Statte: Gravina di Leucaspide tratto sud (indagini e bonifica) e tratto nord (indagini e analisi di rischio), vedi A1. Comune di Taranto: progetto della messa in sicurezza della falda superficiale (B18); analisi di un terreno comunale di circa 6.000 m² vicino al depuratore Gennarini (B20); analisi di un'area demaniale di circa 6.000 m² a Praia a Mare; messa in sicurezza provvisoria della falesia di Praia a Mare con rimozione dei frammenti di amianto dalla spiaggia (B19). ⚠ Date diverse per la firma: 20/9/2021 per ISPRA, 29/9/2021 nel testo della delibera 981.
 
 ---
 
-## C. Altri responsabili — da esplorare
+## C. Altri responsabili
 
-Qui non ho ancora cercato. Sono i soggetti elencati dal Ministero ([pagina SIN Taranto](https://bonifichesiticontaminati.mite.gov.it/sin-7/)):
-- **Acciaierie d'Italia** (l'acciaieria in funzione): i suoi obblighi riguardano soprattutto l'inquinamento *attuale* (autorizzazione AIA), non le vecchie contaminazioni.
-- **Raffineria Eni**
-- **Cementir**
-- **Italcave**
-- **Marina Militare / Arsenale**
-- **Autorità portuale**
+Fonte principale: l'[archivio dei procedimenti del Ministero dell'Ambiente](https://bonifichesiticontaminati.mite.gov.it/ricerca/) per il SIN Taranto, scaricato per intero il 14/10/2026 (2.227 documenti, 68 codici di area). Per ogni area ho letto almeno un decreto o una nota per capire chi è e a che punto è. Per la maggior parte delle aree l'archivio online comincia dal 2016–2020: le pratiche più vecchie possono mancare. Una riga per intervento, come nei gruppi A e B; il responsabile è nel nome. Colonna "Pag.": codice dell'area nell'archivio (più codici = stessa pratica).
+
+### Industrie e aziende
+
+| # | Intervento | Cosa risulta finora | Pag. | Scheda |
+|---|---|---|---|---|
+| C1 | Acciaierie d'Italia: suoli dello stabilimento | Pratica sulle "aree di competenza" del gestore dell'acciaieria (DPCM 29/9/2017): aggiornamento del modello del sito, piano di indagine sui materiali di riporto nelle aree non pavimentate (2023), analisi di rischio con osservazioni del Ministero (ottobre 2023). ⚠ Non verificato. | 3054, 3095 | ⬜ |
+| C2 | Acciaierie d'Italia: falda sotto lo stabilimento | Misure di prevenzione e messa in sicurezza d'emergenza della falda: relazioni semestrali sui controlli, pareri ARPA e ISPRA (febbraio 2024), rapporto di monitoraggio (febbraio 2025). ⚠ Non verificato. | 3054, 3095 | ⬜ |
+| C3 | Raffineria Eni: falda | Secondo documenti Eni, progetto di bonifica della falda approvato nel 2004 (9 barriere idrauliche). Nell'archivio: controlli semestrali della falda, richiesta del Ministero del 6/2/2024 e parere ARPA. ⚠ Non verificato. | 3092 | ⬜ |
+| C4 | Raffineria Eni: suoli | Progetto di bonifica dei suoli approvato nel 2007 o nel 2014 (le fonti Eni non concordano). Nessun atto nell'archivio online. ⚠ Non verificato. | — | ⬜ |
+| C5 | Sanac (refrattari, in amministrazione straordinaria) | 48 documenti dal 2022: progetto di bonifica o di messa in sicurezza, pareri ARPA e ISPRA (maggio 2026), conferenza decisoria convocata il 1/10/2026. ⚠ Non verificato. | 3027 | ⬜ |
+| C6 | Italcave: "Nuove Aree" (Statte) | Progetto di bonifica dei suoli: decreto del Ministero del 24/1/2024. Non si sa se i lavori siano partiti. ⚠ Non verificato. | 3083 | ⬜ |
+| C7 | Ecodì: ex stabilimento Lamel (contrada Santa Chiara, zona industriale) | Analisi di rischio approvata (decreto 40/2023), integrazioni e pareri 2024; piano di monitoraggio della falda (parere ARPA novembre 2023). ⚠ Non verificato. | 3896, 3025 | ⬜ |
+| C8 | Ecodì: terreno "greenfield" nella zona PIP di Statte | Piano delle analisi respinto nel 2023 (decreto 253/2023), ripresentato e approvato nel 2024 (decreto 34/2024); analisi di rischio presentata ad aprile 2024. | 4241 | ⬜ |
+| C9 | Perretti Petroli: deposito di carburanti | Analisi di rischio approvata (decreto 232/2023), pareri ARPA 2024. ⚠ Non verificato. | 3006 | ⬜ |
+| C10 | Cementir: cementeria | Nessun atto nell'archivio online sullo stabilimento (l'area 3060 è la ex cava usata da Ilva, scheda A4). ⚠ Da cercare. | — | ⬜ |
+| C11 | Vestas: stabilimento di pale eoliche | Piano delle analisi e indagini integrative (2025). | 3040, 4521 | ⬜ |
+| C12 | Marcegaglia Buildtech: lotto 1A | Procedimento chiuso nel 2024: inquinanti sotto i limiti (decreto 41/2024). | 4446, 4447 | ⬜ |
+| C13 | CDP Immobiliare: ex uffici direzionali Ilva (via Appia, Statte) | Procedimento chiuso a gennaio 2025: suolo sotto i limiti. | 3078 | ⬜ |
+| C14 | Nuova Cava Due Mari: area di cava | Risultati delle analisi approvati (decreto 354/2023). | 3007 | ⬜ |
+| C15 | Seros Invest Energy: aree in contrada Abateresta | Piano delle analisi approvato (decreto 66 del 14/5/2021), risultati trasmessi nel 2023, parere ARPA. | 3856 | ⬜ |
+| C16 | Acquedotto Pugliese: depuratore Gennarini | Analisi di rischio dell'area del depuratore presentata nel 2021, decisione a marzo 2022. | 3887 | ⬜ |
+| C17 | Fornaro | Piano delle analisi (foglio catastale 189), conferenza decisoria 2026. | 4617 | ⬜ |
+| C18 | TPS Taranto | Il 10/3/2025 l'azienda scrive al Ministero che le sue analisi, inviate nel 2009, non hanno mai avuto risposta. | 3069 | ⬜ |
+| C19 | Fer Plast | Analisi di rischio presentata a maggio 2019, conferenza istruttoria convocata. Esito non nell'archivio. | 3093 | ⬜ |
+| C20 | Colabeton: Contrada S. Teresa | Risultati dell'indagine iniziale, decreto 344/2017. | 3037 | ⬜ |
+| C21 | Calcestruzzi SpA | Analisi validate, chiusura del procedimento chiesta (decreto 559/2017). | 3039 | ⬜ |
+| C22 | Miccolis | Suolo e falda nei limiti: chiusura del procedimento (decreto 136/2017). | 3094 | ⬜ |
+| C23 | CBMC (ex CEMIT), lotto 1 | Piano delle analisi (decreto 237/2018). | 3070 | ⬜ |
+| C24 | Tecnomec | Chiusura del procedimento su suoli e falda chiesta nel 2019 (decreto 249/2019). | 3096 | ⬜ |
+| C25 | Consorzio ASI: zona ASI, ambiti A e C | Analisi dello strato superficiale del terreno validate da ARPA (2015), discusse nella conferenza del 16/3/2016 insieme ad aree Italcave e Ilva. Codici 3003 e 3079 non attribuibili con certezza. ⚠ Da verificare. | 3003, 3079 (?) | ⬜ |
+
+### Autorità portuale e Marina
+
+| # | Intervento | Cosa risulta finora | Pag. | Scheda |
+|---|---|---|---|---|
+| C26 | Ex Yard Belleli: messa in sicurezza e bonifica della falda | Accordo di programma del 2022 tra Ministeri, Regione, enti locali, Autorità portuale e Ferretti, con atto integrativo del 4/6/2026. 1° stralcio con impianto di trattamento in funzione, 2° stralcio da 75,7 milioni € (delibera 981, voce 4); 71 documenti nell'archivio, decreto 209/2023. ⚠ Non verificato. | 3909, 3970 | ⬜ |
+| C27 | Porto: dragaggio di bonifica dei fondali davanti ai moli | Circa 120.000 m³ di sedimenti, 16 milioni € anticipati dall'Autorità portuale (delibera 981, voce 22). Progetto del 1° stralcio (Molo San Cataldo, lato levante) approvato con decreto 14 del 18/1/2024. ⚠ Non verificato. | 4199 | ⬜ |
+| C28 | Porto: punti inquinati nelle aree libere vicino a RFI (Tesseratti SS1, SP1) | 1,5 milioni €, solo stima dei costi (delibera 981, voce 9). | — | ⬜ |
+| C29 | Porto: punto inquinato al Varco Nord (Tesseratto SC26) | 1,5 milioni € anticipati dall'Autorità portuale, progetto esecutivo in verifica nel 2024 (delibera 981, voce 23). | — | ⬜ |
+| C30 | Porto: terrapieno a sinistra del canale di scarico ex Ilva | Messa in sicurezza, 1,5 milioni €, solo stima dei costi (delibera 981, voce 10). | — | ⬜ |
+| C31 | Porto: piastra portuale | Progetto di messa in sicurezza permanente legato ai lavori di adeguamento della piastra portuale, decreto 461/2017. ⚠ Non verificato. | 3062 | ⬜ |
+| C32 | Porto: terreni del molo polisettoriale | Analisi di rischio dell'Autorità portuale (2016), decreto 284/2017. È l'area del molo della scheda B7. ⚠ Non verificato. | 3086 | ⬜ |
+| C33 | Ex SOICO (porto): Cantieri di Puglia | Piano delle analisi approvato (decreto 171/2024), risultati validati da ARPA nel 2026. | 4348 | ⬜ |
+| C34 | Marina Militare: Arsenale | Nessun atto nell'archivio online. Nel 2026 l'Arsenale ha avviato una gara per analisi, bonifica e smaltimento dei rifiuti stoccati nelle sue aree (n. 6306/26). ⚠ Da cercare. | — | ⬜ |
+
+**Esclusi** (non sono bonifiche): 5 codici dell'archivio riguardano solo la "valutazione delle interferenze", cioè il controllo che i lavori edilizi dentro il SIN non disturbino le bonifiche: RFI (3057), Snam (4498), Gracocem (3090), Adl Energia (3052), Acquedotto Pugliese (4444). Il codice "446" in un documento è un errore di battitura per 4446 (C12).
+
+---
+
+## D. Fuori dal SIN: siti dell'anagrafe regionale (Taranto e Statte)
+
+Fonte: Anagrafe dei siti da bonificare della Regione Puglia, Allegato 1 alla delibera di Giunta del 2020 (dati ad aprile 2020), copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`. L'anagrafe non comprende i siti del SIN (lì decide il Ministero): questi sono siti dove decidono Regione, Provincia e Comune. È l'ultima versione pubblicata come delibera; ARPA la aggiorna ogni anno, ma l'elenco aggiornato non è pubblico. ⚠ Lo stato è quello del 2020. Già nelle nostre schede: Collinette ecologiche (A15, n. 149 della tabella 2.2), aree verdi delle scuole del Tamburi (B2, comprensorio di via Deledda, n. 65 della tabella 3.2), Cimitero San Brunone (B8, n. 145 della tabella 4). Colonna "Pag.": tabella e numero di riga dell'anagrafe.
+
+### Quartieri e Comuni
+
+| # | Intervento | Cosa risulta (2020) | Pag. | Scheda |
+|---|---|---|---|---|
+| D1 | Quartiere Tamburi, SP1: suolo (Comune di Taranto) | Sito contaminato, 164.770 m²: chiesta la certificazione di avvenuta bonifica. | T4 n. 152 | ⬜ |
+| D2 | Quartiere Tamburi, SP2: suolo (Comune di Taranto) | Sito contaminato, 3.249 m²: chiesta la certificazione di avvenuta bonifica. | T4 n. 151 | ⬜ |
+| D3 | Quartiere Tamburi, SP2: aree private | Fase di accertamento (dal 2005), 45.622 m². | T2.1 n. 23 | ⬜ |
+| D4 | Quartiere Tamburi, SP3: suolo (Comune di Taranto) | Sito contaminato, 34.371 m²: chiesta la certificazione di avvenuta bonifica. | T4 n. 147 | ⬜ |
+| D5 | Quartiere Tamburi, SP4: suolo (Comune di Taranto) | ✔ Certificazione di avvenuta bonifica: "sito bonificato", 808.572 m². | T1 n. 13 | ⬜ |
+| D6 | Quartiere Tamburi: acque sotterranee (Comune di Taranto) | Sito contaminato, 1.327.917 m²: approvati risultati delle analisi e analisi di rischio (procedimento dal 2015). | T4 n. 148 | ⬜ |
+| D7 | Quartiere Salinella: PCB nello strato superficiale del suolo (Comune di Taranto) | Potenzialmente contaminato: piano delle analisi trasmesso (2017), 24.323 m². | T2.2 n. 144 | ⬜ |
+| D8 | Area vasta di Statte: suolo (Comune di Statte) | Sito contaminato: approvati risultati delle analisi e analisi di rischio (dal 2011). Superficie indicata: 58.450.318 m². | T4 n. 137 | ⬜ |
+| D9 | Statte: ex discarica comunale "San Giovanni" | Sito contaminato: approvati messa in sicurezza permanente e piano di monitoraggio. | T4 n. 136 | ⬜ |
+| D10 | Statte: ex discarica comunale "Santa Teresa" | Sito contaminato: approvati messa in sicurezza permanente e piano di monitoraggio. | T4 n. 138 | ⬜ |
+| D11 | Statte: discarica abusiva "Ninco Nanco" (rifiuti interrati) | Sito contaminato: approvati messa in sicurezza permanente e piano di monitoraggio. | T4 n. 139 | ⬜ |
+| D12 | Statte: ex stabilimento Matra, lotto est (Comune di Statte) | ✔ Certificazione di avvenuta bonifica (rifiuti pericolosi con PCB). | T1 n. 11 | ⬜ |
+| D13 | Statte: ex stabilimento Matra, lotto ovest (Comune di Taranto) | ✔ Certificazione di avvenuta bonifica. | T1 n. 12 | ⬜ |
+| D14 | Taranto: discarica "Palombara" (Vergine) | Potenzialmente contaminato: probabile perdita di percolato in falda (2016), 335.826 m². | T2.2 n. 146 | ⬜ |
+| D15 | Taranto: ex centro di stoccaggio rifiuti Euro Ecology Service (SP 49) | Potenzialmente contaminato: rifiuti abbandonati dopo il fallimento; piano delle analisi approvato. | T2.2 n. 138 | ⬜ |
+
+### Ilva fuori dal SIN
+
+| # | Intervento | Cosa risulta (2020) | Pag. | Scheda |
+|---|---|---|---|---|
+| D16 | Ilva: area di deposito pneumatici fuori uso "UA26" (Statte) | Potenzialmente contaminato: discarica abusiva di pneumatici (2017). | T2.2 n. 135 | ⬜ |
+| D17 | Ilva: area di deposito traversine ferroviarie "UA27" (Statte) | Potenzialmente contaminato: traversine al creosoto (2009), 74.708 m². | T2.2 n. 137 | ⬜ |
+
+### Forze armate
+
+| # | Intervento | Cosa risulta (2020) | Pag. | Scheda |
+|---|---|---|---|---|
+| D18 | Marina: Arsenale, zona Gittata, aree esterne e vicine all'ex area IP | Potenzialmente contaminato: piano delle analisi approvato (2016), 54.994 m². | T2.2 n. 142 | ⬜ |
+| D19 | Marina: Arsenale, zona Gittata, vasca di stoccaggio dei fanghi di dragaggio | Sito contaminato: progetto di bonifica trasmesso (2009). | T4 n. 149 | ⬜ |
+| D20 | Marina: Arsenale, ex area IP (via del Pizzone) | Sito contaminato: messa in sicurezza permanente trasmessa (2005), 35.814 m². | T4 n. 150 | ⬜ |
+| D21 | Marina: Scuola sottufficiali, San Vito (perdita di carburante, 2010) | Potenzialmente contaminato: risultati delle analisi trasmessi, 311.590 m². | T2.2 n. 145 | ⬜ |
+| D22 | Marina: Scuola sottufficiali, San Vito (centrale termica, 2018) | Potenzialmente contaminato: misure d'emergenza e indagini preliminari. | T2.2 n. 148 | ⬜ |
+| D23 | Marina: ex campo militare "Cimino – Manganecchia" (Fondazione CEM) | Fase di accertamento (2011), 5.827 m². | T2.1 n. 21 | ⬜ |
+| D24 | Aeronautica: ex 65° Deposito territoriale (SS 7) | Potenzialmente contaminato (2019): misure d'emergenza e indagini preliminari. | T2.2 n. 150 | ⬜ |
+
+### Aziende
+
+| # | Intervento | Cosa risulta (2020) | Pag. | Scheda |
+|---|---|---|---|---|
+| D25 | Ex Fonderie (Ikona Italia), via Appia km 641 | Potenzialmente contaminato: rifiuti interrati (2012), 38.266 m². | T2.2 n. 147 | ⬜ |
+| D26 | Centro recupero rottami LA.MA.R., via Capasino | Potenzialmente contaminato: idrocarburi e metalli; piano delle analisi approvato. | T2.2 n. 141 | ⬜ |
+| D27 | Ex stabilimento oleario Costa (CAL.ME Cementi), via Metaponto | Non contaminato dopo le misure d'emergenza (amianto e rifiuti pericolosi). | T3.1 n. 98 | ⬜ |
+| D28 | Statte: stabilimento Ecologica Tarantina | Non contaminato dopo le misure d'emergenza (rifiuti con amianto). | T3.1 n. 94 | ⬜ |
+| D29 | Statte: ex stabilimento Magneti Sud (CMI Sud) | Non contaminato dopo le misure d'emergenza (cisterne con PCB). | T3.1 n. 95 | ⬜ |
+| D30 | Distributori di carburante (10) | Contaminati: Q8 SS7 km 2+500 (lavori di bonifica avviati), ESSO 8003 SS7 Appia. Potenzialmente contaminati o in accertamento: ENI 9463 via Galeso, TotalErg via Cugini, ESSO 8050 via C. Battisti. Chiusi (non contaminati o rischio accettabile): AGIP 19428 C.da Lama, Q8 8746 via Ancona, Eni 54269 superstrada per Grottaglie, ESSO 8001 via Porto Mercantile, ESSO 1219 SS7. | vari | ⬜ |
+| D31 | Sversamenti da incidenti stradali (3) | Statte, SS7: C.A.P.P. (potenzialmente contaminato) e S.A.C.A.L.B. (contaminato, progetto di bonifica trasmesso); Taranto, SS7 km 638: DESOMIT (potenzialmente contaminato). | vari | ⬜ |
 
 ---
 
