@@ -1,5 +1,5 @@
 # B19 – Praia a Mare (falesia di materiali di riporto e spiaggia)
-*Stato scheda: bozza — aggiornata al 14 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 14 ottobre 2026*
 
 ## In breve
 A Praia a Mare, nel quartiere San Vito di Taranto, c'è una falesia (una parete di terra sul mare) fatta di rifiuti e materiali portati dall'uomo, e sotto si è formata una spiaggia dove si trovano frammenti di amianto [1][2][6]. Con i fondi di un accordo del 2021 il Comune ha recintato l'area, tolto materiali di ferro e fatto una **messa in sicurezza provvisoria** della falesia, con la rimozione dell'amianto anche dalla spiaggia: per questi lavori risultano approvati gli "atti finali" e pagato il saldo [6]. **Il problema però è ancora lì**: la messa in sicurezza è provvisoria, alcune parti si sono già rovinate e vanno riparate, e le analisi complete del terreno sono appena state affidate [6]. Per la bonifica la Regione stima 5 milioni €, che non sono stati assegnati [1].

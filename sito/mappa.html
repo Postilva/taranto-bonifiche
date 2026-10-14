@@ -75,7 +75,7 @@ function pvHtml(p){
       ${s ? `<span class="vd">${esc(s.verdict)}</span>` : ""}
     </div>
     <div class="body">
-      <span class="grp">${GRP_SHORT[p.code[0]]}</span>
+      <span class="grp">${GRP_SHORT[p.code] || GRP_SHORT[p.code[0]]}</span>
       <span class="nm">${esc(p.name)}</span>
       ${s ? "" : `<span class="st">${esc(row[2])}</span>`}
       <span class="pos">${esc(posShort(p))}${p.official ? "" : " · " + esc(p.zone.split(" (")[0].replace(/^Zona generica: /,"zona generica: "))}</span>

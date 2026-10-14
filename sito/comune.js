@@ -29,7 +29,7 @@ const ELENCO = {
 ELENCO.B.count = ELENCO.B.subs.reduce((n,s) => n + s[1].length, 0) + " interventi";
 
 // nome breve per lista, grafici e cronologia (se manca si usa il titolo fino alla parentesi)
-const SHORT = {"discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-mercato-ittico":"Mar Piccolo, mercato ittico","mar-piccolo-rifiuti-lotto1":"Mar Piccolo, rifiuti 1° lotto","mar-piccolo-rifiuti-lotto2":"Mar Piccolo, rifiuti 2° lotto","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","scuole-tamburi-riqualificazione":"Scuole Tamburi, lavori","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","deperimetrazione-sin":"Riduzione del SIN","molo-polisettoriale":"Molo polisettoriale","mitili-mitica":"Cozze e MITICA","sea-hub":"Sea Hub, Arco Nord","filiere-verdi":"Filiere verdi"};
+const SHORT = {"discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-mercato-ittico":"Mar Piccolo, mercato ittico","mar-piccolo-rifiuti-lotto1":"Mar Piccolo, rifiuti 1° lotto","mar-piccolo-rifiuti-lotto2":"Mar Piccolo, rifiuti 2° lotto","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","scuole-tamburi-riqualificazione":"Scuole Tamburi, lavori","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","deperimetrazione-sin":"Riduzione del SIN","molo-polisettoriale":"Molo polisettoriale","mitili-mitica":"Cozze e MITICA","sea-hub":"Sea Hub, Arco Nord","filiere-verdi":"Filiere verdi","falda-galeso":"Falda del Galeso","praia-a-mare":"Praia a Mare","aree-mai-analizzate":"Aree mai analizzate"};
 // note sulla posizione che la scheda stessa segnala
 const COORD_NOTE = {"pozzo-25":"Attenzione: la scheda segnala che le fonti danno coordinate diverse tra loro (il piano del 2021 indica un punto circa 2,8 km più a nord)."};
 const SCHEDE = DATA.schede.map(s => ({...s, short: SHORT[s.id] || s.title.split(/ \(|:/)[0]}));
@@ -55,8 +55,8 @@ const TOTAL = ALL.length;   // interventi ambientali (gruppi A e B, senza le voc
 document.querySelectorAll(".n-b").forEach(el => el.textContent = ELENCO.B.count);
 document.querySelectorAll(".n-x").forEach(el => el.textContent = NON_AMB.size);
 const codeCmp = (a,b) => a[0]===b[0] ? (+a.slice(1))-(+b.slice(1)) : (a<b?-1:1);
-const GRP = {A:"Gruppo A · Ilva in amministrazione straordinaria", B:"Gruppo B · Commissario per la bonifica", B14:"Ministero dell'Ambiente"};   // B14: i decreti di riduzione del SIN sono del Ministero
-const GRP_SHORT = {A:"Gruppo A · Ilva", B:"Gruppo B · Commissario"};
+const GRP = {A:"Gruppo A · Ilva in amministrazione straordinaria", B:"Gruppo B · Commissario per la bonifica", B14:"Ministero dell'Ambiente", B18:"Comune di Taranto · priorità della Regione", B19:"Comune di Taranto · priorità della Regione", B20:"Commissario e Comuni · priorità della Regione"};   // B14: i decreti di riduzione del SIN sono del Ministero
+const GRP_SHORT = {A:"Gruppo A · Ilva", B:"Gruppo B · Commissario", B18:"Comune di Taranto", B19:"Comune di Taranto", B20:"Commissario e Comuni"};
 
 /* Posizioni "da documento ufficiale": solo se la scheda riporta le coordinate di un documento (riga **Coordinate**,
    lette da costruisci.py e convertite in gradi). Tutte le altre sono INDICATIVE: messe a mano nella zona
@@ -78,9 +78,11 @@ const ZONES = {
   mp2:     {ll:[40.490,17.305], r:.004, label:"Mar Piccolo, 2° seno"},
   porto:   {ll:[40.465,17.180], r:.003, label:"Porto di Taranto"},
   margrande:{ll:[40.452,17.205], r:0, label:"Mar Grande"},
+  galeso:  {ll:[40.502,17.245], r:0, label:"Zona Piccole Industrie – SP 49, tra il quartiere Tamburi e il fiume Galeso (dalla scheda); punto non preciso"},
+  sanvito: {ll:[40.425,17.222], r:0, label:"Località Praia a Mare, quartiere San Vito (dalla scheda); punto non preciso"},
   generic: {ll:[40.515,17.245], r:.004, label:"Zona generica: area di Taranto (l'elenco non indica un luogo)"}
 };
-const PLACE = {A1:"gravina",A2:"nordovest",A4:"cementir",A5:"sp48",A6:"sp48",A15:"collinette",B1:"cemerad",B2:"deledda",B3:"tamburi",B4:"mp1",B5:"mp1",B6:"mp1",B7:"porto",B8:"cimitero",B9:"tamburi",B10:"statte",B11:"mp1",B12:"mp1",B13:"mp1",B14:"margrande",B15:"generic",B16:"mp1",B17:"mp2"};
+const PLACE = {A1:"gravina",A2:"nordovest",A4:"cementir",A5:"sp48",A6:"sp48",A15:"collinette",B1:"cemerad",B2:"deledda",B3:"tamburi",B4:"mp1",B5:"mp1",B6:"mp1",B7:"porto",B8:"cimitero",B9:"tamburi",B10:"statte",B11:"mp1",B12:"mp1",B13:"mp1",B14:"margrande",B15:"generic",B16:"mp1",B17:"mp2",B18:"galeso",B19:"sanvito",B20:"generic"};
 function pointsFor(){
   const all = [...ELENCO.A.items, ...ELENCO.B.subs.flatMap(s=>s[1])];
   const byZone = {};
@@ -145,6 +147,9 @@ const STEPS = {
   "mar-piccolo-rifiuti-lotto1":[["na","La scheda non ne parla"],["na","La scheda non ne parla"],["todo","Sedimenti non messi in sicurezza"],["todo","Rifiuti e relitti tolti dal fondale (circa 500 tonnellate nella prima tranche); nessuna bonifica dei sedimenti"],["todo","Nessun certificato di bonifica"]],
   "mar-piccolo-rifiuti-lotto2":[["na","La scheda non ne parla"],["na","La scheda non ne parla"],["todo","Non messo in sicurezza"],["todo","Non c'è progetto, gara o cantiere"],["todo","Non ancora"]],
   "mar-piccolo-area-170":[["done","Analisi del 2005 e studi ARPA e ISPRA: inquinamento esteso da PCB e metalli; i valori misurati non sono pubblici"],["na","La scheda non ne parla"],["todo","Sedimenti non messi in sicurezza"],["todo","Nessun lavoro in mare; circa 33,5 mln € solo proposti dalla Regione (dicembre 2025)"],["todo","Non ancora"]],
+  "falda-galeso":[["done","Analisi di aziende ed enti pubblici e nuovi prelievi nel 2024: manganese, idrocarburi e IPA oltre i limiti"],["na","La scheda non ne parla"],["part","Solo il progetto di messa in sicurezza operativa (pozzi, trincee, impianto di trattamento), presentato al Ministero il 7/11/2025 e non ancora approvato"],["todo","Non bonificata"],["todo","Non ancora"]],
+  "praia-a-mare":[["part","Misure del volume e analisi di terreno e rifiuti nei lavori del Comune; il piano delle analisi del terreno demaniale è appena stato affidato"],["todo","Non ancora"],["part","Messa in sicurezza provvisoria della falesia e rimozione dell'amianto, lavori conclusi secondo gli atti del Comune; alcune parti già da riparare"],["todo","Non bonificata: bonifica stimata in 5 mln €, non finanziata"],["todo","Non ancora"]],
+  "aree-mai-analizzate":[["todo","Mai analizzate; per il terreno vicino al depuratore Gennarini il Comune sta togliendo ordigni bellici e amianto prima delle analisi"],["todo","Non ancora"],["todo","Non messe in sicurezza"],["todo","Non bonificate"],["todo","Non ancora"]],
   "filiere-verdi":[["na","La scheda non ne parla: non si sa ancora dove siano i 90 ettari"],["na","La scheda non ne parla"],["todo","Non messo in sicurezza"],["part","Pulizia del suolo con le piante su circa 90 ettari: parte a terra ammessa a finanziamento (marzo 2026), non ancora partita sul campo"],["todo","Non ancora"]],
 };
 // schede che non descrivono un intervento di bonifica: i 5 passaggi non si applicano
@@ -181,6 +186,9 @@ const MONEY = {
   "mar-piccolo-area-170":[["Stimato",33.5,"Circa 33,5 mln € nel documento di proposta della Regione (dicembre 2025)"],["Stanziato",null,"Nessun finanziamento approvato trovato","nessuno"],["Pagato",null,"Speso per l'Area 170 ha: non si sa","non si sa"]],
   "filiere-verdi":[["Stimato",null,"La scheda non dà un costo stimato diverso dai fondi","—"],["Stanziato",22.976,"22,98 mln € ammessi per la parte a terra (marzo 2026); la parte a mare è scesa a 3,06 mln € (giugno 2026)"],["Pagato",null,"La scheda non indica pagamenti","—"]],
   "sea-hub":[["Stimato",13.2036,"13,20 mln €: fabbisogno stimato dal Commissario per l'Arco Nord"],["Stanziato",null,"Solo fabbisogni stimati, non un contributo già ammesso","non ancora"],["Pagato",null,"Nessun lavoro fatto sull'Arco Nord","—"]],
+  "falda-galeso":[["Stimato",25.2,"25,2 mln € stimati dalla Regione: 5,2 per questo progetto + 20 per il resto della falda del SIN (2024)"],["Stanziato",1.3947,"1,39 mln €, solo per la progettazione (accordo di programma 2021)"],["Pagato",null,"Pagati a Sogesid un acconto del 20% e almeno un'altra rata: importi non pubblicati","non si sa"]],
+  "praia-a-mare":[["Stimato",5.5,"5,5 mln € stimati dalla Regione per bonifica (5) e completamento delle analisi (0,5)"],["Stanziato",0.183,"183.000 € previsti per la messa in sicurezza provvisoria e la rimozione dell'amianto (OpenCUP)","0,18"],["Pagato",null,"Saldo dei lavori pagato, ma l'importo non è pubblicato","non si sa"]],
+  "aree-mai-analizzate":[["Stimato",15.6,"15,6 mln € stimati dalla Regione per analizzare le 8 aree (2024)"],["Stanziato",0.5,"0,5 mln € solo per il terreno vicino al depuratore Gennarini (accordo di programma 2021)"],["Pagato",null,"Speso finora: non si sa","non si sa"]],
   "land-a":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",2.16,"2,16 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.02,"0,02 mln € pagati secondo Ilva (luglio 2022); dopo il 2022 non si sa","0,02"]],
   "land-d1":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",2.30,"2,30 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.09,"0,09 mln € pagati secondo Ilva (luglio 2022)","0,09"]],
   "discarica-due-mari":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",5.05,"5,05 mln € di fondi previsti secondo Ilva (luglio 2022)"],["Pagato",5.39,"5,39 mln € pagati secondo Ilva (luglio 2022)"]],
