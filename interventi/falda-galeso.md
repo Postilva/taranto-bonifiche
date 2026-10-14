@@ -15,7 +15,7 @@
 
 - **2009–2016: i primi studi.** Nel 2009 un accordo tra Ministeri, Regione, Provincia, Comune, porto e Sogesid prevede di progettare la messa in sicurezza della falda di tutto il SIN [6]. Sogesid presenta uno studio di fattibilità nel 2011 e un progetto preliminare nel 2014, rivisto nel 2016 [3][6]. Il progetto riguardava tre zone: ex Yard Belleli, Punta Rondinella e Piccole Industrie [3].
 - **2021–2022: si riparte da una sola zona.** L'accordo di programma del 2021 finanzia la "progettazione definitiva ed esecutiva" della messa in sicurezza della falda, per **1.394.687,95 €** [6][10]. Il Comune la affida a Sogesid nel dicembre 2022 [3][6]. Il progetto si limita all'area delle Piccole Industrie – SP 49 [3].
-- **2023–2024: nuove analisi.** Nuovi pozzi di controllo (piezometri) e prelievi, fatti dalla ditta T&A per Sogesid, con lavori fermi da agosto 2023 a marzo 2024 per i permessi di accesso. I campioni sono stati prelevati dal 3 al 5 aprile 2024 [3].
+- **2023–2024: nuove analisi.** Nuovi pozzi di controllo (piezometri) e prelievi, fatti dalla ditta T&A per Sogesid, con lavori fermi da agosto 2023 a marzo 2024 per i permessi di accesso [3]. Per mettere i pozzi in un terreno della Regione gestito da Ferrovie del Sud Est il Comune ha firmato un verbale tecnico e poi una convenzione con la società [3][13]. I campioni sono stati prelevati dal 3 al 5 aprile 2024 [3].
 - **7 novembre 2025: il progetto va al Ministero.** Il Comune chiede di approvare un progetto di "messa in sicurezza operativa", cioè un intervento che impedisce all'inquinamento di allargarsi mentre la zona continua a essere usata [2]. Il 9 dicembre 2025 chiede di convocare la conferenza di servizi, "stante l'urgenza" [5].
 - **17 dicembre 2025: documenti mancanti.** Il Ministero convoca la conferenza per il 15 gennaio 2026 ma segnala che mancano 7 documenti obbligatori. Il 29 dicembre il Comune spiega perché non li ha prodotti [6][7].
 - **15 gennaio 2026: prima riunione.** Il 19 gennaio il Ministero chiede agli enti un parere scritto, favorevole o no, entro 45 giorni [8]. Il 9 marzo invia il resoconto della riunione; ARPA ne chiede una correzione il 1° aprile 2026 [9].
@@ -37,7 +37,7 @@
 - Secondo i progettisti c'è "un generale miglioramento" rispetto al 2010–2014 [3]. È la valutazione di chi ha scritto il progetto: nessun ente di controllo l'ha ancora confermata.
 
 ## Soldi
-- **Progettazione:** 1.394.687,95 € dall'accordo di programma del 2021 [6]. Non sappiamo quanto sia stato speso finora.
+- **Progettazione:** 1.394.687,95 € dall'accordo di programma del 2021 [6][14]. Il Comune ha pagato a Sogesid un acconto del 20% e almeno un'altra rata; gli importi non si leggono negli atti pubblicati [13].
 - **Lavori:** la Regione stima **5,2 milioni €** per eseguire questo progetto e altri **20 milioni €** per mettere in sicurezza il resto della falda del SIN, partendo dal progetto preliminare di Sogesid. Entrambe le voci hanno priorità "alta" [1]. Sono stime per chiedere fondi, non soldi assegnati.
 - Il costo dei lavori calcolato nel progetto non è pubblico: tra i documenti depositati al Ministero abbiamo trovato solo il costo della sicurezza in cantiere, **328.118,46 €** [12]. Il costo totale non è verificato.
 - Già nel 2015 un intervento di "messa in sicurezza e bonifica della falda superficiale del SIN" da **50 milioni €** era rimasto fuori dal Contratto istituzionale di sviluppo per Taranto, in attesa di trovare i fondi [1].
@@ -84,6 +84,10 @@
 [11] Ministero dell'Ambiente, archivio dei procedimenti di bonifica, https://bonifichesiticontaminati.mite.gov.it/ricerca/, SIN "Taranto", Area "4575": 17 documenti dal 7 novembre 2025 al 1° aprile 2026, consultato il 14 ottobre 2026
 
 [12] Stesso progetto del [3], *Computo metrico estimativo* (elaborato PDEE04, 24 giugno 2025): "computo sicurezza", totale 328.118,46 €, depositato al Ministero il 10 novembre 2025 (Area "4575", invio 4 di 8)
+
+[13] Comune di Taranto, Amministrazione trasparente, "Provvedimenti dirigenti amministrativi", https://taranto.trasparenza-valutazione-merito.it/web/trasparenza/risultati-ricerca (ricerca "falda", consultata il 14 ottobre 2026): titoli degli atti con CUP E55F21001160002 e CIG 947450400B (convenzione con Sogesid, "liquidazione acconto 20%", "approvazione quadro economico", "liquidazione"; convenzione con Ferrovie del Sud Est per i nuovi piezometri). Il portale mostra solo i titoli. Elenco in `fonti/2026-10_comune-taranto_atti-praia-gennarini-falda.txt`
+
+[14] OpenCUP (Presidenza del Consiglio), progetto CUP E55F21001160002, "Progettazione definitiva ed esecutiva dell'intervento di messa in sicurezza operativa della falda superficiale soggiacente l'area SIN di Taranto", Comune di Taranto, anno di decisione 2021, costo previsto 1.394.688 €, https://www.opencup.gov.it/portale/progetto/-/cup/E55F21001160002, consultato il 14 ottobre 2026
 
 ## Cosa non sappiamo
 1. **Quanto costano i lavori.** Il quadro economico del progetto non è tra i documenti pubblicati. La Regione stima 5,2 milioni [1], ma non abbiamo trovato una cifra nel progetto stesso. Non verificato.
