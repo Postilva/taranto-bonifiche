@@ -1,5 +1,5 @@
 # C1 – Acciaierie d'Italia: suoli dello stabilimento
-*Stato scheda: bozza — aggiornata al 17 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 17 ottobre 2026*
 
 ## In breve
 È il terreno sotto lo stabilimento siderurgico ex Ilva oggi gestito da Acciaierie d'Italia: circa 1.050 ettari dentro il SIN (il "Sito di interesse nazionale" da bonificare), su circa 1.500 di stabilimento [11]. Il terreno è stato analizzato più volte dal 2004 al 2021 [1][11], ma **non è stato bonificato e non esiste un progetto di bonifica**. La pratica è ferma da anni su un punto preliminare: come trattare i "materiali di riporto", cioè scorie, loppa e altri materiali usati per riempire e livellare il terreno, trovati nel 95% dei sondaggi [1][10]. **L'ultimo atto pubblico sui suoli è dell'ottobre 2023**: il Ministero ha chiesto all'azienda di rifare il piano delle nuove analisi, e nell'archivio non risulta una risposta [5][13].
