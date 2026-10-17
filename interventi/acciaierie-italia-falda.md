@@ -1,5 +1,5 @@
 # C2 – Acciaierie d'Italia: falda sotto lo stabilimento
-*Stato scheda: bozza — aggiornata al 16 ottobre 2026*
+*Stato scheda: bozza — aggiornata al 17 ottobre 2026*
 
 ## In breve
 Sotto lo stabilimento siderurgico ex Ilva l'acqua sotterranea (la "falda") è inquinata quasi ovunque: secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto **925 dei 1.050 ettari** dentro il SIN [1]. In alcuni punti sull'acqua galleggia uno strato di idrocarburi, fino a **3 metri** in un pozzetto di controllo nel 2023 [2][10]. Ci sono solo **misure provvisorie**: dal 2018 una barriera di 11 pozzi pompa e depura l'acqua dei Parchi minerali, e dal 2021–2022 trincee e pozzi raccolgono gli idrocarburi in alcune aree [2][9][11]. Nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili **non si può dire se la barriera funzioni** [2][3]. **Non esiste un progetto di bonifica della falda.**
@@ -23,7 +23,7 @@ Sotto lo stabilimento siderurgico ex Ilva l'acqua sotterranea (la "falda") è in
 - **La risposta di ADI (febbraio 2025):** manda una descrizione dell'impianto, ma rinvia il nuovo piano di controllo a dopo un nuovo modello del flusso dell'acqua sotterranea, ancora da fare [11][9].
 
 ### 2. Gli idrocarburi che galleggiano sulla falda (dal 2020)
-- **La scoperta.** Nei controlli 2017–2019 il gestore trova prodotto "in fase separata" (idrocarburi non mescolati all'acqua) in vari pozzetti; lo comunica il 5 maggio 2020. Il Ministero chiede di toglierlo e di trovarne l'origine (3 agosto e 21 ottobre 2020) [2].
+- **La scoperta.** Nei controlli 2017–2019 il gestore trova prodotto "in fase separata" (idrocarburi non mescolati all'acqua) in vari pozzetti; lo comunica il 5 maggio 2020 (secondo ISPRA la scoperta è del 2017) [15]. Il Ministero chiede di toglierlo e di trovarne l'origine (3 agosto e 21 ottobre 2020) [2].
 - **Dove:** pozzetti nelle aree dei Tubifici 1 e 2 (TUL1, TUL2), dei Sottoprodotti (SOT), della Colata continua 5 (CCO5), dell'Acciaieria 2 (ACC2) e del Treno nastri 2 (TNA2); negli ultimi due nella **falda profonda** [2][10].
 - **Cosa è stato installato:** un recuperatore automatico al TNA2 (dicembre 2021); 2 trincee drenanti al CCO5 (giugno 2022); al TUL2 un **test pilota** con 4 trincee e 6 pozzi, attivo da luglio 2022 [2][8].
 - **Quanto è stato raccolto.** Al TUL2, in due anni (luglio 2022 – giugno 2024), **circa 1.490 litri** di idrocarburi, in forte calo: 857 litri nel primo semestre, 98 nel quarto [8]. Al CCO5, da luglio 2023 a giugno 2024, circa 53 litri [10].
@@ -31,12 +31,15 @@ Sotto lo stabilimento siderurgico ex Ilva l'acqua sotterranea (la "falda") è in
 - **Agosto 2024:** nel pozzetto PZ/S/7 (area SOT) compare un prodotto pesante, che va a fondo (DNAPL); secondo ADI è stato tolto e non si riforma [10].
 - **Il progetto definitivo** per il TUL2 ("full scale"), annunciato nel 2024 con una durata di 16 settimane, non è nell'archivio del Ministero al 14 ottobre 2026 [8][13].
 
-### 3. I controlli aggiuntivi (dal 2021)
+### 3. I controlli: chi li fa e come
+- **I controlli ordinari li fa l'azienda.** ADI controlla la falda per l'autorizzazione ambientale (AIA): una volta all'anno, in autocontrollo, senza validazione di ARPA e cercando solo le sostanze legate agli impianti di oggi [15]. Per ISPRA e ARPA questo non basta per una procedura di bonifica; anche su questo punto, nel 2022, c'era un contenzioso con l'azienda [15].
 - Da marzo 2021 ADI controlla la falda in tre "zone" critiche: vicino al Canale 2 (confine nord-ovest), a monte dell'**ex Yard Belleli** e del Parco coils, e un'area più piccola al confine [2]. A febbraio 2025 annuncia che i controlli saranno estesi ad altri 12 pozzetti nell'area TUL2 e 5 nell'area CCO5 [7][11].
 
 ## Cosa c'è nell'acqua
-- **Falda superficiale:** oltre i limiti soprattutto alluminio, arsenico, selenio, nitriti, ferro, manganese, boro, solfati e fluoruri [1][7]. Vicino al TUL2 e al CCO5 ARPA ha trovato anche **PCB** oltre i limiti (ottobre 2022) [2]. Nell'area Sidercomit, cromo totale e cromo esavalente oltre i limiti in modo continuo, che ADI attribuisce alla Sanac, a monte (scheda C5) [1].
-- **Falda profonda** (l'acquifero nella roccia calcarea): triclorometano (cloroformio) oltre il limite di 0,15 µg/l in alcuni pozzetti nel 2023, fino a **0,9 µg/l** a dicembre 2023 nei risultati allegati, anche se il testo di ADI scrive "max 0,6" [7]. Secondo ADI l'acqua profonda scorre in prevalenza **verso l'esterno dello stabilimento**, in direzione sud-sud-est [7].
+- **Falda superficiale:** oltre i limiti soprattutto alluminio, arsenico, selenio, nitriti, ferro, manganese, boro, solfati e fluoruri [1][7]. La tabella dei controlli 2018–2022 di ADI copre **115 pozzetti** [14]. Alcuni dei valori più alti:
+  - **nitriti 60.000 µg/l**, 120 volte il limite di 500, nel pozzetto 25/601/I/FS a dicembre 2020; nello stesso pozzetto **cianuri 450 µg/l** (limite 50) nel 2019 [14];
+  - **cromo esavalente 287 µg/l** (limite 5) e cromo totale 315 µg/l (limite 50) nel pozzetto 50/1572/I/FS, area Sidercomit, a settembre 2020 [14]. Vicino al TUL2 e al CCO5 ARPA ha trovato anche **PCB** oltre i limiti (ottobre 2022) [2]. Nell'area Sidercomit, cromo totale e cromo esavalente oltre i limiti in modo continuo, che ADI attribuisce alla Sanac, a monte (scheda C5) [1].
+- **Falda profonda** (l'acquifero nella roccia calcarea): secondo ISPRA (2022) è "potenzialmente contaminata dai composti alifatici clorurati" [15]. Triclorometano (cloroformio) oltre il limite di 0,15 µg/l in alcuni pozzetti nel 2023, fino a **0,9 µg/l** a dicembre 2023 nei risultati allegati, anche se il testo di ADI scrive "max 0,6" [7]. Secondo ADI l'acqua profonda scorre in prevalenza **verso l'esterno dello stabilimento**, in direzione sud-sud-est [7].
 - **Da dove viene l'inquinamento: chi dice cosa.**
   - ADI: boro, solfati e fluoruri vengono dal mare; ferro, manganese e arsenico dalla degradazione naturale dei sedimenti [2][7].
   - ARPA e ISPRA: non si può escludere che vengano dalle **scorie, loppe e fanghi d'acciaieria** usati per riempimenti, argini e colmate, anche nell'area dell'ex Yard Belleli [2][3].
@@ -96,6 +99,12 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [12] Ministero delle Imprese e del Made in Italy (MIMIT), *Acciaierie d'Italia S.p.A. ammessa alla procedura di amministrazione straordinaria*, comunicato del 20 febbraio 2024, https://www.mimit.gov.it/it/notizie-stampa/mimit-acciaierie-di-italia-s-p-a-ammessa-alla-procedura-di-amministrazione-straordinaria
 
 [13] MASE, archivio dei procedimenti di bonifica, SIN Taranto, aree 3054 e 3095: 10 documenti, dal 10 ottobre 2022 al 26 febbraio 2025 (consultato il 14 e il 16 ottobre 2026), https://bonifichesiticontaminati.mite.gov.it/ricerca/
+
+[14] Acciaierie d'Italia / Eni Rewind, *Piano di indagine…*, 14 giugno 2023, Annesso 1, "Superamenti CSC acque falda superficiale – dati PMC 2020-2022" (in realtà dal 2018), pag. 1 e 4, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=10844_Taranto_23-99506.zip — copia in `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-1-superamenti-falda.pdf`
+
+[15] Commissione parlamentare d'inchiesta sul ciclo dei rifiuti, *Resoconto stenografico dell'audizione dei direttori generali di ISPRA e ARPA Puglia*, seduta n. 168 del 29 giugno 2022, pag. 12 (controlli della falda), 13 (idrocarburi trovati nel 2017), 19 (falda profonda) — copia in `fonti/2022-06_parlamento_commissione-rifiuti-audizione-ispra-arpa-ilva.pdf`
+
+
 
 ## Cosa non sappiamo
 1. **Se la barriera dei Parchi funziona.** ARPA e ISPRA dicono che non si può valutare [2][3]. Non sappiamo quanta acqua venga pompata ogni anno, per quanti giorni l'impianto sia stato fermo, né cosa contenga l'acqua che finisce nella fogna dello stabilimento. Non verificato.
