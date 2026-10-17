@@ -1,5 +1,5 @@
 # C1 – Acciaierie d'Italia: suoli dello stabilimento
-*Stato scheda: bozza — aggiornata al 16 ottobre 2026*
+*Stato scheda: bozza — aggiornata al 17 ottobre 2026*
 
 ## In breve
 È il terreno sotto lo stabilimento siderurgico ex Ilva oggi gestito da Acciaierie d'Italia: circa 1.050 ettari dentro il SIN (il "Sito di interesse nazionale" da bonificare), su circa 1.500 di stabilimento [11]. Il terreno è stato analizzato più volte dal 2004 al 2021 [1][11], ma **non è stato bonificato e non esiste un progetto di bonifica**. La pratica è ferma da anni su un punto preliminare: come trattare i "materiali di riporto", cioè scorie, loppa e altri materiali usati per riempire e livellare il terreno, trovati nel 95% dei sondaggi [1][10]. **L'ultimo atto pubblico sui suoli è dell'ottobre 2023**: il Ministero ha chiesto all'azienda di rifare il piano delle nuove analisi, e nell'archivio non risulta una risposta [5][13].
@@ -14,13 +14,14 @@
 ## Cosa è stato fatto
 **Analizzato, ma non bonificato né messo in sicurezza.** L'unico intervento sui suoli che l'azienda rivendica sono le **pavimentazioni** dello stabilimento (vedi sotto) [1].
 
-- **Le analisi (2004–2021).** La prima caratterizzazione, cioè la campagna di analisi del terreno, è del 2005, sulle aree di Ilva e della vicina Sanac, con gli esiti presentati nel 2007; poi gli sporgenti del porto (2014) e un'integrazione nel 2016–2017 [11]. Nel 2023 Eni Rewind scrive che le campagne vanno "a partire dal 2004" fino al 2021 [1].
+- **Le analisi (2004–2021).** La prima caratterizzazione, cioè la campagna di analisi del terreno, è del 2005, sulle aree di Ilva e della vicina Sanac, con gli esiti presentati nel 2007; poi gli sporgenti del porto (2014) e un'integrazione nel 2016–2017 [11]. Nel 2023 Eni Rewind scrive che le campagne vanno "a partire dal 2004" fino al 2021 [1]. Secondo ISPRA i sondaggi sono **più di 2.000**, e **su nessuno è stato fatto il test di cessione** sui materiali di riporto [16]. Le analisi fatte per l'autorizzazione ambientale (la "Relazione di riferimento") sono in autocontrollo: l'azienda le fa da sola e ARPA non le valida [16].
 - **L'analisi di rischio del 2016–2017 non è mai stata esaminata.** Il Ministero non l'ha istruita perché ARPA aveva segnalato la presenza diffusa di materiali di riporto, che andavano prima verificati con il "test di cessione" (si mette il materiale in acqua e si misura cosa rilascia) [10].
-- **Il ricorso perso da Ilva.** Nel 2017 i commissari di Ilva hanno fatto ricorso contro le richieste del Ministero (nota del 12 giugno 2017) e di ARPA (note del 1° e 6 giugno 2017) sul test di cessione [8]. Il **TAR del Lazio**, con la sentenza **n. 526 del 16 gennaio 2020**, ha respinto il ricorso: il Piano ambientale del 2017 non è una deroga alle regole generali sulle bonifiche [8][9]. A marzo 2022 l'appello al Consiglio di Stato era ancora pendente [10]; l'esito non l'abbiamo trovato. Secondo la Commissione parlamentare d'inchiesta sui rifiuti, il contenzioso ha provocato il "sostanziale blocco" delle bonifiche dei suoli dentro lo stabilimento [10].
-- **La ripresa con ADI (2021–2023).** ADI ha presentato un "Documento programmatico" (16 giugno 2021), un primo piano di nuove analisi (7 settembre 2021) e un modello in 3D del sottosuolo (2022) [1][6]. A giugno 2023 ha mandato il piano rivisto: **109 nuovi sondaggi** su una griglia di 200 metri per capire di che cosa sono fatti i riporti, più 13 punti per raccogliere i dati necessari all'analisi di rischio [1][2]. Le analisi sarebbero partite solo dopo il via libera degli enti [1].
+- **Un primo contenzioso vinto da Ilva.** Già nel 2007 Ilva aveva fatto ricorso al TAR di Lecce contro le richieste del Ministero sulle analisi; nel 2016 il Consiglio di Stato ha stabilito che il Piano ambientale dell'Ilva prevaleva sulle regole generali delle bonifiche [16].
+- **Il ricorso perso da Ilva.** Nel 2017 i commissari di Ilva hanno fatto ricorso contro le richieste del Ministero (nota del 12 giugno 2017) e di ARPA (note del 1° e 6 giugno 2017) sul test di cessione [8]. Il **TAR del Lazio**, con la sentenza **n. 526 del 16 gennaio 2020**, ha respinto il ricorso: il Piano ambientale del 2017 non è una deroga alle regole generali sulle bonifiche [8][9]. A marzo e a giugno 2022 l'appello al Consiglio di Stato era ancora pendente [10][16]; l'esito non l'abbiamo trovato. Secondo la Commissione parlamentare d'inchiesta sui rifiuti, il contenzioso ha provocato il "sostanziale blocco" delle bonifiche dei suoli dentro lo stabilimento [10].
+- **La ripresa con ADI (2021–2023).** ADI ha presentato un "Documento programmatico" (16 giugno 2021), un primo piano di nuove analisi (7 settembre 2021) e un modello in 3D del sottosuolo (2022) [1][6]. Anche ADI ha fatto **ricorso** contro le richieste di ISPRA e ARPA sul piano del 2021: sostiene che basta analizzare i riporti nelle zone senza pavimentazione, perché sotto l'asfalto e il cemento (circa il 90% dello stabilimento) la pioggia non li attraversa e non possono inquinare la falda [16]. A giugno 2022 ISPRA diceva: "siamo ancora a conclusione della caratterizzazione", e il costo della bonifica non si può stimare finché non c'è l'analisi di rischio [16]. A giugno 2023 ADI ha mandato il piano rivisto: **109 nuovi sondaggi** su una griglia di 200 metri per capire di che cosa sono fatti i riporti, più 13 punti per raccogliere i dati necessari all'analisi di rischio [1][2]. Le analisi sarebbero partite solo dopo il via libera degli enti [1].
 - **Il piano bocciato (settembre–ottobre 2023).** ARPA lo giudica "non sufficientemente esaustivo" e non conforme alle linee guida nazionali sui riporti approvate a giugno 2023; chiede di estendere le analisi a **tutto lo stabilimento, compresi gli sporgenti del porto**, e di analizzare per la prima volta le aree dell'azienda **fuori dal SIN, "mai oggetto di caratterizzazione"** [3]. ISPRA dice lo stesso e propone un incontro [4]. Il 24 ottobre 2023 il Ministero chiede ad ADI di **adeguare il piano** [5].
 - **Dopo:** nell'archivio del Ministero, al 14 ottobre 2026, non c'è nessun altro documento sui suoli: né il piano corretto, né l'incontro proposto da ISPRA [13]. Nel febbraio 2025 ADI scrive che un nuovo modello del flusso dell'acqua sotterranea, previsto dal Documento programmatico del 2021, deve ancora essere emesso [15].
-- **Le pavimentazioni.** Secondo ADI, dove il terreno supera i limiti le superfici sono pavimentate per oltre il 90%: tutte nelle zone dove la falda è nei limiti, l'81% (90% a lavori finiti) dove anche la falda li supera; e una nota del Ministero del 22 settembre 2017 (prot. 20001) riconoscerebbe la pavimentazione come presidio "in equivalenza" a una messa in sicurezza permanente [1]. **Quella nota non è pubblica: non verificato.**
+- **Le pavimentazioni.** Secondo ADI, dove il terreno supera i limiti le superfici sono pavimentate per oltre il 90%: tutte nelle zone dove la falda è nei limiti, l'81% (90% a lavori finiti) dove anche la falda li supera; e una nota del Ministero del 22 settembre 2017 (prot. 20001) riconoscerebbe la pavimentazione come presidio "in equivalenza" a una messa in sicurezza permanente [1]. **Quella nota non è pubblica: non verificato.** ISPRA e ARPA non sono d'accordo: le pavimentazioni sono vecchie e i riporti, dove sono spessi, stanno immersi nell'acqua della falda, che li attraversa comunque. Alla domanda se la pavimentazione sia una messa in sicurezza, ISPRA ha risposto: "Esatto", cioè che di fatto non lo è [16].
 
 ## Cosa c'è nel terreno
 - **Materiali di riporto quasi ovunque**: trovati nel 95% circa dei sondaggi, con spessori diversi da zona a zona [1]. ARPA e ISPRA ricordano che scorie e loppa siderurgiche sono state usate per riempimenti, argini e colmate nel porto [3][14].
@@ -38,7 +39,9 @@
 |---|---|---|
 | 17 dicembre 2003 | Approvato il piano delle analisi di Ilva e Sanac | [11] |
 | 2005 (esiti nel maggio 2007) | Prima caratterizzazione dei suoli | [11] |
+| 2007 | Ilva fa ricorso al TAR di Lecce contro le richieste del Ministero | [16] |
 | 2014 | Analisi degli sporgenti del porto | [11] |
+| 11 gennaio 2016 | Consiglio di Stato: il Piano ambientale prevale sulle regole generali | [16] |
 | 2016–2017 | Analisi integrative e analisi di rischio, mai istruita per i riporti | [10][11] |
 | giugno 2017 | Ministero e ARPA chiedono il test di cessione sui riporti; Ilva fa ricorso | [8] |
 | 29 settembre 2017 | Piano ambientale (DPCM): garanzia finanziaria a favore della Provincia | [7] |
@@ -49,6 +52,7 @@
 | 2 dicembre 2021 | Parere di ARPA e ISPRA sul piano | [1] |
 | 9 marzo 2022 | Incontro tecnico al Ministero sul modello in 3D | [1] |
 | marzo 2022 | Appello al Consiglio di Stato ancora pendente | [10] |
+| 29 giugno 2022 | Audizione di ISPRA e ARPA in Parlamento: "ancora a conclusione della caratterizzazione"; ricorso di ADI sui riporti | [16] |
 | 4 ottobre 2022 | ADI risponde alle richieste sul modello in 3D | [6] |
 | 15 giugno 2023 | ADI manda il piano rivisto (109 sondaggi) | [1][2] |
 | 12 settembre 2023 | ARPA: indagini "non sufficientemente esaustive" | [3] |
@@ -91,15 +95,18 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [15] Acciaierie d'Italia in A.S., *Nota DIR 133/2025 del 26 febbraio 2025*, acquisita dal Ministero al prot. 36589, pag. 4, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=15236_m_amte..REGISTRO_UFFICIALE_E_.0036589.26-02-2025.zip — copia in `fonti/2025-02_acciaierie-italia_nota-dir-133-riscontro-pareri-falda.pdf`
 
+[16] Commissione parlamentare d'inchiesta sul ciclo dei rifiuti, *Resoconto stenografico dell'audizione dei direttori generali di ISPRA e ARPA Puglia*, seduta n. 168 del 29 giugno 2022, pag. 7–9 (autocontrollo, contenzioso 2007–2016), 11–12 (caratterizzazione non conclusa, ricorso di ADI), 14–15 (oltre 2.000 sondaggi, pavimentazioni), 16–18 (TAR 526/2020), 21 (costo non stimabile), 35 (contratto d'affitto) — copia in `fonti/2022-06_parlamento_commissione-rifiuti-audizione-ispra-arpa-ilva.pdf`
+
 ## Cosa non sappiamo
 1. **ADI ha mai mandato il piano corretto?** Dopo il 24 ottobre 2023 l'archivio non contiene nulla sui suoli [13]. Non sappiamo se ADI abbia risposto, se l'incontro con ISPRA ci sia stato o se le 109 perforazioni siano state fatte. Non verificato: vedi la FOIA al Ministero.
-2. **Come è finito l'appello al Consiglio di Stato** contro la sentenza del TAR n. 526/2020: ricerche online del 16 ottobre 2026 senza risultato. Non verificato.
+2. **Come sono finiti i ricorsi.** L'appello al Consiglio di Stato contro la sentenza del TAR n. 526/2020 e il ricorso di ADI contro le richieste di ISPRA e ARPA del 2021 [16]: ricerche online del 16 e 17 ottobre 2026 senza risultato (la sentenza del Consiglio di Stato n. 4802/2021 riguarda un'altra causa, l'ordinanza del sindaco sull'area a caldo). Nel 2022 ISPRA e ARPA avevano promesso alla Commissione la tabella completa dei ricorsi con gli esiti [16]: non è pubblica. Non verificato.
 3. **Chi deve pagare la bonifica.** ADI dice di non essere responsabile e di non accettare "in modo incondizionato" gli obblighi [1]; Ilva, che ha gestito lo stabilimento prima del 2018, è in amministrazione straordinaria. Nessun atto pubblico dice chi pagherà né quanto. Non verificato.
-4. **La nota del Ministero del 22 settembre 2017** (prot. 20001) che, secondo ADI, considera le pavimentazioni come una messa in sicurezza permanente [1]: non è pubblica.
-5. **La garanzia finanziaria** a favore della Provincia prevista dal Piano ambientale del 2017 [7]: non sappiamo se sia stata data e per quanto.
-6. **Le aree dell'azienda fuori dal SIN**, che secondo ARPA non sono mai state analizzate [3]: quanto sono grandi e dove sono. Non verificato.
-7. **I dati delle analisi.** I risultati delle campagne 2005–2021 non sono nell'archivio online (che parte dal 2022) [13]; le cifre sui 25 ettari oltre i limiti sono di ADI [1].
-8. **Cosa cambia con la vendita dello stabilimento**, in corso nel 2026: nessun atto pubblico dice se gli obblighi sui suoli passeranno al compratore. Non verificato.
+4. **Quali siti deve decontaminare ADI per contratto.** Il contratto d'affitto tra Ilva e ADI ha un allegato ("sub 8", il "Capitolato decontaminazioni") con circa 30 siti di decontaminazione a carico di ADI; ARPA non ne ha copia e nessuna mappa è pubblica [16]. La Commissione parlamentare l'ha acquisito nel 2022 [10]. Non verificato.
+5. **La nota del Ministero del 22 settembre 2017** (prot. 20001) che, secondo ADI, considera le pavimentazioni come una messa in sicurezza permanente [1]: non è pubblica.
+6. **La garanzia finanziaria** a favore della Provincia prevista dal Piano ambientale del 2017 [7]: non sappiamo se sia stata data e per quanto.
+7. **Le aree dell'azienda fuori dal SIN**, che secondo ARPA non sono mai state analizzate [3]: quanto sono grandi e dove sono. Non verificato.
+8. **I dati delle analisi.** I risultati delle campagne 2005–2021 non sono nell'archivio online (che parte dal 2022) [13]; le cifre sui 25 ettari oltre i limiti sono di ADI [1].
+9. **Cosa cambia con la vendita dello stabilimento**, in corso nel 2026: nessun atto pubblico dice se gli obblighi sui suoli passeranno al compratore. Non verificato.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
 Una sola richiesta al Ministero per C1 e C2 (FOIA 55), una ad ARPA (FOIA 56) e una alla Provincia (FOIA 57): testi in `.tmp/foia/55-C1-C2-acciaierie-mase-ecb.md`, `56-C1-C2-acciaierie-arpa-puglia.md`, `57-C1-acciaierie-garanzia-provincia-taranto.md`.
