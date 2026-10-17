@@ -70,7 +70,7 @@ const GRP_SHORT = {A:"Gruppo A · Ilva", B:"Gruppo B · Commissario", C:"Gruppo 
    lette da costruisci.py e convertite in gradi). Tutte le altre sono INDICATIVE: messe a mano nella zona
    nominata dall'elenco o dalla scheda. */
 const ZONES = {
-  acciaieria:{ll:[40.506,17.200], r:.004, label:"Stabilimento siderurgico (circa 1.050 ettari dentro il SIN): la scheda riguarda tutta l'area, il punto è solo indicativo"},
+  acciaieria:{ll:[40.513,17.196], r:.006, label:"Stabilimento siderurgico (circa 1.050 ettari dentro il SIN): la scheda riguarda tutta l'area, il punto è solo indicativo"},
   plant:   {ll:[40.507,17.190], r:.019, label:"Zona generica: stabilimento ex Ilva (l'elenco non indica dove si trova l'area)"},
   statte:  {ll:[40.553,17.205], r:.004, label:"Statte (luogo citato nel nome o nella scheda)"},
   gravina: {ll:[40.538,17.188], r:.003, label:"Gravina di Leucaspide, tra lo stabilimento e Statte"},
@@ -229,6 +229,6 @@ function coverZoom(m, from){
   for (let z = Math.max(11, from); z < 14; z++) if (m.getBoundsZoom(tileBounds(z), true) <= z) return z;
   return 14;
 }
-const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
+const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${p.code[0]} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
 const fmtMln = v => v.toLocaleString("it-IT",{minimumFractionDigits:1,maximumFractionDigits:2});
 const STATO = Object.fromEntries(STATI.map(s => [s[0], {label:s[1], color:s[2]}]));

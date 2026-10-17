@@ -37,14 +37,14 @@
       <p class="lcount" id="lcount"></p>
     </div>
     <ul class="list" id="list"></ul>
-    <p class="lcount" id="fuori"></p>
+    <div id="fuori"></div>
   </aside>
   <button type="button" class="paneltoggle" id="panel-open">☰ Elenco e filtri</button>
 
   <div class="legend-map" aria-hidden="true">
-    <span><span class="pin ok">A2</span> verificato, con report</span>
+    <span><span class="pin ok gA">A</span> Ilva &nbsp;<span class="pin ok gB">B</span> Commissario &nbsp;<span class="pin ok gC">C</span> altri responsabili</span>
     <span id="lg-todo"><span class="pin">A1</span> da verificare</span>
-    <span><span class="pin ok exact">A9</span> bordo pieno: posizione da documento ufficiale</span>
+    <span><span class="pin ok gA exact">A9</span> bordo pieno: posizione da documento ufficiale</span>
   </div>
 </div>
 
@@ -102,7 +102,7 @@ function select(code, opts={}){
   // telefono: l'elenco copre la mappa, quindi si chiude e non si scorre (scorrerlo lo riporterebbe in vista)
   if (isNarrow()) { if (panelOpen()) setPanel(false); }
   else if (opts.scroll && li) li.scrollIntoView({block:"nearest", behavior:"smooth"});
-  pv.className = "pv" + (p.ok ? " ok" : ""); pv.innerHTML = pvHtml(p); pv.hidden = false;
+  pv.className = "pv g" + p.code[0] + (p.ok ? " ok" : ""); pv.innerHTML = pvHtml(p); pv.hidden = false;
   if (isNarrow()) {   // telefono: l'anteprima copre la parte bassa, il punto va centrato nello spazio sopra
     const z = Math.max(map.getZoom(), 13), pt = map.project(p.ll, z), H = map.getSize().y, avail = H - pv.offsetHeight - 90;
     pt.y += H/2 - avail/2;
@@ -171,7 +171,7 @@ function matches(p){
   return true;
 }
 const itemHtml = p => { const s = verified[p.code];
-  return `<li class="${p.ok?"ok":""}" data-code="${p.code}"><span class="dot">${p.code}</span><span class="nm">${esc(p.name)}</span><span class="vd">${s ? esc(s.verdict) : "Da verificare"}</span></li>`; };
+  return `<li class="g${p.code[0]} ${p.ok?"ok":""}" data-code="${p.code}"><span class="dot">${p.code}</span><span class="nm">${esc(p.name)}</span><span class="vd">${s ? esc(s.verdict) : "Da verificare"}</span></li>`; };
 function renderList(){
   const shown = ORDER.filter(matches), ok = shown.filter(p => p.ok), todo = shown.filter(p => !p.ok);
   let h = "";
@@ -198,9 +198,14 @@ $("#list").addEventListener("click", e => {
   setTimeout(() => select(c.dataset.code), isNarrow() ? 230 : 0);
 });
 renderList();
-$("#fuori").innerHTML = "Non sono sulla mappa le voci del Commissario che non sono opere ambientali né la riduzione del SIN: " +
-  ELENCO.X.flatMap(g => g[1]).map(r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]}</a>` : r[0]; }).join(", ") + ". " +
-  `Del gruppo C (altri responsabili, ${ELENCO.C.count}) ci sono solo quelli già verificati: gli altri ${ELENCO.C.items.length - C_OK.length} li aggiungiamo man mano.`;
+{
+  const lk = r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : r[0]; };
+  const nonAmb = ELENCO.X.filter(g => g[0].startsWith("Nel programma")).flatMap(g => g[1]), ctx = ELENCO.X.filter(g => g[0].startsWith("Contesto")).flatMap(g => g[1]);
+  $("#fuori").innerHTML = `<strong>Non sono sulla mappa:</strong><ul>` +
+    `<li>${nonAmb.length} voci del Commissario che non sono opere ambientali: ${nonAmb.map(lk).join(", ")};</li>` +
+    `<li>la riduzione del SIN, che è un atto e non un intervento: ${ctx.map(lk).join(", ")};</li>` +
+    `<li>${ELENCO.C.items.length - C_OK.length} dei ${ELENCO.C.items.length} interventi del gruppo C, non ancora verificati: li aggiungiamo man mano.</li></ul>`;
+}
 
 // mappa.html#A10 → pallino già selezionato
 const start = decodeURIComponent(location.hash.slice(1)).toUpperCase();
