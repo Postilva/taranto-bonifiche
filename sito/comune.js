@@ -21,15 +21,17 @@ const ELENCO = {
   // voci del programma del Commissario che non sono opere ambientali, e il contesto (B14): fuori da conteggi e mappa
   X: FUORI_G.map(g => [g[0], g[1].map(c => DATA.elenco[c])]),
   C: {
-    title: "Altri responsabili", count: "da esplorare",
-    who: "Soggetti elencati dal Ministero nella pagina del SIN di Taranto. Qui non abbiamo ancora cercato.",
-    items: ["Acciaierie d'Italia (l'acciaieria in funzione)","Raffineria Eni","Cementir","Italcave","Marina Militare / Arsenale","Autorità portuale"]
+    title: "Altri responsabili", count: "",
+    who: "Aziende (a partire dall'acciaieria in funzione), Autorità portuale e Marina: le pratiche di bonifica che il Ministero dell'Ambiente segue nel SIN. Fonte: archivio dei procedimenti del Ministero, scaricato il 14 ottobre 2026.",
+    items: ROWS.filter(r => r[0][0]==="C").sort((a,b)=>byCode(a[0],b[0])),
+    subs: (DATA.gruppiC || []).map(g => [g[0], g[1].map(c => DATA.elenco[c])])
   }
 };
+ELENCO.C.count = ELENCO.C.items.length + " interventi";
 ELENCO.B.count = ELENCO.B.subs.reduce((n,s) => n + s[1].length, 0) + " interventi";
 
 // nome breve per lista, grafici e cronologia (se manca si usa il titolo fino alla parentesi)
-const SHORT = {"discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-mercato-ittico":"Mar Piccolo, mercato ittico","mar-piccolo-rifiuti-lotto1":"Mar Piccolo, rifiuti 1° lotto","mar-piccolo-rifiuti-lotto2":"Mar Piccolo, rifiuti 2° lotto","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","scuole-tamburi-riqualificazione":"Scuole Tamburi, lavori","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","deperimetrazione-sin":"Riduzione del SIN","molo-polisettoriale":"Molo polisettoriale","mitili-mitica":"Cozze e MITICA","sea-hub":"Sea Hub, Arco Nord","filiere-verdi":"Filiere verdi","falda-galeso":"Falda del Galeso","praia-a-mare":"Praia a Mare","aree-mai-analizzate":"Aree mai analizzate"};
+const SHORT = {"discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-mercato-ittico":"Mar Piccolo, mercato ittico","mar-piccolo-rifiuti-lotto1":"Mar Piccolo, rifiuti 1° lotto","mar-piccolo-rifiuti-lotto2":"Mar Piccolo, rifiuti 2° lotto","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","scuole-tamburi-riqualificazione":"Scuole Tamburi, lavori","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","deperimetrazione-sin":"Riduzione del SIN","molo-polisettoriale":"Molo polisettoriale","mitili-mitica":"Cozze e MITICA","sea-hub":"Sea Hub, Arco Nord","filiere-verdi":"Filiere verdi","falda-galeso":"Falda del Galeso","praia-a-mare":"Praia a Mare","aree-mai-analizzate":"Aree mai analizzate","acciaierie-italia-suoli":"Acciaieria, suoli","acciaierie-italia-falda":"Acciaieria, falda"};
 // note sulla posizione che la scheda stessa segnala
 const COORD_NOTE = {"pozzo-25":"Attenzione: la scheda segnala che le fonti danno coordinate diverse tra loro (il piano del 2021 indica un punto circa 2,8 km più a nord)."};
 const SCHEDE = DATA.schede.map(s => ({...s, short: SHORT[s.id] || s.title.split(/ \(|:/)[0]}));
@@ -48,20 +50,27 @@ const verified = Object.fromEntries(SCHEDE.flatMap(s => s.codes.map(c => [c, s])
 document.querySelectorAll(".n-ok").forEach(el => el.textContent = Object.keys(verified).filter(c => !FUORI.has(c)).length);
 document.querySelectorAll(".n-sch").forEach(el => el.textContent = SCHEDE.length);
 function cite(html, sid){ return html.replace(/\[(\d+)\]/g, (m,n) => `<sup class="c"><a href="#${sid}-f${n}" aria-label="fonte ${n}">[${n}]</a></sup>`); }
-/* ---------- interventi A e B: dati comuni a lista, mappa e report ---------- */
-const ALL = [...ELENCO.A.items, ...ELENCO.B.subs.flatMap(s=>s[1])];   // [codice, nome, nota, pagina, id scheda, avviso]
+/* ---------- interventi: dati comuni a lista, mappa e report ---------- */
+// sulla mappa: tutti i gruppi A e B (senza le voci FUORI) e, del gruppo C, solo gli interventi già verificati
+const C_OK = ELENCO.C.items.filter(r => verified[r[0]]);
+const ALL = [...ELENCO.A.items, ...ELENCO.B.subs.flatMap(s=>s[1]), ...C_OK];   // [codice, nome, nota, pagina, id scheda, avviso]
 const ROW = Object.fromEntries(ALL.map(i => [i[0], i]));
-const TOTAL = ALL.length;   // interventi ambientali (gruppi A e B, senza le voci FUORI)
+const TOTAL = ALL.length;   // interventi sulla mappa
+const CENSITI = ELENCO.A.items.length + ELENCO.B.subs.reduce((n,s) => n + s[1].length, 0) + ELENCO.C.items.length;   // tutti gli interventi ambientali dell'elenco
+document.querySelectorAll(".n-cens").forEach(el => el.textContent = CENSITI);
+document.querySelectorAll(".n-c").forEach(el => el.textContent = ELENCO.C.count);
+document.querySelectorAll(".n-c-ok").forEach(el => el.textContent = C_OK.length);
 document.querySelectorAll(".n-b").forEach(el => el.textContent = ELENCO.B.count);
 document.querySelectorAll(".n-x").forEach(el => el.textContent = NON_AMB.size);
 const codeCmp = (a,b) => a[0]===b[0] ? (+a.slice(1))-(+b.slice(1)) : (a<b?-1:1);
-const GRP = {A:"Gruppo A · Ilva in amministrazione straordinaria", B:"Gruppo B · Commissario per la bonifica", B14:"Ministero dell'Ambiente", B18:"Comune di Taranto · priorità della Regione", B19:"Comune di Taranto · priorità della Regione", B20:"Commissario e Comuni · priorità della Regione"};   // B14: i decreti di riduzione del SIN sono del Ministero
-const GRP_SHORT = {A:"Gruppo A · Ilva", B:"Gruppo B · Commissario", B18:"Comune di Taranto", B19:"Comune di Taranto", B20:"Commissario e Comuni"};
+const GRP = {A:"Gruppo A · Ilva in amministrazione straordinaria", B:"Gruppo B · Commissario per la bonifica", C:"Gruppo C · Altri responsabili", C1:"Gruppo C · Acciaierie d'Italia", C2:"Gruppo C · Acciaierie d'Italia", B14:"Ministero dell'Ambiente", B18:"Comune di Taranto · priorità della Regione", B19:"Comune di Taranto · priorità della Regione", B20:"Commissario e Comuni · priorità della Regione"};   // B14: i decreti di riduzione del SIN sono del Ministero
+const GRP_SHORT = {A:"Gruppo A · Ilva", B:"Gruppo B · Commissario", C:"Gruppo C · Altri", C1:"Acciaierie d'Italia", C2:"Acciaierie d'Italia", B18:"Comune di Taranto", B19:"Comune di Taranto", B20:"Commissario e Comuni"};
 
 /* Posizioni "da documento ufficiale": solo se la scheda riporta le coordinate di un documento (riga **Coordinate**,
    lette da costruisci.py e convertite in gradi). Tutte le altre sono INDICATIVE: messe a mano nella zona
    nominata dall'elenco o dalla scheda. */
 const ZONES = {
+  acciaieria:{ll:[40.506,17.200], r:.004, label:"Stabilimento siderurgico (circa 1.050 ettari dentro il SIN): la scheda riguarda tutta l'area, il punto è solo indicativo"},
   plant:   {ll:[40.507,17.190], r:.019, label:"Zona generica: stabilimento ex Ilva (l'elenco non indica dove si trova l'area)"},
   statte:  {ll:[40.553,17.205], r:.004, label:"Statte (luogo citato nel nome o nella scheda)"},
   gravina: {ll:[40.538,17.188], r:.003, label:"Gravina di Leucaspide, tra lo stabilimento e Statte"},
@@ -82,9 +91,9 @@ const ZONES = {
   sanvito: {ll:[40.425,17.222], r:0, label:"Località Praia a Mare, quartiere San Vito (dalla scheda); punto non preciso"},
   generic: {ll:[40.515,17.245], r:.004, label:"Zona generica: area di Taranto (l'elenco non indica un luogo)"}
 };
-const PLACE = {A1:"gravina",A2:"nordovest",A4:"cementir",A5:"sp48",A6:"sp48",A15:"collinette",B1:"cemerad",B2:"deledda",B3:"tamburi",B4:"mp1",B5:"mp1",B6:"mp1",B7:"porto",B8:"cimitero",B9:"tamburi",B10:"statte",B11:"mp1",B12:"mp1",B13:"mp1",B14:"margrande",B15:"generic",B16:"mp1",B17:"mp2",B18:"galeso",B19:"sanvito",B20:"generic"};
+const PLACE = {A1:"gravina",A2:"nordovest",A4:"cementir",A5:"sp48",A6:"sp48",A15:"collinette",B1:"cemerad",B2:"deledda",B3:"tamburi",B4:"mp1",B5:"mp1",B6:"mp1",B7:"porto",B8:"cimitero",B9:"tamburi",B10:"statte",B11:"mp1",B12:"mp1",B13:"mp1",B14:"margrande",B15:"generic",B16:"mp1",B17:"mp2",B18:"galeso",B19:"sanvito",B20:"generic",C1:"acciaieria",C2:"acciaieria"};
 function pointsFor(){
-  const all = [...ELENCO.A.items, ...ELENCO.B.subs.flatMap(s=>s[1])];
+  const all = ALL;
   const byZone = {};
   const pts = [];
   all.forEach(i => {
@@ -150,6 +159,8 @@ const STEPS = {
   "falda-galeso":[["done","Analisi di aziende ed enti pubblici e nuovi prelievi nel 2024: manganese, idrocarburi e IPA oltre i limiti"],["na","La scheda non ne parla"],["part","Solo il progetto di messa in sicurezza operativa (pozzi, trincee, impianto di trattamento), presentato al Ministero il 7/11/2025 e non ancora approvato"],["todo","Non bonificata"],["todo","Non ancora"]],
   "praia-a-mare":[["part","Misure del volume e analisi di terreno e rifiuti nei lavori del Comune; il piano delle analisi del terreno demaniale è appena stato affidato"],["todo","Non ancora"],["part","Messa in sicurezza provvisoria della falesia e rimozione dell'amianto, lavori conclusi secondo gli atti del Comune; alcune parti già da riparare"],["todo","Non bonificata: bonifica stimata in 5 mln €, non finanziata"],["todo","Non ancora"]],
   "aree-mai-analizzate":[["todo","Mai analizzate; per il terreno vicino al depuratore Gennarini il Comune sta togliendo ordigni bellici e amianto prima delle analisi"],["todo","Non ancora"],["todo","Non messe in sicurezza"],["todo","Non bonificate"],["todo","Non ancora"]],
+  "acciaierie-italia-suoli":[["part","Analisi dal 2004 al 2021 (oltre 2.000 sondaggi), ma nessun test di cessione sui materiali di riporto; il piano delle nuove analisi è stato bocciato da ARPA e ISPRA nel 2023"],["part","Analisi di rischio del 2016–2017 mai esaminata: prima vanno verificati i riporti"],["part","Solo pavimentazioni, che l'azienda considera una messa in sicurezza; ISPRA e ARPA no"],["todo","Non bonificati, nessun progetto"],["todo","Non ancora"]],
+  "acciaierie-italia-falda":[["part","Controlli annuali dell'azienda e controlli aggiuntivi dal 2021; per ISPRA e ARPA non bastano"],["todo","Non ancora: prima serve il quadro completo del sito"],["part","Misure provvisorie: barriera di 11 pozzi ai Parchi minerali (dal 2018) e raccolta degli idrocarburi; efficacia non valutabile secondo ARPA e ISPRA (2024)"],["todo","Nessun progetto di bonifica della falda"],["todo","Non ancora"]],
   "filiere-verdi":[["na","La scheda non ne parla: non si sa ancora dove siano i 90 ettari"],["na","La scheda non ne parla"],["todo","Non messo in sicurezza"],["part","Pulizia del suolo con le piante su circa 90 ettari: parte a terra ammessa a finanziamento (marzo 2026), non ancora partita sul campo"],["todo","Non ancora"]],
 };
 // schede che non descrivono un intervento di bonifica: i 5 passaggi non si applicano
