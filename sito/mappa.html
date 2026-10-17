@@ -34,10 +34,9 @@
         <button type="button" class="chip" data-v="ok" aria-pressed="false" id="chip-ok">✔ Solo verificati</button>
       </div>
       <input id="q" class="search" type="search" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un intervento">
-      <p class="lcount" id="lcount"></p>
+      <p class="lcount"><span id="lcount"></span> · <button type="button" class="linkbtn" id="fuori-open" aria-haspopup="dialog">Cosa non è sulla mappa?</button></p>
     </div>
     <ul class="list" id="list"></ul>
-    <div id="fuori"></div>
   </aside>
   <button type="button" class="paneltoggle" id="panel-open">☰ Elenco e filtri</button>
 
@@ -47,6 +46,12 @@
     <span><span class="pin ok gA exact">A9</span> bordo pieno: posizione da documento ufficiale</span>
   </div>
 </div>
+
+<dialog id="fuori-dlg" aria-labelledby="fuori-t">
+  <button type="button" class="x" id="fuori-close" aria-label="Chiudi">✕</button>
+  <h2 id="fuori-t">Cosa non è sulla mappa</h2>
+  <div id="fuori"></div>
+</dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="dati.js"></script>
@@ -201,10 +206,14 @@ renderList();
 {
   const lk = r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : r[0]; };
   const nonAmb = ELENCO.X.filter(g => g[0].startsWith("Nel programma")).flatMap(g => g[1]), ctx = ELENCO.X.filter(g => g[0].startsWith("Contesto")).flatMap(g => g[1]);
-  $("#fuori").innerHTML = `<strong>Non sono sulla mappa:</strong><ul>` +
+  $("#fuori").innerHTML = `<ul>` +
     `<li>${nonAmb.length} voci del Commissario che non sono opere ambientali: ${nonAmb.map(lk).join(", ")};</li>` +
     `<li>la riduzione del SIN, che è un atto e non un intervento: ${ctx.map(lk).join(", ")};</li>` +
     `<li>${ELENCO.C.items.length - C_OK.length} dei ${ELENCO.C.items.length} interventi del gruppo C, non ancora verificati: li aggiungiamo man mano.</li></ul>`;
+  const dlg = $("#fuori-dlg");
+  $("#fuori-open").addEventListener("click", () => dlg.showModal());
+  $("#fuori-close").addEventListener("click", () => dlg.close());
+  dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });   // clic fuori dal riquadro
 }
 
 // mappa.html#A10 → pallino già selezionato
