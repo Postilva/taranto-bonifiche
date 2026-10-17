@@ -52,9 +52,10 @@
     <div class="who">
       <div><b>Ilva in amministrazione straordinaria</b><p>I commissari del Governo, arrivati nel 2013, per le vecchie aree della fabbrica non passate ai nuovi gestori. Sulla mappa: <strong>gruppo A</strong>, 18 aree.</p></div>
       <div><b>Commissario straordinario per la bonifica di Taranto</b><p>Per le zone fuori dalla fabbrica, come il Mar Piccolo e le scuole del Tamburi. Sulla mappa: <strong>gruppo B</strong>, <span class="n-b">12 interventi</span>. Altre <span class="n-x">4</span> voci del suo programma non sono opere ambientali: sono a parte (vedi sotto).</p></div>
+      <div><b>Aziende, Autorità portuale e Marina</b><p>Per i terreni e le falde delle loro aree: prima di tutto l'acciaieria in funzione, gestita da Acciaierie d'Italia, poi la raffineria Eni, altre industrie, il porto e l'Arsenale. Le pratiche le segue il Ministero dell'Ambiente. Sulla mappa: <strong>gruppo C</strong>, <span class="n-c">34 interventi</span>.</p></div>
       <div><b>Ministero dell'Ambiente</b><p>Segue tutta la zona come un unico sito da risanare, chiamato SIN, che comprende migliaia di ettari tra terra e mare.</p></div>
     </div>
-    <p class="note"><strong>Non ancora coperti:</strong> le aree di altri responsabili (l'acciaieria in funzione, la raffineria Eni, Cementir, Italcave, Marina Militare, Autorità portuale). Non le abbiamo ancora controllate e non sono sulla mappa: le aggiungeremo più avanti.</p>
+    <p class="note"><strong>Gruppo C, lavori in corso:</strong> per ora abbiamo verificato <span class="n-c-ok">2</span> interventi, i suoli e la falda dello stabilimento di Acciaierie d'Italia, e solo quelli sono sulla mappa. Gli altri li aggiungiamo uno alla volta, man mano che li verifichiamo.</p>
   </div>
 </section>
 
@@ -79,7 +80,7 @@
     <p class="num">04</p>
     <h2>Cosa abbiamo trovato finora</h2>
     <div class="bignums">
-      <div><b class="n-tot">35</b><p>interventi ambientali censiti tra le aree di Ilva e quelle del Commissario.</p></div>
+      <div><b class="n-cens">67</b><p>interventi ambientali censiti: aree di Ilva, del Commissario e di altri responsabili (aziende, porto, Marina).</p></div>
       <div class="sea"><b class="n-ok">22</b><p>verificati fonte per fonte, ognuno con il suo report.</p></div>
       <div class="alert"><b id="n-cert">0</b><p>con un certificato ufficiale di avvenuta bonifica, tra quelli verificati.</p></div>
     </div>
@@ -200,9 +201,10 @@ addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
 
 /* altro: gruppo C, priorità, cose che non tornano */
 $("#others-body").innerHTML = `
-  <p><strong>${ELENCO.C.title}</strong> (${ELENCO.C.count}). ${ELENCO.C.who} Per Acciaierie d'Italia gli obblighi riguardano soprattutto l'inquinamento attuale, non le vecchie contaminazioni.</p>
-  <p>${ELENCO.C.items.map(esc).join(" · ")}</p>
-  <p><strong>Altre priorità decise dalla Regione nel 2024</strong> (opuscolo del Commissario, pag. 10–11; Delibera Regione Puglia n. 981/2024), di molte non si sa ancora nulla: PIP Statte · Cimitero San Brunone · ex Yard Belleli · falda del SIN (zona Piccole Industrie, Galeso) · falda del comparto orientale · Mar Piccolo 1° seno · Praia a Mare · aree libere del porto · terrapieno del canale di scarico ex Ilva · dragaggio del porto. Più 5 aree mai analizzate (Distripark, ex depuratore Statte, zona retroportuale, aree tra Piccole Industrie e Italcave, altre).</p>
+  <p><strong>${ELENCO.C.title}</strong> (${ELENCO.C.count}, ${C_OK.length} verificati). ${ELENCO.C.who}</p>
+  ${ELENCO.C.subs.map(([t, rows]) => `<p><em>${esc(t)}:</em> ${rows.map(r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : `${r[0]} ${esc(r[1].replace(/\s*\([^)]*\)/g, ""))}`; }).join(" · ")}.</p>`).join("")}
+  <p>Quelli senza link non sono ancora verificati: per ora il nome viene dall'archivio del Ministero, non da una nostra scheda.</p>
+  <p><strong>Le priorità decise dalla Regione nel 2024</strong> (Delibera della Giunta regionale n. 981/2024, 23 interventi nel SIN): PIP Statte (B10), Cimitero San Brunone (B8), Mar Piccolo 1° seno (B11–B13), falda del Galeso (B18), Praia a Mare (B19) e le aree mai analizzate (B20) hanno già il loro report; ex Yard Belleli, dragaggio e aree libere del porto, terrapieno del canale di scarico ex Ilva sono nel gruppo C (C26–C30), ancora da verificare.</p>
   <p><strong>Cose che già non tornano</strong> (da chiarire nelle prossime schede):</p>
   <ol>
     <li><strong>Superficie del SIN.</strong> In parte risolto: prima della riduzione del 2024 erano circa 4.383 ettari a terra e 7.006 a mare; dopo, secondo il Ministero, 4.289 a terra e 6.872 a mare (valori confermati dalla mappa ufficiale del decreto n. 449). Le cifre dell'opuscolo del Commissario (64 km² a terra e 7,3 km² a mare) non corrispondono a nessun documento ufficiale.</li>

@@ -181,7 +181,7 @@ def leggi_elenco():
     txt = (ROOT / "elenco.md").read_text(encoding="utf-8")
     righe = {}
     for ln in txt.splitlines():
-        m = re.match(r"^\|\s*([AB]\d+)\s*\|(.+)\|$", ln)
+        m = re.match(r"^\|\s*([ABC]\d+)\s*\|(.+)\|$", ln)
         if not m:
             continue
         c = [x.strip() for x in m.group(2).split("|")]
@@ -193,7 +193,10 @@ def leggi_elenco():
     # sottogruppi del gruppo B, nell'ordine di elenco.md: [titolo, [codici]] (si saltano quelli senza righe)
     b = txt.split("## B.")[1].split("## C.")[0]
     gruppi = [[s.split("\n", 1)[0].strip(), re.findall(r"^\|\s*(B\d+)\s*\|", s, re.M)] for s in b.split("\n### ")[1:]]
-    return righe, [g for g in gruppi if g[1]]
+    # sottogruppi del gruppo C (industrie, porto e Marina), nello stesso formato
+    c = txt.split("## C.")[1].split("## D.")[0]
+    gruppi_c = [[s.split("\n", 1)[0].strip(), re.findall(r"^\|\s*(C\d+)\s*\|", s, re.M)] for s in c.split("\n### ")[1:]]
+    return righe, [g for g in gruppi if g[1]], [g for g in gruppi_c if g[1]]
 
 
 # ---------- schede ----------
@@ -203,7 +206,7 @@ def leggi_scheda(path):
     if "approvata" not in lines[1]:
         return None
     m = re.match(r"#\s+(.+?)\s+[–-]\s+(.+)", lines[0])
-    codes = re.findall(r"[AB]\d+", m.group(1))
+    codes = re.findall(r"[ABC]\d+", m.group(1))
     title = m.group(2).strip()
     stato = lines[1].strip("* ")
     upd = re.search(r"aggiornata all?'?([^*·]+)", stato).group(1).strip()
@@ -285,9 +288,9 @@ def leggi_scheda(path):
 
 
 def main():
-    elenco, gruppi = leggi_elenco()
+    elenco, gruppi, gruppi_c = leggi_elenco()
     schede = [s for s in (leggi_scheda(p) for p in sorted((ROOT / "interventi").glob("*.md"))) if s]
-    data = {"elenco": elenco, "gruppiB": gruppi, "schede": schede, "generato": OGGI.isoformat()}
+    data = {"elenco": elenco, "gruppiB": gruppi, "gruppiC": gruppi_c, "schede": schede, "generato": OGGI.isoformat()}
     js = ("/* Generato da sito/costruisci.py leggendo elenco.md e le schede approvate: non modificare a mano. */\n"
           "const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")
     (ROOT / "sito" / "dati.js").write_text(js, encoding="utf-8")

@@ -30,6 +30,7 @@
         <button type="button" class="chip" data-g="" aria-pressed="true">Tutti</button>
         <button type="button" class="chip" data-g="A" aria-pressed="false">Ilva (A)</button>
         <button type="button" class="chip" data-g="B" aria-pressed="false">Commissario (B)</button>
+        <button type="button" class="chip" data-g="C" aria-pressed="false">Altri (C)</button>
         <button type="button" class="chip" data-v="ok" aria-pressed="false" id="chip-ok">✔ Solo verificati</button>
       </div>
       <input id="q" class="search" type="search" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un intervento">
@@ -198,7 +199,8 @@ $("#list").addEventListener("click", e => {
 });
 renderList();
 $("#fuori").innerHTML = "Non sono sulla mappa le voci del Commissario che non sono opere ambientali né la riduzione del SIN: " +
-  ELENCO.X.flatMap(g => g[1]).map(r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]}</a>` : r[0]; }).join(", ") + ".";
+  ELENCO.X.flatMap(g => g[1]).map(r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]}</a>` : r[0]; }).join(", ") + ". " +
+  `Del gruppo C (altri responsabili, ${ELENCO.C.count}) ci sono solo quelli già verificati: gli altri ${ELENCO.C.items.length - C_OK.length} li aggiungiamo man mano.`;
 
 // mappa.html#A10 → pallino già selezionato
 const start = decodeURIComponent(location.hash.slice(1)).toUpperCase();
