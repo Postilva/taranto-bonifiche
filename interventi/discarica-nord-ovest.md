@@ -1,5 +1,5 @@
 # A2 – Discarica Nord-Ovest (con area ex Fintecna e aree vicine)
-*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 19 ottobre 2026*
 
 ## In breve
 È una vecchia discarica di rifiuti dell'acciaieria, senza nessuna protezione sul fondo, al confine nord della fabbrica, nel territorio di Statte, vicino alla Gravina di Leucaspide [2][6]. L'area è sotto sequestro penale da ottobre 2018 [14][16]. Il Ministero dell'Ambiente ha approvato il progetto per coprirla ("messa in sicurezza permanente") il 16 dicembre 2025, ma **non si trova nessuna fonte che dica che i lavori sono partiti**, e comunque l'area **non sarà bonificata**: i rifiuti restano dove sono, sotto una copertura [2][5].
@@ -68,7 +68,7 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 
 ## Soldi
 - **Costo stimato del progetto:** 29.812.351,53 € [2]. È una stima del progetto, non una spesa.
-- **Garanzia richiesta:** Ilva deve dare alla Regione Puglia una fideiussione pari al 50% del costo stimato (circa 14,9 milioni €) [2]. Il Ministero ha chiarito a maggio 2026 che va emessa subito dopo l'approvazione del progetto [5]. Non si sa se Ilva l'abbia già data.
+- **Garanzia richiesta:** Ilva deve dare alla Regione Puglia una fideiussione pari al 50% del costo stimato (circa 14,9 milioni €) [2]. Il Ministero ha chiarito a maggio 2026 che va emessa subito dopo l'approvazione del progetto [5]. Alla nostra richiesta di accesso civico la Regione ha risposto il 19 ottobre 2026 che la polizza "non risulta reperibile" agli atti del suo Servizio bonifiche, e rimanda al Ministero, che segue tutto il procedimento [26]. Non si sa quindi se Ilva l'abbia data.
 - **Speso finora:** a fine 2018 Ilva dichiarava 195.000 € spesi o impegnati per la Discarica Nord-Ovest e 222.000 € per l'area ex Fintecna [16]. Le relazioni successive non danno cifre per quest'area. Non verificato.
 - **Da dove vengono i soldi:** le fonti non lo dicono. Su OpenCoesione (fondi pubblici di coesione) non c'è nessun progetto per questa discarica. Non verificato.
 
@@ -97,6 +97,7 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 | metà aprile 2026 | Prima scadenza per iniziare i lavori (4 mesi dalla notifica) | [2][3] |
 | 16 giugno 2026 | Decreto n. 169: scadenza spostata al 15 giugno 2026 | [5] |
 | 15 giugno 2026 | Nuova scadenza per l'inizio dei lavori: non si sa se è stata rispettata | [5] |
+| 19 ottobre 2026 | La Regione risponde alla nostra richiesta: la fideiussione non è nei suoi archivi | [26] |
 | febbraio 2027 | Prima relazione annuale obbligatoria di Ilva sullo stato dei lavori | [2] |
 
 ## Fonti
@@ -150,12 +151,14 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 
 [25] Ilva S.p.A. in A.S., *Aggiornamento sullo stato di attuazione degli interventi in capo a ILVA in AS* (aggiornato al 12 luglio 2022), per l'Osservatorio ILVA, pagine PDF 30–36 (scheda "Discarica Nord Ovest"), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=291 — copia in `fonti/2022-07_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
+[26] Regione Puglia, Sezione Ciclo rifiuti e bonifica, Servizio bonifiche e pianificazione, *Riscontro a istanza di accesso civico generalizzato e di accesso all'informazione ambientale – Messa in sicurezza permanente della "Discarica Nord Ovest, Area ex Fintecna e Area posta ad ovest" di ILVA in A.S. (SIN Taranto, ID area 3000)*, prot. n. 0619136 del 19 ottobre 2026 (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_regione-puglia_riscontro-foia-discarica-nord-ovest.pdf`
+
 Tutti i documenti del Ministero si trovano anche nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ scegliendo SIN "Taranto" e Area "3000".
 
 ## Cosa non sappiamo
-1. **I lavori sono partiti?** Non verificato. Nessuna fonte, né del Ministero né di Ilva, dice se i lavori sono partiti. L'ultimo documento del Ministero su quest'area è del 19 giugno 2026 (archivio controllato il 9 ottobre 2026). Le relazioni di Ilva del 2026 non sono ancora pubblicate. Abbiamo cercato anche nelle banche dati pubbliche su progetti e gare, senza risultati. Questo però non prova che non ci sia nulla, perché Ilva potrebbe non usare quei sistemi.
-2. **Cosa vuol dire "inizio dei lavori".** Il decreto di proroga fissa il 15 giugno 2026 per l'inizio dei "lavori" [5], ma Ilva in quella data prevedeva di iniziare solo la progettazione esecutiva e le indagini [5]. Il cantiere vero e proprio (togliere gli alberi, coprire la discarica) deve aspettare anche l'autorizzazione della Regione sul bosco, che richiede fino a 180 giorni [2]. È quindi probabile che a settembre 2026 la copertura non sia ancora iniziata, ma nessuna fonte lo dice.
-3. **La fideiussione di circa 14,9 milioni € è stata data?** Non verificato [2][5].
+1. **I lavori sono partiti?** Non verificato. Nessuna fonte, né del Ministero né di Ilva, dice se i lavori sono partiti. L'ultimo documento del Ministero su quest'area è del 19 giugno 2026 (archivio controllato il 9 ottobre 2026). Le relazioni di Ilva del 2026 non sono ancora pubblicate. Abbiamo cercato anche nelle banche dati pubbliche su progetti e gare, senza risultati. Questo però non prova che non ci sia nulla, perché Ilva potrebbe non usare quei sistemi. Anche la Regione non ha trovato comunicazioni di inizio lavori nella sua piattaforma informatica, ma precisa che non è lei a controllare i cantieri del SIN [26].
+2. **Cosa vuol dire "inizio dei lavori".** Il decreto di proroga fissa il 15 giugno 2026 per l'inizio dei "lavori" [5], ma Ilva in quella data prevedeva di iniziare solo la progettazione esecutiva e le indagini [5]. Il cantiere vero e proprio (togliere gli alberi, coprire la discarica) deve aspettare anche l'autorizzazione della Regione sul bosco, che richiede fino a 180 giorni [2]. È quindi probabile che a settembre 2026 la copertura non sia ancora iniziata, ma nessuna fonte lo dice. Lo stato della domanda sul bosco non lo sappiamo: il Servizio bonifiche della Regione l'ha passata alla Sezione regionale per le risorse forestali, che dovrà risponderci direttamente [26].
+3. **La fideiussione di circa 14,9 milioni € è stata data?** Non verificato [2][5]. La Regione, che dovrebbe riceverla, non la trova nei suoi archivi (19 ottobre 2026) e indica il Ministero come ente che conserva le garanzie [26].
 4. **Quanto è stato speso davvero, e con quali soldi.** Ci sono solo le cifre del 2018 (circa 417.000 € in tutto) [16]. Non verificato.
 5. **Quanti rifiuti ci sono.** Le fonti danno le superfici (circa 11 ettari in tutto secondo ISPRA [6]; 12,9 ettari nella scheda di Ilva per l'Osservatorio del 2022 [25]) ma non il volume dei rifiuti della Discarica Nord-Ovest [6]. I 5 milioni di metri cubi citati dal Parlamento si riferiscono al complesso della Gravina di Leucaspide [19]; non è chiaro se comprendono anche questa discarica.
 6. **La falda resta inquinata.** La copertura serve a non peggiorare la situazione, ma non pulisce la falda, che ha una procedura separata [6]. ISPRA ha chiesto di non tenere del tutto separati i due problemi [6].
