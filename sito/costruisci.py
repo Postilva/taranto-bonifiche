@@ -232,7 +232,7 @@ def leggi_scheda(path):
                 body = body[:k] + ([vm.group(3)] if vm.group(3) else []) + body[k + 1:]
         if tl.startswith("fonti"):
             joined, fon = "\n".join(body), []
-            for fm in re.finditer(r"^\[(\d+)\]\s+(.+?)(?=^\[\d+\]\s|\Z)", joined, re.M | re.S):
+            for fm in re.finditer(r"^\[(\d+)\]\s+(.+?)(?=\n\s*\n|^\[\d+\]\s|\Z)", joined, re.M | re.S):
                 raw = " ".join(fm.group(2).split())
                 url = re.search(r"https?://[^\s)]+", raw)
                 testo = re.split(r"\s+—\s+copi[ae]", raw)[0]
