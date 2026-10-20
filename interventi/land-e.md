@@ -2,13 +2,13 @@
 *Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
-Land E è un vecchio stabilimento di circa 4,3 ettari nella zona industriale di Taranto, dove la ditta Sidercomit produceva e immagazzinava prodotti siderurgici (soprattutto profilati di alluminio e acciaio inox); dal 1997 è di Ilva e oggi è chiuso, recintato e quasi tutto asfaltato, con due capannoni e una palazzina [9][5][6]. Le analisi del 2022 hanno trovato il terreno nei limiti, ma lo strato di materiale di riporto rilascia alluminio, ferro, manganese, vanadio e fluoruri, e l'acqua sotterranea supera i limiti per nove sostanze, tra cui arsenico, cromo esavalente e triclorometano [9][13]. **Non è bonificato né messo in sicurezza dal punto di vista ambientale**: a gennaio 2024 il Ministero ha respinto l'analisi di rischio così com'era e ha chiesto nuovi pozzetti e controlli dell'acqua, che secondo Ilva sono ancora in corso alla fine del 2025 [14][1].
+**Non è bonificato né messo in sicurezza dal punto di vista ambientale**: a gennaio 2024 il Ministero ha respinto l'analisi di rischio così com'era e ha chiesto nuovi pozzetti e controlli dell'acqua, che secondo Ilva sono ancora in corso alla fine del 2025 [14][1].
 
 ## Che posto è
 Un vecchio stabilimento di circa 4,3 ettari nella zona industriale di Taranto, oggi chiuso, recintato e quasi tutto asfaltato, con due capannoni e una palazzina [9][5][6].
 
 ## Perché è inquinata
-Qui la ditta Sidercomit produceva e immagazzinava prodotti siderurgici; dal 1997 l'area è dell'Ilva [9][5][6]. Lo strato di materiale di riporto rilascia alluminio, ferro, manganese, vanadio e fluoruri, e l'acqua sotterranea supera i limiti per nove sostanze [9][13].
+Qui la ditta Sidercomit produceva e immagazzinava prodotti siderurgici (soprattutto profilati di alluminio e acciaio inox); dal 1997 l'area è dell'Ilva [9][5][6]. Lo strato di materiale di riporto rilascia alluminio, ferro, manganese, vanadio e fluoruri, e l'acqua sotterranea supera i limiti per nove sostanze, tra cui arsenico, cromo esavalente e triclorometano [9][13].
 
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria**, cioè i commissari nominati dal Governo per le vecchie aree dell'Ilva: hanno fatto le analisi (consulente Engea, ordine n. 80/22 del 10 marzo 2022, che comprende anche l'analisi di rischio) e presentato l'analisi di rischio [9][6][18]. Le bonifiche delle aree come questa, rimaste fuori dalla fabbrica ceduta ai nuovi gestori, spettano ai commissari [2].

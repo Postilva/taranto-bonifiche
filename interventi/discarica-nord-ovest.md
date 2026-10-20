@@ -2,7 +2,7 @@
 *Stato scheda: approvata — aggiornata al 19 ottobre 2026*
 
 ## In breve
-È una vecchia discarica di rifiuti dell'acciaieria, senza nessuna protezione sul fondo, al confine nord della fabbrica, nel territorio di Statte, vicino alla Gravina di Leucaspide [2][6]. L'area è sotto sequestro penale da ottobre 2018 [14][16]. Il Ministero dell'Ambiente ha approvato il progetto per coprirla ("messa in sicurezza permanente") il 16 dicembre 2025, ma **non si trova nessuna fonte che dica che i lavori sono partiti**, e comunque l'area **non sarà bonificata**: i rifiuti restano dove sono, sotto una copertura [2][5].
+Il Ministero dell'Ambiente ha approvato il progetto per coprirla ("messa in sicurezza permanente") il 16 dicembre 2025, ma **non si trova nessuna fonte che dica che i lavori sono partiti**, e comunque l'area **non sarà bonificata**: i rifiuti restano dove sono, sotto una copertura [2][5].
 
 ## Che posto è
 Al confine nord della fabbrica, nel territorio di Statte, vicino alla Gravina di Leucaspide [2][6]. L'area è sotto sequestro penale da ottobre 2018 [14][16].

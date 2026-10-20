@@ -1,5 +1,5 @@
 # Contesto — l'Ilva e il suo inquinamento
-*Stato: bozza — aggiornata al 20 ottobre 2026*
+*Stato: approvata — aggiornata al 20 ottobre 2026*
 
 Testi della homepage: la storia dello stabilimento, come inquina, com'è fatto, le parole degli inquinanti. Stesse regole delle schede: ogni frase ha la sua fonte [n], elencata in fondo. Il sito legge questo file con `sito/costruisci.py`.
 
@@ -7,6 +7,8 @@ Testi della homepage: la storia dello stabilimento, come inquina, com'è fatto, 
 
 **Immagine:** italsider-1964-monti.jpg
 **Immagine:** italsider-1976-acciaieria.jpg
+
+L'Ilva è l'acciaieria di Taranto. Dal 2018 lo stabilimento in funzione è passato ad ArcelorMittal, poi Acciaierie d'Italia, mentre le aree escluse dall'affitto sono rimaste a Ilva in amministrazione straordinaria [1]; dal 2024 anche Acciaierie d'Italia è in amministrazione straordinaria [3].
 
 Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995 e dal 2012 è al centro di sequestri, decreti e processi [1].
 

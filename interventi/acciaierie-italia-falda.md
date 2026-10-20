@@ -4,7 +4,7 @@
 **Immagine:** acciaieria-2024.jpg
 
 ## In breve
-Sotto lo stabilimento siderurgico ex Ilva l'acqua sotterranea (la "falda") è inquinata quasi ovunque: secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto **925 dei 1.050 ettari** dentro il SIN [1]. In alcuni punti sull'acqua galleggia uno strato di idrocarburi, fino a **3 metri** in un pozzetto di controllo nel 2023 [2][10]. Ci sono solo **misure provvisorie**: dal 2018 una barriera di 11 pozzi pompa e depura l'acqua dei Parchi minerali, e dal 2021–2022 trincee e pozzi raccolgono gli idrocarburi in alcune aree [2][9][11]. Nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili **non si può dire se la barriera funzioni** [2][3]. **Non esiste un progetto di bonifica della falda.**
+Ci sono solo **misure provvisorie**: dal 2018 una barriera di 11 pozzi pompa e depura l'acqua dei Parchi minerali, e dal 2021–2022 trincee e pozzi raccolgono gli idrocarburi in alcune aree [2][9][11]. Nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili **non si può dire se la barriera funzioni** [2][3]. **Non esiste un progetto di bonifica della falda.**
 
 ## Che posto è
 L'acqua sotterranea sotto lo stabilimento siderurgico, nei 1.050 ettari dentro il SIN [1].

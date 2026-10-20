@@ -4,10 +4,10 @@
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
 ## In breve
-Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara europea da 32,3 milioni € (IVA esclusa) per provare tre tecniche di pulizia dei fanghi inquinati sul fondo del 1° seno del Mar Piccolo, prima in piccole aree di prova e poi su aree più grandi [2][3]. La gara si è fermata il 21 agosto 2020, quando è scaduto il mandato della Commissaria, e non è mai stata aggiudicata: nessun lavoro in mare è stato fatto [1][7]. **I fondali del 1° seno non sono bonificati e nemmeno messi in sicurezza**, e oggi non esiste un progetto approvato e finanziato per farlo: il Commissario lavora con la Marina Militare su una sola zona, l'"Area 170 ettari" davanti all'Arsenale, ma i fondi e i tempi non sono ancora decisi [1][11][14].
+Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara europea da 32,3 milioni € (IVA esclusa) per provare tre tecniche di pulizia dei fanghi, prima in piccole aree di prova e poi su aree più grandi [2][3]. La gara si è fermata il 21 agosto 2020, quando è scaduto il mandato della Commissaria, e non è mai stata aggiudicata: nessun lavoro in mare è stato fatto [1][7]. **I fondali del 1° seno non sono bonificati e nemmeno messi in sicurezza**, e oggi non esiste un progetto approvato e finanziato per farlo: il Commissario lavora con la Marina Militare su una sola zona, l'"Area 170 ettari" davanti all'Arsenale, ma i fondi e i tempi non sono ancora decisi [1][11][14].
 
 ## Che posto è
-Il fondo del 1° seno del Mar Piccolo, dove la gara del 2018 doveva provare tre tecniche di pulizia dei fanghi [2][3].
+I fanghi inquinati sul fondo del 1° seno del Mar Piccolo, dove la gara del 2018 doveva provare tre tecniche di pulizia dei fanghi [2][3].
 
 ## Perché è inquinata
 Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e i cantieri navali [8][13].

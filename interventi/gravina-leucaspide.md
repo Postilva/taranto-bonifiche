@@ -2,7 +2,7 @@
 *Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
 ## In breve
-Lungo la Gravina di Leucaspide, una valle naturale nel Comune di Statte accanto alla fabbrica, ai tempi dell'Italsider sono stati ammucchiati circa 5 milioni di metri cubi di rifiuti industriali, che formano una fila di colline artificiali alte 25–30 metri con sopra delle vasche dove si facevano asciugare fanghi oleosi [10][4]. L'area, di circa 46,5 ettari, è sotto sequestro penale dal 2018 e tocca a Ilva in amministrazione straordinaria occuparsene [2][5][7]. A fine 2025 c'erano solo indagini, sondaggi e un sistema che controlla se le colline si muovono: il piano delle analisi approvato dal Ministero nel 2022 non era ancora partito e i lavori per mettere in sicurezza le colline erano ancora da progettare; **non è bonificata né messa in sicurezza** [1][2].
+A fine 2025 c'erano solo indagini, sondaggi e un sistema che controlla se le colline si muovono: il piano delle analisi approvato dal Ministero nel 2022 non era ancora partito e i lavori per mettere in sicurezza le colline erano ancora da progettare; **non è bonificata né messa in sicurezza** [1][2].
 
 ## Che posto è
 Una valle naturale nel Comune di Statte, accanto alla fabbrica [10][4]. La parte che tocca a Ilva in amministrazione straordinaria misura circa 46,5 ettari ed è sotto sequestro penale dal 2018 [2][5][7].

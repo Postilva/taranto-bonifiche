@@ -2,7 +2,7 @@
 *Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
 ## In breve
-Land L è una grande cava di calcare di circa 128 ettari, rimasta a Ilva in amministrazione straordinaria, lontana dalla fabbrica e fuori dal SIN (il "Sito di interesse nazionale" da bonificare), dove negli anni '80 c'era una discarica [2][3][4]. Nel maggio 2023 la Regione Puglia non ha approvato il piano delle analisi presentato da Ilva e ha chiesto prima un'indagine preliminare nelle zone con cumuli di residui industriali; ARPA l'ha valutata favorevolmente a dicembre 2023 [7][8]. **Alla fine del 2025 le indagini non erano ancora partite**: Ilva aspettava le autorizzazioni per i vincoli dell'area, e il terreno **non è né analizzato a fondo, né messo in sicurezza, né bonificato** [1].
+Nel maggio 2023 la Regione Puglia non ha approvato il piano delle analisi presentato da Ilva e ha chiesto prima un'indagine preliminare nelle zone con cumuli di residui industriali; ARPA l'ha valutata favorevolmente a dicembre 2023 [7][8]. **Alla fine del 2025 le indagini non erano ancora partite**: Ilva aspettava le autorizzazioni per i vincoli dell'area, e il terreno **non è né analizzato a fondo, né messo in sicurezza, né bonificato** [1].
 
 ## Che posto è
 Una grande cava di calcare di circa 128 ettari, lontana dalla fabbrica e fuori dal SIN [2][3][4].

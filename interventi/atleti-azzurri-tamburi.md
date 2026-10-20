@@ -2,10 +2,10 @@
 *Stato scheda: approvata — aggiornata all'8 ottobre 2026*
 
 ## In breve
-L'impianto sportivo comunale "Atleti Azzurri d'Italia" (Foglio 203, particella 502) è nel quartiere Tamburi, e il Comune di Taranto vuole rifarlo con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3]. Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA (idrocarburi policiclici aromatici) oltre i limiti di legge e l'ha comunicato agli enti il 13 maggio 2024 [3]. **Il sito non è bonificato né messo in sicurezza**: nell'ottobre 2025 il Commissario ha dato 86.876,20 € al Comune solo per fare le analisi complete e l'analisi di rischio, e nel maggio 2026 l'opuscolo del Commissario dice che i prelievi sono iniziati [1][2]. A gennaio 2026 il Responsabile del CIS aveva annunciato la fine delle analisi "entro il prossimo marzo" e subito dopo la messa in sicurezza permanente [9]; a fine giugno 2026 il Commissario le descrive ancora "in via di completamento" [10]. Nessun risultato è pubblico.
+Il Comune ha comunicato agli enti l'inquinamento il 13 maggio 2024 [3]. **Il sito non è bonificato né messo in sicurezza**: nell'ottobre 2025 il Commissario ha dato 86.876,20 € al Comune solo per fare le analisi complete e l'analisi di rischio, e nel maggio 2026 l'opuscolo del Commissario dice che i prelievi sono iniziati [1][2]. A gennaio 2026 il Responsabile del CIS aveva annunciato la fine delle analisi "entro il prossimo marzo" e subito dopo la messa in sicurezza permanente [9]; a fine giugno 2026 il Commissario le descrive ancora "in via di completamento" [10]. Nessun risultato è pubblico.
 
 ## Che posto è
-L'impianto sportivo comunale "Atleti Azzurri d'Italia", nel quartiere Tamburi, che il Comune di Taranto vuole rifare [1][2][3].
+L'impianto sportivo comunale "Atleti Azzurri d'Italia", nel quartiere Tamburi, che il Comune di Taranto vuole rifare con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3].
 
 ## Perché è inquinata
 Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA oltre i limiti di legge [3]. Le fonti trovate finora non dicono da dove vengano: per questo l'area è tra le ricadute da verificare.

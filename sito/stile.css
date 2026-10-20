@@ -201,14 +201,13 @@ td.num{text-align:right;font-family:var(--f-mono);font-size:.85rem;white-space:n
 .legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.8rem;color:var(--ink-2)}
 .legend span{display:inline-flex;align-items:center;gap:6px}
 .sw{width:11px;height:11px;border-radius:3px;display:inline-block;flex:none}
-.hbar{display:grid;grid-template-columns:minmax(0,7.5rem) 1fr 2.2rem;gap:8px 10px;align-items:center}
+.hbar{display:grid;grid-template-columns:minmax(0,7.5rem) 1fr;gap:8px 10px;align-items:center}
 .hbar .lbl{font-weight:700;font-size:.85rem;line-height:1.2}
 .hbar .lbl small{display:block;font-weight:400;color:var(--ink-3);font-size:.75rem}
 .track{display:flex;gap:2px;height:24px;min-width:0}
 .seg{height:100%;position:relative;min-width:0}
 .seg:first-child{border-radius:6px 0 0 6px}.seg:last-child{border-radius:0 6px 6px 0}.seg:only-child{border-radius:6px}
 .seg span{position:absolute;inset:0;display:grid;place-items:center;font:700 .75rem/1 var(--f-body);color:var(--on-g)}
-.axis-note{font:600 .75rem/1 var(--f-body);color:var(--ink-3)}
 .tip{position:fixed;z-index:3000;pointer-events:none;background:var(--ink);color:var(--bg);font-size:.82rem;line-height:1.35;padding:8px 10px;border-radius:8px;max-width:260px;opacity:0;transition:opacity .1s}
 .tip.on{opacity:1}
 .prose ul,.prose ol{margin:0;padding-left:1.2em;display:grid;gap:6px}

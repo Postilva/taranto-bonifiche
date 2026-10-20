@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610201451">
+<link rel="stylesheet" href="stile.css?v=202610201551">
 
 <header class="topbar">
   <div class="in">
@@ -26,7 +26,7 @@
     <div class="in">
       <p class="eyebrow">Taranto · ex Ilva · dati al <span class="oggi"></span></p>
       <div class="big" id="n-cert">0</div>
-      <h1>aree con il certificato di bonifica, tra le <span class="n-ok">27</span> verificate. Le aree legate all'Ilva sono <span class="n-cens">36</span>.</h1>
+      <h1>aree con il certificato di bonifica. Le aree legate all'Ilva sono <span id="n-ilva">27</span>; altre <span class="n-dv">9</span> sono da verificare.</h1>
       <p class="lead">Discariche, terreni, falde e fondali, controllati uno per uno solo con documenti ufficiali.</p>
       <a class="btn block" href="mappa.html">Apri la mappa</a>
       <p class="credit">Foto: lo stabilimento e il quartiere Tamburi dal Mar Piccolo, 2007 · mafe de baggis, <a href="https://commons.wikimedia.org/wiki/File:ILVA_-_Unit%C3%A0_produttiva_di_Taranto_-_Italy_-_25_Dec._2007.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></p>
@@ -38,7 +38,7 @@
         <h2 class="sec-label">Le aree</h2>
         <div class="tiles">
           <a class="tile gA" href="mappa.html?g=A"><b id="n-a">22</b><span>Aree di Ilva<small>dentro e intorno alla fabbrica</small></span></a>
-          <a class="tile gB" href="mappa.html?g=B"><b id="n-b">14</b><span>Ricadute<small>Tamburi, Statte, Mar Piccolo</small></span></a>
+          <a class="tile gB" href="mappa.html?g=B"><b id="n-b">5</b><span>Ricadute<small>Tamburi e Mar Piccolo · altre <span class="n-dv">9</span> da verificare</small></span></a>
         </div>
 
         <h2 class="sec-label">Capire</h2>
@@ -57,7 +57,7 @@
           <h3>Passaggio per passaggio</h3>
           <div class="legend" id="lg-steps"></div>
           <div id="bars-steps" style="display:grid;gap:10px"></div>
-          <p class="note">Quante delle <span id="n-steps">25</span> schede verificate hanno fatto ogni passaggio. Tocca una barra per vedere quali. <span id="n-steps-why"></span></p>
+          <p class="note">Quante schede verificate hanno fatto ogni passaggio. Tocca una barra per vedere quali. <span id="n-steps-why"></span></p>
         </div>
 
         <h2 class="sec-label">Il progetto</h2>
@@ -75,15 +75,15 @@
 <footer class="end">
   <div class="wrap">
     <p>Il testo viene solo dall'elenco degli interventi, dalle schede approvate e dai testi di contesto del progetto "Bonifiche Taranto". Ogni frase ha una fonte ufficiale; i giornali non sono usati come fonte. Foto da Wikimedia Commons, con licenza libera. Mappa: © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
-    <p>A cura di Antonio De Pace · Prototipo, non ancora pubblicato.</p>
+    <p>A cura di Antonio De Pace.</p>
   </div>
 </footer>
 <div id="sheets"></div>
 <div class="tip" id="tip" role="tooltip"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610201451"></script>
-<script src="comune.js?v=202610201451"></script>
+<script src="dati.js?v=202610201551"></script>
+<script src="comune.js?v=202610201551"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -95,7 +95,8 @@
 const OGGI = new Date(DATA.generato + "T12:00:00").toLocaleDateString("it-IT", {day:"numeric", month:"long", year:"numeric"});
 document.querySelectorAll(".oggi").forEach(el => el.textContent = OGGI);
 $("#n-a").textContent = ELENCO.A.items.length;
-$("#n-b").textContent = ELENCO.B.items.length;
+$("#n-b").textContent = ELENCO.B.items.length - DA_VERIFICARE.size;
+$("#n-ilva").textContent = TOTAL - DA_VERIFICARE.size;
 // certificati: schede in cui il passaggio 5 (Certificazione) è "fatto"
 $("#n-cert").textContent = SCHEDE.filter(s => STEPS[s.id] && STEPS[s.id][4][0] === "done").length;
 
@@ -112,7 +113,7 @@ const codice = k => { const s = verified[k]; return s ? `<a class="cod g${GRUPPO
 const PANNELLI = {
   storia: ["La storia", () => {
     const c = h => cite(h, "storia");
-    const corpo = `<div class="intro"><p>L'Ilva è la grande acciaieria di Taranto; la parte ancora in funzione oggi la gestisce Acciaierie d'Italia.</p>${c(C.storia.intro)}</div>
+    const corpo = `<div class="intro">${c(C.storia.intro)}</div>
       ${C.storia.img[0] ? fotoHtml(C.storia.img[0], "bw") : ""}
       <ol class="tl2">${C.storia.eventi.map(e => `<li><span class="rail"><i></i></span><div class="ev"><span class="when">${esc(e.quando)}</span><span class="what">${c(e.cosa)} ${c(esc(e.fonte))}</span></div></li>`).join("")}</ol>
       ${C.storia.img.slice(1).map(f => fotoHtml(f, "bw")).join("")}`;
@@ -234,17 +235,16 @@ function tipOn(el, html){
 addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
 (function(){
   const S = SCHEDE.filter(s => STEPS[s.id]), N = S.length;
-  $("#n-steps").textContent = N;
   // perché le schede del grafico sono meno degli interventi: aree senza scheda, schede con più codici, schede senza passaggi
   const multi = SCHEDE.filter(s => s.codes.length > 1), senza = SCHEDE.filter(s => !STEPS[s.id]);
   const e = a => a.length === 2 ? a.join(" e ") : a.slice(0, -1).join(", ") + (a.length > 1 ? " e " : "") + a.slice(-1);
   const nuove = ALL.filter(r => !verified[r[0]]).length;
   const why = [
-    ...(nuove ? [`${nuove} non hanno ancora una scheda verificata`] : []),
+    ...(nuove ? ["alcune aree non hanno ancora una scheda verificata"] : []),
     ...multi.map(s => `${e(s.codes)} hanno un'unica scheda`),
     ...(senza.length ? [`${e(senza.map(s => `${s.code} (${s.short})`))} ${senza.length > 1 ? "non hanno" : "non ha"} passaggi perché non ${senza.length > 1 ? "sono interventi" : "è un intervento"} sul terreno`] : [])
   ];
-  if (TOTAL !== N && why.length) $("#n-steps-why").textContent = `Le schede nel grafico sono ${N} su ${TOTAL} aree: ${e(why)}.`;
+  if (TOTAL !== N && why.length) $("#n-steps-why").textContent = `Le schede non sono una per area: ${e(why)}.`;
   $("#lg-steps").innerHTML = STATI.map(s => `<span><i class="sw" style="background:var(${s[2]})"></i>${s[1]}</span>`).join("");
   $("#bars-steps").innerHTML = PASSI.map(([step,sub],i) => {
     const segs = STATI.map(([k,l,v]) => {
@@ -252,7 +252,7 @@ addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
       if (!who.length) return "";
       return `<div class="seg" data-tip="${esc(`<strong>${step}: ${l}</strong><br>` + who.map(s => `${s.codes.join("+")} ${s.short}`).join("<br>"))}" style="flex:${who.length};background:var(${v})"><span style="${k==="na"||k==="part"?"color:var(--ink)":""}">${who.length}</span></div>`;
     }).join("");
-    return `<div class="hbar"><span class="lbl">${i+1}. ${step}<small>${sub}</small></span><div class="track">${segs}</div><span class="axis-note">su ${N}</span></div>`;
+    return `<div class="hbar"><span class="lbl">${i+1}. ${step}<small>${sub}</small></span><div class="track">${segs}</div></div>`;
   }).join("");
   document.querySelectorAll("#bars-steps .seg").forEach(el => tipOn(el, el.dataset.tip));
 })();

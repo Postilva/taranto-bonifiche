@@ -4,7 +4,7 @@
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
 ## In breve
-L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale della Marina Militare, dove le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante" da PCB, arsenico e mercurio [6]. Dal 2025 il Commissario per la bonifica vuole ripulirla togliendo i fanghi con un "ecodragaggio" insieme alla Marina Militare, ma oggi c'è solo l'accelerazione del "piano di indagini": nessun lavoro è partito, i soldi non sono assegnati e le date non ci sono [1][2]. **L'area non è bonificata e nemmeno messa in sicurezza**, e il collegamento con i lavori di ammodernamento delle basi della Marina è dichiarato dal Commissario ma non ho trovato nessun atto che lo spieghi [1].
+Dal 2025 il Commissario per la bonifica vuole ripulirla togliendo i fanghi con un "ecodragaggio" insieme alla Marina Militare, ma oggi c'è solo l'accelerazione del "piano di indagini": nessun lavoro è partito, i soldi non sono assegnati e le date non ci sono [1][2]. **L'area non è bonificata e nemmeno messa in sicurezza**, e il collegamento con i lavori di ammodernamento delle basi della Marina è dichiarato dal Commissario ma non ho trovato nessun atto che lo spieghi [1].
 
 ## Che posto è
 La zona del 1° seno del Mar Piccolo davanti all'Arsenale della Marina Militare [6].
