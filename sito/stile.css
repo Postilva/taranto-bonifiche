@@ -79,6 +79,8 @@ body.mappa .topbar .in{max-width:none}
 .hero .eyebrow{font:500 .7rem/1.3 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
 .hero .big{font:700 clamp(7rem,34vw,12rem)/.78 var(--f-body);letter-spacing:-.07em;color:var(--gA);margin-left:-.04em}
 .hero h1{font:600 clamp(1.45rem,6vw,2.4rem)/1.15 var(--f-body);letter-spacing:-.02em;max-width:24ch}
+.hero h1.titolo{font:700 clamp(2.7rem,12.5vw,5.2rem)/.95 var(--f-body);letter-spacing:-.04em;max-width:12ch}
+.hero h1.titolo span{color:var(--gA)}
 .hero .lead{font-size:.95rem;line-height:1.5;color:var(--ink-2);max-width:46ch}
 .hero .btn{margin-top:8px}
 .hero .credit{font:500 .64rem/1.35 var(--f-mono);color:var(--ink-3)}

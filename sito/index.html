@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610201830">
+<link rel="stylesheet" href="stile.css?v=202610201900">
 
 <header class="topbar">
   <div class="in">
@@ -25,9 +25,8 @@
   <section class="hero">
     <div class="in">
       <p class="eyebrow">Taranto · ex Ilva · dati al <span class="oggi"></span></p>
-      <div class="big" id="n-ilva">36</div>
-      <h1>aree legate all'Ilva. <span id="cert-frase">Solo una risulta bonificata, secondo un elenco della Regione del 2020: il certificato non l'abbiamo visto.</span></h1>
-      <p class="lead">Discariche, terreni, falde e fondali, controllati uno per uno solo con documenti ufficiali.</p>
+      <h1 class="titolo">Bonificare l'Ilva: <span>a che punto siamo.</span></h1>
+      <p class="lead">Discariche, terreni, falde e fondali, dalla fabbrica al Tamburi, a Statte e al Mar Piccolo, controllati uno per uno solo con documenti ufficiali.</p>
       <a class="btn block" href="mappa.html">Apri la mappa</a>
       <p class="credit">Foto: lo stabilimento e il quartiere Tamburi dal Mar Piccolo, 2007 · mafe de baggis, <a href="https://commons.wikimedia.org/wiki/File:ILVA_-_Unit%C3%A0_produttiva_di_Taranto_-_Italy_-_25_Dec._2007.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></p>
     </div>
@@ -82,8 +81,8 @@
 <div class="tip" id="tip" role="tooltip"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610201830"></script>
-<script src="comune.js?v=202610201830"></script>
+<script src="dati.js?v=202610201900"></script>
+<script src="comune.js?v=202610201900"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -96,16 +95,6 @@ const OGGI = new Date(DATA.generato + "T12:00:00").toLocaleDateString("it-IT", {
 document.querySelectorAll(".oggi").forEach(el => el.textContent = OGGI);
 $("#n-a").textContent = ELENCO.A.items.length;
 $("#n-b").textContent = ELENCO.B.items.length - DA_VERIFICARE.size;
-$("#n-ilva").textContent = TOTAL - DA_VERIFICARE.size;
-// certificati: "fatto" = certificato visto da noi; "part" = certificato dichiarato da un ente ma non visto
-{ const c5 = k => SCHEDE.filter(s => STEPS[s.id] && STEPS[s.id][4][0] === k).length, visti = c5("done"), dichiarati = c5("part");
-  const n = x => ["nessuna","una","due","tre","quattro","cinque"][x] ?? x;
-  $("#cert-frase").textContent = visti
-    ? `Con il certificato di bonifica: ${n(visti)}.`
-    : dichiarati === 1 ? "Solo una risulta bonificata, secondo un elenco della Regione del 2020: il certificato non l'abbiamo visto."
-    : dichiarati ? `${dichiarati} risultano bonificate secondo gli enti, ma i certificati non li abbiamo visti.`
-    : "Nessuna ha un certificato di bonifica."; }
-
 /* ---------- pannelli a tutto schermo: uno per argomento, aperti da #storia, #come-inquina, ... ---------- */
 const C = DATA.contesto;
 // fonti usate in un pannello: solo le [n] che compaiono nel suo testo, con id "<pannello>-f<n>"
