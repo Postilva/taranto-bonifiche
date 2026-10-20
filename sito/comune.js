@@ -209,3 +209,20 @@ function coverZoom(m, from){
 const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${GRUPPO[p.code]} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
 const fmtMln = v => v.toLocaleString("it-IT",{minimumFractionDigits:1,maximumFractionDigits:2});
 const STATO = Object.fromEntries(STATI.map(s => [s[0], {label:s[1], color:s[2]}]));
+
+/* ---------- stabilimento, foto e glossario (home e report) ---------- */
+// contorno dello stabilimento siderurgico: relazione OpenStreetMap 11843712 "Acciaierie d'Italia S.p.A." (© contributori OSM, licenza ODbL)
+const STABILIMENTO = [[40.50586,17.17141],[40.50501,17.17138],[40.50448,17.17121],[40.50411,17.17181],[40.50358,17.17199],[40.50308,17.17185],[40.4994,17.175],[40.49865,17.17566],[40.49729,17.1776],[40.4967,17.17902],[40.49692,17.17962],[40.49707,17.17979],[40.4973,17.18004],[40.49841,17.18208],[40.49934,17.18433],[40.50019,17.18751],[40.50144,17.19212],[40.50174,17.1929],[40.50229,17.19492],[40.50269,17.19973],[40.49912,17.20314],[40.49792,17.20423],[40.49755,17.20394],[40.49583,17.20565],[40.491,17.21001],[40.49078,17.21029],[40.49074,17.2105],[40.49082,17.21065],[40.49126,17.21125],[40.49141,17.21162],[40.49133,17.21273],[40.49261,17.21524],[40.49616,17.2218],[40.49694,17.22328],[40.49808,17.22443],[40.49881,17.22471],[40.51078,17.22165],[40.5132,17.22102],[40.51493,17.22057],[40.51593,17.21997],[40.5175,17.21887],[40.51839,17.21827],[40.51913,17.2179],[40.51962,17.21597],[40.51979,17.21604],[40.51989,17.21569],[40.52117,17.21377],[40.52291,17.21004],[40.52399,17.20765],[40.52425,17.20695],[40.52511,17.20118],[40.52495,17.19967],[40.52377,17.19735],[40.52213,17.19882],[40.52044,17.19562],[40.51904,17.19285],[40.51755,17.1901],[40.51604,17.18731],[40.51451,17.189],[40.51279,17.18599],[40.5119,17.18415],[40.51287,17.1829],[40.51216,17.18013],[40.51131,17.1777],[40.51005,17.17519],[40.50956,17.1743],[40.50888,17.17311],[40.5083,17.1722],[40.50797,17.17161],[40.50749,17.17074],[40.50716,17.17012],[40.50691,17.16969],[40.50682,17.16952],[40.50668,17.16925],[40.50646,17.16987],[40.50586,17.17141]];
+// foto con didascalia e credito, dal registro immagini.md (autore, licenza, link all'originale)
+function fotoHtml(file, cls = "", eager = false){
+  const i = DATA.immagini[file]; if (!i) return "";
+  return `<figure class="photo ${cls}"><img src="img/${file}" alt="${esc(i.did)}" ${eager ? "" : 'loading="lazy"'}><figcaption>${esc(i.did)}. <span class="cr">Foto: ${esc(i.autore)}, <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.licenza)}</a></span></figcaption></figure>`;
+}
+// voci del glossario citate in un testo: si cercano le "parole" di ogni voce (le sigle maiuscole solo così come sono scritte)
+function glossarioIn(testo){
+  const t = testo.replace(/<[^>]+>/g, " ");
+  return DATA.contesto.glossario.filter(g => g.parole.some(p => {
+    const sigla = p === p.toUpperCase();
+    return new RegExp("(^|[^\\wàèéìòù])" + p.replace(/[()]/g, "\\$&") + "($|[^\\wàèéìòù])", sigla ? "" : "i").test(t);
+  }));
+}

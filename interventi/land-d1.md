@@ -4,6 +4,12 @@
 ## In breve
 Land D1 è un'area verde di circa 3 ettari rimasta a Ilva in amministrazione straordinaria, appena fuori dalla fabbrica, sul lato sud-ovest, vicino a Land D2; lungo il suo confine sud passa, sotto terra, il primo canale di scarico dello stabilimento [5][8]. Le analisi, validate da ARPA Puglia nel novembre 2023, hanno trovato idrocarburi, IPA (sostanze cancerogene tipiche della combustione), diossine, arsenico e zinco oltre i limiti per le zone abitate; nel terreno di riempimento sopra il canale sono stati trovati rifiuti sepolti, e sotto una strada vicina si è aperta una cavità [8][1]. **Non è bonificata e non è messa in sicurezza**: alla fine del 2025 la rimozione dei rifiuti sepolti era "in corso di ultimazione" secondo Ilva e l'analisi di rischio non era ancora stata presentata al Ministero [1].
 
+## Che posto è
+Un'area verde di circa 3 ettari appena fuori dalla fabbrica, sul lato sud-ovest, vicino a Land D2 [5][8].
+
+## Perché è inquinata
+Lungo il suo confine sud passa, sotto terra, il primo canale di scarico dello stabilimento [5][8]. Nel terreno di riempimento sopra il canale sono stati trovati rifiuti sepolti, e le analisi hanno trovato idrocarburi, IPA, diossine, arsenico e zinco oltre i limiti per le zone abitate [8][1].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria**, cioè i commissari nominati dal Governo per le vecchie aree dell'Ilva: hanno fatto le analisi (ditta Eco-Trend, consulente Engea) e devono togliere i rifiuti [5][3]. L'analisi di rischio è stata affidata a Engea con l'ordine n. 7/22 del 19 gennaio 2022 [12].
 - **Ministero dell'Ambiente** (allora MATTM, oggi MASE): guida la procedura; ha approvato il piano delle analisi con il decreto n. 19 del 27 gennaio 2021, firmato dal direttore generale Giuseppe Lo Presti [7].

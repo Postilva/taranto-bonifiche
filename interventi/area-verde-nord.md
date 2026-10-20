@@ -4,6 +4,12 @@
 ## In breve
 È un grande terreno incolto di circa 26,7 ettari, rimasto a Ilva in amministrazione straordinaria, nel Comune di Statte, tra la Gravina di Leucaspide e il paese (a meno di 1 km dal centro e a circa 100 m dalle prime case), dentro un'area naturale protetta [4][6]. Le analisi del 2021–2022 hanno trovato berillio quasi ovunque e, in alcuni punti, arsenico, zinco, cadmio, idrocarburi e solventi oltre i limiti per le aree verdi; l'analisi di rischio di Ilva dice che due zone sono **contaminate** (è il "primo stato di contaminazione" di cui parla Ilva) [4][1]. **Non è stato bonificato né messo in sicurezza**: l'analisi di rischio è stata respinta e la pratica archiviata dal Ministero a febbraio 2024, e da allora nell'archivio pubblico non c'è niente di nuovo [12].
 
+## Che posto è
+Un grande terreno incolto di circa 26,7 ettari nel Comune di Statte, tra la Gravina di Leucaspide e il paese, a circa 100 metri dalle prime case, dentro un'area naturale protetta [4][6].
+
+## Perché è inquinata
+Le analisi del 2021–2022 hanno trovato berillio quasi ovunque e, in alcuni punti, arsenico, zinco, cadmio, idrocarburi e solventi oltre i limiti per le aree verdi; per l'analisi di rischio di Ilva due zone sono contaminate [4][1].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria**: deve fare analisi, analisi di rischio ed eventuale bonifica; l'analisi di rischio è firmata dalla società Engea Consulting [4].
 - **Ministero dell'Ambiente** (MASE): guida la procedura e decide [3][12].

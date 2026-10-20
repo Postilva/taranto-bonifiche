@@ -4,6 +4,12 @@
 ## In breve
 Land D2 è un piccolo terreno di circa 910 m², rimasto a Ilva in amministrazione straordinaria, nella zona industriale di Taranto, lungo la Statale 7 Appia; sopra ci sono solo erbacce, una chiesetta abbandonata e un traliccio ENEL [12][9]. Le analisi hanno trovato nel terreno idrocarburi e arsenico oltre i limiti previsti per le zone abitate, ma il Ministero dell'Ambiente, con il decreto n. 185 del 4 dicembre 2024, l'ha dichiarata **"non contaminata"**, perché il rischio è accettabile per chi ci lavora saltuariamente [2][12]. **Non è stato bonificato niente, perché secondo la legge non serviva**, e l'area **è rimasta dentro il SIN** (il "Sito di interesse nazionale" da bonificare) [2][22].
 
+## Che posto è
+Un piccolo terreno di circa 910 m² nella zona industriale di Taranto, lungo la Statale 7 Appia, con erbacce, una chiesetta abbandonata e un traliccio ENEL [12][9].
+
+## Perché è inquinata
+Le analisi hanno trovato nel terreno idrocarburi e arsenico oltre i limiti previsti per le zone abitate; il Ministero l'ha comunque dichiarato non contaminato, perché il rischio è accettabile per chi ci lavora saltuariamente [2][12].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria**, cioè i commissari nominati dal Governo per le vecchie aree dell'Ilva: hanno fatto le analisi (con la società di consulenza Engea) e chiesto l'approvazione [12][13]. Land D2 è una delle "aree a verde rimaste di propria competenza" dopo il passaggio della fabbrica ai nuovi gestori [26].
 - **Ministero dell'Ambiente** (oggi Direzione generale economia circolare e bonifiche): guida la procedura e decide; il decreto n. 185 è firmato dal direttore generale Luca Proietti [2].

@@ -4,6 +4,12 @@
 ## In breve
 È un piazzale nel Comune di Statte, vicino alla Strada provinciale 48 Taranto–Statte, dove per anni sono stati ammucchiati direttamente sul terreno i fanghi prodotti dall'altoforno e dall'acciaieria dell'Ilva; accanto ci sono le "aree vicine", con quattro vasche per l'acqua piovana [4][7]. Tra il 2019 e il 12 agosto 2023 Ilva ha portato via circa 333.000 tonnellate di fanghi e ha spostato altre 113.107 tonnellate in un deposito impermeabilizzato, che andava svuotato entro il 23 agosto 2026; a fine 2025 lo svuotamento non era finito, anche per uno stop legato a controlli della Procura [1][2][7]. **Il terreno non è bonificato e non è ancora stato nemmeno analizzato**: il Ministero ha chiesto di fare le analisi solo dopo che tutti i fanghi saranno stati portati via [1][6].
 
+## Che posto è
+Un piazzale nel Comune di Statte, vicino alla Strada provinciale 48 Taranto–Statte; accanto ci sono le "aree vicine", con quattro vasche per l'acqua piovana [4][7].
+
+## Perché è inquinata
+Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti dall'altoforno e dall'acciaieria dell'Ilva [4][7]. Il terreno sotto non è ancora stato analizzato: il Ministero ha chiesto di farlo dopo aver portato via tutti i fanghi [1][6].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria** (i commissari del Governo che gestiscono le vecchie aree dell'Ilva): deve togliere i fanghi e poi analizzare e, se serve, bonificare il terreno [1][3]. È l'area n. 3 (fanghi) e n. 15 (aree vicine) del suo elenco di 18 "aree escluse" [7].
 - **Ministero dell'Ambiente (MASE)**, con due uffici diversi:

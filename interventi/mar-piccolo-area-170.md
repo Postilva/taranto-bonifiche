@@ -1,8 +1,16 @@
 # B12 – Mar Piccolo: bonifica dell'"Area 170 ha" con ecodragaggio (con la Marina Militare)
 *Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
+**Immagine:** tramonto-mar-piccolo-2010.jpg
+
 ## In breve
 L'"Area 170 ettari" è la zona del 1° seno del Mar Piccolo davanti all'Arsenale della Marina Militare, dove le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante" da PCB, arsenico e mercurio [6]. Dal 2025 il Commissario per la bonifica vuole ripulirla togliendo i fanghi con un "ecodragaggio" insieme alla Marina Militare, ma oggi c'è solo l'accelerazione del "piano di indagini": nessun lavoro è partito, i soldi non sono assegnati e le date non ci sono [1][2]. **L'area non è bonificata e nemmeno messa in sicurezza**, e il collegamento con i lavori di ammodernamento delle basi della Marina è dichiarato dal Commissario ma non ho trovato nessun atto che lo spieghi [1].
+
+## Che posto è
+La zona del 1° seno del Mar Piccolo davanti all'Arsenale della Marina Militare [6].
+
+## Perché è inquinata
+Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante" da PCB, arsenico e mercurio [6]. Secondo la Commissione parlamentare, i problemi del Mar Piccolo vengono in larga misura dall'attività industriale dell'area, cantieri e Arsenale, a cui si è sovrapposta l'attività siderurgica [14].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto** (Vito Felice Uricchio): ha promosso la collaborazione con la Marina e con MASE, ISPRA, ARPA Puglia, Regione e Comune [1].

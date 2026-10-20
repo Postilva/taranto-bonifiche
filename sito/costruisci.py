@@ -199,6 +199,96 @@ def leggi_elenco():
     return righe, sottogruppi("A"), sottogruppi("B")
 
 
+def leggi_fonti(body):
+    """Righe "[n] testo, link — copia in fonti/..." → [{n, html, url}] (la copia locale non va sul sito)."""
+    joined, fon = "\n".join(body), []
+    for fm in re.finditer(r"^\[(\d+)\]\s+(.+?)(?=\n\s*\n|^\[\d+\]\s|\Z)", joined, re.M | re.S):
+        raw = " ".join(fm.group(2).split())
+        url = re.search(r"https?://[^\s)]+", raw)
+        testo = re.split(r"\s+—\s+copi[ae]", raw)[0]
+        testo = re.sub(r",?\s*https?://\S+", "", testo).strip(" ,")
+        fon.append({"n": int(fm.group(1)), "html": inline(testo), "url": url.group(0).rstrip(".,;") if url else None})
+    return fon
+
+
+def immagini_di(lines):
+    """Righe "**Immagine:** file.jpg" → [nomi dei file]."""
+    return [re.match(r"\*\*Immagine:\*\*\s*(\S+)", l.strip()).group(1) for l in lines if l.strip().startswith("**Immagine:**")]
+
+
+def immagine(lines):
+    """La prima riga "**Immagine:**" → nome del file (o None)."""
+    return (immagini_di(lines) or [None])[0]
+
+
+# ---------- immagini.md: registro delle foto (autore, licenza, originale) ----------
+def leggi_immagini():
+    out = {}
+    for ln in (ROOT / "immagini.md").read_text(encoding="utf-8").splitlines():
+        c = [x.strip() for x in ln.strip().strip("|").split("|")]
+        if len(c) == 5 and re.search(r"\.(jpe?g|png|webp)$", c[0]):
+            out[c[0]] = {"did": c[1], "autore": c[2], "licenza": c[3], "url": c[4]}
+    return out
+
+
+# ---------- contesto.md: testi della homepage ----------
+def leggi_contesto():
+    txt = (ROOT / "contesto.md").read_text(encoding="utf-8")
+    secs = {}
+    for s in txt.split("\n## ")[1:]:
+        titolo, _, corpo = s.partition("\n")
+        secs[titolo.strip().lower()] = corpo.splitlines()
+    sotto = lambda lines: [(s.split("\n", 1)[0].strip(), s.split("\n", 1)[1].splitlines() if "\n" in s else [])
+                           for s in "\n".join(lines).split("\n### ")[1:]]
+    prima = lambda lines: "\n".join(lines).split("\n### ")[0].splitlines()   # righe prima del primo ###
+    testo = lambda lines: [l for l in lines if not l.strip().startswith("**Immagine:**")]
+    out = {}
+
+    st = secs["storia"]
+    eventi = []
+    for kind, val in blocks(testo(st)):
+        if kind == "table":
+            for r in val[1:]:
+                eventi.append({"t": data_num(r[0]), "quando": r[0], "cosa": inline(r[1]), "fonte": r[2] if len(r) > 2 else ""})
+    out["storia"] = {"img": immagini_di(st), "intro": "".join(f"<p>{inline(v)}</p>" for k, v in blocks(testo(st)) if k == "p"), "eventi": eventi}
+
+    ci = secs["come inquina"]
+    colonne = []
+    for titolo, righe in sotto(ci):
+        voci = []
+        for kind, val in blocks(righe):
+            if kind == "ul":
+                for it in val:
+                    riga = " ".join(x.strip() for x in it)
+                    testo_v, _, codici = riga.partition("→")
+                    m = re.match(r"\*\*(.+?)\*\*:?\s*(.*)", testo_v.strip())
+                    voci.append({"nome": m.group(1), "html": inline(m.group(2)), "codici": re.findall(r"[ABCD]\d+", codici)})
+        colonne.append({"titolo": titolo, "voci": voci})
+    out["inquina"] = {"img": immagini_di(ci), "intro": section_html(testo(prima(ci))), "colonne": colonne}
+
+    fa = secs["la fabbrica"]
+    reparti, dopo, visto = [], [], False
+    for kind, val in blocks(testo(fa)):
+        if kind == "ol":
+            visto = True
+            for it in val:
+                m = re.match(r"\*\*(.+?)\*\*:?\s*(.*)", " ".join(x.strip() for x in it))
+                reparti.append({"nome": m.group(1), "html": inline(m.group(2))})
+        elif kind == "p":
+            (dopo if visto else out.setdefault("_fa_intro", [])).append(f"<p>{inline(val)}</p>")
+    out["fabbrica"] = {"img": immagini_di(fa), "intro": "".join(out.pop("_fa_intro", [])), "reparti": reparti, "chiusura": "".join(dopo)}
+
+    gl = []
+    for titolo, righe in sotto(secs["glossario"]):
+        parole = next((re.match(r"\*Parole:\s*(.+?)\*", l.strip()).group(1) for l in righe if l.strip().startswith("*Parole:")), "")
+        corpo = [l for l in righe if not l.strip().startswith("*Parole:")]
+        gl.append({"id": "g-" + re.sub(r"[^a-z]", "", titolo.split()[0].lower()), "titolo": titolo,
+                   "parole": [p.strip() for p in parole.split(",") if p.strip()], "html": section_html(corpo)})
+    out["glossario"] = gl
+    out["fonti"] = leggi_fonti(secs["fonti"])
+    return out
+
+
 # ---------- schede ----------
 def leggi_scheda(path):
     txt = path.read_text(encoding="utf-8")
@@ -221,7 +311,7 @@ def leggi_scheda(path):
         elif cur:
             cur[1].append(ln)
     out = {"id": path.stem, "codes": codes, "code": codes[0], "title": title, "updated": upd, "warnNote": warn,
-           "sections": [], "nonsappiamo": [], "fonti": [], "date": [], "verdict": "", "breve": "", "fatto": "", "chi": []}
+           "sections": [], "nonsappiamo": [], "fonti": [], "date": [], "verdict": "", "breve": "", "fatto": "", "chi": [], "posto": "", "perche": ""}
     for t, body in secs:
         tl = t.lower()
         if tl.startswith("cosa è stato fatto"):
@@ -231,15 +321,12 @@ def leggi_scheda(path):
                 out["verdict"] = vm.group(1).strip()
                 body = body[:k] + ([vm.group(3)] if vm.group(3) else []) + body[k + 1:]
         if tl.startswith("fonti"):
-            joined, fon = "\n".join(body), []
-            for fm in re.finditer(r"^\[(\d+)\]\s+(.+?)(?=\n\s*\n|^\[\d+\]\s|\Z)", joined, re.M | re.S):
-                raw = " ".join(fm.group(2).split())
-                url = re.search(r"https?://[^\s)]+", raw)
-                testo = re.split(r"\s+—\s+copi[ae]", raw)[0]
-                testo = re.sub(r",?\s*https?://\S+", "", testo).strip(" ,")
-                fon.append({"n": int(fm.group(1)), "html": inline(testo), "url": url.group(0).rstrip(".,;") if url else None})
-            out["fonti"] = fon
+            out["fonti"] = leggi_fonti(body)
             continue
+        if tl.startswith("che posto è"):
+            out["posto"] = section_html(body); continue
+        if tl.startswith("perché è inquinata"):
+            out["perche"] = section_html(body); continue
         if tl.startswith("cosa non sappiamo"):
             for kind, val in blocks(body):
                 if kind == "ol":
@@ -284,6 +371,7 @@ def leggi_scheda(path):
         if b:
             out["verdict"] = re.sub(r"<[^>]+>", "", b.group(1)).strip(" :.") + "."
     out["coord"] = coordinate(txt)
+    out["immagine"] = immagine(lines)
     return out
 
 
@@ -291,7 +379,14 @@ def main():
     elenco, gruppi_a, gruppi_b = leggi_elenco()
     # solo interventi/*.md: le schede in interventi/fuori-perimetro/ non vanno sul sito
     schede = [s for s in (leggi_scheda(p) for p in sorted((ROOT / "interventi").glob("*.md"))) if s]
-    data = {"elenco": elenco, "gruppiA": gruppi_a, "gruppiB": gruppi_b, "schede": schede, "generato": OGGI.isoformat()}
+    immagini = leggi_immagini()
+    contesto = leggi_contesto()
+    usate = contesto["storia"]["img"] + contesto["inquina"]["img"] + contesto["fabbrica"]["img"] + [s["immagine"] for s in schede if s["immagine"]]
+    for f in usate:   # ogni foto usata deve essere nel registro (autore e licenza) e in sito/img/
+        if f not in immagini or not (ROOT / "sito" / "img" / f).exists():
+            sys.exit(f"Immagine {f}: manca in immagini.md o in sito/img/")
+    data = {"elenco": elenco, "gruppiA": gruppi_a, "gruppiB": gruppi_b, "schede": schede, "contesto": contesto,
+            "immagini": immagini, "generato": OGGI.isoformat()}
     js = ("/* Generato da sito/costruisci.py leggendo elenco.md e le schede approvate: non modificare a mano. */\n"
           "const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")
     (ROOT / "sito" / "dati.js").write_text(js, encoding="utf-8")

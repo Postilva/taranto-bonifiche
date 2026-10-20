@@ -4,6 +4,12 @@
 ## In breve
 La zona PIP di Statte è un'area per le imprese (circa 9 ettari) costruita sopra una vecchia cava: tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattutto scorie d'altoforno, insieme a fanghi oleosi che contengono PCB, e da lì l'inquinamento scende nella falda profonda [4][10]. Dal 2013 sono state fatte le analisi e un primo intervento d'emergenza, cioè il pompaggio dell'olio che galleggia sulla falda, ma **il sito non è né bonificato né messo in sicurezza in modo definitivo**: il progetto definitivo è fermo dal 2020 e i conti dei primi lavori non sono ancora chiusi [1][7]. Nel novembre 2025 il Ministero dell'Ambiente ha assegnato 89,9 milioni € (124 milioni € in tutto, con altri fondi): la delibera è registrata, ma al 30 giugno 2026 non c'è ancora un progetto approvato, non c'è una gara e non è stato speso nulla [2][15][17].
 
+## Che posto è
+Un'area per le imprese di circa 9 ettari a Statte, costruita sopra una vecchia cava [4][10].
+
+## Perché è inquinata
+Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattutto scorie d'altoforno, insieme a fanghi oleosi che contengono PCB, e da lì l'inquinamento scende nella falda profonda [4][10]. Le fonti trovate finora non nominano un responsabile: per questo l'area è tra le ricadute da verificare.
+
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto** è il responsabile dell'intervento dal 2013: il 30 luglio 2013 il Comune ha firmato un protocollo d'intesa con il primo Commissario, Alfio Pini, nominato dalla Presidenza del Consiglio l'11 gennaio 2013 [20]. Accordo rivisto nel 2015 [5][6]. Commissari successivi: Vera Corbelli (nominata nel 2014), il Prefetto Demetrio Martino dal novembre 2020 al 2023, Vito Felice Uricchio oggi [7][8][16].
 - Il **Comune di Statte** ha avuto un ruolo che è cambiato più volte:

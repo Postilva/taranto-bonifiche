@@ -4,6 +4,12 @@
 ## In breve
 È una grande discarica di rifiuti dell'acciaieria, ricavata in una vecchia cava fuori dalla fabbrica, che è rimasta a Ilva in amministrazione straordinaria; solo una parte è dentro il SIN, il "Sito di interesse nazionale" da bonificare [8][9][10]. Secondo Ilva è stata **messa in sicurezza** con una copertura di terra e teli, ma **non è stata bonificata** (i rifiuti sono ancora lì) e **nessun ente pubblico ha ancora certificato** che i lavori siano finiti e fatti bene [1][6]. Dal 2020 Ilva e la Provincia di Taranto litigano sulle garanzie economiche che Ilva deve dare per i 30 anni di controlli dopo la chiusura: la Provincia ha respinto le garanzie, i giudici le hanno dato ragione, e senza garanzie adeguate la Provincia non rilascia il certificato [1][3][4][5].
 
+## Che posto è
+Una vecchia cava fuori dalla fabbrica, rimasta a Ilva in amministrazione straordinaria; solo una parte è dentro il SIN [8][9][10].
+
+## Perché è inquinata
+Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva sono stati coperti con terra e teli, ma sono ancora lì [1][6].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria** (i commissari del Governo che gestiscono le vecchie aree dell'Ilva): deve chiudere la discarica e controllarla [2][1].
 - **Provincia di Taranto**: deve accettare le garanzie economiche per la discarica e, alla fine, certificare che la messa in sicurezza è completa e conforme al progetto, sulla base di una relazione di ARPA Puglia [1][3][14].

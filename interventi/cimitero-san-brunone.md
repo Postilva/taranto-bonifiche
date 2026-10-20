@@ -1,8 +1,16 @@
 # B8 – Cimitero San Brunone (Taranto): bonifica delle aree non pavimentate
 *Stato scheda: approvata — aggiornata all'8 ottobre 2026*
 
+**Immagine:** ilva-2007-mar-piccolo.jpg
+
 ## In breve
 Il San Brunone è il cimitero storico di Taranto, nel quartiere Tamburi, vicino all'ex Ilva: il terreno dei campi dove si seppelliscono i morti (i "campi di inumazione") e delle aiuole è contaminato [1][2][4]. La bonifica è stata progettata tra il 2015 e il 2018 e i lavori sono iniziati nel maggio 2020, ma si sono fermati dopo tre mesi, e nel 2021 la gara è stata annullata [3]. **Il cimitero non è bonificato.** Ad agosto 2026 il Commissario scrive che la "messa in sicurezza d'emergenza" dei suoli è "completata" [14], ma nessun altro documento la descrive: risultano solo i lavori interrotti nel 2020, le recinzioni e i teloni sulla terra scavata [3][10][11]. Nel 2026 si sta rifacendo il progetto, con un costo stimato di 17,5 milioni €, mentre i soldi disponibili sono circa 9,4 milioni €, e nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha ricevuto nulla [1][3][12].
+
+## Che posto è
+Il cimitero storico di Taranto, nel quartiere Tamburi, vicino all'ex Ilva: la contaminazione riguarda il terreno dei campi dove si seppelliscono i morti e delle aiuole [1][2][4].
+
+## Perché è inquinata
+L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vicinanza all'ex Ilva [1]; la Regione, nel 2025, indica "in particolare" le cokerie [16]. Nel sopralluogo del 2022 la Commissione parlamentare ha visto la colorazione rossastra delle tombe, effetto delle emissioni dell'acciaieria [15].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto**, che è anche la stazione appaltante [3][7]. Negli anni sono cambiati i commissari: Vera Corbelli fino ad agosto 2020, il Prefetto Demetrio Martino dal 2020 al 2023, Vito Felice Uricchio dal 1° marzo 2024 (incarico prorogato fino al 31/12/2026) [3].

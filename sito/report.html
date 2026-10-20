@@ -4,14 +4,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="stile.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="stile.css?v=202610201451">
 
 <header class="topbar">
   <div class="in">
     <a class="brand" href="index.html">Bonifiche <span>Taranto</span></a>
     <nav aria-label="Pagine">
-      <a href="index.html">La storia</a>
+      <a href="index.html">Inizio</a>
       <a href="mappa.html">Mappa</a>
     </nav>
   </div>
@@ -23,38 +23,44 @@
 
 <footer class="end">
   <div class="wrap">
-    <p><strong>Come è fatto questo report.</strong> Il testo viene solo dalle schede approvate del progetto "Bonifiche Taranto". Ogni frase ha una fonte ufficiale, indicata con il numero tra parentesi quadre. I giornali non sono usati come fonte.</p>
+    <p>Il testo viene solo dalle schede approvate del progetto "Bonifiche Taranto". Ogni frase ha una fonte ufficiale, indicata con il numero tra parentesi quadre. I giornali non sono usati come fonte.</p>
     <p>A cura di Antonio De Pace<span class="contatto-sep"> · </span><a class="contatto" href="#" target="_blank" rel="noopener">Scrivici</a></p>
     <p>Mappa: © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. Prototipo, non ancora pubblicato.</p>
   </div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js"></script>
-<script src="comune.js"></script>
+<script src="dati.js?v=202610201451"></script>
+<script src="comune.js?v=202610201451"></script>
 <script>
 /* Report di un intervento: report.html#<id-scheda> (oppure #<id-scheda>-f<n> per aprire una fonte).
-   Ordine fisso: testata, scheda rapida, in breve, la storia, cosa non sappiamo, approfondimenti, fonti. */
-const sec = (title, body, hint="") => `<section class="rp-sec"><h2>${esc(title)}</h2>${hint ? `<p class="hint">${hint}</p>` : ""}${body}</section>`;
-const fold = (title, body, id="") => `<details class="fold"${id ? ` id="${id}"` : ""}><summary>${title}</summary><div class="prose">${body}</div></details>`;
+   Ordine fisso: foto, testata, a che punto è, in breve, che posto è e perché è inquinata, sostanze, mappa, chi e soldi,
+   poi le sezioni a fisarmonica (storia, cosa è stato fatto, cosa non sappiamo, approfondimenti, fonti). */
+const acc = (title, body, opts={}) => `<details class="acc"${opts.id ? ` id="${opts.id}"` : ""}${opts.open ? " open" : ""}><summary><span>${title}${opts.sub ? `<small>${opts.sub}</small>` : ""}</span></summary><div class="body prose">${body}</div></details>`;
 
-function quickHtml(s, p){
-  const steps = STEPS[s.id], money = MONEY[s.id];
-  const rows = [];
-  rows.push(["A che punto è", steps
-    ? `<ol class="passi">${steps.map(([k,t],i) => `<li><i style="background:var(${STATO[k].color})" title="${esc(STATO[k].label)}"></i><span><b style="color:var(--ink)">${i+1}. ${PASSI[i][0]}</b> · ${esc(STATO[k].label)}. ${esc(t)}</span></li>`).join("")}</ol>`
-    : `<span class="muted">${esc(NO_STEPS[s.id] || "La scheda non permette di dire a che punto sono i 5 passaggi.")}</span>`]);
-  if (s.chi.length) rows.push(["Chi se ne occupa", `<div class="chi">${s.chi.map(c => `<span>${esc(c)}</span>`).join("")}</div>`]);
+// "A che punto è": i 5 passaggi della bonifica, uno per riga
+function statoHtml(s){
+  const steps = STEPS[s.id];
+  return `<section class="card kv"><div><span class="k">A che punto è</span>${steps
+    ? `<ol class="passi">${steps.map(([k,t],i) => `<li><i style="background:var(${STATO[k].color})" title="${esc(STATO[k].label)}"></i><span><b>${i+1}. ${PASSI[i][0]}</b> · ${esc(STATO[k].label)}. ${esc(t)}</span></li>`).join("")}</ol>`
+    : `<span class="muted">${esc(NO_STEPS[s.id] || "La scheda non permette di dire a che punto sono i 5 passaggi.")}</span>`}</div></section>`;
+}
+// chi se ne occupa, soldi, aggiornamento
+function infoHtml(s){
+  const money = MONEY[s.id], rows = [];
+  if (s.chi.length) rows.push(["Enti coinvolti", `<div class="chi">${s.chi.map(c => `<span>${esc(c)}</span>`).join("")}</div>`]);
   rows.push(["Soldi", money
     ? `<div class="soldi">${money.map(([k,v,t,lbl]) => `<div title="${esc(t)}"><small>${k}</small>${v==null ? `<b class="na">${esc(lbl)}</b>` : `<b>${lbl || fmtMln(v)}</b><span class="small muted">mln €</span>`}</div>`).join("")}<p class="why">${money.map(m => esc(m[2])).join(" · ")}</p></div>`
-    : `<span class="muted">${s.sections.some(x => /^soldi/i.test(x.title)) ? `Nessun riepilogo in tre cifre: i dettagli sono in <a href="#" data-open="soldi">Approfondimenti → Soldi</a>.` : "Nessuna cifra verificata nella scheda."}</span>`]);
-  rows.push(["Aggiornata al", esc(s.updated)]);
-  if (!p) return `<div class="quick nomap"><dl>${rows.map(([k,v]) => `<div class="row"><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl></div>`;   // voci fuori dalla mappa
+    : `<span class="muted small">${s.sections.some(x => /^soldi/i.test(x.title)) ? `I dettagli sono più sotto, in <a href="#" data-open="soldi">Soldi</a>.` : "Nessuna cifra verificata nella scheda."}</span>`]);
+  rows.push(["Aggiornata al", `<span>${esc(s.updated)}</span>`]);
+  return `<section class="card kv">${rows.map(([k,v]) => `<div><span class="k">${k}</span>${v}</div>`).join("")}</section>`;
+}
+function mappaHtml(p, s){
+  if (!p) return "";
   const pos = p.official
     ? `<strong>Posizione da documento ufficiale.</strong> ${esc(p.src.text)} <a href="#${s.id}-f${p.src.n}">Fonte [${p.src.n}]</a>`
     : `<strong>Posizione indicativa.</strong> ${esc(p.zone)}.`;
-  return `<div class="quick"><dl>${rows.map(([k,v]) => `<div class="row"><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
-    <div class="mini"><div id="minimap" role="region" aria-label="Posizione dell'intervento"></div><p>${pos}</p></div></div>`;
+  return `<section class="card minimap-card"><div id="minimap" role="region" aria-label="Posizione dell'intervento"></div><p>${pos}</p></section>`;
 }
 
 function storyHtml(s){
@@ -63,9 +69,9 @@ function storyHtml(s){
   let h = "", last = null;
   ev.forEach(e => {
     const y = Math.floor(e.t);
-    if (last !== null && y - last >= 5) h += `<li class="gap"><span class="q">…</span><span class="rail"></span><span class="t">${y-last-1} anni senza date nella scheda</span></li>`;
+    if (last !== null && y - last >= 5) h += `<li class="gap"><span class="rail"><i></i></span><span class="q"></span><span class="t">${y-last-1} anni senza date nella scheda</span></li>`;
     last = y;
-    h += `<li class="${e.plan ? "plan" : ""}"><span class="q">${esc(e.quando)}</span><span class="rail"><i></i></span><span class="t">${cite(e.cosa, s.id)}${e.fonte ? " " + cite(esc(e.fonte), s.id) : ""}</span></li>`;
+    h += `<li class="${e.plan ? "plan" : ""}"><span class="rail"><i></i></span><span class="q">${esc(e.quando)}</span><span class="t">${cite(e.cosa, s.id)}${e.fonte ? " " + cite(esc(e.fonte), s.id) : ""}</span></li>`;
   });
   return `<ol class="story">${h}</ol>`;
 }
@@ -75,31 +81,38 @@ function render(s){
   const p = PT[s.code], c = t => cite(t, s.id);
   const i = SCHEDE.indexOf(s), prev = SCHEDE[i-1], next = SCHEDE[i+1];
   const extra = s.sections.filter(x => !/^date principali/i.test(x.title));
-  let h = `<a class="back" href="mappa.html${p ? "#" + s.code : ""}">← Torna alla mappa</a>
-    <header class="rp-head">
-      <div class="meta"><span class="badge ok">✔ verificato</span><span class="mono">${s.codes.join(" + ")}</span><span>${grpLabel(s.code)}</span>${DA_VERIFICARE.has(s.code) ? `<span class="badge expl">Legame con l'Ilva da verificare</span>` : ""}</div>
+  const g = GRUPPO[s.code] || "A";
+  let h = `<a class="back" href="mappa.html${p ? "#" + s.code : ""}">← Mappa</a>
+    ${s.immagine ? fotoHtml(s.immagine, "rp-photo", true) : ""}
+    <header class="rp-head g${g}">
+      <div class="meta"><span class="badge ok">✔ verificato</span><span class="codes">${s.codes.join(" + ")}</span><span>${grpLabel(s.code)}</span>${DA_VERIFICARE.has(s.code) ? `<span class="badge expl">Legame con l'Ilva da verificare</span>` : ""}</div>
       <h1>${esc(s.title)}</h1>
       ${s.verdict ? `<p class="verdict">${esc(s.verdict)}</p>` : ""}
       ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}
     </header>`;
-  h += quickHtml(s, p);
-  if (s.breve) h += sec("In breve", `<div class="lead">${c(s.breve)}</div>`);
-  const story = storyHtml(s);
-  if (story || s.fatto) h += sec("La storia", story + (s.fatto ? fold("Leggi il racconto completo: cosa è stato fatto", c(s.fatto)) : ""),
-    story ? "Le date principali, dalla più vecchia alla più recente. Il cerchio tratteggiato indica una data prevista o una scadenza." : "");
-  if (s.nonsappiamo.length) h += sec("Cosa non sappiamo", `<ol class="unk">${s.nonsappiamo.map(x => `<li><span>${c(x)}</span></li>`).join("")}</ol>`,
-    "Le domande ancora aperte: dati mancanti o fonti che non tornano.");
-  if (extra.length) h += sec("Approfondimenti", `<div class="folds">${extra.map(x => fold(esc(x.title), c(x.html), /^soldi/i.test(x.title) ? "soldi" : "")).join("")}</div>`);
-  h += sec("Fonti", fold(`Tutti i documenti usati (${s.fonti.length})`,
-    `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}</span></li>`).join("")}</ol>`, "fonti"));
-  h += `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="#${prev.id}"><small>← Precedente · ${prev.code}</small>${esc(prev.short)}</a>` : "<span></span>"}${next ? `<a href="#${next.id}"><small>Successivo · ${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
+  h += statoHtml(s);
+  if (s.breve) h += `<section class="card"><div class="lead">${c(s.breve)}</div></section>`;
+  if (s.posto || s.perche) h += `<div class="ctx2">${s.posto ? `<section class="card"><h2>Che posto è</h2><div class="prose">${c(s.posto)}</div></section>` : ""}${s.perche ? `<section class="card"><h2>Perché è inquinata</h2><div class="prose">${c(s.perche)}</div><a class="more-link" href="index.html#come-inquina">Come inquina l'Ilva →</a></section>` : ""}</div>`;
+  const sost = glossarioIn([s.breve, s.posto, s.perche, s.fatto, ...s.sections.map(x => x.html)].join(" "));
+  if (sost.length) h += `<p class="sost">Sostanze: ${sost.map(g => `<a href="index.html#${g.id}">${esc(g.titolo.replace(/\s*\(.*\)$/, ""))}</a>`).join("")}</p>`;
+  h += mappaHtml(p, s);
+  h += infoHtml(s);
+  const story = storyHtml(s), accs = [];
+  if (story) accs.push(acc("La storia", story, {sub: `${s.date.length} date, dalla più vecchia alla più recente`}));
+  if (s.fatto) accs.push(acc("Cosa è stato fatto", c(s.fatto), {sub: "Il racconto completo"}));
+  if (s.nonsappiamo.length) accs.push(acc("Cosa non sappiamo", `<ol class="unk">${s.nonsappiamo.map(x => `<li><span>${c(x)}</span></li>`).join("")}</ol>`, {sub: `${s.nonsappiamo.length} domande aperte`}));
+  extra.forEach(x => accs.push(acc(esc(x.title), c(x.html), {id: /^soldi/i.test(x.title) ? "soldi" : ""})));
+  accs.push(acc("Fonti", `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}</span></li>`).join("")}</ol>`, {id: "fonti", sub: `${s.fonti.length} documenti ufficiali`}));
+  h += `<div class="accs">${accs.join("")}</div>`;
+  h += `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="#${prev.id}"><small>← ${prev.code}</small>${esc(prev.short)}</a>` : ""}${next ? `<a class="next" href="#${next.id}"><small>${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
   $("#rp").innerHTML = h;
   document.title = `${s.code} ${s.short} · Bonifiche Taranto`;
 
   if (mini) { mini.remove(); mini = null; }
   if (window.L && p) {
-    mini = L.map("minimap", {minZoom:12, maxZoom:14, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false});
+    mini = L.map("minimap", {minZoom:12, maxZoom:14, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false, dragging:!L.Browser.mobile, tap:false});
     addTiles(mini);
+    L.polygon(STABILIMENTO, {color:"#c2410c", weight:1.5, fillColor:"#c2410c", fillOpacity:.06, interactive:false}).addTo(mini);
     mini.setView(p.ll, p.official ? 14 : 13, {animate:false});
     L.marker(p.ll, {icon:pinIcon(p, "sel"), interactive:false}).addTo(mini);
   }
