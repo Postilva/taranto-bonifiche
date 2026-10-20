@@ -2,7 +2,7 @@
 *Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
 ## In breve
-È una vecchia discarica di rifiuti dell'acciaieria, di circa 8 ettari, dentro una cava di proprietà del cementificio Cementir (oggi Cemitaly), vicino alla raffineria ENI, nel SIN di Taranto; l'ha gestita prima l'Italsider/Ilva e oggi tocca a Ilva in amministrazione straordinaria [13][14][11]. Tra il 2019 e il 2023 è stata **messa in sicurezza** (barriera tutto intorno e copertura come per i rifiuti pericolosi), ma **non bonificata** e **senza certificato ufficiale** di fine lavori [1][18][24]. **La falda superficiale vicino alla discarica è inquinata**: dal 2022, su richiesta del Ministero, si pompa l'acqua dai pozzi a valle ogni settimana, e intanto c'è la stessa lite con la Provincia sulle garanzie economiche che riguarda la discarica Due Mari [1][3][4].
+Tra il 2019 e il 2023 è stata **messa in sicurezza** (barriera tutto intorno e copertura come per i rifiuti pericolosi), ma **non bonificata** e **senza certificato ufficiale** di fine lavori [1][18][24]. Il pompaggio dell'acqua dai pozzi è stato chiesto dal Ministero, e intanto c'è la stessa lite con la Provincia sulle garanzie economiche che riguarda la discarica Due Mari [1][3][4].
 
 ## Che posto è
 Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino alla raffineria ENI, nel SIN di Taranto [13][14][11].

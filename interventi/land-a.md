@@ -2,13 +2,13 @@
 *Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
 ## In breve
-Land A è un terreno incolto di circa 3 ettari rimasto a Ilva in amministrazione straordinaria, nella zona industriale di Taranto, circa 6 km a nord-ovest della città, al confine con il Comune di Statte; senza recinzione, per anni è stato usato come discarica abusiva di macerie, anche con amianto [7][1][3]. Dal 2021 Ilva ha tolto molti cumuli di rifiuti e nel 2023 ha fatto le analisi, che ARPA Puglia ha validato nel 2024: nel terreno ci sono idrocarburi, PCB e diossine oltre i limiti per le zone abitate (in un punto, le diossine superano anche il limite per le aree industriali), nell'acqua sotterranea manganese, boro e cloroformio [12]. **Non è bonificato e non è messo in sicurezza**: alla fine del 2025 l'analisi di rischio non era ancora stata presentata al Ministero e uno strato di rifiuti compattati, in parte sepolto, risulta ancora sul posto [1][12].
+Dal 2021 Ilva ha tolto molti cumuli di rifiuti e nel 2023 ha fatto le analisi, che ARPA Puglia ha validato nel 2024 [12]. **Non è bonificato e non è messo in sicurezza**: alla fine del 2025 l'analisi di rischio non era ancora stata presentata al Ministero e uno strato di rifiuti compattati, in parte sepolto, risulta ancora sul posto [1][12].
 
 ## Che posto è
 Un terreno incolto di circa 3 ettari nella zona industriale di Taranto, circa 6 km a nord-ovest della città, al confine con il Comune di Statte [7][1][3].
 
 ## Perché è inquinata
-Senza recinzione, per anni è stato usato come discarica abusiva di macerie, anche con amianto [7][1][3]. Le analisi del 2023 hanno trovato nel terreno idrocarburi, PCB e diossine oltre i limiti per le zone abitate, e nell'acqua sotterranea manganese, boro e cloroformio [12].
+Senza recinzione, per anni è stato usato come discarica abusiva di macerie, anche con amianto [7][1][3]. Le analisi del 2023 hanno trovato nel terreno idrocarburi, PCB e diossine oltre i limiti per le zone abitate (in un punto, le diossine superano anche il limite per le aree industriali), e nell'acqua sotterranea manganese, boro e cloroformio [12].
 
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria**, cioè i commissari nominati dal Governo per le vecchie aree dell'Ilva: hanno preparato il piano delle analisi (con un gruppo di geologi esterni), tolto i rifiuti e fatto le analisi [6][7][11]. Land A è una delle "aree a verde rimaste di propria competenza" dopo il passaggio della fabbrica ai nuovi gestori [6].

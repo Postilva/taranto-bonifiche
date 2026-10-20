@@ -4,7 +4,7 @@
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
 ## In breve
-Il Commissario ha fatto studi e indagini sul Mar Piccolo con accordi con università, CNR e Forze dell'ordine, una campagna di indagini geognostiche (sondaggi e analisi del fondale) e una convenzione con la Sogesid sulle acque sotterranee e sul sorvolo "lidar" [1][2]. L'opuscolo del 2026 dice che gli accordi e le indagini sono "conclusi anche finanziariamente", mentre la convenzione con la Sogesid è "conclusa, ma non finanziariamente" dal Commissario precedente [1]. **Sono studi, non bonifica: non hanno tolto né trattato nessun inquinante, e non ho trovato né i risultati misurati né i costi** [1][2].
+Oltre agli accordi e alla campagna di sondaggi, c'è una convenzione con la Sogesid sulle acque sotterranee e sul sorvolo "lidar" [1][2]. L'opuscolo del 2026 dice che gli accordi e le indagini sono "conclusi anche finanziariamente", mentre la convenzione con la Sogesid è "conclusa, ma non finanziariamente" dal Commissario precedente [1]. **Sono studi, non bonifica: non hanno tolto né trattato nessun inquinante, e non ho trovato né i risultati misurati né i costi** [1][2].
 
 ## Che posto è
 Il Mar Piccolo, dove il Commissario ha fatto studi e indagini con università, CNR e Forze dell'ordine, e una campagna di sondaggi e analisi del fondale [1][2].

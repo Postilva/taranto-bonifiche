@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610201451">
+<link rel="stylesheet" href="stile.css?v=202610201551">
 <body class="mappa">
 
 <header class="topbar">
@@ -29,7 +29,7 @@
     <div class="ph">
       <h1><span class="n-tot">35</span> interventi</h1>
       <button type="button" class="close" id="panel-close" aria-label="Chiudi l'elenco">✕</button>
-      <p id="intro">Tocca un pallino per leggere il report. Blu: <b class="n-ok">22</b> verificati fonte per fonte. Grigi: ancora da verificare.</p>
+      <p id="intro">Tocca un pallino per leggere il report. Arancione: aree di Ilva; azzurro: ricadute fuori dalla fabbrica; grigio: ancora da verificare.</p>
       <div class="filters" role="group" aria-label="Filtri">
         <button type="button" class="chip" data-g="" aria-pressed="true">Tutti</button>
         <button type="button" class="chip" data-g="A" aria-pressed="false">Aree di Ilva (A)</button>
@@ -57,13 +57,13 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610201451"></script>
-<script src="comune.js?v=202610201451"></script>
+<script src="dati.js?v=202610201551"></script>
+<script src="comune.js?v=202610201551"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
 if (PTS.every(p => p.ok)) {   // tutti verificati: niente pallini grigi, filtro e legenda relativi non servono
-  $("#intro").textContent = `Tocca un pallino per leggere il report. Tutti i ${TOTAL} interventi sono verificati fonte per fonte.`;
+  $("#intro").textContent = "Tocca un pallino per leggere il report. Arancione: aree di Ilva; azzurro: ricadute fuori dalla fabbrica.";
   $("#chip-ok").style.display = $("#lg-todo").style.display = "none";
 }
 const panelOpen = () => !document.body.classList.contains("panel-off");
