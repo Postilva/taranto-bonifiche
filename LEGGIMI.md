@@ -4,7 +4,7 @@
 
 **Cosa rientra nel censimento** (deciso il 20/10/2026):
 - **aree di Ilva**: aree di Ilva in A.S. e dello stabilimento di Acciaierie d'Italia, anche fuori dal SIN;
-- **ricadute fuori dalla fabbrica**: solo se una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva. Finché la fonte non c'è, l'area sta in "Da verificare"; se non si trova, esce.
+- **ricadute fuori dalla fabbrica**: di regola solo se una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva. Il 20/10/2026 l'utente ha messo dentro anche le 9 aree che erano "da verificare" (Tamburi B9 e D1–D6, Statte B10 e D8): dove la fonte è generale o manca, lo dice il paragrafo "Perché sono qui" in `elenco.md` e la scheda.
 
 Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano l'inquinamento dell'Ilva) sta in `fuori-perimetro.md` e le sue schede in `interventi/fuori-perimetro/`: il sito non le legge. Prima di aprire una scheda nuova, controllare che l'area sia nel censimento.
 

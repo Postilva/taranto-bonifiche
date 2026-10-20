@@ -1,0 +1,73 @@
+# D1 – Quartiere Tamburi, sottoperimetro SP1: suolo (Comune di Taranto)
+*Stato scheda: approvata — aggiornata al 20 ottobre 2026*
+
+## In breve
+Ad aprile 2020 il Comune aveva chiesto la "certificazione di avvenuta bonifica", ma la Regione indicava ancora l'area come "sito contaminato": il certificato non era stato rilasciato [1]. **Quindi non è bonificata**, almeno fino a quella data, e non abbiamo trovato atti più recenti. Nel 2018 il Ministero delle Infrastrutture ha versato al Comune 1,5 milioni € per la bonifica dei suoli delle aree dei sottoprogetti 1, 2 e 3 del quartiere [3].
+
+## Che posto è
+Un'area di circa 16,5 ettari (164.770 m²) del quartiere Tamburi, il quartiere di Taranto attaccato allo stabilimento; il punto centrale indicato dalla Regione è a circa 400 m dal punto centrale del cimitero San Brunone (distanza calcolata da noi) [1][2].
+
+## Perché è inquinata
+La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanze ricadute dall'aria sul terreno [1]. Per la Commissione parlamentare sui rifiuti il Tamburi è la parte della città "più esposta alle ricadute dei fumi dell'ILVA", e le polveri dello stabilimento hanno reso necessarie le ordinanze del Sindaco sui giardini delle scuole e poi le bonifiche [4]. Non abbiamo trovato una fonte che dica quali sostanze sono state trovate proprio in quest'area.
+
+## Chi se ne occupa
+- Il **Comune di Taranto** è il soggetto del procedimento e ha chiesto la certificazione [1].
+- La **Provincia di Taranto**: per il Codice dell'ambiente è la Provincia che certifica la fine della bonifica [6].
+- Il **Ministero delle Infrastrutture e dei Trasporti** (Direzione generale per lo sviluppo del territorio) ha dato i soldi per il progetto di bonifica dei suoli dei sottoprogetti 1, 2 e 3 [3].
+- La **Regione Puglia** tiene l'elenco dei siti da bonificare [1].
+
+## Cosa è stato fatto
+**Lavori fatti secondo il Comune, che ha chiesto la certificazione; ad aprile 2020 il certificato non c'era. Non bonificata.** [1]
+
+- **2005.** Inizia il procedimento, con le regole di allora (decreto ministeriale 471/1999) [1].
+- **2013.** Alla cabina di regia per Taranto il Comune conferma "l'impegno a trasmettere i progetti di bonifica delle aree dei Tamburi, il cui accesso era interdetto per motivi sanitari da ordinanze sindacali" [5].
+- **28 settembre 2018.** Il Ministero delle Infrastrutture versa al Comune **1.504.034,76 €** per il "Progetto di bonifica dei suoli per annullare il rischio sanitario – aree sottoprogetti 1, 2 e 3 Quartiere Tamburi" [3]. "Annullare il rischio sanitario" fa pensare a una bonifica basata sull'analisi di rischio, ma il progetto non l'abbiamo visto.
+- **Aprile 2020.** Il Comune ha chiesto la certificazione di avvenuta bonifica; per la Regione il sito è ancora "contaminato" [1].
+- **Un intervento vicino: il "rilevato" di via San Brunone.** Il Comune ha un progetto da 1,9 milioni € per bonificare un'area di via San Brunone, nel quartiere, "su cui insiste un rilevato costituito da materiale di riporto" [8]. Con fondi europei della Regione (POR Puglia 2014–2020, azione 6.2) il Comune ha affidato il progetto di bonifica, lo ha approvato e ha bandito la gara per i lavori [9]. Non sappiamo se sia dentro SP1.
+
+## Dove si trova e quanto è grande
+- **Coordinate** indicate dalla Regione: 688569,3876 m E – 4484590,303 m N, nel sistema UTM-WGS84 fuso 33 Nord [7]; è il punto centrale dell'area ("centroide del poligono") [2]. In gradi sono circa **40,491° N – 17,225° E** (conversione nostra, da ricontrollare sulla mappa).
+- **Quanto è grande:** 164.770 m² [1].
+
+## Soldi
+- **1.504.034,76 €** versati dal Ministero delle Infrastrutture al Comune il 28 settembre 2018, per le aree dei sottoprogetti 1, 2 e 3 insieme [3]. Non sappiamo quanto sia andato a quest'area né il costo totale della bonifica. Non verificato.
+
+## Date principali
+| Data | Cosa succede | Fonte |
+|---|---|---|
+| 2005 | Inizio del procedimento | [1] |
+| aprile 2013 | Il Comune si impegna a mandare i progetti di bonifica delle aree chiuse dalle ordinanze | [5] |
+| 28 settembre 2018 | Il Ministero delle Infrastrutture versa 1,5 milioni € per la bonifica dei suoli dei sottoprogetti 1–3 | [3] |
+| aprile 2020 | Certificazione chiesta, ma per la Regione il sito è ancora "contaminato" | [1] |
+
+## Fonti
+[1] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020), tabella 4 "Siti contaminati", sito n. 152 "Risanamento Q.re Tamburi – SP1 – Matrice suolo", pag. 54, https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
+
+[2] Stesso documento del [1], nota sulle colonne "centro X; centro Y e Area" (pagina 6 del PDF)
+
+[3] Ministero delle Infrastrutture e dei Trasporti, Amministrazione trasparente, *Atti di concessione: "Progetto di bonifica dei suoli per annullare il rischio sanitario – aree sottoprogetti 1, 2 e 3 Quartiere Tamburi"*, beneficiario Comune di Taranto, importo 1.504.034,76 €, data 28-09-2018, https://trasparenza.mit.gov.it/archivio38_sovvenzioni-e-vantaggi-economici_0_93648_857_1.html — copia in `fonti/2018-09_mit_trasparenza-contributo-bonifica-suoli-tamburi-sottoprogetti-1-3.html`
+
+[4] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale sulla situazione delle bonifiche e della gestione dei rifiuti presso gli impianti ex Ilva-Taranto e nelle aree contermini* (Doc. XXIII n. 33, XVIII legislatura), settembre 2022, pag. 64 (polveri, ordinanze e bonifiche) e 67 (Tamburi "più esposta alle ricadute dei fumi dell'ILVA"), https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
+
+[5] Regione Puglia, Assessorato Qualità dell'Ambiente, *Comunicato "Taranto. Nicastro incontra Commissario Pini e soggetto attuatore Strambaci"*, aprile 2013 (dopo la cabina di regia del 10 aprile 2013), https://mase.gov.it/sites/default/files/archivio/comunicati/Comunicato_Integrale_Bonifica_quartieri_Taranto.pdf — copia in `fonti/2013-04_regione-puglia_comunicato-cabina-regia-tamburi.pdf`
+
+[6] Decreto legislativo 3 aprile 2006, n. 152 (Codice dell'ambiente), art. 248, comma 2 (certificazione della Provincia), https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152~art248
+
+[7] Stesso documento del [1], colonne "centro X" e "centro Y" del sito n. 152 (pag. 54)
+
+[8] OpenCUP (Presidenza del Consiglio dei ministri), progetto CUP E54F10000030005, "Quartiere Tamburi – via S. Brunone – Bonifica di un'area su cui insiste un rilevato costituito da materiale di riporto", costo previsto 1.900.000 €, https://www.opencup.gov.it/portale/web/opencup/home/progetto/-/cup/E54F10000030005 (consultato il 20 ottobre 2026) — copia in `fonti/2026-10_opencup_E54F10000030005-rilevato-via-san-brunone.html`
+
+[9] Comune di Taranto, portale trasparenza degli atti (https://taranto.trasparenza-valutazione-merito.it), ricerca "rilevato" del 20 ottobre 2026: titoli degli atti sulla "Bonifica di un rilevato costituito da materiali di riporto ubicato nel quartiere Tamburi" (CUP E54F10000030005): affidamento del progetto operativo di bonifica, sua approvazione, gara per i lavori (CIG 9446586161). Dal portale si leggono solo i titoli.
+
+## Cosa non sappiamo
+1. **Se la certificazione è arrivata dopo aprile 2020.** Non abbiamo trovato atti della Provincia. Non verificato.
+2. **Che cosa è stato fatto**: se è stato tolto terreno, quanto, e fino a quali limiti. Non verificato.
+3. **Quali sostanze c'erano.** Non verificato.
+4. **Se "SP1" è il "sottoprogetto 1"** del "Progetto coordinato per il risanamento del quartiere Tamburi" del Comune, e quali strade comprende. Il nome lo fa pensare, ma nessuna fonte lo dice. Non verificato.
+5. **Se l'area è nel SIN** di Taranto o fuori. Non verificato.
+6. **Il rilevato di via San Brunone**: se è dentro SP1, che cosa contiene e se i lavori sono stati fatti [8][9]. Non verificato.
+
+Ricerca online del 20 ottobre 2026 ("Tamburi" con SP1, sottoprogetto 1, certificazione di avvenuta bonifica, Provincia di Taranto; portale trasparenza del Comune e del Ministero delle Infrastrutture; OpenCUP; archivio del Ministero dell'Ambiente): trovate solo le fonti elencate sopra. Un giornale del 2010 (AmbienteAmbienti, 13 giugno 2010) parla di un'analisi di rischio su 75 ettari, di berillio sopra i limiti e di 30 cm di terreno da togliere: dati utili per le richieste, ma senza fonte ufficiale. Non verificati.
+
+### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+È la stessa richiesta della scheda D5: una sola richiesta alla Provincia di Taranto per le certificazioni di SP1, SP2, SP3 e SP4.
