@@ -1,8 +1,16 @@
 # B6 – Mar Piccolo: studi, indagini, sorvolo lidar (conclusi)
 *Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
+**Immagine:** tramonto-mar-piccolo-2010.jpg
+
 ## In breve
 Il Commissario ha fatto studi e indagini sul Mar Piccolo con accordi con università, CNR e Forze dell'ordine, una campagna di indagini geognostiche (sondaggi e analisi del fondale) e una convenzione con la Sogesid sulle acque sotterranee e sul sorvolo "lidar" [1][2]. L'opuscolo del 2026 dice che gli accordi e le indagini sono "conclusi anche finanziariamente", mentre la convenzione con la Sogesid è "conclusa, ma non finanziariamente" dal Commissario precedente [1]. **Sono studi, non bonifica: non hanno tolto né trattato nessun inquinante, e non ho trovato né i risultati misurati né i costi** [1][2].
+
+## Che posto è
+Il Mar Piccolo, dove il Commissario ha fatto studi e indagini con università, CNR e Forze dell'ordine, e una campagna di sondaggi e analisi del fondale [1][2].
+
+## Perché è inquinata
+Gli studi riguardano i fanghi inquinati del fondale; tra gli studi precedenti ci sono quelli di ISPRA (2010), del Politecnico di Bari e di ARPA Puglia (2014) [9].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto**: gli studi sono stati fatti dalle gestioni precedenti, oggi il Commissario è Vito Felice Uricchio [1].

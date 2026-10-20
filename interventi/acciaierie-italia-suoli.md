@@ -1,8 +1,16 @@
 # C1 – Acciaierie d'Italia: suoli dello stabilimento
 *Stato scheda: approvata — aggiornata al 17 ottobre 2026*
 
+**Immagine:** acciaieria-2024.jpg
+
 ## In breve
 È il terreno sotto lo stabilimento siderurgico ex Ilva oggi gestito da Acciaierie d'Italia: circa 1.050 ettari dentro il SIN (il "Sito di interesse nazionale" da bonificare), su circa 1.500 di stabilimento [11]. Il terreno è stato analizzato più volte dal 2004 al 2021 [1][11], ma **non è stato bonificato e non esiste un progetto di bonifica**. La pratica è ferma da anni su un punto preliminare: come trattare i "materiali di riporto", cioè scorie, loppa e altri materiali usati per riempire e livellare il terreno, trovati nel 95% dei sondaggi [1][10]. **L'ultimo atto pubblico sui suoli è dell'ottobre 2023**: il Ministero ha chiesto all'azienda di rifare il piano delle nuove analisi, e nell'archivio non risulta una risposta [5][13].
+
+## Che posto è
+Il terreno dello stabilimento siderurgico oggi gestito da Acciaierie d'Italia: circa 1.050 ettari dentro il SIN, su circa 1.500 di stabilimento [11].
+
+## Perché è inquinata
+Il terreno è stato riempito e livellato con "materiali di riporto" (scorie, loppa e altri materiali), trovati nel 95% dei sondaggi [1][10].
 
 ## Chi se ne occupa
 - **Acciaierie d'Italia S.p.A.** (ADI): gestisce lo stabilimento dal 1° novembre 2018, prima con il nome ArcelorMittal Italia [10]. Dal 20 febbraio 2024 è in **amministrazione straordinaria**, cioè guidata da commissari nominati dal Governo [12]. Presenta i documenti al Ministero, ma si dichiara **"gestore non responsabile della contaminazione"** e scrive che "non intende assumere in modo incondizionato gli obblighi" di chi ha inquinato [1].

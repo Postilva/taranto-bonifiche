@@ -4,6 +4,12 @@
 ## In breve
 È una vecchia discarica di rifiuti dell'acciaieria, senza nessuna protezione sul fondo, al confine nord della fabbrica, nel territorio di Statte, vicino alla Gravina di Leucaspide [2][6]. L'area è sotto sequestro penale da ottobre 2018 [14][16]. Il Ministero dell'Ambiente ha approvato il progetto per coprirla ("messa in sicurezza permanente") il 16 dicembre 2025, ma **non si trova nessuna fonte che dica che i lavori sono partiti**, e comunque l'area **non sarà bonificata**: i rifiuti restano dove sono, sotto una copertura [2][5].
 
+## Che posto è
+Al confine nord della fabbrica, nel territorio di Statte, vicino alla Gravina di Leucaspide [2][6]. L'area è sotto sequestro penale da ottobre 2018 [14][16].
+
+## Perché è inquinata
+È una vecchia discarica di rifiuti dell'acciaieria, senza nessuna protezione sul fondo [2][6]. Anche con la copertura prevista dal progetto, i rifiuti resteranno dove sono [2][5].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria** (i commissari del Governo che gestiscono le vecchie aree dell'Ilva): deve progettare e fare i lavori e ne risponde [2][4]. I commissari, a ottobre 2025, erano Alessandro Danovi, Francesco Di Ciommo e Daniela Savi [2].
 - **Ministero dell'Ambiente** (Direzione generale economia circolare e bonifiche): guida la procedura e ha approvato il progetto [2].

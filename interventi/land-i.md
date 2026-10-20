@@ -4,6 +4,12 @@
 ## In breve
 Land I è un piccolo terreno verde di circa 0,2 ettari (2.000 m²), rimasto a Ilva in amministrazione straordinaria, vicino all'"Ospedale Nord" e lontano dalla zona industriale [1][2]. Ilva lo considera "cedibile e privo di pendenze" e pensa di cederlo così com'è [1]. **Però non abbiamo trovato nessuna analisi del terreno né nessun atto pubblico che dica che è pulito**: il giudizio "senza problemi" è solo di Ilva, e secondo Ilva l'area è fuori dal SIN, il "Sito di interesse nazionale" da bonificare [2][3].
 
+## Che posto è
+Un piccolo terreno verde di circa 2.000 m², vicino all'"Ospedale Nord" e lontano dalla zona industriale [1][2].
+
+## Perché è inquinata
+Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di Ilva [2][3].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria** (i commissari nominati dal Governo per le vecchie aree dell'Ilva): ne cura solo la gestione generale (verde, manutenzione, rifiuti) [2].
 - Nessun ente pubblico risulta aver fatto controlli sull'area (vedi "Cosa non sappiamo").

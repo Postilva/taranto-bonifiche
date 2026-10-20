@@ -4,15 +4,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="stile.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="stile.css?v=202610201451">
 <body class="mappa">
 
 <header class="topbar">
   <div class="in">
     <a class="brand" href="index.html">Bonifiche <span>Taranto</span></a>
     <nav aria-label="Pagine">
-      <a href="index.html">La storia</a>
+      <a href="index.html">Inizio</a>
       <a href="mappa.html" aria-current="page">Mappa</a>
     </nav>
   </div>
@@ -53,8 +53,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js"></script>
-<script src="comune.js"></script>
+<script src="dati.js?v=202610201451"></script>
+<script src="comune.js?v=202610201451"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -202,6 +202,8 @@ $("#list").addEventListener("click", e => {
   setTimeout(() => select(c.dataset.code), isNarrow() ? 230 : 0);
 });
 renderList();
+// mappa.html?g=A (o B) dalla home: si parte con quel gruppo filtrato
+{ const g = new URLSearchParams(location.search).get("g"); if (g) document.querySelector(`.filters .chip[data-g="${CSS.escape(g)}"]`)?.click(); }
 {
   const lk = r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : r[0]; };
   const dv = ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0]));

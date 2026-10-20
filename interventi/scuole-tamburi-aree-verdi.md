@@ -1,8 +1,16 @@
 # B2 – Aree verdi delle scuole Deledda, De Carolis e D'Aquino (quartiere Tamburi): analisi del terreno e analisi di rischio
 *Stato scheda: approvata — aggiornata al 19 ottobre 2026*
 
+**Immagine:** ilva-2007-mar-piccolo.jpg
+
 ## In breve
 Sono i cortili e le aree verdi (circa 23.650 m²) di tre scuole del quartiere Tamburi di Taranto, il quartiere accanto all'ex Ilva: la scuola elementare Deledda, la scuola media De Carolis e l'ex scuola media D'Aquino [3][4]. Il terreno è stato analizzato e, nel 2016, un'analisi di rischio approvata dalla Regione Puglia ha concluso che per i suoli non c'è rischio per la salute, quindi non si è fatta una bonifica ma solo una riqualificazione delle aree [2][3]. **Non esiste quindi un certificato di bonifica, e non risulta che ce ne fosse bisogno secondo quell'analisi**: l'opuscolo del Commissario del maggio 2026 mette l'intervento tra quelli "conclusi" e precisa che è stato concluso "dal precedente commissario" [1]; già nel 2022 la Commissione parlamentare sui rifiuti lo dava per "completato" [9]. Nell'elenco regionale dei siti inquinati (2020) l'area è tra i "siti non contaminati – rischio accettabile" [8]. Quali sostanze siano state trovate nel terreno, però, non è pubblico [2][3].
+
+## Che posto è
+I cortili e le aree verdi, circa 23.650 m², di tre scuole del quartiere Tamburi: la scuola elementare Deledda, la scuola media De Carolis e l'ex scuola media D'Aquino [3][4].
+
+## Perché è inquinata
+Il Tamburi è il quartiere accanto all'ex Ilva [3][4]. Secondo la Commissione parlamentare sui rifiuti, le polveri dell'acciaieria hanno reso necessarie ordinanze del Sindaco per limitare l'uso dei giardini delle scuole del quartiere [9].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto** (all'epoca la dott.ssa Vera Corbelli), che ha finanziato e gestito le analisi insieme al **Comune di Taranto** [2][5]. L'opuscolo del 2026 scrive che l'intervento è stato "concluso dal precedente commissario" [1].

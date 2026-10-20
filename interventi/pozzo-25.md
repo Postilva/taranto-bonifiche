@@ -4,6 +4,12 @@
 ## In breve
 L'Area Pozzo 25 è un piccolo terreno boscoso di circa 5.400 m² nella zona industriale di Taranto, circa 800 m a nord del quartiere Tamburi, dove si trova un pozzo profondo 37 m che serviva a irrigare le "Collinette ecologiche" [6][9][3]. Con il decreto n. 149 del 26 maggio 2026 il Ministero dell'Ambiente ha stabilito che il terreno è sotto i limiti di legge, ma che l'acqua sotterranea dell'area è, per legge, **"contaminata"** [1]. **Non è stato bonificato niente**: il decreto chiede solo di continuare i controlli sull'acqua e di impedire l'accesso all'area, e l'impianto per togliere il sale dall'acqua del pozzo, ordinato nel 2022, alla fine del 2025 non era ancora stato installato [1][12][13].
 
+## Che posto è
+Un piccolo terreno boscoso di circa 5.400 m² nella zona industriale di Taranto, circa 800 metri a nord del quartiere Tamburi, con un pozzo profondo 37 metri che serviva a irrigare le "Collinette ecologiche" [6][9][3].
+
+## Perché è inquinata
+Il terreno è sotto i limiti di legge, ma l'acqua sotterranea dell'area è, per legge, "contaminata" [1].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria** (i commissari nominati dal Governo per le vecchie aree dell'Ilva): ha fatto le analisi, con la società di consulenza Engea, e ha chiesto le approvazioni [9][1].
 - **Ministero dell'Ambiente** (oggi Direzione generale economia circolare e bonifiche): guida la procedura perché l'area è nel SIN, il "Sito di interesse nazionale" da bonificare; il decreto n. 149 è firmato dal vicario del direttore generale, Pietro Cucumile [1][9].

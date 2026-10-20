@@ -4,6 +4,12 @@
 ## In breve
 È una discarica per rifiuti pericolosi dell'Ilva, nella zona della cava Mater Gratiae, fuori dal SIN (il "Sito di interesse nazionale" da bonificare): circa 3,5 ettari, divisa in tre vasche chiamate V1, V2 e V3 [2][4][1]. Non riceve più rifiuti ed è in "post-gestione", cioè chiusa e sorvegliata: Ilva deve controllarla per 30 anni, fino al 2048, misurando acqua sotterranea, liquido che cola dai rifiuti (percolato), polveri e fibre di amianto [1][2]. **Non è bonificata e non lo sarà**, perché in una discarica i rifiuti restano dove sono; inoltre i controlli chiesti da ISPRA hanno mostrato che la rete che raccoglie l'acqua piovana è troppo piccola, e a fine 2025 i lavori per potenziarla non erano ancora iniziati [1].
 
+## Che posto è
+Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal SIN, divisa in tre vasche chiamate V1, V2 e V3 [2][4][1].
+
+## Perché è inquinata
+È una discarica per rifiuti pericolosi dell'Ilva [2][4][1]. Non riceve più rifiuti, ma va controllata fino al 2048: acqua sotterranea, liquido che cola dai rifiuti (percolato), polveri e fibre di amianto [1][2].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria** (i commissari del Governo che gestiscono le vecchie aree dell'Ilva): gestisce la discarica chiusa, fa i controlli e la manutenzione [1][2]. È l'area n. 5 del suo elenco di 18 "aree escluse" [2].
 - **Provincia di Taranto**: ha approvato il "Piano di sorveglianza e controllo" della discarica con la determinazione dirigenziale n. 39 del 6 marzo 2008 [2][3].

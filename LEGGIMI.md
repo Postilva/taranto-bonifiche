@@ -14,6 +14,8 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 - `elenco.md`: le aree inquinate dall'Ilva e il loro stato
 - `fuori-perimetro.md`: le voci censite prima e uscite dal censimento
 - `interventi/<nome>.md`: una scheda per intervento
+- `contesto.md`: i testi della homepage (storia, come inquina, la fabbrica, glossario), con le loro fonti
+- `immagini.md`: il registro delle foto in `sito/img/` (autore, licenza, link): una foto senza riga qui non va sul sito
 - `fonti/`: i PDF dei documenti usati, nominati `anno-mese_ente_titolo.pdf`
 
 ## Tre regole di verifica
@@ -26,8 +28,14 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 # <Nome intervento>
 *Stato scheda: bozza / approvata — aggiornata al <data>*
 
+**Immagine:** <file in sito/img/, facoltativa>
+
 ## In breve
 (3 frasi semplici: cos'è, dov'è, a che punto è)
+## Che posto è
+(1–2 frasi: dov'è, quanto è grande, cosa c'è intorno)
+## Perché è inquinata
+(1–3 frasi: da dove viene l'inquinamento e cosa è stato trovato)
 
 ## Chi se ne occupa
 ## Cosa è stato fatto

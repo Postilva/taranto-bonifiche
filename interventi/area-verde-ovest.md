@@ -4,6 +4,12 @@
 ## In breve
 È un terreno incolto di circa 6,8 ettari (come 9-10 campi da calcio), rimasto a Ilva in amministrazione straordinaria, nel Comune di Statte, tra la fabbrica e la zona artigianale (PIP) di Statte, lungo la strada provinciale 48 [4][5][8]. Le analisi del 2021 hanno trovato nella metà ovest del terreno PCB, metalli (tallio, cadmio, zinco, piombo), idrocarburi, diossine e solventi oltre i limiti per le aree verdi, e la stessa analisi di rischio di Ilva conclude che il terreno è **contaminato** [5]. **Non è stato bonificato né messo in sicurezza**: l'analisi di rischio del 2023 è stata respinta e va rifatta, nel 2025 sono stati trovati materiali di riporto fino a 21 metri di profondità, e il terreno non è recintato e ha rifiuti abbandonati al confine nord [10][12][17][18][1].
 
+## Che posto è
+Un terreno incolto di circa 6,8 ettari nel Comune di Statte, tra la fabbrica e la zona artigianale (PIP) di Statte, lungo la strada provinciale 48 [4][5][8].
+
+## Perché è inquinata
+Le analisi del 2021 hanno trovato nella metà ovest del terreno PCB, metalli (tallio, cadmio, zinco, piombo), idrocarburi, diossine e solventi oltre i limiti per le aree verdi; secondo la stessa analisi di rischio di Ilva il terreno è contaminato [5].
+
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria** (i commissari nominati dal Governo per le vecchie aree dell'Ilva): deve fare analisi, analisi di rischio ed eventuale bonifica; ha usato le società Engea Consulting (analisi di rischio) ed Eco-Trend (indagini) [5][3].
 - **Ministero dell'Ambiente** (MASE, Direzione generale economia circolare e bonifiche): guida la procedura e decide [3][10].

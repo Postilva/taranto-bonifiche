@@ -1,8 +1,16 @@
 # C2 – Acciaierie d'Italia: falda sotto lo stabilimento
 *Stato scheda: approvata — aggiornata al 17 ottobre 2026*
 
+**Immagine:** acciaieria-2024.jpg
+
 ## In breve
 Sotto lo stabilimento siderurgico ex Ilva l'acqua sotterranea (la "falda") è inquinata quasi ovunque: secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto **925 dei 1.050 ettari** dentro il SIN [1]. In alcuni punti sull'acqua galleggia uno strato di idrocarburi, fino a **3 metri** in un pozzetto di controllo nel 2023 [2][10]. Ci sono solo **misure provvisorie**: dal 2018 una barriera di 11 pozzi pompa e depura l'acqua dei Parchi minerali, e dal 2021–2022 trincee e pozzi raccolgono gli idrocarburi in alcune aree [2][9][11]. Nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili **non si può dire se la barriera funzioni** [2][3]. **Non esiste un progetto di bonifica della falda.**
+
+## Che posto è
+L'acqua sotterranea sotto lo stabilimento siderurgico, nei 1.050 ettari dentro il SIN [1].
+
+## Perché è inquinata
+Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 925 di quei 1.050 ettari [1]. In alcuni punti sull'acqua galleggia uno strato di idrocarburi, fino a 3 metri in un pozzetto di controllo nel 2023 [2][10].
 
 ## Chi se ne occupa
 - **Acciaierie d'Italia S.p.A.** (ADI), in amministrazione straordinaria dal 20 febbraio 2024: gestisce lo stabilimento e le misure sulla falda [11][12]. Si dichiara "gestore non responsabile della contaminazione" [1].
@@ -103,8 +111,6 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [14] Acciaierie d'Italia / Eni Rewind, *Piano di indagine…*, 14 giugno 2023, Annesso 1, "Superamenti CSC acque falda superficiale – dati PMC 2020-2022" (in realtà dal 2018), pag. 1 e 4, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=10844_Taranto_23-99506.zip — copia in `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-1-superamenti-falda.pdf`
 
 [15] Commissione parlamentare d'inchiesta sul ciclo dei rifiuti, *Resoconto stenografico dell'audizione dei direttori generali di ISPRA e ARPA Puglia*, seduta n. 168 del 29 giugno 2022, pag. 12 (controlli della falda), 13 (idrocarburi trovati nel 2017), 19 (falda profonda) — copia in `fonti/2022-06_parlamento_commissione-rifiuti-audizione-ispra-arpa-ilva.pdf`
-
-
 
 ## Cosa non sappiamo
 1. **Se la barriera dei Parchi funziona.** ARPA e ISPRA dicono che non si può valutare [2][3]. Non sappiamo quanta acqua venga pompata ogni anno, per quanti giorni l'impianto sia stato fermo, né cosa contenga l'acqua che finisce nella fogna dello stabilimento. Non verificato.

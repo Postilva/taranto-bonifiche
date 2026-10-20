@@ -4,141 +4,82 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="stile.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="stile.css?v=202610201451">
 
 <header class="topbar">
   <div class="in">
     <a class="brand" href="index.html">Bonifiche <span>Taranto</span></a>
     <nav aria-label="Pagine">
-      <a href="index.html" aria-current="page">La storia</a>
+      <a href="index.html" aria-current="page">Inizio</a>
       <a href="mappa.html">Mappa</a>
     </nav>
   </div>
 </header>
 
-<main>
-<!-- Apertura -->
-<section class="hero">
-  <div class="wrap">
-    <p class="eyebrow">Taranto · ex Ilva · dati al <span class="oggi"></span></p>
-    <h1>Bonifiche a Taranto: <em>cosa è stato fatto davvero?</em></h1>
-    <p class="lead">Discariche, terreni e mare inquinati intorno all'acciaieria. Li abbiamo controllati uno per uno, solo con documenti ufficiali.</p>
-    <div class="cta">
-      <a class="btn" href="mappa.html">Esplora la mappa →</a>
-      <a class="btn ghost" href="#ilva">Prima, la storia in breve</a>
+<main class="app">
+  <section class="hero">
+    <div class="in">
+      <p class="eyebrow">Taranto · ex Ilva · dati al <span class="oggi"></span></p>
+      <div class="big" id="n-cert">0</div>
+      <h1>aree con il certificato di bonifica, tra le <span class="n-ok">27</span> verificate. Le aree legate all'Ilva sono <span class="n-cens">36</span>.</h1>
+      <p class="lead">Discariche, terreni, falde e fondali, controllati uno per uno solo con documenti ufficiali.</p>
+      <a class="btn block" href="mappa.html">Apri la mappa</a>
+      <p class="credit">Foto: lo stabilimento e il quartiere Tamburi dal Mar Piccolo, 2007 · mafe de baggis, <a href="https://commons.wikimedia.org/wiki/File:ILVA_-_Unit%C3%A0_produttiva_di_Taranto_-_Italy_-_25_Dec._2007.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></p>
     </div>
-  </div>
-  <a class="scrollhint" href="#ilva">↓ scorri</a>
-</section>
+  </section>
+  <div class="wrap">
+    <div class="home-grid">
+      <div>
+        <h2 class="sec-label">Le aree</h2>
+        <div class="tiles">
+          <a class="tile gA" href="mappa.html?g=A"><b id="n-a">22</b><span>Aree di Ilva<small>dentro e intorno alla fabbrica</small></span></a>
+          <a class="tile gB" href="mappa.html?g=B"><b id="n-b">14</b><span>Ricadute<small>Tamburi, Statte, Mar Piccolo</small></span></a>
+        </div>
 
-<!-- 1. Cos'è l'Ilva -->
-<section class="chapter alt" id="ilva">
-  <div class="wrap">
-    <p class="num">01</p>
-    <h2>Un'acciaieria, e quello che ha lasciato intorno</h2>
-    <div class="read">
-      <p>L'Ilva è la grande acciaieria di Taranto; la parte ancora in funzione oggi la gestisce Acciaierie d'Italia.</p>
-      <p>Ci sono discariche di rifiuti, terreni e acque inquinati dentro la fabbrica e anche fuori: nel quartiere Tamburi, a Statte, nel mare.</p>
-    </div>
-  </div>
-</section>
+        <h2 class="sec-label">Capire</h2>
+        <ul class="tlist">
+          <li><a href="#storia"><span class="ic">1965</span><span class="tt"><b>La storia</b><small>Dall'Italsider all'amministrazione straordinaria</small></span><span class="go">›</span></a></li>
+          <li><a href="#come-inquina"><span class="ic">→</span><span class="tt"><b>Come inquina</b><small>Da dove nasce, per quali strade, dove arriva</small></span><span class="go">›</span></a></li>
+          <li><a href="#fabbrica"><span class="ic">6</span><span class="tt"><b>La fabbrica</b><small>I reparti e la mappa dello stabilimento</small></span><span class="go">›</span></a></li>
+          <li><a href="#glossario"><span class="ic">Aa</span><span class="tt"><b>Le sostanze</b><small>PCB, diossine, IPA, metalli, loppa</small></span><span class="go">›</span></a></li>
+          <li><a href="#passaggi"><span class="ic">✓</span><span class="tt"><b>Quando si può dire "bonificato"</b><small>I cinque passaggi di una bonifica</small></span><span class="go">›</span></a></li>
+        </ul>
+      </div>
 
-<!-- 2. Chi se ne occupa -->
-<section class="chapter">
-  <div class="wrap">
-    <p class="num">02</p>
-    <h2>Cosa contiamo: le aree inquinate dall'Ilva</h2>
-    <div class="who">
-      <div><b>Aree di Ilva</b><p>Discariche, terreni e falde dell'Ilva. Le vecchie aree della fabbrica le gestiscono i commissari di <strong>Ilva in amministrazione straordinaria</strong>, arrivati nel 2013; lo stabilimento ancora in funzione lo gestisce <strong>Acciaierie d'Italia</strong>. Sulla mappa: <strong>gruppo A</strong>, <span class="n-a">22 interventi</span>.</p></div>
-      <div><b>Ricadute fuori dalla fabbrica</b><p>Quartiere Tamburi, Statte, Mar Piccolo: entrano solo le aree per cui una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva. Se ne occupano soprattutto il <strong>Commissario straordinario per la bonifica di Taranto</strong> e il Comune. Sulla mappa: <strong>gruppo B</strong>, <span class="n-b">14 interventi</span>.</p></div>
-      <div><b>Ministero dell'Ambiente</b><p>Segue tutta la zona come un unico sito da risanare, chiamato SIN, che comprende migliaia di ettari tra terra e mare.</p></div>
-    </div>
-    <p class="note"><strong>Da verificare:</strong> per <span class="n-dv">9</span> aree del gruppo B, vicine all'Ilva e inquinate, non abbiamo ancora trovato la fonte ufficiale che leghi l'inquinamento all'Ilva. Restano sulla mappa con l'etichetta "Ricaduta da verificare"; se la fonte non si trova, le togliamo. Le aree inquinate da altri (raffineria, altre industrie, porto, Marina) non fanno parte di questo censimento.</p>
-  </div>
-</section>
+      <div>
+        <h2 class="sec-label">A che punto sono</h2>
+        <div class="card chart">
+          <h3>Passaggio per passaggio</h3>
+          <div class="legend" id="lg-steps"></div>
+          <div id="bars-steps" style="display:grid;gap:10px"></div>
+          <p class="note">Quante delle <span id="n-steps">25</span> schede verificate hanno fatto ogni passaggio. Tocca una barra per vedere quali. <span id="n-steps-why"></span></p>
+        </div>
 
-<!-- 3. I 5 passaggi -->
-<section class="chapter alt">
-  <div class="wrap">
-    <p class="num">03</p>
-    <h2>"Bonificato" è l'ultimo di cinque passaggi</h2>
-    <ol class="steps5">
-      <li><span class="n">1</span><strong>Caratterizzazione</strong><p>Si fanno le analisi per capire cosa c'è nel terreno e nell'acqua.</p></li>
-      <li><span class="n">2</span><strong>Analisi di rischio</strong><p>Si valuta se quello che c'è è pericoloso per le persone.</p></li>
-      <li><span class="n">3</span><strong>Messa in sicurezza</strong><p>Si "chiude" il problema perché non si allarghi, per esempio coprendolo. Il problema però resta lì.</p></li>
-      <li><span class="n">4</span><strong>Bonifica</strong><p>Si elimina l'inquinamento.</p></li>
-      <li><span class="n">5</span><strong>Certificazione</strong><p>Un ente pubblico attesta che il lavoro è finito. Solo a quel punto si può dire "bonificato".</p></li>
-    </ol>
-  </div>
-</section>
-
-<!-- 4. I numeri -->
-<section class="chapter">
-  <div class="wrap">
-    <p class="num">04</p>
-    <h2>Cosa abbiamo trovato finora</h2>
-    <div class="bignums">
-      <div><b class="n-cens">36</b><p>aree inquinate dall'Ilva censite: dentro la fabbrica e fuori, nel quartiere Tamburi, a Statte e nel Mar Piccolo.</p></div>
-      <div class="sea"><b class="n-ok">22</b><p>verificati fonte per fonte, ognuno con il suo report.</p></div>
-      <div class="alert"><b id="n-cert">0</b><p>con un certificato ufficiale di avvenuta bonifica, tra quelli verificati.</p></div>
-    </div>
-    <div class="chart">
-      <h3>A che punto sono, passaggio per passaggio</h3>
-      <div class="legend" id="lg-steps"></div>
-      <div id="bars-steps" style="display:grid;gap:10px"></div>
-      <p class="note">Per ognuno dei 5 passaggi, quante delle <span id="n-steps">30</span> schede verificate che descrivono una bonifica lo hanno fatto, lo hanno iniziato o solo progettato, non lo hanno ancora fatto, non lo prevedono, o non ne parlano. Passa sopra (o tocca) una barra per vedere quali. <span id="n-steps-why"></span></p>
+        <h2 class="sec-label">Il progetto</h2>
+        <ul class="tlist">
+          <li><a href="#metodo"><span class="ic">i</span><span class="tt"><b>Come lavoriamo</b><small>Solo fonti ufficiali, "bonificato" solo con il certificato</small></span><span class="go">›</span></a></li>
+          <li><a href="#perche"><span class="ic">?</span><span class="tt"><b>Chi è nel censimento</b><small>Il criterio, le aree da verificare, cosa non torna</small></span><span class="go">›</span></a></li>
+          <li><a href="#fonti"><span class="ic">[1]</span><span class="tt"><b>Fonti e foto</b><small>I documenti di questa pagina e i crediti</small></span><span class="go">›</span></a></li>
+          <li><a class="contatto" href="#" target="_blank" rel="noopener"><span class="ic">@</span><span class="tt"><b>Scrivici</b><small>Un errore, un documento, un'area da segnalare</small></span><span class="go">›</span></a></li>
+        </ul>
+      </div>
     </div>
   </div>
-</section>
-
-<!-- 5. Metodo -->
-<section class="chapter alt" id="metodo">
-  <div class="wrap">
-    <p class="num">05</p>
-    <h2>Come lavoriamo</h2>
-    <div class="who">
-      <div><b>Solo fonti ufficiali</b><p>Ministero, Commissari, ARPA, ISPRA, Regione, Provincia, tribunali. I giornali servono solo a trovare le fonti, non come fonte.</p></div>
-      <div><b>"Bonificato" solo con il certificato</b><p>Altrimenti scriviamo cosa è stato fatto davvero, per esempio "messo in sicurezza".</p></div>
-      <div><b>Quello che non si trova, lo diciamo</b><p>Ogni report ha una parte "Cosa non sappiamo": dati mancanti e fonti che si contraddicono.</p></div>
-    </div>
-    <div class="read">
-      <p><strong>Cosa vuol dire "non verificato".</strong> Quando un dato non si trova in un documento ufficiale, nelle nostre schede lo segniamo come "non verificato" e su questo sito non lo mostriamo. Se il dato è importante, lo chiediamo all'ente con una richiesta di accesso agli atti (FOIA) e aggiorniamo il report quando arriva la risposta.</p>
-      <p><strong>Aggiornamento.</strong> I dati di questo sito sono aggiornati al <span class="oggi"></span>. Ogni report riporta anche la data in cui è stato controllato l'ultima volta.</p>
-    </div>
-    <details class="more">
-      <summary>Perché un'area è nel censimento, priorità della Regione e cose che non tornano</summary>
-      <div id="others-body"></div>
-    </details>
-    <div class="read">
-      <p><strong>Chi cura questo sito.</strong> Antonio De Pace. Se trovi un errore, hai un documento che non abbiamo o vuoi segnalare un'area, scrivici: leggiamo tutto e, se serve, correggiamo il report indicando la fonte.</p>
-      <p><a class="btn contatto" href="#" target="_blank" rel="noopener">Scrivici →</a></p>
-    </div>
-  </div>
-</section>
-
-<!-- Chiusura -->
-<section class="chapter closing">
-  <div class="wrap">
-    <h2>Guarda dove sono, uno per uno</h2>
-    <p>Ogni pallino è un intervento, con il suo report: a che punto è, chi se ne occupa, quanto costa, cosa non sappiamo.</p>
-    <a class="btn" href="mappa.html">Esplora la mappa →</a>
-  </div>
-</section>
 </main>
 
 <footer class="end">
   <div class="wrap">
-    <p><strong>Come è fatta questa pagina.</strong> Il testo viene solo dall'elenco degli interventi e dalle schede approvate del progetto "Bonifiche Taranto". Ogni frase delle schede ha una fonte ufficiale: Ministero, Commissari, ARPA, ISPRA, Regione, Parlamento, OpenCoesione. I giornali non sono usati come fonte.</p>
-    <p>A cura di Antonio De Pace<span class="contatto-sep"> · </span><a class="contatto" href="#" target="_blank" rel="noopener">Scrivici</a></p>
-    <p>Mappa: © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. Prototipo, non ancora pubblicato.</p>
+    <p>Il testo viene solo dall'elenco degli interventi, dalle schede approvate e dai testi di contesto del progetto "Bonifiche Taranto". Ogni frase ha una fonte ufficiale; i giornali non sono usati come fonte. Foto da Wikimedia Commons, con licenza libera. Mappa: © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
+    <p>A cura di Antonio De Pace · Prototipo, non ancora pubblicato.</p>
   </div>
 </footer>
+<div id="sheets"></div>
 <div class="tip" id="tip" role="tooltip"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js"></script>
-<script src="comune.js"></script>
+<script src="dati.js?v=202610201451"></script>
+<script src="comune.js?v=202610201451"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -147,17 +88,140 @@
   else if (h === "esplora" || h === "mappa") location.replace("mappa.html");
 })();
 
-document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
 const OGGI = new Date(DATA.generato + "T12:00:00").toLocaleDateString("it-IT", {day:"numeric", month:"long", year:"numeric"});
 document.querySelectorAll(".oggi").forEach(el => el.textContent = OGGI);
+$("#n-a").textContent = ELENCO.A.items.length;
+$("#n-b").textContent = ELENCO.B.items.length;
 // certificati: schede in cui il passaggio 5 (Certificazione) è "fatto"
 $("#n-cert").textContent = SCHEDE.filter(s => STEPS[s.id] && STEPS[s.id][4][0] === "done").length;
 
-/* grafico dei passaggi */
+/* ---------- pannelli a tutto schermo: uno per argomento, aperti da #storia, #come-inquina, ... ---------- */
+const C = DATA.contesto;
+// fonti usate in un pannello: solo le [n] che compaiono nel suo testo, con id "<pannello>-f<n>"
+function fontiDi(id, html, tutte = false){
+  const usate = new Set([...html.matchAll(/\[(\d+)\]/g)].map(m => +m[1]));
+  const lista = C.fonti.filter(f => tutte || usate.has(f.n));
+  if (!lista.length) return "";
+  return `<div class="sh-fonti"><h3>Fonti</h3><ol class="fonti">${lista.map(f => `<li id="${id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri</a>` : ""}</span></li>`).join("")}</ol></div>`;
+}
+const codice = k => { const s = verified[k]; return s ? `<a class="cod g${GRUPPO[k] || "A"}" href="report.html#${s.id}" title="${esc(s.short)}">${k}</a>` : `<a class="cod todo" href="mappa.html#${k}" title="${esc(ROW[k] ? ROW[k][1] : k)}">${k}</a>`; };
+const PANNELLI = {
+  storia: ["La storia", () => {
+    const c = h => cite(h, "storia");
+    const corpo = `<div class="intro"><p>L'Ilva è la grande acciaieria di Taranto; la parte ancora in funzione oggi la gestisce Acciaierie d'Italia.</p>${c(C.storia.intro)}</div>
+      ${C.storia.img[0] ? fotoHtml(C.storia.img[0], "bw") : ""}
+      <ol class="tl2">${C.storia.eventi.map(e => `<li><span class="rail"><i></i></span><div class="ev"><span class="when">${esc(e.quando)}</span><span class="what">${c(e.cosa)} ${c(esc(e.fonte))}</span></div></li>`).join("")}</ol>
+      ${C.storia.img.slice(1).map(f => fotoHtml(f, "bw")).join("")}`;
+    return corpo + fontiDi("storia", corpo);
+  }],
+  "come-inquina": ["Come inquina", () => {
+    const c = h => cite(h, "come-inquina");
+    const corpo = `<div class="intro">${c(C.inquina.intro)}</div>` + C.inquina.colonne.map((col, i) =>
+      `${i ? `<div class="flow-arrow">↓</div>` : ""}<div class="step-h"><span>${i + 1}</span><h3>${esc(col.titolo)}</h3></div><div class="voci">${col.voci.map(v =>
+        `<div class="voce"><b>${esc(v.nome)}</b><p>${c(v.html)}</p>${v.codici.length ? `<p class="cods">${v.codici.map(codice).join("")}</p>` : ""}</div>`).join("")}</div>`).join("")
+      + `<p class="note">I codici portano ai report delle aree (o alla mappa, se il report non c'è ancora).</p>` + C.inquina.img.map(f => fotoHtml(f)).join("");
+    return corpo + fontiDi("come-inquina", corpo);
+  }],
+  fabbrica: ["La fabbrica", () => {
+    const c = h => cite(h, "fabbrica");
+    const corpo = `<div class="intro">${c(C.fabbrica.intro)}</div>
+      <ol class="reparti">${C.fabbrica.reparti.map(r => `<li><b>${esc(r.nome)}</b><p>${c(r.html)}</p></li>`).join("")}</ol>
+      <div class="intro">${c(C.fabbrica.chiusura)}</div>
+      <div id="fabmap" class="fabmap" role="region" aria-label="Mappa dello stabilimento con le aree di Ilva"></div>
+      <p class="note">Il perimetro dello stabilimento viene da OpenStreetMap; i pallini sono le aree di Ilva di questo censimento, con la posizione della mappa (spesso indicativa). Tocca un pallino per leggere il report.</p>
+      ${C.fabbrica.img.map(f => fotoHtml(f)).join("")}`;
+    return corpo + fontiDi("fabbrica", corpo);
+  }],
+  glossario: ["Le sostanze", () => {
+    const c = h => cite(h, "glossario");
+    const corpo = `<div class="intro"><p>Le sostanze che tornano più spesso nei report, spiegate con le parole degli enti sanitari e ambientali.</p></div>
+      <div class="accs">${C.glossario.map(g => `<details class="acc" id="${g.id}"><summary>${esc(g.titolo)}</summary><div class="body">${c(g.html)}</div></details>`).join("")}</div>`;
+    return corpo + fontiDi("glossario", corpo);
+  }],
+  passaggi: ["Quando si può dire \"bonificato\"", () => `<div class="intro"><p>Una bonifica ha cinque passaggi. Solo dopo l'ultimo si può dire "bonificato".</p></div>
+    <ol class="passi5">${[["Caratterizzazione","Si fanno le analisi per capire cosa c'è nel terreno e nell'acqua."],["Analisi di rischio","Si valuta se quello che c'è è pericoloso per le persone."],["Messa in sicurezza","Si \"chiude\" il problema perché non si allarghi, per esempio coprendolo. Il problema però resta lì."],["Bonifica","Si elimina l'inquinamento."],["Certificazione","Un ente pubblico attesta che il lavoro è finito. Solo a quel punto si può dire \"bonificato\"."]]
+      .map(([t, d], i) => `<li><span class="n">${i + 1}</span><div><b>${t}</b><p>${d}</p></div></li>`).join("")}</ol>`],
+  metodo: ["Come lavoriamo", () => `<div class="voci">
+      <div class="voce"><b>Solo fonti ufficiali</b><p>Ministero, Commissari, ARPA, ISPRA, Regione, Provincia, tribunali, Parlamento. I giornali servono solo a trovare le fonti, non come fonte.</p></div>
+      <div class="voce"><b>"Bonificato" solo con il certificato</b><p>Altrimenti scriviamo cosa è stato fatto davvero, per esempio "messo in sicurezza".</p></div>
+      <div class="voce"><b>Quello che non si trova, lo diciamo</b><p>Ogni report ha una parte "Cosa non sappiamo": dati mancanti e fonti che si contraddicono.</p></div>
+      <div class="voce"><b>"Non verificato"</b><p>Quando un dato non si trova in un documento ufficiale non lo mostriamo. Se è importante, lo chiediamo all'ente con una richiesta di accesso agli atti (FOIA) e aggiorniamo il report quando arriva la risposta.</p></div>
+      <div class="voce"><b>Aggiornamento</b><p>I dati sono aggiornati al ${OGGI}. Ogni report riporta la data dell'ultimo controllo.</p></div>
+      <div class="voce"><b>Chi cura il sito</b><p>Antonio De Pace. Se trovi un errore, hai un documento che non abbiamo o vuoi segnalare un'area, scrivici: leggiamo tutto e, se serve, correggiamo il report indicando la fonte.</p><p><a class="btn contatto" href="#" target="_blank" rel="noopener">Scrivici →</a></p></div>
+    </div>`],
+  perche: ["Chi è nel censimento", () => `<div class="voci">
+      <div class="voce"><b>Il criterio</b><p>Contiamo le aree di Ilva (gruppo A, ${ELENCO.A.items.length}) e le ricadute fuori dalla fabbrica (gruppo B, ${ELENCO.B.items.length}): queste entrano solo se una fonte ufficiale dice che l'inquinamento viene, anche, dall'Ilva. Le aree inquinate da altri (raffineria, altre industrie, porto, Marina) non fanno parte di questo censimento.</p></div>
+      <div class="voce"><b>Perché il Mar Piccolo è nel censimento</b><p>La Commissione parlamentare sui rifiuti (relazione su Ilva-Taranto, settembre 2022) riporta che il processo "Ambiente Svenduto" ha dimostrato che l'inquinamento del primo seno del Mar Piccolo è dovuto all'attività dell'Ilva, attraverso il canale di scarico; la stessa relazione aggiunge che ci sono anche altre fonti, l'Arsenale militare e i cantieri. Contiamo solo gli interventi sui fondali inquinati.</p></div>
+      <div class="voce"><b>Ricadute da verificare (${DA_VERIFICARE.size})</b><p>Aree vicine all'Ilva e inquinate, ma finora nessuna fonte ufficiale trovata dice che l'inquinamento viene dall'Ilva. Se la fonte non si trova, escono dall'elenco.</p><p class="cods">${ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0])).map(r => codice(r[0])).join("")}</p></div>
+      <div class="voce"><b>Le priorità della Regione (2024)</b><p>Tra i 23 interventi prioritari nel SIN (Delibera della Giunta regionale n. 981/2024), quelli legati all'Ilva con un report sono PIP Statte (B10), Cimitero San Brunone (B8) e Mar Piccolo 1° seno (B12–B13).</p></div>
+      <div class="voce"><b>Cose che non tornano</b><p>La Gravina di Leucaspide compare sia tra le aree di Ilva (A1) sia tra i lavori del Commissario a Statte: chi fa cosa? Molti interventi del Commissario sono "conclusi ma non finanziariamente": lavori finiti, conti aperti. Sulle cifre spese da Ilva e sulla percentuale di aree bonificate circolano numeri non ufficiali: non li mostriamo finché non sono verificati.</p></div>
+    </div>`],
+  fonti: ["Fonti e foto", () => `<div class="intro"><p>I documenti usati nei testi di questa pagina. Le fonti di ogni area sono nel suo report.</p></div>`
+    + fontiDi("fonti", "", true)
+    + `<div class="sh-fonti"><h3>Foto</h3><ol class="fonti">${Object.entries(DATA.immagini).map(([f, i]) => `<li><span>·</span><span>${esc(i.did)}. ${esc(i.autore)}, <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.licenza)}</a></span></li>`).join("")}</ol></div>`]
+};
+const ALIAS = {ilva:"storia", metodo:"metodo"};   // vecchie ancore della home
+
+const cache = {};
+function pannello(id){
+  if (cache[id]) return cache[id];
+  const [titolo, corpo] = PANNELLI[id];
+  const d = document.createElement("dialog");
+  d.className = "sheet"; d.id = "sh-" + id; d.setAttribute("aria-label", titolo);
+  d.innerHTML = `<div class="sh-head"><h2>${esc(titolo)}</h2><button type="button" class="x" aria-label="Chiudi">✕</button></div><div class="sh-body" tabindex="-1">${corpo()}</div>`;
+  $("#sheets").appendChild(d);
+  d.querySelectorAll(".contatto").forEach(a => { if (CONTATTO) a.href = CONTATTO; else a.hidden = true; });
+  d.querySelector(".x").addEventListener("click", chiudi);
+  d.addEventListener("cancel", e => { e.preventDefault(); chiudi(); });
+  // le note [n] scorrono alla fonte dentro il pannello, senza cambiare l'indirizzo
+  d.addEventListener("click", e => {
+    const a = e.target.closest('a[href^="#"]'); if (!a) return;
+    const li = d.querySelector(a.getAttribute("href")); if (!li) return;
+    e.preventDefault(); li.scrollIntoView({block:"center", behavior:"smooth"});
+    li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1600);
+  });
+  if (id === "fabbrica") d.addEventListener("toggle", () => mappaFabbrica(d));
+  return cache[id] = d;
+}
+let aperto = null, daClick = false;
+function chiudi(){ if (daClick) history.back(); else { history.replaceState(null, "", location.pathname); route(); } }
+function route(){
+  let h = decodeURIComponent(location.hash.slice(1)), voce = null;
+  if (h.startsWith("g-")) { voce = h; h = "glossario"; }
+  h = ALIAS[h] || h;
+  if (aperto && aperto !== h) { cache[aperto].close(); aperto = null; document.body.style.overflow = ""; }
+  if (!PANNELLI[h]) return;
+  const d = pannello(h);
+  if (!d.open) { d.showModal(); d.querySelector(".sh-body").focus({preventScroll:true}); }
+  aperto = h; document.body.style.overflow = "hidden";
+  if (voce) { const v = d.querySelector("#" + CSS.escape(voce)); if (v) { v.open = true; v.classList.add("flash"); setTimeout(() => v.scrollIntoView({block:"start"}), 60); } }
+}
+document.addEventListener("click", e => { const a = e.target.closest('.tlist a[href^="#"], .cods a[href^="#"]'); if (a) daClick = true; });
+addEventListener("hashchange", route);
+route();
+
+// mappa della fabbrica: perimetro dello stabilimento (OpenStreetMap) e pallini delle aree di Ilva; si crea alla prima apertura
+let fm = null;
+function mappaFabbrica(d){
+  if (!d.open || !window.L) return;
+  if (fm) { fm.invalidateSize(); return; }
+  fm = L.map(d.querySelector("#fabmap"), {minZoom:11, maxZoom:14, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false});
+  addTiles(fm);
+  const poly = L.polygon(STABILIMENTO, {color:"#c2410c", weight:2, fillColor:"#c2410c", fillOpacity:.08, interactive:false}).addTo(fm);
+  const pts = PTS.filter(p => GRUPPO[p.code] === "A");
+  pts.forEach(p => {
+    const m = L.marker(p.ll, {icon:pinIcon(p), keyboard:true, title:`${p.code} · ${p.name}`}).addTo(fm);
+    m.on("click", () => { const s = verified[p.code]; location.href = s ? "report.html#" + s.id : "mappa.html#" + p.code; });
+  });
+  fm.fitBounds(poly.getBounds().pad(.15));
+}
+
+/* ---------- grafico dei passaggi ---------- */
 const tip = $("#tip");
 function tipOn(el, html){
   const show = e => { tip.innerHTML = html; tip.classList.add("on"); const x = (e.touches?e.touches[0]:e).clientX, y = (e.touches?e.touches[0]:e).clientY; tip.style.left = Math.max(8, Math.min(x+12, innerWidth-tip.offsetWidth-8))+"px"; tip.style.top = (y+14)+"px"; };
   el.addEventListener("mousemove", show); el.addEventListener("mouseenter", show);
+  el.addEventListener("click", show);
   el.addEventListener("mouseleave", () => tip.classList.remove("on"));
   el.addEventListener("focus", () => { const r = el.getBoundingClientRect(); show({clientX:r.left, clientY:r.bottom}); });
   el.addEventListener("blur", () => tip.classList.remove("on"));
@@ -167,7 +231,7 @@ addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
 (function(){
   const S = SCHEDE.filter(s => STEPS[s.id]), N = S.length;
   $("#n-steps").textContent = N;
-  // perché le schede del grafico sono meno degli interventi: schede con più codici e schede senza passaggi
+  // perché le schede del grafico sono meno degli interventi: aree senza scheda, schede con più codici, schede senza passaggi
   const multi = SCHEDE.filter(s => s.codes.length > 1), senza = SCHEDE.filter(s => !STEPS[s.id]);
   const e = a => a.length === 2 ? a.join(" e ") : a.slice(0, -1).join(", ") + (a.length > 1 ? " e " : "") + a.slice(-1);
   const nuove = ALL.filter(r => !verified[r[0]]).length;
@@ -176,7 +240,7 @@ addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
     ...multi.map(s => `${e(s.codes)} hanno un'unica scheda`),
     ...(senza.length ? [`${e(senza.map(s => `${s.code} (${s.short})`))} ${senza.length > 1 ? "non hanno" : "non ha"} passaggi perché non ${senza.length > 1 ? "sono interventi" : "è un intervento"} sul terreno`] : [])
   ];
-  if (TOTAL !== N && why.length) $("#n-steps-why").textContent = `Le schede nel grafico sono ${N} su ${TOTAL} interventi: ${e(why)}.`;
+  if (TOTAL !== N && why.length) $("#n-steps-why").textContent = `Le schede nel grafico sono ${N} su ${TOTAL} aree: ${e(why)}.`;
   $("#lg-steps").innerHTML = STATI.map(s => `<span><i class="sw" style="background:var(${s[2]})"></i>${s[1]}</span>`).join("");
   $("#bars-steps").innerHTML = PASSI.map(([step,sub],i) => {
     const segs = STATI.map(([k,l,v]) => {
@@ -188,16 +252,4 @@ addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
   }).join("");
   document.querySelectorAll("#bars-steps .seg").forEach(el => tipOn(el, el.dataset.tip));
 })();
-
-/* altro: perché un'area è nel censimento, priorità, cose che non tornano */
-$("#others-body").innerHTML = `
-  <p><strong>Perché il Mar Piccolo è nel censimento.</strong> La Commissione parlamentare sui rifiuti (relazione su Ilva-Taranto, settembre 2022) riporta che il processo "Ambiente Svenduto" ha dimostrato che l'inquinamento del primo seno del Mar Piccolo è dovuto all'attività dell'Ilva, attraverso il canale di scarico; la stessa relazione aggiunge che ci sono anche altre fonti, l'Arsenale militare e i cantieri. Contiamo solo gli interventi sui fondali inquinati: il relitto del mercato ittico e i rifiuti tolti dal fondale non riguardano l'inquinamento dell'Ilva.</p>
-  <p><strong>Ricadute da verificare.</strong> ${ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0])).map(r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : `${r[0]} ${esc(r[1].replace(/\s*\([^)]*\)/g, ""))}`; }).join(" · ")}: aree vicine all'Ilva e inquinate, ma finora nessuna fonte ufficiale trovata dice che l'inquinamento viene dall'Ilva.</p>
-  <p><strong>Le priorità decise dalla Regione nel 2024</strong> (Delibera della Giunta regionale n. 981/2024, 23 interventi nel SIN): tra quelle legate all'Ilva, PIP Statte (B10), Cimitero San Brunone (B8) e Mar Piccolo 1° seno (B12–B13) hanno già il loro report.</p>
-  <p><strong>Cose che già non tornano</strong> (da chiarire nelle prossime schede):</p>
-  <ol>
-    <li><strong>Gravina di Leucaspide.</strong> Compare sia tra le aree di Ilva (A1) sia tra i lavori del Commissario a Statte. Chi fa cosa?</li>
-    <li><strong>"Concluso ma non finanziariamente".</strong> Molti interventi del Commissario sono segnati così: i lavori sono finiti ma i conti non sono chiusi.</li>
-    <li><strong>Soldi spesi da Ilva e percentuale di aree bonificate.</strong> Circolano delle cifre, ma vengono da giornali o associazioni e non da fonti ufficiali: non le mostriamo finché non sono verificate.</li>
-  </ol>`;
 </script>

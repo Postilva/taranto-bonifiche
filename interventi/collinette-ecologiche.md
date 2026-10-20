@@ -1,8 +1,16 @@
 # A15 – Collinette ecologiche (quartiere Tamburi)
 *Stato scheda: approvata — aggiornata al 7 ottobre 2026*
 
+**Immagine:** ilva-2007-mar-piccolo.jpg
+
 ## In breve
 Le "collinette ecologiche" sono tre rilievi artificiali costruiti negli anni '70 tra l'acciaieria e il quartiere Tamburi di Taranto, lungo la Statale 7 Appia, per fare da barriera alle polveri; coprono circa 9–10 ettari e la Collinetta n. 3 è attaccata alla scuola Deledda [3][4][5][6][9][13]. Nel 2019 la magistratura le ha sequestrate, dopo che ARPA vi aveva trovato rifiuti industriali (loppa, scorie d'altoforno) e metalli oltre i limiti, e il Sindaco ha chiuso due scuole vicine da marzo a settembre 2019 [5][9][15]. **Non sono state né bonificate né messe in sicurezza in modo definitivo**: è stata solo coperta con una rete in cocco una parte della Collinetta 3; le analisi complete (piano di caratterizzazione) sono state approvate dalla Regione Puglia il 2 dicembre 2024, ma a fine 2025 non erano ancora iniziate [1][6][11]. Nel 2024 ARPA ha scritto che la loro funzione di barriera per la fabbrica è ormai superata, e la Regione ha chiesto di valutarle anche con i limiti per verde pubblico e case, pensando a quando l'area non servirà più alla fabbrica [6].
+
+## Che posto è
+Tre rilievi artificiali di circa 9–10 ettari tra l'acciaieria e il quartiere Tamburi, lungo la Statale 7 Appia; la Collinetta n. 3 è attaccata alla scuola Deledda [3][4][5][6][9][13].
+
+## Perché è inquinata
+Sono state costruite negli anni '70 per fare da barriera alle polveri dello stabilimento [3][4][5][6][9][13]. Nel 2019 ARPA ci ha trovato rifiuti industriali (loppa, scorie d'altoforno) e metalli oltre i limiti, e la magistratura le ha sequestrate [5][9][15].
 
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria**: gestisce le collinette da marzo 2019. Il passaggio da ArcelorMittal (oggi Acciaierie d'Italia) a Ilva è stato formalizzato a maggio 2020 [4][8]. Al momento del sequestro le aree erano "nella disponibilità" di ArcelorMittal [9]. Acciaierie d'Italia resta responsabile delle reti frangivento montate sopra le collinette [8].
