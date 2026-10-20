@@ -7,7 +7,7 @@
 Censiamo **le aree inquinate dall'Ilva**, in due gruppi:
 
 - **A. Aree di Ilva**: terreni, discariche e falde che appartengono all'Ilva, sia le vecchie aree affidate a **Ilva in amministrazione straordinaria** sia lo stabilimento ancora in funzione (**Acciaierie d'Italia**). Qui chi ha inquinato è il proprietario.
-- **B. Ricadute dell'Ilva fuori dalla fabbrica**: quartiere Tamburi, Statte, Mar Piccolo. Un'area entra qui **solo se una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva**. Le aree per cui questa fonte non l'abbiamo ancora trovata stanno in "Da verificare".
+- **B. Ricadute dell'Ilva fuori dalla fabbrica**: quartiere Tamburi, Statte, Mar Piccolo. Di regola un'area entra qui solo se una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva; dove la fonte parla solo del quartiere o manca, lo diciamo nel paragrafo "Perché sono qui" del gruppo.
 
 Restano fuori le aree inquinate da altri (raffineria, altre industrie, porto, Marina, distributori…) e le voci del Commissario che non riguardano l'inquinamento dell'Ilva: sono in `fuori-perimetro.md`. I codici (A1, B8, C1, D5…) restano quelli della prima versione dell'elenco, per non confondere schede e richieste di accesso già inviate.
 
@@ -66,8 +66,8 @@ Fonte: Anagrafe dei siti da bonificare della Regione Puglia, Allegato 1 alla del
 
 | # | Area | A che punto è (in breve) | Pag. | Scheda |
 |---|---|---|---|---|
-| D16 | Ilva: area di deposito pneumatici fuori uso "UA26" (Statte) | Potenzialmente contaminato: discarica abusiva di pneumatici (2017). | T2.2 n. 135 | ⬜ |
-| D17 | Ilva: area di deposito traversine ferroviarie "UA27" (Statte) | Potenzialmente contaminato: traversine al creosoto (2009), 74.708 m². | T2.2 n. 137 | ⬜ |
+| D16 | Ilva: area di deposito pneumatici fuori uso "UA26" (Statte) | Pneumatici rimossi dal 2016; analisi del terreno "fatte entro il 2018" secondo Ilva, ma risultati non pubblici. Per la Regione (2020) ancora "potenzialmente contaminato", 16.527 m². ⚠ Non bonificata. | T2.2 n. 135 | ✅ [scheda](interventi/area-pneumatici-ua26.md) |
+| D17 | Ilva: area di deposito traversine ferroviarie "UA27" (Statte) | Sotto sequestro dal 2009 (IPA sotto le traversine al creosoto); 7.823 t di traversine rimosse nel 2016–2017; analisi del terreno "fatte entro il 2018" secondo Ilva, risultati non pubblici. Per la Regione (2020) ancora "potenzialmente contaminato". ⚠ Non bonificata. | T2.2 n. 137 | ✅ [scheda](interventi/area-traversine-ua27.md) |
 
 ---
 
@@ -77,12 +77,28 @@ Fonti: per le voci B, l'[opuscolo del Commissario, maggio 2026](https://commissa
 
 ### Quartiere Tamburi
 
-Perché sono qui: per le aree verdi delle scuole, la Commissione parlamentare sui rifiuti (2022) scrive che le polveri dell'acciaieria hanno reso necessarie le ordinanze del Sindaco sui giardini delle scuole del quartiere; per il cimitero, l'opuscolo del Commissario lega la contaminazione "anche" alla vicinanza all'ex Ilva e la Regione (2025) indica "in particolare" le cokerie (fonti nelle schede).
+Perché sono qui: la Commissione parlamentare sui rifiuti (settembre 2022, pag. 64 e 67) scrive che le polveri dello stabilimento hanno reso necessarie le ordinanze del Sindaco sui giardini delle scuole del quartiere e poi le bonifiche, e che il Tamburi è la parte della città "più esposta alle ricadute dei fumi dell'ILVA"; per il cimitero, l'opuscolo del Commissario lega la contaminazione "anche" alla vicinanza all'ex Ilva e la Regione (2025) indica "in particolare" le cokerie (fonti nelle schede). Per il campo Atleti Azzurri (B9), per i sottoperimetri SP1–SP4 (D1–D5) e per la falda (D6) nessuna fonte ufficiale trovata parla della singola area: sono nel censimento perché sono nel quartiere (decisione del 20/10/2026).
 
 | # | Area | A che punto è (in breve) | Pag. | Scheda |
 |---|---|---|---|---|
 | B2 | Aree verdi delle scuole Deledda, De Carolis, D'Aquino (Tamburi) | Analisi del terreno e analisi di rischio fatte (2015–2016). Secondo il Commissario non c'è rischio per la salute, quindi nessuna bonifica ma solo sistemazione delle aree. Per la Regione (2020) è un sito "non contaminato – rischio accettabile", ma senza la formula di chiusura del procedimento. Pagati 75.751 € su 106.240 € a maggio 2022. Sostanze trovate non pubbliche. ⚠ Nessun certificato. | 13 | ✅ [scheda](interventi/scuole-tamburi-aree-verdi.md) |
 | B8 | Cimitero San Brunone | Lavori iniziati nel 2020, fermati dopo 3 mesi, gara annullata nel 2021. Oggi si rifà il progetto: costo stimato 17,5 milioni €, disponibili 9,4; 3,9 milioni di fondi europei regionali revocati. ⚠ Non bonificato. Il Commissario scrive (agosto 2026) che la messa in sicurezza d'emergenza è "completata", ma nessun atto la descrive. | 19 | ✅ [scheda](interventi/cimitero-san-brunone.md) |
+| B9 | Impianto sportivo "Atleti Azzurri d'Italia" (Tamburi) | Piombo e IPA trovati dal Comune (2024), campo chiuso in via cautelativa. Piano delle analisi approvato nel 2025, 86.876 € dal Commissario, prelievi iniziati; dovevano finire entro marzo 2026, a giugno ancora "in via di completamento". ⚠ Non bonificato. | 15 | ✅ [scheda](interventi/atleti-azzurri-tamburi.md) |
+| D1 | Quartiere Tamburi, SP1: suolo (Comune di Taranto) | Sito contaminato, 164.770 m²: chiesta la certificazione di avvenuta bonifica, ad aprile 2020 non rilasciata. Nel 2018 il Ministero delle Infrastrutture ha versato 1,5 milioni € per la bonifica dei suoli dei sottoprogetti 1–3. ⚠ Non bonificata. | T4 n. 152 | ✅ [scheda](interventi/tamburi-sp1-suolo.md) |
+| D2 | Quartiere Tamburi, SP2: suolo (Comune di Taranto) | Sito contaminato, 3.249 m²: chiesta la certificazione di avvenuta bonifica, ad aprile 2020 non rilasciata. ⚠ Non bonificata. | T4 n. 151 | ✅ [scheda](interventi/tamburi-sp2-suolo.md) |
+| D3 | Quartiere Tamburi, SP2: aree private | Dal 2005 solo una comunicazione di potenziale contaminazione; nessun soggetto indicato. Ad aprile 2020 ancora "in fase di accertamento", 45.622 m². ⚠ Mai analizzata (per quanto sappiamo). | T2.1 n. 23 | ✅ [scheda](interventi/tamburi-sp2-aree-private.md) |
+| D4 | Quartiere Tamburi, SP3: suolo (Comune di Taranto) | Sito contaminato, 34.371 m²: chiesta la certificazione di avvenuta bonifica, ad aprile 2020 non rilasciata. ⚠ Non bonificata. | T4 n. 147 | ✅ [scheda](interventi/tamburi-sp3-suolo.md) |
+| D5 | Quartiere Tamburi, SP4: suolo (Comune di Taranto) | Per la Regione (2020) ha la certificazione di avvenuta bonifica, "sito bonificato", 808.572 m². ⚠ Il certificato non l'abbiamo visto: richiesta alla Provincia da fare. | T1 n. 13 | ✅ [scheda](interventi/tamburi-sp4-suolo.md) |
+| D6 | Quartiere Tamburi: acque sotterranee (Comune di Taranto) | Falda contaminata sotto 1.327.917 m²: approvati risultati delle analisi e analisi di rischio (procedimento dal 2015); ad aprile 2020 nessun intervento. ⚠ Non messa in sicurezza. | T4 n. 148 | ✅ [scheda](interventi/tamburi-falda.md) |
+
+### Statte
+
+Perché sono qui: per l'area vasta (D8) la Provincia di Taranto nel 2018 ha chiuso la pratica per individuare il responsabile della contaminazione del suolo di Statte fuori dal SIN, atto impugnato da Ilva (TAR Lecce, sentenza n. 1960/2022), e ARPA Puglia ha detto in Parlamento (29/06/2022) che il responsabile individuato è "Ilva per alcuni parametri come diossine e furani". Per la zona PIP (B10) la Commissione parlamentare sui rifiuti (2022, pag. 74) scrive invece che "non è chiara la responsabilità dell'apporto dei rifiuti" (soprattutto scorie d'altoforno, in una cava che confina con lo stabilimento): è nel censimento per decisione del 20/10/2026. Fonti nelle schede.
+
+| # | Area | A che punto è (in breve) | Pag. | Scheda |
+|---|---|---|---|---|
+| B10 | Zona PIP di Statte (falda profonda) | Analisi e intervento d'emergenza fatti; progetto definitivo fermo dal 2020. Nel 2025 assegnati 124 milioni (89,9 dal Fondo coesione), ma a giugno 2026 nessun progetto né gara, 0 € spesi. ⚠ Non messo in sicurezza. | 16–17 | ✅ [scheda](interventi/pip-statte.md) |
+| D8 | Area vasta di Statte: suolo (Comune di Statte) | Analisi di rischio approvata nel 2017: in alcune zone rischio "inaccettabile", divieti di arare e coltivare cibo (ordinanza del 2017, valida fino a fine 2018). Nel 2018 la Provincia ha individuato il responsabile: secondo ARPA è Ilva, per diossine e furani. ⚠ Non bonificata. | T4 n. 137 | ✅ [scheda](interventi/area-vasta-statte.md) |
 
 ### Mar Piccolo, 1° seno
 
@@ -93,22 +109,6 @@ Perché è qui: la relazione della Commissione parlamentare sui rifiuti (settemb
 | B6 | Mar Piccolo: studi, indagini, sorvolo lidar | Studi, indagini e accordi "conclusi" secondo l'opuscolo: risultati e costi singoli non pubblici, nessuna traccia del sorvolo lidar. Nel 2022 il Commissario stesso diceva che quei fondi erano stati spesi in ricerca, "ma non per un'attività di bonifica". ⚠ Sono studi, non bonifica. | 20 | ✅ [scheda](interventi/mar-piccolo-studi.md) |
 | B12 | Mar Piccolo: bonifica "Area 170 ha" con dragaggio | Collaborazione Commissario-Marina avviata nel 2025; secondo il Commissario nulla osta ISPRA (novembre 2025) e bonifica da ordigni bellici (gennaio 2026), poi indagini e dragaggi. Nessun progetto né fondi assegnati (33,5 milioni solo proposti). I lavori della Difesa riguardano il Mar Grande. ⚠ Non bonificata. | 21–22 | ✅ [scheda](interventi/mar-piccolo-area-170.md) |
 | B13 | Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018) | Gara da 32,3 milioni (2018) sospesa nel 2020, mai aggiudicata né annullata. Dei 55 milioni del programma, pagati circa 5,6 per altre attività. ⚠ Nessun piano finanziato per bonificare il 1° seno. | 19 | ✅ [scheda](interventi/mar-piccolo-gara-2018.md) |
-
-### Da verificare: manca la fonte che leghi l'inquinamento all'Ilva
-
-Aree vicine all'Ilva e inquinate, ma finora nessuna fonte ufficiale trovata dice che l'inquinamento viene dall'Ilva. Se la fonte non si trova, escono dall'elenco.
-
-| # | Area | A che punto è (in breve) | Pag. | Scheda |
-|---|---|---|---|---|
-| B9 | Impianto sportivo "Atleti Azzurri d'Italia" (Tamburi) | Piombo e IPA trovati dal Comune (2024), campo chiuso in via cautelativa. Piano delle analisi approvato nel 2025, 86.876 € dal Commissario, prelievi iniziati; dovevano finire entro marzo 2026, a giugno ancora "in via di completamento". ⚠ Non bonificato. | 15 | ✅ [scheda](interventi/atleti-azzurri-tamburi.md) |
-| B10 | Zona PIP di Statte (falda profonda) | Analisi e intervento d'emergenza fatti; progetto definitivo fermo dal 2020. Nel 2025 assegnati 124 milioni (89,9 dal Fondo coesione), ma a giugno 2026 nessun progetto né gara, 0 € spesi. ⚠ Non messo in sicurezza. | 16–17 | ✅ [scheda](interventi/pip-statte.md) |
-| D1 | Quartiere Tamburi, SP1: suolo (Comune di Taranto) | Sito contaminato, 164.770 m²: chiesta la certificazione di avvenuta bonifica. | T4 n. 152 | ⬜ |
-| D2 | Quartiere Tamburi, SP2: suolo (Comune di Taranto) | Sito contaminato, 3.249 m²: chiesta la certificazione di avvenuta bonifica. | T4 n. 151 | ⬜ |
-| D3 | Quartiere Tamburi, SP2: aree private | Fase di accertamento (dal 2005), 45.622 m². | T2.1 n. 23 | ⬜ |
-| D4 | Quartiere Tamburi, SP3: suolo (Comune di Taranto) | Sito contaminato, 34.371 m²: chiesta la certificazione di avvenuta bonifica. | T4 n. 147 | ⬜ |
-| D5 | Quartiere Tamburi, SP4: suolo (Comune di Taranto) | ✔ Certificazione di avvenuta bonifica: "sito bonificato", 808.572 m². | T1 n. 13 | ⬜ |
-| D6 | Quartiere Tamburi: acque sotterranee (Comune di Taranto) | Sito contaminato, 1.327.917 m²: approvati risultati delle analisi e analisi di rischio (procedimento dal 2015). | T4 n. 148 | ⬜ |
-| D8 | Area vasta di Statte: suolo (Comune di Statte) | Sito contaminato: approvati risultati delle analisi e analisi di rischio (dal 2011). Superficie indicata: 58.450.318 m². | T4 n. 137 | ⬜ |
 
 ---
 

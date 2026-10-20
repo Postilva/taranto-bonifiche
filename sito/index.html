@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610201551">
+<link rel="stylesheet" href="stile.css?v=202610201830">
 
 <header class="topbar">
   <div class="in">
@@ -25,8 +25,8 @@
   <section class="hero">
     <div class="in">
       <p class="eyebrow">Taranto · ex Ilva · dati al <span class="oggi"></span></p>
-      <div class="big" id="n-cert">0</div>
-      <h1>aree con il certificato di bonifica. Le aree legate all'Ilva sono <span id="n-ilva">27</span>; altre <span class="n-dv">9</span> sono da verificare.</h1>
+      <div class="big" id="n-ilva">36</div>
+      <h1>aree legate all'Ilva. <span id="cert-frase">Solo una risulta bonificata, secondo un elenco della Regione del 2020: il certificato non l'abbiamo visto.</span></h1>
       <p class="lead">Discariche, terreni, falde e fondali, controllati uno per uno solo con documenti ufficiali.</p>
       <a class="btn block" href="mappa.html">Apri la mappa</a>
       <p class="credit">Foto: lo stabilimento e il quartiere Tamburi dal Mar Piccolo, 2007 · mafe de baggis, <a href="https://commons.wikimedia.org/wiki/File:ILVA_-_Unit%C3%A0_produttiva_di_Taranto_-_Italy_-_25_Dec._2007.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></p>
@@ -38,7 +38,7 @@
         <h2 class="sec-label">Le aree</h2>
         <div class="tiles">
           <a class="tile gA" href="mappa.html?g=A"><b id="n-a">22</b><span>Aree di Ilva<small>dentro e intorno alla fabbrica</small></span></a>
-          <a class="tile gB" href="mappa.html?g=B"><b id="n-b">5</b><span>Ricadute<small>Tamburi e Mar Piccolo · altre <span class="n-dv">9</span> da verificare</small></span></a>
+          <a class="tile gB" href="mappa.html?g=B"><b id="n-b">14</b><span>Ricadute<small>Tamburi, Statte e Mar Piccolo</small></span></a>
         </div>
 
         <h2 class="sec-label">Capire</h2>
@@ -63,7 +63,7 @@
         <h2 class="sec-label">Il progetto</h2>
         <ul class="tlist">
           <li><a href="#metodo"><span class="ic">i</span><span class="tt"><b>Come lavoriamo</b><small>Solo fonti ufficiali, "bonificato" solo con il certificato</small></span><span class="go">›</span></a></li>
-          <li><a href="#perche"><span class="ic">?</span><span class="tt"><b>Chi è nel censimento</b><small>Il criterio, le aree da verificare, cosa non torna</small></span><span class="go">›</span></a></li>
+          <li><a href="#perche"><span class="ic">?</span><span class="tt"><b>Chi è nel censimento</b><small>Il criterio, Tamburi, Statte e Mar Piccolo, cosa non torna</small></span><span class="go">›</span></a></li>
           <li><a href="#fonti"><span class="ic">[1]</span><span class="tt"><b>Fonti e foto</b><small>I documenti di questa pagina e i crediti</small></span><span class="go">›</span></a></li>
           <li><a class="contatto" href="#" target="_blank" rel="noopener"><span class="ic">@</span><span class="tt"><b>Scrivici</b><small>Un errore, un documento, un'area da segnalare</small></span><span class="go">›</span></a></li>
         </ul>
@@ -82,8 +82,8 @@
 <div class="tip" id="tip" role="tooltip"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610201551"></script>
-<script src="comune.js?v=202610201551"></script>
+<script src="dati.js?v=202610201830"></script>
+<script src="comune.js?v=202610201830"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -97,8 +97,14 @@ document.querySelectorAll(".oggi").forEach(el => el.textContent = OGGI);
 $("#n-a").textContent = ELENCO.A.items.length;
 $("#n-b").textContent = ELENCO.B.items.length - DA_VERIFICARE.size;
 $("#n-ilva").textContent = TOTAL - DA_VERIFICARE.size;
-// certificati: schede in cui il passaggio 5 (Certificazione) è "fatto"
-$("#n-cert").textContent = SCHEDE.filter(s => STEPS[s.id] && STEPS[s.id][4][0] === "done").length;
+// certificati: "fatto" = certificato visto da noi; "part" = certificato dichiarato da un ente ma non visto
+{ const c5 = k => SCHEDE.filter(s => STEPS[s.id] && STEPS[s.id][4][0] === k).length, visti = c5("done"), dichiarati = c5("part");
+  const n = x => ["nessuna","una","due","tre","quattro","cinque"][x] ?? x;
+  $("#cert-frase").textContent = visti
+    ? `Con il certificato di bonifica: ${n(visti)}.`
+    : dichiarati === 1 ? "Solo una risulta bonificata, secondo un elenco della Regione del 2020: il certificato non l'abbiamo visto."
+    : dichiarati ? `${dichiarati} risultano bonificate secondo gli enti, ma i certificati non li abbiamo visti.`
+    : "Nessuna ha un certificato di bonifica."; }
 
 /* ---------- pannelli a tutto schermo: uno per argomento, aperti da #storia, #come-inquina, ... ---------- */
 const C = DATA.contesto;
@@ -155,9 +161,10 @@ const PANNELLI = {
       <div class="voce"><b>Chi cura il sito</b><p>Antonio De Pace. Se trovi un errore, hai un documento che non abbiamo o vuoi segnalare un'area, scrivici: leggiamo tutto e, se serve, correggiamo il report indicando la fonte.</p><p><a class="btn contatto" href="#" target="_blank" rel="noopener">Scrivici →</a></p></div>
     </div>`],
   perche: ["Chi è nel censimento", () => `<div class="voci">
-      <div class="voce"><b>Il criterio</b><p>Contiamo le aree di Ilva (gruppo A, ${ELENCO.A.items.length}) e le ricadute fuori dalla fabbrica (gruppo B, ${ELENCO.B.items.length}): queste entrano solo se una fonte ufficiale dice che l'inquinamento viene, anche, dall'Ilva. Le aree inquinate da altri (raffineria, altre industrie, porto, Marina) non fanno parte di questo censimento.</p></div>
+      <div class="voce"><b>Il criterio</b><p>Contiamo le aree di Ilva (gruppo A, ${ELENCO.A.items.length}) e le ricadute fuori dalla fabbrica (gruppo B, ${ELENCO.B.items.length}): di regola queste entrano solo se una fonte ufficiale dice che l'inquinamento viene, anche, dall'Ilva. Le aree inquinate da altri (raffineria, altre industrie, porto, Marina) non fanno parte di questo censimento.</p></div>
       <div class="voce"><b>Perché il Mar Piccolo è nel censimento</b><p>La Commissione parlamentare sui rifiuti (relazione su Ilva-Taranto, settembre 2022) riporta che il processo "Ambiente Svenduto" ha dimostrato che l'inquinamento del primo seno del Mar Piccolo è dovuto all'attività dell'Ilva, attraverso il canale di scarico; la stessa relazione aggiunge che ci sono anche altre fonti, l'Arsenale militare e i cantieri. Contiamo solo gli interventi sui fondali inquinati.</p></div>
-      <div class="voce"><b>Ricadute da verificare (${DA_VERIFICARE.size})</b><p>Aree vicine all'Ilva e inquinate, ma finora nessuna fonte ufficiale trovata dice che l'inquinamento viene dall'Ilva. Se la fonte non si trova, escono dall'elenco.</p><p class="cods">${ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0])).map(r => codice(r[0])).join("")}</p></div>
+      <div class="voce"><b>Perché il Tamburi e Statte sono nel censimento</b><p>Per il Tamburi la Commissione parlamentare sui rifiuti (settembre 2022) scrive che le polveri dello stabilimento hanno reso necessarie le ordinanze del Sindaco sui giardini delle scuole e poi le bonifiche, e che il quartiere è la parte della città "più esposta alle ricadute dei fumi dell'ILVA". Per i terreni di Statte fuori dal SIN la Provincia ha individuato nel 2018 il responsabile, e secondo ARPA Puglia è l'Ilva, per diossine e furani. Per alcune aree, per esempio la zona PIP di Statte, nessuna fonte ufficiale nomina un responsabile: lo diciamo nel report.</p></div>
+      ${DA_VERIFICARE.size ? `<div class="voce"><b>Ricadute da verificare (${DA_VERIFICARE.size})</b><p>Aree vicine all'Ilva e inquinate, ma finora nessuna fonte ufficiale trovata dice che l'inquinamento viene dall'Ilva. Se la fonte non si trova, escono dall'elenco.</p><p class="cods">${ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0])).map(r => codice(r[0])).join("")}</p></div>` : ""}
       <div class="voce"><b>Le priorità della Regione (2024)</b><p>Tra i 23 interventi prioritari nel SIN (Delibera della Giunta regionale n. 981/2024), quelli legati all'Ilva con un report sono PIP Statte (B10), Cimitero San Brunone (B8) e Mar Piccolo 1° seno (B12–B13).</p></div>
       <div class="voce"><b>Cose che non tornano</b><p>La Gravina di Leucaspide compare sia tra le aree di Ilva (A1) sia tra i lavori del Commissario a Statte: chi fa cosa? Molti interventi del Commissario sono "conclusi ma non finanziariamente": lavori finiti, conti aperti. Sulle cifre spese da Ilva e sulla percentuale di aree bonificate circolano numeri non ufficiali: non li mostriamo finché non sono verificati.</p></div>
     </div>`],

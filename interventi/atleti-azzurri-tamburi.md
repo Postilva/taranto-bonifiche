@@ -1,5 +1,5 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
-*Stato scheda: approvata — aggiornata all'8 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 20 ottobre 2026*
 
 ## In breve
 Il Comune ha comunicato agli enti l'inquinamento il 13 maggio 2024 [3]. **Il sito non è bonificato né messo in sicurezza**: nell'ottobre 2025 il Commissario ha dato 86.876,20 € al Comune solo per fare le analisi complete e l'analisi di rischio, e nel maggio 2026 l'opuscolo del Commissario dice che i prelievi sono iniziati [1][2]. A gennaio 2026 il Responsabile del CIS aveva annunciato la fine delle analisi "entro il prossimo marzo" e subito dopo la messa in sicurezza permanente [9]; a fine giugno 2026 il Commissario le descrive ancora "in via di completamento" [10]. Nessun risultato è pubblico.
@@ -8,7 +8,7 @@ Il Comune ha comunicato agli enti l'inquinamento il 13 maggio 2024 [3]. **Il sit
 L'impianto sportivo comunale "Atleti Azzurri d'Italia", nel quartiere Tamburi, che il Comune di Taranto vuole rifare con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3].
 
 ## Perché è inquinata
-Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA oltre i limiti di legge [3]. Le fonti trovate finora non dicono da dove vengano: per questo l'area è tra le ricadute da verificare.
+Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA oltre i limiti di legge [3]. Le fonti trovate finora non dicono da dove vengano. L'area è nel censimento perché è nel quartiere Tamburi, che per la Commissione parlamentare sui rifiuti è la parte della città "più esposta alle ricadute dei fumi dell'ILVA" [12].
 
 ## Chi se ne occupa
 - Il **Comune di Taranto** è il proprietario dei terreni, ha trovato la contaminazione, ha presentato il piano delle analisi e ha avviato la gara per eseguirlo [2][3].
@@ -102,6 +102,8 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 [10] Commissario straordinario, sito ufficiale, pagina *Collaborazione con il Comune di Taranto su progettualità presentate nell'ambito del JTF* (aggiornata 26/06/2026), https://commissari.gov.it/commta/attivita/altre-attivita/collaborazione-con-il-comune-di-taranto-su-progettualita-presentate-nell-ambito-del-jtf/ — copia in `fonti/2026-06_commissario-taranto_sito-web-collaborazione-comune-jtf-sea-hub.html`
 
 [11] Commissario straordinario, sito ufficiale, pagina *L'azione della struttura commissariale nell'ambito del CIS Taranto* (aggiornata 5/08/2026), https://commissari.gov.it/commta/attivita/l-azione-della-struttura-commissariale-nell-ambito-del-cis-taranto/ — copia in `fonti/2026-08_commissario-taranto_sito-web-azione-cis-taranto.html`
+
+[12] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale sulla situazione delle bonifiche e della gestione dei rifiuti presso gli impianti ex Ilva-Taranto e nelle aree contermini* (Doc. XXIII n. 33, XVIII legislatura), settembre 2022, pag. 67, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
 
 ## Cosa non sappiamo
 1. **Che cosa c'è esattamente nel terreno.** Sappiamo solo che piombo e IPA superano i limiti [3]. Non abbiamo né i valori, né le profondità, né la data delle analisi di maggio 2024 o prima [3]. Non verificato.
