@@ -54,4 +54,19 @@ Nessuna cifra trovata. Non verificato.
 Ricerca online del 20 ottobre 2026 ("quartiere Tamburi" con falda, acque sotterranee, caratterizzazione, analisi di rischio; portale trasparenza del Comune; archivio del Ministero dell'Ambiente): nessun documento su questa falda.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-È la stessa richiesta della scheda D3: una sola richiesta alla Regione Puglia per le aree private di SP2 e per la falda del Tamburi.
+Una sola richiesta alla Regione per la falda (D6) e per le aree private di SP2 (D3, nella scheda "Quartiere Tamburi: risanamento dei suoli").
+
+**A:** Regione Puglia, Sezione Ciclo rifiuti e bonifiche — PEC serv.rifiutiebonifica@pec.rupar.puglia.it (la stessa usata per la richiesta 06).
+
+> Oggetto: Richiesta di accesso all'informazione ambientale e di accesso civico generalizzato – Anagrafe dei siti da bonificare (DGR 988/2020): "Risanamento quartiere Tamburi – SP2 – aree private" (tab. 2.1 n. 23) e "Risanamento Q.re Tamburi – Matrice acqua sotterranea" (tab. 4 n. 148), Comune di Taranto
+>
+> Il sottoscritto [nome e cognome], ai sensi dell'art. 3 del D.Lgs. 195/2005 e dell'art. 5, comma 2, del D.Lgs. 33/2013, chiede di ricevere in formato elettronico:
+>
+> 1. **Aree private SP2.** La comunicazione di potenziale contaminazione del 2005 da cui deriva l'iscrizione in Anagrafe, gli eventuali atti successivi e l'indicazione del soggetto oggi tenuto agli adempimenti.
+> 2. **Falda del quartiere Tamburi.** L'atto di approvazione degli esiti del piano di caratterizzazione e dell'analisi di rischio (con l'indicazione dell'autorità che li ha approvati), la relazione di sintesi con le sostanze che superano i limiti, ed eventuali atti successivi (progetti di messa in sicurezza o bonifica, monitoraggi).
+> 3. Per entrambe le voci, gli aggiornamenti dell'Anagrafe successivi ad aprile 2020, se esistono.
+>
+> Se una parte dei documenti non è in possesso della Sezione, chiede di indicare l'ufficio che la detiene. Non chiede elaborazioni: bastano i documenti già agli atti.
+>
+> Chiede di ricevere i documenti all'indirizzo [email].
+> [Luogo, data, firma] — allegare copia di un documento d'identità.

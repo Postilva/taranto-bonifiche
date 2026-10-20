@@ -138,6 +138,14 @@ num = lambda s: float(s.replace(".", "").replace(",", ".")) if s.count(",") else
 
 def coordinate(text):
     """Cerca la riga **Coordinate** della scheda: restituisce lat/lon, testo originale e numero della fonte."""
+    tutte = coordinate_per_codice(text)
+    return next(iter(tutte.values()), None)
+
+
+def coordinate_per_codice(text):
+    """Tutte le righe **Coordinate**: {codice: coordinata}. Se la riga nomina un codice prima dei numeri
+    ("**Coordinate** di D1 (SP1): ...") vale per quel codice, altrimenti per tutta la scheda (chiave "*")."""
+    out = {}
     for ln in text.splitlines():
         if "**Coordinate**" not in ln or FILTRO.search(ln.split("(conversione")[0]):
             continue
@@ -146,9 +154,11 @@ def coordinate(text):
         if m and n:
             E, N = num(m.group(1)), num(m.group(2))
             lat, lon = utm33_to_ll(E, N)
-            return {"ll": [lat, lon], "e": m.group(1), "n": m.group(2), "fonte": int(n.group(1)),
-                    "sistema": "RDN2008 / TM33 (EPSG 6708)" if "RDN2008" in ln else "UTM fuso 33 Nord, datum WGS84"}
-    return None
+            c = {"ll": [lat, lon], "e": m.group(1), "n": m.group(2), "fonte": int(n.group(1)),
+                 "sistema": "RDN2008 / TM33 (EPSG 6708)" if "RDN2008" in ln else "UTM fuso 33 Nord, datum WGS84"}
+            for cod in re.findall(r"\b[ABCD]\d+\b", ln[:m.start()]) or ["*"]:
+                out.setdefault(cod, c)
+    return out
 
 
 # ---------- date per la cronologia ----------
@@ -371,6 +381,8 @@ def leggi_scheda(path):
         if b:
             out["verdict"] = re.sub(r"<[^>]+>", "", b.group(1)).strip(" :.") + "."
     out["coord"] = coordinate(txt)
+    per_cod = coordinate_per_codice(txt)
+    out["coords"] = {k: v for k, v in per_cod.items() if k != "*"} or None
     out["immagine"] = immagine(lines)
     return out
 
