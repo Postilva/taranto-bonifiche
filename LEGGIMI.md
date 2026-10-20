@@ -1,11 +1,18 @@
 # Bonifiche Taranto — come lavoriamo
 
-**Obiettivo:** fare chiarezza sulle bonifiche dell'ex Ilva e dell'area di Taranto, un intervento alla volta, con ogni dato verificato. Alla fine costruiremo una pagina web comprensibile anche a chi non sa nulla dell'Ilva.
+**Obiettivo:** censire le aree inquinate dall'Ilva e fare chiarezza sulla loro bonifica, un intervento alla volta, con ogni dato verificato, in una pagina web comprensibile anche a chi non sa nulla dell'Ilva.
+
+**Cosa rientra nel censimento** (deciso il 20/10/2026):
+- **aree di Ilva**: aree di Ilva in A.S. e dello stabilimento di Acciaierie d'Italia, anche fuori dal SIN;
+- **ricadute fuori dalla fabbrica**: solo se una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva. Finché la fonte non c'è, l'area sta in "Da verificare"; se non si trova, esce.
+
+Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano l'inquinamento dell'Ilva) sta in `fuori-perimetro.md` e le sue schede in `interventi/fuori-perimetro/`: il sito non le legge. Prima di aprire una scheda nuova, controllare che l'area sia nel censimento.
 
 **Regola d'oro: non complicare.** Pochi file, passi piccoli, e un riepilogo di 2–3 righe alla fine di ogni passo.
 
 ## File
-- `elenco.md`: tutti gli interventi e il loro stato
+- `elenco.md`: le aree inquinate dall'Ilva e il loro stato
+- `fuori-perimetro.md`: le voci censite prima e uscite dal censimento
 - `interventi/<nome>.md`: una scheda per intervento
 - `fonti/`: i PDF dei documenti usati, nominati `anno-mese_ente_titolo.pdf`
 

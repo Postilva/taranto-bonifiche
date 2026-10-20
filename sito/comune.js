@@ -1,37 +1,31 @@
 /* Codice comune a home, mappa e report. Richiede dati.js (generato da costruisci.py) caricato prima. */
 
-/* ---------- elenco.md: gruppi A, B, C ---------- */
-const byCode = (a,b) => a[0]===b[0] ? (+a.slice(1))-(+b.slice(1)) : (a<b?-1:1);
-const ROWS = Object.values(DATA.elenco);
-const GRUPPI_B = DATA.gruppiB;   // [titolo, [codici]] nell'ordine di elenco.md
-const FUORI_G = GRUPPI_B.filter(g => /^(Nel programma|Contesto)/.test(g[0]));
-const FUORI = new Set(FUORI_G.flatMap(g => g[1]));
-const NON_AMB = new Set((FUORI_G.find(g => g[0].startsWith("Nel programma")) || ["",[]])[1]);
+/* ---------- elenco.md: gruppo A (aree di Ilva) e gruppo B (ricadute fuori dalla fabbrica) ---------- */
+// il gruppo di un intervento è la sezione di elenco.md in cui sta, non la lettera del codice (C1, C2, D16, D17 sono aree di Ilva)
+const subs = gs => gs.map(g => [g[0], g[1].map(c => DATA.elenco[c])]);
 const ELENCO = {
   A: {
-    title: "Aree di Ilva", count: "18 aree",
-    who: "Le vecchie aree della fabbrica non passate ai nuovi gestori. Se ne occupano i commissari di Ilva in amministrazione straordinaria. Fonte: relazione trimestrale di Ilva in AS, 4° trimestre 2025.",
-    items: ROWS.filter(r => r[0][0]==="A").sort((a,b)=>byCode(a[0],b[0]))
+    title: "Aree di Ilva",
+    who: "Terreni, discariche e falde dell'Ilva: le vecchie aree affidate a Ilva in amministrazione straordinaria e lo stabilimento in funzione, gestito da Acciaierie d'Italia.",
+    subs: subs(DATA.gruppiA)
   },
   B: {
-    title: "Aree fuori dalla fabbrica", count: "",
-    who: "Mare, quartiere Tamburi, Statte. Se ne occupa il Commissario straordinario per la bonifica di Taranto. Fonte: opuscolo del Commissario, maggio 2026.",
-    subs: GRUPPI_B.filter(g => !FUORI_G.includes(g)).map(g => [g[0].replace(/^Interventi c/,"C").replace(/^Interventi i/,"I"), g[1].map(c => DATA.elenco[c])])
-  },
-  // voci del programma del Commissario che non sono opere ambientali, e il contesto (B14): fuori da conteggi e mappa
-  X: FUORI_G.map(g => [g[0], g[1].map(c => DATA.elenco[c])]),
-  C: {
-    title: "Altri responsabili", count: "",
-    who: "Aziende (a partire dall'acciaieria in funzione), Autorità portuale e Marina: le pratiche di bonifica che il Ministero dell'Ambiente segue nel SIN. Fonte: archivio dei procedimenti del Ministero, scaricato il 14 ottobre 2026.",
-    items: ROWS.filter(r => r[0][0]==="C").sort((a,b)=>byCode(a[0],b[0])),
-    subs: (DATA.gruppiC || []).map(g => [g[0], g[1].map(c => DATA.elenco[c])])
+    title: "Ricadute fuori dalla fabbrica",
+    who: "Quartiere Tamburi, Statte, Mar Piccolo: aree per cui una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva.",
+    subs: subs(DATA.gruppiB)
   }
 };
-ELENCO.C.count = ELENCO.C.items.length + " interventi";
-ELENCO.B.count = ELENCO.B.subs.reduce((n,s) => n + s[1].length, 0) + " interventi";
+const GRUPPO = {};   // codice → "A" | "B"
+for (const g of ["A","B"]) {
+  ELENCO[g].items = ELENCO[g].subs.flatMap(s => s[1]);
+  ELENCO[g].items.forEach(r => GRUPPO[r[0]] = g);
+  ELENCO[g].count = ELENCO[g].items.length + " interventi";
+}
+// ricadute per cui la fonte che lega l'inquinamento all'Ilva non è ancora stata trovata
+const DA_VERIFICARE = new Set(ELENCO.B.subs.filter(s => s[0].startsWith("Da verificare")).flatMap(s => s[1].map(r => r[0])));
 
 // nome breve per lista, grafici e cronologia (se manca si usa il titolo fino alla parentesi)
-const SHORT = {"discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-mercato-ittico":"Mar Piccolo, mercato ittico","mar-piccolo-rifiuti-lotto1":"Mar Piccolo, rifiuti 1° lotto","mar-piccolo-rifiuti-lotto2":"Mar Piccolo, rifiuti 2° lotto","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","scuole-tamburi-riqualificazione":"Scuole Tamburi, lavori","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","deperimetrazione-sin":"Riduzione del SIN","molo-polisettoriale":"Molo polisettoriale","mitili-mitica":"Cozze e MITICA","sea-hub":"Sea Hub, Arco Nord","filiere-verdi":"Filiere verdi","falda-galeso":"Falda del Galeso","praia-a-mare":"Praia a Mare","aree-mai-analizzate":"Aree mai analizzate","acciaierie-italia-suoli":"Acciaieria, suoli","acciaierie-italia-falda":"Acciaieria, falda"};
+const SHORT = {"discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","acciaierie-italia-suoli":"Acciaieria, suoli","acciaierie-italia-falda":"Acciaieria, falda"};
 // note sulla posizione che la scheda stessa segnala
 const COORD_NOTE = {"pozzo-25":"Attenzione: la scheda segnala che le fonti danno coordinate diverse tra loro (il piano del 2021 indica un punto circa 2,8 km più a nord)."};
 const SCHEDE = DATA.schede.map(s => ({...s, short: SHORT[s.id] || s.title.split(/ \(|:/)[0]}));
@@ -44,27 +38,29 @@ document.querySelectorAll(".contatto").forEach(a => { if (CONTATTO) a.href = CON
 /* ---------- utilità ---------- */
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-// schede in ordine di codice: A prima di B, poi per numero
-SCHEDE.sort((a,b)=> a.code[0]===b.code[0] ? (+a.code.slice(1))-(+b.code.slice(1)) : a.code<b.code?-1:1);
+// ordine: gruppo A prima del gruppo B, poi lettera del codice e numero
+const codeCmp = (a,b) => (GRUPPO[a]||"Z") !== (GRUPPO[b]||"Z") ? ((GRUPPO[a]||"Z") < (GRUPPO[b]||"Z") ? -1 : 1) : a[0]===b[0] ? (+a.slice(1))-(+b.slice(1)) : (a<b?-1:1);
+SCHEDE.sort((a,b)=> codeCmp(a.code, b.code));
 const verified = Object.fromEntries(SCHEDE.flatMap(s => s.codes.map(c => [c, s])));
-document.querySelectorAll(".n-ok").forEach(el => el.textContent = Object.keys(verified).filter(c => !FUORI.has(c)).length);
+document.querySelectorAll(".n-ok").forEach(el => el.textContent = Object.keys(verified).filter(c => GRUPPO[c]).length);
 document.querySelectorAll(".n-sch").forEach(el => el.textContent = SCHEDE.length);
 function cite(html, sid){ return html.replace(/\[(\d+)\]/g, (m,n) => `<sup class="c"><a href="#${sid}-f${n}" aria-label="fonte ${n}">[${n}]</a></sup>`); }
 /* ---------- interventi: dati comuni a lista, mappa e report ---------- */
-// sulla mappa: tutti i gruppi A e B (senza le voci FUORI) e, del gruppo C, solo gli interventi già verificati
-const C_OK = ELENCO.C.items.filter(r => verified[r[0]]);
-const ALL = [...ELENCO.A.items, ...ELENCO.B.subs.flatMap(s=>s[1]), ...C_OK];   // [codice, nome, nota, pagina, id scheda, avviso]
+// sulla mappa: tutti gli interventi dei gruppi A e B
+const ALL = [...ELENCO.A.items, ...ELENCO.B.items];   // [codice, nome, nota, pagina, id scheda, avviso]
 const ROW = Object.fromEntries(ALL.map(i => [i[0], i]));
 const TOTAL = ALL.length;   // interventi sulla mappa
-const CENSITI = ELENCO.A.items.length + ELENCO.B.subs.reduce((n,s) => n + s[1].length, 0) + ELENCO.C.items.length;   // tutti gli interventi ambientali dell'elenco
+const CENSITI = TOTAL;      // tutti gli interventi dell'elenco
 document.querySelectorAll(".n-cens").forEach(el => el.textContent = CENSITI);
-document.querySelectorAll(".n-c").forEach(el => el.textContent = ELENCO.C.count);
-document.querySelectorAll(".n-c-ok").forEach(el => el.textContent = C_OK.length);
+document.querySelectorAll(".n-a").forEach(el => el.textContent = ELENCO.A.count);
 document.querySelectorAll(".n-b").forEach(el => el.textContent = ELENCO.B.count);
-document.querySelectorAll(".n-x").forEach(el => el.textContent = NON_AMB.size);
-const codeCmp = (a,b) => a[0]===b[0] ? (+a.slice(1))-(+b.slice(1)) : (a<b?-1:1);
-const GRP = {A:"Gruppo A · Ilva in amministrazione straordinaria", B:"Gruppo B · Commissario per la bonifica", C:"Gruppo C · Altri responsabili", C1:"Gruppo C · Acciaierie d'Italia", C2:"Gruppo C · Acciaierie d'Italia", B14:"Ministero dell'Ambiente", B18:"Comune di Taranto · priorità della Regione", B19:"Comune di Taranto · priorità della Regione", B20:"Commissario e Comuni · priorità della Regione"};   // B14: i decreti di riduzione del SIN sono del Ministero
-const GRP_SHORT = {A:"Gruppo A · Ilva", B:"Gruppo B · Commissario", C:"Gruppo C · Altri", C1:"Acciaierie d'Italia", C2:"Acciaierie d'Italia", B18:"Comune di Taranto", B19:"Comune di Taranto", B20:"Commissario e Comuni"};
+document.querySelectorAll(".n-dv").forEach(el => el.textContent = DA_VERIFICARE.size);
+// etichetta del gruppo: "Area di Ilva" / "Ricaduta dell'Ilva" (+ chi se ne occupa, dalla lettera del codice)
+const GRP_CHI = {A:"Ilva in amministrazione straordinaria", B:"Commissario per la bonifica", C:"Acciaierie d'Italia", D:"anagrafe della Regione"};
+const grpLabel = (code, short) => {
+  const t = GRUPPO[code] === "A" ? "Area di Ilva" : DA_VERIFICARE.has(code) ? "Ricaduta da verificare" : "Ricaduta dell'Ilva";
+  return short ? t : `${t} · ${GRP_CHI[code[0]]}`;
+};
 
 /* Posizioni "da documento ufficiale": solo se la scheda riporta le coordinate di un documento (riga **Coordinate**,
    lette da costruisci.py e convertite in gradi). Tutte le altre sono INDICATIVE: messe a mano nella zona
@@ -83,7 +79,6 @@ const ZONES = {
   limitrofe:{ll:[40.5265,17.2011], r:0, label:`Accanto allo stoccaggio fanghi, a sud della cava Mater Gratiae (${MAPPA22})`},
   nuovevasche:{ll:[40.5290,17.2030], r:0, label:"Zona della cava Mater Gratiae, a sud-est della cava (punto messo da noi: la discarica indicata nella mappa delle aree di Ilva del luglio 2022 si riconosce sulla foto satellitare; errore stimato sotto i 100 m)"},
   d1:      {ll:[40.5044,17.1963], r:0, label:`Appena fuori dalla fabbrica, sul lato sud-ovest, accanto a Land D2 (${MAPPA22})`},
-  cemerad: {ll:[40.558,17.215], r:0, label:"Statte, località Vocchiaro (dalla scheda); punto non preciso"},
   tamburi: {ll:[40.4905,17.2285], r:.003, label:"Quartiere Tamburi"},
   // punti presi da OpenStreetMap (non da documenti ufficiali): restano "posizione indicativa"
   collinette:{ll:[40.4988,17.2280], r:0, label:"A nord del quartiere Tamburi, accanto alla scuola Deledda (la scheda dice che la Collinetta 3 è attaccata alla scuola); punto messo da noi con OpenStreetMap"},
@@ -93,14 +88,8 @@ const ZONES = {
   ospnord: {ll:[40.5396,17.2771], r:0, label:"Ospedale San Giuseppe Moscati, a Statte, chiamato in zona \"Ospedale Nord\" (punto preso da OpenStreetMap sull'ospedale: l'area di Ilva è lì vicino, ma non sappiamo esattamente dove)"},
   mp1:     {ll:[40.483,17.262], r:.009, label:"Mar Piccolo, 1° seno"},
   cementir:{ll:[40.4910,17.2065], r:0, label:"Dentro la cava del cementificio, tra la raffineria ENI e lo stabilimento (punto messo da noi: la discarica indicata nella mappa delle aree di Ilva del luglio 2022 si riconosce sulla foto satellitare; errore stimato sotto i 100 m)"},
-  mp2:     {ll:[40.490,17.305], r:.004, label:"Mar Piccolo, 2° seno"},
-  porto:   {ll:[40.465,17.180], r:.003, label:"Porto di Taranto"},
-  margrande:{ll:[40.452,17.205], r:0, label:"Mar Grande"},
-  galeso:  {ll:[40.502,17.245], r:0, label:"Zona Piccole Industrie – SP 49, tra il quartiere Tamburi e il fiume Galeso (dalla scheda); punto non preciso"},
-  sanvito: {ll:[40.425,17.222], r:0, label:"Località Praia a Mare, quartiere San Vito (dalla scheda); punto non preciso"},
-  generic: {ll:[40.515,17.245], r:.004, label:"Zona generica: area di Taranto (l'elenco non indica un luogo)"}
 };
-const PLACE = {A1:"gravina",A2:"nordovest",A3:"duemari",A4:"cementir",A5:"fanghi",A6:"limitrofe",A7:"nuovevasche",A12:"d1",A14:"amastuola",A15:"collinette",A18:"ospnord",B1:"cemerad",B2:"deledda",B3:"tamburi",B4:"mp1",B5:"mp1",B6:"mp1",B7:"porto",B8:"cimitero",B9:"tamburi",B10:"statte",B11:"mp1",B12:"mp1",B13:"mp1",B14:"margrande",B15:"generic",B16:"mp1",B17:"mp2",B18:"galeso",B19:"sanvito",B20:"generic",C1:"acciaieria",C2:"acciaieria"};
+const PLACE = {A1:"gravina",A2:"nordovest",A3:"duemari",A4:"cementir",A5:"fanghi",A6:"limitrofe",A7:"nuovevasche",A12:"d1",A14:"amastuola",A15:"collinette",A18:"ospnord",B2:"deledda",B6:"mp1",B8:"cimitero",B9:"tamburi",B10:"statte",B12:"mp1",B13:"mp1",C1:"acciaieria",C2:"acciaieria",D1:"tamburi",D2:"tamburi",D3:"tamburi",D4:"tamburi",D5:"tamburi",D6:"tamburi",D8:"statte",D16:"statte",D17:"statte"};
 function pointsFor(){
   const all = ALL;
   const byZone = {};
@@ -123,7 +112,7 @@ function pointsFor(){
       pts.push({code:i[0], name:i[1], note:i[2], ll, zone:Z.label, official:!!Z.official, src:Z.src, ok:!!verified[i[0]]});
     });
   });
-  return pts.sort((a,b)=> a.code[0]===b.code[0] ? (+a.code.slice(1))-(+b.code.slice(1)) : a.code<b.code?-1:1);
+  return pts.sort((a,b)=> codeCmp(a.code, b.code));
 }
 const PTS = pointsFor();
 
@@ -155,31 +144,18 @@ const STEPS = {
   "land-d2":[["done","Analisi sul posto giugno–luglio 2021, validate da ARPA nel 2022"],["done","Approvata con il decreto n. 185 del 4/12/2024"],["no","Non serve: il decreto n. 185 dichiara l'area non contaminata"],["no","Non serve: il rischio calcolato è accettabile, gli inquinanti restano lì"],["no","Nessuna bonifica da certificare: il decreto n. 185 chiude la procedura"]],
   "pozzo-25":[["done","Analisi di terreno e acqua"],["done","Decreto n. 149/2026: terreno nei limiti, acqua sotterranea \"contaminata\""],["part","Previsti solo controlli e divieto di accesso; impianto a osmosi non ancora installato a fine 2025"],["todo","Non bonificata"],["todo","Non ancora"]],
   "land-i":[["no","Nessuna analisi: Ilva dice che non servono"],["no","Ilva dice che non serve"],["no","Ilva dice che non serve"],["no","Ilva dice che non serve"],["no","Nessun atto pubblico dice che l'area è pulita"]],
-  "ex-cemerad":[["part","Una prima analisi nel 2005, risultati non pubblicati; la nuova analisi del sito è da avviare"],["na","La scheda non ne parla"],["done","Deposito messo in sicurezza e svuotato: 16.640 fusti tolti entro il 29/01/2025"],["todo","Da avviare, dopo analisi e demolizione del capannone"],["todo","Non ancora"]],
   "cimitero-san-brunone":[["done","Terreno analizzato, risultati convalidati da ARPA (ma non pubblicati)"],["done","Completata ad agosto 2015, approvata dalla Regione il 12/02/2016"],["todo","Per il Commissario la messa in sicurezza d'emergenza è \"completata\" (agosto 2026), ma nessun atto la descrive: solo recinzioni e teloni sulla terra scavata"],["part","Lavori iniziati nel 2020, fermati dopo tre mesi; gara annullata nel 2021; progetto in aggiornamento"],["todo","Non ancora"]],
   "pip-statte":[["done","Caratterizzazione di terreni e falda finita il 30/11/2013"],["done","Rifatta e approvata dal Ministero con il decreto n. 313 del 1/08/2018"],["part","Solo l'intervento d'emergenza (pompaggio dell'olio); la messa in sicurezza definitiva è ferma dal 2020"],["todo","Nessun progetto approvato; non si sa se sarà bonifica o messa in sicurezza"],["todo","Non ancora"]],
   "mar-piccolo-gara-2018":[["done","Studi ufficiali ARPA e ISPRA (2005, 2010, 2014); i valori misurati non sono online"],["na","La scheda non ne parla"],["todo","Fondali non messi in sicurezza"],["todo","Gara del 2018 mai aggiudicata, nessun lavoro in mare; nessun piano finanziato per il 1° seno"],["todo","Non ancora"]],
   "scuole-tamburi-aree-verdi":[["done","Analisi del terreno completate, risultati approvati da ARPA"],["done","Completata ad agosto 2015, approvata dalla Regione (determina n. 145 del 24/06/2016): nessun rischio per la salute dai suoli"],["no","Non serve secondo l'analisi di rischio"],["no","Non serve secondo l'analisi di rischio: solo riqualificazione delle aree"],["no","Nessun certificato: secondo l'analisi di rischio non serviva una bonifica"]],
   "atleti-azzurri-tamburi":[["part","Piano delle analisi approvato dalla Regione (7/07/2025) e finanziato (3/10/2025); a maggio 2026 i prelievi erano iniziati, secondo il Commissario"],["todo","Non ancora"],["todo","Non messo in sicurezza"],["todo","Non bonificato"],["todo","Non ancora"]],
-  "mar-piccolo-mercato-ittico":[["na","La scheda non ne parla"],["na","La scheda non ne parla"],["todo","Fondali non messi in sicurezza"],["todo","Relitto rimosso e smaltito (lavori finiti il 17/12/2021); i fanghi del fondale non sono stati bonificati"],["todo","Solo il certificato di regolare esecuzione del contratto (16/03/2022), non di bonifica"]],
-  "mar-piccolo-rifiuti-lotto1":[["na","La scheda non ne parla"],["na","La scheda non ne parla"],["todo","Sedimenti non messi in sicurezza"],["todo","Rifiuti e relitti tolti dal fondale (circa 500 tonnellate nella prima tranche); nessuna bonifica dei sedimenti"],["todo","Nessun certificato di bonifica"]],
-  "mar-piccolo-rifiuti-lotto2":[["na","La scheda non ne parla"],["na","La scheda non ne parla"],["todo","Non messo in sicurezza"],["todo","Non c'è progetto, gara o cantiere"],["todo","Non ancora"]],
   "mar-piccolo-area-170":[["done","Analisi del 2005 e studi ARPA e ISPRA: inquinamento esteso da PCB e metalli; i valori misurati non sono pubblici"],["na","La scheda non ne parla"],["todo","Sedimenti non messi in sicurezza"],["todo","Nessun lavoro in mare; circa 33,5 mln € solo proposti dalla Regione (dicembre 2025)"],["todo","Non ancora"]],
-  "falda-galeso":[["done","Analisi di aziende ed enti pubblici e nuovi prelievi nel 2024: manganese, idrocarburi e IPA oltre i limiti"],["na","La scheda non ne parla"],["part","Solo il progetto di messa in sicurezza operativa (pozzi, trincee, impianto di trattamento), presentato al Ministero il 7/11/2025 e non ancora approvato"],["todo","Non bonificata"],["todo","Non ancora"]],
-  "praia-a-mare":[["part","Misure del volume e analisi di terreno e rifiuti nei lavori del Comune; il piano delle analisi del terreno demaniale è appena stato affidato"],["todo","Non ancora"],["part","Messa in sicurezza provvisoria della falesia e rimozione dell'amianto, lavori conclusi secondo gli atti del Comune; alcune parti già da riparare"],["todo","Non bonificata: bonifica stimata in 5 mln €, non finanziata"],["todo","Non ancora"]],
-  "aree-mai-analizzate":[["todo","Mai analizzate; per il terreno vicino al depuratore Gennarini il Comune sta togliendo ordigni bellici e amianto prima delle analisi"],["todo","Non ancora"],["todo","Non messe in sicurezza"],["todo","Non bonificate"],["todo","Non ancora"]],
   "acciaierie-italia-suoli":[["part","Analisi dal 2004 al 2021 (oltre 2.000 sondaggi), ma nessun test di cessione sui materiali di riporto; il piano delle nuove analisi è stato bocciato da ARPA e ISPRA nel 2023"],["part","Analisi di rischio del 2016–2017 mai esaminata: prima vanno verificati i riporti"],["part","Solo pavimentazioni, che l'azienda considera una messa in sicurezza; ISPRA e ARPA no"],["todo","Non bonificati, nessun progetto"],["todo","Non ancora"]],
   "acciaierie-italia-falda":[["part","Controlli annuali dell'azienda e controlli aggiuntivi dal 2021; per ISPRA e ARPA non bastano"],["todo","Non ancora: prima serve il quadro completo del sito"],["part","Misure provvisorie: barriera di 11 pozzi ai Parchi minerali (dal 2018) e raccolta degli idrocarburi; efficacia non valutabile secondo ARPA e ISPRA (2024)"],["todo","Nessun progetto di bonifica della falda"],["todo","Non ancora"]],
-  "filiere-verdi":[["na","La scheda non ne parla: non si sa ancora dove siano i 90 ettari"],["na","La scheda non ne parla"],["todo","Non messo in sicurezza"],["part","Pulizia del suolo con le piante su circa 90 ettari: parte a terra ammessa a finanziamento (marzo 2026), non ancora partita sul campo"],["todo","Non ancora"]],
 };
 // schede che non descrivono un intervento di bonifica: i 5 passaggi non si applicano
 const NO_STEPS = {
-  "deperimetrazione-sin":"È un atto del Ministero che riduce il perimetro del SIN, non un intervento sul terreno. Nessuna area è stata dichiarata \"bonificata\" con questi decreti.",
   "mar-piccolo-studi":"Sono studi e analisi: nessuna bonifica, nessuna messa in sicurezza.",
-  "mitili-mitica":"Sono studi sulle cozze: nessuno dei due progetti interviene su fanghi o acqua del Mar Piccolo.",
-  "scuole-tamburi-riqualificazione":"Sono lavori su edifici, aria delle aule e cortili: non è un'opera ambientale.",
-  "molo-polisettoriale":"È un'opera portuale (banchina e dragaggio per le navi): non è un'opera ambientale.",
-  "sea-hub":"È una riqualificazione della costa (demolizione di pontili e strutture): non è un'opera ambientale."
 };
 // soldi (milioni di euro). null = dato assente o "non verificato" nella scheda: non si disegna.
 // [tipo, valore, spiegazione, etichetta se assente o testo al posto del numero]
@@ -196,19 +172,11 @@ const MONEY = {
   "collinette-ecologiche":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",37.5,"37,5 mln € \"allocati\" da Ilva per caratterizzazione e messa in sicurezza"],["Pagato",0.79,"0,79 mln € pagati a luglio 2022; dopo il 2022 non si sa"]],
   "pozzo-25":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",0.39,"0,39 mln € assegnati secondo Ilva (luglio 2022)"],["Pagato",0.005,"Meno di 0,01 mln € pagati secondo Ilva (luglio 2022)","< 0,01"]],
   "land-i":[["Stimato",null,"Nessun intervento previsto","—"],["Stanziato",0.01,"0,01 mln € (10.000 €) per la gestione generale, secondo Ilva (luglio 2022)","0,01"],["Pagato",0,"Nessuna spesa impegnata o pagata, secondo Ilva (luglio 2022)","0"]],
-  "ex-cemerad":[["Stimato",16.4285,"16,43 mln € (costo previsto, accordo con Sogin 2023)"],["Stanziato",18.8,"18,8 mln € (10 mln legge 2015 + 8,8 mln legge di bilancio 2022)"],["Pagato",16.86,"16,86 mln € (due progetti dello svuotamento, OpenCoesione al 30/06/2026)"]],
   "cimitero-san-brunone":[["Stimato",17.5,"17,5 mln € (\"attualmente stimato\", opuscolo maggio 2026)"],["Stanziato",9.3771,"9,38 mln € disponibili ad aprile 2026"],["Pagato",null,"Quanto è stato speso in tutto non si sa","non si sa"]],
   "pip-statte":[["Stimato",124.074,"124,07 mln €: costo del nuovo intervento nell'Accordo per la Coesione (novembre 2025)"],["Stanziato",89.9,"89,9 mln € assegnati dal Fondo sviluppo e coesione 2021-2027 (delibera CIPESS 51/2025)"],["Pagato",null,"Quanto è stato speso in tutto non si sa (sul nuovo intervento 0 € al 30/06/2026)","non si sa"]],
   "scuole-tamburi-aree-verdi":[["Stimato",0.165,"165.000 €: costo di analisi e analisi di rischio per le tre scuole","0,17"],["Stanziato",null,"Il fondo di 8 mln € del Ministero copre tutti i suoli del quartiere Tamburi, non solo queste scuole","vedi nota"],["Pagato",0.0497,"49.709,97 € pagati a dicembre 2018; costo finale non si sa","0,05"]],
   "atleti-azzurri-tamburi":[["Stimato",null,"Il costo di una bonifica non esiste ancora: prima servono analisi e analisi di rischio","non c'è"],["Stanziato",0.0869,"86.876,20 € dal Commissario per le analisi (3/10/2025)","0,09"],["Pagato",null,"Non si sa se anticipo o saldo siano stati pagati","non si sa"]],
-  "mar-piccolo-mercato-ittico":[["Stimato",2.5123,"2,51 mln €: base d'asta della gara (2019)"],["Stanziato",null,"Pagato con i fondi del programma \"sedimenti del Mar Piccolo\" da 55 mln €, non solo per questo lavoro","vedi nota"],["Pagato",2.4288,"2,43 mln € IVA esclusa, saldo pagato il 12/09/2022; l'impresa chiede altri 0,96 mln € in tribunale"]],
-  "mar-piccolo-rifiuti-lotto2":[["Stimato",4.7,"4,7 mln € stimati nella lista della Regione (2024), dentro i 429,7 mln € del Mar Piccolo 1° seno"],["Stanziato",null,"Soldi disponibili e certi: non si sa","non si sa"],["Pagato",0,"Nulla risulta speso","0"]],
   "mar-piccolo-area-170":[["Stimato",33.5,"Circa 33,5 mln € nel documento di proposta della Regione (dicembre 2025)"],["Stanziato",null,"Nessun finanziamento approvato trovato","nessuno"],["Pagato",null,"Speso per l'Area 170 ha: non si sa","non si sa"]],
-  "filiere-verdi":[["Stimato",null,"La scheda non dà un costo stimato diverso dai fondi","—"],["Stanziato",22.976,"22,98 mln € ammessi per la parte a terra (marzo 2026); la parte a mare è scesa a 3,06 mln € (giugno 2026)"],["Pagato",null,"La scheda non indica pagamenti","—"]],
-  "sea-hub":[["Stimato",13.2036,"13,20 mln €: fabbisogno stimato dal Commissario per l'Arco Nord"],["Stanziato",null,"Solo fabbisogni stimati, non un contributo già ammesso","non ancora"],["Pagato",null,"Nessun lavoro fatto sull'Arco Nord","—"]],
-  "falda-galeso":[["Stimato",25.2,"25,2 mln € stimati dalla Regione: 5,2 per questo progetto + 20 per il resto della falda del SIN (2024)"],["Stanziato",1.3947,"1,39 mln €, solo per la progettazione (accordo di programma 2021)"],["Pagato",null,"Pagati a Sogesid un acconto del 20% e almeno un'altra rata: importi non pubblicati","non si sa"]],
-  "praia-a-mare":[["Stimato",5.5,"5,5 mln € stimati dalla Regione per bonifica (5) e completamento delle analisi (0,5)"],["Stanziato",0.183,"183.000 € previsti per la messa in sicurezza provvisoria e la rimozione dell'amianto (OpenCUP)","0,18"],["Pagato",null,"Saldo dei lavori pagato, ma l'importo non è pubblicato","non si sa"]],
-  "aree-mai-analizzate":[["Stimato",15.6,"15,6 mln € stimati dalla Regione per analizzare le 8 aree (2024)"],["Stanziato",0.5,"0,5 mln € solo per il terreno vicino al depuratore Gennarini (accordo di programma 2021)"],["Pagato",null,"Speso finora: non si sa","non si sa"]],
   "land-a":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",2.16,"2,16 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.02,"0,02 mln € pagati secondo Ilva (luglio 2022); dopo il 2022 non si sa","0,02"]],
   "land-d1":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",2.30,"2,30 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.09,"0,09 mln € pagati secondo Ilva (luglio 2022)","0,09"]],
   "discarica-due-mari":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",5.05,"5,05 mln € di fondi previsti secondo Ilva (luglio 2022)"],["Pagato",5.39,"5,39 mln € pagati secondo Ilva (luglio 2022)"]],
@@ -238,6 +206,6 @@ function coverZoom(m, from){
   for (let z = Math.max(11, from); z < 14; z++) if (m.getBoundsZoom(tileBounds(z), true) <= z) return z;
   return 14;
 }
-const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${p.code[0]} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
+const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${GRUPPO[p.code]} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
 const fmtMln = v => v.toLocaleString("it-IT",{minimumFractionDigits:1,maximumFractionDigits:2});
 const STATO = Object.fromEntries(STATI.map(s => [s[0], {label:s[1], color:s[2]}]));

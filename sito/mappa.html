@@ -28,9 +28,8 @@
       <p id="intro">Tocca un pallino per leggere il report. Blu: <b class="n-ok">22</b> verificati fonte per fonte. Grigi: ancora da verificare.</p>
       <div class="filters" role="group" aria-label="Filtri">
         <button type="button" class="chip" data-g="" aria-pressed="true">Tutti</button>
-        <button type="button" class="chip" data-g="A" aria-pressed="false">Ilva (A)</button>
-        <button type="button" class="chip" data-g="B" aria-pressed="false">Commissario (B)</button>
-        <button type="button" class="chip" data-g="C" aria-pressed="false">Altri (C)</button>
+        <button type="button" class="chip" data-g="A" aria-pressed="false">Aree di Ilva (A)</button>
+        <button type="button" class="chip" data-g="B" aria-pressed="false">Ricadute (B)</button>
         <button type="button" class="chip" data-v="ok" aria-pressed="false" id="chip-ok">✔ Solo verificati</button>
       </div>
       <input id="q" class="search" type="search" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un intervento">
@@ -41,7 +40,7 @@
   <button type="button" class="paneltoggle" id="panel-open">☰ Elenco e filtri</button>
 
   <div class="legend-map" aria-hidden="true">
-    <span><span class="pin ok gA">A</span> Ilva &nbsp;<span class="pin ok gB">B</span> Commissario &nbsp;<span class="pin ok gC">C</span> altri responsabili</span>
+    <span><span class="pin ok gA">A</span> aree di Ilva &nbsp;<span class="pin ok gB">B</span> ricadute fuori dalla fabbrica</span>
     <span id="lg-todo"><span class="pin">A1</span> da verificare</span>
     <span><span class="pin ok gA exact">A9</span> bordo pieno: posizione da documento ufficiale</span>
   </div>
@@ -81,7 +80,7 @@ function pvHtml(p){
       ${s ? `<span class="vd">${esc(s.verdict)}</span>` : ""}
     </div>
     <div class="body">
-      <span class="grp">${GRP_SHORT[p.code] || GRP_SHORT[p.code[0]]}</span>
+      <span class="grp">${grpLabel(p.code, true)}</span>
       <span class="nm">${esc(p.name)}</span>
       ${s ? "" : `<span class="st">${esc(row[2])}</span>`}
       <span class="pos">${esc(posShort(p))}${p.official ? "" : " · " + esc(p.zone.split(" (")[0].replace(/^Zona generica: /,"zona generica: "))}</span>
@@ -107,7 +106,7 @@ function select(code, opts={}){
   // telefono: l'elenco copre la mappa, quindi si chiude e non si scorre (scorrerlo lo riporterebbe in vista)
   if (isNarrow()) { if (panelOpen()) setPanel(false); }
   else if (opts.scroll && li) li.scrollIntoView({block:"nearest", behavior:"smooth"});
-  pv.className = "pv g" + p.code[0] + (p.ok ? " ok" : ""); pv.innerHTML = pvHtml(p); pv.hidden = false;
+  pv.className = "pv g" + GRUPPO[p.code] + (p.ok ? " ok" : ""); pv.innerHTML = pvHtml(p); pv.hidden = false;
   if (isNarrow()) {   // telefono: l'anteprima copre la parte bassa, il punto va centrato nello spazio sopra
     const z = Math.max(map.getZoom(), 13), pt = map.project(p.ll, z), H = map.getSize().y, avail = H - pv.offsetHeight - 90;
     pt.y += H/2 - avail/2;
@@ -170,13 +169,13 @@ function deselect(){
 const F = {g:"", v:"", q:""};
 const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
 function matches(p){
-  if (F.g && p.code[0] !== F.g) return false;
+  if (F.g && GRUPPO[p.code] !== F.g) return false;
   if (F.v === "ok" && !p.ok) return false;
   if (F.q && !norm(`${p.code} ${p.name} ${ROW[p.code][2]}`).includes(norm(F.q))) return false;
   return true;
 }
 const itemHtml = p => { const s = verified[p.code];
-  return `<li class="g${p.code[0]} ${p.ok?"ok":""}" data-code="${p.code}"><span class="dot">${p.code}</span><span class="nm">${esc(p.name)}</span><span class="vd">${s ? esc(s.verdict) : "Da verificare"}</span></li>`; };
+  return `<li class="g${GRUPPO[p.code]} ${p.ok?"ok":""}" data-code="${p.code}"><span class="dot">${p.code}</span><span class="nm">${esc(p.name)}</span><span class="vd">${s ? esc(s.verdict) : "Da verificare"}</span></li>`; };
 function renderList(){
   const shown = ORDER.filter(matches), ok = shown.filter(p => p.ok), todo = shown.filter(p => !p.ok);
   let h = "";
@@ -205,11 +204,11 @@ $("#list").addEventListener("click", e => {
 renderList();
 {
   const lk = r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : r[0]; };
-  const nonAmb = ELENCO.X.filter(g => g[0].startsWith("Nel programma")).flatMap(g => g[1]), ctx = ELENCO.X.filter(g => g[0].startsWith("Contesto")).flatMap(g => g[1]);
-  $("#fuori").innerHTML = `<ul>` +
-    `<li>${nonAmb.length} voci del Commissario che non sono opere ambientali: ${nonAmb.map(lk).join(", ")};</li>` +
-    `<li>la riduzione del SIN, che è un atto e non un intervento: ${ctx.map(lk).join(", ")};</li>` +
-    `<li>${ELENCO.C.items.length - C_OK.length} dei ${ELENCO.C.items.length} interventi del gruppo C, non ancora verificati: li aggiungiamo man mano.</li></ul>`;
+  const dv = ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0]));
+  $("#fuori").innerHTML = `<p>La mappa mostra solo le aree inquinate dall'Ilva. Non ci sono:</p><ul>` +
+    `<li>le aree inquinate da altri: raffineria, altre industrie, porto, Marina, distributori di carburante;</li>` +
+    `<li>le voci del Commissario che non riguardano l'inquinamento dell'Ilva, per esempio l'ex Cemerad, il relitto del mercato ittico, i rifiuti sul fondale del Mar Piccolo e le opere non ambientali.</li></ul>` +
+    `<p>Ci sono invece, con l'etichetta "Ricaduta da verificare", ${dv.length} aree per cui non abbiamo ancora trovato la fonte che leghi l'inquinamento all'Ilva: ${dv.map(r => verified[r[0]] ? lk(r) : `${r[0]} ${esc(r[1].replace(/\s*\([^)]*\)/g, ""))}`).join(", ")}.</p>`;
   const dlg = $("#fuori-dlg");
   $("#fuori-open").addEventListener("click", () => dlg.showModal());
   $("#fuori-close").addEventListener("click", () => dlg.close());

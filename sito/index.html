@@ -48,14 +48,13 @@
 <section class="chapter">
   <div class="wrap">
     <p class="num">02</p>
-    <h2>Chi deve ripulire</h2>
+    <h2>Cosa contiamo: le aree inquinate dall'Ilva</h2>
     <div class="who">
-      <div><b>Ilva in amministrazione straordinaria</b><p>I commissari del Governo, arrivati nel 2013, per le vecchie aree della fabbrica non passate ai nuovi gestori. Sulla mappa: <strong>gruppo A</strong>, 18 aree.</p></div>
-      <div><b>Commissario straordinario per la bonifica di Taranto</b><p>Per le zone fuori dalla fabbrica, come il Mar Piccolo e le scuole del Tamburi. Sulla mappa: <strong>gruppo B</strong>, <span class="n-b">12 interventi</span>. Altre <span class="n-x">4</span> voci del suo programma non sono opere ambientali: sono a parte (vedi sotto).</p></div>
-      <div><b>Aziende, Autorità portuale e Marina</b><p>Per i terreni e le falde delle loro aree: prima di tutto l'acciaieria in funzione, gestita da Acciaierie d'Italia, poi la raffineria Eni, altre industrie, il porto e l'Arsenale. Le pratiche le segue il Ministero dell'Ambiente. Sulla mappa: <strong>gruppo C</strong>, <span class="n-c">34 interventi</span>.</p></div>
+      <div><b>Aree di Ilva</b><p>Discariche, terreni e falde dell'Ilva. Le vecchie aree della fabbrica le gestiscono i commissari di <strong>Ilva in amministrazione straordinaria</strong>, arrivati nel 2013; lo stabilimento ancora in funzione lo gestisce <strong>Acciaierie d'Italia</strong>. Sulla mappa: <strong>gruppo A</strong>, <span class="n-a">22 interventi</span>.</p></div>
+      <div><b>Ricadute fuori dalla fabbrica</b><p>Quartiere Tamburi, Statte, Mar Piccolo: entrano solo le aree per cui una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva. Se ne occupano soprattutto il <strong>Commissario straordinario per la bonifica di Taranto</strong> e il Comune. Sulla mappa: <strong>gruppo B</strong>, <span class="n-b">14 interventi</span>.</p></div>
       <div><b>Ministero dell'Ambiente</b><p>Segue tutta la zona come un unico sito da risanare, chiamato SIN, che comprende migliaia di ettari tra terra e mare.</p></div>
     </div>
-    <p class="note"><strong>Gruppo C, lavori in corso:</strong> per ora abbiamo verificato <span class="n-c-ok">2</span> interventi, i suoli e la falda dello stabilimento di Acciaierie d'Italia, e solo quelli sono sulla mappa. Gli altri li aggiungiamo uno alla volta, man mano che li verifichiamo.</p>
+    <p class="note"><strong>Da verificare:</strong> per <span class="n-dv">9</span> aree del gruppo B, vicine all'Ilva e inquinate, non abbiamo ancora trovato la fonte ufficiale che leghi l'inquinamento all'Ilva. Restano sulla mappa con l'etichetta "Ricaduta da verificare"; se la fonte non si trova, le togliamo. Le aree inquinate da altri (raffineria, altre industrie, porto, Marina) non fanno parte di questo censimento.</p>
   </div>
 </section>
 
@@ -80,11 +79,10 @@
     <p class="num">04</p>
     <h2>Cosa abbiamo trovato finora</h2>
     <div class="bignums">
-      <div><b class="n-cens">67</b><p>interventi ambientali censiti: aree di Ilva, del Commissario e di altri responsabili (aziende, porto, Marina).</p></div>
+      <div><b class="n-cens">36</b><p>aree inquinate dall'Ilva censite: dentro la fabbrica e fuori, nel quartiere Tamburi, a Statte e nel Mar Piccolo.</p></div>
       <div class="sea"><b class="n-ok">22</b><p>verificati fonte per fonte, ognuno con il suo report.</p></div>
       <div class="alert"><b id="n-cert">0</b><p>con un certificato ufficiale di avvenuta bonifica, tra quelli verificati.</p></div>
     </div>
-    <p class="note" id="fuori"></p>
     <div class="chart">
       <h3>A che punto sono, passaggio per passaggio</h3>
       <div class="legend" id="lg-steps"></div>
@@ -109,7 +107,7 @@
       <p><strong>Aggiornamento.</strong> I dati di questo sito sono aggiornati al <span class="oggi"></span>. Ogni report riporta anche la data in cui è stato controllato l'ultima volta.</p>
     </div>
     <details class="more">
-      <summary>Altri responsabili, priorità della Regione e cose che non tornano</summary>
+      <summary>Perché un'area è nel censimento, priorità della Regione e cose che non tornano</summary>
       <div id="others-body"></div>
     </details>
     <div class="read">
@@ -155,15 +153,6 @@ document.querySelectorAll(".oggi").forEach(el => el.textContent = OGGI);
 // certificati: schede in cui il passaggio 5 (Certificazione) è "fatto"
 $("#n-cert").textContent = SCHEDE.filter(s => STEPS[s.id] && STEPS[s.id][4][0] === "done").length;
 
-/* voci del Commissario fuori dai conteggi */
-{
-  const link = r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : `${r[0]} ${esc(r[1])}`; };
-  $("#fuori").innerHTML = `<strong>Fuori dal conto.</strong> Il Commissario presenta tra i risultati del programma di bonifica anche ${NON_AMB.size} voci che non sono opere ambientali: ` +
-    ELENCO.X.filter(g => g[0].startsWith("Nel programma")).flatMap(g => g[1]).map(link).join(" · ") +
-    `. Non intervengono su terreno, acqua o fondali inquinati, quindi non le contiamo e non sono sulla mappa; i loro report restano consultabili. A parte anche ` +
-    ELENCO.X.filter(g => g[0].startsWith("Contesto")).flatMap(g => g[1]).map(link).join(" · ") + `, che non è un intervento ma un atto che cambia i confini del SIN.`;
-}
-
 /* grafico dei passaggi */
 const tip = $("#tip");
 function tipOn(el, html){
@@ -179,14 +168,15 @@ addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
   const S = SCHEDE.filter(s => STEPS[s.id]), N = S.length;
   $("#n-steps").textContent = N;
   // perché le schede del grafico sono meno degli interventi: schede con più codici e schede senza passaggi
-  const amb = SCHEDE.filter(s => !s.codes.some(c => FUORI.has(c)));
-  const multi = amb.filter(s => s.codes.length > 1), senza = amb.filter(s => !STEPS[s.id]);
+  const multi = SCHEDE.filter(s => s.codes.length > 1), senza = SCHEDE.filter(s => !STEPS[s.id]);
   const e = a => a.length === 2 ? a.join(" e ") : a.slice(0, -1).join(", ") + (a.length > 1 ? " e " : "") + a.slice(-1);
+  const nuove = ALL.filter(r => !verified[r[0]]).length;
   const why = [
+    ...(nuove ? [`${nuove} non hanno ancora una scheda verificata`] : []),
     ...multi.map(s => `${e(s.codes)} hanno un'unica scheda`),
     ...(senza.length ? [`${e(senza.map(s => `${s.code} (${s.short})`))} ${senza.length > 1 ? "non hanno" : "non ha"} passaggi perché non ${senza.length > 1 ? "sono interventi" : "è un intervento"} sul terreno`] : [])
   ];
-  if (TOTAL !== N && why.length) $("#n-steps-why").textContent = `I ${TOTAL} interventi sono ${N} schede: ${e(why)}.`;
+  if (TOTAL !== N && why.length) $("#n-steps-why").textContent = `Le schede nel grafico sono ${N} su ${TOTAL} interventi: ${e(why)}.`;
   $("#lg-steps").innerHTML = STATI.map(s => `<span><i class="sw" style="background:var(${s[2]})"></i>${s[1]}</span>`).join("");
   $("#bars-steps").innerHTML = PASSI.map(([step,sub],i) => {
     const segs = STATI.map(([k,l,v]) => {
@@ -199,15 +189,13 @@ addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
   document.querySelectorAll("#bars-steps .seg").forEach(el => tipOn(el, el.dataset.tip));
 })();
 
-/* altro: gruppo C, priorità, cose che non tornano */
+/* altro: perché un'area è nel censimento, priorità, cose che non tornano */
 $("#others-body").innerHTML = `
-  <p><strong>${ELENCO.C.title}</strong> (${ELENCO.C.count}, ${C_OK.length} verificati). ${ELENCO.C.who}</p>
-  ${ELENCO.C.subs.map(([t, rows]) => `<p><em>${esc(t)}:</em> ${rows.map(r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : `${r[0]} ${esc(r[1].replace(/\s*\([^)]*\)/g, ""))}`; }).join(" · ")}.</p>`).join("")}
-  <p>Quelli senza link non sono ancora verificati: per ora il nome viene dall'archivio del Ministero, non da una nostra scheda.</p>
-  <p><strong>Le priorità decise dalla Regione nel 2024</strong> (Delibera della Giunta regionale n. 981/2024, 23 interventi nel SIN): PIP Statte (B10), Cimitero San Brunone (B8), Mar Piccolo 1° seno (B11–B13), falda del Galeso (B18), Praia a Mare (B19) e le aree mai analizzate (B20) hanno già il loro report; ex Yard Belleli, dragaggio e aree libere del porto, terrapieno del canale di scarico ex Ilva sono nel gruppo C (C26–C30), ancora da verificare.</p>
+  <p><strong>Perché il Mar Piccolo è nel censimento.</strong> La Commissione parlamentare sui rifiuti (relazione su Ilva-Taranto, settembre 2022) riporta che il processo "Ambiente Svenduto" ha dimostrato che l'inquinamento del primo seno del Mar Piccolo è dovuto all'attività dell'Ilva, attraverso il canale di scarico; la stessa relazione aggiunge che ci sono anche altre fonti, l'Arsenale militare e i cantieri. Contiamo solo gli interventi sui fondali inquinati: il relitto del mercato ittico e i rifiuti tolti dal fondale non riguardano l'inquinamento dell'Ilva.</p>
+  <p><strong>Ricadute da verificare.</strong> ${ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0])).map(r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : `${r[0]} ${esc(r[1].replace(/\s*\([^)]*\)/g, ""))}`; }).join(" · ")}: aree vicine all'Ilva e inquinate, ma finora nessuna fonte ufficiale trovata dice che l'inquinamento viene dall'Ilva.</p>
+  <p><strong>Le priorità decise dalla Regione nel 2024</strong> (Delibera della Giunta regionale n. 981/2024, 23 interventi nel SIN): tra quelle legate all'Ilva, PIP Statte (B10), Cimitero San Brunone (B8) e Mar Piccolo 1° seno (B12–B13) hanno già il loro report.</p>
   <p><strong>Cose che già non tornano</strong> (da chiarire nelle prossime schede):</p>
   <ol>
-    <li><strong>Superficie del SIN.</strong> In parte risolto: prima della riduzione del 2024 erano circa 4.383 ettari a terra e 7.006 a mare; dopo, secondo il Ministero, 4.289 a terra e 6.872 a mare (valori confermati dalla mappa ufficiale del decreto n. 449). Le cifre dell'opuscolo del Commissario (64 km² a terra e 7,3 km² a mare) non corrispondono a nessun documento ufficiale.</li>
     <li><strong>Gravina di Leucaspide.</strong> Compare sia tra le aree di Ilva (A1) sia tra i lavori del Commissario a Statte. Chi fa cosa?</li>
     <li><strong>"Concluso ma non finanziariamente".</strong> Molti interventi del Commissario sono segnati così: i lavori sono finiti ma i conti non sono chiusi.</li>
     <li><strong>Soldi spesi da Ilva e percentuale di aree bonificate.</strong> Circolano delle cifre, ma vengono da giornali o associazioni e non da fonti ufficiali: non le mostriamo finché non sono verificate.</li>
