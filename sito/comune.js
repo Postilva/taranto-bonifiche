@@ -89,6 +89,8 @@ const ZONES = {
   collinette:{ll:[40.4988,17.2280], r:0, label:"A nord del quartiere Tamburi, accanto alla scuola Deledda (la scheda dice che la Collinetta 3 è attaccata alla scuola); punto messo da noi con OpenStreetMap"},
   deledda: {ll:[40.4971,17.2292], r:0, label:"Scuola Deledda, quartiere Tamburi (punto preso da OpenStreetMap)"},
   cimitero:{ll:[40.4918,17.2202], r:0, label:"Cimitero San Brunone, quartiere Tamburi (punto preso da OpenStreetMap)"},
+  amastuola:{ll:[40.5987,17.1703], r:0, label:"Cava accanto alla Masseria Amastuola, a circa 1 km dalla Strada provinciale 42 (punto preso da OpenStreetMap, dove la cava ha come gestore \"ILVA in A.S.\"; nessun documento ufficiale trovato ne indica la posizione)"},
+  ospnord: {ll:[40.5396,17.2771], r:0, label:"Ospedale San Giuseppe Moscati, a Statte, chiamato in zona \"Ospedale Nord\" (punto preso da OpenStreetMap sull'ospedale: l'area di Ilva è lì vicino, ma non sappiamo esattamente dove)"},
   mp1:     {ll:[40.483,17.262], r:.009, label:"Mar Piccolo, 1° seno"},
   cementir:{ll:[40.4910,17.2065], r:0, label:"Dentro la cava del cementificio, tra la raffineria ENI e lo stabilimento (punto messo da noi: la discarica indicata nella mappa delle aree di Ilva del luglio 2022 si riconosce sulla foto satellitare; errore stimato sotto i 100 m)"},
   mp2:     {ll:[40.490,17.305], r:.004, label:"Mar Piccolo, 2° seno"},
@@ -98,7 +100,7 @@ const ZONES = {
   sanvito: {ll:[40.425,17.222], r:0, label:"Località Praia a Mare, quartiere San Vito (dalla scheda); punto non preciso"},
   generic: {ll:[40.515,17.245], r:.004, label:"Zona generica: area di Taranto (l'elenco non indica un luogo)"}
 };
-const PLACE = {A1:"gravina",A2:"nordovest",A3:"duemari",A4:"cementir",A5:"fanghi",A6:"limitrofe",A7:"nuovevasche",A12:"d1",A15:"collinette",B1:"cemerad",B2:"deledda",B3:"tamburi",B4:"mp1",B5:"mp1",B6:"mp1",B7:"porto",B8:"cimitero",B9:"tamburi",B10:"statte",B11:"mp1",B12:"mp1",B13:"mp1",B14:"margrande",B15:"generic",B16:"mp1",B17:"mp2",B18:"galeso",B19:"sanvito",B20:"generic",C1:"acciaieria",C2:"acciaieria"};
+const PLACE = {A1:"gravina",A2:"nordovest",A3:"duemari",A4:"cementir",A5:"fanghi",A6:"limitrofe",A7:"nuovevasche",A12:"d1",A14:"amastuola",A15:"collinette",A18:"ospnord",B1:"cemerad",B2:"deledda",B3:"tamburi",B4:"mp1",B5:"mp1",B6:"mp1",B7:"porto",B8:"cimitero",B9:"tamburi",B10:"statte",B11:"mp1",B12:"mp1",B13:"mp1",B14:"margrande",B15:"generic",B16:"mp1",B17:"mp2",B18:"galeso",B19:"sanvito",B20:"generic",C1:"acciaieria",C2:"acciaieria"};
 function pointsFor(){
   const all = ALL;
   const byZone = {};
