@@ -69,12 +69,20 @@ const GRP_SHORT = {A:"Gruppo A · Ilva", B:"Gruppo B · Commissario", C:"Gruppo 
 /* Posizioni "da documento ufficiale": solo se la scheda riporta le coordinate di un documento (riga **Coordinate**,
    lette da costruisci.py e convertite in gradi). Tutte le altre sono INDICATIVE: messe a mano nella zona
    nominata dall'elenco o dalla scheda. */
+// aree di Ilva senza coordinate ufficiali: punto ricavato dalla mappa delle 18 aree (Ilva per l'Osservatorio, luglio 2022, pag. 1),
+// riportata sulla carta con le coordinate ufficiali di 7 aree (A8–A11, A13, A16, A17) e di due discariche riconoscibili sulla foto satellitare
+const MAPPA22 = "punto ricavato da noi dalla mappa delle aree di Ilva del luglio 2022, riportata sulla carta con le coordinate ufficiali di 7 aree: errore stimato 100–200 m";
 const ZONES = {
   acciaieria:{ll:[40.513,17.196], r:.006, label:"Stabilimento siderurgico (circa 1.050 ettari dentro il SIN): la scheda riguarda tutta l'area, il punto è solo indicativo"},
   plant:   {ll:[40.507,17.190], r:.019, label:"Zona generica: stabilimento ex Ilva (l'elenco non indica dove si trova l'area)"},
   statte:  {ll:[40.553,17.205], r:.004, label:"Statte (luogo citato nel nome o nella scheda)"},
-  gravina: {ll:[40.538,17.188], r:.003, label:"Gravina di Leucaspide, tra lo stabilimento e Statte"},
-  nordovest:{ll:[40.527,17.180], r:0, label:"Confine nord della fabbrica, a Statte, vicino alla Gravina di Leucaspide (dalla scheda)"},
+  gravina: {ll:[40.5454,17.1951], r:0, label:`Gravina di Leucaspide, tra lo stabilimento e Statte (${MAPPA22}; l'area è una striscia lunga circa 3 km lungo la gravina, il punto ne indica la parte centrale)`},
+  nordovest:{ll:[40.5502,17.1954], r:0, label:`Confine nord della fabbrica, a Statte, accanto alla Gravina di Leucaspide (${MAPPA22})`},
+  duemari: {ll:[40.5294,17.2092], r:0, label:`Ex cava Due Mari, a est della cava Mater Gratiae (${MAPPA22})`},
+  fanghi:  {ll:[40.5264,17.2050], r:0, label:`Comune di Statte, vicino alla Strada provinciale 48 Taranto–Statte, a sud della cava Mater Gratiae (${MAPPA22})`},
+  limitrofe:{ll:[40.5265,17.2011], r:0, label:`Accanto allo stoccaggio fanghi, a sud della cava Mater Gratiae (${MAPPA22})`},
+  nuovevasche:{ll:[40.5290,17.2030], r:0, label:"Zona della cava Mater Gratiae, a sud-est della cava (punto messo da noi: la discarica indicata nella mappa delle aree di Ilva del luglio 2022 si riconosce sulla foto satellitare; errore stimato sotto i 100 m)"},
+  d1:      {ll:[40.5044,17.1963], r:0, label:`Appena fuori dalla fabbrica, sul lato sud-ovest, accanto a Land D2 (${MAPPA22})`},
   cemerad: {ll:[40.558,17.215], r:0, label:"Statte, località Vocchiaro (dalla scheda); punto non preciso"},
   tamburi: {ll:[40.4905,17.2285], r:.003, label:"Quartiere Tamburi"},
   // punti presi da OpenStreetMap (non da documenti ufficiali): restano "posizione indicativa"
@@ -82,8 +90,7 @@ const ZONES = {
   deledda: {ll:[40.4971,17.2292], r:0, label:"Scuola Deledda, quartiere Tamburi (punto preso da OpenStreetMap)"},
   cimitero:{ll:[40.4918,17.2202], r:0, label:"Cimitero San Brunone, quartiere Tamburi (punto preso da OpenStreetMap)"},
   mp1:     {ll:[40.483,17.262], r:.009, label:"Mar Piccolo, 1° seno"},
-  cementir:{ll:[40.4895,17.1875], r:0, label:"Vicino alla raffineria ENI (dalla scheda); punto non preciso"},
-  sp48:    {ll:[40.536,17.203], r:.002, label:"Comune di Statte, vicino alla Strada provinciale 48 Taranto–Statte (dalla scheda); punto non preciso"},
+  cementir:{ll:[40.4910,17.2065], r:0, label:"Dentro la cava del cementificio, tra la raffineria ENI e lo stabilimento (punto messo da noi: la discarica indicata nella mappa delle aree di Ilva del luglio 2022 si riconosce sulla foto satellitare; errore stimato sotto i 100 m)"},
   mp2:     {ll:[40.490,17.305], r:.004, label:"Mar Piccolo, 2° seno"},
   porto:   {ll:[40.465,17.180], r:.003, label:"Porto di Taranto"},
   margrande:{ll:[40.452,17.205], r:0, label:"Mar Grande"},
@@ -91,7 +98,7 @@ const ZONES = {
   sanvito: {ll:[40.425,17.222], r:0, label:"Località Praia a Mare, quartiere San Vito (dalla scheda); punto non preciso"},
   generic: {ll:[40.515,17.245], r:.004, label:"Zona generica: area di Taranto (l'elenco non indica un luogo)"}
 };
-const PLACE = {A1:"gravina",A2:"nordovest",A4:"cementir",A5:"sp48",A6:"sp48",A15:"collinette",B1:"cemerad",B2:"deledda",B3:"tamburi",B4:"mp1",B5:"mp1",B6:"mp1",B7:"porto",B8:"cimitero",B9:"tamburi",B10:"statte",B11:"mp1",B12:"mp1",B13:"mp1",B14:"margrande",B15:"generic",B16:"mp1",B17:"mp2",B18:"galeso",B19:"sanvito",B20:"generic",C1:"acciaieria",C2:"acciaieria"};
+const PLACE = {A1:"gravina",A2:"nordovest",A3:"duemari",A4:"cementir",A5:"fanghi",A6:"limitrofe",A7:"nuovevasche",A12:"d1",A15:"collinette",B1:"cemerad",B2:"deledda",B3:"tamburi",B4:"mp1",B5:"mp1",B6:"mp1",B7:"porto",B8:"cimitero",B9:"tamburi",B10:"statte",B11:"mp1",B12:"mp1",B13:"mp1",B14:"margrande",B15:"generic",B16:"mp1",B17:"mp2",B18:"galeso",B19:"sanvito",B20:"generic",C1:"acciaieria",C2:"acciaieria"};
 function pointsFor(){
   const all = ALL;
   const byZone = {};
