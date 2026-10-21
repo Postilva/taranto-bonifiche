@@ -232,7 +232,9 @@ td.num{text-align:right;font-family:var(--f-mono);font-size:.85rem;white-space:n
 .leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}
 .leaflet-container{overflow:hidden;-webkit-tap-highlight-color:transparent;font:inherit;outline-offset:1px}
 .leaflet-container img.leaflet-tile,.leaflet-container .leaflet-overlay-pane svg{max-width:none!important;max-height:none!important}
-.leaflet-tile{user-select:none;visibility:hidden;mix-blend-mode:plus-lighter}.leaflet-tile-loaded{visibility:inherit}
+.leaflet-tile{user-select:none;visibility:hidden}.leaflet-tile-loaded{visibility:inherit}
+/* zoom a quarti: i tile ridimensionati lasciano fessure di 1 px; mezzo pixel in più (con fusione normale) le copre */
+.leaflet-container img.leaflet-tile{width:256.5px!important;height:256.5px!important}
 .leaflet-container.leaflet-touch-zoom{touch-action:pan-x pan-y}
 .leaflet-container.leaflet-touch-drag{touch-action:pinch-zoom}
 .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{touch-action:none}

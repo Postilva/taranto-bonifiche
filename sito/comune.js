@@ -208,9 +208,9 @@ function addTiles(m){
   m.whenReady(lock);
   return L.tileLayer("tiles/{z}/{x}/{y}.png", {minZoom:11, maxZoom:14, bounds:TILE_BOUNDS, attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(m);
 }
-// zoom più lontano (tra minimo e 14) al quale la finestra della mappa sta tutta dentro la zona coperta dai tile
+// zoom più lontano (tra minimo e 14, a passi di 0,25) al quale la finestra della mappa sta tutta dentro la zona coperta dai tile
 function coverZoom(m, from){
-  for (let z = Math.max(11, from); z < 14; z++) if (m.getBoundsZoom(tileBounds(z), true) <= z) return z;
+  for (let z = Math.max(11, from); z < 14; z += .25) if (m.getBoundsZoom(tileBounds(z), true) <= z) return z;
   return 14;
 }
 const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${GRUPPO[p.code]} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
