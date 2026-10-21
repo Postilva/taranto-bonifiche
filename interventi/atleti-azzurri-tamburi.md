@@ -1,8 +1,8 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
-*Stato scheda: approvata — aggiornata al 20 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 21 ottobre 2026*
 
 ## In breve
-Il Comune ha comunicato agli enti l'inquinamento il 13 maggio 2024 [3]. **Il sito non è bonificato né messo in sicurezza**: nell'ottobre 2025 il Commissario ha dato 86.876,20 € al Comune solo per fare le analisi complete e l'analisi di rischio, e nel maggio 2026 l'opuscolo del Commissario dice che i prelievi sono iniziati [1][2]. A gennaio 2026 il Responsabile del CIS aveva annunciato la fine delle analisi "entro il prossimo marzo" e subito dopo la messa in sicurezza permanente [9]; a fine giugno 2026 il Commissario le descrive ancora "in via di completamento" [10]. Nessun risultato è pubblico.
+Il Comune ha comunicato agli enti l'inquinamento il 13 maggio 2024 e subito dopo ha fatto recintare il campo con lavori di somma urgenza [3][14]. **Il sito non è bonificato né messo in sicurezza**: nell'ottobre 2025 il Commissario ha dato 86.876,20 € al Comune solo per fare le analisi complete e l'analisi di rischio, e ha annunciato la consegna del cantiere per i prelievi il 20 ottobre 2025 [2][13]. A gennaio 2026 il Responsabile del CIS aveva annunciato la fine delle analisi "entro il prossimo marzo" e subito dopo la messa in sicurezza permanente [9]; a fine giugno 2026 il Commissario le descrive ancora "in via di completamento" [10]. A ottobre 2026 alcuni giornali scrivono che la Regione ha chiesto agli enti un parere sull'analisi di rischio entro il 28 ottobre, ma l'atto ufficiale non l'abbiamo trovato: non verificato. Nessun risultato è pubblico.
 
 ## Che posto è
 L'impianto sportivo comunale "Atleti Azzurri d'Italia", nel quartiere Tamburi, che il Comune di Taranto vuole rifare con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3].
@@ -18,13 +18,15 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 - Il controllo sulla bonifica spetta a **Provincia di Taranto e ARPA** [3].
 - Il **Responsabile unico del CIS Taranto** (nominato con DPCM 10 aprile 2025) ha chiesto al Commissario di aiutare il Comune [2].
 - Il **Ministero dell'Ambiente (MASE)** ha dato il nulla osta a usare i suoi fondi per questo scopo (nota del 24/09/2025) [2].
+- La società **Apogeo S.r.l.** di Altamura ha fatto per il Comune le indagini preliminari sulle strutture e ha avuto l'incarico di fare prelievi e analisi del terreno (affidamento diretto, CIG B814D04423) [14].
 
 ## Cosa è stato fatto
 **Né bonificato né messo in sicurezza. Nessun certificato.** Finora ci sono solo analisi preliminari, un piano di analisi approvato e un finanziamento per eseguirlo [1][2][3].
 
 **Chi ha trovato piombo e IPA, e quando**
-- Li ha trovati il Comune di Taranto, durante le "indagini preliminari per la valutazione dello stato delle strutture", cioè studi fatti per il progetto di riqualificazione dell'impianto: ha misurato il superamento dei limiti (CSC) nel suolo per piombo e IPA [3].
+- Li ha trovati il Comune di Taranto, durante le "indagini preliminari per la valutazione dello stato delle strutture", cioè studi fatti per il progetto di riqualificazione dell'impianto: ha misurato il superamento dei limiti (CSC) nel suolo per piombo e IPA [3]. Il Comune aveva affidato queste indagini ad Apogeo S.r.l. (CIG ZE13843B09) [14].
 - Ha avvisato gli enti competenti con la nota n. 6183/2024 del 13 maggio 2024 [3]. La data delle analisi, il laboratorio e i valori misurati non sono scritti nell'atto: non verificato [3].
+- Dopo un verbale di somma urgenza del 20 maggio 2024 il Comune ha fatto costruire una "recinzione temporanea del sedime del campo Atleti Azzurri d'Italia potenzialmente contaminato" (ditta A.D. S.r.l.s., 55.000 € IVA compresa, fattura del 9 agosto 2024) [14].
 - L'opuscolo del Commissario aggiunge che nel terreno c'è un riporto "storico" di loppa e calcarenite (scorie di altoforno e roccia calcarea) spesso da 1 a oltre 2 metri, e cumuli di rifiuti [1]. L'opuscolo scrive "sottosuolo", la determinazione regionale scrive "suolo" [1][3].
 
 **Il piano delle analisi (piano di caratterizzazione)**
@@ -40,7 +42,8 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 - Il 20 giugno 2025, in Prefettura a Taranto, il Comune ha detto di aver bisogno di soldi per intervenire sul suolo dell'impianto e il Responsabile del CIS ha invitato il Commissario ad aiutarlo [2].
 - Il decreto commissariale n. 23 del 3 ottobre 2025 concede e impegna 86.876,20 € al Comune di Taranto per eseguire il piano e fare l'analisi di rischio [2][7].
 - I soldi vengono dalle economie (242.873,13 € in tutto) dell'intervento "Riqualificazione delle aree esterne alle scuole del quartiere Tamburi", finanziato con fondi del Ministero dell'Ambiente del 2012 [2].
-- Il decreto scrive che la gara del Comune per il servizio era "in fase di aggiudicazione" e che 86.876,20 € è il costo con IVA [2].
+- Il decreto scrive che la gara del Comune per il servizio era "in fase di aggiudicazione" e che 86.876,20 € è il costo con IVA [2]. Il Comune ha poi affidato direttamente "prelievo ed analisi campioni di terreno per caratterizzazione" ad Apogeo S.r.l. (CIG B814D04423, CUP E59D25000260001) e ha accertato e impegnato le somme del decreto n. 23 [14]. Dal portale del Comune si leggono solo i titoli degli atti, non le date né gli importi [14].
+- Il 17 ottobre 2025 il Commissario ha annunciato la consegna del cantiere per lunedì 20 ottobre 2025, con il Responsabile del CIS, la Subcommissaria Annamaria Basile e il Vicesindaco [13].
 - Il 30 gennaio 2026, al vertice in Prefettura, il Responsabile del CIS ha detto che "la fase di caratterizzazione giungerà a compimento entro il prossimo marzo, prefigurando l'immediato avvio degli interventi di messa in sicurezza permanente" [9].
 - L'opuscolo di maggio 2026 dice che "i campionamenti per la caratterizzazione sono già iniziati" [1]. Non dice la data di inizio [1].
 - La pagina del Commissario sulla collaborazione con il Comune (aggiornata a fine giugno 2026) descrive la caratterizzazione dell'impianto, "Q.re Tamburi Via Deledda", come "in via di completamento e propedeutica alla successiva attività di bonifica" [10]. Quindi la scadenza di marzo annunciata dal Responsabile del CIS non è stata rispettata [9][10].
@@ -52,13 +55,14 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 - OpenCoesione (dati al 30 giugno 2026) mette il Lotto 1 in fase di "progettazione definitiva", con fine prevista al 31/12/2025, senza lavori iniziati [4].
 
 ## Chi usava l'impianto e misure di protezione
-- La determinazione regionale parla dello "stato attuale di interdizione cautelativa del sito", cioè il sito oggi non si può usare [3]. Non dice chi l'ha deciso né da quando: non verificato.
+- La determinazione regionale parla dello "stato attuale di interdizione cautelativa del sito", cioè il sito oggi non si può usare [3]. Non dice chi l'ha deciso né da quando. Dal portale del Comune risulta la recinzione del campo "potenzialmente contaminato" dopo il verbale di somma urgenza del 20 maggio 2024 [14]; l'atto che lo chiude al pubblico non l'abbiamo letto: non verificato.
 - Non ho trovato nessun atto ufficiale che dica se prima della chiusura lo usassero persone o bambini, né da quanto tempo non è usato: non verificato.
 - Non ho trovato atti sulla salute di chi ha frequentato il campo: non verificato.
 
 ## Soldi
 - **Soldi per le analisi:** 86.876,20 € IVA compresa, concessi e impegnati il 3 ottobre 2025 [2].
 - **Come verranno pagati:** il 40% come anticipo, dopo la firma del contratto del Comune con la ditta e l'inizio vero del servizio; il 60% a saldo, dopo la rendicontazione [2]. Negli elenchi dei decreti del Commissario non c'è nessun pagamento al Comune per questo intervento: dopo il decreto n. 23 del 3 ottobre 2025 non ci sono altri decreti sul quartiere Tamburi fino al n. 54 del 2 ottobre 2026, a parte quello sulla ventilazione delle scuole [7][8]. Quindi, al 2 ottobre 2026, **né l'anticipo né il saldo risultano pagati** con un decreto pubblicato.
+- **Recinzione del campo (2024):** 55.000 € IVA compresa, pagati dal Comune alla ditta A.D. S.r.l.s. con fondi del Lotto 1 (stesso CUP) [14].
 - **Soldi per la riqualificazione (CIS Taranto, Lotto 1):** 3.359.060,32 € di fondi FSC (Fondo sviluppo e coesione), impegnati il 22/03/2022; pagati finora 81.202,06 € [4].
 - **Lotto 2** dello stesso sottoprogetto, intitolato "Completamento struttura Marcatale" (scritto così): 1.640.939,68 € di fondi FSC, impegnati il 19/01/2022; pagati 98.655,35 € [5]. Lotto 1 e Lotto 2 sommati fanno 5.000.000 € (calcolo mio) [4][5]. Se il Lotto 2 riguardi questo impianto: non verificato.
 - **Costo della bonifica o messa in sicurezza:** non esiste, perché prima servono le analisi e l'analisi di rischio. La determinazione regionale parla di bonifica solo come "eventuale" [3].
@@ -67,6 +71,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 | Data | Cosa succede | Fonte |
 |---|---|---|
 | 13 maggio 2024 | Il Comune comunica agli enti il superamento dei limiti per piombo e IPA | [3] |
+| 20 maggio 2024 | Verbale di somma urgenza: il Comune fa recintare il campo | [14] |
 | 12 luglio 2024 | Il Comune manda il piano delle analisi alla Regione | [3] |
 | 18 ottobre 2024 | ARPA: piano non accettabile così com'è | [3] |
 | 20 giugno 2025 | Riunione del CIS in Prefettura: il Comune chiede aiuto per i soldi | [2] |
@@ -75,6 +80,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 | 15 luglio 2025 | Il Commissario dà la disponibilità a trovare i fondi (nota COMMTA-314) | [2] |
 | 24 settembre 2025 | Nulla osta del Ministero dell'Ambiente | [2] |
 | 3 ottobre 2025 | Decreto commissariale n. 23: 86.876,20 € al Comune | [2][7] |
+| 20 ottobre 2025 | Consegna del cantiere per i prelievi (annunciata dal Commissario il 17 ottobre) | [13] |
 | 30 gennaio 2026 | Vertice in Prefettura: il Responsabile del CIS annuncia la fine delle analisi entro marzo 2026 | [9] |
 | maggio 2026 | L'opuscolo dice che i campionamenti sono iniziati | [1] |
 | fine giugno 2026 | Il Commissario scrive che le analisi sono "in via di completamento" | [10] |
@@ -105,11 +111,15 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 
 [12] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale sulla situazione delle bonifiche e della gestione dei rifiuti presso gli impianti ex Ilva-Taranto e nelle aree contermini* (Doc. XXIII n. 33, XVIII legislatura), settembre 2022, pag. 67, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
 
+[13] Commissario straordinario per la bonifica di Taranto, *Comunicato stampa "Tamburi: Via ai Lavori per la caratterizzazione ai fini della bonifica dell'impianto sportivo 'Atleti Azzurri d'Italia', con il CIS Taranto"*, 17 ottobre 2025, https://commissari.gov.it/media/oinp0na3/comunicato-stampa-tamburi.pdf — copia in `fonti/2025-10_commissario-taranto_comunicato-consegna-cantiere-caratterizzazione-atleti-azzurri.pdf`
+
+[14] Comune di Taranto, portale trasparenza degli atti (https://taranto.trasparenza-valutazione-merito.it), ricerche "Atleti Azzurri", "B814D04423" e "E53B19000020001" del 21 ottobre 2026: titoli degli atti sulla recinzione di somma urgenza del campo (CIG B1FAAF75E0: presa d'atto del verbale del 20/05/2024 e liquidazione della fattura n. 06/2024 del 09/08/2024, 55.000 € IVA compresa), sulle indagini preliminari (CIG ZE13843B09, aggiudicazione ad Apogeo S.r.l.) e sul prelievo e analisi dei campioni di terreno (CIG B814D04423, CUP E59D25000260001: affidamento diretto ad Apogeo S.r.l., impegno e accertamento dopo il decreto commissariale n. 23/2025). Dal portale si leggono solo i titoli.
+
 ## Cosa non sappiamo
 1. **Che cosa c'è esattamente nel terreno.** Sappiamo solo che piombo e IPA superano i limiti [3]. Non abbiamo né i valori, né le profondità, né la data delle analisi di maggio 2024 o prima [3]. Non verificato.
 2. **Da quanto tempo si sa.** La prima data certa è il 13 maggio 2024 [3]. Non sappiamo se ci fossero analisi più vecchie. Non verificato.
-3. **Se l'impianto era usato da persone o bambini, e quando è stato chiuso.** L'unico dato ufficiale è che oggi è in "interdizione cautelativa" [3]. L'atto di chiusura (chi, quando, perché) non l'ho trovato. Alcuni giornali scrivono che il campo era chiuso da tempo per altri motivi e che i ragazzi vi giocavano: **non verificato**.
-4. **A che punto sono le analisi.** L'opuscolo dice che sono iniziate [1] ma non quando. Dovevano finire entro marzo 2026 [9], a fine giugno erano "in via di completamento" [10], e non c'è ancora nessun risultato pubblico. Non sappiamo chi ha vinto la gara del Comune [2]; l'anticipo, al 2 ottobre 2026, non risulta pagato [8].
+3. **Se l'impianto era usato da persone o bambini, e quando è stato chiuso.** I dati ufficiali sono che oggi è in "interdizione cautelativa" [3] e che il Comune l'ha fatto recintare dopo il 20 maggio 2024 [14]. L'atto di chiusura (chi, quando, perché) non l'ho trovato. Alcuni giornali scrivono che il campo era chiuso da tempo per altri motivi e che i ragazzi vi giocavano; uno (TarantoTV, ottobre 2025) scrive che fu costruito dall'Italsider negli anni '70 e che è fermo dal 2008: **non verificato**.
+4. **A che punto sono le analisi.** Il cantiere per i prelievi doveva essere consegnato il 20 ottobre 2025 ad Apogeo S.r.l. [13][14]. Le analisi dovevano finire entro marzo 2026 [9], a fine giugno erano "in via di completamento" [10], e non c'è ancora nessun risultato pubblico. L'anticipo, al 2 ottobre 2026, non risulta pagato [8]. Secondo il Corriere di Taranto (11/10/2026) e altri giornali locali, ARPA ha validato l'esecuzione del piano delle analisi, il Comune ha mandato l'analisi di rischio e la Regione ha convocato una conferenza di servizi "semplificata e asincrona" (pareri scritti, senza riunione) con termine il 28 ottobre 2026. La convocazione della Regione e la validazione di ARPA non sono pubblicate e non le abbiamo trovate: **non verificato**. Se la conferenza si chiude, la Regione dovrebbe approvare l'analisi di rischio con una determinazione, che di solito compare nel registro dei provvedimenti dei dirigenti (come la n. 146/2025 [3]).
 5. **Date che non tornano.** L'opuscolo e la pagina sul CIS datano il decreto commissariale al 2 ottobre 2025 [1][11], ma il decreto e l'elenco ufficiale dicono 3 ottobre 2025 [2][7]. Nella determinazione regionale la conferenza dei servizi risulta convocata una volta il 9 giugno 2025 e una volta il 24 marzo 2025 [3]. Sono probabilmente errori di scrittura, ma non lo so con certezza.
 6. **La superficie.** Il Commissario scrive circa 70.000 m² per le analisi e 150.200 m² per il progetto di demolizione e ricostruzione [1][11]. Nessun atto (decreto, determinazione) indica la superficie della particella 502: il dato viene solo dalle pagine informative del Commissario.
 7. **Gli atti del Comune di Taranto sul progetto di demolizione e ricostruzione.** Non ho trovato le delibere o le determine sul sito del Comune; quello che so del progetto viene dagli atti del Commissario e della Regione [1][2][3]. Sulle notizie dei giornali (approvazione del progetto definitivo, costi): non verificato.

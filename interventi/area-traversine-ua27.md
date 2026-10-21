@@ -82,5 +82,5 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 
 Ricerca online del 20 ottobre 2026 (UA27, "area traversine", creosoto Ilva Statte, anagrafe regionale, portale delle valutazioni ambientali del Ministero): trovati solo i documenti elencati sopra. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+### Bozza di richiesta di accesso civico (FOIA) — pronta come FOIA 63 alla Regione (PEC da inviare, `.tmp/foia/invio/pec-sesto-giro/`)
 È la stessa richiesta della scheda D16: una sola richiesta alla Regione Puglia per le due aree.

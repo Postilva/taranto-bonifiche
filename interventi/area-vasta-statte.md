@@ -83,7 +83,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 
 Ricerca online del 20 ottobre 2026 ("area vasta di Statte", ordinanze del Comune di Statte, Provincia di Taranto e art. 244, TAR Lecce, determinazione regionale 124/2017, OpenCoesione): trovati i documenti elencati sopra. Un giornale locale (La Ringhiera, 20 ottobre 2017) riporta dalla conferenza stampa del Comune circa 400 carotaggi, 15 zone con rischio inaccettabile e arsenico, mercurio, IPA, diossine e PCB tra le sostanze trovate: dati utili per le richieste, ma senza fonte ufficiale. Non verificati. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+### Bozza di richiesta di accesso civico (FOIA) — pronte come FOIA 64 alla Provincia e FOIA 65 al Comune di Statte (PEC da inviare, `.tmp/foia/invio/pec-sesto-giro/`)
 Due richieste: una alla Provincia, che ha individuato il responsabile, e una al Comune, che ha fatto le analisi.
 
 **1. A:** Provincia di Taranto — PEC protocollo@pec.provincia.ta.it (la stessa usata per la richiesta 57).

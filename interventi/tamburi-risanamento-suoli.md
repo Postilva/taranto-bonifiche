@@ -88,7 +88,7 @@ Per ogni area la Regione indica il punto centrale ("centroide del poligono"), ne
 
 Ricerca online del 20 ottobre 2026 ("Tamburi" con SP1–SP4, sottoprogetti, certificazione di avvenuta bonifica, Provincia di Taranto, aree private; portale trasparenza del Comune e del Ministero delle Infrastrutture; OpenCUP; archivio del Ministero dell'Ambiente): trovate solo le fonti elencate sopra. Un giornale del 2010 (AmbienteAmbienti, 13 giugno 2010) parla di un'analisi di rischio su 75 ettari, di berillio sopra i limiti e di 30 cm di terreno da togliere: dati utili per le richieste, ma senza fonte ufficiale. Non verificati. La pagina ufficiale del CIS Taranto sul programma per il Tamburi (cistaranto.coesionemezzogiorno.it) non era raggiungibile il 20 ottobre 2026.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+### Bozza di richiesta di accesso civico (FOIA) — pronta come FOIA 64 alla Provincia (aree private di SP2: FOIA 63 alla Regione; PEC da inviare, `.tmp/foia/invio/pec-sesto-giro/`)
 Per le aree pubbliche, una richiesta alla Provincia (qui sotto). Per le aree private di SP2 la richiesta va alla Regione, insieme a quella sulla falda: il testo è nella scheda D6.
 
 **A:** Provincia di Taranto — PEC protocollo@pec.provincia.ta.it (la stessa usata per la richiesta 57).
