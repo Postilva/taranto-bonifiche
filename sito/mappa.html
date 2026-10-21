@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610211500">
+<link rel="stylesheet" href="stile.css?v=202610211600">
 <body class="mappa">
 
 <header class="topbar">
@@ -57,8 +57,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610211500"></script>
-<script src="comune.js?v=202610211500"></script>
+<script src="dati.js?v=202610211600"></script>
+<script src="comune.js?v=202610211600"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -134,6 +134,7 @@ function deselect(){
   // vista iniziale = tutti i punti (a destra del pannello, sopra il bottone dell'elenco sul telefono), con zoom a quarti
   // per stringerla il più possibile, ma mai così lontana da lasciare zone senza tile;
   // da lì non ci si può allontanare (lo zoom minimo diventa quello della vista iniziale)
+  let home = null;
   const fit = () => {
     map.setMinZoom(11); map.setMaxBounds(TILE_BOUNDS);
     map.fitBounds(L.latLngBounds(PTS.map(p => p.ll)), {animate:false, paddingTopLeft:[panelW() + 28, 24], paddingBottomRight:[28, isNarrow() ? 84 : 76]});
@@ -141,7 +142,16 @@ function deselect(){
     map.setMaxBounds(tileBounds(z));
     if (z !== map.getZoom()) map.setZoom(z, {animate:false});
     map.setMinZoom(z);
+    home = map.getCenter(); lockMin();
   };
+  // allo zoom minimo la mappa sta ferma sulla vista iniziale: niente trascinamento,
+  // e se si sposta (frecce della tastiera, zoom indietro con la rotella su un angolo) torna al centro
+  const lockMin = () => {
+    const atMin = map.getZoom() <= map.getMinZoom();
+    map.dragging[atMin ? "disable" : "enable"]();
+    if (atMin && home && map.latLngToContainerPoint(home).distanceTo(map.getSize().divideBy(2)) > 3) map.panTo(home, {animate:false});
+  };
+  map.on("zoomend moveend", lockMin);
   fit();
   let touched = false;
   ["mousedown","touchstart","wheel","keydown"].forEach(ev => $("#map").addEventListener(ev, () => touched = true, {passive:true}));
