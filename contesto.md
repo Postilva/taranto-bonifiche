@@ -1,5 +1,5 @@
 # Contesto — l'Ilva e il suo inquinamento
-*Stato: approvata — aggiornata al 20 ottobre 2026*
+*Stato: approvata — aggiornata al 21 ottobre 2026*
 
 Testi della homepage: la storia dello stabilimento, come inquina, com'è fatto, le parole degli inquinanti. Stesse regole delle schede: ogni frase ha la sua fonte [n], elencata in fondo. Il sito legge questo file con `sito/costruisci.py`.
 
@@ -8,9 +8,9 @@ Testi della homepage: la storia dello stabilimento, come inquina, com'è fatto, 
 **Immagine:** italsider-1964-monti.jpg
 **Immagine:** italsider-1976-acciaieria.jpg
 
-L'Ilva è l'acciaieria di Taranto. Dal 2018 lo stabilimento in funzione è passato ad ArcelorMittal, poi Acciaierie d'Italia, mentre le aree escluse dall'affitto sono rimaste a Ilva in amministrazione straordinaria [1]; dal 2024 anche Acciaierie d'Italia è in amministrazione straordinaria [3].
+L'Ilva è l'acciaieria di Taranto. Dal 2018 lo stabilimento in funzione è passato ad ArcelorMittal, poi Acciaierie d'Italia, mentre le aree escluse dall'affitto sono rimaste a Ilva in amministrazione straordinaria [1]; dal 2024 anche Acciaierie d'Italia è in amministrazione straordinaria [3]. Oggi lo stabilimento è ancora di Ilva ed è gestito da Acciaierie d'Italia [11], tutte e due guidate da commissari nominati dal Ministero, che da luglio 2024 cercano un compratore [10].
 
-Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995 e dal 2012 è al centro di sequestri, decreti e processi [1].
+Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995 e dal 2012 è al centro di sequestri, decreti e processi [1]. Nel 2026 un giudice di Milano ha ordinato di fermare l'area a caldo, la parte che produce ghisa e acciaio [11].
 
 | Quando | Cosa | Fonte |
 |---|---|---|
@@ -28,6 +28,12 @@ Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995
 | 11 dicembre 2020 | Lo Stato, attraverso Invitalia, entra nel capitale della società: nasce **Acciaierie d'Italia** | [1] |
 | 31 maggio 2021 | Processo **"Ambiente Svenduto"**: la Corte d'Assise di Taranto condanna 26 persone e dispone la confisca dell'area a caldo | [1] |
 | 20 febbraio 2024 | Anche **Acciaierie d'Italia** entra in amministrazione straordinaria | [3] |
+| 31 luglio 2024 | I commissari mettono in **vendita** gli stabilimenti di Ilva e Acciaierie d'Italia; nel 2025 arrivano più offerte, ma la vendita non si chiude | [10][11] |
+| 13 settembre 2024 | La Corte d'Assise d'Appello **annulla** la sentenza di "Ambiente Svenduto" e manda gli atti alla Procura di Potenza: il processo deve ricominciare lì | [9] |
+| 25 luglio 2025 | Nuova **AIA** per 12 anni ad Acciaierie d'Italia in amministrazione straordinaria (decreto 436/2025) | [10] |
+| 26 febbraio 2026 | Su ricorso di un gruppo di cittadini, il **Tribunale di Milano** ordina di fermare l'area a caldo dal 24 agosto 2026, a meno che l'AIA non fissi tempi certi per le opere | [11] |
+| 9 luglio 2026 | La **Corte d'Appello di Milano** ordina di fermare l'area a caldo entro 90 giorni, per l'amianto ancora presente (oltre 2.000 tonnellate) e per le polveri sottili; il decreto è pubblicato il 27 luglio | [11][12] |
+| 9 settembre 2026 | La Corte d'Appello respinge la richiesta di Ilva e Acciaierie d'Italia di sospendere l'ordine; le società hanno fatto ricorso in Cassazione | [11] |
 
 ## Come inquina
 
@@ -103,6 +109,18 @@ Nell'aria la legge chiede di controllare arsenico, cadmio, nichel e piombo [8]. 
 
 La loppa è la scoria dell'altoforno: si separa dalla ghisa liquida e si raccoglie in fondo al forno [4]. Di solito viene granulata e venduta ai cementifici, oppure usata per costruire strade [4]. A Taranto, secondo la Commissione parlamentare, nelle collinette ecologiche sono finite presumibilmente anche scorie [1].
 
+### Amianto
+
+*Parole: amianto, asbesto*
+
+Un insieme di minerali naturali fatti di fibre [13]. Resiste al fuoco, al calore e alle sostanze chimiche, per questo è stato usato in più di 3.000 prodotti: coperture e pavimenti in cemento-amianto (l'eternit), isolanti, rivestimenti di forni, tubature [13]. Le fibre respirate arrivano in fondo ai polmoni e ci restano: causano una fibrosi chiamata asbestosi e sono legate a tumori del polmone e al mesotelioma, un tumore della pleura e del peritoneo, che può comparire anche molti anni dopo [13]. In Italia la legge 257 del 1992 ne vieta dal 1994 estrazione, importazione, vendita e produzione [13]. Nello stabilimento di Taranto, secondo la Corte d'Appello di Milano, ce ne sono ancora oltre 2.000 tonnellate [11].
+
+### Idrocarburi
+
+*Parole: idrocarburi, idrocarburi pesanti, idrocarburi leggeri, idrocarburi totali*
+
+Sostanze fatte solo di carbonio e idrogeno: dalle più semplici, come il metano, ai derivati del petrolio, come oli e catrami [14]. Nei terreni la legge li divide in leggeri (C≤12) e pesanti (C>12), secondo quanti atomi di carbonio ha la molecola [14][15]. I limiti per i terreni sono di 10 mg/kg per i leggeri e 50 mg/kg per i pesanti nelle zone verdi e residenziali, di 250 e 750 mg/kg nelle zone industriali e commerciali [15]. Gli idrocarburi policiclici aromatici sono un gruppo a parte (voce IPA).
+
 ## Fonti
 
 [1] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), approvata il 15 settembre 2022, numerazione della Camera: pag. 8–13 (storia dello stabilimento), 11–12 (capacità e limite di produzione), 64–65 (collinette e polveri sul Tamburi), 68 (cimitero e ricadute dei fumi), 70–71 (PCB nei trasformatori e Gravina di Leucaspide), 78–79 (Mar Piccolo), https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
@@ -120,3 +138,17 @@ La loppa è la scoria dell'altoforno: si separa dalla ghisa liquida e si raccogl
 [7] ARPA Puglia, indicatore *Idrocarburi Policiclici Aromatici (IPA)*, aggiornato al 22 agosto 2023, https://www.arpa.puglia.it/pagina3251_idrocarburi-policiclici-aromatici-ipa.html — copia in `fonti/2023-08_arpa-puglia_indicatore-ipa.html`
 
 [8] ARPA Puglia, indicatore *Metalli pesanti*, https://www.arpa.puglia.it/pagina3252_metalli-pesanti.html — copia in `fonti/2023-08_arpa-puglia_indicatore-metalli-pesanti.html`
+
+[9] Procura Generale della Repubblica presso la Corte d'Appello di Lecce, *Inaugurazione dell'anno giudiziario 2025 — Intervento del Procuratore Generale*, Lecce, 25 gennaio 2025, pag. 167 e 174 (pag. 185 e 192 del PDF), https://pg-lecce.giustizia.it/cmsresources/cms/documents/Intervento%20relazione2025.pdf — copia in `fonti/2025-01_procura-generale-lecce_intervento-inaugurazione-anno-giudiziario-2025.pdf`
+
+[10] Camera dei deputati, Servizio Studi, *L'ex ILVA di Taranto: focus su vicende societarie, finanziamenti statali, profili ambientali e tutela occupazionale*, 3 marzo 2026 (vendita: bando del 31 luglio 2024 e offerte del 2025; AIA: decreto direttoriale 436/2025), https://temi.camera.it/leg19/temi/la-vicenda-di-ilva-s-p-a.html — copia in `fonti/2026-03_camera_dossier-vicenda-ex-ilva.html`
+
+[11] Corte d'Appello di Milano, sezione specializzata in materia di impresa, *ordinanza del 9 settembre 2026* (R.G. 2326/2026 e 2327/2026) che respinge la sospensione del decreto 425/2026, pag. 2–4 (decreto del Tribunale del 26/2/2026, decreto della Corte d'Appello del 9/7/2026, amianto e polveri sottili, proprietà e gestione dello stabilimento) e 12 (decisione), testo pubblicato da PeaceLink, https://www.peacelink.it/processoilva/docs/5953.pdf — la copia non è in `fonti/` perché contiene i dati personali dei cittadini ricorrenti
+
+[12] Presidenza del Consiglio dei ministri, *Ex Ilva di Taranto, il Presidente Meloni convoca riunione a Palazzo Chigi*, nota del 27 luglio 2026, https://www.governo.it/it/articolo/ex-ilva-di-taranto-nota-di-palazzo-chigi/32413 — copia in `fonti/2026-07_governo_nota-palazzo-chigi-ex-ilva.html`
+
+[13] Istituto Superiore di Sanità, ISSalute, *Amianto*, aggiornata al 2 novembre 2020, https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/a/amianto — copia in `fonti/2020-11_iss_issalute-amianto.html`
+
+[14] F. Aulenta, *Biodegradazioni & biotrasformazioni*, materiale di un corso pubblicato sul sito dell'ISPRA, 2005, slide 41 (definizione di idrocarburi), https://www.isprambiente.gov.it/contentfiles/00000200/235-tc-aulenta2.pdf — copia in `fonti/2005_ispra_biodegradazione-idrocarburi.pdf`
+
+[15] Decreto legislativo 3 aprile 2006, n. 152, Parte IV, Titolo V, Allegato 5, Tabella 1 (limiti per i terreni: colonna A verde e residenziale, colonna B industriale e commerciale), https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152
