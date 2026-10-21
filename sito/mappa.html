@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610211200">
+<link rel="stylesheet" href="stile.css?v=202610211500">
 <body class="mappa">
 
 <header class="topbar">
@@ -57,8 +57,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610211200"></script>
-<script src="comune.js?v=202610211200"></script>
+<script src="dati.js?v=202610211500"></script>
+<script src="comune.js?v=202610211500"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -128,14 +128,15 @@ function deselect(){
 
 (function initMap(){
   if (!window.L) { $("#map").innerHTML = '<p style="padding:16px">La mappa non si è caricata. Gli interventi sono nell\'elenco.</p>'; return; }
-  map = L.map("map", {minZoom:11, maxZoom:14, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, zoomControl:false});
+  map = L.map("map", {minZoom:11, maxZoom:14, zoomSnap:.25, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, zoomControl:false});
   L.control.zoom({position:"topright"}).addTo(map);
   addTiles(map);
-  // vista iniziale = tutti i punti (a destra del pannello), ma mai così lontana da lasciare zone senza tile;
+  // vista iniziale = tutti i punti (a destra del pannello, sopra il bottone dell'elenco sul telefono), con zoom a quarti
+  // per stringerla il più possibile, ma mai così lontana da lasciare zone senza tile;
   // da lì non ci si può allontanare (lo zoom minimo diventa quello della vista iniziale)
   const fit = () => {
     map.setMinZoom(11); map.setMaxBounds(TILE_BOUNDS);
-    map.fitBounds(L.latLngBounds(PTS.map(p => p.ll)).pad(.06), {animate:false, paddingTopLeft:[panelW(), 0]});
+    map.fitBounds(L.latLngBounds(PTS.map(p => p.ll)), {animate:false, paddingTopLeft:[panelW() + 28, 24], paddingBottomRight:[28, isNarrow() ? 84 : 76]});
     const z = coverZoom(map, map.getZoom());
     map.setMaxBounds(tileBounds(z));
     if (z !== map.getZoom()) map.setZoom(z, {animate:false});
