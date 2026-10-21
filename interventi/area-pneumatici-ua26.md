@@ -71,7 +71,7 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 
 Ricerca online del 20 ottobre 2026 (UA26, "area PFU", pneumatici fuori uso Ilva Statte, anagrafe regionale, portale delle valutazioni ambientali del Ministero): trovati solo i documenti elencati sopra. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+### Bozza di richiesta di accesso civico (FOIA) — pronta come FOIA 63 alla Regione (PEC da inviare, `.tmp/foia/invio/pec-sesto-giro/`)
 Una sola richiesta per D16 e D17, che sono due aree vicine con la stessa storia (vedi anche la scheda D17).
 
 **A:** Regione Puglia, Sezione Ciclo rifiuti e bonifiche — PEC serv.rifiutiebonifica@pec.rupar.puglia.it (la stessa usata per la richiesta 06).

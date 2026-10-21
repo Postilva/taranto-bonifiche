@@ -53,7 +53,7 @@ Nessuna cifra trovata. Non verificato.
 
 Ricerca online del 20 ottobre 2026 ("quartiere Tamburi" con falda, acque sotterranee, caratterizzazione, analisi di rischio; portale trasparenza del Comune; archivio del Ministero dell'Ambiente): nessun documento su questa falda.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+### Bozza di richiesta di accesso civico (FOIA) — pronta come FOIA 63 alla Regione (PEC da inviare, `.tmp/foia/invio/pec-sesto-giro/`)
 Una sola richiesta alla Regione per la falda (D6) e per le aree private di SP2 (D3, nella scheda "Quartiere Tamburi: risanamento dei suoli").
 
 **A:** Regione Puglia, Sezione Ciclo rifiuti e bonifiche — PEC serv.rifiutiebonifica@pec.rupar.puglia.it (la stessa usata per la richiesta 06).
