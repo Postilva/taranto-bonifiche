@@ -6,10 +6,23 @@
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#0b0b0c">
+<meta name="description" content="36 aree legate all'Ilva tra la fabbrica, il Tamburi, Statte e il Mar Piccolo: per ognuna cosa è stato fatto e a che punto è la bonifica, solo con documenti ufficiali.">
+<!-- anteprima quando si condivide il link (WhatsApp, Telegram, Facebook, X...) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bonifiche Ilva">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Bonificare l'Ilva: a che punto siamo">
+<meta property="og:description" content="36 aree legate all'Ilva tra la fabbrica, il Tamburi, Statte e il Mar Piccolo: per ognuna cosa è stato fatto e a che punto è la bonifica, solo con documenti ufficiali.">
+<meta property="og:url" content="https://bonifiche-ilva.vercel.app/">
+<meta property="og:image" content="https://bonifiche-ilva.vercel.app/anteprima.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bonificare l'Ilva: a che punto siamo. Lo stabilimento e il quartiere Tamburi visti dal Mar Piccolo">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610211700">
+<link rel="stylesheet" href="stile.css?v=202610211900">
 
 <header class="topbar">
   <div class="in">
@@ -33,7 +46,7 @@
   </section>
   <div class="wrap">
     <div class="home-grid">
-      <div>
+      <div class="col-l">
         <h2 class="sec-label">Le aree</h2>
         <div class="tiles">
           <a class="tile gA" href="mappa.html?g=A"><b id="n-a">22</b><span>Aree di Ilva<small>dentro e intorno alla fabbrica</small></span></a>
@@ -46,19 +59,22 @@
           <li><a href="#come-inquina"><span class="ic">→</span><span class="tt"><b>Come inquina</b><small>Da dove nasce, per quali strade, dove arriva</small></span><span class="go">›</span></a></li>
           <li><a href="#fabbrica"><span class="ic">6</span><span class="tt"><b>La fabbrica</b><small>I reparti e la mappa dello stabilimento</small></span><span class="go">›</span></a></li>
           <li><a href="#glossario"><span class="ic">Aa</span><span class="tt"><b>Le sostanze</b><small>PCB, diossine, IPA, metalli, loppa</small></span><span class="go">›</span></a></li>
-          <li><a href="#passaggi"><span class="ic">✓</span><span class="tt"><b>Quando si può dire "bonificato"</b><small>I cinque passaggi di una bonifica</small></span><span class="go">›</span></a></li>
         </ul>
       </div>
 
-      <div>
+      <div class="col-r">
         <h2 class="sec-label">A che punto sono</h2>
         <div class="card chart">
-          <h3>Passaggio per passaggio</h3>
-          <div class="legend" id="lg-steps"></div>
-          <div id="bars-steps" style="display:grid;gap:10px"></div>
-          <p class="note">Quante schede verificate hanno fatto ogni passaggio. Tocca una barra per vedere quali. <span id="n-steps-why"></span></p>
+          <h3>Fin dove è arrivata ogni area</h3>
+          <p class="chart-intro">Una bonifica ha cinque passaggi. Si può dire <b>"bonificato"</b> solo alla fine, quando un ente pubblico lo certifica. Ogni area è contata una volta, nell'ultimo passaggio che ha fatto. <a href="#passaggi">I cinque passaggi ›</a></p>
+          <div class="colonne" id="colonne" aria-hidden="true"></div>
+          <div class="righe" id="righe"></div>
+          <p class="legend scala-lg"><span><i class="sw" style="background:var(--gA)"></i>Aree di Ilva</span><span><i class="sw" style="background:var(--gB)"></i>Ricadute fuori dalla fabbrica</span></p>
+          <p class="note"><span class="solo-tel">Tocca una riga per vedere le aree, poi un nome per aprire il report.</span><span class="solo-pc">Passa il mouse su un blocco per vedere il nome dell'area; un clic apre il report.</span> <span id="scala-why"></span></p>
         </div>
+      </div>
 
+      <div class="col-p">
         <h2 class="sec-label">Il progetto</h2>
         <ul class="tlist">
           <li><a href="#metodo"><span class="ic">i</span><span class="tt"><b>Come lavoriamo</b><small>Solo fonti ufficiali, "bonificato" solo con il certificato</small></span><span class="go">›</span></a></li>
@@ -78,11 +94,10 @@
   </div>
 </footer>
 <div id="sheets"></div>
-<div class="tip" id="tip" role="tooltip"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610211700"></script>
-<script src="comune.js?v=202610211700"></script>
+<script src="dati.js?v=202610211900"></script>
+<script src="comune.js?v=202610211900"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -217,39 +232,64 @@ function mappaFabbrica(d){
   fm.fitBounds(poly.getBounds().pad(.15));
 }
 
-/* ---------- grafico dei passaggi ---------- */
-const tip = $("#tip");
-function tipOn(el, html){
-  const show = e => { tip.innerHTML = html; tip.classList.add("on"); const x = (e.touches?e.touches[0]:e).clientX, y = (e.touches?e.touches[0]:e).clientY; tip.style.left = Math.max(8, Math.min(x+12, innerWidth-tip.offsetWidth-8))+"px"; tip.style.top = (y+14)+"px"; };
-  el.addEventListener("mousemove", show); el.addEventListener("mouseenter", show);
-  el.addEventListener("click", show);
-  el.addEventListener("mouseleave", () => tip.classList.remove("on"));
-  el.addEventListener("focus", () => { const r = el.getBoundingClientRect(); show({clientX:r.left, clientY:r.bottom}); });
-  el.addEventListener("blur", () => tip.classList.remove("on"));
-  el.tabIndex = 0; el.setAttribute("aria-label", html.replace(/<[^>]+>/g," "));
+/* ---------- grafico: fin dove è arrivata ogni area ---------- */
+// ogni scheda (o parte di scheda) va nella fase dell'ultimo passaggio fatto, letto dagli stati dei 5 passaggi (STEPS);
+// conta solo "done", che vale già lo scenario peggiore (vedi STEPS in comune.js): "part" non porta avanti
+const FASI = [
+  ["dafare",  "Analisi da fare o da finire", "il terreno non è ancora stato analizzato del tutto"],
+  ["analisi", "Analisi fatte", "si sa cosa c'è, non ancora se è pericoloso"],
+  ["rischio", "Analisi di rischio fatta", "si sa se è pericoloso, nessun lavoro finito"],
+  ["mis",     "Messa in sicurezza", "l'inquinamento è chiuso dentro, ma resta lì"],
+  ["nonserve","Bonifica non necessaria", "secondo le analisi il rischio è accettabile"],
+  ["bonifica","Bonificata, certificato non visto", "un ente di controllo la dice bonificata, ma il certificato non l'abbiamo visto"],
+  ["cert",    "Bonificata, con certificato", "il certificato ufficiale esiste e l'abbiamo visto"]
+];
+function fase(steps){
+  const s = steps.map(x => x[0]);
+  if (s[4] === "done") return "cert";
+  if (s[3] === "done") return "bonifica";
+  if (s[2] === "done") return "mis";
+  if (s[3] === "no" && s[1] === "done") return "nonserve";
+  if (s[1] === "done") return "rischio";
+  if (s[0] === "done") return "analisi";
+  return "dafare";
 }
-addEventListener("scroll", () => tip.classList.remove("on"), {passive:true});
 (function(){
-  const S = SCHEDE.filter(s => STEPS[s.id]), N = S.length;
-  // perché le schede del grafico sono meno degli interventi: aree senza scheda, schede con più codici, schede senza passaggi
-  const multi = SCHEDE.filter(s => s.codes.length > 1), senza = SCHEDE.filter(s => !STEPS[s.id]);
-  const e = a => a.length === 2 ? a.join(" e ") : a.slice(0, -1).join(", ") + (a.length > 1 ? " e " : "") + a.slice(-1);
-  const nuove = ALL.filter(r => !verified[r[0]]).length;
-  const why = [
-    ...(nuove ? ["alcune aree non hanno ancora una scheda verificata"] : []),
-    ...multi.map(s => `${e(s.codes)} hanno un'unica scheda`),
-    ...(senza.length ? [`${e(senza.map(s => `${s.code} (${s.short})`))} ${senza.length > 1 ? "non hanno" : "non ha"} passaggi perché non ${senza.length > 1 ? "sono interventi" : "è un intervento"} sul terreno`] : [])
-  ];
-  if (TOTAL !== N && why.length) $("#n-steps-why").textContent = `Le schede non sono una per area: ${e(why)}.`;
-  $("#lg-steps").innerHTML = STATI.map(s => `<span><i class="sw" style="background:var(${s[2]})"></i>${s[1]}</span>`).join("");
-  $("#bars-steps").innerHTML = PASSI.map(([step,sub],i) => {
-    const segs = STATI.map(([k,l,v]) => {
-      const who = S.filter(s => STEPS[s.id][i][0] === k);
-      if (!who.length) return "";
-      return `<div class="seg" data-tip="${esc(`<strong>${step}: ${l}</strong><br>` + who.map(s => `${s.codes.join("+")} ${s.short}`).join("<br>"))}" style="flex:${who.length};background:var(${v})"><span style="${k==="na"||k==="part"?"color:var(--ink)":""}">${who.length}</span></div>`;
-    }).join("");
-    return `<div class="hbar"><span class="lbl">${i+1}. ${step}<small>${sub}</small></span><div class="track">${segs}</div></div>`;
+  // le "unità" del grafico: una per scheda, o una per parte se la scheda ne ha più d'una (PARTI)
+  const S = SCHEDE.filter(s => STEPS[s.id]).flatMap(s => PARTI[s.id]
+    ? PARTI[s.id].map(([code, short, steps]) => ({id: s.id, code, codes: [code], short, steps}))
+    : [{...s, steps: STEPS[s.id]}]);
+  const cod = c => c.length > 2 ? `${c[0]}–${c[c.length - 1]}` : c.join("+");
+  // computer: una colonna per fase, fatta di un quadratino per area (codice, colore del gruppo, nome al passaggio del mouse);
+  // tutte sulla stessa scala, quindi l'altezza dice quante aree ci sono
+  $("#colonne").style.setProperty("--n", FASI.length);
+  $("#colonne").innerHTML = FASI.map(([k, nome, sub]) => {
+    const chi = S.filter(s => fase(s.steps) === k);
+    const pila = chi.map(s => `<a class="u g${GRUPPO[s.code] || "A"}" href="report.html#${s.id}" data-nome="${esc(s.short)}" tabindex="-1">${cod(s.codes)}</a>`).join("");
+    return `<div class="col f-${k}"><div class="bar"><span class="n">${chi.length}</span><div class="pila">${pila || `<span class="vuota"></span>`}</div></div><span class="nome">${nome}<small>${sub}</small></span></div>`;
   }).join("");
-  document.querySelectorAll("#bars-steps .seg").forEach(el => tipOn(el, el.dataset.tip));
+  // telefono: lo stesso grafico ruotato, una riga per fase con la barra dei quadratini (stessa scala);
+  // toccando la riga si apre l'elenco delle sue aree con i nomi
+  const max = Math.max(...FASI.map(([k]) => S.filter(s => fase(s.steps) === k).length), 1);
+  $("#righe").style.setProperty("--max", max);
+  $("#righe").innerHTML = FASI.map(([k, nome, sub]) => {
+    const chi = S.filter(s => fase(s.steps) === k);
+    const barra = chi.map(s => `<i class="g${GRUPPO[s.code] || "A"}"></i>`).join("") || `<i class="vuota"></i>`;
+    const voci = chi.map(s => `<a class="area g${GRUPPO[s.code] || "A"}" href="report.html#${s.id}"><b>${cod(s.codes)}</b>${esc(s.short)}</a>`).join("");
+    return `<details class="riga f-${k}"><summary><span class="nome">${nome}</span><span class="barra">${barra}<b class="n">${chi.length}</b></span></summary><p class="sub">${sub}</p>${chi.length ? `<div class="aree">${voci}</div>` : `<p class="sub"><b>Nessuna area.</b></p>`}</details>`;
+  }).join("");
+  // passando il mouse su un blocco compare subito il nome dell'area, sopra il blocco
+  const tip = document.body.appendChild(Object.assign(document.createElement("div"), {className: "tip", role: "tooltip"}));
+  $("#colonne").addEventListener("mouseover", e => {
+    const u = e.target.closest(".u"); if (!u) return;
+    tip.innerHTML = `<b>${esc(u.textContent)}</b> · ${esc(u.dataset.nome)}`; tip.classList.add("on");
+    const r = u.getBoundingClientRect();
+    tip.style.left = Math.max(8, Math.min(r.left + r.width / 2 - tip.offsetWidth / 2, innerWidth - tip.offsetWidth - 8)) + "px";
+    tip.style.top = (r.top - tip.offsetHeight - 6) + "px";
+  });
+  $("#colonne").addEventListener("mouseout", e => { if (!e.relatedTarget?.closest?.(".u")) tip.classList.remove("on"); });
+  addEventListener("scroll", () => tip.classList.remove("on"), {passive: true});
+  const senza = SCHEDE.filter(s => !STEPS[s.id]);
+  if (senza.length) $("#scala-why").textContent = senza.map(s => `${s.code} (${s.short})`).join(", ") + (senza.length > 1 ? " non sono qui perché non sono interventi" : " non è qui perché non è un intervento") + " sul terreno.";
 })();
 </script>

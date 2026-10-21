@@ -99,6 +99,47 @@ body.mappa .topbar .in{max-width:none}
 .chart{display:grid;gap:12px}
 .chart h3{font-size:1.05rem}
 .chart .note{font-size:.8rem;color:var(--ink-3);line-height:1.45}
+.chart-intro{font-size:.9rem;line-height:1.5;color:var(--ink-2)}.chart-intro b{color:var(--ink)}.chart-intro a{color:var(--gA);white-space:nowrap}
+/* computer: una colonna per fase, fatta di un quadratino per area; l'altezza dice quante sono */
+.colonne,.solo-pc{display:none}
+/* telefono: il grafico ruotato, una riga per fase; la barra ha un quadratino per area, tutte sulla stessa scala */
+.righe{display:grid;gap:2px;margin-top:4px}
+.riga>summary{display:grid;grid-template-columns:6.6rem minmax(0,1fr);gap:10px;align-items:center;padding:8px 6px;border-radius:10px;list-style:none;cursor:pointer}
+.riga>summary::-webkit-details-marker{display:none}
+.riga[open]>summary{background:var(--surface-2)}
+.riga .nome{font-weight:700;font-size:.78rem;line-height:1.2}
+.riga .barra{display:flex;align-items:center;gap:2px;min-width:0}
+.riga .barra i{flex:none;width:calc((100% - 2rem - (var(--max) - 1) * 2px) / var(--max));height:20px;background:var(--gA)}
+.riga .barra i.gB{background:var(--gB)}
+.riga .barra i:first-child{border-radius:4px 0 0 4px}.riga .barra i:nth-last-child(2){border-radius:0 4px 4px 0}.riga .barra i:only-of-type{border-radius:4px}
+.riga .barra i.vuota{background:none;border:1px dashed var(--ink-3);border-radius:4px}
+.riga .barra .n{margin-left:8px;font:700 .95rem/1 var(--f-body)}
+.riga .sub{font-size:.78rem;line-height:1.4;color:var(--ink-3);margin:8px 6px 0}.riga .sub b{color:var(--ink)}
+.riga .aree{display:flex;flex-wrap:wrap;gap:6px;margin:10px 6px 12px}
+.riga.f-cert .nome,.riga.f-cert .n{color:var(--gA)}
+.righe .area{display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.8rem;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
+.righe .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
+.righe .area.gB b{background:var(--gB)}
+@media (min-width:900px){
+  /* due righe comuni a tutte le colonne: le barre (in basso, sulla stessa linea di base) e le scritte (in alto) */
+  .colonne{display:grid;grid-template-columns:repeat(var(--n,6),minmax(0,1fr));grid-template-rows:auto auto;column-gap:12px;margin-top:8px}
+  .colonne .col{display:grid;grid-row:span 2;grid-template-rows:subgrid;row-gap:10px}
+  .colonne .bar{align-self:end;display:grid;gap:8px}
+  .colonne .col>.nome{align-self:start}
+  .colonne .n{font:700 1.6rem/1 var(--f-body);text-align:center}
+  .colonne .pila{display:flex;flex-direction:column-reverse;gap:2px;border-bottom:2px solid var(--ink-3);padding-bottom:2px}
+  .colonne .u{display:grid;place-items:center;height:26px;font:700 11px/1 var(--f-mono);color:var(--on-g);background:var(--gA);text-decoration:none;white-space:nowrap;overflow:hidden}
+  .colonne .u.gB{background:var(--gB)}
+  .colonne .u:last-child{border-radius:6px 6px 0 0}
+  .colonne .u:hover{filter:brightness(1.15);outline:2px solid var(--ink);outline-offset:-2px}
+  .colonne .vuota{height:26px;border:1px dashed var(--ink-3);border-bottom:0;border-radius:6px 6px 0 0}
+  .colonne .nome{font-weight:700;font-size:.88rem;line-height:1.25;text-align:center}
+  .colonne .nome small{display:block;font-weight:400;font-size:.76rem;color:var(--ink-3);margin-top:3px}
+  .colonne .f-cert .n,.colonne .f-cert .nome{color:var(--gA)}
+  /* sul computer le colonne, sul telefono le righe */
+  .righe,.solo-tel{display:none}.solo-pc{display:inline}
+  .scala-lg{display:flex}
+}
 footer.end{padding:8px 0 calc(28px + env(safe-area-inset-bottom,0px))}
 footer.end .wrap{display:grid;gap:8px;font-size:.78rem;color:var(--ink-3);line-height:1.5}
 footer.end a{color:inherit}
@@ -106,7 +147,6 @@ footer.end a{color:inherit}
   .hero{min-height:600px}
   .hero .in{padding:40px 16px 28px}
   .hero .btn.block{width:auto;justify-self:start}
-  .home-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 20px;align-items:start}
   .tile{min-height:170px}
 }
 
@@ -203,13 +243,6 @@ td.num{text-align:right;font-family:var(--f-mono);font-size:.85rem;white-space:n
 .legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.8rem;color:var(--ink-2)}
 .legend span{display:inline-flex;align-items:center;gap:6px}
 .sw{width:11px;height:11px;border-radius:3px;display:inline-block;flex:none}
-.hbar{display:grid;grid-template-columns:minmax(0,7.5rem) 1fr;gap:8px 10px;align-items:center}
-.hbar .lbl{font-weight:700;font-size:.85rem;line-height:1.2}
-.hbar .lbl small{display:block;font-weight:400;color:var(--ink-3);font-size:.75rem}
-.track{display:flex;gap:2px;height:24px;min-width:0}
-.seg{height:100%;position:relative;min-width:0}
-.seg:first-child{border-radius:6px 0 0 6px}.seg:last-child{border-radius:0 6px 6px 0}.seg:only-child{border-radius:6px}
-.seg span{position:absolute;inset:0;display:grid;place-items:center;font:700 .75rem/1 var(--f-body);color:var(--on-g)}
 .tip{position:fixed;z-index:3000;pointer-events:none;background:var(--ink);color:var(--bg);font-size:.82rem;line-height:1.35;padding:8px 10px;border-radius:8px;max-width:260px;opacity:0;transition:opacity .1s}
 .tip.on{opacity:1}
 .prose ul,.prose ol{margin:0;padding-left:1.2em;display:grid;gap:6px}

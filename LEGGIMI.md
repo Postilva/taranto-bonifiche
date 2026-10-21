@@ -18,10 +18,11 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 - `immagini.md`: il registro delle foto in `sito/img/` (autore, licenza, link): una foto senza riga qui non va sul sito
 - `fonti/`: i PDF dei documenti usati, nominati `anno-mese_ente_titolo.pdf`
 
-## Tre regole di verifica
+## Regole di verifica
 1. **Ogni frase ha una fonte ufficiale**: Ministero, Commissario, ARPA, ISPRA, Regione, Provincia, tribunale. I giornali servono solo a trovare le fonti ufficiali.
 2. **"Bonificato" si scrive solo se esiste il certificato ufficiale di avvenuta bonifica.** Altrimenti si dice cosa è stato fatto davvero, per esempio "messo in sicurezza".
 3. **Se un dato non si trova, si scrive "non verificato".** Se il dato è importante, si prepara una bozza di richiesta di accesso civico (FOIA), che invia l'utente.
+4. **Stato dei passaggi: scenario peggiore** (deciso il 21/10/2026). Un passaggio (analisi, analisi di rischio, messa in sicurezza, bonifica) conta come fatto solo se lo conferma un ente di controllo (Ministero, Regione, Provincia, ARPA, ISPRA) e vale per tutta l'area; se lo dice solo chi fa i lavori (Ilva, Comune, Commissario) o se una parte resta aperta, è "iniziato". Le schede con più parti (es. Tamburi D1–D5) nel grafico della home contano parte per parte (`PARTI` in `sito/comune.js`).
 
 ## Modello di scheda
 ```
