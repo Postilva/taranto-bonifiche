@@ -41,20 +41,20 @@ L'inquinamento nasce in alcuni reparti della fabbrica, viaggia per tre strade (l
 - **Agglomerazione**: i suoi camini emettono fino al 50% delle polveri di uno stabilimento siderurgico come quello di Taranto, insieme a metalli pesanti, IPA, PCB e diossine [4].
 - **Cokerie**: oltre ai camini, emettono da porte, coperchi e tubi delle batterie di forni e quando il coke viene sfornato e raffreddato [4].
 - **Trasformatori elettrici**: in passato contenevano PCB [1]; secondo il pubblico ministero citato dalla Commissione parlamentare, il 95–98% del PCB arrivato a Taranto era dell'Ilva [1].
-- **Rifiuti della produzione**: secondo la Commissione parlamentare, nelle "collinette ecologiche" al confine con il Tamburi l'Ilva ha depositato grandi quantità di rifiuti, presumibilmente scorie e polveri dei filtri [1]; le morchie oleose sono state drenate nelle vasche della Gravina di Leucaspide [1]. → A15, A1
+- **Rifiuti della produzione**: secondo la Commissione parlamentare, nelle "collinette ecologiche" al confine con il Tamburi l'Ilva ha depositato grandi quantità di rifiuti, presumibilmente scorie e polveri dei filtri [1]; le morchie oleose sono state drenate nelle vasche della Gravina di Leucaspide [1].
 
 ### Per quali strade
 
-- **L'aria**: le polveri si depositano sul quartiere Tamburi, su strade, davanzali e terrazzi; il rischio è stato tale da richiedere ordinanze del Sindaco sui giardini delle scuole [1]. → A15, B2, B8
-- **Il canale di scarico**: secondo il processo "Ambiente Svenduto", diossine e PCB dell'Ilva finivano nel canale di scarico e le correnti li portavano nel primo seno del Mar Piccolo [1]. → B6, B12, B13
-- **Il terreno e l'acqua sotterranea**: dalle vasche permeabili della Gravina di Leucaspide i liquidi con PCB sono probabilmente scesi per anni verso la falda [1]. → A1
+- **L'aria**: le polveri si depositano sul quartiere Tamburi, su strade, davanzali e terrazzi; il rischio è stato tale da richiedere ordinanze del Sindaco sui giardini delle scuole [1].
+- **Il canale di scarico**: secondo il processo "Ambiente Svenduto", diossine e PCB dell'Ilva finivano nel canale di scarico e le correnti li portavano nel primo seno del Mar Piccolo [1].
+- **Il terreno e l'acqua sotterranea**: dalle vasche permeabili della Gravina di Leucaspide i liquidi con PCB sono probabilmente scesi per anni verso la falda [1].
 
 ### Dove arriva
 
-- **Dentro la fabbrica**: discariche, terreni e falde delle aree di Ilva, gruppo A di questo censimento. → A1, A2, A3, A4, A5, C1, C2
-- **Quartiere Tamburi**: la parte della città più esposta alle ricadute dei fumi dell'Ilva [1]. → A15, B2, B8
-- **Mar Piccolo**: l'inquinamento del primo seno, secondo il processo "Ambiente Svenduto", è dovuto all'Ilva; ci sono anche altre fonti, l'Arsenale militare e i cantieri [1]. → B6, B12, B13
-- **La Gravina di Leucaspide**: le vasche dove sono state drenate le morchie oleose con PCB [1]. → A1, A2
+- **Dentro la fabbrica**: discariche, terreni e falde delle aree di Ilva, gruppo A di questo censimento.
+- **Quartiere Tamburi**: la parte della città più esposta alle ricadute dei fumi dell'Ilva [1].
+- **Mar Piccolo**: l'inquinamento del primo seno, secondo il processo "Ambiente Svenduto", è dovuto all'Ilva; ci sono anche altre fonti, l'Arsenale militare e i cantieri [1].
+- **La Gravina di Leucaspide**: le vasche dove sono state drenate le morchie oleose con PCB [1].
 
 ## La fabbrica
 

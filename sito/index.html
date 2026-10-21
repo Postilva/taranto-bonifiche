@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610211600">
+<link rel="stylesheet" href="stile.css?v=202610211700">
 
 <header class="topbar">
   <div class="in">
@@ -81,8 +81,8 @@
 <div class="tip" id="tip" role="tooltip"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610211600"></script>
-<script src="comune.js?v=202610211600"></script>
+<script src="dati.js?v=202610211700"></script>
+<script src="comune.js?v=202610211700"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -119,7 +119,7 @@ const PANNELLI = {
     const corpo = `<div class="intro">${c(C.inquina.intro)}</div>` + C.inquina.colonne.map((col, i) =>
       `${i ? `<div class="flow-arrow">↓</div>` : ""}<div class="step-h"><span>${i + 1}</span><h3>${esc(col.titolo)}</h3></div><div class="voci">${col.voci.map(v =>
         `<div class="voce"><b>${esc(v.nome)}</b><p>${c(v.html)}</p>${v.codici.length ? `<p class="cods">${v.codici.map(codice).join("")}</p>` : ""}</div>`).join("")}</div>`).join("")
-      + `<p class="note">I codici portano ai report delle aree (o alla mappa, se il report non c'è ancora).</p>` + C.inquina.img.map(f => fotoHtml(f)).join("");
+      + C.inquina.img.map(f => fotoHtml(f)).join("");
     return corpo + fontiDi("come-inquina", corpo);
   }],
   fabbrica: ["La fabbrica", () => {
