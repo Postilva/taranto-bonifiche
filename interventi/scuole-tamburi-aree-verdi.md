@@ -1,5 +1,5 @@
 # B2 – Aree verdi delle scuole Deledda, De Carolis e D'Aquino (quartiere Tamburi): analisi del terreno e analisi di rischio
-*Stato scheda: approvata — aggiornata al 19 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 21 ottobre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -25,12 +25,20 @@ Il Tamburi è il quartiere accanto all'ex Ilva [3][4]. Secondo la Commissione pa
 - **Analisi del terreno** (la "caratterizzazione"): completata, e i risultati sono stati approvati da ARPA Puglia [2][3]. Le date e chi ha fatto i prelievi non sono scritti nei documenti trovati. Non verificato.
 - **Analisi di rischio** (calcolo sul rischio per la salute di chi usa le aree): completata ad agosto 2015 [2][3].
 - **Decisione:** la Conferenza di servizi del 5 febbraio 2016 ha rilevato "l'assenza di rischio sanitario per i suoli" e, di conseguenza, "non si procederà con l'intervento di bonifica in senso stretto ma di riqualificazione" [2][3]. L'analisi di rischio è stata approvata dalla Regione con la determina n. 145 del 24/06/2016 [2][3].
-- **Cosa è venuto dopo.** Il Commissario ha preparato il progetto per sistemare le aree esterne di tutte le scuole del quartiere, comprese Gabelli e Vico che non erano state analizzate [2][3]. Vedi la scheda B3, fuori dal censimento perché non è un'opera ambientale (`fuori-perimetro/scuole-tamburi-riqualificazione.md`) [2].
+- **Cosa è venuto dopo.** Il Commissario ha preparato il progetto per sistemare le aree esterne di tutte le scuole del quartiere, comprese Gabelli e Vico che non erano state analizzate [2][3]. Vedi la scheda B3, fuori dal censimento perché non è un'opera ambientale (`fuori-perimetro/scuole-tamburi-riqualificazione.md`) [2]. I filtri dell'aria nelle aule sono descritti qui sotto.
 - **Cosa scrive la Regione.** Nell'anagrafe dei siti da bonificare approvata dalla Giunta regionale nel giugno 2020 (dati di aprile 2020) l'area compare come "Comprensorio scolastico via Deledda – Q.re Tamburi – matrice suolo": procedimento avviato nel 2012 dal Comune di Taranto, causa "deposizione inquinanti su suolo", superficie 24.836 m², stato "Approvazione esiti PdC e AdR" (cioè approvati il piano di analisi e l'analisi di rischio) e "rischio accettabile" [8]. È nella tabella dei "siti non contaminati – rischio accettabile" [8]. Da notare: per molti altri siti della stessa tabella la Regione aggiunge "con conclusione positiva del procedimento"; per questo no [8]. Se il procedimento sia stato chiuso formalmente, quindi, non risulta. Alla nostra richiesta di accesso civico la Regione ha risposto il 19 ottobre 2026 che dopo la determina n. 145/2016 non è stato adottato nessun altro atto e che lo stato del sito è quello dell'anagrafe regionale [11].
 - **Le aree sono state chiuse?** La Commissione parlamentare sui rifiuti scrive nel 2022 che le polveri dell'acciaieria hanno reso necessarie "ordinanze del Sindaco per la limitazione all'uso dei giardini delle scuole del quartiere" [9] (pag. 65), ma non dice quali né quando. Non ho trovato un'ordinanza che riguardi le aree verdi di queste tre scuole a causa delle analisi di questa scheda. Non verificato.
 - **Non confondere con la chiusura del 2019.** Nel marzo 2019 il Sindaco ha chiuso le scuole Deledda e De Carolis, ma per un altro motivo: le vicine "collinette ecologiche" erano state sequestrate dopo che ARPA vi aveva trovato rifiuti industriali [6]. Le scuole sono state riaperte con l'ordinanza del 10 settembre 2019 [7]. Quella vicenda è nella scheda A15 (`collinette-ecologiche.md`) e non riguarda i risultati di questa scheda [6][7].
 
 **Una precisazione sul termine "bonifica".** Il piano era nato con un titolo più ampio: "caratterizzazione, analisi di rischio e bonifica delle aree esterne" delle scuole, e il Commissario del 2023 usa ancora questo titolo [5]. La parola "bonifica" è rimasta nel titolo, ma nessun documento trovato indica che il terreno sia stato scavato o trattato come inquinato [2][3].
+
+### Accanto: i filtri dell'aria nelle aule (non è una bonifica)
+Nelle scuole Deledda e De Carolis, e in altre tre scuole del quartiere (Vico, Gabelli e Giusti), il Commissario ha fatto installare impianti che filtrano l'aria dentro le aule: la "ventilazione meccanica controllata" [12][13]. Non tolgono inquinamento dal terreno né dall'aria del quartiere, perché trattano solo l'aria delle aule [13]. Ne parliamo qui perché rispondono alle polveri che arrivano sul Tamburi, ma non sono un'area del censimento.
+- **Perché sono stati fatti.** Nel 2015 la ASL aveva chiesto al Comune di "assicurare una adeguata ventilazione" delle scuole, e il Commissario cita valori dell'aria nel quartiere superiori a quelli raccomandati dall'OMS [5].
+- **Cosa fanno.** Hanno filtri per le polveri sottili (PM10 e PM2.5) e un filtro elettrostatico per le polveri di ferro [2][3].
+- **Lavori e collaudo.** L'impresa ha finito i lavori il 25 luglio 2020; il Commissario ha approvato il collaudo con il decreto n. 5424 del 28 gennaio 2022 [12].
+- **Soldi.** Costo pubblico 3.430.793,78 €, di cui pagati 2.607.447,69 € (dati al 30/06/2026) [14]. Sono fondi diversi da quelli delle analisi del terreno: vengono dal Piano Operativo Ambiente (delibera CIPE 55/2016) [2].
+- **Funzionano oggi?** Nessun documento trovato dice se gli impianti sono accesi e usati, chi li mantiene e se l'aria nelle aule è migliorata. Non verificato.
 
 ## Soldi
 - **Fondo di partenza:** 8.000.000 € del Ministero dell'Ambiente (decreto direttoriale n. 398 del 17/12/2012; nella tabella della Commissione parlamentare la data è scritta per errore "17/12/2021" [9]) per "messa in sicurezza e bonifica dei suoli contaminati del quartiere Tamburi" [2]. A dicembre 2018 ne erano stati trasferiti 6.000.000 € al conto del Commissario [2]. Dalla stessa fonte sono finanziate, in parte, anche le analisi del cimitero San Brunone [2].
@@ -49,22 +57,24 @@ Il Tamburi è il quartiere accanto all'ex Ilva [3][4]. Secondo la Commissione pa
 | agosto 2015 | Completata l'analisi di rischio | [2][3] |
 | 5 febbraio 2016 | Conferenza di servizi: "assenza di rischio sanitario per i suoli", niente bonifica | [2][3] |
 | 24 giugno 2016 | La Regione approva l'analisi di rischio (determina n. 145) | [2][3] |
-| aprile 2020 | Nell'anagrafe regionale l'area è tra i "siti non contaminati – rischio accettabile" | [8] |
-| 19 ottobre 2026 | La Regione risponde alla nostra richiesta: dopo la determina n. 145 nessun altro atto | [11] |
-| maggio 2022 | Pagati 75.751,33 € su 106.240,30 €; per la Commissione parlamentare l'intervento è "completato" | [9] |
 | dicembre 2018 | Gara per sistemare le aree esterne di tutte le scuole del quartiere | [2][3] |
+| aprile 2020 | Nell'anagrafe regionale l'area è tra i "siti non contaminati – rischio accettabile" | [8] |
+| 25 luglio 2020 | Finiti i lavori dei filtri dell'aria nelle aule (non è una bonifica) | [12] |
+| 28 gennaio 2022 | Il Commissario approva il collaudo dei filtri dell'aria | [12] |
+| maggio 2022 | Pagati 75.751,33 € su 106.240,30 €; per la Commissione parlamentare l'intervento è "completato" | [9] |
 | maggio 2026 | L'opuscolo del Commissario segna l'intervento come "concluso dal precedente commissario" | [1] |
+| 19 ottobre 2026 | La Regione risponde alla nostra richiesta: dopo la determina n. 145 nessun altro atto | [11] |
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 13 (pagina 14 del PDF), https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
 
-[2] Commissario straordinario per la bonifica di Taranto, *Relazione sintetica – Aggiornamento dello stato di attuazione delle attività*, dicembre 2018, pag. 12 (decreto del 17/12/2012), pag. 15 (tabella impegni e pagamenti) e pag. 29 (aree esterne delle scuole), https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/000/520/RELAZIONE_dicembre_2018.pdf — copia in `fonti/2018-12_commissario-taranto_relazione-stato-attuazione.pdf`
+[2] Commissario straordinario per la bonifica di Taranto, *Relazione sintetica – Aggiornamento dello stato di attuazione delle attività*, dicembre 2018, pag. 12 (decreto del 17/12/2012), pag. 15 (tabella impegni e pagamenti), pag. 29 (aree esterne delle scuole) e pag. 48–49 (ventilazione delle aule), https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/000/520/RELAZIONE_dicembre_2018.pdf — copia in `fonti/2018-12_commissario-taranto_relazione-stato-attuazione.pdf`
 
 [3] Commissario straordinario per la bonifica di Taranto, sito ufficiale (non più online), pagina *Comune di Taranto – Quartiere Tamburi* (stato avanzamento lavori), copia di Internet Archive del 19/09/2020: http://web.archive.org/web/20200919032356/http://www.commissariobonificataranto.it/attivita/avanzamento-fisico-dei-progetti/comune-taranto-quartiere-tamburi-progetti/ — copia in `fonti/2020-09_commissario-taranto_sito-web-avanzamento-progetti-tamburi.pdf`
 
 [4] Commissario straordinario per la bonifica di Taranto, sito ufficiale (non più online), pagina *Messa in sicurezza e bonifica dei suoli contaminati del quartiere Tamburi*, copia di Internet Archive del 10/08/2020: http://web.archive.org/web/20200810103628/http://www.commissariobonificataranto.it/attivita/interventi/messa-in-sicurezza-e-bonifica-dei-suoli-contaminati-del-quartiere-tamburi/ — copia in `fonti/2020-08_commissario-taranto_sito-web-intervento-suoli-tamburi.pdf`
 
-[5] Commissario straordinario per la bonifica di Taranto (Prefetto Martino), *Relazione attività commissariali – periodo 30/03/2022–1/10/2023*, prot. n. 56411 del 29 settembre 2023, pag. 4–5 (acquisita dalla Camera dei deputati, gennaio 2024), https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Progettodilegge/leg19.com05.Progettodilegge.Altro.PUBBLICO.ideGes.26863.16-01-2024-10-27-10.315.pdf — copia in `fonti/2023-09_commissario-taranto_relazione-fine-mandato-martino.pdf`
+[5] Commissario straordinario per la bonifica di Taranto (Prefetto Martino), *Relazione attività commissariali – periodo 30/03/2022–1/10/2023*, prot. n. 56411 del 29 settembre 2023, pag. 3–5 (acquisita dalla Camera dei deputati, gennaio 2024), https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Progettodilegge/leg19.com05.Progettodilegge.Altro.PUBBLICO.ideGes.26863.16-01-2024-10-27-10.315.pdf — copia in `fonti/2023-09_commissario-taranto_relazione-fine-mandato-martino.pdf`
 
 [6] Comune di Taranto, Ordinanza sindacale n. 9 del 2 marzo 2019 (*Collinette ecologiche del quartiere Tamburi – provvedimenti consequenziali d'urgenza*) — copia in `fonti/2019-03_comune-taranto_ordinanza-9-chiusura-scuole-collinette.pdf`
 
@@ -78,6 +88,12 @@ Il Tamburi è il quartiere accanto all'ex Ilva [3][4]. Secondo la Commissione pa
 
 [11] Regione Puglia, Sezione Ciclo rifiuti e bonifica, Servizio bonifiche e pianificazione, *Riscontro a istanza di accesso civico generalizzato e di accesso all'informazione ambientale – Comprensorio scolastico via Deledda, quartiere Tamburi (matrice suolo) – Determinazione n. 145 del 24/06/2016*, prot. n. 0618769 del 19 ottobre 2026 (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_regione-puglia_riscontro-foia-deledda-det-145.pdf`
 
+[12] Commissario straordinario per la bonifica di Taranto (Prefetto Martino), Decreto prot. n. 5424 del 28 gennaio 2022, *Lavori di realizzazione degli interventi per la ventilazione meccanica controllata dei plessi … del quartiere Tamburi – Approvazione stato finale dei lavori e collaudo tecnico-amministrativo*, pubblicato sul sito della Prefettura di Taranto, https://www1.prefettura.it/FILES/AllegatiPag/1140/D_P__5424-2022.pdf — copia in `fonti/2022-02_commissario-taranto_decreto-5424-collaudo-ventilazione-scuole-tamburi.pdf`
+
+[13] Commissario straordinario per la bonifica di Taranto, sito ufficiale (non più online), pagina *Intervento di ventilazione meccanica controllata delle scuole del quartiere Tamburi*, copia di Internet Archive del 19/09/2020: http://web.archive.org/web/20200919034250/http://www.commissariobonificataranto.it/amministrazione-trasparente-trasparenza/bandi-gara-contratti/tutti-bandi-del-2019/intervento-di-ventilazione-meccanica-controllata-delle-scuole-del-quartiere-tamburi-nel-comune-di-taranto/ — copia in `fonti/2020-09_commissario-taranto_sito-web-gara-ventilazione-scuole-tamburi.pdf`
+
+[14] OpenCoesione (Presidenza del Consiglio – Dipartimento per le politiche di coesione), progetto *Ventilazione meccanica controllata (VMC) delle scuole E. Giusti, G. B. Vico, A. Gabelli, G. Deledda, U. De Carolis*, CUP J54G17000030001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1mattmdgsta_23_0002/ — copia in `fonti/2026-06_opencoesione_vmc-scuole-tamburi.pdf`
+
 ## Cosa non sappiamo
 1. **Cosa c'è nel terreno.** Non ho trovato le sostanze cercate né i valori misurati. I documenti dicono solo che i risultati sono stati approvati da ARPA e che "non c'è rischio sanitario per i suoli" [2][3]. Non è la stessa cosa che dire "il terreno è pulito": l'analisi di rischio dice se le sostanze presenti sono pericolose per chi usa l'area, non se ci sono. La Regione non ha agli atti il parere di validazione di ARPA e rimanda ad ARPA; non ci ha dato i dati, perché secondo lei raccoglierli richiederebbe una rielaborazione sproporzionata [11]. Non verificato.
 2. **Il testo della determina della Regione n. 145 del 24/06/2016** e i verbali della Conferenza di servizi del 5 febbraio 2016: non li ho trovati online, quindi la conclusione "assenza di rischio" la conosciamo solo da come la riassume il Commissario [2][3]. La Regione conferma di avere la determina e la invia dopo il pagamento di 5 € di diritti di ricerca [11]. Non verificato.
@@ -85,6 +101,7 @@ Il Tamburi è il quartiere accanto all'ex Ilva [3][4]. Secondo la Commissione pa
 4. **Le date delle analisi** e chi le ha materialmente fatte. Non verificato.
 5. **I costi finali**: a maggio 2022 erano stati pagati 75.751,33 € su 106.240,30 € [9]; il resto e il motivo del calo da 165.000 € non risultano. Non verificato.
 6. **Quali ordinanze abbiano limitato l'uso dei giardini delle scuole** del quartiere, citate dalla Commissione parlamentare senza numeri né date [9], e se riguardassero anche queste tre scuole. Nessun atto trovato.
+7. **Se i filtri dell'aria nelle aule funzionano**, chi li mantiene e se ci sono misure dell'aria nelle aule dopo i lavori. Lo abbiamo chiesto al Comune di Taranto (richiesta di accesso del 13/10/2026, in corso). Non verificato.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
 **A:** Commissario straordinario per la bonifica di Taranto — la PEC commissario_bonifiche.taranto@pec.governo.it rifiuta la posta ordinaria (provato il 7/10/2026): email ordinaria ad Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (indirizzi della [pagina "Telefono e posta elettronica"](https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/organizzazione/telefono-e-posta-elettronica/), verificata il 7 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
