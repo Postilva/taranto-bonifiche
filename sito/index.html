@@ -78,7 +78,7 @@
         <h2 class="sec-label">Il progetto</h2>
         <ul class="tlist">
           <li><a href="#metodo"><span class="ic">i</span><span class="tt"><b>Come lavoriamo</b><small>Solo fonti ufficiali, "bonificato" solo con il certificato</small></span><span class="go">›</span></a></li>
-          <li><a href="#perche"><span class="ic">?</span><span class="tt"><b>Chi è nel censimento</b><small>Il criterio, Tamburi, Statte e Mar Piccolo, cosa non torna</small></span><span class="go">›</span></a></li>
+          <li><a href="#perche"><span class="ic">?</span><span class="tt"><b>Chi è nel censimento</b><small>Il criterio, i codici, Tamburi, Statte e Mar Piccolo, cosa non torna</small></span><span class="go">›</span></a></li>
           <li><a href="#fonti"><span class="ic">[1]</span><span class="tt"><b>Fonti e foto</b><small>I documenti di questa pagina e i crediti</small></span><span class="go">›</span></a></li>
           <li><a class="contatto" href="#" target="_blank" rel="noopener"><span class="ic">@</span><span class="tt"><b>Scrivici</b><small>Un errore, un documento, un'area da segnalare</small></span><span class="go">›</span></a></li>
         </ul>
@@ -119,6 +119,20 @@ function fontiDi(id, html, tutte = false){
   if (!lista.length) return "";
   return `<div class="sh-fonti"><h3>Fonti</h3><ol class="fonti">${lista.map(f => `<li id="${id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri</a>` : ""}</span></li>`).join("")}</ol></div>`;
 }
+// codici in una frase: numeri di fila uniti ("D1–D6 e D8", "A5 e A6")
+const elencoCodici = cs => {
+  const ord = [...cs].sort(codeCmp), pezzi = [];
+  for (let i = 0; i < ord.length;) {
+    let j = i;
+    while (j + 1 < ord.length && ord[j + 1][0] === ord[i][0] && +ord[j + 1].slice(1) === +ord[j].slice(1) + 1) j++;
+    if (j - i >= 2) pezzi.push(`${ord[i]}–${ord[j]}`); else pezzi.push(...ord.slice(i, j + 1));
+    i = j + 1;
+  }
+  return pezzi.length > 1 ? pezzi.slice(0, -1).join(", ") + " e " + pezzi.at(-1) : pezzi.join("");
+};
+// i codici D sono in tutti e due i gruppi: lo dice la voce sui codici in "Chi è nel censimento"
+const fuoriLettera = () => { const d = g => ELENCO[g].items.map(r => r[0]).filter(c => c[0] === "D");
+  return `${elencoCodici(d("A"))} sono aree di Ilva, ${elencoCodici(d("B"))} sono ricadute`; };
 const codice = k => { const s = verified[k]; return s ? `<a class="cod g${GRUPPO[k] || "A"}" href="${reportHref(k)}" title="${esc(s.short)}">${k}</a>` : `<a class="cod todo" href="mappa.html#${k}" title="${esc(ROW[k] ? ROW[k][1] : k)}">${k}</a>`; };
 const PANNELLI = {
   storia: ["La storia", () => {
@@ -165,7 +179,8 @@ const PANNELLI = {
       <div class="voce"><b>Chi cura il sito</b><p>Antonio De Pace. Se trovi un errore, hai un documento che non abbiamo o vuoi segnalare un'area, scrivici: leggiamo tutto e, se serve, correggiamo il report indicando la fonte.</p><p><a class="btn contatto" href="#" target="_blank" rel="noopener">Scrivici →</a></p></div>
     </div>`],
   perche: ["Chi è nel censimento", () => `<div class="voci">
-      <div class="voce"><b>Il criterio</b><p>Contiamo le aree di Ilva (gruppo A, ${ELENCO.A.items.length}) e le ricadute fuori dalla fabbrica (gruppo B, ${ELENCO.B.items.length}): di regola queste entrano solo se una fonte ufficiale dice che l'inquinamento viene, anche, dall'Ilva. Le aree inquinate da altri (raffineria, altre industrie, porto, Marina) non fanno parte di questo censimento.</p></div>
+      <div class="voce"><b>Il criterio</b><p>Contiamo le aree di Ilva (${ELENCO.A.items.length}) e le ricadute fuori dalla fabbrica (${ELENCO.B.items.length}): di regola queste entrano solo se una fonte ufficiale dice che l'inquinamento viene, anche, dall'Ilva. Le aree inquinate da altri (raffineria, altre industrie, porto, Marina) non fanno parte di questo censimento.</p></div>
+      <div class="voce"><b>Cosa vogliono dire i codici</b><p>Il codice di un'area (A1, B8, C1, D5…) dice in quale documento l'abbiamo trovata: <b>A</b> le 18 aree di Ilva in amministrazione straordinaria (relazione di Ilva in A.S.), <b>C</b> lo stabilimento di Acciaierie d'Italia (archivio del Ministero dell'Ambiente), <b>B</b> gli interventi dell'opuscolo del Commissario per la bonifica, <b>D</b> le altre aree, dall'anagrafe dei siti da bonificare della Regione Puglia. Per questo la lettera non dice se un'area è di Ilva o una ricaduta: ${fuoriLettera()}. I codici non cambiano, perché sono già nelle richieste di accesso agli atti inviate.</p></div>
       <div class="voce"><b>Perché il Mar Piccolo è nel censimento</b><p>La Commissione parlamentare sui rifiuti (relazione su Ilva-Taranto, settembre 2022) riporta che il processo "Ambiente Svenduto" ha dimostrato che l'inquinamento del primo seno del Mar Piccolo è dovuto all'attività dell'Ilva, attraverso il canale di scarico; la stessa relazione aggiunge che ci sono anche altre fonti, l'Arsenale militare e i cantieri. Contiamo solo gli interventi sui fondali inquinati.</p></div>
       <div class="voce"><b>Perché il Tamburi e Statte sono nel censimento</b><p>Per il Tamburi la Commissione parlamentare sui rifiuti (settembre 2022) scrive che le polveri dello stabilimento hanno reso necessarie le ordinanze del Sindaco sui giardini delle scuole e poi le bonifiche, e che il quartiere è la parte della città "più esposta alle ricadute dei fumi dell'ILVA". Per i terreni di Statte fuori dal SIN la Provincia ha individuato nel 2018 il responsabile, e secondo ARPA Puglia è l'Ilva, per diossine e furani. Per alcune aree, per esempio la zona PIP di Statte, nessuna fonte ufficiale nomina un responsabile: lo diciamo nel report.</p></div>
       ${DA_VERIFICARE.size ? `<div class="voce"><b>Ricadute da verificare (${DA_VERIFICARE.size})</b><p>Aree vicine all'Ilva e inquinate, ma finora nessuna fonte ufficiale trovata dice che l'inquinamento viene dall'Ilva. Se la fonte non si trova, escono dall'elenco.</p><p class="cods">${ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0])).map(r => codice(r[0])).join("")}</p></div>` : ""}
@@ -271,7 +286,14 @@ function mappaFabbrica(d){
   });
   $("#colonne").addEventListener("mouseout", e => { if (!e.relatedTarget?.closest?.(".u")) tip.classList.remove("on"); });
   addEventListener("scroll", () => tip.classList.remove("on"), {passive: true});
+  // perché aree, blocchi e report non sono lo stesso numero: tutto contato dai dati
+  const nome = s => s.short.replace(/ \(.*\)$/, "");
   const senza = SCHEDE.filter(s => !STEPS[s.id]);
-  if (senza.length) $("#scala-why").textContent = senza.map(s => `${s.code} (${s.short})`).join(", ") + (senza.length > 1 ? " non sono qui perché non sono interventi" : " non è qui perché non è un intervento") + " sul terreno.";
+  const perche = [
+    ...SCHEDE.filter(s => STEPS[s.id] && !PARTI[s.id] && s.codes.length > 1).map(s => `${elencoCodici(s.codes)} (${nome(s)}) hanno un solo report e qui sono un blocco solo`),
+    ...SCHEDE.filter(s => PARTI[s.id]).map(s => `${elencoCodici(s.codes)} (${nome(s)}) hanno un solo report, ma qui contano una per una`),
+    ...(senza.length ? [senza.map(s => `${s.code} (${nome(s)})`).join(", ") + (senza.length > 1 ? " non sono qui perché non sono interventi" : " non è qui perché non è un intervento") + " sul terreno"] : [])
+  ];
+  $("#scala-why").textContent = `Le aree sono ${TOTAL}, i blocchi ${S.length}, i report ${SCHEDE.length}` + (perche.length ? ": " + perche.join("; ") : "") + ".";
 })();
 </script>
