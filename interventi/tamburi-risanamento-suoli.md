@@ -1,8 +1,15 @@
 # D1 + D2 + D3 + D4 + D5 – Quartiere Tamburi: risanamento dei suoli (sottoperimetri SP1–SP4)
 *Stato scheda: approvata — aggiornata al 20 ottobre 2026*
 
-## In breve
-È il programma del Comune di Taranto per risanare i terreni del quartiere Tamburi, iniziato nel 2005 e diviso in quattro "sottoperimetri" (SP1–SP4) [1]. **Ad aprile 2020 solo SP4 risultava bonificato secondo la Regione, ma il certificato non l'abbiamo visto**; per SP1, SP2 e SP3 il Comune aveva chiesto la certificazione, non ancora rilasciata; le aree private di SP2 erano ancora "in fase di accertamento" [1]. Nel 2018 il Ministero delle Infrastrutture ha versato al Comune 1,5 milioni € per la bonifica dei suoli dei sottoprogetti 1, 2 e 3 [3].
+## A che punto è
+### Finora
+Il programma del Comune per risanare i terreni del quartiere è iniziato nel 2005, diviso in quattro sottoperimetri, da SP1 a SP4 [1]. Ad aprile 2020 la Regione indicava SP4 come «sito bonificato», con la certificazione di avvenuta bonifica; per SP1, SP2 e SP3 il Comune aveva chiesto la certificazione [1]. Nel 2018 il Ministero delle Infrastrutture ha versato al Comune 1,5 milioni di euro per la bonifica dei suoli dei sottoprogetti 1–3 [3].
+
+### Cosa manca
+Il certificato di SP4 non l'abbiamo visto [1]. Per SP1, SP2 e SP3 ad aprile 2020 la certificazione non era stata rilasciata, e per la Regione erano ancora «siti contaminati» [1]. Le aree private di SP2 erano «in fase di accertamento», con solo una comunicazione di potenziale contaminazione del 2005 [1].
+
+### Adesso
+Dal 2021 il Comune fa lavori di riqualificazione urbana nel quartiere, che non sono una bonifica [7]. Il 21 ottobre 2026 abbiamo chiesto le certificazioni alla Provincia e lo stato delle aree private alla Regione con richieste di accesso civico; le risposte sono attese entro il 20 novembre.
 
 ## Che posto è
 Il quartiere Tamburi, il quartiere di Taranto attaccato allo stabilimento [4]. Le cinque aree vanno da 0,3 a 81 ettari e in tutto fanno circa 106 ettari [1].

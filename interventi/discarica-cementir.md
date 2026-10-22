@@ -1,8 +1,15 @@
 # A4 – Discarica ex cava Cementir
 *Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
-## In breve
-Tra il 2019 e il 2023 è stata **messa in sicurezza** (barriera tutto intorno e copertura come per i rifiuti pericolosi), ma **non bonificata** e **senza certificato ufficiale** di fine lavori [1][18][24]. Il pompaggio dell'acqua dai pozzi è stato chiesto dal Ministero, e intanto c'è la stessa lite con la Provincia sulle garanzie economiche che riguarda la discarica Due Mari [1][3][4].
+## A che punto è
+### Finora
+Tra il 2020 e il 2023 Ilva ha costruito una barriera tutto intorno alla discarica e una copertura come per i rifiuti pericolosi, con un telo di plastica [1][7][13]. Secondo Ilva i lavori sono finiti nel 2023 [18]. Dal settembre 2023 il percolato, il liquido che cola dai rifiuti, viene estratto ogni settimana [1][18].
+
+### Cosa manca
+Nessun ente ha certificato che la messa in sicurezza sia completa e fatta bene: per legge deve farlo la Provincia, che prima vuole garanzie economiche adeguate, e su questo Ilva e la Provincia sono andate in causa [1][3][4][24]. ARPA non esclude che una parte dei rifiuti sia rimasta fuori dalla nuova barriera [11][14]. La falda superficiale è inquinata e c'è un pompaggio d'emergenza [1][18]. I rifiuti restano dentro: non è una bonifica.
+
+### Adesso
+Il 19 giugno 2025 la Provincia ha chiesto a Ilva di presentare la domanda di certificazione [1]; il Consiglio di Stato le ha dato ragione sulle garanzie, nel 2025 e nel 2026 [4][5]. Il decreto-legge n. 154 del 28 agosto 2026 prevede garanzie di un anno per le società in amministrazione straordinaria che gestiscono impianti strategici [29]: non si sa ancora se sbloccherà il certificato.
 
 ## Che posto è
 Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino alla raffineria ENI, nel SIN di Taranto [13][14][11].

@@ -1,8 +1,15 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
 *Stato scheda: approvata — aggiornata al 21 ottobre 2026*
 
-## In breve
-Il Comune ha comunicato agli enti l'inquinamento il 13 maggio 2024 e subito dopo ha fatto recintare il campo con lavori di somma urgenza [3][14]. **Il sito non è bonificato né messo in sicurezza**: nell'ottobre 2025 il Commissario ha dato 86.876,20 € al Comune solo per fare le analisi complete e l'analisi di rischio, e ha annunciato la consegna del cantiere per i prelievi il 20 ottobre 2025 [2][13]. A gennaio 2026 il Responsabile del CIS aveva annunciato la fine delle analisi "entro il prossimo marzo" e subito dopo la messa in sicurezza permanente [9]; a fine giugno 2026 il Commissario le descrive ancora "in via di completamento" [10]. A ottobre 2026 alcuni giornali scrivono che la Regione ha chiesto agli enti un parere sull'analisi di rischio entro il 28 ottobre, ma l'atto ufficiale non l'abbiamo trovato: non verificato. Nessun risultato è pubblico.
+## A che punto è
+### Finora
+Nel maggio 2024 il Comune ha comunicato di aver trovato piombo e IPA nel terreno del campo, e lo ha fatto recintare con lavori di somma urgenza [3][14]. La Regione ha approvato il piano delle analisi il 7 luglio 2025 e il Commissario ha dato al Comune 86.876,20 € per farle [2][3]. Il cantiere per i prelievi è stato consegnato il 20 ottobre 2025, e a maggio 2026 i campionamenti erano iniziati [1][13].
+
+### Cosa manca
+Le analisi non sono finite: a gennaio 2026 erano annunciate per marzo, ma a fine giugno il Commissario le descriveva ancora «in via di completamento» [9][10]. Nessun risultato è pubblico. Il campo non è messo in sicurezza né bonificato.
+
+### Adesso
+Dopo le analisi servono l'analisi di rischio e poi la messa in sicurezza o la bonifica [2][9]. Alcuni giornali scrivono che la Regione ha chiesto agli enti un parere sull'analisi di rischio entro il 28 ottobre 2026, ma l'atto ufficiale non l'abbiamo trovato: non verificato.
 
 ## Che posto è
 L'impianto sportivo comunale "Atleti Azzurri d'Italia", nel quartiere Tamburi, che il Comune di Taranto vuole rifare con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3].

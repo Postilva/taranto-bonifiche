@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610212100">
+<link rel="stylesheet" href="stile.css?v=202610221200">
 
 <header class="topbar">
   <div class="in">
@@ -47,20 +47,24 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610212100"></script>
-<script src="comune.js?v=202610212100"></script>
+<script src="dati.js?v=202610221200"></script>
+<script src="comune.js?v=202610221200"></script>
 <script>
 /* Report di un intervento: report.html#<id-scheda> (oppure #<id-scheda>-f<n> per aprire una fonte).
-   Ordine fisso: foto, testata, a che punto è, in breve, che posto è e perché è inquinata, sostanze, mappa, chi e soldi,
+   Ordine fisso: foto, testata, a che punto è, che posto è e perché è inquinata, sostanze, mappa, chi e soldi,
    poi le sezioni a fisarmonica (storia, cosa è stato fatto, cosa non sappiamo, approfondimenti, fonti). */
 const acc = (title, body, opts={}) => `<details class="acc"${opts.id ? ` id="${opts.id}"` : ""}${opts.open ? " open" : ""}><summary><span>${title}${opts.sub ? `<small>${opts.sub}</small>` : ""}</span></summary><div class="body prose">${body}</div></details>`;
 
-// "A che punto è": i 5 passaggi della bonifica, uno per riga
+// "A che punto è": fin dove è arrivata e la barra delle 5 tappe (STEPS), poi il racconto della scheda in tre blocchi
 function statoHtml(s){
   const steps = STEPS[s.id];
-  return `<section class="card kv"><div><span class="k">A che punto è</span>${steps
-    ? `<ol class="passi">${steps.map(([k,t],i) => `<li><i style="background:var(${STATO[k].color})" title="${esc(STATO[k].label)}"></i><span><b>${i+1}. ${PASSI[i][0]}</b> · ${esc(STATO[k].label)}. ${esc(t)}</span></li>`).join("")}</ol>`
-    : `<span class="muted">${esc(NO_STEPS[s.id] || "La scheda non permette di dire a che punto sono i 5 passaggi.")}</span>`}</div></section>`;
+  const testa = steps ? (([, nome, sub]) => `<p class="fase"><b>${esc(nome)}</b><span>${esc(sub)}</span></p>
+    <ol class="barra5">${steps.map(([k],i) => `<li class="${k}" style="--c:var(${STATO[k].color})" title="${esc(PASSI[i][0])} (${esc(PASSI[i][1])}): ${esc(STATO[k].label)}"><i></i><span>${PASSI[i][2]}</span></li>`).join("")}</ol>
+    <p class="leg5">${["done","part","todo","no"].map(k => `<span class="${k}" style="--c:var(${STATO[k].color})"><i></i>${STATO[k].label.toLowerCase()}</span>`).join("")}</p>`)(FASI.find(f => f[0] === fase(steps)))
+    : `<p class="fase"><b>Nessuna bonifica</b><span>${esc(NO_STEPS[s.id] || "La scheda non permette di dire a che punto sono i 5 passaggi.")}</span></p>`;
+  const blocchi = s.punto.map(b => `<div class="blocco"><h3>${esc(b.title)}</h3><div class="prose">${cite(b.html, s.id)}</div></div>`).join("");
+  return `<section class="card stato"><span class="k">A che punto è</span>${testa}${blocchi}
+    ${steps ? `<p class="nota">Una tappa è "fatta" solo se lo conferma un ente di controllo (Ministero, Regione, Provincia, ARPA, ISPRA) e vale per tutta l'area.</p>` : ""}</section>`;
 }
 // chi se ne occupa, soldi, aggiornamento
 function infoHtml(s){
@@ -108,9 +112,8 @@ function render(s){
       ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}
     </header>`;
   h += statoHtml(s);
-  if (s.breve) h += `<section class="card"><div class="lead">${c(s.breve)}</div></section>`;
   if (s.posto || s.perche) h += `<div class="ctx2">${s.posto ? `<section class="card"><h2>Che posto è</h2><div class="prose">${c(s.posto)}</div></section>` : ""}${s.perche ? `<section class="card"><h2>Perché è inquinata</h2><div class="prose">${c(s.perche)}</div><a class="more-link" href="index.html#come-inquina">Come inquina l'Ilva →</a></section>` : ""}</div>`;
-  const sost = glossarioIn([s.breve, s.posto, s.perche, s.fatto, ...s.sections.map(x => x.html)].join(" "));
+  const sost = glossarioIn([...s.punto.map(b => b.html), s.posto, s.perche, s.fatto, ...s.sections.map(x => x.html)].join(" "));
   if (sost.length) h += `<p class="sost">Sostanze: ${sost.map(g => `<a href="index.html#${g.id}">${esc(g.titolo.replace(/\s*\(.*\)$/, ""))}</a>`).join("")}</p>`;
   h += mappaHtml(p, s);
   h += infoHtml(s);

@@ -31,8 +31,13 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 
 **Immagine:** <file in sito/img/, facoltativa>
 
-## In breve
-(3 frasi semplici: cos'è, dov'è, a che punto è)
+## A che punto è
+### Finora
+(2–3 frasi: cosa è stato fatto, con le date e chi lo conferma)
+### Cosa manca
+(2–3 frasi: cosa non è stato fatto o non è verificato, e perché è fermo)
+### Adesso
+(1–2 frasi: l'ultimo atto trovato e cosa deve succedere dopo)
 ## Che posto è
 (1–2 frasi: dov'è, quanto è grande, cosa c'è intorno)
 ## Perché è inquinata

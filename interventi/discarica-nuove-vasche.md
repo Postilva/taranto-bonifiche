@@ -1,8 +1,15 @@
 # A7 – Discarica Nuove Vasche
 *Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
-## In breve
-È in "post-gestione", cioè chiusa e sorvegliata: Ilva deve controllarla per 30 anni, fino al 2048 [1][2]. **Non è bonificata e non lo sarà**, perché in una discarica i rifiuti restano dove sono; inoltre i controlli chiesti da ISPRA hanno mostrato che la rete che raccoglie l'acqua piovana è troppo piccola, e a fine 2025 i lavori per potenziarla non erano ancora iniziati [1].
+## A che punto è
+### Finora
+La discarica è chiusa e coperta, ed è in «post-gestione»: Ilva deve sorvegliarla per 30 anni, fino al 2048 [1][2]. Due volte l'anno controlla l'acqua sotterranea, il percolato, le polveri e le fibre di amianto nell'aria [1][2].
+
+### Cosa manca
+I risultati dei controlli non sono pubblici [1][8]. ISPRA ha fatto verificare la rete che raccoglie l'acqua piovana, ed è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1]. Non sappiamo quali rifiuti ci siano nelle tre vasche: le fonti dicono solo che è una discarica per rifiuti pericolosi [3][4].
+
+### Adesso
+Da dicembre 2025 ci sono 5 nuovi pozzi per controllare l'acqua sotterranea ogni tre mesi, insieme all'area dei fanghi, per almeno due anni [1][9]. Nessuna fonte dice quando partiranno i lavori per l'acqua piovana [1]. Non è una bonifica e non lo sarà: in una discarica i rifiuti restano dove sono.
 
 ## Che posto è
 Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal SIN, divisa in tre vasche chiamate V1, V2 e V3 [2][4][1].

@@ -1,8 +1,15 @@
 # A3 – Discarica ex cava Due Mari
 *Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
-## In breve
-Secondo Ilva è stata **messa in sicurezza** con una copertura di terra e teli, ma **non è stata bonificata** (i rifiuti sono ancora lì) e **nessun ente pubblico ha ancora certificato** che i lavori siano finiti e fatti bene [1][6]. Dal 2020 Ilva e la Provincia di Taranto litigano sulle garanzie economiche che Ilva deve dare per i 30 anni di controlli dopo la chiusura: la Provincia ha respinto le garanzie, i giudici le hanno dato ragione, e senza garanzie adeguate la Provincia non rilascia il certificato [1][3][4][5].
+## A che punto è
+### Finora
+Secondo Ilva la discarica è stata coperta con terra e teli, con fossi per l'acqua piovana e alberi, e i lavori erano completati a luglio 2022 [1][8]. Ilva controlla l'acqua sotterranea ogni tre mesi [1].
+
+### Cosa manca
+Nessun ente pubblico ha certificato che i lavori siano finiti e fatti bene [1][14]. La Provincia non rilascia il certificato senza garanzie economiche adeguate per i 30 anni di controlli dopo la chiusura, e i giudici le hanno dato ragione [1][3][4][5]. I risultati dei controlli sulla falda non sono pubblici [1][9]. I rifiuti restano dentro: non è una bonifica.
+
+### Adesso
+Nel marzo 2025 Ilva ha chiesto di passare alla «post-gestione», i 30 anni di sorveglianza, ma la Provincia ha giudicato la richiesta inammissibile [1][7]. A marzo 2026 il Consiglio di Stato ha respinto anche l'ultimo ricorso di Ilva [5]. Il decreto-legge n. 154 del 28 agosto 2026 cambia le regole sulle garanzie per le società in amministrazione straordinaria [18]: non si sa ancora se basterà per il certificato.
 
 ## Che posto è
 Una vecchia cava fuori dalla fabbrica, rimasta a Ilva in amministrazione straordinaria; solo una parte è dentro il SIN [8][9][10].

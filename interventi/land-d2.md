@@ -1,8 +1,15 @@
 # A16 – Land D2 (area verde vicino alla Statale 7 Appia)
 *Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
-## In breve
-Il Ministero dell'Ambiente, con il decreto n. 185 del 4 dicembre 2024, l'ha dichiarata **"non contaminata"**, perché il rischio è accettabile per chi ci lavora saltuariamente [2][12]. **Non è stato bonificato niente, perché secondo la legge non serviva**, e l'area **è rimasta dentro il SIN** (il "Sito di interesse nazionale" da bonificare) [2][22].
+## A che punto è
+### Finora
+Nel 2021 Ilva ha analizzato terreno e materiale di riporto, con ARPA presente [8][12]. Nello strato superficiale ci sono idrocarburi pesanti oltre il limite per le zone residenziali (256 mg/kg secondo ARPA, limite 50) [7]; acqua sotterranea non ce n'è, come hanno confermato quattro controlli nel 2023 [15][16]. Il 4 dicembre 2024 il Ministero ha approvato l'analisi di rischio e ha dichiarato l'area «non contaminata» (decreto n. 185) [2].
+
+### Cosa manca
+Per legge niente: non serve bonificare, perché il rischio calcolato è accettabile per chi ci lavora saltuariamente [2][12]. Ma gli inquinanti restano lì, e il decreto vale solo per l'uso di oggi, un'area recintata e quasi mai frequentata: per un parco, un giardino o per riaprire la chiesa servirebbe una nuova analisi di rischio [2][18]. L'area è rimasta dentro il SIN [22].
+
+### Adesso
+Secondo Ilva sull'area si fa solo la manutenzione del verde [1]. Il decreto chiede di scrivere queste condizioni nel piano regolatore del Comune [2].
 
 ## Che posto è
 Un piccolo terreno di circa 910 m² nella zona industriale di Taranto, lungo la Statale 7 Appia, con erbacce, una chiesetta abbandonata e un traliccio ENEL [12][9].

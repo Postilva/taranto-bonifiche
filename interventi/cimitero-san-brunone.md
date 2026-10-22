@@ -3,8 +3,15 @@
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
-## In breve
-La bonifica è stata progettata tra il 2015 e il 2018 e i lavori sono iniziati nel maggio 2020, ma si sono fermati dopo tre mesi, e nel 2021 la gara è stata annullata [3]. **Il cimitero non è bonificato.** Ad agosto 2026 il Commissario scrive che la "messa in sicurezza d'emergenza" dei suoli è "completata" [14], ma nessun altro documento la descrive: risultano solo i lavori interrotti nel 2020, le recinzioni e i teloni sulla terra scavata [3][10][11]. Nel 2026 si sta rifacendo il progetto, con un costo stimato di 17,5 milioni €, mentre i soldi disponibili sono circa 9,4 milioni €, e nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha ricevuto nulla [1][3][12].
+## A che punto è
+### Finora
+La terra dei campi e delle aiuole è stata analizzata e ARPA ha convalidato i risultati [5]. Nel 2016 la Regione ha approvato l'analisi di rischio e nel 2017–2018 il progetto: togliere la terra inquinata e sostituirla con materiale di cava [3][4][5][8]. I lavori sono partiti nel maggio 2020 [3].
+
+### Cosa manca
+I lavori si sono fermati dopo tre mesi e il 6 maggio 2021 il Commissario ha annullato la gara, per errori nei conti del progetto [3][10]. Sul posto restano recinzioni e teloni sulla terra scavata [3][10][11]. Il Commissario scrive che la messa in sicurezza d'emergenza è «completata» [14], ma nessun atto la descrive: non è verificata [3][15].
+
+### Adesso
+Dal 2026 Sogesid sta rifacendo il progetto [3]. Costa circa 17,5 milioni di euro e ce ne sono circa 9,4 [1][3]; nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha avuto nulla [12].
 
 ## Che posto è
 Il cimitero storico di Taranto, nel quartiere Tamburi, vicino all'ex Ilva: la contaminazione riguarda il terreno dei campi dove si seppelliscono i morti e delle aiuole [1][2][4].

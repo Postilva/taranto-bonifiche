@@ -1,8 +1,15 @@
 # D8 – Area vasta di Statte: terreni contaminati fuori dal SIN
 *Stato scheda: approvata — aggiornata al 20 ottobre 2026*
 
-## In breve
-Nel 2018 la Provincia ha individuato il responsabile della contaminazione dei terreni di Statte fuori dal SIN, e secondo ARPA è l'Ilva, "per alcuni parametri come diossine e furani" [3][4]. **Non è stato bonificato né messo in sicurezza nulla**: dal 2017 nelle aree più inquinate ci sono solo divieti, per esempio di arare e di coltivare cibo [1]. Ad aprile 2020 il sito risultava "contaminato" e nel 2021 la Regione scriveva che i confini delle zone inquinate erano ancora "in fase di definizione" [5][6].
+## A che punto è
+### Finora
+Nel 2014–2015 il Comune ha analizzato tutto il suo territorio fuori dal SIN, e i valori superavano i limiti [1]. Nel 2017 la Regione ha approvato l'analisi di rischio: in alcune zone il rischio per la salute è «inaccettabile» [1][2]. Così il Sindaco ha vietato, in 19 zone, di arare, scavare e produrre cibo (ordinanza n. 62/2017) [1]. Nel 2018 la Provincia ha individuato il responsabile, che secondo ARPA è l'Ilva «per alcuni parametri come diossine e furani» [3][4].
+
+### Cosa manca
+Non è stato bonificato né messo in sicurezza nulla: ci sono stati solo i divieti, e l'ordinanza valeva fino alla fine del 2018 [1]. Nel 2021 la Regione scriveva che i confini delle zone inquinate erano ancora «in fase di definizione» [6]. Non si sa come siano andate le nuove analisi delle aree agricole, finanziate dalla Regione con 750.000 € [6].
+
+### Adesso
+Ilva ha detto di non avere più interesse al suo ricorso contro la Provincia, e nel dicembre 2022 il TAR ha chiuso la causa senza decidere [3]. Dopo non abbiamo trovato atti pubblici. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Provincia e al Comune di Statte con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
 
 ## Che posto è
 Quasi tutto il territorio del Comune di Statte che sta fuori dal SIN: circa 58 km², con campi, zone rurali e il paese [1][5][6]. Il SIN, che comprende lo stabilimento, è escluso [1].

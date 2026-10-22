@@ -366,14 +366,28 @@ body.panel-off .paneltoggle{display:inline-flex;align-items:center}
 .rp-head h1{font-size:clamp(1.45rem,5.6vw,2.2rem);font-weight:800;overflow-wrap:anywhere}
 .verdict{background:var(--gA-soft);color:var(--ink);border-radius:14px;padding:12px 14px;font-weight:600;line-height:1.45;border-left:4px solid var(--gA)}
 .rp-head.gB .verdict{background:var(--gB-soft);border-left-color:var(--gB)}
-.passi{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.passi li{display:grid;grid-template-columns:14px minmax(0,1fr);gap:10px;align-items:baseline;font-size:.9rem;line-height:1.4}
-.passi i{width:12px;height:12px;border-radius:50%;display:inline-block;transform:translateY(1px)}
-.passi span{color:var(--ink-2)}
-.passi b{color:var(--ink)}
+.stato{display:grid;gap:14px}
+.stato .fase{display:grid;gap:4px;background:var(--surface-2);border-radius:12px;padding:12px 14px}
+.stato .fase b{font-size:1.05rem}
+.stato .fase span{font-size:.88rem;color:var(--ink-2);line-height:1.4}
+.barra5{list-style:none;margin:2px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr)}
+.barra5 li{position:relative;display:grid;justify-items:center;gap:6px;font-size:.7rem;color:var(--ink-2);text-align:center}
+.barra5 li::before{content:"";position:absolute;top:8px;left:-50%;width:100%;height:3px;background:var(--line);z-index:0}
+.barra5 li:first-child::before{display:none}
+.barra5 li.done::before{background:var(--s-done)}
+.barra5 i,.leg5 i{position:relative;z-index:1;width:18px;height:18px;border-radius:50%;box-sizing:border-box;border:3px solid var(--c);background:var(--surface)}
+.barra5 .done i,.leg5 .done i{background:var(--c)}
+.barra5 .part i,.leg5 .part i{background:linear-gradient(90deg,var(--c) 50%,var(--surface) 50%)}
+.barra5 .no i,.leg5 .no i,.barra5 .na i{border-style:dashed}
+.leg5{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.74rem;color:var(--ink-3)}
+.leg5 span{display:inline-flex;align-items:center;gap:6px}
+.leg5 i{width:12px;height:12px;border-width:2px}
+.stato .blocco h3{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
+.stato .blocco .prose{font-size:.95rem;line-height:1.55;color:var(--ink)}
+.stato .nota{font-size:.78rem;color:var(--ink-3);line-height:1.45;border-top:1px solid var(--line);padding-top:10px}
 .kv{display:grid;gap:14px}
 .kv>div{display:grid;gap:6px}
-.kv .k{font:700 .72rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.kv .k,.stato .k{font:700 .72rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
 .chi{display:flex;flex-wrap:wrap;gap:6px}
 .chi span{background:var(--surface-2);border-radius:999px;padding:5px 11px;font-size:.82rem}
 .chi span:first-child{background:var(--ink);color:var(--bg);font-weight:700}

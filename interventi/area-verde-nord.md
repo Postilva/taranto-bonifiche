@@ -1,8 +1,15 @@
 # A9 – Area a verde Nord (Statte, accanto alla Gravina di Leucaspide)
 *Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
-## In breve
-**Non è stato bonificato né messo in sicurezza**: l'analisi di rischio è stata respinta e la pratica archiviata dal Ministero a febbraio 2024, e da allora nell'archivio pubblico non c'è niente di nuovo [12].
+## A che punto è
+### Finora
+Il terreno e l'acqua sotterranea sono stati analizzati tra il 2021 e il 2022, con ARPA, che ha validato i risultati nel febbraio 2023 [4]. Nel luglio 2023 Ilva ha mandato l'analisi di rischio [5].
+
+### Cosa manca
+ARPA e ISPRA hanno chiesto di rifare l'analisi di rischio: con ipotesi più prudenti «emergono rischi... talvolta superiori ai limiti tollerabili» [7][8]. Il 16 febbraio 2024 il Ministero ha archiviato la pratica [12]. Non c'è nessuna messa in sicurezza e nessuna bonifica.
+
+### Adesso
+Ilva dice che sta completando nuovi pozzi; poi controllerà l'acqua ogni tre mesi per almeno due anni, e solo dopo farà una nuova analisi di rischio [1][17]. Con questi tempi non arriverà prima della fine del 2027 (stima nostra). Nell'archivio del Ministero non c'è niente su quest'area dopo il febbraio 2024 (verificato il 2 ottobre 2026).
 
 ## Che posto è
 Un grande terreno incolto di circa 26,7 ettari nel Comune di Statte, tra la Gravina di Leucaspide e il paese, a meno di 1 km dal centro e a circa 100 metri dalle prime case, dentro un'area naturale protetta [4][6].

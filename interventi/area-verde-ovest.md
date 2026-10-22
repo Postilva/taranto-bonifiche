@@ -1,8 +1,15 @@
 # A8 – Area a verde ovest (lungo la strada provinciale per Statte)
 *Stato scheda: approvata — aggiornata all'8 ottobre 2026*
 
-## In breve
-**Non è stato bonificato né messo in sicurezza**: l'analisi di rischio del 2023 è stata respinta e va rifatta, nel 2025 sono stati trovati materiali di riporto fino a 21 metri di profondità, e il terreno non è recintato e ha rifiuti abbandonati al confine nord [10][12][17][18][1].
+## A che punto è
+### Finora
+Terreno e acqua sotterranea sono stati analizzati nel 2021, con ARPA presente, che ha validato i risultati nel 2022 [5][1]. Per il terreno l'analisi di rischio di Ilva stessa dice «contaminato» [5]. Secondo Ilva, da dicembre 2025 ci sono 5 nuovi pozzi per controllare l'acqua [1][13].
+
+### Cosa manca
+L'analisi di rischio del 2023 è stata respinta: con ipotesi più prudenti ARPA e ISPRA vedono rischi oltre i limiti, per esempio per alcuni metalli [8][9][10]. Nel novembre 2025, scavando un pozzo, è uscito materiale portato dall'uomo fino a 21 metri di profondità, mentre nel 2021 sembrava arrivare al massimo a 6 [18]. Il terreno non è recintato e al confine nord ci sono rifiuti abbandonati [1][17].
+
+### Adesso
+Prima di una nuova analisi di rischio ARPA chiede un nuovo piano di indagini (gennaio 2026) [17][18]. Ilva ha in programma la recinzione e la rimozione dei rifiuti, ancora da fare; per ora taglia solo le fasce contro gli incendi [1].
 
 ## Che posto è
 Un terreno incolto di circa 6,8 ettari (come 9-10 campi da calcio) nel Comune di Statte, tra la fabbrica e la zona artigianale (PIP) di Statte, lungo la strada provinciale 48 [4][5][8].

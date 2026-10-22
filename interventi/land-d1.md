@@ -1,8 +1,15 @@
 # A12 – Land D1 (area verde lungo il vecchio canale di scarico della fabbrica)
 *Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
-## In breve
-Le analisi sono state validate da ARPA Puglia nel novembre 2023 [8]. **Non è bonificata e non è messa in sicurezza**: alla fine del 2025 la rimozione dei rifiuti sepolti era "in corso di ultimazione" secondo Ilva e l'analisi di rischio non era ancora stata presentata al Ministero [1].
+## A che punto è
+### Finora
+Tra il 2021 e il 2023 Ilva ha analizzato il terreno e il materiale di riporto, e ARPA ha validato i risultati il 27 novembre 2023 [3][8]. I pozzetti per l'acqua sotterranea sono rimasti asciutti; secondo Ilva i controlli chiesti da ARPA sono stati fatti da gennaio a ottobre 2025 [1][8].
+
+### Cosa manca
+Durante le analisi sono stati trovati rifiuti sepolti sopra il vecchio canale di scarico della fabbrica: a fine 2025 la loro rimozione era «in corso di ultimazione» secondo Ilva [1][2]. L'analisi di rischio non è stata presentata: al 13 ottobre 2026 non è nell'archivio del Ministero [1][8]. I risultati dei controlli sull'acqua non sono pubblici [1].
+
+### Adesso
+Ilva manderà l'analisi di rischio dopo i controlli dell'acqua [1]. Ha anche dato l'incarico di progettare la messa in sicurezza di una strada, sotto la quale le analisi hanno trovato una cavità [1][3].
 
 ## Che posto è
 Un'area verde di circa 3 ettari appena fuori dalla fabbrica, sul lato sud-ovest, vicino a Land D2 [5][8].
