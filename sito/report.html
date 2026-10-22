@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610221200">
+<link rel="stylesheet" href="stile.css?v=202610221600">
 
 <header class="topbar">
   <div class="in">
@@ -42,16 +42,16 @@
   <div class="wrap">
     <p>Il testo viene solo dalle schede approvate del progetto "Bonifiche Ilva". Ogni frase ha una fonte ufficiale, indicata con il numero tra parentesi quadre. I giornali non sono usati come fonte.</p>
     <p>A cura di Antonio De Pace<span class="contatto-sep"> · </span><a class="contatto" href="#" target="_blank" rel="noopener">Scrivici</a></p>
-    <p>Mappa: © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
+    <p>Mappa: foto satellitare di Esri, Maxar, Earthstar Geographics; contorno dello stabilimento © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
   </div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610221200"></script>
-<script src="comune.js?v=202610221200"></script>
+<script src="dati.js?v=202610221600"></script>
+<script src="comune.js?v=202610221600"></script>
 <script>
 /* Report di un intervento: report.html#<id-scheda> (oppure #<id-scheda>-f<n> per aprire una fonte).
-   Ordine fisso: foto, testata, a che punto è, che posto è e perché è inquinata, sostanze, mappa, chi e soldi,
+   Ordine fisso: testata, mappa satellitare, che posto è e perché è inquinata, a che punto è, sostanze, chi e soldi,
    poi le sezioni a fisarmonica (storia, cosa è stato fatto, cosa non sappiamo, approfondimenti, fonti). */
 const acc = (title, body, opts={}) => `<details class="acc"${opts.id ? ` id="${opts.id}"` : ""}${opts.open ? " open" : ""}><summary><span>${title}${opts.sub ? `<small>${opts.sub}</small>` : ""}</span></summary><div class="body prose">${body}</div></details>`;
 
@@ -104,18 +104,17 @@ function render(s){
   const extra = s.sections.filter(x => !/^date principali/i.test(x.title));
   const g = GRUPPO[s.code] || "A";
   let h = `<a class="back" href="mappa.html${p ? "#" + s.code : ""}">← Mappa</a>
-    ${s.immagine ? fotoHtml(s.immagine, "rp-photo", true) : ""}
     <header class="rp-head g${g}">
       <div class="meta"><span class="badge ok">✔ verificato</span><span class="codes">${s.codes.join(" + ")}</span><span>${grpLabel(s.code)}</span>${DA_VERIFICARE.has(s.code) ? `<span class="badge expl">Legame con l'Ilva da verificare</span>` : ""}</div>
       <h1>${esc(s.title)}</h1>
       ${s.verdict ? `<p class="verdict">${esc(s.verdict)}</p>` : ""}
       ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}
     </header>`;
-  h += statoHtml(s);
+  h += mappaHtml(p, s);
   if (s.posto || s.perche) h += `<div class="ctx2">${s.posto ? `<section class="card"><h2>Che posto è</h2><div class="prose">${c(s.posto)}</div></section>` : ""}${s.perche ? `<section class="card"><h2>Perché è inquinata</h2><div class="prose">${c(s.perche)}</div><a class="more-link" href="index.html#come-inquina">Come inquina l'Ilva →</a></section>` : ""}</div>`;
+  h += statoHtml(s);
   const sost = glossarioIn([...s.punto.map(b => b.html), s.posto, s.perche, s.fatto, ...s.sections.map(x => x.html)].join(" "));
   if (sost.length) h += `<p class="sost">Sostanze: ${sost.map(g => `<a href="index.html#${g.id}">${esc(g.titolo.replace(/\s*\(.*\)$/, ""))}</a>`).join("")}</p>`;
-  h += mappaHtml(p, s);
   h += infoHtml(s);
   const story = storyHtml(s), accs = [];
   if (story) accs.push(acc("La storia", story, {sub: `${s.date.length} date, dalla più vecchia alla più recente`}));
@@ -130,10 +129,11 @@ function render(s){
 
   if (mini) { mini.remove(); mini = null; }
   if (window.L && p) {
-    mini = L.map("minimap", {minZoom:12, maxZoom:14, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false, dragging:!L.Browser.mobile, tap:false});
-    addTiles(mini);
+    // foto satellitare (Esri World Imagery) e vista iniziale allo zoom più vicino (a 19 qui la foto è sgranata)
+    mini = L.map("minimap", {minZoom:12, maxZoom:18, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false, dragging:!L.Browser.mobile, tap:false});
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {maxZoom:18, attribution:"Foto satellitare: Esri, Maxar, Earthstar Geographics"}).addTo(mini);
     L.polygon(STABILIMENTO, {color:"#c2410c", weight:1.5, fillColor:"#c2410c", fillOpacity:.06, interactive:false}).addTo(mini);
-    mini.setView(p.ll, p.official ? 14 : 13, {animate:false});
+    mini.setView(p.ll, 18, {animate:false});
     L.marker(p.ll, {icon:pinIcon(p, "sel"), interactive:false}).addTo(mini);
   }
 }

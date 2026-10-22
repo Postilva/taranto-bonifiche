@@ -436,3 +436,4 @@ body.panel-off .paneltoggle{display:inline-flex;align-items:center}
   #minimap{height:240px}
 }
 .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.9) contrast(.9) saturate(.6)}
+#minimap .leaflet-tile-pane{filter:none}   /* foto satellitare a colori veri */
