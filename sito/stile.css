@@ -9,6 +9,9 @@
   --oxide:var(--gA); --oxide-soft:var(--gA-soft); --sea:var(--gB); --sea-soft:var(--gB-soft);
   --todo:#71717a; --todo-soft:#1f1f22; --alert:#ff6a2b;
   --s-done:#22c55e; --s-part:#eab308; --s-todo:#ff6a2b; --s-no:#71717a; --s-na:#3f3f46;
+  /* fasi sulla mappa ("a che punto è"): grigio = analisi ancora da fare, poi un verde sempre più chiaro man mano che si va avanti
+     (scala di un solo colore, controllata per daltonismo e contrasto) */
+  --ph-dafare:#52525b; --ph-analisi:#2d6e45; --ph-rischio:#3f9a5a; --ph-mis:#5cb874; --ph-nonserve:#7fcf92; --ph-bonifica:#a5e2b3; --ph-cert:#d0f5d9;
   --m-est:#1c5cab; --m-st:#3987e5; --m-pay:#9ec5f4;
   --f-body:"Space Grotesk","Segoe UI",system-ui,-apple-system,sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
@@ -259,8 +262,20 @@ td.num{text-align:right;font-family:var(--f-mono);font-size:.85rem;white-space:n
 .pin.exact{border-style:solid;border-width:2.5px;border-color:var(--ink)}
 .pin.hl{transform:translate(-50%,-50%) scale(1.18)}
 .pin.sel{background:var(--ink);color:var(--bg);border-color:var(--ink);transform:translate(-50%,-50%) scale(1.12)}
-.pin.off{opacity:.18;pointer-events:none}
 .zlo .pin{font-size:10px;padding:3px 6px}
+/* colore per fase (body.cf): ogni pallino, voce dell'elenco o della legenda porta la classe f-<fase> */
+.f-dafare{--fc:var(--ph-dafare);--fc-ink:var(--ink)}.f-analisi{--fc:var(--ph-analisi);--fc-ink:var(--ink)}
+.f-rischio{--fc:var(--ph-rischio);--fc-ink:var(--on-g)}.f-mis{--fc:var(--ph-mis);--fc-ink:var(--on-g)}.f-nonserve{--fc:var(--ph-nonserve);--fc-ink:var(--on-g)}
+.f-bonifica{--fc:var(--ph-bonifica);--fc-ink:var(--on-g)}.f-cert{--fc:var(--ph-cert);--fc-ink:var(--on-g)}
+.f-nessuna{--fc:var(--surface);--fc-ink:var(--ink-2)}
+.cf .pin.ok{background:var(--fc);color:var(--fc-ink);border-color:rgba(255,255,255,.6)}   /* bordo chiaro: i pallini scuri si vedono anche sulla mappa scura */
+.cf .pin.ok.f-nessuna{border-color:var(--ink-3)}
+.cf .pin.ok.sel{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+/* gruppo di pallini vicini: cerchio col numero, l'anello ha i colori delle aree dentro */
+.pin.cl{padding:0;width:38px;height:38px;border-radius:50%;border:0;background:var(--ring);display:grid;place-items:center;box-shadow:0 2px 8px rgba(0,0,0,.45)}
+.pin.cl b{width:27px;height:27px;border-radius:50%;background:var(--bg);color:var(--ink);display:grid;place-items:center;font:700 13px/1 var(--f-mono)}
+.pin.cl.hl{transform:translate(-50%,-50%) scale(1.15)}
+.leaflet-cluster-anim .leaflet-marker-icon{transition:transform .3s ease-out,opacity .3s ease-in}
 
 /* ---------- Leaflet: CSS essenziale ---------- */
 .leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}
@@ -320,6 +335,8 @@ body.mappa{height:100svh;overflow:hidden;display:flex;flex-direction:column}
 .list .dot{font:700 11px/1 var(--f-mono);padding:5px 8px;border-radius:999px;background:var(--todo-soft);color:var(--ink-2);border:1px dashed var(--ink-3);grid-row:span 2;min-width:3.4em;text-align:center}
 .list li.ok .dot{background:var(--gA);color:var(--on-g);border:1px solid var(--gA)}
 .list li.ok.gB .dot{background:var(--gB);border-color:var(--gB)}
+.cf .list li.ok .dot{background:var(--fc);color:var(--fc-ink);border-color:var(--fc)}
+.cf .list li.ok.f-nessuna .dot{border-color:var(--ink-3)}
 .list .nm{font-weight:600;font-size:.92rem;line-height:1.25}
 .list .vd{font-size:.8rem;color:var(--ink-3);line-height:1.3}
 .list li.sub{display:block;min-height:0;font:700 .72rem/1 var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);padding:14px 6px 6px;cursor:default;background:none}
@@ -328,7 +345,25 @@ body.mappa{height:100svh;overflow:hidden;display:flex;flex-direction:column}
 body.panel-off .panel{transform:translateY(calc(100% + 12px))}
 body.panel-off .paneltoggle{display:inline-flex;align-items:center}
 .panel .close{position:absolute;top:12px;right:12px;width:40px;height:40px;border-radius:50%;border:0;background:var(--surface-2);color:var(--ink);cursor:pointer;font:600 15px/40px var(--f-body)}
-.legend-map{display:none}
+/* legenda e interruttore dei colori: in alto a sinistra sul telefono (chiusa), in basso a destra sul computer (aperta) */
+.legend-map{position:absolute;z-index:999;left:10px;top:10px;max-width:calc(100% - 76px);background:var(--surface);color:var(--ink-2);border-radius:16px;box-shadow:var(--shadow),0 4px 14px rgba(0,0,0,.35);font-size:.8rem;line-height:1.35}
+.legend-map summary{list-style:none;cursor:pointer;min-height:40px;display:flex;align-items:center;gap:12px;padding:0 14px;font:600 .85rem/1 var(--f-body);color:var(--ink);white-space:nowrap}
+.legend-map summary::-webkit-details-marker{display:none}
+.legend-map summary::after{content:"";width:7px;height:7px;border:solid var(--ink-2);border-width:0 2px 2px 0;transform:translateY(-2px) rotate(45deg);margin-left:auto}
+.legend-map[open] summary::after{transform:translateY(2px) rotate(-135deg)}
+.legend-map .lg-in{padding:2px 12px 12px;display:grid;gap:10px;width:min(290px,calc(100vw - 96px))}
+.seg{display:flex;background:var(--surface-2);border-radius:999px;padding:3px}
+.seg button{flex:1;font:600 .8rem/1 var(--f-body);min-height:36px;padding:0 10px;border:0;border-radius:999px;background:none;color:var(--ink-2);cursor:pointer;white-space:nowrap}
+.seg button[aria-checked="true"]{background:var(--ink);color:var(--bg)}
+.lg-voci{list-style:none;margin:0;padding:0;display:grid;gap:5px}
+.lg-voci li{display:flex;align-items:center;gap:8px}
+.lg-voci .sw{width:14px;height:14px;border-radius:50%;background:var(--fc);flex:none;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.18)}
+.lg-voci .sw.gA{background:var(--gA)}.lg-voci .sw.gB{background:var(--gB)}.lg-voci .sw.todo{background:none;box-shadow:inset 0 0 0 1.5px var(--ink-3)}
+.lg-voci .n{margin-left:auto;padding-left:8px;font:500 .75rem/1 var(--f-mono);color:var(--ink-3)}
+.lg-x{display:flex;align-items:center;gap:8px;border-top:1px solid var(--line);padding-top:8px}
+.lg-x+.lg-x{border-top:0;padding-top:0}
+.legend-map .pin{position:static;transform:none;font-size:10px;padding:2px 6px;cursor:default;box-shadow:none;flex:none}
+.legend-map .pin.cl{width:26px;height:26px;padding:0}.legend-map .pin.cl b{width:18px;height:18px;font-size:10px}
 /* anteprima di un punto: cassetto in basso sul telefono, riquadro accanto al punto sul computer */
 .pv{position:absolute;z-index:1002;left:0;right:0;bottom:0;max-height:78%;display:flex;flex-direction:column;background:var(--surface);color:var(--ink);border-radius:22px 22px 0 0;box-shadow:0 -8px 28px rgba(0,0,0,.35);transition:transform .2s}
 .pv[hidden]{display:none}
@@ -340,6 +375,8 @@ body.panel-off .paneltoggle{display:inline-flex;align-items:center}
 .pv .nm{font-size:1.12rem;font-weight:700;line-height:1.25;overflow-wrap:anywhere}
 .pv .fs{font-size:.92rem;font-weight:600;color:var(--gA)}
 .pv.gB .fs{color:var(--gB)}
+.cf .pv .grp b{background:var(--fc);color:var(--fc-ink);box-shadow:inset 0 0 0 1px rgba(255,255,255,.18)}
+.cf .pv .fs{color:var(--ink)}
 .pv .x{position:absolute;top:14px;right:12px;width:40px;height:40px;border-radius:50%;border:0;background:var(--surface-2);color:var(--ink);font:600 15px/40px var(--f-body);cursor:pointer}
 .pv .more{min-height:0;overflow-y:auto}
 .pv .more .in{display:grid;gap:12px;padding:0 16px calc(16px + env(safe-area-inset-bottom,0px))}
@@ -347,6 +384,7 @@ body.panel-off .paneltoggle{display:inline-flex;align-items:center}
 .pv .posto{display:grid;gap:4px;border-top:1px solid var(--line);padding-top:12px}
 .pv .posto .k{font:700 .72rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
 .pv .posto p{font-size:.9rem;line-height:1.45;color:var(--ink)}
+.pv .list{padding:0 8px calc(10px + env(safe-area-inset-bottom,0px))}
 .pv .go{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:999px;background:var(--ink);color:var(--bg);font-weight:700;text-decoration:none}
 body.pv-on .paneltoggle{display:none}
 @media (min-width:900px){
@@ -354,9 +392,7 @@ body.pv-on .paneltoggle{display:none}
   .panel .ph::before{display:none}
   body.panel-off .panel{transform:translateX(calc(-100% - 24px))}
   .paneltoggle{left:12px;top:12px;bottom:auto;transform:none}
-  .legend-map{position:absolute;z-index:999;right:12px;bottom:28px;background:var(--surface);color:var(--ink-2);border-radius:14px;box-shadow:var(--shadow);padding:8px 12px;font-size:.74rem;line-height:1.45;display:grid;gap:4px}
-  .legend-map span{display:flex;align-items:center;gap:6px}
-  .legend-map .pin{position:static;transform:none;font-size:10px;padding:2px 6px;cursor:default;box-shadow:none}
+  .legend-map{left:auto;top:auto;right:12px;bottom:28px;max-width:none}
   .pv{right:auto;bottom:auto;width:340px;max-height:none;border-radius:20px;box-shadow:0 8px 28px rgba(0,0,0,.4);transition:none}
   .pv .top{padding:14px 64px 12px 16px;touch-action:auto;user-select:auto}
   .pv .grip{display:none}

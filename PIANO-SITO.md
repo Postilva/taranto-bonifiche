@@ -45,7 +45,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 - Nella lista della mappa alcuni riassunti dicono quasi niente: B8 "Non bonificato.", A15 "Non bonificate e non messe in sicurezza in modo definitivo.", B12/B13 "Né bonificato né messo in sicurezza.". Riscrivere la riga in grassetto di quelle schede con lo stesso schema delle migliori (A2, A4, A11): stato + cosa c'è di concreto, una frase, con la fonte. Solo dati già nelle schede.
 - Prima elencare tutte le 31 righe e farle approvare all'utente, poi scriverle.
 
-### [ ] 6. Tamburi illeggibile sul telefono e colori per fase
+### [x] 6. Tamburi illeggibile sul telefono e colori per fase (fatto il 22/10/2026)
 - A 390 px B2, B8, B9 e D1–D6 sono uno sopra l'altro. Raggruppare i pallini vicini (a uno zoom basso un pallino col numero, che al tocco apre l'elenco del gruppo o fa zoom), senza librerie pesanti se si può (Leaflet.markercluster da cdnjs va bene).
 - Colori: oggi i pallini sono arancione/azzurro per gruppo. Aggiungere un interruttore "Colora per: gruppo / a che punto è" con i colori di FASI (gli stessi del grafico della home). *Da decidere:* quale dei due è il default (raccomandato: "a che punto è", che risponde al titolo del sito).
 - Verifica: a 390 px toccare il gruppo Tamburi e aprire D3.

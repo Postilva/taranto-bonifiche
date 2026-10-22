@@ -251,6 +251,8 @@ const reportHref = code => { const s = verified[code]; return "report.html#" + (
 const mini5Html = steps => `<span class="mini5" aria-label="${esc(steps.map(([k],i) => `${PASSI[i][2]}: ${STATO[k].label.toLowerCase()}`).join(", "))}">${steps.map(([k]) => `<i class="${k}" style="--c:var(${STATO[k].color})"></i>`).join("")}</span>`;
 // fin dove è arrivato un codice: [id, nome, cosa vuol dire] di FASI
 const faseDi = (s, code) => { const st = stepsDi(s, code); return st ? FASI.find(f => f[0] === fase(st)) : [null, "Nessuna bonifica", NO_STEPS[s.id] || ""]; };
+// la stessa fase come chiave per i colori della mappa: "nessuna" se i 5 passaggi non si applicano, "" se non c'è il report
+const faseCode = code => { const s = verified[code]; return s ? faseDi(s, code)[0] || "nessuna" : ""; };
 // schede che non descrivono un intervento di bonifica: i 5 passaggi non si applicano
 const NO_STEPS = {
   "mar-piccolo-studi":"Sono studi e analisi: nessuna bonifica, nessuna messa in sicurezza.",
@@ -306,7 +308,7 @@ function coverZoom(m, from){
   for (let z = Math.max(11, from); z < 14; z += .25) if (m.getBoundsZoom(tileBounds(z), true) <= z) return z;
   return 14;
 }
-const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${GRUPPO[p.code]} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
+const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${GRUPPO[p.code]} f-${faseCode(p.code)} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
 const fmtMln = v => v.toLocaleString("it-IT",{minimumFractionDigits:1,maximumFractionDigits:2});
 const STATO = Object.fromEntries(STATI.map(s => [s[0], {label:s[1], color:s[2]}]));
 
