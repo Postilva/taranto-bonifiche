@@ -33,7 +33,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 - **Numeri**: home 22 + 14 = 36, grafico 34 blocchi, schede 31. Sotto il grafico, accanto alla nota su B6, aggiungere: "A5 e A6 hanno un solo report, i cinque sottoperimetri del Tamburi uno solo". Contare dal codice, non scrivere i numeri a mano.
 - Verifica: home e mappa a 390 px con i filtri.
 
-### [ ] 4. Note delle fonti più leggere
+### [x] 4. Note delle fonti più leggere (fatto il 22/10/2026)
 - Frasi con 5–6 note di fila, es. "[3][4][5][6][9][13]". In `cite` (`comune.js:47`) unire le note consecutive in un solo richiamo, es. "[3–6, 9, 13]": ogni numero resta cliccabile (o il primo clic apre la lista delle fonti di quella frase). Solo visualizzazione: il testo delle schede non cambia.
 - Verifica: A15 "Che posto è" a 390 px; il clic deve ancora portare alla fonte.
 

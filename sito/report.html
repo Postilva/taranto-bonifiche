@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610222300">
+<link rel="stylesheet" href="stile.css?v=202610231000">
 
 <header class="topbar">
   <div class="in">
@@ -47,8 +47,8 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610222300"></script>
-<script src="comune.js?v=202610222300"></script>
+<script src="dati.js?v=202610231000"></script>
+<script src="comune.js?v=202610231000"></script>
 <script>
 /* Report di un intervento: report.html#<id-scheda> (oppure #<id-scheda>-f<n> per aprire una fonte).
    Ordine fisso: testata, mappa satellitare, che posto è e perché è inquinata, a che punto è, sostanze, chi e soldi,
@@ -163,11 +163,11 @@ addEventListener("resize", fermaSide);
 document.fonts?.ready.then(fermaSide);
 
 function showFonte(id){
-  const li = document.getElementById(id);
-  if (!li) return;
+  const lis = fontiLi(document, id);
+  if (!lis.length) return;
   $("#fonti").open = true;
-  li.scrollIntoView({block:"center"});
-  li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1800);
+  lis[0].scrollIntoView({block:"center"});
+  lis.forEach(li => { li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1800); });
 }
 
 // report.html#<id-scheda>, #<id-scheda>-f<n> (una fonte) oppure #<codice> (per le schede divise evidenzia la parte, es. #D3)
