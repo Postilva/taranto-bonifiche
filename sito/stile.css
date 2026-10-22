@@ -321,7 +321,7 @@ body.mappa{height:100svh;overflow:hidden;display:flex;flex-direction:column}
 .list li.ok .dot{background:var(--gA);color:var(--on-g);border:1px solid var(--gA)}
 .list li.ok.gB .dot{background:var(--gB);border-color:var(--gB)}
 .list .nm{font-weight:600;font-size:.92rem;line-height:1.25}
-.list .vd{font-size:.8rem;color:var(--ink-3);line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.list .vd{font-size:.8rem;color:var(--ink-3);line-height:1.3}
 .list li.sub{display:block;min-height:0;font:700 .72rem/1 var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);padding:14px 6px 6px;cursor:default;background:none}
 .list li.empty{display:block;color:var(--ink-3);padding:16px;cursor:default}
 .paneltoggle{position:absolute;z-index:1001;left:50%;transform:translateX(-50%);bottom:calc(18px + env(safe-area-inset-bottom,0px));font:700 .95rem/1 var(--f-body);min-height:48px;padding:0 20px;border-radius:999px;border:0;background:var(--ink);color:var(--bg);box-shadow:0 6px 18px rgba(0,0,0,.3);cursor:pointer;display:none}

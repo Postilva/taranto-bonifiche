@@ -27,7 +27,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 - Il **Ministero della Difesa** (Direzione dei lavori e del demanio, "Ufficio di Programma Basi Blu"): si occupa dei lavori delle basi navali, che sono un'altra cosa rispetto alla bonifica (vedi "Cosa paga la Difesa e cosa paga il Commissario") [8][10][11].
 
 ## Cosa è stato fatto
-**Né bonificato né messo in sicurezza.** Per i sedimenti dell'Area 170 ha non risulta nessun lavoro in mare e nessun certificato di bonifica [1].
+**Né bonificato né messo in sicurezza: nessun lavoro sui fanghi è partito, e i circa 33,5 milioni indicati dalla Regione non sono ancora assegnati.** [1][3] Non c'è nessun certificato di bonifica [1].
 
 **Studi ufficiali sull'inquinamento**
 - Già l'Accordo di programma quadro dell'11 giugno 2004 (Ministero dell'Ambiente, Ministero dell'Economia, Commissario delegato per l'emergenza ambientale e Regione Puglia) prevedeva per l'Area 170 ha tre interventi: analisi (500.000 €), progettazione e sperimentazione (1.550.000 €) e bonifica (23.950.000 €), in tutto 26 milioni €, poi portati a 37.244.000 € con altri fondi del Programma nazionale di bonifica [17]. Le fonti trovate non dicono che fine abbiano fatto questi soldi, a parte le analisi del 2005.

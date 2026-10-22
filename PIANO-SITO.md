@@ -41,7 +41,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 
 ## Seconda parte: mappa
 
-### [ ] 5. Riassunti troppo corti o diversi
+### [x] 5. Riassunti troppo corti o diversi (fatto il 22/10/2026)
 - Nella lista della mappa alcuni riassunti dicono quasi niente: B8 "Non bonificato.", A15 "Non bonificate e non messe in sicurezza in modo definitivo.", B12/B13 "Né bonificato né messo in sicurezza.". Riscrivere la riga in grassetto di quelle schede con lo stesso schema delle migliori (A2, A4, A11): stato + cosa c'è di concreto, una frase, con la fonte. Solo dati già nelle schede.
 - Prima elencare tutte le 31 righe e farle approvare all'utente, poi scriverle.
 

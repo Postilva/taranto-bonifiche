@@ -28,7 +28,7 @@ Sono state costruite negli anni '70 per fare da barriera alle polveri dello stab
 - **Ministero dell'Ambiente (MASE)**: nel 2024 ha detto no alla richiesta della Regione di inserire le collinette nel SIN [7].
 
 ## Cosa è stato fatto
-**Non bonificate e non messe in sicurezza in modo definitivo.** Ci sono state solo misure "precauzionali" per limitare la polvere [4][11]. La Commissione parlamentare sui rifiuti le definisce un intervento "provvisorio" [5].
+**Non bonificate né messe in sicurezza in modo definitivo: c'è solo una rete contro la polvere su parte della Collinetta 3, e a fine 2025 le analisi complete non erano iniziate.** [1][11] La Commissione parlamentare sui rifiuti le definisce un intervento "provvisorio" [5].
 
 - **Sequestro** (febbraio 2019): i Carabinieri del NOE, su ordine della magistratura, sigillano un'area di nove ettari con tre collinette. Le analisi di ARPA del settembre precedente avevano trovato rifiuti industriali (loppa, scorie d'altoforno) e superamenti dei limiti per alcuni metalli [9].
 - **Scuole chiuse** (2 marzo 2019): il Sindaco chiude le scuole Deledda e De Carolis, prima fino al 31 marzo e poi fino alla fine dell'anno scolastico. L'ASL aveva scritto che ARPA non escludeva che le polveri delle collinette arrivassero alle aree vicine [9][10].

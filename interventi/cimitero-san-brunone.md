@@ -28,7 +28,7 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 - **Attenzione:** il cimitero è **fuori dal perimetro del SIN** di Taranto (il "Sito di interesse nazionale" da bonificare), anche se gli sta accanto. È però **nell'elenco degli interventi del SIN di Taranto** [2], ed è per questo che se ne occupa il Commissario per la bonifica di Taranto.
 
 ## Cosa è stato fatto
-**Non bonificato.** I lavori sono iniziati e si sono interrotti dopo circa tre mesi [3].
+**Non bonificato: i lavori per togliere la terra inquinata sono partiti a maggio 2020 e si sono fermati dopo tre mesi; restano recinzioni e teloni.** [3]
 
 **Messo in sicurezza? Le fonti non tornano.** La pagina del Commissario sul CIS Taranto (aggiornata ad agosto 2026) dice: "completata la fase di Messa in Sicurezza d'Emergenza (MISE) sui suoli non pavimentati finanziata da risorse MASE e CIPE 55/2016" [14]. Ma il decreto n. 18 di aprile 2026 scrive che l'intervento "risulta interrotto" e parla di "messa in sicurezza" solo per i cumuli di terra coperti con teloni nel 2022 [3]; la Commissione parlamentare sui rifiuti, dopo il sopralluogo del 12 luglio 2022, scrive che la bonifica "deve essere ancora completata" [15]. Non ho trovato nessun atto che approvi o descriva una messa in sicurezza d'emergenza dei campi. Non verificato.
 

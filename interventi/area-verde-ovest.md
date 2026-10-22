@@ -25,7 +25,7 @@ Le analisi del 2021 hanno trovato nella metà ovest del terreno PCB, metalli (ta
 - **Comune di Statte**: deve dire quale uso urbanistico vale per l'area (e quindi quali limiti di legge applicare); questa risposta è stata chiesta dal decreto del 2021 ed è arrivata solo a fine 2025–inizio 2026 [3][14][15][16].
 
 ## Cosa è stato fatto
-**Analizzato. Non bonificato e non messo in sicurezza.** Per il terreno, l'analisi di rischio di Ilva stessa dice "contaminato" [5].
+**Analizzato, non bonificato né messo in sicurezza: per l'analisi di rischio di Ilva stessa il terreno è "contaminato", e quella del 2023 è stata respinta.** [5][8][9][10]
 
 - **Prime analisi nel 2005**: 25 sondaggi, tutti nei limiti allora usati (quelli per le aree industriali); nell'acqua sotterranea, nel 2006 piombo e manganese oltre i limiti, nel 2016 solo un po' di manganese [4][5].
 - **Piano delle analisi** (piano di caratterizzazione): approvato dal Ministero con il **decreto n. 16 del 27 gennaio 2021**, con 14 prescrizioni. Tra queste: almeno 3 pozzi per controllare l'acqua sotterranea, controlli col georadar per via del metanodotto, e la richiesta ai Comuni di Taranto e Statte di dire quale uso urbanistico considerare [3]. Il decreto chiedeva di consegnare risultati e analisi di rischio **entro sei mesi** [3]: sono arrivati **dopo oltre due anni**, il 1° marzo 2023 [6].

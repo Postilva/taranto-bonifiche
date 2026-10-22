@@ -27,7 +27,7 @@ Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 92
 - **ARPA Puglia** e **ISPRA**: controllano sul posto, prelevano campioni e danno i pareri [2][3]. ISPRA controlla anche il rispetto dell'autorizzazione ambientale (AIA) dello stabilimento [5].
 
 ## Cosa è stato fatto
-**Misure provvisorie (di "messa in sicurezza d'emergenza" e di "prevenzione"), non una bonifica.** [2][3]
+**Non bonificata, solo misure provvisorie: dal 2018 una barriera di 11 pozzi pompa e depura l'acqua sotto i Parchi minerali, e trincee raccolgono gli idrocarburi sulla falda.** [2][8][9]
 
 ### 1. La barriera dei Parchi minerali (dal 2018)
 - **Il progetto.** Ilva lo presenta il 26 novembre 2013: una barriera idraulica e un diaframma su tre lati dei Parchi minerali e del Parco loppa. La conferenza di servizi del 18 dicembre 2013, per fare in fretta, chiede di **cominciare pompando dai pozzi già esistenti** [2].

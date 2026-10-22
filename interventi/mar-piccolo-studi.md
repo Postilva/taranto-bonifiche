@@ -26,7 +26,7 @@ Gli studi riguardano i fanghi inquinati del fondale; tra gli studi precedenti ci
 - Il piano delle indagini sui fanghi è stato condiviso con il Ministero dell'Ambiente, ISPRA e ARPA Puglia [2].
 
 ## Cosa è stato fatto
-**Sono studi e analisi. Nessuna bonifica, nessuna messa in sicurezza.**
+**Solo studi e indagini sul fondale e sull'acqua sotterranea, finiti nel 2018: nessun inquinante è stato tolto o trattato.** [1][2]
 
 **1) Accordi con università, ricerca e Forze dell'ordine**
 - L'opuscolo dice che sono stati fatti "accordi di collaborazione con il mondo universitario, della ricerca e delle Forze dell'Ordine" per studiare il Mar Piccolo e trovare le fonti di inquinamento ancora attive, e che "tutti gli accordi risultano conclusi anche finanziariamente" [1]. L'opuscolo non elenca quali sono [1].
