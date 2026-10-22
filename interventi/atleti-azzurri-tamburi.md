@@ -28,7 +28,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 - La società **Apogeo S.r.l.** di Altamura ha fatto per il Comune le indagini preliminari sulle strutture e ha avuto l'incarico di fare prelievi e analisi del terreno (affidamento diretto, CIG B814D04423) [14].
 
 ## Cosa è stato fatto
-**Né bonificato né messo in sicurezza. Nessun certificato.** Finora ci sono solo analisi preliminari, un piano di analisi approvato e un finanziamento per eseguirlo [1][2][3].
+**Né bonificato né messo in sicurezza: il campo è recintato dal 2024 per piombo e IPA nel terreno, e le analisi approvate nel 2025 non sono finite.** [2][3][9][10][14] Il Commissario ha dato al Comune 86.876,20 € per farle [2][3].
 
 **Chi ha trovato piombo e IPA, e quando**
 - Li ha trovati il Comune di Taranto, durante le "indagini preliminari per la valutazione dello stato delle strutture", cioè studi fatti per il progetto di riqualificazione dell'impianto: ha misurato il superamento dei limiti (CSC) nel suolo per piombo e IPA [3]. Il Comune aveva affidato queste indagini ad Apogeo S.r.l. (CIG ZE13843B09) [14].

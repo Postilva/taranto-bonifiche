@@ -26,7 +26,7 @@ Le analisi del 2021–2022 hanno trovato berillio quasi ovunque e, in alcuni pun
 - **Comuni di Taranto e Statte**: il decreto del 2021 chiedeva loro di indicare l'uso urbanistico dell'area [3]. Per quest'area non abbiamo trovato la risposta. Non verificato.
 
 ## Cosa è stato fatto
-**Analizzato. Non bonificato e non messo in sicurezza.** [4][12]
+**Analizzato, non bonificato né messo in sicurezza: ARPA e ISPRA hanno chiesto di rifare l'analisi di rischio di Ilva, e nel 2024 il Ministero ha archiviato la pratica.** [7][8][12]
 
 - **Prime analisi nel 2005**: 71 sondaggi, nessun superamento dei limiti per le aree verdi; nessun pozzo per l'acqua [4]. Nell'area ci sono 4 pozzi di controllo fatti nel 2006 dal Comune di Statte per le indagini sulla Gravina di Leucaspide [4]. Analisi precedenti dell'acqua sotterranea avevano trovato **cromo esavalente** oltre i limiti [3].
 - **Piano delle analisi** (piano di caratterizzazione): approvato con il **decreto n. 17 del 27 gennaio 2021**, con 14 prescrizioni: tenere conto dei vincoli (sito Natura 2000 "Area delle Gravine", Parco "Terra delle Gravine"), almeno 3 pozzi per l'acqua, campioni anche dove c'erano rifiuti abbandonati, e consegnare i risultati **entro sei mesi** [3]. Sono arrivati **dopo due anni e mezzo**, a luglio 2023 [5].

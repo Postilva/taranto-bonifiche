@@ -28,7 +28,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 - La **Marina Militare** è coinvolta perché la zona più inquinata, l'"Area 170 ettari", si trova davanti all'Arsenale [13][1].
 
 ## Cosa è stato fatto
-**Né bonificato né messo in sicurezza.** La gara non è arrivata alla firma di un contratto, quindi non sono partite né le prove in mare né i lavori [1][7].
+**Né bonificato né messo in sicurezza: la gara del 2018 (32,3 milioni) si è fermata nel 2020 senza contratto, e in mare non è stato fatto nessun lavoro.** [1][2][7]
 
 **Prima della gara (2007–2018)**
 - Gli studi ufficiali sono tanti: un progetto preliminare di Sviluppo Italia e ICRAM (2007), le analisi di ISPRA (2010), lo studio di ARPA Puglia (2014) [7][13]. Lo studio di ARPA indicava già le tecniche possibili (dragaggio, copertura dei fondali, biorisanamento) [7].

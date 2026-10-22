@@ -36,7 +36,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 - **ARPA Puglia** e **ISPRA** hanno dato i pareri tecnici sul progetto [13][14].
 
 ## Cosa è stato fatto
-**Né bonificato né messo in sicurezza in modo permanente.** È stato fatto solo un intervento d'emergenza (MISE), che serve a limitare i danni intanto che si progetta quello definitivo [1][6].
+**Né bonificato né messo in sicurezza in modo permanente: nella vecchia cava restano circa 640.000 m³ di rifiuti industriali, e finora c'è stato solo il pompaggio d'emergenza dell'olio sulla falda.** [1][6][10] Il pompaggio è un intervento d'emergenza (MISE), che serve a limitare i danni intanto che si progetta quello definitivo [1][6].
 
 **Cos'è il sito e cosa c'è dentro**
 - Il PIP (Piano per gli insediamenti produttivi) è un'area per le attività produttive lungo la strada provinciale 48 Taranto–Statte, a circa 4 km dalla costa. È grande circa 90.000 m² ed è divisa in lotti di proprietari diversi; su alcuni lotti ci sono attività in funzione [10].

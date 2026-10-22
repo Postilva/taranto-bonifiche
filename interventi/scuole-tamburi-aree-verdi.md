@@ -26,7 +26,7 @@ Il Tamburi è il quartiere accanto all'ex Ilva [3][4]. Secondo la Commissione pa
 - Gli accordi tra Commissario e Comune per questi interventi risalgono al 2013 (accordo del 30/07/2013) e sono stati rinnovati il 12/02/2015 [2][5].
 
 ## Cosa è stato fatto
-**Né "bonificato" né "messo in sicurezza": le analisi hanno concluso che non serviva una bonifica.** Questo, secondo il Commissario, è emerso nella riunione tra gli enti (la "Conferenza di servizi") del 5 febbraio 2016 [2][3].
+**Né bonificato né messo in sicurezza perché non serviva: per l'analisi di rischio approvata dalla Regione nel 2016, il terreno delle tre scuole non è un rischio per la salute.** [2][3] Secondo il Commissario, la conclusione è emersa nella riunione tra gli enti (la "Conferenza di servizi") del 5 febbraio 2016 [2][3].
 
 - **Cosa prevedeva il piano.** Capire quanto e dove il terreno e l'acqua sotto il terreno fossero inquinati, e avere i dati per valutare il rischio per chi frequenta le aree [4].
 - **Analisi del terreno** (la "caratterizzazione"): completata, e i risultati sono stati approvati da ARPA Puglia [2][3]. Le date e chi ha fatto i prelievi non sono scritti nei documenti trovati. Non verificato.

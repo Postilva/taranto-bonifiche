@@ -27,7 +27,7 @@ Il terreno è stato riempito e livellato con "materiali di riporto" (scorie, lop
 - **ARPA Puglia** e **ISPRA**: controllano le analisi e danno i pareri tecnici [3][4].
 
 ## Cosa è stato fatto
-**Analizzato, ma non bonificato né messo in sicurezza.** L'unico intervento sui suoli che l'azienda rivendica sono le **pavimentazioni** dello stabilimento (vedi sotto) [1].
+**Analizzato, ma non bonificato né messo in sicurezza: l'unico intervento sui suoli che l'azienda rivendica sono le pavimentazioni dello stabilimento.** [1]
 
 - **Le analisi (2004–2021).** La prima caratterizzazione, cioè la campagna di analisi del terreno, è del 2005, sulle aree di Ilva e della vicina Sanac, con gli esiti presentati nel 2007; poi gli sporgenti del porto (2014) e un'integrazione nel 2016–2017 [11]. Nel 2023 Eni Rewind scrive che le campagne vanno "a partire dal 2004" fino al 2021 [1]. Secondo ISPRA i sondaggi sono **più di 2.000**, e **su nessuno è stato fatto il test di cessione** sui materiali di riporto [16]. Le analisi fatte per l'autorizzazione ambientale (la "Relazione di riferimento") sono in autocontrollo: l'azienda le fa da sola e ARPA non le valida [16].
 - **L'analisi di rischio del 2016–2017 non è mai stata esaminata.** Il Ministero non l'ha istruita perché ARPA aveva segnalato la presenza diffusa di materiali di riporto, che andavano prima verificati con il "test di cessione" (si mette il materiale in acqua e si misura cosa rilascia) [10].
