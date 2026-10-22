@@ -150,6 +150,14 @@ function fase(steps){
   if (s[0] === "done") return "analisi";
   return "dafare";
 }
+// riquadro "fin dove è arrivata", barra delle 5 tappe e legenda: nel report e nell'anteprima della mappa
+function faseHtml(steps, sid){
+  if (!steps) return `<p class="fase"><b>Nessuna bonifica</b><span>${esc(NO_STEPS[sid] || "La scheda non permette di dire a che punto sono i 5 passaggi.")}</span></p>`;
+  const [, nome, sub] = FASI.find(f => f[0] === fase(steps));
+  return `<p class="fase"><b>${esc(nome)}</b><span>${esc(sub)}</span></p>`;
+}
+const barraHtml = steps => `<ol class="barra5">${steps.map(([k],i) => `<li class="${k}" style="--c:var(${STATO[k].color})" title="${esc(PASSI[i][0])} (${esc(PASSI[i][1])}): ${esc(STATO[k].label)}"><i></i><span>${PASSI[i][2]}</span></li>`).join("")}</ol>`;
+const leg5Html = () => `<p class="leg5">${["done","part","todo","no"].map(k => `<span class="${k}" style="--c:var(${STATO[k].color})"><i></i>${STATO[k].label.toLowerCase()}</span>`).join("")}</p>`;
 const STEPS = {
   "gravina-leucaspide":[["part","Indagini, sondaggi e controlli; il piano delle analisi approvato nel 2022 a fine 2025 non era partito"],["na","La scheda non ne parla"],["todo","Messa in sicurezza delle colline ancora da progettare"],["todo","Non bonificata"],["todo","Non ancora"]],
   "discarica-nord-ovest":[["part","Indagini su rifiuti e terreno 2020–2023; le analisi di tutta la zona sono nella procedura della Gravina (A1)"],["na","La scheda non ne parla"],["part","Solo il progetto, approvato il 16/12/2025; nessuna fonte dice che i lavori siano partiti"],["no","Non prevista: i rifiuti restano sotto una copertura"],["todo","Non ancora: a fine lavori la Provincia dovrà certificare la messa in sicurezza"]],
@@ -193,6 +201,10 @@ const PARTI = {
     ["D3", "Tamburi SP2, aree private", [["part","\"In fase di accertamento\" ad aprile 2020: solo una comunicazione di potenziale contaminazione (2005)"],["todo","Non ancora"],["todo","Non messe in sicurezza"],["todo","Non bonificate"],["todo","Non ancora"]]]
   ]
 };
+// passaggi di un codice: quelli della sua parte se la scheda è divisa (PARTI), altrimenti quelli della scheda
+const stepsDi = (s, code) => PARTI[s.id]?.find(x => x[0] === code)?.[2] || STEPS[s.id];
+// fin dove è arrivato un codice: [id, nome, cosa vuol dire] di FASI
+const faseDi = (s, code) => { const st = stepsDi(s, code); return st ? FASI.find(f => f[0] === fase(st)) : [null, "Nessuna bonifica", NO_STEPS[s.id] || ""]; };
 // schede che non descrivono un intervento di bonifica: i 5 passaggi non si applicano
 const NO_STEPS = {
   "mar-piccolo-studi":"Sono studi e analisi: nessuna bonifica, nessuna messa in sicurezza.",

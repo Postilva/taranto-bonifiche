@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610221600">
+<link rel="stylesheet" href="stile.css?v=202610221800">
 <body class="mappa">
 
 <header class="topbar">
@@ -70,8 +70,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610221600"></script>
-<script src="comune.js?v=202610221600"></script>
+<script src="dati.js?v=202610221800"></script>
+<script src="comune.js?v=202610221800"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -88,28 +88,42 @@ if (isNarrow()) setPanel(false);   // telefono: si parte dalla mappa, l'elenco s
 
 let map, markers = {}, pinEl = {}, selected = null, pv;
 
+// anteprima di un punto: nome, fin dove è arrivata, barra delle 5 tappe, che posto è e link al report.
+// Telefono: cassetto in basso, già aperto a metà (tirato giù si chiude). Computer: riquadro accanto al punto.
 function pvHtml(p){
-  const s = verified[p.code], row = ROW[p.code];
-  return `<div class="band">
-      <span class="badge ${p.ok?"ok":"todo"}" style="${p.ok?"background:rgba(255,255,255,.22);color:#fff":""}">${p.ok?"✔ verificato":"da verificare"}</span>
-      <button type="button" class="x" aria-label="Chiudi l'anteprima">✕</button>
-      <span class="big">${p.code}</span>
-      ${s ? `<span class="vd">${esc(s.verdict)}</span>` : ""}
-    </div>
-    <div class="body">
-      <span class="grp">${grpLabel(p.code, true)}</span>
+  const s = verified[p.code];
+  if (!s) return `<div class="top"><span class="grip" aria-hidden="true"></span><button type="button" class="x" aria-label="Chiudi">✕</button>
+    <span class="grp"><b>${p.code}</b>${grpLabel(p.code, true)}</span><span class="nm">${esc(p.name)}</span><span class="fs">Report in arrivo</span></div>`;
+  const steps = stepsDi(s, p.code), [, f, sub] = faseDi(s, p.code);
+  const posto = (s.posto || "").replace(/<[^>]+>/g, "").replace(/\s*\[\d+\]/g, "");
+  return `<div class="top">
+      <span class="grip" aria-hidden="true"></span>
+      <button type="button" class="x" aria-label="Chiudi">✕</button>
+      <span class="grp"><b>${p.code}</b>${grpLabel(p.code, true)}</span>
       <span class="nm">${esc(p.name)}</span>
-      ${s ? "" : `<span class="st">${esc(row[2])}</span>`}
-      <span class="pos">${esc(posShort(p))}${p.official ? "" : " · " + esc(p.zone.split(" (")[0].replace(/^Zona generica: /,"zona generica: "))}</span>
-      ${s ? `<a class="go" href="report.html#${s.id}">Leggi il report →</a>` : `<span class="pos"><b>Report in arrivo:</b> la scheda non è ancora stata verificata. Il testo sopra riassume la fonte principale, non ancora controllata.</span>`}
-    </div>`;
+      <span class="fs">${esc(f)}</span>
+    </div>
+    <div class="more"><div class="in">
+      ${sub ? `<p class="sub">${esc(sub)}</p>` : ""}${steps ? barraHtml(steps) + leg5Html() : ""}
+      ${posto ? `<div class="posto"><span class="k">Che posto è</span><p>${esc(posto)}</p></div>` : ""}
+      <a class="go" href="report.html#${s.id}">Leggi il report →</a>
+    </div></div>`;
 }
+// computer: il riquadro sta accanto al punto, dal lato con più spazio
 function placePv(){
   if (!pv || pv.hidden || !selected || isNarrow()) return;
   const c = map.getSize(), pt = map.latLngToContainerPoint(PT[selected].ll), w = pv.offsetWidth, h = pv.offsetHeight, minL = 12 + panelW();
-  let left = pt.x + 24 + w <= c.x - 12 ? pt.x + 24 : pt.x - 24 - w;   // dal lato con più spazio
+  let left = pt.x + 24 + w <= c.x - 12 ? pt.x + 24 : pt.x - 24 - w;
   left = Math.max(minL, Math.min(left, c.x - w - 12));
   pv.style.left = left + "px"; pv.style.top = Math.max(12, Math.min(pt.y - h/2, c.y - h - 12)) + "px";
+}
+// telefono: il punto va centrato nello spazio sopra il cassetto; computer: fuori dal pannello dell'elenco
+function centra(p){
+  if (isNarrow()) {
+    const z = Math.max(map.getZoom(), 13), pt = map.project(p.ll, z), H = map.getSize().y, avail = H - pv.offsetHeight;
+    pt.y += H/2 - avail/2;
+    map.setView(map.unproject(pt, z), z);
+  } else map.panInside(p.ll, {paddingTopLeft:[40 + panelW(), 40], paddingBottomRight:[40, 40]});
 }
 function select(code, opts={}){
   if (!map || !PT[code]) return;
@@ -123,20 +137,18 @@ function select(code, opts={}){
   // telefono: l'elenco copre la mappa, quindi si chiude e non si scorre (scorrerlo lo riporterebbe in vista)
   if (isNarrow()) { if (panelOpen()) setPanel(false); }
   else if (opts.scroll && li) li.scrollIntoView({block:"nearest", behavior:"smooth"});
-  pv.className = "pv g" + GRUPPO[p.code] + (p.ok ? " ok" : ""); pv.innerHTML = pvHtml(p); pv.hidden = false;
-  if (isNarrow()) {   // telefono: l'anteprima copre la parte bassa, il punto va centrato nello spazio sopra
-    const z = Math.max(map.getZoom(), 13), pt = map.project(p.ll, z), H = map.getSize().y, avail = H - pv.offsetHeight - 90;
-    pt.y += H/2 - avail/2;
-    map.setView(map.unproject(pt, z), z);
-  } else map.panInside(p.ll, {paddingTopLeft:[40 + panelW(), 40], paddingBottomRight:[40, 40]});
-  history.replaceState(null, "", "#" + code);
+  pv.className = "pv g" + GRUPPO[p.code]; pv.innerHTML = pvHtml(p); pv.hidden = false;
+  document.body.classList.add("pv-on");
+  centra(p);
   placePv();
+  history.replaceState(null, "", "#" + code);
 }
 function deselect(){
   if (selected){ pinEl[selected]?.classList.remove("sel"); markers[selected]?.setZIndexOffset(PT[selected].ok ? 500 : 0); }
   document.querySelectorAll(".list li.sel").forEach(e => e.classList.remove("sel"));
   if (selected) history.replaceState(null, "", location.pathname);
   selected = null; if (pv) pv.hidden = true;
+  document.body.classList.remove("pv-on");
 }
 
 (function initMap(){
@@ -181,15 +193,18 @@ function deselect(){
   });
 
   pv = document.createElement("div"); pv.className = "pv"; pv.hidden = true;
-  map.getContainer().appendChild(pv);
-  L.DomEvent.disableClickPropagation(pv); L.DomEvent.disableScrollPropagation(pv);
-  pv.addEventListener("click", e => {
-    if (e.target.closest(".x")) { deselect(); return; }
-    if (e.target.closest("a")) return;
-    const s = selected && verified[selected]; if (s) location.href = "report.html#" + s.id;
-  });
+  pv.setAttribute("role", "region"); pv.setAttribute("aria-label", "Anteprima dell'intervento");
+  $(".mapwrap").appendChild(pv);
+  pv.addEventListener("click", e => { if (e.target.closest(".x")) deselect(); });
+  // cassetto del telefono: segue il dito verso il basso e, tirato giù, si chiude
+  let y0 = null, dy = 0;
+  pv.addEventListener("pointerdown", e => { if (isNarrow() && e.target.closest(".top") && !e.target.closest("button")) { y0 = e.clientY; dy = 0; pv.setPointerCapture(e.pointerId); } });
+  pv.addEventListener("pointermove", e => { if (y0 === null) return; dy = Math.max(0, e.clientY - y0); pv.style.transform = dy ? `translateY(${dy}px)` : ""; });
+  const lascia = () => { if (y0 === null) return; y0 = null; pv.style.transform = ""; if (dy > 60) deselect(); };
+  pv.addEventListener("pointerup", lascia); pv.addEventListener("pointercancel", lascia);
   map.on("click", deselect);
   map.on("move zoom", placePv);
+  if (window.ResizeObserver) new ResizeObserver(() => placePv()).observe(pv);   // l'altezza cambia quando arrivano i caratteri
   addEventListener("keydown", e => { if (e.key === "Escape") deselect(); });
 })();
 
