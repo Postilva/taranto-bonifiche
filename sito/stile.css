@@ -438,6 +438,15 @@ body.pv-on .paneltoggle{display:none}
 .rp-nav a small{color:var(--ink-3);font-weight:500;font-size:.75rem}
 .rp-nav a.next{text-align:right;grid-column:2}
 .notfound{display:grid;gap:12px;padding:40px 0}
+/* computer: due colonne larghe come la home; a destra mappa e fase, ferme mentre si scorre */
+@media (min-width:1100px){
+  .rp>.wrap.due{max-width:1080px;grid-template-columns:minmax(0,1fr) 360px;gap:28px;align-items:start}
+  .due>.col{display:grid;gap:12px;min-width:0}
+  .due .ctx2{grid-template-columns:1fr}
+  .due .side .stato{gap:10px}
+  .due>.side{position:sticky}   /* top lo calcola fermaSide() in report.html */
+}
+@media (min-width:1100px) and (max-height:760px){.due #minimap{height:180px}}   /* portatili: la colonna di destra entra nello schermo */
 @media (min-width:760px){
   .rp{padding-top:20px}
   .ctx2{grid-template-columns:1fr 1fr}

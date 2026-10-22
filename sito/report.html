@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610221900">
+<link rel="stylesheet" href="stile.css?v=202610222000">
 
 <header class="topbar">
   <div class="in">
@@ -47,21 +47,22 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610221900"></script>
-<script src="comune.js?v=202610221900"></script>
+<script src="dati.js?v=202610222000"></script>
+<script src="comune.js?v=202610222000"></script>
 <script>
 /* Report di un intervento: report.html#<id-scheda> (oppure #<id-scheda>-f<n> per aprire una fonte).
    Ordine fisso: testata, mappa satellitare, che posto è e perché è inquinata, a che punto è, sostanze, chi e soldi,
    poi le sezioni a fisarmonica (storia, cosa è stato fatto, cosa non sappiamo, approfondimenti, fonti). */
 const acc = (title, body, opts={}) => `<details class="acc"${opts.id ? ` id="${opts.id}"` : ""}${opts.open ? " open" : ""}><summary><span>${title}${opts.sub ? `<small>${opts.sub}</small>` : ""}</span></summary><div class="body prose">${body}</div></details>`;
 
-// "A che punto è": fin dove è arrivata e la barra delle 5 tappe (STEPS), poi il racconto della scheda in tre blocchi
-function statoHtml(s){
+// "A che punto è": fin dove è arrivata e la barra delle 5 tappe (STEPS), poi il racconto della scheda in tre blocchi.
+// parte "testa" = solo fase e barra, "racconto" = i tre blocchi e la nota sulle tappe (sul computer stanno in due colonne diverse)
+function statoHtml(s, parte){
   const steps = STEPS[s.id];
-  const testa = faseHtml(steps, s.id) + (steps ? barraHtml(steps) + leg5Html() : "");
-  const blocchi = s.punto.map(b => `<div class="blocco"><h3>${esc(b.title)}</h3><div class="prose">${cite(b.html, s.id)}</div></div>`).join("");
+  const testa = parte === "racconto" ? "" : faseHtml(steps, s.id) + (steps ? barraHtml(steps) + leg5Html() : "");
+  const blocchi = parte === "testa" ? "" : s.punto.map(b => `<div class="blocco"><h3>${esc(b.title)}</h3><div class="prose">${cite(b.html, s.id)}</div></div>`).join("");
   return `<section class="card stato"><span class="k">A che punto è</span>${testa}${blocchi}
-    ${steps ? `<p class="nota">Una tappa è "fatta" solo se lo conferma un ente di controllo (Ministero, Regione, Provincia, ARPA, ISPRA) e vale per tutta l'area.</p>` : ""}</section>`;
+    ${steps && parte !== "testa" ? `<p class="nota">Una tappa è "fatta" solo se lo conferma un ente di controllo (Ministero, Regione, Provincia, ARPA, ISPRA) e vale per tutta l'area.</p>` : ""}</section>`;
 }
 // chi se ne occupa, soldi, aggiornamento
 function infoHtml(s){
@@ -95,6 +96,7 @@ function storyHtml(s){
 }
 
 let mini, miniMarker;
+const LARGO = matchMedia("(min-width:1100px)");
 function render(s){
   const p = PT[s.code], c = t => cite(t, s.id);
   const i = SCHEDE.indexOf(s), prev = SCHEDE[i-1], next = SCHEDE[i+1];
@@ -107,9 +109,11 @@ function render(s){
       ${s.verdict ? `<p class="verdict">${esc(s.verdict)}</p>` : ""}
       ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}
     </header>`;
-  h += mappaHtml(p, s);
+  // sul computer (LARGO) due colonne: a sinistra il testo, a destra mappa e fase con la barra
+  const largo = LARGO.matches, mappa = mappaHtml(p, s);
+  if (!largo) h += mappa;
   if (s.posto || s.perche) h += `<div class="ctx2">${s.posto ? `<section class="card"><h2>Che posto è</h2><div class="prose">${c(s.posto)}</div></section>` : ""}${s.perche ? `<section class="card"><h2>Perché è inquinata</h2><div class="prose">${c(s.perche)}</div><a class="more-link" href="index.html#come-inquina">Come inquina l'Ilva →</a></section>` : ""}</div>`;
-  h += statoHtml(s);
+  h += statoHtml(s, largo ? "racconto" : "");
   const sost = glossarioIn([...s.punto.map(b => b.html), s.posto, s.perche, s.fatto, ...s.sections.map(x => x.html)].join(" "));
   if (sost.length) h += `<p class="sost">Sostanze: ${sost.map(g => `<a href="index.html#${g.id}">${esc(g.titolo.replace(/\s*\(.*\)$/, ""))}</a>`).join("")}</p>`;
   h += infoHtml(s);
@@ -120,9 +124,11 @@ function render(s){
   extra.forEach(x => accs.push(acc(esc(x.title), c(x.html), {id: /^soldi/i.test(x.title) ? "soldi" : ""})));
   accs.push(acc("Fonti", `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}</span></li>`).join("")}</ol>`, {id: "fonti", sub: `${s.fonti.length} documenti ufficiali`}));
   h += `<div class="accs">${accs.join("")}</div>`;
-  h += `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="#${prev.id}"><small>← ${prev.code}</small>${esc(prev.short)}</a>` : ""}${next ? `<a class="next" href="#${next.id}"><small>${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
-  $("#rp").innerHTML = h;
+  const nav = `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="#${prev.id}"><small>← ${prev.code}</small>${esc(prev.short)}</a>` : ""}${next ? `<a class="next" href="#${next.id}"><small>${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
+  $("#rp").classList.toggle("due", largo);
+  $("#rp").innerHTML = largo ? `<div class="col">${h}${nav}</div><aside class="col side">${mappa}${statoHtml(s, "testa")}</aside>` : h + nav;
   document.title = `${s.code} ${s.short} · Bonifiche Ilva`;
+  fermaSide();
 
   if (mini) { mini.remove(); mini = null; }
   if (window.L && p) {
@@ -134,6 +140,16 @@ function render(s){
     L.marker(p.ll, {icon:pinIcon(p, "sel"), interactive:false}).addTo(mini);
   }
 }
+
+// la colonna di destra resta ferma dove parte (niente scatto all'inizio); se è più alta della finestra
+// scorre finché si vede la fine, poi si ferma
+function fermaSide(){
+  const a = $(".side"); if (!a) return;
+  const parte = $(".due>.col").getBoundingClientRect().top + scrollY;
+  a.style.top = Math.min(parte, innerHeight - a.offsetHeight - 12) + "px";
+}
+addEventListener("resize", fermaSide);
+document.fonts?.ready.then(fermaSide);
 
 function showFonte(id){
   const li = document.getElementById(id);
@@ -156,6 +172,7 @@ function route(){
   if (h !== s.id) showFonte(h);
 }
 addEventListener("hashchange", route);
+LARGO.addEventListener("change", () => { cur = null; route(); });   // si allarga o si stringe la finestra: rifà la pagina
 // la stessa citazione cliccata due volte non cambia l'hash: si riapre la fonte a mano
 $("#rp").addEventListener("click", e => {   // "Approfondimenti → Soldi" dalla scheda rapida: apre la voce senza cambiare l'hash
   const o = e.target.closest("a[data-open]"); if (!o) return;
