@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610231200">
+<link rel="stylesheet" href="stile.css?v=202610231400">
 <body class="mappa">
 
 <header class="topbar">
@@ -42,13 +42,12 @@
     <div class="ph">
       <h1><span class="n-tot">35</span> interventi</h1>
       <button type="button" class="close" id="panel-close" aria-label="Chiudi l'elenco">✕</button>
-      <p id="intro">Tocca un pallino per leggere il report. Da lontano le aree sono punti colorati: avvicinati per leggere i codici.</p>
-      <div class="filters" role="group" aria-label="Filtri">
-        <button type="button" class="chip" data-g="" aria-pressed="true">Tutti</button>
-        <button type="button" class="chip" data-g="A" aria-pressed="false">Aree di Ilva</button>
-        <button type="button" class="chip" data-g="B" aria-pressed="false">Ricadute</button>
-        <button type="button" class="chip" data-v="ok" aria-pressed="false" id="chip-ok">✔ Solo verificati</button>
+      <p id="intro">Tocca un punto per leggere il report; avvicinati per leggere i codici.</p>
+      <div class="seg" role="radiogroup" aria-label="Colori e filtri per">
+        <button type="button" role="radio" data-c="fase" aria-checked="true">Fase</button>
+        <button type="button" role="radio" data-c="gruppo" aria-checked="false">Gruppo</button>
       </div>
+      <div class="filters" id="filters" role="group" aria-label="Filtri"></div>
       <input id="q" class="search" type="search" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un intervento">
       <p class="lcount"><span id="lcount"></span> · <button type="button" class="linkbtn" id="fuori-open" aria-haspopup="dialog">Cosa non è sulla mappa?</button></p>
     </div>
@@ -57,14 +56,10 @@
   <button type="button" class="paneltoggle" id="panel-open">☰ Elenco e filtri</button>
 
   <details class="legend-map" id="legenda">
-    <summary><span>Colori: <span id="lg-modo">a che punto è</span></span></summary>
+    <summary><span>Colori: <span id="lg-modo">fase</span></span></summary>
     <div class="lg-in">
-      <div class="seg" role="radiogroup" aria-label="Colora i pallini per">
-        <button type="button" role="radio" data-c="fase" aria-checked="true">A che punto è</button>
-        <button type="button" role="radio" data-c="gruppo" aria-checked="false">Gruppo</button>
-      </div>
       <ul class="lg-voci" id="lg-voci"></ul>
-      <p class="lg-x"><span class="pin ok exact" id="lg-exact">A9</span> bordo pieno: posizione da documento ufficiale</p>
+      <p class="lg-x"><i class="sw bordo"></i>bordo pieno: posizione da documento ufficiale</p>
     </div>
   </details>
 </div>
@@ -76,12 +71,11 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610231200"></script>
-<script src="comune.js?v=202610231200"></script>
+<script src="dati.js?v=202610231400"></script>
+<script src="comune.js?v=202610231400"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
-if (PTS.every(p => p.ok)) $("#chip-ok").style.display = "none";   // tutti verificati: il filtro non serve
 const panelOpen = () => !document.body.classList.contains("panel-off");
 const panelW = () => panelOpen() && !isNarrow() ? $("#panel").offsetWidth + 24 : 0;
 function setPanel(on){ document.body.classList.toggle("panel-off", !on); setTimeout(placePv, 220); }
@@ -91,34 +85,47 @@ if (isNarrow()) setPanel(false);   // telefono: si parte dalla mappa, l'elenco s
 
 let map, markers = {}, selected = null, pv, pvLL = null;
 const pinOf = c => markers[c]?.getElement()?.querySelector(".pin");
-// aree lontane dalle altre: restano fuori dalla vista iniziale (sennò tutto il resto si schiaccia),
-// e una freccia sul bordo della mappa dice dove sono
-const LONTANI = ["A14"];
-
-/* colori: per fase (FASI, dal grigio al verde chiaro) o per gruppo (arancione e azzurro). Si ricorda la scelta. */
-let colore = "fase";
+/* colori e filtri: per fase (gli stessi colori della barra delle tappe) o per gruppo (arancione e azzurro). Si ricorda la scelta. */
+// le fasi di FASI in quattro colori: [chiave, nome (legenda), fasi, nome corto (filtri)]
+const TAPPE = [
+  ["dafare",  "Analisi da fare",             ["dafare"],                      "Da analizzare"],
+  ["analisi", "Analizzata, non bonificata",  ["analisi", "rischio", "mis"],   "Analizzata"],
+  ["fatto",   "Bonificata o non necessaria", ["nonserve", "bonifica", "cert"], "Bonificata o non serve"],
+  ["nessuna", "Nessuna bonifica",            ["nessuna"],                     "Nessuna bonifica"]
+];
+const tappaDi = c => TAPPE.find(t => t[2].includes(faseCode(c)))?.[0] || "";
+const F = {g:"", t:"", v:"", q:""};   // filtri: gruppo, fase, solo verificati, ricerca
+let colore = "fase", listaPronta = false;
 try { if (localStorage.getItem("mappa-colore") === "gruppo") colore = "gruppo"; } catch {}
-const ordineFasi = [...FASI.map(f => f[0]), "nessuna"];
 function legenda(){
   const voci = colore === "gruppo"
     ? [["A", `<i class="sw gA"></i>${ELENCO.A.title}`], ["B", `<i class="sw gB"></i>${ELENCO.B.title}`]].map(([g, h]) => [h, PTS.filter(p => p.ok && GRUPPO[p.code] === g).length])
-    : ordineFasi.map(k => [`<i class="sw f-${k}"></i>${esc(k === "nessuna" ? "Nessuna bonifica" : FASI.find(f => f[0] === k)[1])}`, PTS.filter(p => p.ok && faseCode(p.code) === k).length]);
+    : TAPPE.map(t => [`<i class="sw f-${t[2][0]}"></i>${esc(t[1])}`, PTS.filter(p => p.ok && tappaDi(p.code) === t[0]).length]);
   const todo = PTS.filter(p => !p.ok).length;
   if (todo) voci.push([`<i class="sw todo"></i>Da verificare`, todo]);
   $("#lg-voci").innerHTML = voci.filter(v => v[1]).map(([h, n]) => `<li>${h}<span class="n">${n}</span></li>`).join("");
 }
-function setColore(c){
-  colore = c;
+// i filtri dell'elenco seguono la scelta: le fasi (solo quelle con almeno un'area) o i due gruppi
+function filtri(){
+  const ch = (k, v, txt, sw = "", tit = "") => `<button type="button" class="chip" data-k="${k}" data-val="${v}"${tit ? ` title="${tit}"` : ""} aria-pressed="${F[k] === v && (k !== "v" || v !== "")}">${sw}${txt}</button>`;
+  $("#filters").innerHTML = (colore === "fase"
+    ? ch("t", "", "Tutte") + TAPPE.filter(t => PTS.some(p => p.ok && tappaDi(p.code) === t[0])).map(t => ch("t", t[0], esc(t[3]), `<i class="sw f-${t[2][0]}"></i>`, esc(t[1]))).join("")
+    : ch("g", "", "Tutti") + ch("g", "A", "Aree di Ilva", `<i class="sw gA"></i>`) + ch("g", "B", "Ricadute", `<i class="sw gB"></i>`))
+    + (PTS.every(p => p.ok) ? "" : ch("v", "ok", "✔ Solo verificati"));   // tutti verificati: il filtro non serve
+}
+function setColore(c, ricorda = true){
+  colore = c; F.g = F.t = "";
   document.body.classList.toggle("cf", c === "fase");
   document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-checked", String(b.dataset.c === c)));
-  $("#lg-modo").textContent = c === "fase" ? "a che punto è" : "gruppo";
-  $("#lg-exact").className = "pin ok exact " + (c === "fase" ? "f-analisi" : "gA");
-  legenda();
-  try { localStorage.setItem("mappa-colore", c); } catch {}
+  $("#lg-modo").textContent = c === "fase" ? "fase" : "gruppo";
+  legenda(); filtri();
+  if (listaPronta) renderList();
+  if (ricorda) try { localStorage.setItem("mappa-colore", c); } catch {}
 }
 document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => setColore(b.dataset.c)));
-setColore(colore);
-if (!isNarrow()) $("#legenda").open = true;   // computer: legenda aperta; telefono: chiusa, si apre col tocco
+setColore(colore, false);
+// computer: legenda sempre aperta (senza titolo); telefono: chiusa, si apre col tocco
+{ const pc = matchMedia("(min-width:900px)"), apri = () => { if (pc.matches) $("#legenda").open = true; }; pc.addEventListener("change", apri); apri(); }
 
 // anteprima di un punto: nome, fin dove è arrivata, barra delle 5 tappe, che posto è e link al report.
 // Telefono: cassetto in basso, già aperto a metà (tirato giù si chiude). Computer: riquadro accanto al punto.
@@ -191,23 +198,18 @@ function deselect(){
   map = L.map("map", {minZoom:11, maxZoom:16, zoomSnap:.25, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, zoomControl:false});
   L.control.zoom({position:"topright"}).addTo(map);
   addTiles(map);
-  // vista che contiene dei punti (a destra del pannello, sopra il bottone dell'elenco sul telefono), con zoom a quarti
-  // per stringerla il più possibile, ma mai così lontana da lasciare zone senza tile.
-  // Lo zoom minimo è la vista con tutti i punti (da lì non ci si allontana); si parte dalla vista senza le aree lontane.
+  // vista iniziale = tutti i punti (a destra del pannello, sopra il bottone dell'elenco sul telefono), con zoom a quarti
+  // per stringerla il più possibile, ma mai così lontana da lasciare zone senza tile;
+  // da lì non ci si può allontanare (lo zoom minimo diventa quello della vista iniziale)
   let home = null;
-  const vista = pts => {
+  const fit = () => {
     map.setMinZoom(11); map.setMaxBounds(TILE_BOUNDS);
-    map.fitBounds(L.latLngBounds(pts.map(p => p.ll)), {animate:false, paddingTopLeft:[panelW() + 28, 24], paddingBottomRight:[28, isNarrow() ? 84 : 76]});
+    map.fitBounds(L.latLngBounds(PTS.map(p => p.ll)), {animate:false, paddingTopLeft:[panelW() + 28, 24], paddingBottomRight:[28, isNarrow() ? 84 : 76]});
     const z = coverZoom(map, map.getZoom());
     map.setMaxBounds(tileBounds(z));
     if (z !== map.getZoom()) map.setZoom(z, {animate:false});
-    return z;
-  };
-  const fit = () => {
-    const zMin = vista(PTS);
-    home = map.getCenter();
-    vista(PTS.filter(p => !LONTANI.includes(p.code)));
-    map.setMinZoom(zMin); lockMin();
+    map.setMinZoom(z);
+    home = map.getCenter(); lockMin();
   };
   // allo zoom minimo la mappa sta ferma sulla vista iniziale: niente trascinamento,
   // e se si sposta (frecce della tastiera, zoom indietro con la rotella su un angolo) torna al centro
@@ -246,39 +248,15 @@ function deselect(){
   map.on("click", deselect);
   map.on("move zoom", placePv);
 
-  // frecce verso le aree lontane quando sono fuori dalla vista: sul bordo, nella loro direzione, con la distanza; al tocco ci si va
-  const frecce = LONTANI.filter(c => PT[c]).map(c => {
-    const b = document.createElement("button");
-    b.type = "button"; b.className = "lontano"; b.hidden = true;
-    b.addEventListener("click", () => select(c));
-    $(".mapwrap").appendChild(b);
-    return [c, b];
-  });
-  const placeFrecce = () => frecce.forEach(([c, b]) => {
-    const p = PT[c], S = map.getSize();
-    // zona libera: senza pannello, legenda e bottoni dello zoom in alto, bottone dell'elenco in basso
-    const L0 = 12 + panelW(), R = S.x - 12, T = 64, B = S.y - (isNarrow() ? 84 : 20);
-    const pt = map.latLngToContainerPoint(p.ll);
-    b.hidden = !matches(p) || (pt.x >= L0 && pt.x <= R && pt.y >= T && pt.y <= B);
-    if (b.hidden) return;
-    const cx = (L0 + R) / 2, cy = (T + B) / 2, dx = pt.x - cx, dy = pt.y - cy;
-    b.innerHTML = `<svg class="ar" style="transform:rotate(${Math.atan2(dy, dx)}rad)" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>${c} · ${Math.round(map.distance(map.getCenter(), p.ll) / 1000)} km`;
-    b.setAttribute("aria-label", `${c}, ${p.name}: fuori dalla vista, tocca per andarci`);
-    const k = Math.min((R - L0) / 2 / Math.abs(dx || 1e-9), (B - T) / 2 / Math.abs(dy || 1e-9)), w = b.offsetWidth / 2, h = b.offsetHeight / 2;
-    b.style.left = Math.max(L0 + w, Math.min(R - w, cx + dx * k)) + "px";
-    b.style.top = Math.max(T + h, Math.min(B - h, cy + dy * k)) + "px";
-  });
-  map.on("move zoom resize", placeFrecce);
-  window.placeFrecce = placeFrecce;
   if (window.ResizeObserver) new ResizeObserver(() => placePv()).observe(pv);   // l'altezza cambia quando arrivano i caratteri
   addEventListener("keydown", e => { if (e.key === "Escape") deselect(); });
 })();
 
-/* elenco con filtri */
-const F = {g:"", v:"", q:""};
+/* elenco con filtri (F è sopra, con i colori) */
 const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
 function matches(p){
   if (F.g && GRUPPO[p.code] !== F.g) return false;
+  if (F.t && tappaDi(p.code) !== F.t) return false;
   if (F.v === "ok" && !p.ok) return false;
   if (F.q && !norm(`${p.code} ${p.name} ${ROW[p.code][2]}`).includes(norm(F.q))) return false;
   return true;
@@ -293,16 +271,15 @@ function renderList(){
   $("#list").innerHTML = h || `<li class="empty">Nessun intervento corrisponde ai filtri.</li>`;
   $("#lcount").textContent = `${shown.length} interventi mostrati`;
   PTS.forEach(p => pinOf(p.code)?.classList.toggle("off", !matches(p)));
-  window.placeFrecce?.();
   if (selected && !matches(PT[selected])) deselect();
   else if (selected) document.querySelector(`.list li[data-code="${selected}"]`)?.classList.add("sel");
 }
-document.querySelectorAll(".filters .chip").forEach(b => b.addEventListener("click", () => {
-  const k = "g" in b.dataset ? "g" : "v", val = b.dataset[k];
+$("#filters").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  const k = b.dataset.k, val = b.dataset.val;
   F[k] = (k === "v" && F.v === val) ? "" : val;   // "Solo verificati" si accende e si spegne
-  document.querySelectorAll(`.filters .chip[data-${k}]`).forEach(x => x.setAttribute("aria-pressed", String(x.dataset[k] === F[k] && (k === "g" || F[k] !== ""))));
-  renderList();
-}));
+  filtri(); renderList();
+});
 $("#q").addEventListener("input", e => { F.q = e.target.value.trim(); renderList(); });
 $("#list").addEventListener("mouseover", e => { const c = e.target.closest("li[data-code]"); if (c) pinOf(c.dataset.code)?.classList.add("hl"); });
 $("#list").addEventListener("mouseout", e => { const c = e.target.closest("li[data-code]"); if (c && !c.contains(e.relatedTarget)) pinOf(c.dataset.code)?.classList.remove("hl"); });
@@ -311,9 +288,10 @@ $("#list").addEventListener("click", e => {
   if (isNarrow()) setPanel(false);
   setTimeout(() => select(c.dataset.code), isNarrow() ? 230 : 0);
 });
+listaPronta = true;
 renderList();
-// mappa.html?g=A (o B) dalla home: si parte con quel gruppo filtrato
-{ const g = new URLSearchParams(location.search).get("g"); if (g) document.querySelector(`.filters .chip[data-g="${CSS.escape(g)}"]`)?.click(); }
+// mappa.html?g=A (o B) dalla home: si parte colorando per gruppo, con quel gruppo filtrato (senza cambiare la scelta ricordata)
+{ const g = new URLSearchParams(location.search).get("g"); if (g === "A" || g === "B") { setColore("gruppo", false); F.g = g; filtri(); renderList(); } }
 {
   const lk = r => { const s = verified[r[0]]; return s ? `<a href="${reportHref(r[0])}">${r[0]} ${esc(s.short)}</a>` : r[0]; };
   const dv = ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0]));
