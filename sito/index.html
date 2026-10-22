@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610212100">
+<link rel="stylesheet" href="stile.css?v=202610221200">
 
 <header class="topbar">
   <div class="in">
@@ -96,8 +96,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610212100"></script>
-<script src="comune.js?v=202610212100"></script>
+<script src="dati.js?v=202610221200"></script>
+<script src="comune.js?v=202610221200"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -235,25 +235,7 @@ function mappaFabbrica(d){
 /* ---------- grafico: fin dove è arrivata ogni area ---------- */
 // ogni scheda (o parte di scheda) va nella fase dell'ultimo passaggio fatto, letto dagli stati dei 5 passaggi (STEPS);
 // conta solo "done", che vale già lo scenario peggiore (vedi STEPS in comune.js): "part" non porta avanti
-const FASI = [
-  ["dafare",  "Analisi da fare o da finire", "il terreno non è ancora stato analizzato del tutto"],
-  ["analisi", "Analisi fatte", "si sa cosa c'è, non ancora se è pericoloso"],
-  ["rischio", "Analisi di rischio fatta", "si sa se è pericoloso, nessun lavoro finito"],
-  ["mis",     "Messa in sicurezza", "l'inquinamento è chiuso dentro, ma resta lì"],
-  ["nonserve","Bonifica non necessaria", "secondo le analisi il rischio è accettabile"],
-  ["bonifica","Bonificata, certificato non visto", "un ente di controllo la dice bonificata, ma il certificato non l'abbiamo visto"],
-  ["cert",    "Bonificata, con certificato", "il certificato ufficiale esiste e l'abbiamo visto"]
-];
-function fase(steps){
-  const s = steps.map(x => x[0]);
-  if (s[4] === "done") return "cert";
-  if (s[3] === "done") return "bonifica";
-  if (s[2] === "done") return "mis";
-  if (s[3] === "no" && s[1] === "done") return "nonserve";
-  if (s[1] === "done") return "rischio";
-  if (s[0] === "done") return "analisi";
-  return "dafare";
-}
+// FASI e fase() sono in comune.js
 (function(){
   // le "unità" del grafico: una per scheda, o una per parte se la scheda ne ha più d'una (PARTI)
   const S = SCHEDE.filter(s => STEPS[s.id]).flatMap(s => PARTI[s.id]

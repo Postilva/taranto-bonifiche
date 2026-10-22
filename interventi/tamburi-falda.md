@@ -1,8 +1,15 @@
 # D6 – Quartiere Tamburi: acque sotterranee (Comune di Taranto)
 *Stato scheda: approvata — aggiornata al 20 ottobre 2026*
 
-## In breve
-La falda sotto circa 133 ettari del quartiere Tamburi è un "sito contaminato": le analisi e l'analisi di rischio sono state approvate, in un procedimento aperto nel 2015 [1]. **Ad aprile 2020 non c'erano né un progetto di messa in sicurezza né una bonifica** [1]. Non abbiamo trovato i risultati né atti più recenti.
+## A che punto è
+### Finora
+Il procedimento è iniziato nel 2015 [1]. Entro aprile 2020 sono state approvate le analisi e l'analisi di rischio, e la falda sotto circa 133 ettari del quartiere è risultata un «sito contaminato» [1].
+
+### Cosa manca
+Ad aprile 2020 non c'erano né un progetto di messa in sicurezza né una bonifica [1]. Non abbiamo trovato i risultati delle analisi né atti più recenti.
+
+### Adesso
+Il 21 ottobre 2026 abbiamo chiesto i documenti alla Regione con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
 
 ## Che posto è
 L'acqua sotterranea sotto una zona di circa 133 ettari (1.327.917 m²) del quartiere Tamburi, il quartiere di Taranto attaccato allo stabilimento [1][3]. Il punto centrale indicato dalla Regione è a circa 600 m da quello del cimitero San Brunone (distanza calcolata da noi) [1].

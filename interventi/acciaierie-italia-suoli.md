@@ -3,8 +3,15 @@
 
 **Immagine:** acciaieria-2024.jpg
 
-## In breve
-Il terreno è stato analizzato più volte dal 2004 al 2021 [1][11], ma **non è stato bonificato e non esiste un progetto di bonifica**. La pratica è ferma da anni su un punto preliminare: come trattare i materiali di riporto [1][10]. **L'ultimo atto pubblico sui suoli è dell'ottobre 2023**: il Ministero ha chiesto all'azienda di rifare il piano delle nuove analisi, e nell'archivio non risulta una risposta [5][13].
+## A che punto è
+### Finora
+Il terreno dello stabilimento è stato analizzato più volte, dal 2004 al 2021, con più di 2.000 sondaggi [1][11][16]. L'analisi di rischio del 2016–2017 non è mai stata esaminata [10]. L'unico intervento che l'azienda rivendica sono le pavimentazioni, che per ISPRA e ARPA non sono una messa in sicurezza [1][16].
+
+### Cosa manca
+Manca un passaggio preliminare: capire cosa rilasciano nell'acqua i materiali di riporto, su cui non è mai stato fatto il test di cessione [10][16]. Su questo prima Ilva e poi Acciaierie d'Italia hanno fatto ricorso, e la pratica si è bloccata per anni [8][10][16]. Nel 2023 ARPA e ISPRA hanno bocciato il piano delle nuove analisi e chiesto di estenderle a tutto lo stabilimento [3][4]. Non c'è nessuna bonifica e nessun progetto.
+
+### Adesso
+Il 24 ottobre 2023 il Ministero ha chiesto all'azienda di rifare il piano [5]. Al 14 ottobre 2026 nell'archivio non c'è una risposta: è l'ultimo atto pubblico sui suoli [13].
 
 ## Che posto è
 Il terreno dello stabilimento siderurgico oggi gestito da Acciaierie d'Italia: circa 1.050 ettari dentro il SIN, su circa 1.500 di stabilimento [11].

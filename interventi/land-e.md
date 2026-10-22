@@ -1,8 +1,15 @@
 # A13 – Land E (ex Sidercomit, stabilimento dismesso sulla Statale Appia)
 *Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
-## In breve
-**Non è bonificato né messo in sicurezza dal punto di vista ambientale**: a gennaio 2024 il Ministero ha respinto l'analisi di rischio così com'era e ha chiesto nuovi pozzetti e controlli dell'acqua, che secondo Ilva sono ancora in corso alla fine del 2025 [14][1].
+## A che punto è
+### Finora
+Nel 2022 Ilva ha tolto l'amianto trovato lungo una parte del perimetro e un vecchio serbatoio, e ha analizzato terreno, materiale di riporto e acqua sotterranea, con ARPA presente [6][9]. ARPA ha validato i risultati il 16 maggio 2023 [20]. Il terreno è nei limiti per le zone industriali, ma l'acqua sotterranea contiene arsenico, cromo esavalente, cloroformio e altre sostanze oltre i limiti [9][13].
+
+### Cosa manca
+Il 19 gennaio 2024 il Ministero ha respinto l'analisi di rischio così com'era: ARPA e ISPRA chiedono nuovi pozzetti e controlli periodici dell'acqua [11][12][14]. Non c'è nessuna messa in sicurezza dell'inquinamento e nessuna bonifica. Il progetto di Ilva per i vecchi capannoni riguarda la sicurezza degli edifici, non l'inquinamento [1].
+
+### Adesso
+Secondo Ilva i controlli dell'acqua sono in corso, con una seconda campagna a novembre 2025, e dureranno almeno due anni [1]. Nell'archivio del Ministero non c'è niente su Land E dopo il 19 gennaio 2024 (verificato il 13 ottobre 2026).
 
 ## Che posto è
 Un vecchio stabilimento di circa 4,3 ettari nella zona industriale di Taranto, oggi chiuso, recintato e quasi tutto asfaltato, con due capannoni e una palazzina [9][5][6].

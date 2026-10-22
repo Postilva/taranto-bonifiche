@@ -1,8 +1,15 @@
 # B10 – Zona PIP di Statte: messa in sicurezza dei rifiuti industriali e della falda profonda
 *Stato scheda: approvata — aggiornata al 20 ottobre 2026*
 
-## In breve
-Dal 2013 sono state fatte le analisi e un primo intervento d'emergenza, cioè il pompaggio dell'olio che galleggia sulla falda, ma **il sito non è né bonificato né messo in sicurezza in modo definitivo**: il progetto definitivo è fermo dal 2020 e i conti dei primi lavori non sono ancora chiusi [1][7]. Nel novembre 2025 il Ministero dell'Ambiente ha assegnato 89,9 milioni € (124 milioni € in tutto, con altri fondi): la delibera è registrata, ma al 30 giugno 2026 non c'è ancora un progetto approvato, non c'è una gara e non è stato speso nulla [2][15][17].
+## A che punto è
+### Finora
+Le analisi di terreno e falda sono finite nel 2013 e l'analisi di rischio, rifatta, è stata approvata dal Ministero nel 2018 [5][22]. Tra il 2021 e il 2022 un primo intervento d'emergenza ha pompato via l'olio che galleggia sulla falda profonda, e l'opuscolo del 2026 lo dice «completato» [1][6]. Nel novembre 2025 sono arrivati 89,9 milioni di euro dal Fondo sviluppo e coesione, 124 milioni in tutto con altri fondi [2][15].
+
+### Cosa manca
+La messa in sicurezza definitiva è ferma dal 2020: il Ministero ha sollevato «notevoli obiezioni» al progetto che chiudeva i rifiuti dentro barriere di cemento, e nel 2021 ha indicato di toglierli [7][22]. ARPA e ISPRA hanno trovato molte carenze nello studio del Comune del 2022, a partire dalla mancanza di analisi dei rifiuti [13][14]. Nella vecchia cava ci sono circa 640.000 m³ di rifiuti industriali, e non si sa ancora se sarà bonifica o messa in sicurezza [10]. Nessun documento dice chi li ha portati lì [1][4][10].
+
+### Adesso
+Al 30 giugno 2026 il nuovo intervento risultava «non avviato», con 0 € spesi [17]. Secondo il Commissario si dovranno aggiornare le analisi e affidare il progetto, e «a breve» si ripartirà [1]. Anche i conti dei primi lavori non sono ancora chiusi [1].
 
 ## Che posto è
 Un'area per le imprese di circa 9 ettari a Statte, costruita sopra una vecchia cava [4][10].

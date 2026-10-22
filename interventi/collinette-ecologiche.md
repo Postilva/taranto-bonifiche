@@ -3,8 +3,15 @@
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
-## In breve
-Dopo il sequestro del 2019 il Sindaco ha chiuso due scuole vicine da marzo a settembre 2019 [5][9][15]. **Non sono state né bonificate né messe in sicurezza in modo definitivo**: è stata solo coperta con una rete in cocco una parte della Collinetta 3; le analisi complete (piano di caratterizzazione) sono state approvate dalla Regione Puglia il 2 dicembre 2024, ma a fine 2025 non erano ancora iniziate [1][6][11]. Nel 2024 ARPA ha scritto che la loro funzione di barriera per la fabbrica è ormai superata, e la Regione ha chiesto di valutarle anche con i limiti per verde pubblico e case, pensando a quando l'area non servirà più alla fabbrica [6].
+## A che punto è
+### Finora
+Dopo il sequestro del febbraio 2019 il Sindaco ha chiuso due scuole vicine, riaperte a settembre [9][10][14][15]. Su una parte della Collinetta 3 è stata messa una rete in fibra di cocco contro la polvere [11][12]. Ilva ha fatto indagini per la Procura e nel 2021 un'analisi di rischio che non trova rischi, ma l'ha depositata solo in Procura [4]. Il 2 dicembre 2024 la Regione ha approvato il piano delle analisi complete [6].
+
+### Cosa manca
+Le analisi complete a fine 2025 non erano ancora iniziate [1]. Non c'è nessuna messa in sicurezza definitiva né bonifica [4][11]. Per ARPA (2024) le collinette non servono più come barriera per la fabbrica, e la Regione chiede di valutarle anche con i limiti per verde pubblico e case [6].
+
+### Adesso
+A fine 2025 Ilva aveva affidato i lavori e stava preparando il piano operativo da concordare con ARPA [1]. Intanto controlla l'acqua sotterranea ogni tre mesi, ma i risultati non sono pubblici [1].
 
 ## Che posto è
 Tre rilievi artificiali di circa 9–10 ettari tra l'acciaieria e il quartiere Tamburi, lungo la Statale 7 Appia; la Collinetta n. 3 è attaccata alla scuola Deledda [3][4][5][6][9][13].

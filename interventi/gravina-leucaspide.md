@@ -1,8 +1,15 @@
 # A1 – Gravina di Leucaspide e "Vecchie Vasche" (sotto sequestro)
 *Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
-## In breve
-A fine 2025 c'erano solo indagini, sondaggi e un sistema che controlla se le colline si muovono: il piano delle analisi approvato dal Ministero nel 2022 non era ancora partito e i lavori per mettere in sicurezza le colline erano ancora da progettare; **non è bonificata né messa in sicurezza** [1][2].
+## A che punto è
+### Finora
+Ilva ha fatto solo indagini: sondaggi nel 2022 e nel 2023, che in alcuni campioni del materiale delle colline hanno trovato idrocarburi pesanti, IPA e vanadio oltre i limiti, e dal 2022 sensori che controllano se le colline si muovono [1][7]. Il piano delle analisi complete è stato approvato dal Ministero il 6 ottobre 2022 [2]. Il Comune di Statte, con fondi pubblici, ha fatto fare un suo progetto di bonifica del «tratto sud», pagato a saldo nell'ottobre 2026 [11][14].
+
+### Cosa manca
+Le analisi complete a fine 2025 non erano ancora partite: l'area è sotto sequestro e il permesso del giudice per entrarci è arrivato solo a febbraio 2024 [1][19]. Secondo ISPRA il piano non comprende proprio la zona delle colline e delle vasche, dove stanno i rifiuti [5]. La messa in sicurezza delle colline, contro l'erosione, è ancora da progettare [1].
+
+### Adesso
+A fine 2025 Ilva ha dato a Pro Iter Ambiente l'incarico di progettare la messa in sicurezza delle colline [1]. Dopo le analisi servirà l'analisi di rischio, e solo se mostrerà un pericolo si passerà a un progetto di bonifica [1].
 
 ## Che posto è
 Una valle naturale nel Comune di Statte, accanto alla fabbrica [10][4]. La parte che tocca a Ilva in amministrazione straordinaria misura circa 46,5 ettari ed è sotto sequestro penale dal 2018 [2][5][7].

@@ -3,8 +3,15 @@
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
-## In breve
-Dal 2025 il Commissario per la bonifica vuole ripulirla togliendo i fanghi con un "ecodragaggio" insieme alla Marina Militare, ma oggi c'è solo l'accelerazione del "piano di indagini": nessun lavoro è partito, i soldi non sono assegnati e le date non ci sono [1][2]. **L'area non è bonificata e nemmeno messa in sicurezza**, e il collegamento con i lavori di ammodernamento delle basi della Marina è dichiarato dal Commissario ma non ho trovato nessun atto che lo spieghi [1].
+## A che punto è
+### Finora
+Il fondale davanti all'Arsenale è stato analizzato nel 2005: contaminazione estesa da PCB e da metalli pesanti come arsenico e mercurio [6]. Dal 2025 il Commissario lavora con la Marina Militare per togliere i fanghi con un «ecodragaggio», e secondo il Commissario a gennaio 2026 è iniziata la bonifica da ordigni bellici [1][16].
+
+### Cosa manca
+Nessun lavoro sui fanghi è partito e i soldi non sono assegnati: la Regione ha solo indicato circa 33,5 milioni di euro (dicembre 2025) [1][3]. Non abbiamo trovato il piano delle indagini, il nulla osta di ISPRA né l'atto sulla bonifica da ordigni [1][16]. I valori misurati nei fanghi non sono pubblici. L'area non è né bonificata né messa in sicurezza [1].
+
+### Adesso
+Secondo il Commissario seguirà la programmazione dei dragaggi e delle indagini lungo le banchine [16], ma non ci sono date [1]. Il collegamento con i lavori della Marina sulla Base Sommergibili è dichiarato dal Commissario ma non spiegato in nessun atto che abbiamo trovato [1].
 
 ## Che posto è
 La zona del 1° seno del Mar Piccolo davanti all'Arsenale della Marina Militare [6].

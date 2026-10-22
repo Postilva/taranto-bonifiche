@@ -1,8 +1,15 @@
 # D17 – Area di deposito traversine ferroviarie "UA27" (Statte)
 *Stato scheda: approvata — aggiornata al 20 ottobre 2026*
 
-## In breve
-Le traversine sono state portate via tra il 2016 e il 2017: circa 7.800 tonnellate [2]. Nel dicembre 2017 Ilva ha presentato il piano delle analisi del terreno, e scrive di averle fatte entro il 31 dicembre 2018 [2][4][5]. **I risultati però non sono pubblici, e ad aprile 2020 la Regione indica ancora l'area come "potenzialmente contaminata"** [1]. Non è bonificata e nessun ente ha detto che sia pulita.
+## A che punto è
+### Finora
+Tra il luglio 2016 e l'agosto 2017 sono state portate via 7.823 tonnellate di traversine [2]. Nel dicembre 2017 Ilva ha presentato il piano delle analisi del terreno, con 34 sondaggi, e scrive di averle fatte entro il 31 dicembre 2018; ISPRA nel 2022 segna la prescrizione come «attuata» [2][4][5].
+
+### Cosa manca
+I risultati delle analisi non sono pubblici e nessun ente ha detto che l'area sia pulita. Nel 2009 ARPA aveva trovato IPA nel terreno sotto una catasta di traversine [2]. Ad aprile 2020 la Regione indica ancora l'area come «potenzialmente contaminata» [1]. Non è bonificata.
+
+### Adesso
+Dopo il 2020 non abbiamo trovato atti: né risultati, né pareri di ARPA, né decisioni della Regione. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Regione con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
 
 ## Che posto è
 Un terreno di circa 8 ettari dentro lo stabilimento ex Ilva, nella parte che sta nel Comune di Statte, fuori dal SIN [1][2]. In parte era un deposito di traversine ferroviarie usate, in parte un deposito e una zona di lavorazione del legname, con un impianto per triturarlo [2].

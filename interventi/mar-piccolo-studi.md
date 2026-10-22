@@ -3,8 +3,15 @@
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
-## In breve
-Oltre agli accordi e alla campagna di sondaggi, c'è una convenzione con la Sogesid sulle acque sotterranee e sul sorvolo "lidar" [1][2]. L'opuscolo del 2026 dice che gli accordi e le indagini sono "conclusi anche finanziariamente", mentre la convenzione con la Sogesid è "conclusa, ma non finanziariamente" dal Commissario precedente [1]. **Sono studi, non bonifica: non hanno tolto né trattato nessun inquinante, e non ho trovato né i risultati misurati né i costi** [1][2].
+## A che punto è
+### Finora
+Dal 2014 il Commissario ha firmato accordi con università, enti di ricerca e Forze dell'ordine, e ha fatto indagini sul fondale e sull'acqua sotterranea intorno al Mar Piccolo, completate nel 2018 [2]. Secondo l'opuscolo del 2026 accordi e indagini sono «conclusi anche finanziariamente» [1].
+
+### Cosa manca
+Sono studi, non una bonifica: nessun inquinante è stato tolto o trattato [1][2]. I risultati misurati, per esempio quanti PCB ci sono nei fanghi, non sono nei documenti pubblici che abbiamo letto, e nel 2022 la banca dati costruita con questi soldi non era stata consegnata al Commissario [9]. Non sappiamo quanto sia costato ogni accordo [9].
+
+### Adesso
+Restano conti da chiudere: il pagamento alla Sogesid per lo studio delle falde (fattura del 2018, 147.550,25 €) nel 2023 era ancora da verificare [3][5], e le analisi dell'IRSA-CNR sono state pagate solo l'8 luglio 2026 [6].
 
 ## Che posto è
 Il Mar Piccolo, dove il Commissario ha fatto studi e indagini con università, CNR e Forze dell'ordine, e una campagna di sondaggi e analisi del fondale [1][2].

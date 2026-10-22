@@ -1,8 +1,15 @@
 # A18 – Land I (area verde vicino all'Ospedale Nord)
 *Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
-## In breve
-Ilva lo considera "cedibile e privo di pendenze" e pensa di cederlo così com'è [1]. **Però non abbiamo trovato nessuna analisi del terreno né nessun atto pubblico che dica che è pulito**: il giudizio "senza problemi" è solo di Ilva, e secondo Ilva l'area è fuori dal SIN, il "Sito di interesse nazionale" da bonificare [2][3].
+## A che punto è
+### Finora
+Niente: nessuna analisi e nessun lavoro [2]. Dal 2022 Ilva scrive che nell'area non c'è «nessuna criticità» e la mette tra le aree «cedibili e prive di pendenze» [1][2][8].
+
+### Cosa manca
+Non abbiamo trovato nessuna analisi del terreno o dell'acqua, né un atto pubblico che dica che l'area è pulita: il giudizio è solo di Ilva [1][2][5]. Secondo Ilva l'area è fuori dal SIN [2].
+
+### Adesso
+Ilva pensa di cederla così com'è [1][5].
 
 ## Che posto è
 Un piccolo terreno verde di circa 2.000 m², vicino all'"Ospedale Nord" e lontano dalla zona industriale [1][2].

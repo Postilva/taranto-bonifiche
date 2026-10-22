@@ -1,8 +1,15 @@
 # A5 + A6 – Stoccaggio fanghi dell'altoforno e dell'acciaieria (AFO/ACC) e aree vicine
 *Stato scheda: approvata — aggiornata al 9 ottobre 2026*
 
-## In breve
-Tra il 2019 e il 12 agosto 2023 Ilva ha portato via circa 333.000 tonnellate di fanghi e ha spostato altre 113.107 tonnellate in un deposito impermeabilizzato, che andava svuotato entro il 23 agosto 2026; a fine 2025 lo svuotamento non era finito, anche per uno stop legato a controlli della Procura [1][2][7]. **Il terreno non è bonificato e non è ancora stato nemmeno analizzato** [1][6].
+## A che punto è
+### Finora
+Tra il 2019 e l'agosto 2023 Ilva ha portato via circa 333.000 tonnellate di fanghi dell'altoforno e dell'acciaieria e ne ha spostate altre 113.107 in un deposito impermeabilizzato [1][2]. Dal deposito, a gennaio 2025, ne erano uscite 95.737 tonnellate e ne restavano 17.370 [14].
+
+### Cosa manca
+Il terreno sotto i fanghi non è ancora stato analizzato: le analisi si faranno solo dopo aver svuotato il deposito [1][2][6]. Il deposito doveva essere vuoto entro il 23 agosto 2026, ma non sappiamo se la scadenza è stata rispettata [2]. Nel 2025 l'invio dei fanghi si è fermato per alcuni mesi, dopo controlli della Procura [1].
+
+### Adesso
+Da settembre 2025 Ilva gestisce dei materiali con «anomalie radiometriche», e a dicembre 2025 ha completato 5 nuovi pozzi per controllare l'acqua sotterranea [1]. Quando il deposito sarà vuoto dovrà analizzare il terreno liberato [2].
 
 ## Che posto è
 Un piazzale nel Comune di Statte, vicino alla Strada provinciale 48 Taranto–Statte; accanto ci sono le "aree vicine", con quattro vasche per l'acqua piovana [4][7].

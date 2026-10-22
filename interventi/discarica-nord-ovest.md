@@ -1,8 +1,15 @@
 # A2 – Discarica Nord-Ovest (con area ex Fintecna e aree vicine)
 *Stato scheda: approvata — aggiornata al 19 ottobre 2026*
 
-## In breve
-Il Ministero dell'Ambiente ha approvato il progetto per coprirla ("messa in sicurezza permanente") il 16 dicembre 2025, ma **non si trova nessuna fonte che dica che i lavori sono partiti**, e comunque l'area **non sarà bonificata**: i rifiuti restano dove sono, sotto una copertura [2][5].
+## A che punto è
+### Finora
+Tra il 2020 e il 2023 Ilva ha analizzato rifiuti e terreno, d'accordo con ARPA e ISPRA [1][18]. Il 16 dicembre 2025 il Ministero ha approvato il progetto di messa in sicurezza permanente (decreto n. 423): una copertura impermeabile come per i rifiuti pericolosi, senza barriere sui lati e sul fondo [2].
+
+### Cosa manca
+Non risulta che i lavori siano partiti [5]. La scadenza per cominciare, spostata al 15 giugno 2026, per Ilva era la data di inizio del progetto esecutivo e delle indagini, non del cantiere [5]. Prima di togliere gli alberi serve un'altra autorizzazione della Regione [2]. Non sarà comunque una bonifica: i rifiuti restano dove sono [2].
+
+### Adesso
+Ilva ha diviso i lavori in più gare, perché alla prima si era presentata una sola impresa [5]. A febbraio 2027 deve mandare la prima relazione annuale sullo stato dei lavori [2]. Il 19 ottobre 2026 la Regione ci ha risposto che la fideiussione chiesta dal decreto non è nei suoi archivi [26].
 
 ## Che posto è
 Al confine nord della fabbrica, nel territorio di Statte, vicino alla Gravina di Leucaspide [2][6]. L'area è sotto sequestro penale da ottobre 2018 [14][16].

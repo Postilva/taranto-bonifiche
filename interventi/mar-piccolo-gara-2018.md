@@ -3,8 +3,15 @@
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
-## In breve
-Nel giugno 2018 il Commissario per la bonifica di Taranto ha avviato una gara europea da 32,3 milioni € (IVA esclusa) per provare tre tecniche di pulizia dei fanghi, prima in piccole aree di prova e poi su aree più grandi [2][3]. La gara si è fermata il 21 agosto 2020, quando è scaduto il mandato della Commissaria, e non è mai stata aggiudicata: nessun lavoro in mare è stato fatto [1][7]. **I fondali del 1° seno non sono bonificati e nemmeno messi in sicurezza**, e oggi non esiste un progetto approvato e finanziato per farlo: il Commissario lavora con la Marina Militare su una sola zona, l'"Area 170 ettari" davanti all'Arsenale, ma i fondi e i tempi non sono ancora decisi [1][11][14].
+## A che punto è
+### Finora
+Il fondale del 1° seno è stato studiato molte volte: Sviluppo Italia e ICRAM (2007), ISPRA (2010), ARPA Puglia (2014) [7][13]. Nel giugno 2018 il Commissario ha avviato una gara europea da 32,3 milioni di euro per provare tre tecniche di pulizia dei fanghi, prima su piccole aree di prova [2][3]. Nel luglio 2020 sei gruppi di imprese erano stati ammessi alla fase successiva [4][7].
+
+### Cosa manca
+Il 21 agosto 2020 la gara si è fermata, perché scadeva il mandato della Commissaria, e non è mai stata aggiudicata: nessun lavoro in mare è stato fatto [1][7]. Il Commissario successivo ha giudicato troppo cara una spesa così per circa 14 ettari di prova [7]. Non abbiamo trovato un atto che annulli la gara [1]. Per il 1° seno non c'è un progetto approvato e finanziato [1][11][14].
+
+### Adesso
+Il Commissario lavora con la Marina Militare su una sola zona, l'«Area 170 ettari» davanti all'Arsenale (scheda B12), ma fondi e tempi non sono decisi [1][11][14]. Nel 2026 sono partiti solo lavori più piccoli: dal 7 agosto la rimozione dei rifiuti dalle coste, 250.000 € per il primo stralcio [19][20].
 
 ## Che posto è
 I fanghi inquinati sul fondo del 1° seno del Mar Piccolo, dove la gara del 2018 doveva provare tre tecniche di pulizia dei fanghi [2][3].

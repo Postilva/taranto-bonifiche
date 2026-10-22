@@ -1,8 +1,15 @@
 # A10 – Land A (area verde al confine con Statte)
 *Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
-## In breve
-Dal 2021 Ilva ha tolto molti cumuli di rifiuti e nel 2023 ha fatto le analisi, che ARPA Puglia ha validato nel 2024 [12]. **Non è bonificato e non è messo in sicurezza**: alla fine del 2025 l'analisi di rischio non era ancora stata presentata al Ministero e uno strato di rifiuti compattati, in parte sepolto, risulta ancora sul posto [1][12].
+## A che punto è
+### Finora
+Dal 2021 Ilva ha tolto i cumuli di rifiuti abbandonati in superficie, tra cui materiali con amianto [4][11]. Nel 2023 ha analizzato terreno, materiale di riporto e acqua sotterranea, e ARPA ha validato i risultati nel maggio 2024 [3][12]. Il materiale di riporto, messo in acqua, rilascia alluminio, ferro, manganese e fluoruri oltre i limiti [12].
+
+### Cosa manca
+Uno strato di rifiuti compattati, in parte sepolto, è ancora sul posto [1][12]. L'analisi di rischio non è stata presentata al Ministero [1]. L'area non è recintata: la recinzione è approvata, ma Ilva la farà dopo le analisi [1][3].
+
+### Adesso
+Dal novembre 2025 Ilva controlla l'acqua profonda ogni tre mesi, per almeno due anni, e dopo un anno di controlli preparerà l'analisi di rischio [1]: quindi non prima della fine del 2026 (stima nostra).
 
 ## Che posto è
 Un terreno incolto di circa 3 ettari nella zona industriale di Taranto, circa 6 km a nord-ovest della città, al confine con il Comune di Statte [7][1][3].

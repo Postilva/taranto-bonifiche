@@ -1,8 +1,15 @@
 # D16 – Area di deposito pneumatici fuori uso "UA26" (Statte)
 *Stato scheda: approvata — aggiornata al 20 ottobre 2026*
 
-## In breve
-I pneumatici sono stati portati via tra il 2016 e il 2018 e Ilva scrive di aver fatto anche le analisi del terreno entro il 31 dicembre 2018 [3][4][5]. **I risultati però non sono pubblici, e nell'elenco della Regione aggiornato ad aprile 2020 l'area è ancora "potenzialmente contaminata"**, ferma alla prima comunicazione del 2017 [1]. Non è bonificata e nessun ente ha detto che sia pulita.
+## A che punto è
+### Finora
+I pneumatici sono stati portati via a partire dal novembre 2016 [3]. Ilva scrive di aver finito la rimozione e le analisi del terreno entro il 31 dicembre 2018, e ISPRA nel 2022 segna la prescrizione come «attuata» [4][5].
+
+### Cosa manca
+I risultati delle analisi non sono pubblici e nessun ente ha detto che l'area sia pulita. Ad aprile 2020 la Regione la indica ancora come «potenzialmente contaminata», ferma alla prima comunicazione del 2017 [1]. Non è bonificata.
+
+### Adesso
+Dopo il 2020 non abbiamo trovato atti: né risultati, né pareri di ARPA, né decisioni della Regione. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Regione con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
 
 ## Che posto è
 Un terreno di circa 16.500 m² dentro lo stabilimento ex Ilva, nella parte che sta nel Comune di Statte, fuori dal SIN [1]. Era usato come deposito di pneumatici fuori uso [1][3].

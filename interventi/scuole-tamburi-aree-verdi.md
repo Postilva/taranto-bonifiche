@@ -3,8 +3,15 @@
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
-## In breve
-Il terreno è stato analizzato e, nel 2016, un'analisi di rischio approvata dalla Regione Puglia ha concluso che per i suoli non c'è rischio per la salute, quindi non si è fatta una bonifica ma solo una riqualificazione delle aree [2][3]. **Non esiste quindi un certificato di bonifica, e non risulta che ce ne fosse bisogno secondo quell'analisi**: l'opuscolo del Commissario del maggio 2026 mette l'intervento tra quelli "conclusi" e precisa che è stato concluso "dal precedente commissario" [1]; già nel 2022 la Commissione parlamentare sui rifiuti lo dava per "completato" [9]. Nell'elenco regionale dei siti inquinati (2020) l'area è tra i "siti non contaminati – rischio accettabile" [8]. Quali sostanze siano state trovate nel terreno, però, non è pubblico [2][3].
+## A che punto è
+### Finora
+Il terreno delle aree verdi delle tre scuole è stato analizzato e ARPA ha approvato i risultati [2][3]. L'analisi di rischio, completata nell'agosto 2015, ha concluso che i suoli non sono un rischio per la salute; la Regione l'ha approvata il 24 giugno 2016 (determina n. 145) [2][3]. Per questo non si è fatta una bonifica, ma solo una riqualificazione delle aree [2][3].
+
+### Cosa manca
+Una bonifica non serviva, quindi non c'è un certificato [2][3][8]. Le sostanze trovate e i valori misurati però non sono pubblici [2][3]. Per la Regione il sito è tra quelli «non contaminati – rischio accettabile», ma il procedimento non risulta chiuso formalmente [8][11].
+
+### Adesso
+Per il Commissario l'intervento è «concluso» [1]. Il 19 ottobre 2026 la Regione ci ha risposto che dopo la determina del 2016 non c'è nessun altro atto [11]. Il 20 ottobre 2026 abbiamo chiesto ad ARPA i risultati delle analisi con una richiesta di accesso civico.
 
 ## Che posto è
 I cortili e le aree verdi, circa 23.650 m², di tre scuole del quartiere Tamburi: la scuola elementare Deledda, la scuola media De Carolis e l'ex scuola media D'Aquino [3][4].

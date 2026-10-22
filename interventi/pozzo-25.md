@@ -1,8 +1,15 @@
 # A17 – Area Pozzo 25 (il pozzo che irriga le Collinette ecologiche)
 *Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
-## In breve
-Con il decreto n. 149 del 26 maggio 2026 il Ministero dell'Ambiente ha stabilito che il terreno è sotto i limiti di legge, ma che l'acqua sotterranea dell'area è, per legge, **"contaminata"** [1]. **Non è stato bonificato niente**: il decreto chiede solo di continuare i controlli sull'acqua e di impedire l'accesso all'area, e l'impianto per togliere il sale dall'acqua del pozzo, ordinato nel 2022, alla fine del 2025 non era ancora stato installato [1][12][13].
+## A che punto è
+### Finora
+Nel 2022 Ilva ha analizzato terreno, materiale di riporto e acqua, con ARPA presente, e nel 2024 ha controllato l'acqua per un anno [9]. Il 26 maggio 2026 il Ministero ha approvato l'analisi di rischio: il terreno è sotto i limiti di legge (decreto n. 149) [1].
+
+### Cosa manca
+Lo stesso decreto dichiara «contaminata» l'acqua sotterranea dell'area [1]. Non è previsto nessun intervento: solo continuare i controlli su tutti e quattro i pozzetti e impedire l'accesso [1]. L'impianto per togliere il sale dall'acqua del pozzo, ordinato nel 2022, a fine 2025 non era ancora installato [12][13].
+
+### Adesso
+Dopo il decreto non abbiamo trovato altri atti. L'ISS chiede di continuare i controlli anche per la popolazione, perché l'area è vicina al centro abitato [16].
 
 ## Che posto è
 Un piccolo terreno boscoso di circa 5.400 m² nella zona industriale di Taranto, circa 800 metri a nord del quartiere Tamburi, con un pozzo profondo 37 metri che serviva a irrigare le "Collinette ecologiche" [6][9][3].

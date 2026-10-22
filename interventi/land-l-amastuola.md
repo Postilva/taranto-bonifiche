@@ -1,8 +1,15 @@
 # A14 – Land L (Cava L'Amastuola)
 *Stato scheda: approvata — aggiornata al 13 ottobre 2026*
 
-## In breve
-Nel maggio 2023 la Regione Puglia non ha approvato il piano delle analisi presentato da Ilva e ha chiesto prima un'indagine preliminare nelle zone con cumuli di residui industriali; ARPA l'ha valutata favorevolmente a dicembre 2023 [7][8]. **Alla fine del 2025 le indagini non erano ancora partite**: Ilva aspettava le autorizzazioni per i vincoli dell'area, e il terreno **non è né analizzato a fondo, né messo in sicurezza, né bonificato** [1].
+## A che punto è
+### Finora
+Ilva ha tolto i rifiuti urbani abbandonati vicino al cancello sulla Strada provinciale 42 [1][8]. Nel gennaio 2023 ha presentato il piano delle analisi, ma il 18 maggio 2023 la Regione non l'ha approvato: prima vuole un'indagine preliminare nelle zone con cumuli di residui industriali [5][7]. ARPA ha dato parere favorevole a questa indagine il 22 dicembre 2023 [8].
+
+### Cosa manca
+A fine 2025 l'indagine preliminare non era ancora partita: Ilva aspettava le autorizzazioni per i vincoli dell'area, chieste ad agosto 2025 [1]. Secondo Ilva sotto c'è una discarica degli anni '80; che rifiuti ci siano e quanti non si sa [3][5][7]. Il terreno non è analizzato a fondo, né messo in sicurezza, né bonificato [1].
+
+### Adesso
+Le indagini sono appaltate e l'inizio è «in programmazione» [1]. Solo se troveranno problemi Ilva presenterà un nuovo piano delle analisi, poi l'analisi di rischio ed «eventuale bonifica» [1]. Il piano di recupero della cava, autorizzato nel 2010, secondo Ilva non è coperto dai fondi [1].
 
 ## Che posto è
 Una grande cava di calcare di circa 128 ettari, lontana dalla fabbrica e fuori dal SIN [2][3][4].

@@ -3,8 +3,15 @@
 
 **Immagine:** acciaieria-2024.jpg
 
-## In breve
-Ci sono solo **misure provvisorie**: dal 2018 una barriera di 11 pozzi pompa e depura l'acqua dei Parchi minerali, e dal 2021–2022 trincee e pozzi raccolgono gli idrocarburi in alcune aree [2][9][11]. Nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili **non si può dire se la barriera funzioni** [2][3]. **Non esiste un progetto di bonifica della falda.**
+## A che punto è
+### Finora
+Ci sono solo misure provvisorie. Dal 2018 una barriera di 11 pozzi pompa e depura l'acqua sotto i Parchi minerali [2][9]; dal 2021–2022 trincee e pozzi raccolgono gli idrocarburi che galleggiano sulla falda in alcune aree, circa 1.490 litri in due anni al Tubificio 2 [2][8]. I controlli ordinari li fa l'azienda da sola, una volta all'anno [15].
+
+### Cosa manca
+Non esiste un progetto di bonifica della falda. Nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili non si può dire se la barriera funzioni [2][3]; a valle della barriera, nel 2022, ARPA ha trovato PCB e arsenico oltre i limiti [2]. Il nuovo modello di come scorre l'acqua sotterranea, che serve anche al piano dei controlli, non è ancora stato fatto [9][11].
+
+### Adesso
+A febbraio 2025 Acciaierie d'Italia ha annunciato controlli su altri 17 pozzetti nelle aree TUL2 e CCO5 [7][11]: è l'ultimo documento nell'archivio del Ministero [11][13]. Il progetto definitivo per togliere gli idrocarburi al TUL2, annunciato nel 2024, non c'è [8][13].
 
 ## Che posto è
 L'acqua sotterranea sotto lo stabilimento siderurgico, nei 1.050 ettari dentro il SIN [1].

@@ -1,8 +1,15 @@
 # A11 – Land C (area verde vicino alla fabbrica)
 *Stato scheda: approvata — aggiornata al 12 ottobre 2026*
 
-## In breve
-Con il decreto n. 250 del 5 luglio 2023 (notificato il 7 luglio) il Ministero dell'Ambiente ha dichiarato **"non contaminato" solo il terreno**, non l'acqua sotterranea [2][3]. **Non è stata bonificata (per il terreno non serviva) e non è uscita dal SIN**: la relazione di Ilva parla di "svincolo dal SIN", ma il decreto non lo dice e l'area non è tra quelle tolte dal SIN nel dicembre 2024 [1][2][16][18].
+## A che punto è
+### Finora
+Ilva ha analizzato terreno e acqua sotterranea nel novembre 2021, con ARPA presente [7][10]. Il terreno è risultato pulito [10]: dopo il parere favorevole di ARPA e ISPRA, il 5 luglio 2023 il Ministero dell'Ambiente lo ha dichiarato «non contaminato» (decreto n. 250), e per questa parte non serve nessun lavoro [2][14][15].
+
+### Cosa manca
+L'acqua sotterranea contiene arsenico, manganese, nichel e altre sostanze oltre i limiti, e non si sa da dove arrivino [2][7][10]. Per l'acqua la pratica è ancora aperta e non è previsto nessun intervento [2][12]: per questo l'area resta nel SIN [16][18].
+
+### Adesso
+Secondo Ilva la rete di pozzetti per controllare l'acqua è stata completata il 20 giugno 2025 e i controlli dureranno almeno due anni [1]. Nell'archivio del Ministero non ci sono documenti su Land C più recenti del luglio 2023 (verificato il 2 ottobre 2026).
 
 ## Che posto è
 Un'area verde di circa 1,8 ettari appena fuori dalla fabbrica, nella zona industriale di Taranto, coperta da macchia mediterranea [7][20].

@@ -126,9 +126,30 @@ const isNarrow = () => matchMedia("(max-width:899px)").matches;
 // e vale per tutta l'area; se lo dice solo chi fa i lavori (Ilva, Comune, Commissario) o se una parte
 // (per esempio l'acqua sotterranea) resta aperta, il passaggio è "part"
 const STATI = [
-  ["done","Fatto","--s-done"],["part","Iniziato, solo progettato o respinto","--s-part"],["todo","Non ancora fatto","--s-todo"],["no","Non previsto","--s-no"],["na","Non indicato nella scheda","--s-na"]
+  ["done","Fatto","--s-done"],["part","A metà","--s-part"],["todo","Non ancora","--s-todo"],["no","Non previsto","--s-no"],["na","Non si sa","--s-na"]
 ];
-const PASSI = [["Caratterizzazione","analisi"],["Analisi di rischio","pericolo per le persone"],["Messa in sicurezza","chiudere il problema"],["Bonifica","eliminare l'inquinamento"],["Certificazione","\"bonificato\""]];
+// [nome tecnico, cosa vuol dire, nome breve per la barra della scheda]
+const PASSI = [["Caratterizzazione","si analizzano terreno e acqua per sapere cosa c'è","Analisi"],["Analisi di rischio","si calcola se l'inquinamento è pericoloso per le persone","Rischio"],["Messa in sicurezza","si chiude l'inquinamento perché non si sposti","Sicurezza"],["Bonifica","si toglie l'inquinamento","Bonifica"],["Certificazione","un ente di controllo dichiara l'area bonificata","Certificato"]];
+// fin dove è arrivata un'area: conta solo "done", che vale già lo scenario peggiore ("part" non porta avanti)
+const FASI = [
+  ["dafare",  "Analisi da fare o da finire", "il terreno non è ancora stato analizzato del tutto"],
+  ["analisi", "Analisi fatte", "si sa cosa c'è, non ancora se è pericoloso"],
+  ["rischio", "Analisi di rischio fatta", "si sa se è pericoloso, nessun lavoro finito"],
+  ["mis",     "Messa in sicurezza", "l'inquinamento è chiuso dentro, ma resta lì"],
+  ["nonserve","Bonifica non necessaria", "secondo le analisi il rischio è accettabile"],
+  ["bonifica","Bonificata, certificato non visto", "un ente di controllo la dice bonificata, ma il certificato non l'abbiamo visto"],
+  ["cert",    "Bonificata, con certificato", "il certificato ufficiale esiste e l'abbiamo visto"]
+];
+function fase(steps){
+  const s = steps.map(x => x[0]);
+  if (s[4] === "done") return "cert";
+  if (s[3] === "done") return "bonifica";
+  if (s[2] === "done") return "mis";
+  if (s[3] === "no" && s[1] === "done") return "nonserve";
+  if (s[1] === "done") return "rischio";
+  if (s[0] === "done") return "analisi";
+  return "dafare";
+}
 const STEPS = {
   "gravina-leucaspide":[["part","Indagini, sondaggi e controlli; il piano delle analisi approvato nel 2022 a fine 2025 non era partito"],["na","La scheda non ne parla"],["todo","Messa in sicurezza delle colline ancora da progettare"],["todo","Non bonificata"],["todo","Non ancora"]],
   "discarica-nord-ovest":[["part","Indagini su rifiuti e terreno 2020–2023; le analisi di tutta la zona sono nella procedura della Gravina (A1)"],["na","La scheda non ne parla"],["part","Solo il progetto, approvato il 16/12/2025; nessuna fonte dice che i lavori siano partiti"],["no","Non prevista: i rifiuti restano sotto una copertura"],["todo","Non ancora: a fine lavori la Provincia dovrà certificare la messa in sicurezza"]],

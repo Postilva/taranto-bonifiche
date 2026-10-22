@@ -321,7 +321,7 @@ def leggi_scheda(path):
         elif cur:
             cur[1].append(ln)
     out = {"id": path.stem, "codes": codes, "code": codes[0], "title": title, "updated": upd, "warnNote": warn,
-           "sections": [], "nonsappiamo": [], "fonti": [], "date": [], "verdict": "", "breve": "", "fatto": "", "chi": [], "posto": "", "perche": ""}
+           "sections": [], "nonsappiamo": [], "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
     for t, body in secs:
         tl = t.lower()
         if tl.startswith("cosa è stato fatto"):
@@ -332,6 +332,15 @@ def leggi_scheda(path):
                 body = body[:k] + ([vm.group(3)] if vm.group(3) else []) + body[k + 1:]
         if tl.startswith("fonti"):
             out["fonti"] = leggi_fonti(body)
+            continue
+        if tl.startswith("a che punto"):   # tre blocchi ### (finora, cosa manca, adesso) con le loro fonti
+            cur = None
+            for ln in body:
+                if ln.startswith("### "):
+                    cur = [ln[4:].strip(), []]; out["punto"].append(cur)
+                elif cur:
+                    cur[1].append(ln)
+            out["punto"] = [{"title": t2, "html": section_html(b2)} for t2, b2 in out["punto"]]
             continue
         if tl.startswith("che posto è"):
             out["posto"] = section_html(body); continue
@@ -370,16 +379,12 @@ def leggi_scheda(path):
         h = section_html(body)
         if not h and tl.startswith("soldi"):
             h = "<p>Nessuna cifra verificata: i costi non si trovano nei documenti ufficiali.</p>"
-        if tl.startswith("in breve"):
-            out["breve"] = h; continue
         if tl.startswith("cosa è stato fatto"):
             out["fatto"] = h; continue
         if h:
             out["sections"].append({"title": t, "html": h})
-    if not out["verdict"]:   # "Cosa è stato fatto" non inizia con una frase in grassetto: si usa quella di "In breve"
-        b = re.search(r"<strong>(.+?)</strong>", out["breve"])
-        if b:
-            out["verdict"] = re.sub(r"<[^>]+>", "", b.group(1)).strip(" :.") + "."
+    if len(out["punto"]) != 3:   # ogni scheda racconta a che punto è in tre blocchi (vedi LEGGIMI.md)
+        sys.exit(f"{path.name}: manca \"## A che punto è\" con i blocchi ### Finora, ### Cosa manca, ### Adesso")
     out["coord"] = coordinate(txt)
     per_cod = coordinate_per_codice(txt)
     out["coords"] = {k: v for k, v in per_cod.items() if k != "*"} or None
