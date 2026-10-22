@@ -209,18 +209,28 @@ const STEPS = {
   "tamburi-risanamento-suoli":[["part", "Fatta nelle aree pubbliche (per la Regione \"siti contaminati\"); aree private di SP2 ancora in accertamento"], ["na", "Le fonti non la descrivono; il progetto parla di \"annullare il rischio sanitario\""], ["na", "Le fonti non ne parlano"], ["part", "Lavori fatti secondo il Comune in SP1–SP3 e, secondo la Regione, in SP4; nelle aree private di SP2 niente"], ["part", "Solo SP4 per la Regione (2020), certificato non visto; SP1–SP3 chiesta, non rilasciata"]]
 };
 // schede con più parti: nel grafico della home ogni parte conta da sola, con i suoi passaggi
-// (nel report resta lo stato della scheda intera, che segue la parte peggiore)
+// (in cima al report resta lo stato della scheda intera, che segue la parte peggiore; sotto, "Parte per parte")
+// [codice, nome, passaggi, riassunto con le note della scheda: nella lista della mappa, nel riquadro del punto e nel report]
 const PARTI = {
   "tamburi-risanamento-suoli": [
-    ["D5", "Tamburi SP4, suolo", [["na","Le fonti non le descrivono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["done","Per la Regione (aprile 2020) \"sito bonificato\""],["part","Certificazione di avvenuta bonifica secondo la Regione; il certificato non l'abbiamo visto"]]],
-    ["D1", "Tamburi SP1, suolo", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]]],
-    ["D2", "Tamburi SP2, suolo pubblico", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]]],
-    ["D4", "Tamburi SP3, suolo", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]]],
-    ["D3", "Tamburi SP2, aree private", [["part","\"In fase di accertamento\" ad aprile 2020: solo una comunicazione di potenziale contaminazione (2005)"],["todo","Non ancora"],["todo","Non messe in sicurezza"],["todo","Non bonificate"],["todo","Non ancora"]]]
+    ["D5", "Tamburi SP4, suolo", [["na","Le fonti non le descrivono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["done","Per la Regione (aprile 2020) \"sito bonificato\""],["part","Certificazione di avvenuta bonifica secondo la Regione; il certificato non l'abbiamo visto"]], "Per la Regione (aprile 2020) «sito bonificato», con la certificazione di avvenuta bonifica: il certificato non l'abbiamo visto. [1]"],
+    ["D1", "Tamburi SP1, suolo", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]], "Lavori fatti secondo il Comune, che ha chiesto la certificazione; ad aprile 2020 non era stata rilasciata e per la Regione era ancora «sito contaminato». [1]"],
+    ["D2", "Tamburi SP2, suolo pubblico", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]], "Lavori fatti secondo il Comune, che ha chiesto la certificazione; ad aprile 2020 non era stata rilasciata e per la Regione era ancora «sito contaminato». [1]"],
+    ["D4", "Tamburi SP3, suolo", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]], "Lavori fatti secondo il Comune, che ha chiesto la certificazione; ad aprile 2020 non era stata rilasciata e per la Regione era ancora «sito contaminato». [1]"],
+    ["D3", "Tamburi SP2, aree private", [["part","\"In fase di accertamento\" ad aprile 2020: solo una comunicazione di potenziale contaminazione (2005)"],["todo","Non ancora"],["todo","Non messe in sicurezza"],["todo","Non bonificate"],["todo","Non ancora"]], "Mai analizzate, per quanto sappiamo: ad aprile 2020 erano «in fase di accertamento», con solo una comunicazione di potenziale contaminazione del 2005. [1]"]
   ]
 };
+// parte di una scheda divisa (PARTI) per un codice, se c'è
+const parteDi = (s, code) => PARTI[s.id]?.find(x => x[0] === code);
 // passaggi di un codice: quelli della sua parte se la scheda è divisa (PARTI), altrimenti quelli della scheda
-const stepsDi = (s, code) => PARTI[s.id]?.find(x => x[0] === code)?.[2] || STEPS[s.id];
+const stepsDi = (s, code) => parteDi(s, code)?.[2] || STEPS[s.id];
+// riassunto di un codice (con le note [n]): quello della sua parte, altrimenti la riga in grassetto della scheda
+const verdictDi = (s, code) => parteDi(s, code)?.[3] || s.verdict;
+const senzaNote = t => t.replace(/\s*\[\d+\]/g, "");
+// link al report di un codice: per le schede divise report.html#<codice>, così il report evidenzia la parte
+const reportHref = code => { const s = verified[code]; return "report.html#" + (parteDi(s, code) ? code : s.id); };
+// barra delle 5 tappe in piccolo, solo da guardare (per "Parte per parte")
+const mini5Html = steps => `<span class="mini5" aria-label="${esc(steps.map(([k],i) => `${PASSI[i][2]}: ${STATO[k].label.toLowerCase()}`).join(", "))}">${steps.map(([k]) => `<i class="${k}" style="--c:var(${STATO[k].color})"></i>`).join("")}</span>`;
 // fin dove è arrivato un codice: [id, nome, cosa vuol dire] di FASI
 const faseDi = (s, code) => { const st = stepsDi(s, code); return st ? FASI.find(f => f[0] === fase(st)) : [null, "Nessuna bonifica", NO_STEPS[s.id] || ""]; };
 // schede che non descrivono un intervento di bonifica: i 5 passaggi non si applicano

@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610222100">
+<link rel="stylesheet" href="stile.css?v=202610222300">
 
 <header class="topbar">
   <div class="in">
@@ -96,8 +96,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610222100"></script>
-<script src="comune.js?v=202610222100"></script>
+<script src="dati.js?v=202610222300"></script>
+<script src="comune.js?v=202610222300"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -119,7 +119,7 @@ function fontiDi(id, html, tutte = false){
   if (!lista.length) return "";
   return `<div class="sh-fonti"><h3>Fonti</h3><ol class="fonti">${lista.map(f => `<li id="${id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri</a>` : ""}</span></li>`).join("")}</ol></div>`;
 }
-const codice = k => { const s = verified[k]; return s ? `<a class="cod g${GRUPPO[k] || "A"}" href="report.html#${s.id}" title="${esc(s.short)}">${k}</a>` : `<a class="cod todo" href="mappa.html#${k}" title="${esc(ROW[k] ? ROW[k][1] : k)}">${k}</a>`; };
+const codice = k => { const s = verified[k]; return s ? `<a class="cod g${GRUPPO[k] || "A"}" href="${reportHref(k)}" title="${esc(s.short)}">${k}</a>` : `<a class="cod todo" href="mappa.html#${k}" title="${esc(ROW[k] ? ROW[k][1] : k)}">${k}</a>`; };
 const PANNELLI = {
   storia: ["La storia", () => {
     const c = h => cite(h, "storia");
@@ -227,7 +227,7 @@ function mappaFabbrica(d){
   const pts = PTS.filter(p => GRUPPO[p.code] === "A");
   pts.forEach(p => {
     const m = L.marker(p.ll, {icon:pinIcon(p), keyboard:true, title:`${p.code} · ${p.name}`}).addTo(fm);
-    m.on("click", () => { const s = verified[p.code]; location.href = s ? "report.html#" + s.id : "mappa.html#" + p.code; });
+    m.on("click", () => { const s = verified[p.code]; location.href = s ? reportHref(p.code) : "mappa.html#" + p.code; });
   });
   fm.fitBounds(poly.getBounds().pad(.15));
 }
@@ -247,7 +247,7 @@ function mappaFabbrica(d){
   $("#colonne").style.setProperty("--n", FASI.length);
   $("#colonne").innerHTML = FASI.map(([k, nome, sub]) => {
     const chi = S.filter(s => fase(s.steps) === k);
-    const pila = chi.map(s => `<a class="u g${GRUPPO[s.code] || "A"}" href="report.html#${s.id}" data-nome="${esc(s.short)}" tabindex="-1">${cod(s.codes)}</a>`).join("");
+    const pila = chi.map(s => `<a class="u g${GRUPPO[s.code] || "A"}" href="${reportHref(s.code)}" data-nome="${esc(s.short)}" tabindex="-1">${cod(s.codes)}</a>`).join("");
     return `<div class="col f-${k}"><div class="bar"><span class="n">${chi.length}</span><div class="pila">${pila || `<span class="vuota"></span>`}</div></div><span class="nome">${nome}<small>${sub}</small></span></div>`;
   }).join("");
   // telefono: lo stesso grafico ruotato, una riga per fase con la barra dei quadratini (stessa scala);
@@ -257,7 +257,7 @@ function mappaFabbrica(d){
   $("#righe").innerHTML = FASI.map(([k, nome, sub]) => {
     const chi = S.filter(s => fase(s.steps) === k);
     const barra = chi.map(s => `<i class="g${GRUPPO[s.code] || "A"}"></i>`).join("") || `<i class="vuota"></i>`;
-    const voci = chi.map(s => `<a class="area g${GRUPPO[s.code] || "A"}" href="report.html#${s.id}"><b>${cod(s.codes)}</b>${esc(s.short)}</a>`).join("");
+    const voci = chi.map(s => `<a class="area g${GRUPPO[s.code] || "A"}" href="${reportHref(s.code)}"><b>${cod(s.codes)}</b>${esc(s.short)}</a>`).join("");
     return `<details class="riga f-${k}"><summary><span class="nome">${nome}</span><span class="barra">${barra}<b class="n">${chi.length}</b></span></summary><p class="sub">${sub}</p>${chi.length ? `<div class="aree">${voci}</div>` : `<p class="sub"><b>Nessuna area.</b></p>`}</details>`;
   }).join("");
   // passando il mouse su un blocco compare subito il nome dell'area, sopra il blocco

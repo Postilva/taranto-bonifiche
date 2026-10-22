@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610222100">
+<link rel="stylesheet" href="stile.css?v=202610222300">
 <body class="mappa">
 
 <header class="topbar">
@@ -70,8 +70,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610222100"></script>
-<script src="comune.js?v=202610222100"></script>
+<script src="dati.js?v=202610222300"></script>
+<script src="comune.js?v=202610222300"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -95,7 +95,7 @@ function pvHtml(p){
   if (!s) return `<div class="top"><span class="grip" aria-hidden="true"></span><button type="button" class="x" aria-label="Chiudi">✕</button>
     <span class="grp"><b>${p.code}</b>${grpLabel(p.code, true)}</span><span class="nm">${esc(p.name)}</span><span class="fs">Report in arrivo</span></div>`;
   const steps = stepsDi(s, p.code), [, f, sub] = faseDi(s, p.code);
-  const posto = (s.posto || "").replace(/<[^>]+>/g, "").replace(/\s*\[\d+\]/g, "");
+  const posto = senzaNote((s.posto || "").replace(/<[^>]+>/g, ""));
   return `<div class="top">
       <span class="grip" aria-hidden="true"></span>
       <button type="button" class="x" aria-label="Chiudi">✕</button>
@@ -105,8 +105,9 @@ function pvHtml(p){
     </div>
     <div class="more"><div class="in">
       ${sub ? `<p class="sub">${esc(sub)}</p>` : ""}${steps ? barraHtml(steps) + leg5Html() : ""}
+      ${verdictDi(s, p.code) ? `<div class="posto"><span class="k">Cosa è stato fatto</span><p>${esc(senzaNote(verdictDi(s, p.code)))}</p></div>` : ""}
       ${posto ? `<div class="posto"><span class="k">Che posto è</span><p>${esc(posto)}</p></div>` : ""}
-      <a class="go" href="report.html#${s.id}">Leggi il report →</a>
+      <a class="go" href="${reportHref(p.code)}">Leggi il report →</a>
     </div></div>`;
 }
 // computer: il riquadro sta accanto al punto, dal lato con più spazio
@@ -218,7 +219,7 @@ function matches(p){
   return true;
 }
 const itemHtml = p => { const s = verified[p.code];
-  return `<li class="g${GRUPPO[p.code]} ${p.ok?"ok":""}" data-code="${p.code}"><span class="dot">${p.code}</span><span class="nm">${esc(p.name)}</span><span class="vd">${s ? esc(s.verdict) : "Da verificare"}</span></li>`; };
+  return `<li class="g${GRUPPO[p.code]} ${p.ok?"ok":""}" data-code="${p.code}"><span class="dot">${p.code}</span><span class="nm">${esc(p.name)}</span><span class="vd">${s ? esc(senzaNote(verdictDi(s, p.code))) : "Da verificare"}</span></li>`; };
 function renderList(){
   const shown = ORDER.filter(matches), ok = shown.filter(p => p.ok), todo = shown.filter(p => !p.ok);
   let h = "";
@@ -248,7 +249,7 @@ renderList();
 // mappa.html?g=A (o B) dalla home: si parte con quel gruppo filtrato
 { const g = new URLSearchParams(location.search).get("g"); if (g) document.querySelector(`.filters .chip[data-g="${CSS.escape(g)}"]`)?.click(); }
 {
-  const lk = r => { const s = verified[r[0]]; return s ? `<a href="report.html#${s.id}">${r[0]} ${esc(s.short)}</a>` : r[0]; };
+  const lk = r => { const s = verified[r[0]]; return s ? `<a href="${reportHref(r[0])}">${r[0]} ${esc(s.short)}</a>` : r[0]; };
   const dv = ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0]));
   $("#fuori").innerHTML = `<p>La mappa mostra solo le aree inquinate dall'Ilva. Non ci sono:</p><ul>` +
     `<li>le aree inquinate da altri: raffineria, altre industrie, porto, Marina, distributori di carburante;</li>` +

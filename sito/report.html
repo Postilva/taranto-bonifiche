@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610222100">
+<link rel="stylesheet" href="stile.css?v=202610222300">
 
 <header class="topbar">
   <div class="in">
@@ -47,8 +47,8 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610222100"></script>
-<script src="comune.js?v=202610222100"></script>
+<script src="dati.js?v=202610222300"></script>
+<script src="comune.js?v=202610222300"></script>
 <script>
 /* Report di un intervento: report.html#<id-scheda> (oppure #<id-scheda>-f<n> per aprire una fonte).
    Ordine fisso: testata, mappa satellitare, che posto è e perché è inquinata, a che punto è, sostanze, chi e soldi,
@@ -57,12 +57,19 @@ const acc = (title, body, opts={}) => `<details class="acc"${opts.id ? ` id="${o
 
 // "A che punto è": fin dove è arrivata e la barra delle 5 tappe (STEPS), poi il racconto della scheda in tre blocchi.
 // parte "testa" = solo fase e barra, "racconto" = i tre blocchi e la nota sulle tappe (sul computer stanno in due colonne diverse)
-function statoHtml(s, parte){
+function statoHtml(s, parte, sel){
   const steps = STEPS[s.id];
-  const testa = parte === "racconto" ? "" : faseHtml(steps, s.id) + (steps ? barraHtml(steps) + leg5Html() : "");
+  const testa = parte === "racconto" ? "" : faseHtml(steps, s.id) + (steps ? barraHtml(steps) + leg5Html() : "") + partiHtml(s, sel);
   const blocchi = parte === "testa" ? "" : s.punto.map(b => `<div class="blocco"><h3>${esc(b.title)}</h3><div class="prose">${cite(b.html, s.id)}</div></div>`).join("");
   return `<section class="card stato"><span class="k">A che punto è</span>${testa}${blocchi}
     ${steps && parte !== "testa" ? `<p class="nota">Una tappa è "fatta" solo se lo conferma un ente di controllo (Ministero, Regione, Provincia, ARPA, ISPRA) e vale per tutta l'area.</p>` : ""}</section>`;
+}
+// schede divise (PARTI): sotto la fase di tutta l'area, ogni parte con la sua fase, la barra in piccolo e il riassunto;
+// sel = la parte da cui si arriva (report.html#D3), evidenziata
+function partiHtml(s, sel){
+  const pp = PARTI[s.id]; if (!pp) return "";
+  const li = ([code, nome, steps, rias]) => `<li id="parte-${code}"${code === sel ? ' class="sel"' : ""}><a class="cod" href="#${code}" aria-label="Evidenzia ${code}">${code}</a><div><b>${esc(nome)}</b><span class="pf">${esc(FASI.find(f => f[0] === fase(steps))[1])}${mini5Html(steps)}</span><p>${cite(esc(rias), s.id)}</p></div></li>`;
+  return `<div class="parti"><span class="k">Parte per parte</span><p>La fase qui sopra vale per tutte le parti insieme, quindi segue quella più indietro.</p><ol>${[...pp].sort((a,b) => codeCmp(a[0], b[0])).map(li).join("")}</ol></div>`;
 }
 // chi se ne occupa, soldi, aggiornamento
 function infoHtml(s){
@@ -97,8 +104,8 @@ function storyHtml(s){
 
 let mini, miniMarker;
 const LARGO = matchMedia("(min-width:1100px)");
-function render(s){
-  const p = PT[s.code], c = t => cite(t, s.id);
+function render(s, sel){
+  const p = PT[sel || s.code], c = t => cite(t, s.id), parte = sel && parteDi(s, sel);
   const i = SCHEDE.indexOf(s), prev = SCHEDE[i-1], next = SCHEDE[i+1];
   const extra = s.sections.filter(x => !/^date principali/i.test(x.title));
   const g = GRUPPO[s.code] || "A";
@@ -107,13 +114,14 @@ function render(s){
       <div class="meta"><span class="codes">${s.codes.join(" + ")}</span><span>${grpLabel(s.code)}</span>${DA_VERIFICARE.has(s.code) ? `<span class="badge expl">Legame con l'Ilva da verificare</span>` : ""}</div>
       <h1>${esc(s.title)}</h1>
       ${s.verdict ? `<p class="verdict">${esc(s.verdict)}</p>` : ""}
+      ${parte ? `<p class="parte-qui"><span class="k">Hai aperto ${sel} · ${esc(parte[1])}</span><span><b>${esc(faseDi(s, sel)[1])}.</b> ${c(esc(parte[3]))}${LARGO.matches ? "" : ` <a href="#parte-${sel}" data-open="parte-${sel}">Parte per parte ↓</a>`}</span></p>` : ""}
       ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}
     </header>`;
   // sul computer (LARGO) due colonne: a sinistra il testo, a destra mappa e fase con la barra
   const largo = LARGO.matches, mappa = mappaHtml(p, s);
   if (!largo) h += mappa;
   if (s.posto || s.perche) h += `<div class="ctx2">${s.posto ? `<section class="card"><h2>Che posto è</h2><div class="prose">${c(s.posto)}</div></section>` : ""}${s.perche ? `<section class="card"><h2>Perché è inquinata</h2><div class="prose">${c(s.perche)}</div><a class="more-link" href="index.html#come-inquina">Come inquina l'Ilva →</a></section>` : ""}</div>`;
-  h += statoHtml(s, largo ? "racconto" : "");
+  h += statoHtml(s, largo ? "racconto" : "", sel);
   const sost = glossarioIn([...s.punto.map(b => b.html), s.posto, s.perche, s.fatto, ...s.sections.map(x => x.html)].join(" "));
   if (sost.length) h += `<p class="sost">Sostanze: ${sost.map(g => `<a href="index.html#${g.id}">${esc(g.titolo.replace(/\s*\(.*\)$/, ""))}</a>`).join("")}</p>`;
   h += infoHtml(s);
@@ -129,8 +137,8 @@ function render(s){
   h += `<div class="accs">${accs.join("")}</div>`;
   const nav = `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="#${prev.id}"><small>← ${prev.code}</small>${esc(prev.short)}</a>` : ""}${next ? `<a class="next" href="#${next.id}"><small>${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
   $("#rp").classList.toggle("due", largo);
-  $("#rp").innerHTML = largo ? `<div class="col">${h}${nav}</div><aside class="col side">${mappa}${statoHtml(s, "testa")}</aside>` : h + nav;
-  document.title = `${s.code} ${s.short} · Bonifiche Ilva`;
+  $("#rp").innerHTML = largo ? `<div class="col">${h}${nav}</div><aside class="col side">${mappa}${statoHtml(s, "testa", sel)}</aside>` : h + nav;
+  document.title = parte ? `${sel} ${parte[1]} · Bonifiche Ilva` : `${s.code} ${s.short} · Bonifiche Ilva`;
   fermaSide();
 
   if (mini) { mini.remove(); mini = null; }
@@ -162,24 +170,33 @@ function showFonte(id){
   li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1800);
 }
 
-let cur = null;
+// report.html#<id-scheda>, #<id-scheda>-f<n> (una fonte) oppure #<codice> (per le schede divise evidenzia la parte, es. #D3)
+let cur = null, curSel = null;
 function route(){
   const h = decodeURIComponent(location.hash.slice(1));
-  const s = SCHEDE.find(x => h === x.id || h.startsWith(x.id + "-f"));
+  const vh = Object.hasOwn(verified, h) ? verified[h] : null;   // l'hash è un codice
+  const s = SCHEDE.find(x => h === x.id || h.startsWith(x.id + "-f")) || vh;
   if (!s) {
     cur = null;
     $("#rp").innerHTML = `<div class="notfound"><h1>Report non trovato</h1><p>Scegli un intervento sulla mappa.</p><a class="btn" href="mappa.html">Apri la mappa →</a></div>`;
     return;
   }
-  if (cur !== s.id) { render(s); cur = s.id; if (h === s.id) window.scrollTo(0, 0); }
-  if (h !== s.id) showFonte(h);
+  const sel = vh && parteDi(s, h) ? h : null;
+  if (cur !== s.id || curSel !== sel) {
+    const stessa = cur === s.id;
+    render(s, sel); cur = s.id; curSel = sel;
+    // da un'altra pagina si parte dall'alto; cambiando parte nello stesso report si resta sulla parte
+    if (stessa && sel) document.getElementById("parte-" + sel)?.scrollIntoView({block:"center"});
+    else if (h === s.id || vh) window.scrollTo(0, 0);
+  }
+  if (h !== s.id && !vh) showFonte(h);
 }
 addEventListener("hashchange", route);
-LARGO.addEventListener("change", () => { cur = null; route(); });   // si allarga o si stringe la finestra: rifà la pagina
+LARGO.addEventListener("change", () => { cur = curSel = null; route(); });   // si allarga o si stringe la finestra: rifà la pagina
 // la stessa citazione cliccata due volte non cambia l'hash: si riapre la fonte a mano
 $("#rp").addEventListener("click", e => {   // "Approfondimenti → Soldi" dalla scheda rapida: apre la voce senza cambiare l'hash
   const o = e.target.closest("a[data-open]"); if (!o) return;
-  e.preventDefault(); const d = document.getElementById(o.dataset.open); d.open = true; d.scrollIntoView({block:"start"});
+  e.preventDefault(); const d = document.getElementById(o.dataset.open); if ("open" in d) d.open = true; d.scrollIntoView({block:"start"});
 });
 $("#rp").addEventListener("click", e => { const a = e.target.closest('a[href^="#"]'); if (a && a.getAttribute("href") === location.hash) showFonte(location.hash.slice(1)); });
 route();
