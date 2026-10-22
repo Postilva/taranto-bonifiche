@@ -290,7 +290,7 @@ const MONEY = {
 // tile scaricati per ogni zoom: [x min, x max, y min, y max]. Agli zoom lontani la zona è più ampia, così la vista d'insieme riempie lo schermo.
 const TILES = {11:[1119,1124,769,773], 12:[2239,2249,1538,1547], 13:[4481,4495,3081,3091], 14:[8969,8984,6166,6177]};
 function tileBounds(z){
-  const [x0,x1,y0,y1] = TILES[Math.max(11, Math.min(14, Math.round(z)))], n = 2 ** Math.round(z);
+  const zz = Math.max(11, Math.min(14, Math.round(z))), [x0,x1,y0,y1] = TILES[zz], n = 2 ** zz;
   const lon = x => x / n * 360 - 180, lat = y => Math.atan(Math.sinh(Math.PI * (1 - 2 * y / n))) * 180 / Math.PI;
   return L.latLngBounds([lat(y1 + 1), lon(x0)], [lat(y0), lon(x1 + 1)]);
 }
@@ -301,7 +301,8 @@ function addTiles(m){
   m.options.maxBoundsViscosity = 1;
   m.on("zoomend", lock);
   m.whenReady(lock);
-  return L.tileLayer("tiles/{z}/{x}/{y}.png", {minZoom:11, maxZoom:14, bounds:TILE_BOUNDS, attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(m);
+  // oltre lo zoom 14 (solo la mappa grande) Leaflet ingrandisce i tile del 14: un po' sfocati, ma i pallini vicini si separano
+  return L.tileLayer("tiles/{z}/{x}/{y}.png", {minZoom:11, maxZoom:16, maxNativeZoom:14, bounds:TILE_BOUNDS, attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(m);
 }
 // zoom più lontano (tra minimo e 14, a passi di 0,25) al quale la finestra della mappa sta tutta dentro la zona coperta dai tile
 function coverZoom(m, from){
