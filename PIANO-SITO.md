@@ -28,7 +28,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 - Riassunti uguali: nella mappa D1–D5 hanno la stessa frase, e per D3 (aree private) "lavori fatti… nelle aree pubbliche" è fuorviante. Dare a ogni parte il suo riassunto (una riga per parte in `PARTI` o nella scheda, con fonte), usato dalla lista della mappa e dal riquadro del punto.
 - Verifica: aprire D3 e D5 dalla home e dalla mappa.
 
-### [ ] 3. Codici e numeri che non tornano
+### [x] 3. Codici e numeri che non tornano (fatto il 22/10/2026)
 - **Codici**: il filtro "Aree di Ilva (A)" contiene C1, C2, D16, D17, e "Ricadute (B)" contiene D1–D8. *Da decidere:* (a, raccomandato) togliere la lettera dai nomi dei filtri ("Aree di Ilva", "Ricadute") e aggiungere in "Chi è nel censimento" una riga su cosa sono i codici (vengono dal nostro elenco: A = aree di Ilva in A.S., C = stabilimento di Acciaierie d'Italia, B = ricadute del Commissario, D = altre ricadute da anagrafe regionale; controllare in `elenco.md` che sia così); (b) rinumerare tutto, sconsigliato perché i codici sono nelle FOIA già inviate.
 - **Numeri**: home 22 + 14 = 36, grafico 34 blocchi, schede 31. Sotto il grafico, accanto alla nota su B6, aggiungere: "A5 e A6 hanno un solo report, i cinque sottoperimetri del Tamburi uno solo". Contare dal codice, non scrivere i numeri a mano.
 - Verifica: home e mappa a 390 px con i filtri.
