@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610231400">
+<link rel="stylesheet" href="stile.css?v=202610231500">
 <body class="mappa">
 
 <header class="topbar">
@@ -71,8 +71,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610231400"></script>
-<script src="comune.js?v=202610231400"></script>
+<script src="dati.js?v=202610231500"></script>
+<script src="comune.js?v=202610231500"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -157,10 +157,10 @@ function placePv(){
   left = Math.max(minL, Math.min(left, c.x - w - 12));
   pv.style.left = left + "px"; pv.style.top = Math.max(12, Math.min(pt.y - h/2, c.y - h - 12)) + "px";
 }
-// telefono: il punto va centrato nello spazio sopra il cassetto; computer: fuori dal pannello dell'elenco
+// telefono: il punto va centrato nello spazio sopra il cassetto; computer: fuori dal pannello dell'elenco. Lo zoom non cambia
 function centra(ll){
   if (isNarrow()) {
-    const z = Math.max(map.getZoom(), 14), pt = map.project(ll, z), H = map.getSize().y, avail = H - pv.offsetHeight;
+    const z = map.getZoom(), pt = map.project(ll, z), H = map.getSize().y, avail = H - pv.offsetHeight;
     pt.y += H/2 - avail/2;
     map.setView(map.unproject(pt, z), z);
   } else map.panInside(ll, {paddingTopLeft:[40 + panelW(), 40], paddingBottomRight:[40, 40]});
@@ -190,6 +190,7 @@ function deselect(){
   document.querySelectorAll(".list li.sel").forEach(e => e.classList.remove("sel"));
   if (selected) history.replaceState(null, "", location.pathname);
   selected = null; pvLL = null; if (pv) pv.hidden = true;
+  window.lockMin?.();
   document.body.classList.remove("pv-on");
 }
 
@@ -214,11 +215,13 @@ function deselect(){
   // allo zoom minimo la mappa sta ferma sulla vista iniziale: niente trascinamento,
   // e se si sposta (frecce della tastiera, zoom indietro con la rotella su un angolo) torna al centro
   const lockMin = () => {
-    const atMin = map.getZoom() <= map.getMinZoom();
+    // con un'area aperta la mappa resta libera, così il punto si può centrare sopra il cassetto o accanto al riquadro
+    const atMin = map.getZoom() <= map.getMinZoom() && !pvLL;
     map.dragging[atMin ? "disable" : "enable"]();
     if (atMin && home && map.latLngToContainerPoint(home).distanceTo(map.getSize().divideBy(2)) > 3) map.panTo(home, {animate:false});
   };
   map.on("zoomend moveend", lockMin);
+  window.lockMin = lockMin;   // chiusa l'area, alla vista iniziale si torna al centro
   fit();
   let touched = false;
   ["mousedown","touchstart","wheel","keydown"].forEach(ev => $("#map").addEventListener(ev, () => touched = true, {passive:true}));
