@@ -465,3 +465,23 @@ body.pv-on .paneltoggle{display:none}
 }
 .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.9) contrast(.9) saturate(.6)}
 #minimap .leaflet-tile-pane{filter:none}   /* foto satellitare a colori veri */
+/* report delle schede divise (PARTI): la parte da cui si arriva, in testa, e "Parte per parte" sotto la fase */
+.parte-qui{display:grid;gap:4px;background:var(--surface);box-shadow:inset 0 0 0 1.5px var(--line);border-radius:14px;padding:12px 14px;font-size:.92rem;line-height:1.45;color:var(--ink-2)}
+.parte-qui .k{font:700 .72rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.parte-qui b{color:var(--ink)}
+.parte-qui a{font-weight:600;text-decoration:none}
+.parti{display:grid;gap:8px;border-top:1px solid var(--line);padding-top:12px}
+.parti>p{font-size:.8rem;color:var(--ink-3);line-height:1.4}
+.parti ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.parti li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;padding:10px;border-radius:12px;background:var(--surface-2);scroll-margin:80px}
+.parti li.sel{box-shadow:inset 0 0 0 2px var(--ink)}
+.parti .cod{font:700 .78rem/1 var(--f-mono);color:var(--ink);background:var(--surface);border-radius:8px;padding:7px 8px;text-decoration:none;min-width:32px;text-align:center}
+.parti li.sel .cod{background:var(--ink);color:var(--bg)}
+.parti li>div{display:grid;gap:3px;font-size:.88rem;line-height:1.4}
+.parti .pf{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-weight:600;color:var(--ink-2);font-size:.84rem}
+.parti li p{color:var(--ink-2);font-size:.84rem}
+.mini5{display:inline-flex;gap:3px}
+.mini5 i{width:10px;height:10px;border-radius:50%;box-sizing:border-box;border:2px solid var(--c);background:var(--surface)}
+.mini5 .done{background:var(--c)}
+.mini5 .part{background:linear-gradient(90deg,var(--c) 50%,var(--surface) 50%)}
+.mini5 .no,.mini5 .na{border-style:dashed}

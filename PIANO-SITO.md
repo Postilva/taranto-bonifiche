@@ -22,7 +22,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 - **Coordinate UTM** nel riquadro della mappa del report (es. Tamburi "688569,3876 m E – 4484590,303 m N…"): lasciare "Posizione da documento ufficiale [n]" e spostare i numeri dentro "Dove si trova e quanto è grande" o nella fonte.
 - Verifica: A15, Tamburi suoli, C2, A16 a 390 px.
 
-### [ ] 2. Tamburi: le parti dentro il report
+### [x] 2. Tamburi: le parti dentro il report (fatto il 22/10/2026)
 - Il problema: in home D5 è "Bonificata, certificato non visto", ma il report Tamburi (D1–D5 insieme) dice in cima "Analisi da fare o da finire". Il codice lo fa apposta (il report segue la parte messa peggio, `PARTI` in `comune.js`), ma chi legge vede una contraddizione.
 - Fare: nel report, quando la scheda ha `PARTI`, sotto la fase generale un elenco "Parte per parte" (SP1, SP2 pubblico, SP2 private, SP3, SP4), ognuna con nome, fase e mini-barra. Se si arriva da `report.html#…` con un codice (dalla home o dalla mappa), evidenziare la parte giusta.
 - Riassunti uguali: nella mappa D1–D5 hanno la stessa frase, e per D3 (aree private) "lavori fatti… nelle aree pubbliche" è fuorviante. Dare a ogni parte il suo riassunto (una riga per parte in `PARTI` o nella scheda, con fonte), usato dalla lista della mappa e dal riquadro del punto.
