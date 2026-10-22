@@ -27,7 +27,7 @@ const DA_VERIFICARE = new Set(ELENCO.B.subs.filter(s => s[0].startsWith("Da veri
 // nome breve per lista, grafici e cronologia (se manca si usa il titolo fino alla parentesi)
 const SHORT = {"tamburi-risanamento-suoli":"Tamburi, risanamento dei suoli (SP1–SP4)","area-pneumatici-ua26":"Area pneumatici (UA26)","area-traversine-ua27":"Area traversine (UA27)","area-vasta-statte":"Area vasta di Statte","tamburi-falda":"Tamburi, falda","discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","acciaierie-italia-suoli":"Acciaieria, suoli","acciaierie-italia-falda":"Acciaieria, falda"};
 // note sulla posizione che la scheda stessa segnala
-const COORD_NOTE = {"pozzo-25":"Attenzione: la scheda segnala che le fonti danno coordinate diverse tra loro (il piano del 2021 indica un punto circa 2,8 km più a nord)."};
+const COORD_NOTE = {"pozzo-25":"Attenzione: le fonti danno coordinate diverse tra loro (il piano del 2021 indica un punto circa 2,8 km più a nord)."};
 const SCHEDE = DATA.schede.map(s => ({...s, short: SHORT[s.id] || s.title.split(/ \(|:/)[0]}));
 
 /* ---------- contatto ---------- */
@@ -69,9 +69,9 @@ const grpLabel = (code, short) => {
 // riportata sulla carta con le coordinate ufficiali di 7 aree (A8–A11, A13, A16, A17) e di due discariche riconoscibili sulla foto satellitare
 const MAPPA22 = "punto ricavato da noi dalla mappa delle aree di Ilva del luglio 2022, riportata sulla carta con le coordinate ufficiali di 7 aree: errore stimato 100–200 m";
 const ZONES = {
-  acciaieria:{ll:[40.513,17.196], r:.006, label:"Stabilimento siderurgico (circa 1.050 ettari dentro il SIN): la scheda riguarda tutta l'area, il punto è solo indicativo"},
+  acciaieria:{ll:[40.513,17.196], r:.006, label:"Stabilimento siderurgico (circa 1.050 ettari dentro il SIN): il report riguarda tutta l'area, il punto è solo indicativo"},
   plant:   {ll:[40.507,17.190], r:.019, label:"Zona generica: stabilimento ex Ilva (l'elenco non indica dove si trova l'area)"},
-  statte:  {ll:[40.553,17.205], r:.004, label:"Statte (luogo citato nel nome o nella scheda)"},
+  statte:  {ll:[40.553,17.205], r:.004, label:"Statte (luogo citato nel nome o nelle fonti)"},
   gravina: {ll:[40.5454,17.1951], r:0, label:`Gravina di Leucaspide, tra lo stabilimento e Statte (${MAPPA22}; l'area è una striscia lunga circa 3 km lungo la gravina, il punto ne indica la parte centrale)`},
   nordovest:{ll:[40.5502,17.1954], r:0, label:`Confine nord della fabbrica, a Statte, accanto alla Gravina di Leucaspide (${MAPPA22})`},
   duemari: {ll:[40.5294,17.2092], r:0, label:`Ex cava Due Mari, a est della cava Mater Gratiae (${MAPPA22})`},
@@ -81,7 +81,7 @@ const ZONES = {
   d1:      {ll:[40.5044,17.1963], r:0, label:`Appena fuori dalla fabbrica, sul lato sud-ovest, accanto a Land D2 (${MAPPA22})`},
   tamburi: {ll:[40.4905,17.2285], r:.003, label:"Quartiere Tamburi"},
   // punti presi da OpenStreetMap (non da documenti ufficiali): restano "posizione indicativa"
-  collinette:{ll:[40.4988,17.2280], r:0, label:"A nord del quartiere Tamburi, accanto alla scuola Deledda (la scheda dice che la Collinetta 3 è attaccata alla scuola); punto messo da noi con OpenStreetMap"},
+  collinette:{ll:[40.4988,17.2280], r:0, label:"A nord del quartiere Tamburi, accanto alla scuola Deledda (secondo le fonti la Collinetta 3 è attaccata alla scuola); punto messo da noi con OpenStreetMap"},
   deledda: {ll:[40.4971,17.2292], r:0, label:"Scuola Deledda, quartiere Tamburi (punto preso da OpenStreetMap)"},
   cimitero:{ll:[40.4918,17.2202], r:0, label:"Cimitero San Brunone, quartiere Tamburi (punto preso da OpenStreetMap)"},
   amastuola:{ll:[40.5987,17.1703], r:0, label:"Cava accanto alla Masseria Amastuola, a circa 1 km dalla Strada provinciale 42 (punto preso da OpenStreetMap, dove la cava ha come gestore \"ILVA in A.S.\"; nessun documento ufficiale trovato ne indica la posizione)"},
@@ -99,7 +99,7 @@ function pointsFor(){
     if (k) {   // coordinate da documento ufficiale
       const f = s.fonti.find(x => x.n === k.fonte);
       pts.push({code:i[0], name:i[1], note:i[2], ll:k.ll, official:true, zone:"Coordinate da documento ufficiale", ok:true,
-        src:{sid:s.id, n:k.fonte, url:f && f.url, text:`${k.e} m E – ${k.n} m N (${k.sistema}), indicate nella fonte [${k.fonte}] della scheda. Conversione in gradi nostra: ${k.ll[0].toFixed(4).replace(".",",")}° N – ${k.ll[1].toFixed(4).replace(".",",")}° E.${COORD_NOTE[s.id] ? " " + COORD_NOTE[s.id] : ""}`}});
+        src:{sid:s.id, n:k.fonte, url:f && f.url, note:COORD_NOTE[s.id] || "", text:`${k.e} m E – ${k.n} m N (${k.sistema}); in gradi, con la nostra conversione: ${k.ll[0].toFixed(4).replace(".",",")}° N – ${k.ll[1].toFixed(4).replace(".",",")}° E.`}});
       return;
     }
     const z = PLACE[i[0]] || "plant"; (byZone[z] ||= []).push(i);
@@ -152,19 +152,37 @@ function fase(steps){
 }
 // riquadro "fin dove è arrivata", barra delle 5 tappe e legenda: nel report e nell'anteprima della mappa
 function faseHtml(steps, sid){
-  if (!steps) return `<p class="fase"><b>Nessuna bonifica</b><span>${esc(NO_STEPS[sid] || "La scheda non permette di dire a che punto sono i 5 passaggi.")}</span></p>`;
+  if (!steps) return `<p class="fase"><b>Nessuna bonifica</b><span>${esc(NO_STEPS[sid] || "Le fonti non permettono di dire a che punto sono i 5 passaggi.")}</span></p>`;
   const [, nome, sub] = FASI.find(f => f[0] === fase(steps));
-  return `<p class="fase"><b>${esc(nome)}</b><span>${esc(sub)}</span></p>`;
+  // tappe "a metà" dopo l'ultima fatta: senza questa riga la fase sembra smentita dalla barra
+  const da = Math.max(0, steps.map(x => x[0]).lastIndexOf("done"));
+  const meta = steps.map((x,i) => [x,i]).filter(([x,i]) => i > da && x[0] === "part");
+  return `<p class="fase"><b>${esc(nome)}</b><span>${esc(sub)}</span>${meta.map(([x,i]) => `<span class="fp" style="--c:var(${STATO.part.color})"><i></i><span><b>${PASSI[i][2]}, a metà:</b> ${esc(x[1])}</span></span>`).join("")}</p>`;
 }
-const barraHtml = steps => `<ol class="barra5">${steps.map(([k],i) => `<li class="${k}" style="--c:var(${STATO[k].color})" title="${esc(PASSI[i][0])} (${esc(PASSI[i][1])}): ${esc(STATO[k].label)}"><i></i><span>${PASSI[i][2]}</span></li>`).join("")}</ol>`;
-const leg5Html = () => `<p class="leg5">${["done","part","todo","no"].map(k => `<span class="${k}" style="--c:var(${STATO[k].color})"><i></i>${STATO[k].label.toLowerCase()}</span>`).join("")}</p>`;
+// ogni pallino si tocca (o si clicca): sotto la barra compare il perché, dal testo della tappa
+const barraHtml = steps => `<ol class="barra5">${steps.map(([k,t],i) => `<li class="${k}" style="--c:var(${STATO[k].color})" tabindex="0" role="button" aria-label="${esc(PASSI[i][0])}: ${esc(STATO[k].label)}" data-i="${i}" data-why="${esc(t)}"><i></i><span>${PASSI[i][2]}</span></li>`).join("")}</ol><p class="barra-why" hidden></p>`;
+const leg5Html = () => `<p class="leg5">${["done","part","todo","no"].map(k => `<span class="${k}" style="--c:var(${STATO[k].color})"><i></i>${STATO[k].label.toLowerCase()}</span>`).join("")}<span class="hint">Tocca un pallino per il motivo</span></p>`;
+function barraWhy(e){
+  const li = e.target.closest(".barra5 li"); if (!li) return;
+  if (e.type === "keydown" && e.key !== "Enter" && e.key !== " ") return;
+  e.preventDefault();
+  const ol = li.parentElement, p = ol.nextElementSibling, era = li.classList.contains("sel");
+  ol.querySelectorAll(".sel").forEach(x => x.classList.remove("sel"));
+  p.hidden = era;
+  if (era) return;
+  const i = +li.dataset.i, k = li.className.split(" ")[0];
+  li.classList.add("sel");
+  p.innerHTML = `<b>${esc(PASSI[i][0])}, ${esc(STATO[k].label.toLowerCase())}.</b> ${esc(li.dataset.why)} <small>(${esc(PASSI[i][1])})</small>`;
+}
+document.addEventListener("click", barraWhy);
+document.addEventListener("keydown", barraWhy);
 const STEPS = {
-  "gravina-leucaspide":[["part","Indagini, sondaggi e controlli; il piano delle analisi approvato nel 2022 a fine 2025 non era partito"],["na","La scheda non ne parla"],["todo","Messa in sicurezza delle colline ancora da progettare"],["todo","Non bonificata"],["todo","Non ancora"]],
-  "discarica-nord-ovest":[["part","Indagini su rifiuti e terreno 2020–2023; le analisi di tutta la zona sono nella procedura della Gravina (A1)"],["na","La scheda non ne parla"],["part","Solo il progetto, approvato il 16/12/2025; nessuna fonte dice che i lavori siano partiti"],["no","Non prevista: i rifiuti restano sotto una copertura"],["todo","Non ancora: a fine lavori la Provincia dovrà certificare la messa in sicurezza"]],
-  "discarica-due-mari":[["na","La scheda non riporta analisi dei rifiuti"],["na","La scheda non ne parla"],["part","Copertura di terra e teli secondo Ilva, non verificata"],["no","Non prevista: i rifiuti restano nella discarica"],["todo","Nessun certificato: la Provincia non lo rilascia senza garanzie adeguate"]],
-  "discarica-cementir":[["na","La scheda non riporta i risultati delle analisi"],["na","La scheda non ne parla"],["part","Barriera e copertura finite nel 2023 secondo Ilva, non verificate; falda superficiale inquinata, pompaggio d'emergenza"],["no","Non prevista: i rifiuti restano nella discarica"],["todo","Nessun certificato di fine lavori"]],
+  "gravina-leucaspide":[["part","Indagini, sondaggi e controlli; il piano delle analisi approvato nel 2022 a fine 2025 non era partito"],["na","Le fonti non ne parlano"],["todo","Messa in sicurezza delle colline ancora da progettare"],["todo","Non bonificata"],["todo","Non ancora"]],
+  "discarica-nord-ovest":[["part","Indagini su rifiuti e terreno 2020–2023; le analisi di tutta la zona sono nella procedura della Gravina (A1)"],["na","Le fonti non ne parlano"],["part","Solo il progetto, approvato il 16/12/2025; nessuna fonte dice che i lavori siano partiti"],["no","Non prevista: i rifiuti restano sotto una copertura"],["todo","Non ancora: a fine lavori la Provincia dovrà certificare la messa in sicurezza"]],
+  "discarica-due-mari":[["na","Le fonti non riportano analisi dei rifiuti"],["na","Le fonti non ne parlano"],["part","Copertura di terra e teli secondo Ilva, non verificata"],["no","Non prevista: i rifiuti restano nella discarica"],["todo","Nessun certificato: la Provincia non lo rilascia senza garanzie adeguate"]],
+  "discarica-cementir":[["na","Le fonti non riportano i risultati delle analisi"],["na","Le fonti non ne parlano"],["part","Barriera e copertura finite nel 2023 secondo Ilva, non verificate; falda superficiale inquinata, pompaggio d'emergenza"],["no","Non prevista: i rifiuti restano nella discarica"],["todo","Nessun certificato di fine lavori"]],
   "stoccaggio-fanghi":[["todo","Il terreno non è ancora stato analizzato: le analisi si faranno dopo la rimozione di tutti i fanghi"],["todo","Non ancora"],["todo","Non messo in sicurezza"],["todo","Non bonificato; i fanghi sono stati in gran parte portati via"],["todo","Non ancora"]],
-  "discarica-nuove-vasche":[["na","La scheda non dice quali rifiuti contenga"],["na","La scheda non ne parla"],["part","Chiusa e coperta, in post-gestione fino al 2048 secondo Ilva; l'atto della Provincia sulla chiusura non l'abbiamo trovato"],["no","Non prevista: i rifiuti restano dove sono"],["no","Discarica in post-gestione, non una bonifica da certificare"]],
+  "discarica-nuove-vasche":[["na","Le fonti non dicono quali rifiuti contenga"],["na","Le fonti non ne parlano"],["part","Chiusa e coperta, in post-gestione fino al 2048 secondo Ilva; l'atto della Provincia sulla chiusura non l'abbiamo trovato"],["no","Non prevista: i rifiuti restano dove sono"],["no","Discarica in post-gestione, non una bonifica da certificare"]],
   "area-verde-ovest":[["done","Analisi del 2021; nel 2025 trovati materiali di riporto fino a 21 m"],["part","Analisi di rischio del 2023 respinta, da rifare"],["todo","Non messa in sicurezza"],["todo","Non bonificata"],["todo","Non ancora"]],
   "area-verde-nord":[["done","Analisi 2021–2022"],["part","Analisi di rischio di Ilva respinta; pratica archiviata dal Ministero a febbraio 2024"],["todo","Non messa in sicurezza"],["todo","Non bonificata"],["todo","Non ancora"]],
   "land-a":[["done","Analisi del 2023, validate da ARPA nel 2024"],["todo","A fine 2025 non ancora presentata"],["todo","Non messa in sicurezza; rifiuti di superficie tolti"],["todo","Non bonificata"],["todo","Non ancora"]],
@@ -178,26 +196,26 @@ const STEPS = {
   "land-i":[["no","Nessuna analisi: Ilva dice che non servono"],["no","Ilva dice che non serve"],["no","Ilva dice che non serve"],["no","Ilva dice che non serve"],["no","Nessun atto pubblico dice che l'area è pulita"]],
   "cimitero-san-brunone":[["done","Terreno analizzato, risultati convalidati da ARPA (ma non pubblicati)"],["done","Completata ad agosto 2015, approvata dalla Regione il 12/02/2016"],["todo","Per il Commissario la messa in sicurezza d'emergenza è \"completata\" (agosto 2026), ma nessun atto la descrive: solo recinzioni e teloni sulla terra scavata"],["part","Lavori iniziati nel 2020, fermati dopo tre mesi; gara annullata nel 2021; progetto in aggiornamento"],["todo","Non ancora"]],
   "pip-statte":[["done","Caratterizzazione di terreni e falda finita il 30/11/2013"],["done","Rifatta e approvata dal Ministero con il decreto n. 313 del 1/08/2018"],["part","Solo l'intervento d'emergenza (pompaggio dell'olio); la messa in sicurezza definitiva è ferma dal 2020"],["todo","Nessun progetto approvato; non si sa se sarà bonifica o messa in sicurezza"],["todo","Non ancora"]],
-  "mar-piccolo-gara-2018":[["done","Studi ufficiali ARPA e ISPRA (2005, 2010, 2014); i valori misurati non sono online"],["na","La scheda non ne parla"],["todo","Fondali non messi in sicurezza"],["todo","Gara del 2018 mai aggiudicata, nessun lavoro in mare; nessun piano finanziato per il 1° seno"],["todo","Non ancora"]],
+  "mar-piccolo-gara-2018":[["done","Studi ufficiali ARPA e ISPRA (2005, 2010, 2014); i valori misurati non sono online"],["na","Le fonti non ne parlano"],["todo","Fondali non messi in sicurezza"],["todo","Gara del 2018 mai aggiudicata, nessun lavoro in mare; nessun piano finanziato per il 1° seno"],["todo","Non ancora"]],
   "scuole-tamburi-aree-verdi":[["done","Analisi del terreno completate, risultati approvati da ARPA"],["done","Completata ad agosto 2015, approvata dalla Regione (determina n. 145 del 24/06/2016): nessun rischio per la salute dai suoli"],["no","Non serve secondo l'analisi di rischio"],["no","Non serve secondo l'analisi di rischio: solo riqualificazione delle aree"],["no","Nessun certificato: secondo l'analisi di rischio non serviva una bonifica"]],
   "atleti-azzurri-tamburi":[["part","Piano delle analisi approvato dalla Regione (7/07/2025) e finanziato (3/10/2025); prelievi dal 20/10/2025, a giugno 2026 ancora \"in via di completamento\" secondo il Commissario"],["todo","Non ancora approvata"],["todo","Non messo in sicurezza"],["todo","Non bonificato"],["todo","Non ancora"]],
-  "mar-piccolo-area-170":[["done","Analisi del 2005 e studi ARPA e ISPRA: inquinamento esteso da PCB e metalli; i valori misurati non sono pubblici"],["na","La scheda non ne parla"],["todo","Sedimenti non messi in sicurezza"],["todo","Nessun lavoro in mare; circa 33,5 mln € solo proposti dalla Regione (dicembre 2025)"],["todo","Non ancora"]],
+  "mar-piccolo-area-170":[["done","Analisi del 2005 e studi ARPA e ISPRA: inquinamento esteso da PCB e metalli; i valori misurati non sono pubblici"],["na","Le fonti non ne parlano"],["todo","Sedimenti non messi in sicurezza"],["todo","Nessun lavoro in mare; circa 33,5 mln € solo proposti dalla Regione (dicembre 2025)"],["todo","Non ancora"]],
   "acciaierie-italia-suoli":[["part","Analisi dal 2004 al 2021 (oltre 2.000 sondaggi), ma nessun test di cessione sui materiali di riporto; il piano delle nuove analisi è stato bocciato da ARPA e ISPRA nel 2023"],["part","Analisi di rischio del 2016–2017 mai esaminata: prima vanno verificati i riporti"],["part","Solo pavimentazioni, che l'azienda considera una messa in sicurezza; ISPRA e ARPA no"],["todo","Non bonificati, nessun progetto"],["todo","Non ancora"]],
   "acciaierie-italia-falda":[["part","Controlli annuali dell'azienda e controlli aggiuntivi dal 2021; per ISPRA e ARPA non bastano"],["todo","Non ancora: prima serve il quadro completo del sito"],["part","Misure provvisorie: barriera di 11 pozzi ai Parchi minerali (dal 2018) e raccolta degli idrocarburi; efficacia non valutabile secondo ARPA e ISPRA (2024)"],["todo","Nessun progetto di bonifica della falda"],["todo","Non ancora"]],
-  "area-pneumatici-ua26":[["part", "Secondo Ilva fatte entro il 2018; risultati non pubblici"], ["na", "La scheda non ne parla"], ["part", "Solo rimozione dei pneumatici (dal 2016)"], ["todo", "Non bonificata"], ["todo", "Nessun certificato: per la Regione (2020) ancora \"potenzialmente contaminata\""]],
-  "area-traversine-ua27":[["part", "Piano del 2017 (34 sondaggi); secondo Ilva fatte entro il 2018, risultati non pubblici"], ["na", "La scheda non ne parla"], ["part", "Solo rimozione di 7.823 t di traversine (2016–2017)"], ["todo", "Non bonificata"], ["todo", "Nessun certificato: per la Regione (2020) ancora \"potenzialmente contaminata\""]],
+  "area-pneumatici-ua26":[["part", "Secondo Ilva fatte entro il 2018; risultati non pubblici"], ["na", "Le fonti non ne parlano"], ["part", "Solo rimozione dei pneumatici (dal 2016)"], ["todo", "Non bonificata"], ["todo", "Nessun certificato: per la Regione (2020) ancora \"potenzialmente contaminata\""]],
+  "area-traversine-ua27":[["part", "Piano del 2017 (34 sondaggi); secondo Ilva fatte entro il 2018, risultati non pubblici"], ["na", "Le fonti non ne parlano"], ["part", "Solo rimozione di 7.823 t di traversine (2016–2017)"], ["todo", "Non bonificata"], ["todo", "Nessun certificato: per la Regione (2020) ancora \"potenzialmente contaminata\""]],
   "area-vasta-statte":[["done", "Analisi di tutto il territorio comunale fuori dal SIN (2014–2015)"], ["done", "Approvata nel 2017 (determinazione regionale n. 124): rischio \"inaccettabile\" in alcune zone"], ["part", "Solo divieti d'uso (ordinanza n. 62/2017, valida fino a fine 2018)"], ["todo", "Non bonificata"], ["todo", "Non ancora"]],
   "tamburi-falda":[["done", "Risultati delle analisi approvati"], ["done", "Approvata (prima di aprile 2020)"], ["todo", "Nessun intervento ad aprile 2020"], ["todo", "Non bonificata"], ["todo", "Non ancora"]],
-  "tamburi-risanamento-suoli":[["part", "Fatta nelle aree pubbliche (per la Regione \"siti contaminati\"); aree private di SP2 ancora in accertamento"], ["na", "Le fonti non la descrivono; il progetto parla di \"annullare il rischio sanitario\""], ["na", "La scheda non ne parla"], ["part", "Lavori fatti secondo il Comune in SP1–SP3 e, secondo la Regione, in SP4; nelle aree private di SP2 niente"], ["part", "Solo SP4 per la Regione (2020), certificato non visto; SP1–SP3 chiesta, non rilasciata"]]
+  "tamburi-risanamento-suoli":[["part", "Fatta nelle aree pubbliche (per la Regione \"siti contaminati\"); aree private di SP2 ancora in accertamento"], ["na", "Le fonti non la descrivono; il progetto parla di \"annullare il rischio sanitario\""], ["na", "Le fonti non ne parlano"], ["part", "Lavori fatti secondo il Comune in SP1–SP3 e, secondo la Regione, in SP4; nelle aree private di SP2 niente"], ["part", "Solo SP4 per la Regione (2020), certificato non visto; SP1–SP3 chiesta, non rilasciata"]]
 };
 // schede con più parti: nel grafico della home ogni parte conta da sola, con i suoi passaggi
 // (nel report resta lo stato della scheda intera, che segue la parte peggiore)
 const PARTI = {
   "tamburi-risanamento-suoli": [
-    ["D5", "Tamburi SP4, suolo", [["na","Le fonti non le descrivono"],["na","Le fonti non la descrivono"],["na","La scheda non ne parla"],["done","Per la Regione (aprile 2020) \"sito bonificato\""],["part","Certificazione di avvenuta bonifica secondo la Regione; il certificato non l'abbiamo visto"]]],
-    ["D1", "Tamburi SP1, suolo", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","La scheda non ne parla"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]]],
-    ["D2", "Tamburi SP2, suolo pubblico", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","La scheda non ne parla"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]]],
-    ["D4", "Tamburi SP3, suolo", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","La scheda non ne parla"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]]],
+    ["D5", "Tamburi SP4, suolo", [["na","Le fonti non le descrivono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["done","Per la Regione (aprile 2020) \"sito bonificato\""],["part","Certificazione di avvenuta bonifica secondo la Regione; il certificato non l'abbiamo visto"]]],
+    ["D1", "Tamburi SP1, suolo", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]]],
+    ["D2", "Tamburi SP2, suolo pubblico", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]]],
+    ["D4", "Tamburi SP3, suolo", [["done","Per la Regione (aprile 2020) \"sito contaminato\": le analisi ci sono"],["na","Le fonti non la descrivono"],["na","Le fonti non ne parlano"],["part","Lavori finiti secondo il Comune, che li ha fatti; nessun ente di controllo lo conferma"],["part","Certificazione chiesta dal Comune, non rilasciata ad aprile 2020"]]],
     ["D3", "Tamburi SP2, aree private", [["part","\"In fase di accertamento\" ad aprile 2020: solo una comunicazione di potenziale contaminazione (2005)"],["todo","Non ancora"],["todo","Non messe in sicurezza"],["todo","Non bonificate"],["todo","Non ancora"]]]
   ]
 };
@@ -214,28 +232,28 @@ const NO_STEPS = {
 const MONEY = {
   "gravina-leucaspide":[["Stimato",null,"Nessun costo stimato: non c'è ancora un progetto dei lavori","non c'è"],["Stanziato",0.3,"0,30 mln €: finanziamento della progettazione del Comune di Statte (fondi di coesione)"],["Pagato",null,"Per i lavori: nessuna cifra","—"]],
   "discarica-nord-ovest":[["Stimato",29.8124,"29,81 mln € (costo stimato del progetto approvato)"],["Stanziato",null,"Non indicato: le fonti non dicono da dove vengono i soldi","non indicato"],["Pagato",null,"Non si sa: le relazioni di Ilva dopo il 2018 non danno cifre","non si sa"]],
-  "stoccaggio-fanghi":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",75.03,"75,03 mln € stanziati per i fanghi secondo Ilva (luglio 2022); per le aree vicine altri 12,90 mln €"],["Pagato",7.89,"7,89 mln € pagati secondo Ilva (luglio 2022)"]],
-  "discarica-nuove-vasche":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",3.0,"3,00 mln € per la post-gestione e i controlli per 30 anni, secondo Ilva (luglio 2022)"],["Pagato",0.87,"0,87 mln € pagati secondo Ilva (luglio 2022)"]],
-  "area-verde-ovest":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",4.88,"4,88 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Pagato",0.09,"0,09 mln € pagati secondo Ilva (luglio 2022)","0,09"]],
-  "area-verde-nord":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",18.4,"18,40 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Pagato",0.29,"0,29 mln € pagati secondo Ilva (luglio 2022)"]],
-  "land-c":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",1.29,"1,29 mln € destinati a Land C secondo Ilva (luglio 2022)"],["Pagato",0.04,"0,04 mln € pagati secondo Ilva (luglio 2022)","0,04"]],
-  "land-e":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",3.65,"3,65 mln € destinati a Land E secondo Ilva (luglio 2022)"],["Pagato",null,"Nessuna cifra indicata","nessuna cifra"]],
-  "land-l-amastuola":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",3.35,"3,35 mln € assegnati secondo Ilva (luglio 2022)"],["Pagato",0.005,"Meno di 0,01 mln € pagati secondo Ilva (luglio 2022)","< 0,01"]],
-  "collinette-ecologiche":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",37.5,"37,5 mln € \"allocati\" da Ilva per caratterizzazione e messa in sicurezza"],["Pagato",0.79,"0,79 mln € pagati a luglio 2022; dopo il 2022 non si sa"]],
-  "pozzo-25":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",0.39,"0,39 mln € assegnati secondo Ilva (luglio 2022)"],["Pagato",0.005,"Meno di 0,01 mln € pagati secondo Ilva (luglio 2022)","< 0,01"]],
+  "stoccaggio-fanghi":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",75.03,"75,03 mln € stanziati per i fanghi secondo Ilva (luglio 2022); per le aree vicine altri 12,90 mln €"],["Pagato",7.89,"7,89 mln € pagati secondo Ilva (luglio 2022)"]],
+  "discarica-nuove-vasche":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",3.0,"3,00 mln € per la post-gestione e i controlli per 30 anni, secondo Ilva (luglio 2022)"],["Pagato",0.87,"0,87 mln € pagati secondo Ilva (luglio 2022)"]],
+  "area-verde-ovest":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",4.88,"4,88 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Pagato",0.09,"0,09 mln € pagati secondo Ilva (luglio 2022)","0,09"]],
+  "area-verde-nord":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",18.4,"18,40 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Pagato",0.29,"0,29 mln € pagati secondo Ilva (luglio 2022)"]],
+  "land-c":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",1.29,"1,29 mln € destinati a Land C secondo Ilva (luglio 2022)"],["Pagato",0.04,"0,04 mln € pagati secondo Ilva (luglio 2022)","0,04"]],
+  "land-e":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",3.65,"3,65 mln € destinati a Land E secondo Ilva (luglio 2022)"],["Pagato",null,"Nessuna cifra indicata","nessuna cifra"]],
+  "land-l-amastuola":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",3.35,"3,35 mln € assegnati secondo Ilva (luglio 2022)"],["Pagato",0.005,"Meno di 0,01 mln € pagati secondo Ilva (luglio 2022)","< 0,01"]],
+  "collinette-ecologiche":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",37.5,"37,5 mln € \"allocati\" da Ilva per caratterizzazione e messa in sicurezza"],["Pagato",0.79,"0,79 mln € pagati a luglio 2022; dopo il 2022 non si sa"]],
+  "pozzo-25":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",0.39,"0,39 mln € assegnati secondo Ilva (luglio 2022)"],["Pagato",0.005,"Meno di 0,01 mln € pagati secondo Ilva (luglio 2022)","< 0,01"]],
   "land-i":[["Stimato",null,"Nessun intervento previsto","—"],["Stanziato",0.01,"0,01 mln € (10.000 €) per la gestione generale, secondo Ilva (luglio 2022)","0,01"],["Pagato",0,"Nessuna spesa impegnata o pagata, secondo Ilva (luglio 2022)","0"]],
   "cimitero-san-brunone":[["Stimato",17.5,"17,5 mln € (\"attualmente stimato\", opuscolo maggio 2026)"],["Stanziato",9.3771,"9,38 mln € disponibili ad aprile 2026"],["Pagato",null,"Quanto è stato speso in tutto non si sa","non si sa"]],
   "pip-statte":[["Stimato",124.074,"124,07 mln €: costo del nuovo intervento nell'Accordo per la Coesione (novembre 2025)"],["Stanziato",89.9,"89,9 mln € assegnati dal Fondo sviluppo e coesione 2021-2027 (delibera CIPESS 51/2025)"],["Pagato",null,"Quanto è stato speso in tutto non si sa (sul nuovo intervento 0 € al 30/06/2026)","non si sa"]],
   "scuole-tamburi-aree-verdi":[["Stimato",0.165,"165.000 €: costo di analisi e analisi di rischio per le tre scuole","0,17"],["Stanziato",null,"Il fondo di 8 mln € del Ministero copre tutti i suoli del quartiere Tamburi, non solo queste scuole","vedi nota"],["Pagato",0.0497,"49.709,97 € pagati a dicembre 2018; costo finale non si sa","0,05"]],
   "atleti-azzurri-tamburi":[["Stimato",null,"Il costo di una bonifica non esiste ancora: prima servono analisi e analisi di rischio","non c'è"],["Stanziato",0.0869,"86.876,20 € dal Commissario per le analisi (3/10/2025)","0,09"],["Pagato",null,"Non si sa se anticipo o saldo siano stati pagati","non si sa"]],
   "mar-piccolo-area-170":[["Stimato",33.5,"Circa 33,5 mln € nel documento di proposta della Regione (dicembre 2025)"],["Stanziato",null,"Nessun finanziamento approvato trovato","nessuno"],["Pagato",null,"Speso per l'Area 170 ha: non si sa","non si sa"]],
-  "land-a":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",2.16,"2,16 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.02,"0,02 mln € pagati secondo Ilva (luglio 2022); dopo il 2022 non si sa","0,02"]],
-  "land-d1":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",2.30,"2,30 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.09,"0,09 mln € pagati secondo Ilva (luglio 2022)","0,09"]],
-  "discarica-due-mari":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",5.05,"5,05 mln € di fondi previsti secondo Ilva (luglio 2022)"],["Pagato",5.39,"5,39 mln € pagati secondo Ilva (luglio 2022)"]],
-  "discarica-cementir":[["Stimato",null,"La scheda non dà un costo stimato","—"],["Stanziato",16.75,"16,75 mln € di fondi previsti secondo Ilva (luglio 2022)"],["Pagato",5.40,"5,40 mln € pagati secondo Ilva (luglio 2022)"]],
+  "land-a":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",2.16,"2,16 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.02,"0,02 mln € pagati secondo Ilva (luglio 2022); dopo il 2022 non si sa","0,02"]],
+  "land-d1":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",2.30,"2,30 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.09,"0,09 mln € pagati secondo Ilva (luglio 2022)","0,09"]],
+  "discarica-due-mari":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",5.05,"5,05 mln € di fondi previsti secondo Ilva (luglio 2022)"],["Pagato",5.39,"5,39 mln € pagati secondo Ilva (luglio 2022)"]],
+  "discarica-cementir":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",16.75,"16,75 mln € di fondi previsti secondo Ilva (luglio 2022)"],["Pagato",5.40,"5,40 mln € pagati secondo Ilva (luglio 2022)"]],
   "mar-piccolo-gara-2018":[["Stimato",32.276,"32,28 mln € IVA esclusa: valore della gara del 2018"],["Stanziato",55,"55 mln €: fondi di tutto il programma \"sedimenti del Mar Piccolo\", non solo della gara"],["Pagato",5.586,"5,59 mln € pagati per altre attività nel Mar Piccolo, non per la gara (OpenCoesione)"]],
   "area-vasta-statte":[["Stimato", null, "Nessun costo stimato per la bonifica", "—"], ["Stanziato", 0.75, "0,75 mln € dalla Regione al Comune di Statte per nuove analisi delle aree agricole (avviso DD 202/2017)"], ["Pagato", null, "Quanto è stato speso non si sa", "non si sa"]],
-  "tamburi-risanamento-suoli":[["Stimato", null, "La scheda non dà un costo stimato", "—"], ["Stanziato", null, "Nessuna cifra oltre al contributo del Ministero delle Infrastrutture", "—"], ["Pagato", 1.504, "1,50 mln € versati dal Ministero delle Infrastrutture al Comune il 28/09/2018 per la bonifica dei suoli dei sottoprogetti 1–3"]]
+  "tamburi-risanamento-suoli":[["Stimato", null, "Nessun costo stimato nelle fonti", "—"], ["Stanziato", null, "Nessuna cifra oltre al contributo del Ministero delle Infrastrutture", "—"], ["Pagato", 1.504, "1,50 mln € versati dal Ministero delle Infrastrutture al Comune il 28/09/2018 per la bonifica dei suoli dei sottoprogetti 1–3"]]
 };
 
 /* ---------- mappa: tile locali (sito/tiles) e segnaposti ---------- */

@@ -15,7 +15,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 
 ## Prima parte: cose che sembrano errori (veloci)
 
-### [ ] 1. Report: bollino, fase e barra, gergo
+### [x] 1. Report: bollino, fase e barra, gergo (fatto il 22/10/2026)
 - **Bollino "✔ verificato"** (`report.html:107`): c'è su tutti i report, quindi non distingue niente. *Da decidere:* toglierlo (raccomandato) oppure sostituirlo con "Aggiornato al …", che è già nella pagina.
 - **La fase e la barra si contraddicono.** Esempio A15: la fase dice "Analisi da fare o da finire", ma nella barra Rischio e Sicurezza sono "a metà". Quando un passaggio dopo quello della fase è "a metà", aggiungere sotto la fase una riga generata dal testo dello step (es. "Rischio: Ilva ne ha fatta una, ma nessun ente l'ha approvata"). La barra deve dire perché ogni pallino è a metà anche al tocco (oggi il motivo si vede solo passandoci sopra col mouse?): verificarlo.
 - **Gergo "la scheda"**: sul sito si chiama "report". Sostituire nei testi visibili: STEPS ("La scheda non ne parla" → "Le fonti non ne parlano"), MONEY ("La scheda non dà un costo stimato" → "Nessun costo stimato nelle fonti"), il piè di pagina di tutte le pagine ("dall'elenco degli interventi, dalle schede approvate…" → una frase da lettore, es. "Ogni frase viene da un documento ufficiale, citato con il suo numero [1]").
