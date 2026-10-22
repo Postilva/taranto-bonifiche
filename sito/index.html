@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610222300">
+<link rel="stylesheet" href="stile.css?v=202610231000">
 
 <header class="topbar">
   <div class="in">
@@ -96,8 +96,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610222300"></script>
-<script src="comune.js?v=202610222300"></script>
+<script src="dati.js?v=202610231000"></script>
+<script src="comune.js?v=202610231000"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -112,9 +112,9 @@ $("#n-a").textContent = ELENCO.A.items.length;
 $("#n-b").textContent = ELENCO.B.items.length - DA_VERIFICARE.size;
 /* ---------- pannelli a tutto schermo: uno per argomento, aperti da #storia, #come-inquina, ... ---------- */
 const C = DATA.contesto;
-// fonti usate in un pannello: solo le [n] che compaiono nel suo testo, con id "<pannello>-f<n>"
+// fonti usate in un pannello: solo quelle richiamate nel suo testo (link "#<pannello>-f<n>" o "-f<da>-<a>"), con id "<pannello>-f<n>"
 function fontiDi(id, html, tutte = false){
-  const usate = new Set([...html.matchAll(/\[(\d+)\]/g)].map(m => +m[1]));
+  const usate = new Set([...html.matchAll(new RegExp(`"#${id}-f(\\d+)(?:-(\\d+))?"`, "g"))].flatMap(m => Array.from({length: +(m[2] || m[1]) - m[1] + 1}, (_, k) => +m[1] + k)));
   const lista = C.fonti.filter(f => tutte || usate.has(f.n));
   if (!lista.length) return "";
   return `<div class="sh-fonti"><h3>Fonti</h3><ol class="fonti">${lista.map(f => `<li id="${id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri</a>` : ""}</span></li>`).join("")}</ol></div>`;
@@ -207,9 +207,9 @@ function pannello(id){
   // le note [n] scorrono alla fonte dentro il pannello, senza cambiare l'indirizzo
   d.addEventListener("click", e => {
     const a = e.target.closest('a[href^="#"]'); if (!a) return;
-    const li = d.querySelector(a.getAttribute("href")); if (!li) return;
-    e.preventDefault(); li.scrollIntoView({block:"center", behavior:"smooth"});
-    li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1600);
+    const lis = fontiLi(d, a.getAttribute("href").slice(1)); if (!lis.length) return;
+    e.preventDefault(); lis[0].scrollIntoView({block:"center", behavior:"smooth"});
+    lis.forEach(li => { li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1600); });
   });
   if (id === "fabbrica") d.addEventListener("toggle", () => mappaFabbrica(d));
   return cache[id] = d;

@@ -30,7 +30,7 @@ p{margin:0}
 .muted{color:var(--ink-2)}
 .small{font-size:.875rem}
 .warn{color:var(--alert);font-weight:600}
-sup.c{font:600 .7em/1 var(--f-body);white-space:nowrap;margin-left:1px}
+sup.c{font:600 .7em/1 var(--f-body);white-space:nowrap;margin-left:1px;color:var(--gB)}
 sup.c a{text-decoration:none;color:var(--gB);padding:0 1px}
 
 /* ---------- barra in alto (tutte le pagine) ---------- */

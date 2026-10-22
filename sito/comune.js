@@ -44,7 +44,25 @@ SCHEDE.sort((a,b)=> codeCmp(a.code, b.code));
 const verified = Object.fromEntries(SCHEDE.flatMap(s => s.codes.map(c => [c, s])));
 document.querySelectorAll(".n-ok").forEach(el => el.textContent = Object.keys(verified).filter(c => GRUPPO[c]).length);
 document.querySelectorAll(".n-sch").forEach(el => el.textContent = SCHEDE.length);
-function cite(html, sid){ return html.replace(/\[(\d+)\]/g, (m,n) => `<sup class="c"><a href="#${sid}-f${n}" aria-label="fonte ${n}">[${n}]</a></sup>`); }
+// note di fila unite in un richiamo solo: [3][4][5][6][9][13] → [3–6, 9, 13]; "3–6" porta a #<sid>-f3-6 (si evidenziano tutte e quattro)
+function cite(html, sid){
+  return html.replace(/(?:\[\d+\])+/g, m => {
+    const ns = [...new Set(m.match(/\d+/g).map(Number))].sort((a,b) => a-b), pezzi = [];
+    for (let i = 0; i < ns.length;) {
+      let j = i; while (j + 1 < ns.length && ns[j+1] === ns[j] + 1) j++;
+      if (j - i >= 2) { pezzi.push(`<a href="#${sid}-f${ns[i]}-${ns[j]}" aria-label="fonti da ${ns[i]} a ${ns[j]}">${ns[i]}–${ns[j]}</a>`); i = j + 1; }
+      else { pezzi.push(`<a href="#${sid}-f${ns[i]}" aria-label="fonte ${ns[i]}">${ns[i]}</a>`); i++; }
+    }
+    return `<sup class="c">[${pezzi.join(", ")}]</sup>`;
+  });
+}
+// le voci della lista fonti indicate da un richiamo: "<sid>-f3" → [f3], "<sid>-f3-6" → [f3, f4, f5, f6]
+function fontiLi(root, id){
+  const m = id.match(/^(.*-f)(\d+)(?:-(\d+))?$/); if (!m) return [];
+  const lis = [];
+  for (let n = +m[2]; n <= +(m[3] || m[2]); n++) { const li = root.querySelector("#" + CSS.escape(m[1] + n)); if (li) lis.push(li); }
+  return lis;
+}
 /* ---------- interventi: dati comuni a lista, mappa e report ---------- */
 // sulla mappa: tutti gli interventi dei gruppi A e B
 const ALL = [...ELENCO.A.items, ...ELENCO.B.items];   // [codice, nome, nota, pagina, id scheda, avviso]
