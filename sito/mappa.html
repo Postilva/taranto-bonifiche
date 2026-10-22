@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610231100">
+<link rel="stylesheet" href="stile.css?v=202610231200">
 <body class="mappa">
 
 <header class="topbar">
@@ -42,7 +42,7 @@
     <div class="ph">
       <h1><span class="n-tot">35</span> interventi</h1>
       <button type="button" class="close" id="panel-close" aria-label="Chiudi l'elenco">✕</button>
-      <p id="intro">Tocca un pallino per leggere il report; un cerchio con un numero raccoglie più aree vicine.</p>
+      <p id="intro">Tocca un pallino per leggere il report. Da lontano le aree sono punti colorati: avvicinati per leggere i codici.</p>
       <div class="filters" role="group" aria-label="Filtri">
         <button type="button" class="chip" data-g="" aria-pressed="true">Tutti</button>
         <button type="button" class="chip" data-g="A" aria-pressed="false">Aree di Ilva</button>
@@ -65,7 +65,6 @@
       </div>
       <ul class="lg-voci" id="lg-voci"></ul>
       <p class="lg-x"><span class="pin ok exact" id="lg-exact">A9</span> bordo pieno: posizione da documento ufficiale</p>
-      <p class="lg-x"><span class="pin cl" style="--ring:var(--ink-3)"><b>3</b></span> aree vicine: tocca per vederle</p>
     </div>
   </details>
 </div>
@@ -77,9 +76,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
-<script src="dati.js?v=202610231100"></script>
-<script src="comune.js?v=202610231100"></script>
+<script src="dati.js?v=202610231200"></script>
+<script src="comune.js?v=202610231200"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -91,17 +89,16 @@ $("#panel-close").addEventListener("click", () => setPanel(false));
 $("#panel-open").addEventListener("click", () => setPanel(true));
 if (isNarrow()) setPanel(false);   // telefono: si parte dalla mappa, l'elenco si apre col bottone
 
-let map, cl, markers = {}, selected = null, pv, pvLL = null;
-// il pallino di un codice, se è sulla mappa (dentro un gruppo non ha elemento); visPin: il pallino o il gruppo che lo contiene
+let map, markers = {}, selected = null, pv, pvLL = null;
 const pinOf = c => markers[c]?.getElement()?.querySelector(".pin");
-const visPin = c => (cl?.getVisibleParent ? cl.getVisibleParent(markers[c]) : markers[c])?.getElement()?.querySelector(".pin");
+// aree lontane dalle altre: restano fuori dalla vista iniziale (sennò tutto il resto si schiaccia),
+// e una freccia sul bordo della mappa dice dove sono
+const LONTANI = ["A14"];
 
 /* colori: per fase (FASI, dal grigio al verde chiaro) o per gruppo (arancione e azzurro). Si ricorda la scelta. */
 let colore = "fase";
 try { if (localStorage.getItem("mappa-colore") === "gruppo") colore = "gruppo"; } catch {}
 const ordineFasi = [...FASI.map(f => f[0]), "nessuna"];
-const coloreDi = c => !PT[c].ok ? "var(--ink-3)" : colore === "gruppo" ? `var(--g${GRUPPO[c]})` : faseCode(c) === "nessuna" ? "var(--ink-3)" : `var(--ph-${faseCode(c)})`;
-const rango = c => !PT[c].ok ? 99 : colore === "gruppo" ? (GRUPPO[c] === "A" ? 0 : 1) : ordineFasi.indexOf(faseCode(c));
 function legenda(){
   const voci = colore === "gruppo"
     ? [["A", `<i class="sw gA"></i>${ELENCO.A.title}`], ["B", `<i class="sw gB"></i>${ELENCO.B.title}`]].map(([g, h]) => [h, PTS.filter(p => p.ok && GRUPPO[p.code] === g).length])
@@ -117,7 +114,6 @@ function setColore(c){
   $("#lg-modo").textContent = c === "fase" ? "a che punto è" : "gruppo";
   $("#lg-exact").className = "pin ok exact " + (c === "fase" ? "f-analisi" : "gA");
   legenda();
-  cl?.refreshClusters?.();
   try { localStorage.setItem("mappa-colore", c); } catch {}
 }
 document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => setColore(b.dataset.c)));
@@ -157,24 +153,10 @@ function placePv(){
 // telefono: il punto va centrato nello spazio sopra il cassetto; computer: fuori dal pannello dell'elenco
 function centra(ll){
   if (isNarrow()) {
-    const z = Math.max(map.getZoom(), 13), pt = map.project(ll, z), H = map.getSize().y, avail = H - pv.offsetHeight;
+    const z = Math.max(map.getZoom(), 14), pt = map.project(ll, z), H = map.getSize().y, avail = H - pv.offsetHeight;
     pt.y += H/2 - avail/2;
     map.setView(map.unproject(pt, z), z);
   } else map.panInside(ll, {paddingTopLeft:[40 + panelW(), 40], paddingBottomRight:[40, 40]});
-}
-// pallini ancora uniti anche da vicino: l'elenco del gruppo nel cassetto (o nel riquadro), si tocca un'area per aprirla
-function gruppo(c){
-  deselect();
-  const codes = c.getAllChildMarkers().map(m => m.options.code).sort(codeCmp);
-  pvLL = c.getLatLng();
-  pv.className = "pv";
-  pv.innerHTML = `<div class="top"><span class="grip" aria-hidden="true"></span><button type="button" class="x" aria-label="Chiudi">✕</button>
-    <span class="nm">${codes.length} aree qui vicino</span><span class="fs">Tocca un'area per vederla</span></div>
-    <div class="more"><ul class="list">${codes.map(k => itemHtml(PT[k])).join("")}</ul></div>`;
-  pv.hidden = false;
-  document.body.classList.add("pv-on");
-  centra(pvLL);
-  placePv();
 }
 function select(code, opts={}){
   if (!map || !PT[code]) return;
@@ -191,9 +173,9 @@ function select(code, opts={}){
   if (isNarrow()) $("#legenda").open = false;
   pv.className = `pv g${GRUPPO[p.code]} f-${faseCode(p.code)}`; pv.innerHTML = pvHtml(p); pv.hidden = false;
   document.body.classList.add("pv-on");
-  // se il pallino è dentro un gruppo, prima ci si avvicina (o, da vicinissimo, i pallini si aprono a raggiera)
-  const mostra = () => { if (selected !== code) return; pinOf(code)?.classList.add("sel"); centra(p.ll); placePv(); };
-  if (m && cl?.zoomToShowLayer && cl.hasLayer(m) && cl.getVisibleParent(m) !== m) cl.zoomToShowLayer(m, mostra); else mostra();
+  pinOf(code)?.classList.add("sel");
+  centra(p.ll);
+  placePv();
   history.replaceState(null, "", "#" + code);
 }
 function deselect(){
@@ -206,21 +188,26 @@ function deselect(){
 
 (function initMap(){
   if (!window.L) { $("#map").innerHTML = '<p style="padding:16px">La mappa non si è caricata. Gli interventi sono nell\'elenco.</p>'; return; }
-  map = L.map("map", {minZoom:11, maxZoom:14, zoomSnap:.25, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, zoomControl:false});
+  map = L.map("map", {minZoom:11, maxZoom:16, zoomSnap:.25, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, zoomControl:false});
   L.control.zoom({position:"topright"}).addTo(map);
   addTiles(map);
-  // vista iniziale = tutti i punti (a destra del pannello, sopra il bottone dell'elenco sul telefono), con zoom a quarti
-  // per stringerla il più possibile, ma mai così lontana da lasciare zone senza tile;
-  // da lì non ci si può allontanare (lo zoom minimo diventa quello della vista iniziale)
+  // vista che contiene dei punti (a destra del pannello, sopra il bottone dell'elenco sul telefono), con zoom a quarti
+  // per stringerla il più possibile, ma mai così lontana da lasciare zone senza tile.
+  // Lo zoom minimo è la vista con tutti i punti (da lì non ci si allontana); si parte dalla vista senza le aree lontane.
   let home = null;
-  const fit = () => {
+  const vista = pts => {
     map.setMinZoom(11); map.setMaxBounds(TILE_BOUNDS);
-    map.fitBounds(L.latLngBounds(PTS.map(p => p.ll)), {animate:false, paddingTopLeft:[panelW() + 28, 24], paddingBottomRight:[28, isNarrow() ? 84 : 76]});
+    map.fitBounds(L.latLngBounds(pts.map(p => p.ll)), {animate:false, paddingTopLeft:[panelW() + 28, 24], paddingBottomRight:[28, isNarrow() ? 84 : 76]});
     const z = coverZoom(map, map.getZoom());
     map.setMaxBounds(tileBounds(z));
     if (z !== map.getZoom()) map.setZoom(z, {animate:false});
-    map.setMinZoom(z);
-    home = map.getCenter(); lockMin();
+    return z;
+  };
+  const fit = () => {
+    const zMin = vista(PTS);
+    home = map.getCenter();
+    vista(PTS.filter(p => !LONTANI.includes(p.code)));
+    map.setMinZoom(zMin); lockMin();
   };
   // allo zoom minimo la mappa sta ferma sulla vista iniziale: niente trascinamento,
   // e se si sposta (frecce della tastiera, zoom indietro con la rotella su un angolo) torna al centro
@@ -234,44 +221,22 @@ function deselect(){
   let touched = false;
   ["mousedown","touchstart","wheel","keydown"].forEach(ev => $("#map").addEventListener(ev, () => touched = true, {passive:true}));
   if (window.ResizeObserver) new ResizeObserver(() => { map.invalidateSize(); if (!touched) fit(); placePv(); }).observe($("#map"));
+  // da lontano (sotto lo zoom 13) i pallini sono punti colorati senza codice, così non si coprono
   const zcls = () => map.getContainer().classList.toggle("zlo", map.getZoom() < 13);
   map.on("zoomend", zcls); zcls();
 
-  // pallini vicini uniti in un cerchio col numero (Leaflet.markercluster): al tocco ci si avvicina,
-  // e se anche da vicinissimo restano uniti si apre l'elenco del gruppo. Senza la libreria, pallini sciolti.
-  cl = L.markerClusterGroup ? L.markerClusterGroup({
-    maxClusterRadius: z => z >= 14 ? 22 : z >= 13 ? 80 : 60,   // da vicinissimo si uniscono solo i pallini che si coprirebbero showCoverageOnHover: false, zoomToBoundsOnClick: false, spiderfyOnMaxZoom: false,
-    spiderLegPolylineOptions: {weight: 1.5, color: "#f4f4f5", opacity: .6},
-    // l'anello ha un tratto per ogni area del gruppo, col suo colore
-    iconCreateFunction: c => {
-      const codes = c.getAllChildMarkers().map(m => m.options.code).sort((a, b) => rango(a) - rango(b) || codeCmp(a, b)), n = codes.length;
-      const ring = `conic-gradient(${codes.map((k, i) => `${coloreDi(k)} ${i / n * 100}% ${(i + 1) / n * 100}%`).join(",")})`;
-      return L.divIcon({className: "pinwrap", iconSize: [0, 0], html: `<span class="pin cl" style="--ring:${ring}" title="${n} aree: ${codes.join(", ")}"><b>${n}</b></span>`});
-    }
-  }) : L.featureGroup();
-  cl.addTo(map);
-  cl.on("clusterclick", e => {
-    if (map.getZoom() < map.getMaxZoom() - .01) { deselect(); e.layer.zoomToBounds({padding: [56, 56]}); }
-    else gruppo(e.layer);
-  });
-  cl.on("clustermouseover", e => e.layer.getElement()?.querySelector(".pin")?.classList.add("hl"));
-  cl.on("clustermouseout", e => e.layer.getElement()?.querySelector(".pin")?.classList.remove("hl"));
   PTS.forEach(p => {
-    const m = L.marker(p.ll, {icon:pinIcon(p), code:p.code, keyboard:true, title:`${p.code} · ${p.name}`, zIndexOffset: p.official ? 800 : p.ok ? 500 : 0});
+    const m = L.marker(p.ll, {icon:pinIcon(p), keyboard:true, title:`${p.code} · ${p.name}`, zIndexOffset: p.official ? 800 : p.ok ? 500 : 0}).addTo(map);
     m.on("click", e => { L.DomEvent.stopPropagation(e); select(p.code, {scroll:true}); });
     m.on("mouseover", () => document.querySelector(`.list li[data-code="${p.code}"]`)?.classList.add("hl"));
     m.on("mouseout", () => document.querySelector(`.list li[data-code="${p.code}"]`)?.classList.remove("hl"));
-    m.on("add", () => { if (selected === p.code) pinOf(p.code)?.classList.add("sel"); });   // il pallino si ricrea quando esce da un gruppo
     markers[p.code] = m;
   });
 
   pv = document.createElement("div"); pv.className = "pv"; pv.hidden = true;
   pv.setAttribute("role", "region"); pv.setAttribute("aria-label", "Anteprima dell'intervento");
   $(".mapwrap").appendChild(pv);
-  pv.addEventListener("click", e => {
-    if (e.target.closest(".x")) return deselect();
-    const li = e.target.closest("li[data-code]"); if (li) select(li.dataset.code);   // voce dell'elenco di un gruppo
-  });
+  pv.addEventListener("click", e => { if (e.target.closest(".x")) deselect(); });
   // cassetto del telefono: segue il dito verso il basso e, tirato giù, si chiude
   let y0 = null, dy = 0;
   pv.addEventListener("pointerdown", e => { if (isNarrow() && e.target.closest(".top") && !e.target.closest("button")) { y0 = e.clientY; dy = 0; pv.setPointerCapture(e.pointerId); } });
@@ -280,6 +245,31 @@ function deselect(){
   pv.addEventListener("pointerup", lascia); pv.addEventListener("pointercancel", lascia);
   map.on("click", deselect);
   map.on("move zoom", placePv);
+
+  // frecce verso le aree lontane quando sono fuori dalla vista: sul bordo, nella loro direzione, con la distanza; al tocco ci si va
+  const frecce = LONTANI.filter(c => PT[c]).map(c => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "lontano"; b.hidden = true;
+    b.addEventListener("click", () => select(c));
+    $(".mapwrap").appendChild(b);
+    return [c, b];
+  });
+  const placeFrecce = () => frecce.forEach(([c, b]) => {
+    const p = PT[c], S = map.getSize();
+    // zona libera: senza pannello, legenda e bottoni dello zoom in alto, bottone dell'elenco in basso
+    const L0 = 12 + panelW(), R = S.x - 12, T = 64, B = S.y - (isNarrow() ? 84 : 20);
+    const pt = map.latLngToContainerPoint(p.ll);
+    b.hidden = !matches(p) || (pt.x >= L0 && pt.x <= R && pt.y >= T && pt.y <= B);
+    if (b.hidden) return;
+    const cx = (L0 + R) / 2, cy = (T + B) / 2, dx = pt.x - cx, dy = pt.y - cy;
+    b.innerHTML = `<svg class="ar" style="transform:rotate(${Math.atan2(dy, dx)}rad)" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>${c} · ${Math.round(map.distance(map.getCenter(), p.ll) / 1000)} km`;
+    b.setAttribute("aria-label", `${c}, ${p.name}: fuori dalla vista, tocca per andarci`);
+    const k = Math.min((R - L0) / 2 / Math.abs(dx || 1e-9), (B - T) / 2 / Math.abs(dy || 1e-9)), w = b.offsetWidth / 2, h = b.offsetHeight / 2;
+    b.style.left = Math.max(L0 + w, Math.min(R - w, cx + dx * k)) + "px";
+    b.style.top = Math.max(T + h, Math.min(B - h, cy + dy * k)) + "px";
+  });
+  map.on("move zoom resize", placeFrecce);
+  window.placeFrecce = placeFrecce;
   if (window.ResizeObserver) new ResizeObserver(() => placePv()).observe(pv);   // l'altezza cambia quando arrivano i caratteri
   addEventListener("keydown", e => { if (e.key === "Escape") deselect(); });
 })();
@@ -302,8 +292,8 @@ function renderList(){
   if (todo.length) h += `<li class="sub">Da verificare · ${todo.length}</li>` + todo.map(itemHtml).join("");
   $("#list").innerHTML = h || `<li class="empty">Nessun intervento corrisponde ai filtri.</li>`;
   $("#lcount").textContent = `${shown.length} interventi mostrati`;
-  // sulla mappa restano solo i pallini che corrispondono ai filtri (così anche i gruppi contano solo quelli)
-  if (cl) { cl.clearLayers(); cl.addLayers(PTS.filter(matches).map(p => markers[p.code])); }
+  PTS.forEach(p => pinOf(p.code)?.classList.toggle("off", !matches(p)));
+  window.placeFrecce?.();
   if (selected && !matches(PT[selected])) deselect();
   else if (selected) document.querySelector(`.list li[data-code="${selected}"]`)?.classList.add("sel");
 }
@@ -314,8 +304,8 @@ document.querySelectorAll(".filters .chip").forEach(b => b.addEventListener("cli
   renderList();
 }));
 $("#q").addEventListener("input", e => { F.q = e.target.value.trim(); renderList(); });
-$("#list").addEventListener("mouseover", e => { const c = e.target.closest("li[data-code]"); if (c) visPin(c.dataset.code)?.classList.add("hl"); });
-$("#list").addEventListener("mouseout", e => { const c = e.target.closest("li[data-code]"); if (c && !c.contains(e.relatedTarget)) visPin(c.dataset.code)?.classList.remove("hl"); });
+$("#list").addEventListener("mouseover", e => { const c = e.target.closest("li[data-code]"); if (c) pinOf(c.dataset.code)?.classList.add("hl"); });
+$("#list").addEventListener("mouseout", e => { const c = e.target.closest("li[data-code]"); if (c && !c.contains(e.relatedTarget)) pinOf(c.dataset.code)?.classList.remove("hl"); });
 $("#list").addEventListener("click", e => {
   const c = e.target.closest("li[data-code]"); if (!c) return;
   if (isNarrow()) setPanel(false);
