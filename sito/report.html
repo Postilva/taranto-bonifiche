@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610222000">
+<link rel="stylesheet" href="stile.css?v=202610222100">
 
 <header class="topbar">
   <div class="in">
@@ -40,15 +40,15 @@
 
 <footer class="end">
   <div class="wrap">
-    <p>Il testo viene solo dalle schede approvate del progetto "Bonifiche Ilva". Ogni frase ha una fonte ufficiale, indicata con il numero tra parentesi quadre. I giornali non sono usati come fonte.</p>
+    <p>Ogni frase viene da un documento ufficiale (Ministero, Regione, ARPA, ISPRA, Commissario…), citato con il suo numero, per esempio [1]. I giornali non sono usati come fonte.</p>
     <p>A cura di Antonio De Pace<span class="contatto-sep"> · </span><a class="contatto" href="#" target="_blank" rel="noopener">Scrivici</a></p>
     <p>Mappa: foto satellitare di Esri, Maxar, Earthstar Geographics; contorno dello stabilimento © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
   </div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610222000"></script>
-<script src="comune.js?v=202610222000"></script>
+<script src="dati.js?v=202610222100"></script>
+<script src="comune.js?v=202610222100"></script>
 <script>
 /* Report di un intervento: report.html#<id-scheda> (oppure #<id-scheda>-f<n> per aprire una fonte).
    Ordine fisso: testata, mappa satellitare, che posto è e perché è inquinata, a che punto è, sostanze, chi e soldi,
@@ -70,14 +70,14 @@ function infoHtml(s){
   if (s.chi.length) rows.push(["Enti coinvolti", `<div class="chi">${s.chi.map(c => `<span>${esc(c)}</span>`).join("")}</div>`]);
   rows.push(["Soldi", money
     ? `<div class="soldi">${money.map(([k,v,t,lbl]) => `<div title="${esc(t)}"><small>${k}</small>${v==null ? `<b class="na">${esc(lbl)}</b>` : `<b>${lbl || fmtMln(v)}</b><span class="small muted">mln €</span>`}</div>`).join("")}<p class="why">${money.map(m => esc(m[2])).join(" · ")}</p></div>`
-    : `<span class="muted small">${s.sections.some(x => /^soldi/i.test(x.title)) ? `I dettagli sono più sotto, in <a href="#" data-open="soldi">Soldi</a>.` : "Nessuna cifra verificata nella scheda."}</span>`]);
+    : `<span class="muted small">${s.sections.some(x => /^soldi/i.test(x.title)) ? `I dettagli sono più sotto, in <a href="#" data-open="soldi">Soldi</a>.` : "Nessuna cifra verificata nelle fonti."}</span>`]);
   rows.push(["Aggiornata al", `<span>${esc(s.updated)}</span>`]);
   return `<section class="card kv">${rows.map(([k,v]) => `<div><span class="k">${k}</span>${v}</div>`).join("")}</section>`;
 }
 function mappaHtml(p, s){
   if (!p) return "";
   const pos = p.official
-    ? `<strong>Posizione da documento ufficiale.</strong> ${esc(p.src.text)} <a href="#${s.id}-f${p.src.n}">Fonte [${p.src.n}]</a>`
+    ? `<strong>Posizione da documento ufficiale</strong> <a href="#${s.id}-f${p.src.n}">[${p.src.n}]</a>${p.src.note ? ` ${esc(p.src.note)}` : ""}`
     : `<strong>Posizione indicativa.</strong> ${esc(p.zone)}.`;
   return `<section class="card minimap-card"><div id="minimap" role="region" aria-label="Posizione dell'intervento"></div><p>${pos}</p></section>`;
 }
@@ -88,7 +88,7 @@ function storyHtml(s){
   let h = "", last = null;
   ev.forEach(e => {
     const y = Math.floor(e.t);
-    if (last !== null && y - last >= 5) h += `<li class="gap"><span class="rail"><i></i></span><span class="q"></span><span class="t">${y-last-1} anni senza date nella scheda</span></li>`;
+    if (last !== null && y - last >= 5) h += `<li class="gap"><span class="rail"><i></i></span><span class="q"></span><span class="t">${y-last-1} anni senza date nelle fonti</span></li>`;
     last = y;
     h += `<li class="${e.plan ? "plan" : ""}"><span class="rail"><i></i></span><span class="q">${esc(e.quando)}</span><span class="t">${cite(e.cosa, s.id)}${e.fonte ? " " + cite(esc(e.fonte), s.id) : ""}</span></li>`;
   });
@@ -104,7 +104,7 @@ function render(s){
   const g = GRUPPO[s.code] || "A";
   let h = `<a class="back" href="mappa.html${p ? "#" + s.code : ""}">← Mappa</a>
     <header class="rp-head g${g}">
-      <div class="meta"><span class="badge ok">✔ verificato</span><span class="codes">${s.codes.join(" + ")}</span><span>${grpLabel(s.code)}</span>${DA_VERIFICARE.has(s.code) ? `<span class="badge expl">Legame con l'Ilva da verificare</span>` : ""}</div>
+      <div class="meta"><span class="codes">${s.codes.join(" + ")}</span><span>${grpLabel(s.code)}</span>${DA_VERIFICARE.has(s.code) ? `<span class="badge expl">Legame con l'Ilva da verificare</span>` : ""}</div>
       <h1>${esc(s.title)}</h1>
       ${s.verdict ? `<p class="verdict">${esc(s.verdict)}</p>` : ""}
       ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}
@@ -122,7 +122,10 @@ function render(s){
   if (s.fatto) accs.push(acc("Cosa è stato fatto", c(s.fatto), {sub: "Il racconto completo"}));
   if (s.nonsappiamo.length) accs.push(acc("Cosa non sappiamo", `<ol class="unk">${s.nonsappiamo.map(x => `<li><span>${c(x)}</span></li>`).join("")}</ol>`, {sub: `${s.nonsappiamo.length} domande aperte`}));
   extra.forEach(x => accs.push(acc(esc(x.title), c(x.html), {id: /^soldi/i.test(x.title) ? "soldi" : ""})));
-  accs.push(acc("Fonti", `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}</span></li>`).join("")}</ol>`, {id: "fonti", sub: `${s.fonti.length} documenti ufficiali`}));
+  // le coordinate ufficiali stanno sotto la fonte che le dà (sulla mappa resta solo il numero della fonte)
+  const coord = n => s.codes.map(k => PT[k]).filter(q => q && q.official && q.src.n === n)
+    .map(q => `<small class="coord">Coordinate${s.codes.length > 1 ? ` di ${q.code}` : ""}: ${esc(q.src.text)}</small>`).join("");
+  accs.push(acc("Fonti", `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}${coord(f.n)}</span></li>`).join("")}</ol>`, {id: "fonti", sub: `${s.fonti.length} documenti ufficiali`}));
   h += `<div class="accs">${accs.join("")}</div>`;
   const nav = `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="#${prev.id}"><small>← ${prev.code}</small>${esc(prev.short)}</a>` : ""}${next ? `<a class="next" href="#${next.id}"><small>${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
   $("#rp").classList.toggle("due", largo);
