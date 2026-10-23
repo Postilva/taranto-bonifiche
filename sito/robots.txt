@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bonifiche-ilva.vercel.app/sitemap.xml

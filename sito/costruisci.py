@@ -1,4 +1,5 @@
-"""Legge elenco.md, le schede approvate in interventi/ e richieste.md e scrive i dati in sito/dati.js (usato da tutte le pagine).
+"""Legge elenco.md, le schede approvate in interventi/ e richieste.md e scrive i dati in sito/dati.js (usato da tutte le pagine);
+poi una pagina per report, sito/r/<id>.html (report.html con titolo, descrizione e anteprima dell'area), sitemap.xml e robots.txt.
 
 Uso:  py sito/costruisci.py [AAAA-MM-GG]   (data dei dati; senza argomento, oggi)
 
@@ -17,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OGGI = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date.today()
 
+SITO = "https://bonifiche-ilva.vercel.app/"
 FILTRO = re.compile(r"non verificat|\bgiornal[ei]\b|\bstampa\b|quotidian|noinotizie|legambiente", re.I)
 ESCLUSE = re.compile(r"^(fonti|cosa non sappiamo|bozza)", re.I)
 
@@ -441,6 +443,49 @@ def leggi_scheda(path):
     return out
 
 
+# ---------- una pagina per report, sitemap e robots ----------
+def scrivi_pagine(schede):
+    """sito/r/<id>.html per ogni scheda: lo stesso codice di report.html, con <title>, description e og: dell'area
+    scritti nella pagina (per le anteprime su WhatsApp e per Google) e i percorsi relativi spostati di una cartella."""
+    sito = ROOT / "sito"
+    tpl = (sito / "report.html").read_text(encoding="utf-8")
+    js = (sito / "comune.js").read_text(encoding="utf-8")
+    short = json.loads(re.search(r"^const SHORT = (\{.*\});$", js, re.M).group(1))   # gli stessi nomi brevi del sito
+    tpl = re.sub(r'<!-- questa pagina rimanda.*?-->\n<meta name="robots"[^>]*>\n', "", tpl)
+    tpl = re.sub(r'((?:href|src)=")(?!https?:|#|/|data:|mailto:|\$)', r"\1../", tpl)   # non i link scritti dal codice (${…})
+    a = lambda v: html.escape(v, quote=False).replace('"', "&quot;")   # valori tra virgolette doppie
+    cartella = sito / "r"
+    cartella.mkdir(exist_ok=True)
+    for vecchia in cartella.glob("*.html"):   # report tolti o rinominati
+        if vecchia.stem not in {s["id"] for s in schede}:
+            vecchia.unlink()
+    for s in schede:
+        nome = short.get(s["id"]) or re.split(r" \(|:", s["title"])[0]
+        titolo = a(f'{s["code"]} {nome} · Bonifiche Ilva')
+        desc = a(s["verdict"] or s["title"])
+        url = f'{SITO}r/{s["id"]}.html'
+        cambi = [("<title>Report · Bonifiche Ilva</title>", f'<title>{titolo}</title>\n<link rel="canonical" href="{url}">'),
+                 ('<meta property="og:type" content="website">', '<meta property="og:type" content="article">'),
+                 ('<meta property="og:title" content="Report · Bonifiche Ilva">', f'<meta property="og:title" content="{titolo}">'),
+                 (f'<meta property="og:url" content="{SITO}report.html">', f'<meta property="og:url" content="{url}">'),
+                 ('<div class="wrap" id="rp">', f'<div class="wrap" id="rp" data-scheda="{a(s["id"])}">')]
+        pg = tpl.replace("<!doctype html>\n", "<!doctype html>\n<!-- Scritta da sito/costruisci.py a partire da report.html: non modificare a mano. -->\n", 1)
+        for vecchio, nuovo in cambi:
+            if pg.count(vecchio) != 1:
+                sys.exit(f"report.html è cambiata: non trovo {vecchio!r}")
+            pg = pg.replace(vecchio, nuovo)
+        pg = re.sub(r'(<meta (?:name|property)="(?:og:)?description" content=")[^"]*', lambda m: m.group(1) + desc, pg)
+        (cartella / f'{s["id"]}.html').write_text(pg, encoding="utf-8")
+
+    def iso(upd):   # "8 ottobre 2026" → 2026-10-08
+        g, m, y = upd.split()
+        return f"{y}-{MESI[m.lower()]:02d}-{int(g):02d}"
+    urls = [(SITO, OGGI.isoformat()), (SITO + "mappa.html", OGGI.isoformat())] + [(f'{SITO}r/{s["id"]}.html', iso(s["updated"])) for s in schede]
+    (sito / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                                      + "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in urls) + "</urlset>\n", encoding="utf-8")
+    (sito / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITO}sitemap.xml\n", encoding="utf-8")
+
+
 def main():
     elenco, gruppi_a, gruppi_b = leggi_elenco()
     # solo interventi/*.md: le schede in interventi/fuori-perimetro/ non vanno sul sito
@@ -463,8 +508,10 @@ def main():
     js = ("/* Generato da sito/costruisci.py leggendo elenco.md e le schede approvate: non modificare a mano. */\n"
           "const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")
     (ROOT / "sito" / "dati.js").write_text(js, encoding="utf-8")
+    scrivi_pagine(schede)
     print(f"{len(schede)} schede approvate, {len(elenco)} righe dell'elenco, "
-          f"{sum(1 for x in schede if x['coord'])} con coordinate, {sum(len(x['date']) for x in schede)} date.")
+          f"{sum(1 for x in schede if x['coord'])} con coordinate, {sum(len(x['date']) for x in schede)} date, "
+          f"{len(schede)} pagine in sito/r/.")
 
 
 if __name__ == "__main__":

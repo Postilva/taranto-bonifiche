@@ -28,6 +28,10 @@ const DA_VERIFICARE = new Set(ELENCO.B.subs.filter(s => s[0].startsWith("Da veri
 const SHORT = {"tamburi-risanamento-suoli":"Tamburi, risanamento dei suoli (SP1–SP4)","area-pneumatici-ua26":"Area pneumatici (UA26)","area-traversine-ua27":"Area traversine (UA27)","area-vasta-statte":"Area vasta di Statte","tamburi-falda":"Tamburi, falda","discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","acciaierie-italia-suoli":"Acciaieria, suoli","acciaierie-italia-falda":"Acciaieria, falda"};
 // note sulla posizione che la scheda stessa segnala
 const COORD_NOTE = {"pozzo-25":"Attenzione: le fonti danno coordinate diverse tra loro (il piano del 2021 indica un punto circa 2,8 km più a nord)."};
+// cartella del sito vista dalla pagina: "" per home e mappa, "../" per i report in r/ (si ricava da come è caricato questo file)
+const RADICE = document.currentScript.getAttribute("src").replace(/comune\.js.*$/, "");
+// pagina del report di una scheda (r/<id>.html, scritta da costruisci.py), con un eventuale #codice o #fonte
+const reportUrl = (s, hash) => `${RADICE}r/${s.id}.html${hash ? "#" + hash : ""}`;
 const SCHEDE = DATA.schede.map(s => ({...s, short: SHORT[s.id] || s.title.split(/ \(|:/)[0]}));
 
 /* ---------- contatto ---------- */
@@ -245,8 +249,8 @@ const stepsDi = (s, code) => parteDi(s, code)?.[2] || STEPS[s.id];
 // riassunto di un codice (con le note [n]): quello della sua parte, altrimenti la riga in grassetto della scheda
 const verdictDi = (s, code) => parteDi(s, code)?.[3] || s.verdict;
 const senzaNote = t => t.replace(/\s*\[\d+\]/g, "");
-// link al report di un codice: per le schede divise report.html#<codice>, così il report evidenzia la parte
-const reportHref = code => { const s = verified[code]; return "report.html#" + (parteDi(s, code) ? code : s.id); };
+// link al report di un codice: per le schede divise r/<id>.html#<codice>, così il report evidenzia la parte
+const reportHref = code => { const s = verified[code]; return reportUrl(s, parteDi(s, code) ? code : ""); };
 // barra delle 5 tappe in piccolo, solo da guardare (per "Parte per parte")
 const mini5Html = steps => `<span class="mini5" aria-label="${esc(steps.map(([k],i) => `${PASSI[i][2]}: ${STATO[k].label.toLowerCase()}`).join(", "))}">${steps.map(([k]) => `<i class="${k}" style="--c:var(${STATO[k].color})"></i>`).join("")}</span>`;
 // fin dove è arrivato un codice: [id, nome, cosa vuol dire] di FASI
@@ -304,7 +308,7 @@ function addTiles(m){
   m.on("zoomend", lock);
   m.whenReady(lock);
   // oltre lo zoom 14 (solo la mappa grande) Leaflet ingrandisce i tile del 14: un po' sfocati, ma i pallini vicini si separano
-  return L.tileLayer("tiles/{z}/{x}/{y}.png", {minZoom:11, maxZoom:16, maxNativeZoom:14, bounds:TILE_BOUNDS, attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(m);
+  return L.tileLayer(RADICE + "tiles/{z}/{x}/{y}.png", {minZoom:11, maxZoom:16, maxNativeZoom:14, bounds:TILE_BOUNDS, attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(m);
 }
 // zoom più lontano (tra minimo e 14, a passi di 0,25) al quale la finestra della mappa sta tutta dentro la zona coperta dai tile
 function coverZoom(m, from){
@@ -321,7 +325,7 @@ const STABILIMENTO = [[40.50586,17.17141],[40.50501,17.17138],[40.50448,17.17121
 // foto con didascalia e credito, dal registro immagini.md (autore, licenza, link all'originale)
 function fotoHtml(file, cls = "", eager = false){
   const i = DATA.immagini[file]; if (!i) return "";
-  return `<figure class="photo ${cls}"><img src="img/${file}" alt="${esc(i.did)}" ${eager ? "" : 'loading="lazy"'}><figcaption>${esc(i.did)}. <span class="cr">Foto: ${esc(i.autore)}, <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.licenza)}</a></span></figcaption></figure>`;
+  return `<figure class="photo ${cls}"><img src="${RADICE}img/${file}" alt="${esc(i.did)}" ${eager ? "" : 'loading="lazy"'}><figcaption>${esc(i.did)}. <span class="cr">Foto: ${esc(i.autore)}, <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.licenza)}</a></span></figcaption></figure>`;
 }
 // voci del glossario citate in un testo: si cercano le "parole" di ogni voce (le sigle maiuscole solo così come sono scritte)
 function glossarioIn(testo){

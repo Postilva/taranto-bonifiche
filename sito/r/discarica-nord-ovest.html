@@ -1,0 +1,237 @@
+<!doctype html>
+<!-- Scritta da sito/costruisci.py a partire da report.html: non modificare a mano. -->
+<meta charset="utf-8">
+<title>A2 Discarica Nord-Ovest · Bonifiche Ilva</title>
+<link rel="canonical" href="https://bonifiche-ilva.vercel.app/r/discarica-nord-ovest.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta name="theme-color" content="#0b0b0c">
+<meta name="description" content="Non bonificato. Nemmeno ancora messo in sicurezza: c'è solo il progetto approvato.">
+<!-- anteprima quando si condivide il link (WhatsApp, Telegram, Facebook, X...) -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Bonifiche Ilva">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="A2 Discarica Nord-Ovest · Bonifiche Ilva">
+<meta property="og:description" content="Non bonificato. Nemmeno ancora messo in sicurezza: c'è solo il progetto approvato.">
+<meta property="og:url" content="https://bonifiche-ilva.vercel.app/r/discarica-nord-ovest.html">
+<meta property="og:image" content="https://bonifiche-ilva.vercel.app/anteprima.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bonificare l'Ilva: a che punto siamo. Lo stabilimento e il quartiere Tamburi visti dal Mar Piccolo">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="../stile.css?v=202610231500">
+
+<header class="topbar">
+  <div class="in">
+    <a class="brand" href="../index.html">Bonifiche <span>Ilva</span></a>
+    <nav aria-label="Pagine">
+      <a href="../index.html">Inizio</a>
+      <a href="../mappa.html">Mappa</a>
+    </nav>
+  </div>
+</header>
+
+<main class="rp">
+  <div class="wrap" id="rp" data-scheda="discarica-nord-ovest"></div>
+</main>
+
+<footer class="end">
+  <div class="wrap">
+    <p>Ogni frase viene da un documento ufficiale (Ministero, Regione, ARPA, ISPRA, Commissario…), citato con il suo numero, per esempio [1]. I giornali non sono usati come fonte.</p>
+    <p>A cura di Antonio De Pace<span class="contatto-sep"> · </span><a class="contatto" href="#" target="_blank" rel="noopener">Scrivici</a></p>
+    <p>Mappa: foto satellitare di Esri, Maxar, Earthstar Geographics; contorno dello stabilimento © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="../dati.js?v=202610231500"></script>
+<script src="../comune.js?v=202610231500"></script>
+<script>
+/* Report di un intervento: r/<id-scheda>.html (oppure #<id-scheda>-f<n> per aprire una fonte), scritta da costruisci.py
+   a partire da questa pagina; i vecchi link report.html#<id-scheda> rimandano lì.
+   Ordine fisso: testata, mappa satellitare, che posto è e perché è inquinata, a che punto è, sostanze, chi e soldi,
+   poi le sezioni a fisarmonica (storia, cosa è stato fatto, cosa non sappiamo, approfondimenti, fonti). */
+const acc = (title, body, opts={}) => `<details class="acc"${opts.id ? ` id="${opts.id}"` : ""}${opts.open ? " open" : ""}><summary><span>${title}${opts.sub ? `<small>${opts.sub}</small>` : ""}</span></summary><div class="body prose">${body}</div></details>`;
+
+// "A che punto è": fin dove è arrivata e la barra delle 5 tappe (STEPS), poi il racconto della scheda in tre blocchi.
+// parte "testa" = solo fase e barra, "racconto" = i tre blocchi e la nota sulle tappe (sul computer stanno in due colonne diverse)
+function statoHtml(s, parte, sel){
+  const steps = STEPS[s.id];
+  const testa = parte === "racconto" ? "" : faseHtml(steps, s.id) + (steps ? barraHtml(steps) + leg5Html() : "") + partiHtml(s, sel);
+  const link = s.nonsappiamo.length ? `<a class="more-link" href="#domande" data-open="domande">Le domande aperte ↓</a>` : "";
+  const blocchi = parte === "testa" ? "" : s.punto.map(b => `<div class="blocco"><h3>${esc(b.title)}</h3><div class="prose">${cite(b.html, s.id)}</div>${/^cosa manca/i.test(b.title) ? link : ""}</div>`).join("");
+  return `<section class="card stato"><span class="k">A che punto è</span>${testa}${blocchi}
+    ${steps && parte !== "testa" ? `<p class="nota">Una tappa è "fatta" solo se lo conferma un ente di controllo (Ministero, Regione, Provincia, ARPA, ISPRA) e vale per tutta l'area.</p>` : ""}</section>`;
+}
+// schede divise (PARTI): sotto la fase di tutta l'area, ogni parte con la sua fase, la barra in piccolo e il riassunto;
+// sel = la parte da cui si arriva (report.html#D3), evidenziata
+function partiHtml(s, sel){
+  const pp = PARTI[s.id]; if (!pp) return "";
+  const li = ([code, nome, steps, rias]) => `<li id="parte-${code}"${code === sel ? ' class="sel"' : ""}><a class="cod" href="#${code}" aria-label="Evidenzia ${code}">${code}</a><div><b>${esc(nome)}</b><span class="pf">${esc(FASI.find(f => f[0] === fase(steps))[1])}${mini5Html(steps)}</span><p>${cite(esc(rias), s.id)}</p></div></li>`;
+  return `<div class="parti"><span class="k">Parte per parte</span><p>La fase qui sopra vale per tutte le parti insieme, quindi segue quella più indietro.</p><ol>${[...pp].sort((a,b) => codeCmp(a[0], b[0])).map(li).join("")}</ol></div>`;
+}
+// cosa non sappiamo: le domande che bloccano la bonifica, le altre, e a parte dove le fonti non concordano
+// (le schede ancora senza etichette hanno t vuoto: solo l'elenco delle domande)
+function domandeHtml(s){
+  const c = t => cite(t, s.id), ds = s.nonsappiamo, di = t => ds.filter(d => d.t === t);
+  const ol = (xs, k="") => `<ol class="unk ${k}">${xs.map(d => `<li><span><b>${c(d.q)}</b>${d.h ? c(d.h) : ""}</span></li>`).join("")}</ol>`;
+  if (!ds.some(d => d.t)) return acc("Cosa non sappiamo", ol(ds), {id: "domande", sub: `${ds.length} domande aperte`});
+  const bl = di("blocca"), al = di("altra"), fo = di("fonti"), n = (k, uno, piu) => `${k} ${k === 1 ? uno : piu}`;
+  const sub = [bl.length && n(bl.length, "domanda che blocca la bonifica", "domande che bloccano la bonifica"),
+    al.length && n(al.length, bl.length ? "altra" : "domanda", bl.length ? "altre" : "domande"),
+    fo.length && `le fonti non concordano su ${n(fo.length, "punto", "punti")}`].filter(Boolean).join(", ");
+  const body = (bl.length ? `<h4 class="unk-h">Cosa blocca la bonifica</h4>${ol(bl)}` : "")
+    + (al.length ? `<h4 class="unk-h">${bl.length ? "Altre domande" : "Domande aperte"}</h4>${ol(al, "altra")}` : "")
+    + (fo.length ? `<div class="unk-fonti"><h4 class="unk-h">Le fonti non concordano</h4>${ol(fo)}</div>` : "")
+    + (s.richieste.length ? `<a class="more-link" href="#chiesto" data-open="chiesto">Cosa abbiamo chiesto agli enti ↓</a>` : "");
+  return acc("Cosa non sappiamo", body, {id: "domande", sub: sub[0].toUpperCase() + sub.slice(1)});
+}
+// le richieste di accesso agli atti (richieste.md), dalla più vecchia: quando, a chi, cosa, entro quando;
+// le risposte si aggiungeranno quando saranno arrivate tutte
+function richiesteHtml(s){
+  const rr = s.richieste; if (!rr.length) return "";
+  const num = r => r.e[0] * 1e4 + r.e[1] * 100 + r.e[2], ultima = rr.reduce((a, r) => num(r) > num(a) ? r : a);
+  const body = `<p>Per avere i documenti che mancano abbiamo scritto agli enti con richieste di accesso agli atti (FOIA). Per legge hanno 30 giorni per rispondere (art. 5 del D.Lgs. 33/2013). Pubblicheremo le risposte quando saranno arrivate.</p>
+    <ul class="chiesto">${rr.map(r => `<li><span class="q">${esc(r.inviata)}</span><p>Abbiamo chiesto ${esc(r.a)} ${esc(r.cosa)}.</p><small>Risposta attesa entro il ${esc(r.entro)}</small></li>`).join("")}</ul>`;
+  const sub = rr.length === 1 ? `1 richiesta, risposta attesa entro il ${ultima.entro}` : `${rr.length} richieste, risposte attese entro il ${ultima.entro}`;
+  return acc("Cosa abbiamo chiesto", body, {id: "chiesto", sub});
+}
+// chi se ne occupa, soldi, aggiornamento
+function infoHtml(s){
+  const money = MONEY[s.id], rows = [];
+  if (s.chi.length) rows.push(["Enti coinvolti", `<div class="chi">${s.chi.map(c => `<span>${esc(c)}</span>`).join("")}</div>`]);
+  rows.push(["Soldi", money
+    ? `<div class="soldi" style="--n:${money.length}">${money.map(([k,v,t,lbl]) => `<div title="${esc(t)}"><small>${k}</small>${v==null ? `<b class="na">${esc(lbl)}</b>` : `<b>${lbl || fmtMln(v)}</b><span class="small muted">mln €</span>`}</div>`).join("")}<p class="why">${money.map(m => esc(m[2])).join(" · ")}</p></div>`
+    : `<span class="muted small">${s.sections.some(x => /^soldi/i.test(x.title)) ? `I dettagli sono più sotto, in <a href="#" data-open="soldi">Soldi</a>.` : "Nessuna cifra verificata nelle fonti."}</span>`]);
+  rows.push(["Aggiornata al", `<span>${esc(s.updated)}</span>`]);
+  return `<section class="card kv">${rows.map(([k,v]) => `<div><span class="k">${k}</span>${v}</div>`).join("")}</section>`;
+}
+function mappaHtml(p, s){
+  if (!p) return "";
+  const pos = p.official
+    ? `<strong>Posizione da documento ufficiale</strong> <a href="#${s.id}-f${p.src.n}">[${p.src.n}]</a>${p.src.note ? ` ${esc(p.src.note)}` : ""}`
+    : `<strong>Posizione indicativa.</strong> ${esc(p.zone)}.`;
+  return `<section class="card minimap-card"><div id="minimap" role="region" aria-label="Posizione dell'intervento"></div><p>${pos}</p></section>`;
+}
+
+function storyHtml(s){
+  const ev = [...s.date].sort((a,b) => a.t - b.t);
+  if (!ev.length) return "";
+  let h = "", last = null;
+  ev.forEach(e => {
+    const y = Math.floor(e.t);
+    if (last !== null && y - last >= 5) h += `<li class="gap"><span class="rail"><i></i></span><span class="q"></span><span class="t">${y-last-1} anni senza date nelle fonti</span></li>`;
+    last = y;
+    h += `<li class="${e.plan ? "plan" : ""}"><span class="rail"><i></i></span><span class="q">${esc(e.quando)}</span><span class="t">${cite(e.cosa, s.id)}${e.fonte ? " " + cite(esc(e.fonte), s.id) : ""}</span></li>`;
+  });
+  return `<ol class="story">${h}</ol>`;
+}
+
+let mini, miniMarker;
+const LARGO = matchMedia("(min-width:1100px)");
+function render(s, sel){
+  const p = PT[sel || s.code], c = t => cite(t, s.id), parte = sel && parteDi(s, sel);
+  const i = SCHEDE.indexOf(s), prev = SCHEDE[i-1], next = SCHEDE[i+1];
+  const extra = s.sections.filter(x => !/^date principali/i.test(x.title));
+  const g = GRUPPO[s.code] || "A";
+  let h = `<a class="back" href="${RADICE}mappa.html${p ? "#" + s.code : ""}">← Mappa</a>
+    <header class="rp-head g${g}">
+      <div class="meta"><span class="codes">${s.codes.join(" + ")}</span><span>${grpLabel(s.code)}</span>${DA_VERIFICARE.has(s.code) ? `<span class="badge expl">Legame con l'Ilva da verificare</span>` : ""}</div>
+      <h1>${esc(s.title)}</h1>
+      ${s.verdict ? `<p class="verdict">${esc(s.verdict)}</p>` : ""}
+      ${parte ? `<p class="parte-qui"><span class="k">Hai aperto ${sel} · ${esc(parte[1])}</span><span><b>${esc(faseDi(s, sel)[1])}.</b> ${c(esc(parte[3]))}${LARGO.matches ? "" : ` <a href="#parte-${sel}" data-open="parte-${sel}">Parte per parte ↓</a>`}</span></p>` : ""}
+      ${s.warnNote ? `<p class="small warn">⚠ ${c(esc(s.warnNote))}</p>` : ""}
+    </header>`;
+  // sul computer (LARGO) due colonne: a sinistra il testo, a destra mappa e fase con la barra
+  const largo = LARGO.matches, mappa = mappaHtml(p, s);
+  if (!largo) h += mappa;
+  if (s.posto || s.perche) h += `<div class="ctx2">${s.posto ? `<section class="card"><h2>Che posto è</h2><div class="prose">${c(s.posto)}</div></section>` : ""}${s.perche ? `<section class="card"><h2>Perché è inquinata</h2><div class="prose">${c(s.perche)}</div><a class="more-link" href="${RADICE}index.html#come-inquina">Come inquina l'Ilva →</a></section>` : ""}</div>`;
+  h += statoHtml(s, largo ? "racconto" : "", sel);
+  const sost = glossarioIn([...s.punto.map(b => b.html), s.posto, s.perche, s.fatto, ...s.sections.map(x => x.html)].join(" "));
+  if (sost.length) h += `<p class="sost">Sostanze: ${sost.map(g => `<a href="${RADICE}index.html#${g.id}">${esc(g.titolo.replace(/\s*\(.*\)$/, ""))}</a>`).join("")}</p>`;
+  h += infoHtml(s);
+  const story = storyHtml(s), accs = [];
+  if (story) accs.push(acc("La storia", story, {sub: `${s.date.length} date, dalla più vecchia alla più recente`}));
+  if (s.fatto) accs.push(acc("Cosa è stato fatto", c(s.fatto), {sub: "Il racconto completo"}));
+  if (s.nonsappiamo.length) accs.push(domandeHtml(s));
+  if (s.richieste.length) accs.push(richiesteHtml(s));
+  extra.forEach(x => accs.push(acc(esc(x.title), c(x.html), {id: /^soldi/i.test(x.title) ? "soldi" : ""})));
+  // le coordinate ufficiali stanno sotto la fonte che le dà (sulla mappa resta solo il numero della fonte)
+  const coord = n => s.codes.map(k => PT[k]).filter(q => q && q.official && q.src.n === n)
+    .map(q => `<small class="coord">Coordinate${s.codes.length > 1 ? ` di ${q.code}` : ""}: ${esc(q.src.text)}</small>`).join("");
+  accs.push(acc("Fonti", `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}${coord(f.n)}</span></li>`).join("")}</ol>`, {id: "fonti", sub: `${s.fonti.length} documenti ufficiali`}));
+  h += `<div class="accs">${accs.join("")}</div>`;
+  const nav = `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="${reportUrl(prev)}"><small>← ${prev.code}</small>${esc(prev.short)}</a>` : ""}${next ? `<a class="next" href="${reportUrl(next)}"><small>${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
+  $("#rp").classList.toggle("due", largo);
+  $("#rp").innerHTML = largo ? `<div class="col">${h}${nav}</div><aside class="col side">${mappa}${statoHtml(s, "testa", sel)}</aside>` : h + nav;
+  document.title = parte ? `${sel} ${parte[1]} · Bonifiche Ilva` : `${s.code} ${s.short} · Bonifiche Ilva`;
+  fermaSide();
+
+  if (mini) { mini.remove(); mini = null; }
+  if (window.L && p) {
+    // foto satellitare (Esri World Imagery) e vista iniziale allo zoom più vicino (a 19 qui la foto è sgranata)
+    mini = L.map("minimap", {minZoom:12, maxZoom:18, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false, dragging:!L.Browser.mobile, tap:false});
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {maxZoom:18, attribution:"Foto satellitare: Esri, Maxar, Earthstar Geographics"}).addTo(mini);
+    L.polygon(STABILIMENTO, {color:"#c2410c", weight:1.5, fillColor:"#c2410c", fillOpacity:.06, interactive:false}).addTo(mini);
+    mini.setView(p.ll, 18, {animate:false});
+    L.marker(p.ll, {icon:pinIcon(p, "sel"), interactive:false}).addTo(mini);
+  }
+}
+
+// la colonna di destra resta ferma dove parte (niente scatto all'inizio); se è più alta della finestra
+// scorre finché si vede la fine, poi si ferma
+function fermaSide(){
+  const a = $(".side"); if (!a) return;
+  const parte = $(".due>.col").getBoundingClientRect().top + scrollY;
+  a.style.top = Math.min(parte, innerHeight - a.offsetHeight - 12) + "px";
+}
+addEventListener("resize", fermaSide);
+document.fonts?.ready.then(fermaSide);
+
+function showFonte(id){
+  const lis = fontiLi(document, id);
+  if (!lis.length) return;
+  $("#fonti").open = true;
+  lis[0].scrollIntoView({block:"center"});
+  lis.forEach(li => { li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1800); });
+}
+
+// r/<id-scheda>.html, con #<id-scheda>-f<n> (una fonte) oppure #<codice> (per le schede divise evidenzia la parte, es. #D3);
+// report.html#… (vecchi link) e un hash di un'altra scheda portano alla pagina della scheda giusta
+const PAGINA = $("#rp").dataset.scheda;
+let cur = null, curSel = null;
+function route(){
+  const h = decodeURIComponent(location.hash.slice(1));
+  const vh = Object.hasOwn(verified, h) ? verified[h] : null;   // l'hash è un codice
+  const s = SCHEDE.find(x => h === x.id || h.startsWith(x.id + "-f")) || vh || SCHEDE.find(x => x.id === PAGINA);
+  if (s && s.id !== PAGINA) { location.replace(reportUrl(s, h === s.id ? "" : h)); return; }
+  if (!s) {
+    cur = null;
+    $("#rp").innerHTML = `<div class="notfound"><h1>Report non trovato</h1><p>Scegli un intervento sulla mappa.</p><a class="btn" href="${RADICE}mappa.html">Apri la mappa →</a></div>`;
+    return;
+  }
+  const sel = vh && parteDi(s, h) ? h : null;
+  if (cur !== s.id || curSel !== sel) {
+    const stessa = cur === s.id;
+    render(s, sel); cur = s.id; curSel = sel;
+    // da un'altra pagina si parte dall'alto; cambiando parte nello stesso report si resta sulla parte
+    if (stessa && sel) document.getElementById("parte-" + sel)?.scrollIntoView({block:"center"});
+    else if (h === s.id || vh) window.scrollTo(0, 0);
+  }
+  if (h && h !== s.id && !vh) showFonte(h);
+}
+addEventListener("hashchange", route);
+LARGO.addEventListener("change", () => { cur = curSel = null; route(); });   // si allarga o si stringe la finestra: rifà la pagina
+// la stessa citazione cliccata due volte non cambia l'hash: si riapre la fonte a mano
+$("#rp").addEventListener("click", e => {   // "Approfondimenti → Soldi" dalla scheda rapida: apre la voce senza cambiare l'hash
+  const o = e.target.closest("a[data-open]"); if (!o) return;
+  e.preventDefault(); const d = document.getElementById(o.dataset.open); if ("open" in d) d.open = true; d.scrollIntoView({block:"start"});
+});
+$("#rp").addEventListener("click", e => { const a = e.target.closest('a[href^="#"]'); if (a && a.getAttribute("href") === location.hash) showFonte(location.hash.slice(1)); });
+route();
+</script>
