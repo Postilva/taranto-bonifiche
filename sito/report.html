@@ -84,8 +84,19 @@ function domandeHtml(s){
     fo.length && `le fonti non concordano su ${n(fo.length, "punto", "punti")}`].filter(Boolean).join(", ");
   const body = (bl.length ? `<h4 class="unk-h">Cosa blocca la bonifica</h4>${ol(bl)}` : "")
     + (al.length ? `<h4 class="unk-h">${bl.length ? "Altre domande" : "Domande aperte"}</h4>${ol(al, "altra")}` : "")
-    + (fo.length ? `<div class="unk-fonti"><h4 class="unk-h">Le fonti non concordano</h4>${ol(fo)}</div>` : "");
+    + (fo.length ? `<div class="unk-fonti"><h4 class="unk-h">Le fonti non concordano</h4>${ol(fo)}</div>` : "")
+    + (s.richieste.length ? `<a class="more-link" href="#chiesto" data-open="chiesto">Cosa abbiamo chiesto agli enti ↓</a>` : "");
   return acc("Cosa non sappiamo", body, {id: "domande", sub: sub[0].toUpperCase() + sub.slice(1)});
+}
+// le richieste di accesso agli atti (richieste.md), dalla più vecchia: quando, a chi, cosa, entro quando;
+// le risposte si aggiungeranno quando saranno arrivate tutte
+function richiesteHtml(s){
+  const rr = s.richieste; if (!rr.length) return "";
+  const num = r => r.e[0] * 1e4 + r.e[1] * 100 + r.e[2], ultima = rr.reduce((a, r) => num(r) > num(a) ? r : a);
+  const body = `<p>Per avere i documenti che mancano abbiamo scritto agli enti con richieste di accesso agli atti (FOIA). Per legge hanno 30 giorni per rispondere (art. 5 del D.Lgs. 33/2013). Pubblicheremo le risposte quando saranno arrivate.</p>
+    <ul class="chiesto">${rr.map(r => `<li><span class="q">${esc(r.inviata)}</span><p>Abbiamo chiesto ${esc(r.a)} ${esc(r.cosa)}.</p><small>Risposta attesa entro il ${esc(r.entro)}</small></li>`).join("")}</ul>`;
+  const sub = rr.length === 1 ? `1 richiesta, risposta attesa entro il ${ultima.entro}` : `${rr.length} richieste, risposte attese entro il ${ultima.entro}`;
+  return acc("Cosa abbiamo chiesto", body, {id: "chiesto", sub});
 }
 // chi se ne occupa, soldi, aggiornamento
 function infoHtml(s){
@@ -145,6 +156,7 @@ function render(s, sel){
   if (story) accs.push(acc("La storia", story, {sub: `${s.date.length} date, dalla più vecchia alla più recente`}));
   if (s.fatto) accs.push(acc("Cosa è stato fatto", c(s.fatto), {sub: "Il racconto completo"}));
   if (s.nonsappiamo.length) accs.push(domandeHtml(s));
+  if (s.richieste.length) accs.push(richiesteHtml(s));
   extra.forEach(x => accs.push(acc(esc(x.title), c(x.html), {id: /^soldi/i.test(x.title) ? "soldi" : ""})));
   // le coordinate ufficiali stanno sotto la fonte che le dà (sulla mappa resta solo il numero della fonte)
   const coord = n => s.codes.map(k => PT[k]).filter(q => q && q.official && q.src.n === n)

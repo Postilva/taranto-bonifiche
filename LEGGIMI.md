@@ -14,6 +14,7 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 - `elenco.md`: le aree inquinate dall'Ilva e il loro stato
 - `fuori-perimetro.md`: le voci censite prima e uscite dal censimento
 - `interventi/<nome>.md`: una scheda per intervento
+- `richieste.md`: le richieste di accesso agli atti (FOIA) inviate, con solo i dati pubblici (aree, ente, cosa abbiamo chiesto, date); il sito le mostra in "Cosa abbiamo chiesto" in ogni report. Si aggiorna a mano quando cambia `.tmp/foia/REGISTRO.md`, che il sito non legge (nomi di funzionari, PEC, note private). Gli esiti per ora non vanno sul sito (deciso il 23/10/2026)
 - `contesto.md`: i testi della homepage (storia, come inquina, la fabbrica, glossario), con le loro fonti
 - `immagini.md`: il registro delle foto in `sito/img/` (autore, licenza, link): una foto senza riga qui non va sul sito
 - `fonti/`: i PDF dei documenti usati, nominati `anno-mese_ente_titolo.pdf`

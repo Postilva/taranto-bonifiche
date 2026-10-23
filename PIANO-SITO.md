@@ -67,7 +67,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 - **Ordine di lavoro:** riscrivere prima i punti di A15 e Tamburi suoli e mostrarli all'utente a 390 px; poi tutte le altre schede, in gruppi da 5–6, facendo approvare le domande.
 - **Da decidere:** se nel riquadro "A che punto è" mettere anche il primo dubbio che blocca, una riga sotto "Cosa manca" (raccomandato: no, "Cosa manca" lo dice già; meglio un link "Le domande aperte ↓").
 
-### [ ] 8. Le richieste di accesso agli atti nel report
+### [x] 8. Le richieste di accesso agli atti nel report (fatto il 23/10/2026: `richieste.md` con 47 richieste a 8 enti, riquadro descrittivo "Cosa abbiamo chiesto" in ogni report, niente collegamento punto per punto; gli esiti si aggiungono quando saranno arrivate tutte le risposte)
 - "Come lavoriamo" promette FOIA, ma nei report si vedono solo ogni tanto nel testo. Aggiungere in ogni report un riquadro "Cosa abbiamo chiesto": ente, cosa, data, scadenza, esito in parole semplici (in attesa / risposta arrivata / rifiutata / chiesto il riesame).
 - **Da decidere (privacy):** `.tmp/foia/REGISTRO.md` contiene nomi di funzionari, caselle PEC e note private, quindi **non va letto dal sito**. Raccomandato: un file nuovo tracciato `richieste.md` con solo le colonne pubbliche (codice area, ente, oggetto breve, inviata il, scadenza, esito breve), aggiornato a mano quando cambia il registro; `costruisci.py` lo legge.
 - Anche in home una riga: "N richieste inviate, M risposte".
