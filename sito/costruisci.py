@@ -5,7 +5,8 @@ Uso:  py sito/costruisci.py [AAAA-MM-GG]   (data dei dati; senza argomento, oggi
 Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
 - si usano solo le schede con "Stato scheda: approvata";
 - si tolgono paragrafi, punti e righe che contengono "non verificato" o che citano giornali/stampa;
-- di "Cosa non sappiamo" si tiene solo la frase in grassetto iniziale di ogni punto (la domanda aperta, senza dati);
+- ogni punto di "Cosa non sappiamo" è "[blocca|altra|fonti] **domanda** frasi": si tiene la domanda e si tolgono
+  solo le frasi non verificate, di giornali o con le bozze FOIA (le schede ancora senza etichette: solo la domanda);
 - le bozze FOIA non vanno sul sito.
 Il testo non viene riscritto: viene solo convertito da Markdown a HTML.
 """
@@ -116,6 +117,33 @@ def section_html(lines):
         elif kind == "table":
             out.append(table_html(val))
     return "".join(out)
+
+
+def frasi(t):
+    """Toglie da un testo solo le frasi non verificate, di giornali o che rimandano alle bozze FOIA."""
+    parti = re.split(r"(?<=[.!?])\s+(?=[A-ZÀÈÉÌÒÙ«\"(⚠*])", t.strip())
+    return " ".join(p for p in parti if not FILTRO.search(p) and not re.search(r"bozz", p, re.I))
+
+
+def domanda(item, nome):
+    """Un punto di "Cosa non sappiamo": [etichetta] **domanda** frasi, con eventuali sotto-voci.
+    Restituisce {t: blocca/altra/fonti, q: domanda, h: testo HTML}; t vuoto per le schede ancora nel formato vecchio."""
+    m = re.match(r"\[(blocca|altra|fonti)\]\s+\*\*(.+?)\*\*\s*(.*)", item[0])
+    if not m:
+        b = re.match(r"\*\*(.+?)\*\*", item[0])
+        return {"t": "", "q": inline(b.group(1).strip()), "h": ""} if b and not FILTRO.search(b.group(1)) else None
+    head, sub = m.group(3), []
+    for r in item[1:]:
+        s = re.match(r"^\s+(-|\d+\.)\s+(.*)", r)
+        if s:
+            sub.append(s.group(2))
+        elif sub:
+            sub[-1] += " " + r.strip()
+        else:
+            head += " " + r.strip()
+    head, sub = frasi(head), [x for x in map(frasi, sub) if x]
+    h = (f"<p>{inline(head)}</p>" if head else "") + ("<ul>" + "".join(f"<li>{inline(x)}</li>" for x in sub) + "</ul>" if sub else "")
+    return {"t": m.group(1), "q": inline(m.group(2).strip()), "h": h}
 
 
 # ---------- coordinate UTM fuso 33 Nord → gradi (WGS84) ----------
@@ -350,11 +378,14 @@ def leggi_scheda(path):
             for kind, val in blocks(body):
                 if kind == "ol":
                     for it in val:
-                        b = re.match(r"\*\*(.+?)\*\*", it[0])
-                        if b and not FILTRO.search(b.group(1)):
-                            out["nonsappiamo"].append(inline(b.group(1).strip()))
+                        d = domanda(it, path.name)
+                        if d:
+                            out["nonsappiamo"].append(d)
                 if kind == "h":
                     break
+            tipi = {d["t"] for d in out["nonsappiamo"]}
+            if "" in tipi and len(tipi) > 1:
+                sys.exit(f"{path.name}: in \"Cosa non sappiamo\" alcuni punti non hanno l'etichetta [blocca], [altra] o [fonti]")
             continue
         if ESCLUSE.match(t):
             continue
