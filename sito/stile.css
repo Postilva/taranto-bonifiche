@@ -243,6 +243,7 @@ td.num{text-align:right;font-family:var(--f-mono);font-size:.85rem;white-space:n
 .unk ul li::before{content:none}
 .unk li span>p,.unk li span>ul{font-size:.92rem;color:var(--ink-2);margin:0}
 .unk li span>ul{padding-left:1.1rem;margin-top:4px;display:grid;gap:4px}
+.unk li span>ul+p{margin-top:4px}
 .unk-h{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin:18px 0 8px}
 .unk-h:first-child{margin-top:4px}
 .unk.altra>li{background:var(--surface-2)}

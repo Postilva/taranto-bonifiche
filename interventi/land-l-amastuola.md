@@ -103,13 +103,14 @@ Negli anni '80 nella cava c'era una discarica [2][3][4]. La Regione ha chiesto d
 [12] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pag. 53, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
 
 ## Cosa non sappiamo
-1. **Nessun documento della Regione.** Tutto quello che sappiamo sulla procedura viene dalle relazioni di Ilva [1][7][8]. Il verbale della conferenza del 18 maggio 2023, il parere di ARPA e l'autorizzazione del piano di recupero del 2010 non sono pubblicati online. Non verificato.
-2. **"Rigettato" o "da integrare"?** Nel 2023 Ilva scriveva che la Regione aveva trovato "motivi ostativi" e chiesto un piano preliminare [7]; dal 2024 scrive che il piano è stato "rigettato" [1]. Non sappiamo quale sia la formula esatta dell'atto regionale.
-3. **Chi ha approvato il piano preliminare.** Ilva scrive che lo ha "approvato ARPA" [1]. Per legge però l'autorizzazione spetta alla Regione [9]. Non sappiamo se la Regione abbia fatto un atto formale. Non verificato.
-4. **Dove si trova esattamente:** Comune, catasto e coordinate non compaiono in nessuna fonte ufficiale trovata [2][3].
-5. **Cosa contiene la vecchia discarica**, quanto è grande e chi la usava: le relazioni di Ilva parlano solo di "discarica di 2ª categoria degli anni '80" e di rifiuti stoccati "dal 1985 al 1995" [3][6].
-6. **La superficie:** 128,2 ettari per Ilva [3]; i giornali danno altre cifre (non verificato).
-7. **Il progetto di nuova discarica per i fanghi** (2022): abbandonato o ancora possibile? Non verificato [6].
+1. [blocca] **L'indagine preliminare è partita?** A fine 2025 non era ancora partita: Ilva aspettava le autorizzazioni per i vincoli dell'area, chieste ad agosto 2025 [1]. Le indagini sono appaltate e l'inizio è «in programmazione» [1]. Solo se troveranno problemi Ilva presenterà un nuovo piano delle analisi, poi l'analisi di rischio ed «eventuale bonifica» [1]. Dopo, non abbiamo trovato notizie.
+2. [altra] **Dove sono gli atti della Regione?** Tutto quello che sappiamo sulla procedura viene dalle relazioni di Ilva [1][7][8]. Il verbale della conferenza del 18 maggio 2023, il parere di ARPA e l'autorizzazione del piano di recupero del 2010 non sono pubblicati online. Non verificato.
+3. [altra] **Chi ha approvato il piano preliminare?** Ilva scrive che lo ha "approvato ARPA" [1]. Per legge però l'autorizzazione spetta alla Regione [9]. Non sappiamo se la Regione abbia fatto un atto formale. Non verificato.
+4. [altra] **Che cosa contiene la vecchia discarica, quanto è grande e chi la usava?** Le relazioni di Ilva parlano solo di "discarica di 2ª categoria degli anni '80" e di rifiuti stoccati "dal 1985 al 1995" [3][6].
+5. [altra] **Dove si trova esattamente?** Comune, catasto e coordinate non compaiono in nessuna fonte ufficiale trovata [2][3].
+6. [altra] **Quanto è grande?** Secondo Ilva 128,2 ettari [3]. I giornali danno altre cifre: non verificato.
+7. [altra] **Il progetto di nuova discarica per i fanghi è abbandonato o ancora possibile?** Ne parlava Ilva nel 2022 [6]. Non verificato.
+8. [fonti] **Il piano è stato "rigettato" o è "da integrare"?** Nel 2023 Ilva scriveva che la Regione aveva trovato "motivi ostativi" e chiesto un piano preliminare [7]; dal 2024 scrive che il piano è stato "rigettato" [1]. Non sappiamo quale sia la formula esatta dell'atto regionale.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
 **A:** Regione Puglia, Sezione Ciclo rifiuti e bonifiche — email ordinaria ciclorifiutiebonifiche@regione.puglia.it, in copia l'URP quiregione@regione.puglia.it (verificati il 7 ottobre 2026 sulla [pagina ufficiale della Sezione](https://trasparenza.regione.puglia.it/organizzazione/articolazione-degli-uffici/sezione-ciclo-rifiuti-e-bonifiche-0)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.

@@ -130,14 +130,14 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [18] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagina 48 (paragrafo "Area a verde Nord"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
 
 ## Cosa non sappiamo
-1. **La relazione di Ilva del 2025 è imprecisa.** Scrive che l'analisi di rischio è stata inviata il 20 luglio 2023 e che è "in corso" [1]. Secondo il Ministero la nota di Ilva è del 6 luglio (ricevuta l'11) e la pratica è stata **archiviata** il 16 febbraio 2024 [5][12]. Scrive anche che i pareri erano di "ARPA, ISPRA e ASL" [1]: erano di ARPA, ISPRA e INAIL [9][12]. Gli stessi errori sono nelle relazioni di dicembre 2024 e marzo 2025 [17][18], mentre quella di dicembre 2023 dava le date giuste [16].
-2. **Dove sono esattamente le zone contaminate** e quanto sono grandi: le mappe sono negli allegati dell'analisi di rischio, ma Ilva stessa vuole fare saggi per capire quanto è estesa la contaminazione [10]. Non verificato.
-3. **L'area è davvero recintata?** Ilva dice "segnalata e delimitata" [4]; nessun ente lo ha verificato, e i rifiuti abbandonati fanno pensare che qualcuno ci entri [1]. Non verificato.
-4. **Il cromo esavalente** trovato nell'acqua in passato [3] non è ricomparso nei controlli del 2022, che però hanno usato solo 4 pozzi, nessuno al confine a valle [4]. Il piano di controllo dell'acqua del 19 giugno 2024 [17] e i risultati dei nuovi pozzi non sono pubblici. Non verificato.
-5. **Da dove vengono berillio, zinco, arsenico e solventi**: nessuna fonte lo dice. Non verificato.
-6. **I rifiuti abbandonati**: quanti, che tipo, quante volte sono stati tolti e con che spesa. Non verificato.
-7. **Quanto è stato speso** dopo il 2022: non verificato.
-8. **L'uso urbanistico**: il decreto chiedeva ai Comuni di esprimersi [3]; per quest'area non abbiamo trovato la risposta. Non verificato.
+1. [blocca] **Che cosa dicono i nuovi pozzi sull'acqua sotterranea?** Da questi controlli, ogni tre mesi per almeno due anni, dipende la nuova analisi di rischio [1][17]. Il cromo esavalente trovato nell'acqua in passato [3] non è ricomparso nei controlli del 2022, che però hanno usato solo 4 pozzi, nessuno al confine a valle [4]. Il piano di controllo dell'acqua del 19 giugno 2024 [17] e i risultati dei nuovi pozzi non sono pubblici. Non verificato.
+2. [altra] **Dove sono esattamente le zone contaminate, e quanto sono grandi?** Le mappe sono negli allegati dell'analisi di rischio, ma Ilva stessa vuole fare saggi per capire quanto è estesa la contaminazione [10]. Non verificato.
+3. [altra] **L'area è davvero recintata?** Ilva dice "segnalata e delimitata" [4]; nessun ente lo ha verificato, e i rifiuti abbandonati fanno pensare che qualcuno ci entri [1]. Non verificato.
+4. [altra] **Da dove vengono berillio, zinco, arsenico e solventi?** Nessuna fonte lo dice. Non verificato.
+5. [altra] **Quanti rifiuti abbandonati ci sono, di che tipo, e quanto è costato toglierli?** Le fonti dicono solo che ci sono [1]. Non verificato.
+6. [altra] **Quanto è stato speso dopo il 2022?** Nessuna delle fonti trovate lo dice. Non verificato.
+7. [altra] **Che uso dà il Comune a quest'area?** Il decreto chiedeva ai Comuni di esprimersi [3]; per quest'area non abbiamo trovato la risposta. Non verificato.
+8. [fonti] **L'analisi di rischio è "in corso" o archiviata?** La relazione di Ilva del 2025 scrive che è stata inviata il 20 luglio 2023 e che è "in corso" [1]. Secondo il Ministero la nota di Ilva è del 6 luglio (ricevuta l'11) e la pratica è stata **archiviata** il 16 febbraio 2024 [5][12]. Ilva scrive anche che i pareri erano di "ARPA, ISPRA e ASL" [1]: erano di ARPA, ISPRA e INAIL [9][12]. Gli stessi errori sono nelle relazioni di dicembre 2024 e marzo 2025 [17][18], mentre quella di dicembre 2023 dava le date giuste [16].
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
 **A:** Comune di Statte — email ordinaria del Servizio Ecologia e ambiente ambiente@comune.statte.ta.it, in copia la Segreteria generale segreteria@comune.statte.ta.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina Contatti](https://www.comune.statte.ta.it/contatti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.

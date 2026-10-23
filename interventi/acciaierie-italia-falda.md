@@ -120,13 +120,13 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [15] Commissione parlamentare d'inchiesta sul ciclo dei rifiuti, *Resoconto stenografico dell'audizione dei direttori generali di ISPRA e ARPA Puglia*, seduta n. 168 del 29 giugno 2022, pag. 12 (controlli della falda), 13 (idrocarburi trovati nel 2017), 19 (falda profonda) — copia in `fonti/2022-06_parlamento_commissione-rifiuti-audizione-ispra-arpa-ilva.pdf`
 
 ## Cosa non sappiamo
-1. **Se la barriera dei Parchi funziona.** ARPA e ISPRA dicono che non si può valutare [2][3]. Non sappiamo quanta acqua venga pompata ogni anno, per quanti giorni l'impianto sia stato fermo, né cosa contenga l'acqua che finisce nella fogna dello stabilimento. Non verificato.
-2. **Cosa è successo dopo febbraio 2025.** L'ultimo documento nell'archivio è la risposta di ADI del 26 febbraio 2025 [13]. Non sappiamo se il Ministero abbia risposto, se i controlli aggiuntivi 2024–2025 siano stati consegnati e se il progetto definitivo per il TUL2 sia stato fatto. Non verificato: vedi le FOIA.
-3. **Se le misure funzionano ancora oggi**, con lo stabilimento in amministrazione straordinaria e parte degli impianti fermi nel 2026. Non verificato.
-4. **Chi ha ragione sui PCB**: ARPA li ha trovati oltre i limiti, ADI no sugli stessi campioni [2][11]. ADI ha chiesto ad ARPA i suoi rapporti di prova [11].
-5. **Il triclorometano nella falda profonda**: il testo di ADI dice "max 0,6 µg/l", la sua tabella riporta 0,9 [7]. E da dove venga: ADI non esclude "un contributo esterno" [7].
-6. **L'origine dell'inquinamento** (mare e sedimenti naturali secondo ADI, scorie e riporti secondo ARPA e ISPRA) [2][3][7]: per chiarirlo servono i test di cessione sui riporti, che non sono ancora stati fatti (scheda C1).
-7. **Chi paga e cosa cambia con la vendita dello stabilimento**: nessun atto pubblico. Non verificato.
+1. [blocca] **La barriera dei Parchi minerali ferma l'inquinamento della falda?** È l'unica misura che dal 2018 pompa e depura l'acqua sotto i Parchi [2][9], ma nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili non si può valutare se funzioni [2][3]. A valle della barriera, nel 2022, ARPA ha trovato PCB e arsenico oltre i limiti [2]. Non sappiamo quanta acqua venga pompata ogni anno, per quanti giorni l'impianto sia stato fermo, né cosa contenga l'acqua che finisce nella fogna dello stabilimento. Non verificato.
+2. [blocca] **Che cosa è successo dopo febbraio 2025?** L'ultimo documento nell'archivio del Ministero è la risposta di ADI del 26 febbraio 2025 [13]. Il progetto definitivo per togliere gli idrocarburi al TUL2, annunciato nel 2024, non c'è [8][13]. Non sappiamo se il Ministero abbia risposto né se i controlli aggiuntivi 2024–2025 siano stati consegnati. Non verificato: vedi le FOIA.
+3. [altra] **Le misure funzionano ancora oggi, con lo stabilimento in amministrazione straordinaria e parte degli impianti fermi nel 2026?** Nessun documento pubblico dopo febbraio 2025 ne parla [13]. Non verificato.
+4. [altra] **Chi paga, e cosa cambia con la vendita dello stabilimento?** Nessun atto pubblico lo dice. Non verificato.
+5. [fonti] **Da dove viene l'inquinamento della falda?** Per ADI dal mare e dai sedimenti naturali, per ARPA e ISPRA da scorie e riporti [2][3][7]. Per chiarirlo servono i test di cessione sui riporti, che non sono ancora stati fatti (scheda C1).
+6. [fonti] **Ci sono PCB oltre i limiti?** ARPA li ha trovati oltre i limiti, ADI no sugli stessi campioni [2][11]. ADI ha chiesto ad ARPA i suoi rapporti di prova [11].
+7. [fonti] **Quanto triclorometano c'è nella falda profonda, e da dove viene?** Il testo di ADI dice "max 0,6 µg/l", la sua tabella riporta 0,9 [7]. Sull'origine, ADI non esclude "un contributo esterno" [7].
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
 Vedi la scheda C1: una richiesta al Ministero (FOIA 55) e una ad ARPA (FOIA 56) coprono suoli e falda.

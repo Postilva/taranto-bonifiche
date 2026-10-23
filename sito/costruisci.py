@@ -6,7 +6,7 @@ Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
 - si usano solo le schede con "Stato scheda: approvata";
 - si tolgono paragrafi, punti e righe che contengono "non verificato" o che citano giornali/stampa;
 - ogni punto di "Cosa non sappiamo" è "[blocca|altra|fonti] **domanda** frasi": si tiene la domanda e si tolgono
-  solo le frasi non verificate, di giornali o con le bozze FOIA (le schede ancora senza etichette: solo la domanda);
+  solo le frasi non verificate, di giornali o con le bozze FOIA; un punto senza etichetta ferma la costruzione;
 - le bozze FOIA non vanno sul sito.
 Il testo non viene riscritto: viene solo convertito da Markdown a HTML.
 """
@@ -127,22 +127,23 @@ def frasi(t):
 
 def domanda(item, nome):
     """Un punto di "Cosa non sappiamo": [etichetta] **domanda** frasi, con eventuali sotto-voci.
-    Restituisce {t: blocca/altra/fonti, q: domanda, h: testo HTML}; t vuoto per le schede ancora nel formato vecchio."""
+    Restituisce {t: blocca/altra/fonti, q: domanda, h: testo HTML}; senza etichetta la costruzione si ferma."""
     m = re.match(r"\[(blocca|altra|fonti)\]\s+\*\*(.+?)\*\*\s*(.*)", item[0])
     if not m:
-        b = re.match(r"\*\*(.+?)\*\*", item[0])
-        return {"t": "", "q": inline(b.group(1).strip()), "h": ""} if b and not FILTRO.search(b.group(1)) else None
-    head, sub = m.group(3), []
+        sys.exit(f"{nome}: in \"Cosa non sappiamo\" un punto non ha l'etichetta [blocca], [altra] o [fonti] seguita dalla domanda in grassetto: {item[0][:60]}")
+    head, sub, coda, rientro = m.group(3), [], "", 0
     for r in item[1:]:
-        s = re.match(r"^\s+(-|\d+\.)\s+(.*)", r)
+        s = re.match(r"^(\s+)(-|\d+\.)\s+(.*)", r)
         if s:
-            sub.append(s.group(2))
-        elif sub:
+            sub.append(s.group(3)); rientro = len(s.group(1))
+        elif sub and len(r) - len(r.lstrip()) > rientro:   # continua la sotto-voce
             sub[-1] += " " + r.strip()
+        elif sub:   # testo dopo l'elenco, rientrato come i trattini
+            coda += " " + r.strip()
         else:
             head += " " + r.strip()
-    head, sub = frasi(head), [x for x in map(frasi, sub) if x]
-    h = (f"<p>{inline(head)}</p>" if head else "") + ("<ul>" + "".join(f"<li>{inline(x)}</li>" for x in sub) + "</ul>" if sub else "")
+    head, sub, coda = frasi(head), [x for x in map(frasi, sub) if x], frasi(coda)
+    h = (f"<p>{inline(head)}</p>" if head else "") + ("<ul>" + "".join(f"<li>{inline(x)}</li>" for x in sub) + "</ul>" if sub else "") + (f"<p>{inline(coda)}</p>" if coda else "")
     return {"t": m.group(1), "q": inline(m.group(2).strip()), "h": h}
 
 
@@ -378,14 +379,9 @@ def leggi_scheda(path):
             for kind, val in blocks(body):
                 if kind == "ol":
                     for it in val:
-                        d = domanda(it, path.name)
-                        if d:
-                            out["nonsappiamo"].append(d)
+                        out["nonsappiamo"].append(domanda(it, path.name))
                 if kind == "h":
                     break
-            tipi = {d["t"] for d in out["nonsappiamo"]}
-            if "" in tipi and len(tipi) > 1:
-                sys.exit(f"{path.name}: in \"Cosa non sappiamo\" alcuni punti non hanno l'etichetta [blocca], [altra] o [fonti]")
             continue
         if ESCLUSE.match(t):
             continue

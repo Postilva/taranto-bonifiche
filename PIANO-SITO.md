@@ -54,7 +54,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 
 ## Terza parte: cose che mancano
 
-### [ ] 7. "Cosa non sappiamo" che si capisca
+### [x] 7. "Cosa non sappiamo" che si capisca (fatto il 23/10/2026: 255 punti in 31 schede, 42 che bloccano; la riga 3 con la richiesta all'ente arriva col task 8)
 - Oggi `costruisci.py` tiene di ogni punto solo il titolo in grassetto, e sul sito restano etichette come "Superficie.", "Da non confondere.", "Quando partono le analisi.": non sono domande, non dicono perché contano, pesano tutte uguale e non si vede se le abbiamo chieste a qualcuno.
 - **Nel sito:** ogni punto diventa tre righe:
   1. la **domanda vera**;

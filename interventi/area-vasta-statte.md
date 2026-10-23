@@ -82,11 +82,11 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 [9] Stesso documento del [5], nota sulle colonne "centro X; centro Y e Area" (pagina 6 del PDF)
 
 ## Cosa non sappiamo
-1. **Se la Provincia ha poi emesso l'ordinanza contro Ilva**, che cosa le ordina e se Ilva l'ha eseguita o impugnata. La sentenza del TAR parla solo dell'avvio dell'ordinanza [3]. Non verificato.
-2. **Quali sostanze ci sono, zona per zona.** ARPA parla di diossine e furani [4]; l'ordinanza non elenca le sostanze [1]. Non abbiamo i risultati delle analisi né l'analisi di rischio. Non verificato.
-3. **Se i divieti valgono ancora.** L'ordinanza n. 62 vale fino al 31 dicembre 2018 [1]; non abbiamo trovato proroghe né nuove ordinanze. Non verificato.
-4. **Come sono andate le nuove analisi da 750.000 €** e se le zone inquinate sono state ridisegnate [6]. Non verificato.
-5. **Se l'Ilva è responsabile anche di altre sostanze o di altre zone.** ARPA parla di "un'area di Statte" e di "alcuni parametri" [4]. Non verificato.
+1. [blocca] **La Provincia ha ordinato a Ilva di bonificare?** Nel 2018 la Provincia ha individuato il responsabile, che secondo ARPA è l'Ilva «per alcuni parametri come diossine e furani» [3][4]. La sentenza del TAR del 2022 parla solo dell'avvio dell'ordinanza [3]. Non sappiamo se sia stata emessa, che cosa ordini e se Ilva l'abbia eseguita o impugnata. Non verificato.
+2. [blocca] **Dove sono, oggi, le zone inquinate?** Nel 2021 la Regione scriveva che i confini erano ancora «in fase di definizione» e finanziava con 750.000 € nuove analisi delle aree agricole [6]. Non sappiamo come siano andate né se le zone siano state ridisegnate. Non verificato.
+3. [altra] **I divieti valgono ancora?** L'ordinanza n. 62 del 2017 vietava in 19 zone di arare, scavare e produrre cibo fino al 31 dicembre 2018 [1]. Non abbiamo trovato proroghe né nuove ordinanze. Non verificato.
+4. [altra] **Quali sostanze ci sono, zona per zona?** ARPA parla di diossine e furani [4]; l'ordinanza non elenca le sostanze [1]. Non abbiamo i risultati delle analisi né l'analisi di rischio. Non verificato.
+5. [altra] **L'Ilva è responsabile anche di altre sostanze o di altre zone?** ARPA parla di "un'area di Statte" e di "alcuni parametri" [4]. Non verificato.
 
 Ricerca online del 20 ottobre 2026 ("area vasta di Statte", ordinanze del Comune di Statte, Provincia di Taranto e art. 244, TAR Lecce, determinazione regionale 124/2017, OpenCoesione): trovati i documenti elencati sopra. Un giornale locale (La Ringhiera, 20 ottobre 2017) riporta dalla conferenza stampa del Comune circa 400 carotaggi, 15 zone con rischio inaccettabile e arsenico, mercurio, IPA, diossine e PCB tra le sostanze trovate: dati utili per le richieste, ma senza fonte ufficiale. Non verificati. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 
