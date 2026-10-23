@@ -80,12 +80,12 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 [9] Stesso documento del [1], nota sulle colonne "centro X; centro Y e Area" (pagina 6 del PDF)
 
 ## Cosa non sappiamo
-1. **Cosa hanno trovato le analisi del 2018.** Ilva le dà per fatte, ma non abbiamo trovato né i risultati né un parere di ARPA [4][5]. Non verificato.
-2. **Se il piano delle analisi è stato approvato, e da chi.** Ilva lo ha mandato al Ministero e chiedeva una conferenza di servizi [2], ma fuori dal SIN decide la Regione [6]. Non abbiamo trovato atti di approvazione. Non verificato.
-3. **Perché ad aprile 2020 la Regione la tiene ancora ferma alla comunicazione iniziale** [1], se le analisi erano finite nel 2018. Le due fonti non tornano.
-4. **Come è finito il sequestro del 2009** e se c'è stato un processo. Non verificato.
-5. **Quanto è grande davvero**: 83.500 m² per Ilva, 74.708 per la Regione [1][2].
-6. **Chi deve occuparsene oggi**: Ilva in A.S. (soggetto indicato dalla Regione) o Acciaierie d'Italia (che gestisce l'area dal 2018) [1][5]. Non verificato.
+1. [blocca] **Che cosa hanno trovato le analisi del terreno del 2018?** Ilva le dà per fatte e ISPRA nel 2022 segna la prescrizione come «attuata» [4][5], ma non abbiamo trovato né i risultati né un parere di ARPA. Nel 2009 ARPA aveva trovato IPA nel terreno sotto una catasta di traversine [2]. Non verificato.
+2. [altra] **Chi ha approvato il piano delle analisi?** Ilva lo ha mandato al Ministero e chiedeva una conferenza di servizi [2], ma fuori dal SIN decide la Regione [6]. Non abbiamo trovato atti di approvazione. Non verificato.
+3. [altra] **Chi deve occuparsene oggi?** La Regione indica Ilva in A.S., ma dal 2018 l'area la gestisce Acciaierie d'Italia [1][5]. Non verificato.
+4. [altra] **Come è finito il sequestro del 2009?** Non sappiamo nemmeno se c'è stato un processo. Non verificato.
+5. [fonti] **Le analisi sono finite o l'area è ferma al 2017?** Per Ilva le analisi erano finite nel 2018 [4][5], ma ad aprile 2020 la Regione la tiene ancora ferma alla comunicazione iniziale [1]. Le due fonti non tornano.
+6. [fonti] **Quanto è grande?** 83.500 m² per Ilva, 74.708 per la Regione [1][2].
 
 Ricerca online del 20 ottobre 2026 (UA27, "area traversine", creosoto Ilva Statte, anagrafe regionale, portale delle valutazioni ambientali del Ministero): trovati solo i documenti elencati sopra. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 

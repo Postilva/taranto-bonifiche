@@ -77,10 +77,10 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 [8] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, paragrafo "Aree Escluse di competenza Ilva" (pagina 36 del PDF) — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`; stessa divisione nella relazione del 1° trimestre 2025 (pagina 34 del PDF) — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
 
 ## Cosa non sappiamo
-1. **Se il terreno è davvero pulito.** Non c'è nessuna analisi pubblica: "senza problemi" è un giudizio di Ilva, non di un ente di controllo [1][2]. Non verificato.
-2. **Dove si trova esattamente** e **a chi verrebbe ceduta**: nessuna fonte lo dice [1][2]. Non verificato.
-3. **Se è davvero fuori dal SIN:** lo dicono Ilva e una tabella basata su dati di Ilva [2][3]; senza la posizione esatta non l'abbiamo potuto controllare sulla mappa ufficiale del SIN.
-4. **Perché sia rimasta a Ilva** e non sia passata, con il resto della fabbrica, ai nuovi gestori dell'acciaieria: nessuna fonte lo spiega. Non verificato.
+1. [altra] **Il terreno è davvero pulito?** Non c'è nessuna analisi pubblica: "senza problemi" è un giudizio di Ilva, non di un ente di controllo [1][2]. Non verificato.
+2. [altra] **Dove si trova esattamente, e a chi verrebbe ceduta?** Ilva pensa di cederla così com'è [1][5], ma nessuna fonte dice dove sia esattamente né a chi andrebbe [1][2]. Non verificato.
+3. [altra] **È davvero fuori dal SIN?** Lo dicono Ilva e una tabella basata su dati di Ilva [2][3]; senza la posizione esatta non l'abbiamo potuto controllare sulla mappa ufficiale del SIN.
+4. [altra] **Perché è rimasta a Ilva?** Nessuna fonte spiega perché non sia passata, con il resto della fabbrica, ai nuovi gestori dell'acciaieria. Non verificato.
 
 Ricerca online del 13 ottobre 2026 (Land I, Ospedale Nord, cessione di aree di Ilva in A.S.): nessun risultato sull'area.
 

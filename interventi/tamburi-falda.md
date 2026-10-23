@@ -52,11 +52,11 @@ Nessuna cifra trovata. Non verificato.
 [5] Comune di Taranto e Sogesid S.p.A., *Progetto definitivo per la messa in sicurezza operativa della falda superficiale soggiacente l'area del SIN di Taranto – Comparto orientale/bacino drenante Galeso. Relazione tecnica illustrativa* (elaborato PDED02, rev. 1 ottobre 2025), paragrafo 3.2 (pagina 10 del PDF) — copia in `fonti/2025-06_comune-taranto-sogesid_progetto-miso-falda-galeso-relazione-tecnica.pdf`
 
 ## Cosa non sappiamo
-1. **Quali sostanze ci sono nella falda** e quanto superano i limiti. Non verificato.
-2. **Chi ha approvato** le analisi e l'analisi di rischio, e quando. Non verificato.
-3. **Se l'analisi di rischio dice che c'è un pericolo** per chi abita sopra (per esempio per i vapori o per l'acqua dei pozzi). Non verificato.
-4. **Se dopo il 2020 è stato deciso qualche intervento.** Non verificato.
-5. **Se la falda è dentro il SIN** di Taranto o fuori: il progetto del Comune per la falda del Galeso (2025) dice che l'area di quell'intervento è "all'esterno del perimetro del SIN di Taranto, sul lato ovest, nel quartiere Tamburi", ma non parla di questa falda [5]. Non verificato.
+1. [blocca] **Dopo il 2020 è stato deciso qualche intervento?** Entro aprile 2020 erano state approvate le analisi e l'analisi di rischio, e il sito risultava "contaminato" [1]. Ma non c'erano né un progetto di messa in sicurezza né una bonifica [1], e non abbiamo trovato atti più recenti. Non verificato.
+2. [altra] **Quali sostanze ci sono nella falda, e quanto superano i limiti?** La Regione indica solo la causa, la "deposizione inquinanti su suolo" [1]; non abbiamo trovato i risultati delle analisi. Non verificato.
+3. [altra] **L'analisi di rischio dice che c'è un pericolo per chi abita sopra?** Per esempio per i vapori o per l'acqua dei pozzi. L'analisi di rischio non è pubblica: la Regione dice solo che è stata approvata entro aprile 2020 [1]. Non verificato.
+4. [altra] **Chi ha approvato le analisi e l'analisi di rischio, e quando?** La Regione dice solo che sono state approvate entro aprile 2020 [1], e che il soggetto del procedimento è il Comune di Taranto [1]. Non verificato.
+5. [altra] **La falda è dentro il SIN di Taranto?** Il progetto del Comune per la falda del Galeso (2025) dice che l'area di quell'intervento è "all'esterno del perimetro del SIN di Taranto, sul lato ovest, nel quartiere Tamburi", ma non parla di questa falda [5]. Non verificato.
 
 Ricerca online del 20 ottobre 2026 ("quartiere Tamburi" con falda, acque sotterranee, caratterizzazione, analisi di rischio; portale trasparenza del Comune; archivio del Ministero dell'Ambiente): nessun documento su questa falda.
 

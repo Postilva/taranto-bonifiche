@@ -52,9 +52,13 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 ## Fonti
 [1] Ente, titolo, data, link — copia in fonti/<file>
 ## Cosa non sappiamo
-(dubbi, dati mancanti, fonti che si contraddicono)
+1. [blocca] **<domanda vera, con il punto di domanda>** <1–2 frasi: cosa sappiamo e perché conta, con fonte>
+2. [altra] **<domanda>** ...
+3. [fonti] **<dove le fonti non concordano>** ...
 ```
 Ogni frase della scheda finisce con il numero della sua fonte, per esempio [1].
+
+**"Cosa non sappiamo"** (deciso il 23/10/2026): ogni punto comincia con un'etichetta, `[blocca]` (ferma la bonifica o la messa in sicurezza), `[altra]` (altra domanda aperta) o `[fonti]` (fonti che si contraddicono, numeri o date che non tornano, cose da non confondere), seguita dalla domanda in grassetto. Sul sito vanno in "Cosa blocca la bonifica", "Altre domande" e nel riquadro "Le fonti non concordano". Le frasi con "non verificato", giornali o bozze FOIA restano nella scheda ma non vanno sul sito: scriverle come frasi a parte. `costruisci.py` si ferma se un punto non ha l'etichetta. **Quando una risposta arriva**, il punto esce da "Cosa non sappiamo" e il dato entra nel racconto con la sua fonte.
 
 ## Come lavorare con i PDF
 Molti PDF ufficiali sono scansioni: `pdftotext` non estrae testo, quindi vanno letti come immagini, per gruppi di pagine.

@@ -105,12 +105,12 @@ Gli studi riguardano i fanghi inquinati del fondale; tra gli studi precedenti ci
 [9] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), 15 settembre 2022, pag. 18 (nota 18, studi sul Mar Piccolo) e pag. 34–35 (audizione del Commissario Martino: spesa della "piattaforma" dell'area vasta e banca dati) della numerazione della Camera, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
 
 ## Cosa non sappiamo
-1. **Quanto sono costati** gli accordi, le indagini e il sorvolo, uno per uno. C'è solo il totale di 1,6 milioni per tutti gli accordi a pagamento dell'area vasta [9]. Non verificato.
-2. **Cosa hanno scoperto, in numeri.** Le quantità di inquinanti misurate nei fanghi non sono pubbliche in nessun documento che ho trovato. Non verificato.
-3. **Se il sorvolo lidar è stato fatto**, quando, e per quale zona: l'opuscolo lo nomina soltanto. Non verificato.
-4. **Se la Sogesid è stata pagata** e con quale somma. Non verificato.
-5. **Quali accordi esattamente** l'opuscolo consideri "conclusi anche finanziariamente", e chi lo ha certificato. Non verificato.
-6. **Dove sono i dati.** Il Commissario precedente ha lasciato documenti cartacei e due hard disk alla Prefettura [4], ma nel 2022 lo stesso Martino diceva di non aver ricevuto la banca dati [9]: non so se i dati siano consultabili.
+1. [altra] **Che cosa hanno scoperto, in numeri?** Sono studi, non una bonifica [1][2]. Le quantità di inquinanti misurate nei fanghi, per esempio quanti PCB ci sono, non sono pubbliche in nessun documento che abbiamo trovato. Non verificato.
+2. [altra] **Dove sono i dati?** Il Commissario precedente ha lasciato documenti cartacei e due hard disk alla Prefettura [4], ma nel 2022 lo stesso Martino diceva di non aver ricevuto la banca dati [9]: non sappiamo se i dati siano consultabili.
+3. [altra] **Quanto sono costati gli accordi, le indagini e il sorvolo, uno per uno?** C'è solo il totale di 1,6 milioni per tutti gli accordi a pagamento dell'area vasta [9]. Non verificato.
+4. [altra] **Il sorvolo lidar è stato fatto?** Nel 2018 è citato solo come uno dei dati della "piattaforma" dell'area vasta [2], e l'opuscolo lo nomina soltanto [1]. Quando, e per quale zona: non verificato.
+5. [altra] **La Sogesid è stata pagata?** La fattura del 2018 per lo studio delle falde, 147.550,25 €, nel 2023 era ancora da verificare [3][5]. Non verificato.
+6. [altra] **Quali accordi sono davvero "conclusi anche finanziariamente"?** Lo dice l'opuscolo [1], senza elencarli e senza dire chi lo ha certificato. Non verificato.
 
 ### Richiesta di accesso civico (FOIA) n. 27 — da inviare tu
 La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`).

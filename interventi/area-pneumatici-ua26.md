@@ -70,11 +70,11 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 [8] Ministero delle Imprese e del Made in Italy (MIMIT), *Acciaierie d'Italia S.p.A. ammessa alla procedura di amministrazione straordinaria*, comunicato del 20 febbraio 2024 (fonte già usata nella scheda C1)
 
 ## Cosa non sappiamo
-1. **Cosa hanno trovato le analisi del 2018.** Ilva le dà per fatte, ma non abbiamo trovato né i risultati né un parere di ARPA [4][5]. Non verificato.
-2. **Perché ad aprile 2020 la Regione la tiene ancora ferma alla "comunicazione di potenziale contaminazione"** [1], se le analisi erano finite nel 2018. Le due fonti non tornano.
-3. **Quando e perché l'area è stata sequestrata.** Sappiamo solo che i sigilli sono stati tolti il 20 ottobre 2016 [3]. Non verificato.
-4. **Quanti pneumatici sono stati portati via e dove**, e quanto è costato. Non verificato.
-5. **Chi deve occuparsene oggi**: Ilva in A.S. (soggetto indicato dalla Regione) o Acciaierie d'Italia (che gestisce l'area dal 2018) [1][5]. Non verificato.
+1. [blocca] **Che cosa hanno trovato le analisi del terreno del 2018?** Ilva scrive di averle finite entro il 31 dicembre 2018, e ISPRA nel 2022 segna la prescrizione come «attuata» [4][5]. Ma non abbiamo trovato né i risultati né un parere di ARPA, quindi nessun ente ha detto che l'area sia pulita. Non verificato.
+2. [altra] **Chi deve occuparsene oggi?** La Regione indica Ilva in A.S., ma dal 2018 l'area la gestisce Acciaierie d'Italia [1][5]. Non verificato.
+3. [altra] **Quando e perché l'area è stata sequestrata?** Sappiamo solo che i sigilli sono stati tolti il 20 ottobre 2016 [3]. Non verificato.
+4. [altra] **Quanti pneumatici sono stati portati via, dove, e quanto è costato?** Le fonti dicono solo che la rimozione è iniziata nel novembre 2016 [3]. Non verificato.
+5. [fonti] **Le analisi sono finite o l'area è ferma al 2017?** Per Ilva le analisi erano finite nel 2018 [4][5], ma ad aprile 2020 la Regione la tiene ancora ferma alla "comunicazione di potenziale contaminazione" del 2017 [1]. Le due fonti non tornano.
 
 Ricerca online del 20 ottobre 2026 (UA26, "area PFU", pneumatici fuori uso Ilva Statte, anagrafe regionale, portale delle valutazioni ambientali del Ministero): trovati solo i documenti elencati sopra. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 
