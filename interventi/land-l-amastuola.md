@@ -38,7 +38,7 @@ Negli anni '80 nella cava c'era una discarica [2][3][4]. La Regione ha chiesto d
 ## Tre domande
 
 ### 1. Dove si trova e quanto è grande?
-- **Dove:** secondo Ilva è un'area "non adiacente allo stabilimento" [2]. L'ingresso è sulla **Strada provinciale 42** [1][8]. Nessun documento ufficiale trovato indica il Comune, il catasto o le coordinate. Alcuni giornali la collocano nel territorio di **Crispiano** (non verificato).
+- **Dove:** secondo Ilva è un'area "non adiacente allo stabilimento" [2]. L'ingresso è sulla **Strada provinciale 42** [1][8]. Nell'elenco della corrispondenza allegato a un documento di Ilva del 2017 c'è una nota del Comune di **Crispiano** (prot. 11338) del 15 luglio 2016 che trasmette a Ilva l'ordinanza n. 57 del 5 luglio 2016 per un «abbandono incontrollato di rifiuti speciali in località L'amastuola in agro di Crispiano Fg. 66 p.lla 66» [14]. Sulla cartografia catastale la particella 66 del foglio 66 di Crispiano è una striscia di circa 215 × 845 m, subito a ovest della particella dove c'è la cava [15]. Il documento però non dice che quella particella sia l'area "Land L", e nessun documento ufficiale indica il catasto o le coordinate dell'area.
 - **Quanto è grande:** **128,2 ettari** secondo Ilva (luglio 2022) [3]. Alcuni giornali parlano di 35 o di 130 ettari (non verificato).
 - **Cosa c'è sopra:** una cava di calcare, una vecchia discarica degli anni '80 e cumuli di residui industriali [3][7].
 
@@ -105,11 +105,15 @@ Negli anni '80 nella cava c'era una discarica [2][3][4]. La Regione ha chiesto d
 
 [13] Regione Puglia, Sezione Ciclo rifiuti e bonifica, Servizio bonifiche e pianificazione, *Riscontro a richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Area "Land L – Cava L'Amastuola" di ILVA in A.S.*, prot. n. 0629070 del 23 ottobre 2026 (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_regione-puglia_riscontro-foia-amastuola.pdf`
 
+[14] ILVA S.p.A. in A.S., *Documento di aggiornamento periodico per documentare l'attuazione delle prescrizioni dell'Autorizzazione integrata ambientale*, acquisito dal Ministero dell'Ambiente al prot. DVA 4716 del 28 febbraio 2017, elenco della corrispondenza, riga del 15/07/2016 (pagina 596 del PDF), https://va.mite.gov.it/File/Documento/293347 — copia in `fonti/2017-02_ilva_aggiornamento-attuazione-prescrizioni-aia.pdf`
+
+[15] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Crispiano, foglio 66, particelle 66 e 15; riquadro della particella 66 letto dal servizio, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
+
 ## Cosa non sappiamo
 1. [blocca] **L'indagine preliminare è partita?** A fine 2025 non era ancora partita: Ilva aspettava le autorizzazioni per i vincoli dell'area, chieste ad agosto 2025 [1]. Le indagini sono appaltate e l'inizio è «in programmazione» [1]. Solo se troveranno problemi Ilva presenterà un nuovo piano delle analisi, poi l'analisi di rischio ed «eventuale bonifica» [1]. Dopo, non abbiamo trovato notizie. La Regione, a ottobre 2026, dice di non aver ricevuto comunicazioni da Ilva dopo il 22 dicembre 2023 [13].
 2. [altra] **Dove sono gli atti della Regione?** Tutto quello che sappiamo sulla procedura viene dalle relazioni di Ilva [1][7][8]. Il verbale della conferenza del 18 maggio 2023, il parere di ARPA e l'autorizzazione del piano di recupero del 2010 non sono pubblicati online. A ottobre 2026 la Regione ha rinviato l'accesso al piano delle analisi alla fine del procedimento e non ha trovato l'atto sulla cava con i riferimenti che avevamo dato [13].
 3. [altra] **Che cosa contiene la vecchia discarica, quanto è grande e chi la usava?** Le relazioni di Ilva parlano solo di "discarica di 2ª categoria degli anni '80" e di rifiuti stoccati "dal 1985 al 1995" [3][6].
-4. [altra] **Dove si trova esattamente?** Comune, catasto e coordinate non compaiono in nessuna fonte ufficiale trovata [2][3].
+4. [altra] **Dove si trova esattamente?** Catasto e coordinate dell'area non compaiono in nessuna fonte ufficiale trovata [2][3]. Nel 2016 il Comune di Crispiano ha mandato a Ilva un'ordinanza per rifiuti abbandonati in località L'amastuola (foglio 66, p.lla 66), accanto alla cava, ma non dice che sia l'area "Land L" [14][15].
 5. [altra] **Quanto è grande?** Secondo Ilva 128,2 ettari [3]. I giornali danno altre cifre: non verificato.
 6. [altra] **Il progetto di nuova discarica per i fanghi è abbandonato o ancora possibile?** Ne parlava Ilva nel 2022 [6]. Non verificato.
 7. [fonti] **Il piano è stato "rigettato" o è "da integrare"?** Nel 2023 Ilva scriveva che la Regione aveva trovato "motivi ostativi" e chiesto un piano preliminare [7]; dal 2024 scrive che il piano è stato "rigettato" [1]. Non sappiamo quale sia la formula esatta dell'atto regionale. A ottobre 2026 la Regione scrive che il procedimento sul piano non è ancora concluso [13].

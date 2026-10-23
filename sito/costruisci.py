@@ -181,20 +181,29 @@ def coordinate(text):
 
 def coordinate_per_codice(text):
     """Tutte le righe **Coordinate**: {codice: coordinata}. Se la riga nomina un codice prima dei numeri
-    ("**Coordinate** di D1 (SP1): ...") vale per quel codice, altrimenti per tutta la scheda (chiave "*")."""
+    ("**Coordinate** di D1 (SP1): ...") vale per quel codice, altrimenti per tutta la scheda (chiave "*").
+    Le righe **Posizione sulla mappa** (centro delle particelle catastali indicate da un documento, calcolato da noi)
+    vengono prima delle righe **Coordinate**: "... [n] — Comune, foglio e particelle — ...: E m E – N m N ... Nota: ..."."""
     out = {}
-    for ln in text.splitlines():
-        if "**Coordinate**" not in ln or FILTRO.search(ln.split("(conversione")[0]):
-            continue
-        m = re.search(r"(\d{6}[,.]\d+)\s*m\s*E\s*[–-]\s*(\d{7}[,.]\d+)\s*m\s*N", ln) or re.search(r"X\s*=\s*(\d{6}[,.]\d+)\s*m\s*[–-]\s*Y\s*=\s*(\d{7}[,.]\d+)\s*m", ln)
-        n = re.search(r"\[(\d+)\]", ln)
-        if m and n:
-            E, N = num(m.group(1)), num(m.group(2))
-            lat, lon = utm33_to_ll(E, N)
-            c = {"ll": [lat, lon], "e": m.group(1), "n": m.group(2), "fonte": int(n.group(1)),
-                 "sistema": "RDN2008 / TM33 (EPSG 6708)" if "RDN2008" in ln else "UTM fuso 33 Nord, datum WGS84"}
-            for cod in re.findall(r"\b[ABCD]\d+\b", ln[:m.start()]) or ["*"]:
-                out.setdefault(cod, c)
+    righe = text.splitlines()
+    for chiave in ("**Posizione sulla mappa**", "**Coordinate**"):
+        for ln in righe:
+            if chiave not in ln or FILTRO.search(ln.split("(conversione")[0]):
+                continue
+            m = re.search(r"(\d{6}[,.]\d+)\s*m\s*E\s*[–-]\s*(\d{7}[,.]\d+)\s*m\s*N", ln) or re.search(r"X\s*=\s*(\d{6}[,.]\d+)\s*m\s*[–-]\s*Y\s*=\s*(\d{7}[,.]\d+)\s*m", ln)
+            n = re.search(r"\[(\d+)\]", ln)
+            if m and n:
+                E, N = num(m.group(1)), num(m.group(2))
+                lat, lon = utm33_to_ll(E, N)
+                c = {"ll": [lat, lon], "e": m.group(1), "n": m.group(2), "fonte": int(n.group(1)),
+                     "sistema": "RDN2008 / TM33 (EPSG 6708)" if "RDN2008" in ln else "UTM fuso 33 Nord, datum WGS84"}
+                if chiave == "**Posizione sulla mappa**":
+                    cat = re.search(r"—\s*(.+?)\s*—", ln)
+                    nota = re.search(r"Nota:\s*(.+?)\s*$", ln)
+                    c.update(metodo="catasto", sistema="UTM fuso 33 Nord, ETRS89", cat=cat.group(1) if cat else "",
+                             nota=(lambda x: x[:1].upper() + x[1:])(re.sub(r"\s*\[\d+\]", "", nota.group(1))) if nota else "")
+                for cod in re.findall(r"\b[ABCD]\d+\b", ln[:m.start()]) or ["*"]:
+                    out.setdefault(cod, c)
     return out
 
 

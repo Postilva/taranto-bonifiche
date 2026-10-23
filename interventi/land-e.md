@@ -46,8 +46,9 @@ Qui la ditta Sidercomit produceva e immagazzinava prodotti siderurgici (soprattu
 
 ### 1. Dove si trova e quanto è grande?
 - **Dove:** nel Comune di Taranto, nella zona industriale, a circa 18 m sul livello del mare [9]. Al catasto l'indirizzo è "Strada Statale Appia" (oggi "Via per Massafra") [5]. Lungo il confine nord passano saltuariamente mezzi pesanti e la vigilanza dello stabilimento, per una servitù di passaggio [13]. Appena a nord c'è un altro sito con l'acqua inquinata da cromo e manganese [9].
-- **Coordinate** indicate da Ilva: 686205,63 m E – 4485281,22 m N [9]. Ilva scrive "Sistema WGS-84", ma sono coordinate in metri, quindi nel sistema UTM fuso 33 Nord (datum WGS84), cioè circa **40,497° N – 17,197° E** (conversione nostra, da ricontrollare sulla mappa).
+- **Coordinate** indicate da Ilva: 686205,63 m E – 4485281,22 m N [9]. Ilva scrive "Sistema WGS-84", ma sono coordinate in metri, quindi nel sistema UTM fuso 33 Nord (datum WGS84), cioè circa **40,497° N – 17,197° E** (conversione nostra).
 - **Catasto:** Foglio 192, particella 70, e Foglio 194, particella 120 [9][5].
+- **Verifica sul catasto** (23 ottobre 2026): le particelle 70 e 120 misurano insieme 33.622 m² (l'area circa 4,3 ettari) e il loro centro è circa 190 m a est del punto di Ilva, che cade fuori da queste due particelle; le visure citano anche la particella 648 (ex 619) del foglio 194, che è vicina al punto di Ilva. Per questo il pallino resta sul punto di Ilva [24].
 - **Quanto è grande:** circa **4,3 ettari** [9][6].
 - **Cosa c'è sopra:** superficie quasi tutta asfaltata o pavimentata; una palazzina all'ingresso (uffici, accettazione merci, pesa per camion) e due capannoni attigui dove c'erano gli impianti [9]. Al catasto è registrato come immobile industriale (categoria D/7) [5].
 - **Piano regolatore:** "C1 zona industriale" [9].
@@ -145,6 +146,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [22] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pagina 54, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
 
 [23] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagina 52, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
+[24] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, fogli 192 e 194; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 ## Cosa non sappiamo
 1. [blocca] **Ilva ha risposto al Ministero?** Il 19 gennaio 2024 il Ministero ha respinto l'analisi di rischio così com'era, e ARPA e ISPRA chiedono nuovi pozzetti e controlli periodici dell'acqua [11][12][14]. Dopo, nell'archivio non c'è né una risposta di Ilva né una nuova analisi di rischio. Ilva scrive solo che i nuovi pozzetti e i controlli sono "in fase di pianificazione" e, nella stessa frase, che la seconda campagna è stata fatta il 6–7 novembre 2025 [1]. Non è chiaro se i nuovi pozzetti esistano. Vedi la bozza di richiesta FOIA qui sotto.

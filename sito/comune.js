@@ -27,7 +27,7 @@ const DA_VERIFICARE = new Set(ELENCO.B.subs.filter(s => s[0].startsWith("Da veri
 // nome breve per lista, grafici e cronologia (se manca si usa il titolo fino alla parentesi)
 const SHORT = {"tamburi-risanamento-suoli":"Tamburi, risanamento dei suoli (SP1–SP4)","area-pneumatici-ua26":"Area pneumatici (UA26)","area-traversine-ua27":"Area traversine (UA27)","area-vasta-statte":"Area vasta di Statte","tamburi-falda":"Tamburi, falda","discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","acciaierie-italia-suoli":"Acciaieria, suoli","acciaierie-italia-falda":"Acciaieria, falda"};
 // note sulla posizione che la scheda stessa segnala
-const COORD_NOTE = {"pozzo-25":"Attenzione: le fonti danno coordinate diverse tra loro (il piano del 2021 indica un punto circa 2,8 km più a nord)."};
+const COORD_NOTE = {};
 // cartella del sito vista dalla pagina: "" per home e mappa, "../" per i report in r/ (si ricava da come è caricato questo file)
 const RADICE = document.currentScript.getAttribute("src").replace(/comune\.js.*$/, "");
 // pagina del report di una scheda (r/<id>.html, scritta da costruisci.py), con un eventuale #codice o #fonte
@@ -91,27 +91,22 @@ const grpLabel = (code, short) => {
 // riportata sulla carta con le coordinate ufficiali di 7 aree (A8–A11, A13, A16, A17) e di due discariche riconoscibili sulla foto satellitare
 const MAPPA22 = "punto ricavato da noi dalla mappa delle aree di Ilva del luglio 2022, riportata sulla carta con le coordinate ufficiali di 7 aree: errore stimato 100–200 m";
 const ZONES = {
-  acciaieria:{ll:[40.513,17.196], r:.006, label:"Stabilimento siderurgico (circa 1.050 ettari dentro il SIN): il report riguarda tutta l'area, il punto è solo indicativo"},
+  acciaieria:{ll:[40.5091,17.2083], r:.0015, label:"Stabilimento siderurgico (circa 1.050 ettari dentro il SIN): il report riguarda tutta l'area. Il punto è il centro del corpo principale dello stabilimento, a est della ferrovia (contorno di OpenStreetMap senza il tubificio, circa 700 ettari), quindi solo indicativo"},
   plant:   {ll:[40.507,17.190], r:.019, label:"Zona generica: stabilimento ex Ilva (l'elenco non indica dove si trova l'area)"},
   statte:  {ll:[40.553,17.205], r:.004, label:"Statte (luogo citato nel nome o nelle fonti)"},
   gravina: {ll:[40.5454,17.1951], r:0, label:`Gravina di Leucaspide, tra lo stabilimento e Statte (${MAPPA22}; l'area è una striscia lunga circa 3 km lungo la gravina, il punto ne indica la parte centrale)`},
-  nordovest:{ll:[40.5502,17.1954], r:0, label:`Confine nord della fabbrica, a Statte, accanto alla Gravina di Leucaspide (${MAPPA22})`},
   duemari: {ll:[40.5294,17.2092], r:0, label:`Ex cava Due Mari, a est della cava Mater Gratiae (${MAPPA22})`},
-  fanghi:  {ll:[40.5264,17.2050], r:0, label:`Comune di Statte, vicino alla Strada provinciale 48 Taranto–Statte, a sud della cava Mater Gratiae (${MAPPA22})`},
-  limitrofe:{ll:[40.5265,17.2011], r:0, label:`Accanto allo stoccaggio fanghi, a sud della cava Mater Gratiae (${MAPPA22})`},
-  nuovevasche:{ll:[40.5290,17.2030], r:0, label:"Zona della cava Mater Gratiae, a sud-est della cava (punto messo da noi: la discarica indicata nella mappa delle aree di Ilva del luglio 2022 si riconosce sulla foto satellitare; errore stimato sotto i 100 m)"},
+  nuovevasche:{ll:[40.52807,17.20317], r:0, label:"Centro delle tre vasche (V1, V2, V3) riconosciute da noi sulle ortofoto 2006 e 2012 del Ministero dell'Ambiente (Geoportale nazionale), nella zona della cava Mater Gratiae: il recinto misura circa 3,5 ettari come la discarica descritta da Ilva. Punto messo da noi, non da un documento; errore stimato sotto i 30 m"},
   d1:      {ll:[40.5044,17.1963], r:0, label:`Appena fuori dalla fabbrica, sul lato sud-ovest, accanto a Land D2 (${MAPPA22})`},
   tamburi: {ll:[40.4905,17.2285], r:.003, label:"Quartiere Tamburi"},
   // punti presi da OpenStreetMap (non da documenti ufficiali): restano "posizione indicativa"
-  collinette:{ll:[40.4988,17.2280], r:0, label:"A nord del quartiere Tamburi, accanto alla scuola Deledda (secondo le fonti la Collinetta 3 è attaccata alla scuola); punto messo da noi con OpenStreetMap"},
-  deledda: {ll:[40.4971,17.2292], r:0, label:"Scuola Deledda, quartiere Tamburi (punto preso da OpenStreetMap)"},
-  cimitero:{ll:[40.4918,17.2202], r:0, label:"Cimitero San Brunone, quartiere Tamburi (punto preso da OpenStreetMap)"},
   amastuola:{ll:[40.5987,17.1703], r:0, label:"Cava accanto alla Masseria Amastuola, a circa 1 km dalla Strada provinciale 42 (punto preso da OpenStreetMap, dove la cava ha come gestore \"ILVA in A.S.\"; nessun documento ufficiale trovato ne indica la posizione)"},
-  ospnord: {ll:[40.5396,17.2771], r:0, label:"Ospedale San Giuseppe Moscati, a Statte, chiamato in zona \"Ospedale Nord\" (punto preso da OpenStreetMap sull'ospedale: l'area di Ilva è lì vicino, ma non sappiamo esattamente dove)"},
+  ospnord: {ll:[40.5443,17.2753], r:0, label:"Circa 500 m dall'Ospedale San Giuseppe Moscati (\"Ospedale Nord\"). Punto messo da noi al centro di una particella catastale di 2.092 m², cioè 0,2 ettari come l'area secondo Ilva: foglio 38, particella 6, dati trovati in una fonte non ufficiale e non ancora verificati su un documento; il Comune e il foglio non li abbiamo potuti confermare sul catasto"},
   mp1:     {ll:[40.483,17.262], r:.009, label:"Mar Piccolo, 1° seno"},
-  cementir:{ll:[40.4910,17.2065], r:0, label:"Dentro la cava del cementificio, tra la raffineria ENI e lo stabilimento (punto messo da noi: la discarica indicata nella mappa delle aree di Ilva del luglio 2022 si riconosce sulla foto satellitare; errore stimato sotto i 100 m)"},
+  mp170:   {ll:[40.4825,17.2540], r:0, label:"Mar Piccolo, 1° seno, nello specchio d'acqua davanti all'Arsenale della Marina Militare, dove ISPRA e ARPA collocano l'\"Area 170 ha\" (2015). Punto messo da noi con OpenStreetMap: l'area è grande circa 1,7 km², il punto indica solo la zona"},
+  cementir:{ll:[40.4910,17.2065], r:0, label:"Dentro la cava del cementificio, tra la raffineria ENI e lo stabilimento (punto messo da noi: la discarica indicata nella mappa delle aree di Ilva del luglio 2022 si riconosce sulla foto satellitare; errore stimato sotto i 100 m). Il punto cade nella particella 258 del foglio 198 di Taranto indicata da ARPA, che però è tutto il cementificio (circa 25 ettari): verificato da noi sul catasto"},
 };
-const PLACE = {A1:"gravina",A2:"nordovest",A3:"duemari",A4:"cementir",A5:"fanghi",A6:"limitrofe",A7:"nuovevasche",A12:"d1",A14:"amastuola",A15:"collinette",A18:"ospnord",B2:"deledda",B6:"mp1",B8:"cimitero",B9:"tamburi",B10:"statte",B12:"mp1",B13:"mp1",C1:"acciaieria",C2:"acciaieria",D1:"tamburi",D2:"tamburi",D3:"tamburi",D4:"tamburi",D5:"tamburi",D6:"tamburi",D8:"statte",D16:"statte",D17:"statte"};
+const PLACE = {A1:"gravina",A3:"duemari",A4:"cementir",A7:"nuovevasche",A12:"d1",A14:"amastuola",A18:"ospnord",B6:"mp1",B10:"statte",B12:"mp170",B13:"mp1",C1:"acciaieria",C2:"acciaieria",D1:"tamburi",D2:"tamburi",D3:"tamburi",D4:"tamburi",D5:"tamburi",D6:"tamburi",D8:"statte",D16:"statte",D17:"statte"};
 function pointsFor(){
   const all = ALL;
   const byZone = {};
@@ -120,8 +115,13 @@ function pointsFor(){
     const s = verified[i[0]], k = s && ((s.coords && s.coords[i[0]]) || s.coord);   // coordinate del codice, se la scheda ne ha più di una
     if (k) {   // coordinate da documento ufficiale
       const f = s.fonti.find(x => x.n === k.fonte);
-      pts.push({code:i[0], name:i[1], note:i[2], ll:k.ll, official:true, zone:"Coordinate da documento ufficiale", ok:true,
-        src:{sid:s.id, n:k.fonte, url:f && f.url, note:COORD_NOTE[s.id] || "", text:`${k.e} m E – ${k.n} m N (${k.sistema}); in gradi, con la nostra conversione: ${k.ll[0].toFixed(4).replace(".",",")}° N – ${k.ll[1].toFixed(4).replace(".",",")}° E.`}});
+      const gradi = `${k.ll[0].toFixed(4).replace(".",",")}° N – ${k.ll[1].toFixed(4).replace(".",",")}° E`;
+      pts.push({code:i[0], name:i[1], note:i[2], ll:k.ll, official:true, catasto:k.metodo === "catasto", ok:true,
+        zone: k.metodo === "catasto" ? "Centro delle particelle catastali indicate da un documento ufficiale" : "Coordinate da documento ufficiale",
+        src:{sid:s.id, n:k.fonte, url:f && f.url, note:(k.nota || COORD_NOTE[s.id] || ""),
+          text: k.metodo === "catasto"
+            ? `centro delle particelle (${k.cat}), calcolato da noi sulla cartografia catastale dell'Agenzia delle Entrate: ${k.e} m E – ${k.n} m N (${k.sistema}), cioè ${gradi}.`
+            : `${k.e} m E – ${k.n} m N (${k.sistema}); in gradi, con la nostra conversione: ${gradi}.`}});
       return;
     }
     const z = PLACE[i[0]] || "plant"; (byZone[z] ||= []).push(i);
@@ -134,13 +134,20 @@ function pointsFor(){
       pts.push({code:i[0], name:i[1], note:i[2], ll, zone:Z.label, official:!!Z.official, src:Z.src, ok:!!verified[i[0]]});
     });
   });
+  // un solo punto ufficiale per più codici (es. A5 e A6): pallini affiancati in orizzontale, circa 70 m l'uno dall'altro
+  const stessi = {};
+  pts.filter(p => p.official).forEach(p => (stessi[p.ll.join()] ||= []).push(p));
+  Object.values(stessi).filter(g => g.length > 1).forEach(g => g.forEach((p,k) => {
+    p.ll = [p.ll[0], p.ll[1] + (k - (g.length-1)/2) * .0008];
+    p.src = {...p.src, note:`Il documento dà un solo punto per ${g.map(q => q.code).join(" e ")}: sulla mappa i pallini sono affiancati.${p.src.note ? " " + p.src.note : ""}`};
+  }));
   return pts.sort((a,b)=> codeCmp(a.code, b.code));
 }
 const PTS = pointsFor();
 
 const PT = Object.fromEntries(PTS.map(p => [p.code, p]));
 const ORDER = [...PTS].sort((a,b) => (b.ok-a.ok) || codeCmp(a.code,b.code));   // prima i verificati
-const posShort = p => p.official ? `Posizione da documento ufficiale [${p.src.n}]` : "Posizione indicativa";
+const posShort = p => p.catasto ? `Posizione dal catasto indicato da un documento ufficiale [${p.src.n}]` : p.official ? `Posizione da documento ufficiale [${p.src.n}]` : "Posizione indicativa";
 const isNarrow = () => matchMedia("(max-width:899px)").matches;
 /* ---------- passaggi e soldi ---------- */
 // passaggi: per ogni scheda, lo stato dei 5 passaggi (lettura delle schede, fatta a mano)

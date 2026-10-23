@@ -47,8 +47,9 @@ Senza recinzione, per anni è stato usato come discarica abusiva di macerie, anc
 
 ### 1. Dove si trova e quanto è grande?
 - **Dove:** nel Comune di Taranto, nella zona industriale, circa 6 km a nord-ovest della città, al confine con il Comune di Statte [7]. Vicino ci sono la cava e la discarica di Italcave e un'azienda di bitumi lungo la strada per Statte (SP 48) [7]. Nella mappa di Ilva l'area è sul lato nord-est della fabbrica [5].
-- **Coordinate** indicate nel piano: X = 687720,84 m – Y = 4488390,93 m, nel sistema **RDN2008 / TM33** (EPSG 6708), che corrisponde alla proiezione UTM fuso 33 Nord sul datum ETRF2000 [7]. In gradi sono circa **40,525° N – 17,216° E** (conversione nostra, da ricontrollare sulla mappa; la differenza tra ETRF2000 e WGS84 è di pochi decimetri).
+- **Coordinate** indicate nel piano: X = 687720,84 m – Y = 4488390,93 m, nel sistema **RDN2008 / TM33** (EPSG 6708), che corrisponde alla proiezione UTM fuso 33 Nord sul datum ETRF2000 [7]. In gradi sono circa **40,525° N – 17,216° E** (conversione nostra; la differenza tra ETRF2000 e WGS84 è di pochi decimetri).
 - **Catasto:** Comune di Taranto, Foglio 138, particelle 45, 46 e 47 [7][12].
+- **Verifica sul catasto** (23 ottobre 2026): il centro delle particelle 45, 46 e 47 (29.470 m² in tutto) è a circa 3 m dal punto del piano [16].
 - **Quanto è grande:** circa **3 ettari** (30.000 m²) [7][5].
 - **Cosa c'è sopra:** nessun edificio né pavimentazione, solo macchia mediterranea spontanea [7].
 
@@ -130,6 +131,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [14] MASE, pagina ufficiale della *Direzione generale economia circolare e bonifiche (ECB)*, consultata il 2 ottobre 2026 (indirizzo PEC per la richiesta FOIA), https://www.mase.gov.it/pagina/direzione-generale-economia-circolare-e-bonifiche-ecb
 
 [15] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2023*, pagina 36, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2023_omissisb.pdf — copia in `fonti/2023-03_ilva-as_relazione-trimestrale-I-2023.pdf`
+
+[16] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, foglio 138; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 ## Cosa non sappiamo
 1. [blocca] **Quale uso conta: industriale o verde?** Il piano lo chiama "verde industriale", ma il piano regolatore citato nello stesso documento parla di "zona di verde di rispetto" e di "zona speciale vincolata" [7]. Il decreto del 2021 chiedeva ai Comuni di Taranto e Statte di esprimersi; nel 2024 ARPA scrive che questa risposta è "dirimente" e va ancora acquisita [10][12]. Non abbiamo trovato la risposta dei Comuni. Dalla risposta dipende se valgono i limiti residenziali (superati quasi ovunque) o quelli industriali (superati in un punto) [12].

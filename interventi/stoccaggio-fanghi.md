@@ -87,6 +87,11 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 
 **Controllo dell'acqua sotterranea.** Il 19 giugno 2024 Ilva ha mandato al Ministero un piano di controllo della falda per tutte le sue aree [1]. Per quest'area, unita alla vicina discarica Nuove Vasche, sono previsti 7 pozzi di controllo (5 nuovi), con prelievi ogni tre mesi per almeno due anni; il lavoro è stato affidato con ordine dell'11 marzo 2025 [20] e i 5 pozzi nuovi sono stati completati a dicembre 2025 [1].
 
+## Dove si trova e quanto è grande
+- **Coordinate** di A5 e A6 indicate nel piano di Ilva: X = 686672,645 m – Y = 4488481,073 m, nel sistema **RDN2008 / TM33** (EPSG 6708) [4], pag. 8. Il piano dà un solo punto per tutta l'area, deposito e aree vicine insieme. In gradi sono circa **40,526° N – 17,204° E** (conversione nostra).
+- **Catasto:** Comune di Statte, foglio 24, in parte delle particelle 50, 51, 192 e 424 (ex 16), e foglio 51, in parte della particella 1 [4], pag. 8.
+- **Verifica sul catasto** (23 ottobre 2026): il punto del piano cade in una particella con il numero 917, che il piano non nomina; accanto ci sono le particelle 51 e 192, mentre la 50 e la 424 non compaiono sulla mappa di oggi, forse perché sono state divise e hanno cambiato numero. Per questo il pallino resta sul punto del piano [22].
+
 ## Soldi
 - **Speso o impegnato fino al 31 ottobre 2018** per la rimozione dei fanghi della zona Ilva: 8,37 milioni € [16].
 - **Al 12 luglio 2022**, secondo Ilva: 75,03 milioni € stanziati per l'intervento sui fanghi (rimozione, analisi, bonifica del suolo superficiale e ripristino), 69,18 milioni impegnati in ordini, 7,89 milioni pagati, 9,19 milioni fatturati [7]. Per le aree vicine: 12,90 milioni € stanziati [7].
@@ -165,6 +170,8 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 [20] Ilva S.p.A. in A.S., *Relazione trimestrale, 1° trimestre 2025*, pagine 42–43, copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
 
 [21] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44110 del 23 ottobre 2026, con l'elenco dei documenti della Provincia sul deposito (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-fanghi-up3.pdf`
+
+[22] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 24; numeri delle particelle letti sulla mappa, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 Nota sul [10]: la relazione di fine 2024 è la fonte dei dati al 30 settembre 2024 (17.371 t ancora nel deposito), coerenti con il [14].
 

@@ -24,6 +24,10 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 2. **"Bonificato" si scrive solo se esiste il certificato ufficiale di avvenuta bonifica.** Altrimenti si dice cosa è stato fatto davvero, per esempio "messo in sicurezza".
 3. **Se un dato non si trova, si scrive "non verificato".** Se il dato è importante, si prepara una bozza di richiesta di accesso civico (FOIA), che invia l'utente.
 4. **Stato dei passaggi: scenario peggiore** (deciso il 21/10/2026). Un passaggio (analisi, analisi di rischio, messa in sicurezza, bonifica) conta come fatto solo se lo conferma un ente di controllo (Ministero, Regione, Provincia, ARPA, ISPRA) e vale per tutta l'area; se lo dice solo chi fa i lavori (Ilva, Comune, Commissario) o se una parte resta aperta, è "iniziato". Le schede con più parti (es. Tamburi D1–D5) nel grafico della home contano parte per parte (`PARTI` in `sito/comune.js`).
+5. **Posizioni sulla mappa** (decise il 23/10/2026). Il pallino ha il bordo pieno ("esatto") solo se la posizione viene da un documento:
+   - riga `- **Coordinate** ...: <E> m E – <N> m N ... [n]` con le coordinate scritte nel documento (Regione, Ministero, Ilva a un ente);
+   - riga `- **Posizione sulla mappa**: centro delle particelle indicate da <chi> [n] — <Comune, foglio, particelle> — calcolato da noi sulla cartografia catastale dell'Agenzia delle Entrate [m]: <E> m E – <N> m N (UTM fuso 33 Nord, ETRS89) ... Nota: <...>`, quando un documento dà foglio e particelle. Questa riga ha la precedenza sulla riga **Coordinate**: se il punto del documento cade fuori dalle particelle, il pallino va al centro delle particelle e la differenza si scrive nella Nota. Se le particelle sono più grandi dell'area, la Nota lo dice ("centro delle particelle, non dell'area").
+   - Per un'area grande il punto è il centro del contorno ufficiale e la scheda lo dice. Tutto il resto (mappa di Ilva 2022 riportata da noi, OpenStreetMap, zona generica) è "posizione indicativa" (`ZONES` e `PLACE` in `sito/comune.js`), con l'errore stimato scritto.
 
 ## Modello di scheda
 ```
