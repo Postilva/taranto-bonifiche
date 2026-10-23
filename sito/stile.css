@@ -246,6 +246,13 @@ td.num{text-align:right;font-family:var(--f-mono);font-size:.85rem;white-space:n
 .unk li span>ul+p{margin-top:4px}
 .unk-h{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin:18px 0 8px}
 .unk-h:first-child{margin-top:4px}
+.acc .body>.more-link{display:inline-block;margin-top:12px;font-weight:600;font-size:.88rem;text-decoration:none}
+/* cosa abbiamo chiesto: una richiesta per riga, la data sopra in piccolo, la scadenza sotto */
+.prose .chiesto{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:8px}
+.prose .chiesto li{background:var(--surface-2);border-radius:12px;padding:10px 12px;line-height:1.45}
+.chiesto .q{display:block;font:700 .78rem/1.3 var(--f-body);color:var(--gA);margin-bottom:2px}
+.chiesto p{margin:0}
+.chiesto small{display:block;margin-top:4px;color:var(--ink-3);font-size:.82rem}
 .unk.altra>li{background:var(--surface-2)}
 .unk.altra>li::before{color:var(--ink-2)}
 .unk-fonti{margin-top:18px;border:1px dashed var(--ink-3);border-radius:14px;padding:4px 12px 12px}

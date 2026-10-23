@@ -1,4 +1,4 @@
-"""Legge elenco.md e le schede approvate in interventi/ e scrive i dati in sito/dati.js (usato da tutte le pagine).
+"""Legge elenco.md, le schede approvate in interventi/ e richieste.md e scrive i dati in sito/dati.js (usato da tutte le pagine).
 
 Uso:  py sito/costruisci.py [AAAA-MM-GG]   (data dei dati; senza argomento, oggi)
 
@@ -238,6 +238,28 @@ def leggi_elenco():
     return righe, sottogruppi("A"), sottogruppi("B")
 
 
+# ---------- richieste.md (accesso agli atti: solo colonne pubbliche) ----------
+def data_lunga(s):
+    g, m, a = (int(x) for x in s.split("/"))
+    return f"{g} {list(MESI)[m - 1]} {a}"
+
+
+def leggi_richieste(codici):
+    righe = []
+    for ln in (ROOT / "richieste.md").read_text(encoding="utf-8").splitlines():
+        m = re.match(r"^\|\s*(\d+)\s*\|(.+)\|$", ln)
+        if not m:
+            continue
+        aree, a, cosa, inviata, entro = [x.strip() for x in m.group(2).split("|")]
+        aree = [x.strip() for x in aree.split(",")]
+        for k in aree:
+            if k not in codici:
+                sys.exit(f"richieste.md, richiesta {m.group(1)}: il codice {k} non è in elenco.md")
+        righe.append({"n": m.group(1), "aree": aree, "a": a, "cosa": cosa, "inviata": data_lunga(inviata),
+                      "entro": data_lunga(entro), "e": [int(x) for x in reversed(entro.split("/"))], "t": [int(x) for x in reversed(inviata.split("/"))]})
+    return righe
+
+
 def leggi_fonti(body):
     """Righe "[n] testo, link — copia in fonti/..." → [{n, html, url}] (la copia locale non va sul sito)."""
     joined, fon = "\n".join(body), []
@@ -423,6 +445,12 @@ def main():
     elenco, gruppi_a, gruppi_b = leggi_elenco()
     # solo interventi/*.md: le schede in interventi/fuori-perimetro/ non vanno sul sito
     schede = [s for s in (leggi_scheda(p) for p in sorted((ROOT / "interventi").glob("*.md"))) if s]
+    # le richieste di accesso agli atti: in ogni scheda quelle sui suoi codici, dalla più vecchia; in home il totale
+    richieste = leggi_richieste(elenco)
+    for s in schede:
+        rr = [r for r in richieste if set(r["aree"]) & set(s["codes"])]
+        s["richieste"] = [{k: r[k] for k in ("n", "a", "cosa", "inviata", "entro", "e")} for r in sorted(rr, key=lambda r: (r["t"], int(r["n"])))]
+    enti = {re.sub(r"^(al|alla|ad|allo|all')\s*", "", r["a"]) for r in richieste}
     immagini = leggi_immagini()
     contesto = leggi_contesto()
     usate = contesto["storia"]["img"] + contesto["inquina"]["img"] + contesto["fabbrica"]["img"] + [s["immagine"] for s in schede if s["immagine"]]
@@ -430,7 +458,8 @@ def main():
         if f not in immagini or not (ROOT / "sito" / "img" / f).exists():
             sys.exit(f"Immagine {f}: manca in immagini.md o in sito/img/")
     data = {"elenco": elenco, "gruppiA": gruppi_a, "gruppiB": gruppi_b, "schede": schede, "contesto": contesto,
-            "immagini": immagini, "generato": OGGI.isoformat()}
+            "immagini": immagini, "richieste": {"n": len({r["n"] for r in richieste}), "enti": len(enti)},
+            "generato": OGGI.isoformat()}
     js = ("/* Generato da sito/costruisci.py leggendo elenco.md e le schede approvate: non modificare a mano. */\n"
           "const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")
     (ROOT / "sito" / "dati.js").write_text(js, encoding="utf-8")
