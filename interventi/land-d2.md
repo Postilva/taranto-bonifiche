@@ -46,8 +46,9 @@ Le analisi hanno trovato nel terreno idrocarburi e arsenico oltre i limiti previ
 
 ### 1. Dove si trova esattamente e quanto è grande?
 - **Dove:** nel Comune di Taranto, nella zona industriale, a circa 5 km a nord-ovest del centro e 4 km dalla costa del Mar Piccolo, a 18–19 m sul livello del mare [12]. È un lotto recintato accanto alla **Statale 7 Appia**; dall'altra parte della strada, nella foto aerea, si vedono i binari di un grande scalo ferroviario [27].
-- **Coordinate** indicate da Ilva: 685912,64 m E – 4486376,60 m N [12]. Ilva scrive "sistema WGS84", ma sono coordinate in metri, quindi nel sistema UTM fuso 33 Nord (datum WGS84), cioè circa **40,507° N – 17,194° E** (conversione nostra, da ricontrollare sulla mappa).
+- **Coordinate** indicate da Ilva: 685912,64 m E – 4486376,60 m N [12]. Ilva scrive "sistema WGS84", ma sono coordinate in metri, quindi nel sistema UTM fuso 33 Nord (datum WGS84), cioè circa **40,507° N – 17,194° E** (conversione nostra).
 - **Catasto:** Foglio 184, particella 8, e Foglio 192, particelle 1, 2, 125 e 152 [2].
+- **Verifica sul catasto** (23 ottobre 2026): il punto di Ilva cade tra le particelle 1, 2, 125 e 152 del foglio 192, lungo la strada [31].
 - **Quanto è grande:** circa **910 m²** [12][6]. ISPRA e ARPA parlano di "esigua estensione" [9][10]. È molto più piccola delle altre aree di Ilva.
 - **Cosa c'è sopra:** vegetazione spontanea, un traliccio ENEL e una piccola chiesa abbandonata, che ARPA chiama "**Chiesa del Mucchio**" e che è protetta dal piano paesaggistico della Regione [9][12]. Secondo Ilva l'area non ha mai avuto impianti, tubi interrati, serbatoi o depositi [12].
 - **Piano regolatore:** "zona verde di rispetto" [12][2]. Secondo Ilva, il certificato di destinazione urbanistica (che quindi esiste, almeno dal 2022) mette l'area tra quelle "a vincoli", culturali: per questo l'analisi di rischio è stata confrontata con i limiti per le zone residenziali e verdi (colonna A) [29][28].
@@ -162,6 +163,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [29] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2022*, pagina 43, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2022_omissisb.pdf — copia in `fonti/2022-03_ilva-as_relazione-trimestrale-I-2022.pdf`
 
 [30] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2023*, pagina 39, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2023_omissisb.pdf — copia in `fonti/2023-12_ilva-as_relazione-trimestrale-IV-2023.pdf`
+
+[31] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, fogli 184 e 192; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 ## Cosa non sappiamo
 1. [altra] **Le condizioni sono state scritte nel piano regolatore?** Il decreto chiede di annotare negli strumenti urbanistici che l'analisi vale solo per i lavoratori [2]: per un parco, un giardino o per riaprire la chiesa servirebbe una nuova analisi di rischio [2][18]. Non abbiamo trovato nessun atto del Comune di Taranto che lo faccia. Non verificato. Anche il decreto del 2021 chiedeva ai Comuni di Taranto e Statte di esprimersi sulla destinazione d'uso [4], e Ilva nel 2020 stava chiedendo il certificato di destinazione urbanistica [26], che nel 2022 dice di avere [29]: non abbiamo trovato né l'espressione dei Comuni né il certificato. Vedi la bozza di richiesta FOIA qui sotto.

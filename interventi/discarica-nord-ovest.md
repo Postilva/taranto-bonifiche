@@ -79,6 +79,9 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 - **Perché:** le aree del progetto sono sotto sequestro preventivo "per un'ipotesi di disastro ambientale a carico della gestione privata" dell'Ilva, cioè della gestione precedente all'arrivo dei commissari del Governo nel 2013 [14].
 - La Commissione parlamentare d'inchiesta sui rifiuti (2022) indica, per il complesso della Gravina di Leucaspide, questi reati: disastro ambientale, deturpamento di bellezze naturali, deviazione del corso delle acque e danneggiamento [19]. Scrive anche che circa 5 milioni di metri cubi di rifiuti sono stati accumulati lungo la gravina ai tempi di Italsider, e riporta che, secondo il pubblico ministero sentito in audizione, la famiglia Riva conosceva il problema dal 1995 [19].
 
+## Dove si trova e quanto è grande
+- **Posizione sulla mappa**: centro delle particelle indicate da ARPA [7] — Comune di Statte, foglio 7, particelle 41, 869, 870, 872, 875, 1052 e 1054, e foglio 24, particelle 1 e 110 — calcolato da noi sulla cartografia catastale dell'Agenzia delle Entrate [27]: 685802,3 m E – 4491105,3 m N (UTM fuso 33 Nord, ETRS89), cioè circa 40,5499° N – 17,1943° E. Nota: le particelle misurano insieme circa 19,5 ettari, le tre zone dell'area circa 11, quindi il punto è il centro delle particelle e non dell'area.
+
 ## Soldi
 - **Costo stimato del progetto:** 29.812.351,53 € [2]. È una stima del progetto, non una spesa.
 - **Garanzia richiesta:** Ilva deve dare alla Regione Puglia una fideiussione pari al 50% del costo stimato (circa 14,9 milioni €) [2]. Il Ministero ha chiarito a maggio 2026 che va emessa subito dopo l'approvazione del progetto [5]. Alla nostra richiesta di accesso civico la Regione ha risposto il 19 ottobre 2026 che la polizza "non risulta reperibile" agli atti del suo Servizio bonifiche, e rimanda al Ministero, che segue tutto il procedimento [26]. Non si sa quindi se Ilva l'abbia data.
@@ -165,6 +168,8 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 [25] Ilva S.p.A. in A.S., *Aggiornamento sullo stato di attuazione degli interventi in capo a ILVA in AS* (aggiornato al 12 luglio 2022), per l'Osservatorio ILVA, pagine PDF 30–36 (scheda "Discarica Nord Ovest"), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=291 — copia in `fonti/2022-07_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 [26] Regione Puglia, Sezione Ciclo rifiuti e bonifica, Servizio bonifiche e pianificazione, *Riscontro a istanza di accesso civico generalizzato e di accesso all'informazione ambientale – Messa in sicurezza permanente della "Discarica Nord Ovest, Area ex Fintecna e Area posta ad ovest" di ILVA in A.S. (SIN Taranto, ID area 3000)*, prot. n. 0619136 del 19 ottobre 2026 (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_regione-puglia_riscontro-foia-discarica-nord-ovest.pdf`
+
+[27] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 7, particelle 41, 869, 870, 872, 875, 1052, 1054, e foglio 24, particelle 1 e 110; centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 Tutti i documenti del Ministero si trovano anche nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ scegliendo SIN "Taranto" e Area "3000".
 

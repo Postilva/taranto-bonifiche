@@ -94,6 +94,10 @@ Le fonti indicano quattro motivi:
    A fine 2025 Ilva stava ancora programmando i lavori con ARPA [1].
 - **Il confronto.** Nel 2019 Ilva stessa scriveva che la bonifica o messa in sicurezza definitiva richiedeva "tipicamente" 2–5 anni [11]. Dal sequestro sono passati più di sette anni, e a fine 2025 le analisi complete non erano ancora partite [1].
 
+## Dove si trova e quanto è grande
+- **Coordinate** indicate dalla Regione: 688511,7869 m E – 4485224,975 m N, nel sistema UTM-WGS84 fuso 33 Nord [19]; per la Regione è il punto centrale ("centroide") del poligono dei "Rilevati cd. Collinette Ecologiche lungo SS7 Appia", che misura 97.701 m² [19]. In gradi sono circa **40,496° N – 17,225° E** (conversione nostra). Il punto è nel mezzo delle tre collinette, non accanto alla scuola Deledda.
+- **Catasto:** Comune di Taranto, foglio 201, particelle 6, 179, 201 e 263 (Collina 1), e foglio 202, particelle 5, 96, 145 e 146 (Collina 2 e Collina 3) [6].
+
 ## Soldi
 - **Promessi:** 37,5 milioni € "allocati" da Ilva per "caratterizzazione e messa in sicurezza" delle collinette [4].
 - **Spesi:** a luglio 2022, 0,84 milioni impegnati e 0,79 milioni pagati [4].
@@ -163,6 +167,8 @@ Le fonti indicano quattro motivi:
 [17] ARPA Puglia, Centro regionale aria, *Campagna di monitoraggio… Scuola "G. Deledda", luglio 2019*, nota prot. 61349 del 29 agosto 2019, pagine 23–24, stessa pagina del [9], https://municipium-images-production.s3-eu-west-1.amazonaws.com/s3/7152/allegati/osservatorio-ambientale/qualit-dellaria/20190829_nota-arpa-prot-61349_report-qa-luglio-2019_scuola-deledda-nota-arpa-prot-61349_report-qa-luglio-2019_scuola-deledda.pdf — copia in `fonti/2019-08_arpa-puglia_qualita-aria-scuola-deledda-luglio.pdf`
 
 [18] Regione Puglia, *Deliberazione della Giunta regionale n. 892 del 15 maggio 2019* (Valutazione dell'impatto sanitario dello stabilimento siderurgico di Taranto), che riporta la nota ARPA Puglia prot. 15566 del 1° marzo 2019, pagina 12 dell'estratto. È allegata al materiale della riunione dell'Osservatorio ILVA del 30 maggio 2019, https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=159 (pagine 31–46). Copia delle sole pagine della delibera in `fonti/2019-05_regione-puglia_dgr-892-2019-vis-ilva.pdf`
+
+[19] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020), tabella 2.2 "Siti potenzialmente contaminati", riga 149, pag. 22, e nota sulle colonne "centro X; centro Y e Area" a pag. 6, https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Quando partono le analisi complete delle collinette?** La Regione ha approvato il piano il 2 dicembre 2024, ma prima di iniziare Ilva deve mandare un piano operativo con la data presunta di inizio [6]. A fine 2025 Ilva stava ancora preparando quel piano con ARPA [1]: non sappiamo se l'abbia mandato né quale data indichi. Da queste analisi dipende la nuova analisi di rischio, che Ilva farà solo dopo [1]. Anche il piano approvato (revisione 02) non è pubblico. Vedi la bozza FOIA n. 1.

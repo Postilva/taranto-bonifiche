@@ -42,8 +42,9 @@ Le analisi del 2021–2022 hanno trovato berillio quasi ovunque e, in alcuni pun
 
 ### 1. Dove si trova e quanto è grande?
 - **Dove:** nel Comune di Statte, tra la **Gravina di Leucaspide** (che la delimita a ovest) e il paese di Statte, da cui dista meno di 1 km; tra 100 e 110 m sul livello del mare, vicino alla provinciale 48 [4]. Attorno ci sono campi coltivati; **la casa più vicina è a circa 100 m** dal confine sud-est [6][4].
-- **Coordinate** indicate da Ilva: 685692,57 m E – 4491637,00 m N, "sistema WGS-84" [4]. Sono coordinate in metri, quindi nel sistema UTM fuso 33 Nord (datum WGS84), cioè circa **40,555° N – 17,193° E** (conversione nostra, da ricontrollare sulla mappa).
+- **Coordinate** indicate da Ilva: 685692,57 m E – 4491637,00 m N, "sistema WGS-84" [4]. Sono coordinate in metri, quindi nel sistema UTM fuso 33 Nord (datum WGS84), cioè circa **40,555° N – 17,193° E** (conversione nostra).
 - **Catasto:** Comune di Statte, Foglio 7, particelle 26, 27, 38, 773, 1121 e 1157 [4].
+- **Verifica sul catasto** (23 ottobre 2026): il punto di Ilva cade nella particella 27, e il centro delle particelle 26, 27, 38, 773 e 1121 (271.317 m² in tutto) è a circa 11 m dal punto; la particella 1157 non compare sulla mappa catastale di oggi, forse perché ha cambiato numero [19].
 - **Quanto è grande:** circa **267.000 m² (26,7 ettari)** [4][6][2].
 - **Cosa c'è sopra:** vegetazione spontanea (macchia mediterranea), nessun impianto, tubo o deposito, secondo Ilva [4].
 - **Vincoli:** è dentro il sito Natura 2000 (SIC/ZPS) "Area delle Gravine" e il Parco naturale regionale "Terra delle Gravine" [3][4]. Nel piano urbanistico di Statte è soprattutto "contesto rurale a prevalente valore ambientale e paesaggistico", con parti per infrastrutture e "percorsi verdi lungo le strade", e risulta tra le aree "percorse da incendi 2001-2012" [4]. Per questo i terreni sono stati confrontati con i limiti delle **aree verdi e residenziali** [4].
@@ -128,6 +129,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [17] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pagina 50 (paragrafo "Area a verde Nord"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
 
 [18] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagina 48 (paragrafo "Area a verde Nord"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
+[19] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 7; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 ## Cosa non sappiamo
 1. [blocca] **Che cosa dicono i nuovi pozzi sull'acqua sotterranea?** Da questi controlli, ogni tre mesi per almeno due anni, dipende la nuova analisi di rischio [1][17]. Il cromo esavalente trovato nell'acqua in passato [3] non è ricomparso nei controlli del 2022, che però hanno usato solo 4 pozzi, nessuno al confine a valle [4]. Il piano di controllo dell'acqua del 19 giugno 2024 [17] e i risultati dei nuovi pozzi non sono pubblici. Non verificato.

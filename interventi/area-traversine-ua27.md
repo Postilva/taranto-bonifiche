@@ -38,8 +38,9 @@ Le vecchie traversine di legno sono trattate con olio di creosoto, che contiene 
 - **Ma ad aprile 2020** la Regione indica ancora l'area come "sito potenzialmente contaminato", con il procedimento fermo alla "comunicazione di potenziale contaminazione e di avvio" delle misure di messa in sicurezza, aperto nel 2009 [1]. Non abbiamo trovato i risultati delle analisi, pareri di ARPA o atti della Regione successivi.
 
 ## Dove si trova e quanto è grande
-- **Coordinate** indicate dalla Regione: 685816,2487 m E – 4488580,315 m N, nel sistema UTM-WGS84 fuso 33 Nord [7]; è il punto centrale dell'area ("centroide del poligono") [9]. In gradi sono circa **40,527° N – 17,194° E** (conversione nostra, da ricontrollare sulla mappa).
+- **Coordinate** indicate dalla Regione: 685816,2487 m E – 4488580,315 m N, nel sistema UTM-WGS84 fuso 33 Nord [7]; è il punto centrale dell'area ("centroide del poligono") [9]. In gradi sono circa **40,527° N – 17,194° E** (conversione nostra).
 - **Catasto:** Comune di Statte, foglio 116, particelle 11, 479 e 378 (in parte) [2].
+- **Verifica sul catasto** (23 ottobre 2026): il punto della Regione cade sul confine tra le particelle 11 e 479, che insieme misurano circa 101.000 m², più dell'area; la parte della particella 378 non è stata misurata [10].
 - **Quanto è grande:** circa 83.500 m², di cui circa 4.000 pavimentati, secondo il piano di Ilva [2]; **74.708 m²** secondo la Regione [1]. Le due cifre non coincidono.
 - È vicina all'area dei pneumatici (D16), a circa 400 m (distanza calcolata da noi tra i due punti centrali della Regione) [1].
 
@@ -78,6 +79,8 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 [8] Ministero delle Imprese e del Made in Italy (MIMIT), *Acciaierie d'Italia S.p.A. ammessa alla procedura di amministrazione straordinaria*, comunicato del 20 febbraio 2024 (fonte già usata nella scheda C1)
 
 [9] Stesso documento del [1], nota sulle colonne "centro X; centro Y e Area" (pagina 6 del PDF)
+
+[10] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 116; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 ## Cosa non sappiamo
 1. [blocca] **Che cosa hanno trovato le analisi del terreno del 2018?** Ilva le dà per fatte e ISPRA nel 2022 segna la prescrizione come «attuata» [4][5], ma non abbiamo trovato né i risultati né un parere di ARPA. Nel 2009 ARPA aveva trovato IPA nel terreno sotto una catasta di traversine [2]. Non verificato.

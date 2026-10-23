@@ -77,6 +77,9 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 - Dal 2022: recinzioni dei campi 15, 19 e 20 per impedire l'accesso ai non autorizzati; cumuli di terra coperti con teloni [3][10].
 - **Non ho trovato** nessun documento ufficiale su controlli di salute per i lavoratori o per i visitatori.
 
+## Dove si trova e quanto è grande
+- **Coordinate** indicate dalla Regione: 688171,626 m E – 4484723,909 m N, nel sistema UTM-WGS84 fuso 33 Nord [17]; per la Regione è il punto centrale ("centroide") del poligono che delimita il sito, che misura 188.867 m², cioè tutto il cimitero e non solo la parte contaminata [17]. In gradi sono circa **40,492° N – 17,220° E** (conversione nostra).
+
 ## Soldi
 - **Costo stimato oggi:** 17,5 milioni € ("attualmente stimato"), in attesa del progetto aggiornato [1].
 - **Soldi davvero disponibili (aprile 2026):** 9.377.112,58 € [3]:

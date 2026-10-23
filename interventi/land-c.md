@@ -42,8 +42,9 @@ Qui non ci sono mai stati impianti [7][20]. Il terreno è stato dichiarato non c
 
 ### 1. Dove si trova e quanto è grande?
 - **Dove:** nel Comune di Taranto, nella zona industriale, "esterna al perimetro dello stabilimento" [20]. È a 2–3 m sul livello del mare [7].
-- **Coordinate** indicate da Ilva: 684286,07 m E – 4486940,00 m N [7]. Ilva scrive "Sistema WGS-84", ma sono coordinate in metri, quindi nel sistema UTM fuso 33 Nord (datum WGS84), cioè circa **40,513° N – 17,175° E** (conversione nostra, da ricontrollare sulla mappa).
+- **Coordinate** indicate da Ilva: 684286,07 m E – 4486940,00 m N [7]. Ilva scrive "Sistema WGS-84", ma sono coordinate in metri, quindi nel sistema UTM fuso 33 Nord (datum WGS84), cioè circa **40,513° N – 17,175° E** (conversione nostra).
 - **Catasto:** Foglio 183, particella 1 [2][7].
+- **Verifica sul catasto** (23 ottobre 2026): la particella 1 misura 17.720 m² e il suo centro è a circa 1 m dal punto di Ilva [25].
 - **Quanto è grande:** **18.104 m²** secondo il decreto [2], "circa 1,8 ettari" secondo Ilva [7][20].
 - **Cosa c'è sopra:** niente edifici, impianti o pavimenti; solo vegetazione spontanea [7][9]. Secondo Ilva l'area è sempre stata "verde per l'industria" e non ha mai avuto attività produttive [7].
 - **Piano regolatore:** la parte sud è "zona verde per l'industria", la parte nord "zona industriale di espansione", in mezzo una "strada di PRG" [7][9]. Per questo, su indicazione del Comune (nota dell'8 luglio 2021), il terreno della parte sud è stato confrontato con i limiti più severi, quelli per verde e case, e quello della parte nord con i limiti per le zone industriali [7].
@@ -137,6 +138,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [23] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2023*, pagine 35–36, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2023_omissisb.pdf — copia in `fonti/2023-12_ilva-as_relazione-trimestrale-IV-2023.pdf`
 
 [24] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pagina 52, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
+
+[25] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, foglio 183; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 ## Cosa non sappiamo
 1. [blocca] **Da dove viene l'inquinamento dell'acqua sotterranea?** Arsenico, boro, manganese, nichel, nitriti e solfati sono oltre i limiti, ma nessun ente ha stabilito l'origine [2][12]. Per l'acqua la pratica è ancora aperta e non è previsto nessun intervento [2][12]. Ilva sostiene che l'inquinamento potrebbe venire da fuori dell'area [7]: è una sua ipotesi, non verificata.
