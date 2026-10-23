@@ -1,5 +1,5 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
-*Stato scheda: approvata — aggiornata al 21 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -16,6 +16,9 @@ L'impianto sportivo comunale "Atleti Azzurri d'Italia", nel quartiere Tamburi, c
 
 ## Perché è inquinata
 Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA oltre i limiti di legge [3]. Le fonti trovate finora non dicono da dove vengano. L'area è nel censimento perché è nel quartiere Tamburi, che per la Commissione parlamentare sui rifiuti è la parte della città "più esposta alle ricadute dei fumi dell'ILVA" [12].
+
+## Divieti e avvisi
+- [in vigore] **Campo chiuso in via cautelativa e recintato.** Nel luglio 2025 la Regione scrive che il sito è in "interdizione cautelativa", cioè oggi non si può usare [3]. Il Comune l'ha fatto recintare con lavori di somma urgenza dopo il verbale del 20 maggio 2024, perché nel terreno c'erano piombo e IPA [3][14]. Non abbiamo trovato l'atto che lo chiude al pubblico: il 15 ottobre 2026 l'abbiamo chiesto al Comune.
 
 ## Chi se ne occupa
 - Il **Comune di Taranto** è il proprietario dei terreni, ha trovato la contaminazione, ha presentato il piano delle analisi e ha avviato la gara per eseguirlo [2][3].

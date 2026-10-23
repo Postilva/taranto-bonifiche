@@ -1,5 +1,5 @@
 # A16 – Land D2 (area verde vicino alla Statale 7 Appia)
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -16,6 +16,9 @@ Un piccolo terreno di circa 910 m² nella zona industriale di Taranto, lungo la 
 
 ## Perché è inquinata
 Le analisi hanno trovato nel terreno idrocarburi e arsenico oltre i limiti previsti per le zone abitate; il Ministero l'ha comunque dichiarato non contaminato, perché il rischio è accettabile per chi ci lavora saltuariamente [2][12].
+
+## Divieti e avvisi
+- [in vigore] **L'area va bene solo com'è oggi: niente parco, giardino o chiesa senza nuove verifiche.** Il decreto del Ministero n. 185 del 4 dicembre 2024 dichiara l'area "non contaminata" solo per l'uso di oggi, un'area recintata frequentata di rado da lavoratori [2]. Se cambia l'uso o si fanno lavori, l'analisi di rischio va rifatta, e questa condizione va scritta nel piano regolatore del Comune [2][14]. Anche l'ASL scrive che il suo parere vale solo per l'uso attuale [18].
 
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria**, cioè i commissari nominati dal Governo per le vecchie aree dell'Ilva: hanno fatto le analisi (con la società di consulenza Engea) e chiesto l'approvazione [12][13]. Land D2 è una delle "aree a verde rimaste di propria competenza" dopo il passaggio della fabbrica ai nuovi gestori [26].

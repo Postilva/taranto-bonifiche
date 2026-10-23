@@ -1,5 +1,5 @@
 # A17 – Area Pozzo 25 (il pozzo che irriga le Collinette ecologiche)
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -16,6 +16,9 @@ Un piccolo terreno boscoso di circa 5.400 m² nella zona industriale di Taranto,
 
 ## Perché è inquinata
 Il terreno è sotto i limiti di legge, ma l'acqua sotterranea dell'area è, per legge, "contaminata" [1].
+
+## Divieti e avvisi
+- [in vigore] **Vietato entrare senza controllo; l'acqua sotterranea è contaminata.** Il decreto del Ministero n. 149 del 26 maggio 2026 dichiara "contaminata" l'acqua sotterranea dell'area e chiede di impedire gli accessi non controllati e di continuare i controlli su tutti e quattro i pozzetti [1]. L'ASL aveva chiesto che l'area non fosse accessibile [14]. Se si spostano terreni o cambia l'uso dell'area, l'analisi di rischio va rifatta [1].
 
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria** (i commissari nominati dal Governo per le vecchie aree dell'Ilva): ha fatto le analisi, con la società di consulenza Engea, e ha chiesto le approvazioni [9][1].

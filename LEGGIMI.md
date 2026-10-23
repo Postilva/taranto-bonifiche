@@ -43,6 +43,10 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 (1–2 frasi: dov'è, quanto è grande, cosa c'è intorno)
 ## Perché è inquinata
 (1–3 frasi: da dove viene l'inquinamento e cosa è stato trovato)
+## Divieti e avvisi
+(solo se c'è un atto ufficiale; altrimenti la sezione non c'è)
+- [in vigore] **<cosa vieta, in breve>** <atto, data, cosa vale e dove, con fonte>
+- [non si sa] / [scaduto] / [revocato] **...** ...
 
 ## Chi se ne occupa
 ## Cosa è stato fatto
@@ -60,6 +64,8 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 Ogni frase della scheda finisce con il numero della sua fonte, per esempio [1].
 
 **"Cosa non sappiamo"** (deciso il 23/10/2026): ogni punto comincia con un'etichetta, `[blocca]` (ferma la bonifica o la messa in sicurezza), `[altra]` (altra domanda aperta) o `[fonti]` (fonti che si contraddicono, numeri o date che non tornano, cose da non confondere), seguita dalla domanda in grassetto. Sul sito vanno in "Cosa blocca la bonifica", "Altre domande" e nel riquadro "Le fonti non concordano". Le frasi con "non verificato", giornali o bozze FOIA restano nella scheda ma non vanno sul sito: scriverle come frasi a parte. `costruisci.py` si ferma se un punto non ha l'etichetta. **Quando una risposta arriva**, il punto esce da "Cosa non sappiamo" e il dato entra nel racconto con la sua fonte.
+
+**"Divieti e avvisi"** (deciso il 23/10/2026): ordinanze, decreti, note di ASL o di altri enti che dicono a chi vive o passa lì cosa non si può fare (entrare, coltivare, raccogliere cozze...). Ogni atto comincia con un'etichetta: `[in vigore]`, `[non si sa]` (citato da una fonte ufficiale ma senza numero o data, o non sappiamo se vale ancora), `[scaduto]` o `[revocato]`, sempre con la data. Gli atti scaduti e revocati restano, con il loro stato. Dove non c'è nessun atto la sezione non si scrive (niente "nessun divieto trovato"). `costruisci.py` si ferma se un punto non ha l'etichetta; le frasi non verificate o di giornali restano nella scheda ma non vanno sul sito.
 
 ## Come lavorare con i PDF
 Molti PDF ufficiali sono scansioni: `pdftotext` non estrae testo, quindi vanno letti come immagini, per gruppi di pagine.

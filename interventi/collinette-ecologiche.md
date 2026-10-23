@@ -1,5 +1,5 @@
 # A15 – Collinette ecologiche (quartiere Tamburi)
-*Stato scheda: approvata — aggiornata al 7 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -18,6 +18,11 @@ Tre rilievi artificiali di circa 9–10 ettari tra l'acciaieria e il quartiere T
 
 ## Perché è inquinata
 Sono state costruite negli anni '70 per fare da barriera alle polveri dello stabilimento [3][4][5][6][9][13]. Nel 2019 ARPA ci ha trovato rifiuti industriali (loppa, scorie d'altoforno) e metalli oltre i limiti, e la magistratura le ha sequestrate [5][9][15].
+
+## Divieti e avvisi
+- [in vigore] **Collinette chiuse al pubblico.** La determina della Regione n. 249 del 2 dicembre 2024 scrive che le collinette sono recintate, non accessibili e chiuse al pubblico [6].
+- [revocato] **Sequestro di circa 9 ettari (febbraio 2019).** I Carabinieri del NOE, su ordine della magistratura, hanno sigillato l'area con tre collinette [9]. Il giudice ha disposto il dissequestro, valido dal 24 ottobre 2022 [3].
+- [revocato] **Scuole Deledda e De Carolis chiuse (2019).** Con l'ordinanza n. 9 del 2 marzo 2019 il Sindaco di Taranto ha chiuso le due scuole vicine alla Collinetta 3 fino al 31 marzo, e con la n. 10 del 29 marzo ha prolungato la chiusura fino alla fine dell'anno scolastico [9][10]. Il 10 settembre 2019, dopo il parere dell'ASL, ha revocato le chiusure con l'ordinanza n. 40 [14][15].
 
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria**: gestisce le collinette da marzo 2019. Il passaggio da ArcelorMittal (oggi Acciaierie d'Italia) a Ilva è stato formalizzato a maggio 2020 [4][8]. Al momento del sequestro le aree erano "nella disponibilità" di ArcelorMittal [9]. Acciaierie d'Italia resta responsabile delle reti frangivento montate sopra le collinette [8].

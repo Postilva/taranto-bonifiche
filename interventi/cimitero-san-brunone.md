@@ -1,5 +1,5 @@
 # B8 – Cimitero San Brunone (Taranto): bonifica delle aree non pavimentate
-*Stato scheda: approvata — aggiornata all'8 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -18,6 +18,10 @@ Il cimitero storico di Taranto, nel quartiere Tamburi, vicino all'ex Ilva: la co
 
 ## Perché è inquinata
 L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vicinanza all'ex Ilva [1]; la Regione, nel 2025, indica "in particolare" le cokerie [16]. Nel sopralluogo del 2022 la Commissione parlamentare ha visto la colorazione rossastra delle tombe, effetto delle emissioni dell'acciaieria [15].
+
+## Divieti e avvisi
+- [non si sa] **Campi di inumazione contaminati vietati al pubblico.** Secondo la scheda del progetto su OpenCoesione, il Comune li ha vietati al pubblico in attesa della bonifica [4]. Non abbiamo trovato l'atto del Comune né la sua data: il 15 ottobre 2026 l'abbiamo chiesto al Comune.
+- [non si sa] **Campi 15, 19 e 20 recintati.** Nel 2022 il Commissario ha fatto ripristinare le recinzioni del cantiere intorno ai campi 15, 19 e 20, per impedire l'accesso [10]. Non sappiamo se ci siano ancora.
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto**, che è anche la stazione appaltante [3][7]. Negli anni sono cambiati i commissari: Vera Corbelli fino ad agosto 2020, il Prefetto Demetrio Martino dal 2020 al 2023, Vito Felice Uricchio dal 1° marzo 2024 (incarico prorogato fino al 31/12/2026) [3].
