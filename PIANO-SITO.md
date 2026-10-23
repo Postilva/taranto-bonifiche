@@ -78,7 +78,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 ### [ ] 10. Cosa è cambiato
 - In home un blocco "Ultimi aggiornamenti": le 5 schede aggiornate più di recente (data "aggiornata al" già nelle schede) con una riga su cosa è cambiato. *Da decidere:* riga scritta a mano in ogni scheda (es. `*Ultima novità: …*` sotto lo stato) oppure solo nome e data (raccomandato iniziare con nome e data, zero manutenzione).
 
-### [ ] 11. Pagine vere per i report (condivisione e Google)
+### [x] 11. Pagine vere per i report (condivisione e Google) (fatto il 23/10/2026: 31 pagine in `sito/r/` scritte da `costruisci.py`, `report.html#…` e i vecchi `index.html#<id>` rimandano lì; anteprima con titolo e riassunto dell'area, immagine ancora quella del sito)
 - Oggi tutti i report sono `report.html#id`: su WhatsApp ogni report mostra l'anteprima generica, Google vede una pagina sola, non c'è `sitemap.xml`.
 - Fare: `costruisci.py` genera anche `sito/r/<id>.html` (stesso codice di `report.html`, ma con `<title>`, `description` e `og:` dell'area scritti nella pagina), più `sitemap.xml` e `robots.txt`. I vecchi link `report.html#id` continuano a funzionare. Link interni (home, mappa) verso le pagine nuove.
 - Verifica: anteprima con un debugger di og (o leggendo l'HTML), e che `report.html#collinette-ecologiche` funzioni ancora.

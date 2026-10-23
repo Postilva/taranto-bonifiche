@@ -102,8 +102,8 @@
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
-  const h = decodeURIComponent(location.hash.slice(1));
-  if (SCHEDE.some(x => h === x.id || h.startsWith(x.id + "-f"))) location.replace("report.html#" + h);
+  const h = decodeURIComponent(location.hash.slice(1)), s = SCHEDE.find(x => h === x.id || h.startsWith(x.id + "-f"));
+  if (s) location.replace(reportUrl(s, h === s.id ? "" : h));
   else if (h === "esplora" || h === "mappa") location.replace("mappa.html");
 })();
 
@@ -314,6 +314,6 @@ function mappaFabbrica(d){
     <p class="chart-intro">Quanto è stato messo a disposizione e quanto è stato pagato, sommando le cifre dei report (somme fatte da noi). Le cifre di Ilva sono a parte: le ha dichiarate Ilva e nessun ente pubblico le ha controllate.</p>
     <div class="tot">${blocco("Fondi pubblici", "A date diverse: ogni report dice quando e da dove vengono", false)}${blocco("Secondo Ilva", "Tabella di Ilva in amministrazione straordinaria, luglio 2022", true)}</div>
     <p class="note">Le cifre ci sono in ${conCifre.size} report su ${SCHEDE.length}. Non sommiamo i costi stimati: ci sono solo in ${stimati} report.</p>
-    ${senza.length ? `<details class="note"><summary>${senza.length === 1 ? "Il report" : `${/^8/.test(senza.length) || senza.length === 11 ? "Gli" : "I"} ${senza.length} report`} senza cifre</summary><div class="aree">${senza.map(s => `<a class="area g${GRUPPO[s.code] || "A"}" href="report.html#${s.id}"><b>${elencoCodici(s.codes)}</b>${esc(s.short)}</a>`).join("")}</div></details>` : ""}`;
+    ${senza.length ? `<details class="note"><summary>${senza.length === 1 ? "Il report" : `${/^8/.test(senza.length) || senza.length === 11 ? "Gli" : "I"} ${senza.length} report`} senza cifre</summary><div class="aree">${senza.map(s => `<a class="area g${GRUPPO[s.code] || "A"}" href="${reportUrl(s)}"><b>${elencoCodici(s.codes)}</b>${esc(s.short)}</a>`).join("")}</div></details>` : ""}`;
 })();
 </script>

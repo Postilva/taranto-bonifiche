@@ -6,6 +6,8 @@
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#0b0b0c">
+<!-- questa pagina rimanda ai report in r/ (costruisci.py ne scrive uno per scheda, con titolo e anteprima dell'area) -->
+<meta name="robots" content="noindex">
 <meta name="description" content="36 aree legate all'Ilva tra la fabbrica, il Tamburi, Statte e il Mar Piccolo: per ognuna cosa è stato fatto e a che punto è la bonifica, solo con documenti ufficiali.">
 <!-- anteprima quando si condivide il link (WhatsApp, Telegram, Facebook, X...) -->
 <meta property="og:type" content="website">
@@ -50,7 +52,8 @@
 <script src="dati.js?v=202610231500"></script>
 <script src="comune.js?v=202610231500"></script>
 <script>
-/* Report di un intervento: report.html#<id-scheda> (oppure #<id-scheda>-f<n> per aprire una fonte).
+/* Report di un intervento: r/<id-scheda>.html (oppure #<id-scheda>-f<n> per aprire una fonte), scritta da costruisci.py
+   a partire da questa pagina; i vecchi link report.html#<id-scheda> rimandano lì.
    Ordine fisso: testata, mappa satellitare, che posto è e perché è inquinata, a che punto è, sostanze, chi e soldi,
    poi le sezioni a fisarmonica (storia, cosa è stato fatto, cosa non sappiamo, approfondimenti, fonti). */
 const acc = (title, body, opts={}) => `<details class="acc"${opts.id ? ` id="${opts.id}"` : ""}${opts.open ? " open" : ""}><summary><span>${title}${opts.sub ? `<small>${opts.sub}</small>` : ""}</span></summary><div class="body prose">${body}</div></details>`;
@@ -136,7 +139,7 @@ function render(s, sel){
   const i = SCHEDE.indexOf(s), prev = SCHEDE[i-1], next = SCHEDE[i+1];
   const extra = s.sections.filter(x => !/^date principali/i.test(x.title));
   const g = GRUPPO[s.code] || "A";
-  let h = `<a class="back" href="mappa.html${p ? "#" + s.code : ""}">← Mappa</a>
+  let h = `<a class="back" href="${RADICE}mappa.html${p ? "#" + s.code : ""}">← Mappa</a>
     <header class="rp-head g${g}">
       <div class="meta"><span class="codes">${s.codes.join(" + ")}</span><span>${grpLabel(s.code)}</span>${DA_VERIFICARE.has(s.code) ? `<span class="badge expl">Legame con l'Ilva da verificare</span>` : ""}</div>
       <h1>${esc(s.title)}</h1>
@@ -147,10 +150,10 @@ function render(s, sel){
   // sul computer (LARGO) due colonne: a sinistra il testo, a destra mappa e fase con la barra
   const largo = LARGO.matches, mappa = mappaHtml(p, s);
   if (!largo) h += mappa;
-  if (s.posto || s.perche) h += `<div class="ctx2">${s.posto ? `<section class="card"><h2>Che posto è</h2><div class="prose">${c(s.posto)}</div></section>` : ""}${s.perche ? `<section class="card"><h2>Perché è inquinata</h2><div class="prose">${c(s.perche)}</div><a class="more-link" href="index.html#come-inquina">Come inquina l'Ilva →</a></section>` : ""}</div>`;
+  if (s.posto || s.perche) h += `<div class="ctx2">${s.posto ? `<section class="card"><h2>Che posto è</h2><div class="prose">${c(s.posto)}</div></section>` : ""}${s.perche ? `<section class="card"><h2>Perché è inquinata</h2><div class="prose">${c(s.perche)}</div><a class="more-link" href="${RADICE}index.html#come-inquina">Come inquina l'Ilva →</a></section>` : ""}</div>`;
   h += statoHtml(s, largo ? "racconto" : "", sel);
   const sost = glossarioIn([...s.punto.map(b => b.html), s.posto, s.perche, s.fatto, ...s.sections.map(x => x.html)].join(" "));
-  if (sost.length) h += `<p class="sost">Sostanze: ${sost.map(g => `<a href="index.html#${g.id}">${esc(g.titolo.replace(/\s*\(.*\)$/, ""))}</a>`).join("")}</p>`;
+  if (sost.length) h += `<p class="sost">Sostanze: ${sost.map(g => `<a href="${RADICE}index.html#${g.id}">${esc(g.titolo.replace(/\s*\(.*\)$/, ""))}</a>`).join("")}</p>`;
   h += infoHtml(s);
   const story = storyHtml(s), accs = [];
   if (story) accs.push(acc("La storia", story, {sub: `${s.date.length} date, dalla più vecchia alla più recente`}));
@@ -163,7 +166,7 @@ function render(s, sel){
     .map(q => `<small class="coord">Coordinate${s.codes.length > 1 ? ` di ${q.code}` : ""}: ${esc(q.src.text)}</small>`).join("");
   accs.push(acc("Fonti", `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}${coord(f.n)}</span></li>`).join("")}</ol>`, {id: "fonti", sub: `${s.fonti.length} documenti ufficiali`}));
   h += `<div class="accs">${accs.join("")}</div>`;
-  const nav = `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="#${prev.id}"><small>← ${prev.code}</small>${esc(prev.short)}</a>` : ""}${next ? `<a class="next" href="#${next.id}"><small>${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
+  const nav = `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="${reportUrl(prev)}"><small>← ${prev.code}</small>${esc(prev.short)}</a>` : ""}${next ? `<a class="next" href="${reportUrl(next)}"><small>${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
   $("#rp").classList.toggle("due", largo);
   $("#rp").innerHTML = largo ? `<div class="col">${h}${nav}</div><aside class="col side">${mappa}${statoHtml(s, "testa", sel)}</aside>` : h + nav;
   document.title = parte ? `${sel} ${parte[1]} · Bonifiche Ilva` : `${s.code} ${s.short} · Bonifiche Ilva`;
@@ -198,15 +201,18 @@ function showFonte(id){
   lis.forEach(li => { li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1800); });
 }
 
-// report.html#<id-scheda>, #<id-scheda>-f<n> (una fonte) oppure #<codice> (per le schede divise evidenzia la parte, es. #D3)
+// r/<id-scheda>.html, con #<id-scheda>-f<n> (una fonte) oppure #<codice> (per le schede divise evidenzia la parte, es. #D3);
+// report.html#… (vecchi link) e un hash di un'altra scheda portano alla pagina della scheda giusta
+const PAGINA = $("#rp").dataset.scheda;
 let cur = null, curSel = null;
 function route(){
   const h = decodeURIComponent(location.hash.slice(1));
   const vh = Object.hasOwn(verified, h) ? verified[h] : null;   // l'hash è un codice
-  const s = SCHEDE.find(x => h === x.id || h.startsWith(x.id + "-f")) || vh;
+  const s = SCHEDE.find(x => h === x.id || h.startsWith(x.id + "-f")) || vh || SCHEDE.find(x => x.id === PAGINA);
+  if (s && s.id !== PAGINA) { location.replace(reportUrl(s, h === s.id ? "" : h)); return; }
   if (!s) {
     cur = null;
-    $("#rp").innerHTML = `<div class="notfound"><h1>Report non trovato</h1><p>Scegli un intervento sulla mappa.</p><a class="btn" href="mappa.html">Apri la mappa →</a></div>`;
+    $("#rp").innerHTML = `<div class="notfound"><h1>Report non trovato</h1><p>Scegli un intervento sulla mappa.</p><a class="btn" href="${RADICE}mappa.html">Apri la mappa →</a></div>`;
     return;
   }
   const sel = vh && parteDi(s, h) ? h : null;
@@ -217,7 +223,7 @@ function route(){
     if (stessa && sel) document.getElementById("parte-" + sel)?.scrollIntoView({block:"center"});
     else if (h === s.id || vh) window.scrollTo(0, 0);
   }
-  if (h !== s.id && !vh) showFonte(h);
+  if (h && h !== s.id && !vh) showFonte(h);
 }
 addEventListener("hashchange", route);
 LARGO.addEventListener("change", () => { cur = curSel = null; route(); });   // si allarga o si stringe la finestra: rifà la pagina
