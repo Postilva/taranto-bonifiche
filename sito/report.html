@@ -60,7 +60,8 @@ const acc = (title, body, opts={}) => `<details class="acc"${opts.id ? ` id="${o
 function statoHtml(s, parte, sel){
   const steps = STEPS[s.id];
   const testa = parte === "racconto" ? "" : faseHtml(steps, s.id) + (steps ? barraHtml(steps) + leg5Html() : "") + partiHtml(s, sel);
-  const blocchi = parte === "testa" ? "" : s.punto.map(b => `<div class="blocco"><h3>${esc(b.title)}</h3><div class="prose">${cite(b.html, s.id)}</div></div>`).join("");
+  const link = s.nonsappiamo.length ? `<a class="more-link" href="#domande" data-open="domande">Le domande aperte ↓</a>` : "";
+  const blocchi = parte === "testa" ? "" : s.punto.map(b => `<div class="blocco"><h3>${esc(b.title)}</h3><div class="prose">${cite(b.html, s.id)}</div>${/^cosa manca/i.test(b.title) ? link : ""}</div>`).join("");
   return `<section class="card stato"><span class="k">A che punto è</span>${testa}${blocchi}
     ${steps && parte !== "testa" ? `<p class="nota">Una tappa è "fatta" solo se lo conferma un ente di controllo (Ministero, Regione, Provincia, ARPA, ISPRA) e vale per tutta l'area.</p>` : ""}</section>`;
 }
@@ -70,6 +71,21 @@ function partiHtml(s, sel){
   const pp = PARTI[s.id]; if (!pp) return "";
   const li = ([code, nome, steps, rias]) => `<li id="parte-${code}"${code === sel ? ' class="sel"' : ""}><a class="cod" href="#${code}" aria-label="Evidenzia ${code}">${code}</a><div><b>${esc(nome)}</b><span class="pf">${esc(FASI.find(f => f[0] === fase(steps))[1])}${mini5Html(steps)}</span><p>${cite(esc(rias), s.id)}</p></div></li>`;
   return `<div class="parti"><span class="k">Parte per parte</span><p>La fase qui sopra vale per tutte le parti insieme, quindi segue quella più indietro.</p><ol>${[...pp].sort((a,b) => codeCmp(a[0], b[0])).map(li).join("")}</ol></div>`;
+}
+// cosa non sappiamo: le domande che bloccano la bonifica, le altre, e a parte dove le fonti non concordano
+// (le schede ancora senza etichette hanno t vuoto: solo l'elenco delle domande)
+function domandeHtml(s){
+  const c = t => cite(t, s.id), ds = s.nonsappiamo, di = t => ds.filter(d => d.t === t);
+  const ol = (xs, k="") => `<ol class="unk ${k}">${xs.map(d => `<li><span><b>${c(d.q)}</b>${d.h ? c(d.h) : ""}</span></li>`).join("")}</ol>`;
+  if (!ds.some(d => d.t)) return acc("Cosa non sappiamo", ol(ds), {id: "domande", sub: `${ds.length} domande aperte`});
+  const bl = di("blocca"), al = di("altra"), fo = di("fonti"), n = (k, uno, piu) => `${k} ${k === 1 ? uno : piu}`;
+  const sub = [bl.length && n(bl.length, "domanda che blocca la bonifica", "domande che bloccano la bonifica"),
+    al.length && n(al.length, bl.length ? "altra" : "domanda", bl.length ? "altre" : "domande"),
+    fo.length && `le fonti non concordano su ${n(fo.length, "punto", "punti")}`].filter(Boolean).join(", ");
+  const body = (bl.length ? `<h4 class="unk-h">Cosa blocca la bonifica</h4>${ol(bl)}` : "")
+    + (al.length ? `<h4 class="unk-h">${bl.length ? "Altre domande" : "Domande aperte"}</h4>${ol(al, "altra")}` : "")
+    + (fo.length ? `<div class="unk-fonti"><h4 class="unk-h">Le fonti non concordano</h4>${ol(fo)}</div>` : "");
+  return acc("Cosa non sappiamo", body, {id: "domande", sub: sub[0].toUpperCase() + sub.slice(1)});
 }
 // chi se ne occupa, soldi, aggiornamento
 function infoHtml(s){
@@ -128,7 +144,7 @@ function render(s, sel){
   const story = storyHtml(s), accs = [];
   if (story) accs.push(acc("La storia", story, {sub: `${s.date.length} date, dalla più vecchia alla più recente`}));
   if (s.fatto) accs.push(acc("Cosa è stato fatto", c(s.fatto), {sub: "Il racconto completo"}));
-  if (s.nonsappiamo.length) accs.push(acc("Cosa non sappiamo", `<ol class="unk">${s.nonsappiamo.map(x => `<li><span>${c(x)}</span></li>`).join("")}</ol>`, {sub: `${s.nonsappiamo.length} domande aperte`}));
+  if (s.nonsappiamo.length) accs.push(domandeHtml(s));
   extra.forEach(x => accs.push(acc(esc(x.title), c(x.html), {id: /^soldi/i.test(x.title) ? "soldi" : ""})));
   // le coordinate ufficiali stanno sotto la fonte che le dà (sulla mappa resta solo il numero della fonte)
   const coord = n => s.codes.map(k => PT[k]).filter(q => q && q.official && q.src.n === n)
