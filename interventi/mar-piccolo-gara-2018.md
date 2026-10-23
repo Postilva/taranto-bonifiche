@@ -1,5 +1,5 @@
 # B13 – Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018)
-*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -18,6 +18,9 @@ I fanghi inquinati sul fondo del 1° seno del Mar Piccolo, dove la gara del 2018
 
 ## Perché è inquinata
 Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e i cantieri navali [8][13].
+
+## Divieti e avvisi
+- [in vigore] **Cozze del 1° seno: vietato raccoglierle, si possono solo spostare sotto controllo.** Dal 2016 un'ordinanza del Presidente della Regione Puglia blocca la raccolta e lo spostamento di tutte le cozze del 1° seno del Mar Piccolo, per diossine e PCB [24]. Si possono spostare in altre zone solo le cozze piccole (il "novellame") nate l'anno prima, sotto controllo sanitario e dopo analisi conformi; quelle non spostate in tempo o fuori dai limiti vanno sequestrate e distrutte [24][26]. L'ordinanza n. 188 del 25 marzo 2016 valeva 30 mesi [24]; è stata prorogata di 36 mesi nel 2018 (n. 532) e nel 2021 (n. 323) [25], e di altri 36 mesi il 5 settembre 2024 (n. 379) [26]. La scadenza per spostare le cozze era il 31 marzo di ogni anno nell'ordinanza del 2016 [24]; nel 2024 la Regione scrive il 28 febbraio [26].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto**, che ha bandito la gara [2]. Commissari: Vera Corbelli fino al 21 agosto 2020, il Prefetto Demetrio Martino dal 2020 al 2023, Vito Felice Uricchio dal 2024 [7][8][1].
@@ -69,7 +72,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 - **Resto del Mar Piccolo**, analizzato nel 2010: inquinamento diffuso da metalli (**mercurio, zinco, rame, piombo**), meno marcato da PCB e da IPA (idrocarburi), soprattutto nel 1° seno [13].
 - La Commissione parlamentare scrive che nei fanghi ci sono anche **diossine** e PCB, sostanze che durano a lungo, fino a "molti metri" di profondità [8].
 - **Da dove viene:** ARPA calcola che oggi arrivano nel 1° seno circa 184 grammi di PCB all'anno da fiumi e sorgenti sottomarine (i "citri"): troppo pochi per spiegare l'inquinamento. Quindi è soprattutto **inquinamento vecchio, che i fanghi rilasciano ancora oggi** [13]. Le fonti storiche citate sono l'ex Ilva, l'Arsenale militare e i cantieri navali [8][13].
-- **Effetto sulle cozze:** nel 2010–2011 le cozze del 1° seno superavano i limiti europei per diossine e PCB [13]. Un'ordinanza della Regione Puglia (n. 188/2016) obbliga a spostare le cozze fuori dal 1° seno entro il 28 febbraio di ogni anno [8].
+- **Effetto sulle cozze:** nel 2010–2011 le cozze del 1° seno superavano i limiti europei per diossine e PCB [13]. Dal 2016 un'ordinanza della Regione Puglia vieta di raccogliere le cozze del 1° seno e permette solo di spostare quelle piccole in altre zone, dopo le analisi; è stata prorogata più volte, l'ultima nel 2024 (vedi "Divieti e avvisi") [24][25][26].
 - **Non ho trovato i valori misurati** (milligrammi per chilo) in un documento ufficiale pubblico: la relazione ISPRA del 2010 e lo studio ARPA del 2014 non sono online. Non verificato.
 
 ## Cosa ha sostituito la gara
@@ -189,6 +192,12 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 
 [23] Commissario straordinario per la bonifica di Taranto, *Decreto n. 1 del 13 gennaio 2025* (completamento del I lotto di rimozione dei rifiuti dal fondale del Mar Piccolo), pagine 2–3, https://commissari.gov.it/media/44hpmemr/20250113_d_1_lp_4-5-sf_rti-serveco_compl_i_lotto.pdf — copia in `fonti/2025-01_commissario-taranto_decreto-1-2025-stato-finale-completamento-lotto1.pdf`
 
+[24] Regione Puglia, *Ordinanza del Presidente della Giunta regionale n. 188 del 25 marzo 2016*, "Misure sanitarie straordinarie di controllo del rischio per diossina e PCB nelle produzioni di mitili di Taranto", artt. 1–3 e 6, https://trasparenza.regione.puglia.it/sites/default/files/provvedimento_amministrativo/45203_188_25-03-2016_P_188_25_03_2016.pdf — copia in `fonti/2016-03_regione-puglia_ordinanza-188-2016-mitili-mar-piccolo.pdf`
+
+[25] Regione Puglia, *Ordinanza del Presidente della Giunta regionale n. 323 del 16 settembre 2021*, "Misure sanitarie straordinarie di controllo del rischio per diossina e PCB nelle produzioni di mitili di Taranto. Proroga termini", Bollettino ufficiale della Regione Puglia n. 119 suppl. del 16 settembre 2021 (cita la proroga n. 532 del 13 settembre 2018), https://burp.regione.puglia.it/documents/20135/1552603/ORD_323_2021.pdf/4537c6d7-16bb-6d1b-c6da-dfa3c6576a92?t=1631883384854 — copia in `fonti/2021-09_regione-puglia_ordinanza-323-2021-proroga-mitili.pdf`
+
+[26] Regione Puglia, comunicato *Mitilicoltura Taranto, prorogate le misure sanitarie straordinarie di controllo del rischio per diossina e policlorobifenili*, 5 settembre 2024 (ordinanza n. 379 del 5 settembre 2024), https://press.regione.puglia.it/-/mitilicoltura-taranto-prorogate-le-misure-sanitarie-straordinarie-di-controllo-del-rischio-per-diossina-e-policlorobifenili — copia in `fonti/2024-09_regione-puglia_comunicato-ordinanza-379-2024-mitili.html`
+
 ## Cosa non sappiamo
 1. [blocca] **Che cosa prevede l'accordo con la Marina Militare?** Oggi il Commissario lavora con la Marina su una sola zona, l'«Area 170 ettari» (scheda B12), ma fondi e tempi non sono decisi [1][11][14]. Non abbiamo trovato l'atto firmato tra Commissario e Marina, né il piano di indagini, né quanto costerà, né chi pagherà [1][14]. Non verificato.
 2. [blocca] **I soldi per il Mar Piccolo sono ancora disponibili?** Soldi vecchi come quelli del 2012 e del 2016 rischiano di scadere: il cimitero San Brunone ha perso così la quota della Regione (vedi scheda B8). Per i 55 milioni del Ministero il taglio è stato evitato con la delibera CIPESS n. 78/2024 [18]; per i 21 milioni della Regione non abbiamo trovato nessun documento che dica se siano ancora validi o siano stati tolti. Non verificato.
@@ -205,7 +214,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 9. [fonti] **Quanto era grande l'area della prova?** "Poco più di 14 ettari" secondo il Prefetto Martino [7], 30.000 m² (3 ettari) di superficie prevista su OpenCoesione [9]. Non verificato.
 10. [fonti] **Le date su OpenCoesione sono strane.** "Aggiudicazione gara" il 10/10/2019 e "esecuzione lavori" dal 06/04/2021 [9], ma la gara non è mai stata aggiudicata [1]. Probabilmente si riferiscono ad altri contratti pagati con lo stesso CUP. Non verificato.
 11. [fonti] **Una data sbagliata nella relazione del 2018.** La scadenza delle offerte della fase di prova è scritta "22/02/2018", cioè prima della pubblicazione del bando [6]. Probabilmente è il 2019. Non verificato.
-12. [fonti] **Qual è il numero dell'ordinanza sulle cozze?** La Commissione parlamentare parla dell'ordinanza regionale n. 188/2016 [8], il Commissario nel 2026 dell'ordinanza n. 1989/2011 "e successive modifiche" [21]. Probabilmente la seconda è quella originale e la prima una modifica. Non verificato.
+12. [fonti] **Perché il Commissario cita un'altra ordinanza sulle cozze?** Le ordinanze della Regione in vigore sono la n. 188 del 2016 e le sue proroghe, l'ultima la n. 379 del 2024 [24][25][26]. Il Commissario nel 2026 scrive invece "Ordinanza Regionale n. 1989/2011 e successive modifiche" [21]. Anche la scadenza per spostare le cozze cambia: 31 marzo nel 2016 [24], 28 febbraio nel 2024 [26]. Forse la n. 1989/2011 è un'ordinanza precedente e la data è stata cambiata con una delle proroghe: non verificato.
 
 ### Richieste di accesso civico (FOIA) n. 21 e 22 — da inviare tu
 La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`). La domanda sulla Marina Militare è nella scheda B12.

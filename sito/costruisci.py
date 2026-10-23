@@ -8,6 +8,7 @@ Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
 - si tolgono paragrafi, punti e righe che contengono "non verificato" o che citano giornali/stampa;
 - ogni punto di "Cosa non sappiamo" è "[blocca|altra|fonti] **domanda** frasi": si tiene la domanda e si tolgono
   solo le frasi non verificate, di giornali o con le bozze FOIA; un punto senza etichetta ferma la costruzione;
+- ogni punto di "Divieti e avvisi" è "[in vigore|non si sa|scaduto|revocato] **atto** frasi", con le stesse regole;
 - le bozze FOIA non vanno sul sito.
 Il testo non viene riscritto: viene solo convertito da Markdown a HTML.
 """
@@ -127,12 +128,17 @@ def frasi(t):
     return " ".join(p for p in parti if not FILTRO.search(p) and not re.search(r"bozz", p, re.I))
 
 
-def domanda(item, nome):
-    """Un punto di "Cosa non sappiamo": [etichetta] **domanda** frasi, con eventuali sotto-voci.
-    Restituisce {t: blocca/altra/fonti, q: domanda, h: testo HTML}; senza etichetta la costruzione si ferma."""
-    m = re.match(r"\[(blocca|altra|fonti)\]\s+\*\*(.+?)\*\*\s*(.*)", item[0])
+ETICHETTE = {"Cosa non sappiamo": ("blocca", "altra", "fonti"), "Divieti e avvisi": ("in vigore", "non si sa", "scaduto", "revocato")}
+
+
+def domanda(item, nome, sezione="Cosa non sappiamo"):
+    """Un punto di "Cosa non sappiamo" ([blocca|altra|fonti] **domanda** frasi) o di "Divieti e avvisi"
+    ([in vigore|non si sa|scaduto|revocato] **atto** frasi), con eventuali sotto-voci.
+    Restituisce {t: etichetta, q: testo in grassetto, h: testo HTML}; senza etichetta la costruzione si ferma."""
+    et = ETICHETTE[sezione]
+    m = re.match(r"\[(" + "|".join(et) + r")\]\s+\*\*(.+?)\*\*\s*(.*)", item[0])
     if not m:
-        sys.exit(f"{nome}: in \"Cosa non sappiamo\" un punto non ha l'etichetta [blocca], [altra] o [fonti] seguita dalla domanda in grassetto: {item[0][:60]}")
+        sys.exit(f"{nome}: in \"{sezione}\" un punto non ha l'etichetta " + ", ".join(f"[{e}]" for e in et) + f" seguita dal grassetto: {item[0][:60]}")
     head, sub, coda, rientro = m.group(3), [], "", 0
     for r in item[1:]:
         s = re.match(r"^(\s+)(-|\d+\.)\s+(.*)", r)
@@ -374,7 +380,7 @@ def leggi_scheda(path):
         elif cur:
             cur[1].append(ln)
     out = {"id": path.stem, "codes": codes, "code": codes[0], "title": title, "updated": upd, "warnNote": warn,
-           "sections": [], "nonsappiamo": [], "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
+           "sections": [], "nonsappiamo": [], "divieti": [], "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
     for t, body in secs:
         tl = t.lower()
         if tl.startswith("cosa è stato fatto"):
@@ -399,6 +405,11 @@ def leggi_scheda(path):
             out["posto"] = section_html(body); continue
         if tl.startswith("perché è inquinata"):
             out["perche"] = section_html(body); continue
+        if tl.startswith("divieti e avvisi"):   # solo atti ufficiali, ognuno con il suo stato (vedi LEGGIMI.md)
+            for kind, val in blocks(body):
+                if kind == "ul":
+                    out["divieti"] += [domanda(it, path.name, "Divieti e avvisi") for it in val]
+            continue
         if tl.startswith("cosa non sappiamo"):
             for kind, val in blocks(body):
                 if kind == "ol":

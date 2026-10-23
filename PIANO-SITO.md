@@ -87,7 +87,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 
 ## Quarta parte: ricerca (lunga, scheda per scheda)
 
-### [ ] 12. Cosa vale oggi per chi ci vive
+### [x] 12. Cosa vale oggi per chi ci vive (fatto il 23/10/2026: riquadro "Divieti e avvisi" in 10 report, solo dove c'è un atto ufficiale, con etichetta in vigore / non si sa / scaduto / revocato; dove non c'è niente nessuna sezione; nuove fonti sulle ordinanze regionali delle cozze del Mar Piccolo)
 - La domanda di chi abita lì ("è pericoloso? ci sono divieti?") ha risposta sparsa nel racconto. Aggiungere al report, **solo dove esiste un atto ufficiale**, una sezione breve "Divieti e avvisi in vigore" (ordinanze del Sindaco, divieti d'uso di Statte, note ASL), con data e se è ancora valido. Dove non c'è niente, non scrivere niente (o "Nessun divieto trovato negli atti": *da decidere*).
 - Partire dalle schede che già citano ordinanze: A15, B2, D8, D1–D5, B10.
 

@@ -1,5 +1,5 @@
 # B2 – Aree verdi delle scuole Deledda, De Carolis e D'Aquino (quartiere Tamburi): analisi del terreno e analisi di rischio
-*Stato scheda: approvata — aggiornata al 21 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -18,6 +18,10 @@ I cortili e le aree verdi, circa 23.650 m², di tre scuole del quartiere Tamburi
 
 ## Perché è inquinata
 Il Tamburi è il quartiere accanto all'ex Ilva [3][4]. Secondo la Commissione parlamentare sui rifiuti, le polveri dell'acciaieria hanno reso necessarie ordinanze del Sindaco per limitare l'uso dei giardini delle scuole del quartiere [9].
+
+## Divieti e avvisi
+- [non si sa] **Limiti all'uso dei giardini delle scuole del quartiere.** La Commissione parlamentare sui rifiuti scrive nel 2022 che le polveri dell'acciaieria hanno reso necessarie "ordinanze del Sindaco per la limitazione all'uso dei giardini delle scuole del quartiere" [9]. Non dice quali, di quando, né se riguardano queste tre scuole, e non sappiamo se valgano ancora.
+- [revocato] **Scuole Deledda e De Carolis chiuse (2019), per le collinette vicine.** Con l'ordinanza n. 9 del 2 marzo 2019 il Sindaco di Taranto ha chiuso le due scuole perché le vicine "collinette ecologiche" erano state sequestrate (scheda A15) [6]. Le ha riaperte con l'ordinanza n. 40 del 10 settembre 2019 [7].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto** (all'epoca la dott.ssa Vera Corbelli), che ha finanziato e gestito le analisi insieme al **Comune di Taranto** [2][5]. L'opuscolo del 2026 scrive che l'intervento è stato "concluso dal precedente commissario" [1].

@@ -1,5 +1,5 @@
 # B12 – Mar Piccolo: bonifica dell'"Area 170 ha" con ecodragaggio (con la Marina Militare)
-*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -18,6 +18,9 @@ La zona del 1° seno del Mar Piccolo davanti all'Arsenale della Marina Militare 
 
 ## Perché è inquinata
 Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante" da PCB, arsenico e mercurio [6]. Secondo la Commissione parlamentare, i problemi del Mar Piccolo vengono in larga misura dall'attività industriale dell'area, cantieri e Arsenale, a cui si è sovrapposta l'attività siderurgica [14].
+
+## Divieti e avvisi
+- [in vigore] **Cozze del 1° seno: vietato raccoglierle, si possono solo spostare sotto controllo.** Dal 2016 un'ordinanza del Presidente della Regione Puglia blocca la raccolta e lo spostamento di tutte le cozze del 1° seno del Mar Piccolo, per diossine e PCB [19]. Si possono spostare in altre zone solo le cozze piccole (il "novellame") nate l'anno prima, sotto controllo sanitario e dopo analisi conformi; quelle non spostate in tempo o fuori dai limiti vanno sequestrate e distrutte [19][21]. L'ordinanza n. 188 del 25 marzo 2016 valeva 30 mesi [19]; è stata prorogata di 36 mesi nel 2018 (n. 532) e nel 2021 (n. 323) [20], e di altri 36 mesi il 5 settembre 2024 (n. 379) [21]. La scadenza per spostare le cozze era il 31 marzo di ogni anno nell'ordinanza del 2016 [19]; nel 2024 la Regione scrive il 28 febbraio [21].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto** (Vito Felice Uricchio): ha promosso la collaborazione con la Marina e con MASE, ISPRA, ARPA Puglia, Regione e Comune [1].
@@ -149,6 +152,12 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 [17] ARPA Puglia, *Indicatori ambientali della Puglia – Siti contaminati*, novembre 2022, pagina 19 del PDF (Accordo di programma quadro dell'11 giugno 2004), https://www.arpa.puglia.it/moduli/output_immagine.php?id=7311 — copia in `fonti/2022-11_arpa-puglia_indicatori-ambientali-siti-contaminati.pdf`
 
 [18] Commissario straordinario, *Relazione sintetica – Aggiornamento dello stato di attuazione*, dicembre 2018, pag. 38–39 (punto VII), https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/000/520/RELAZIONE_dicembre_2018.pdf — copia in `fonti/2018-12_commissario-taranto_relazione-stato-attuazione.pdf`
+
+[19] Regione Puglia, *Ordinanza del Presidente della Giunta regionale n. 188 del 25 marzo 2016*, "Misure sanitarie straordinarie di controllo del rischio per diossina e PCB nelle produzioni di mitili di Taranto", artt. 1–3 e 6, https://trasparenza.regione.puglia.it/sites/default/files/provvedimento_amministrativo/45203_188_25-03-2016_P_188_25_03_2016.pdf — copia in `fonti/2016-03_regione-puglia_ordinanza-188-2016-mitili-mar-piccolo.pdf`
+
+[20] Regione Puglia, *Ordinanza del Presidente della Giunta regionale n. 323 del 16 settembre 2021*, "Misure sanitarie straordinarie di controllo del rischio per diossina e PCB nelle produzioni di mitili di Taranto. Proroga termini", Bollettino ufficiale della Regione Puglia n. 119 suppl. del 16 settembre 2021 (cita la proroga n. 532 del 13 settembre 2018), https://burp.regione.puglia.it/documents/20135/1552603/ORD_323_2021.pdf/4537c6d7-16bb-6d1b-c6da-dfa3c6576a92?t=1631883384854 — copia in `fonti/2021-09_regione-puglia_ordinanza-323-2021-proroga-mitili.pdf`
+
+[21] Regione Puglia, comunicato *Mitilicoltura Taranto, prorogate le misure sanitarie straordinarie di controllo del rischio per diossina e policlorobifenili*, 5 settembre 2024 (ordinanza n. 379 del 5 settembre 2024), https://press.regione.puglia.it/-/mitilicoltura-taranto-prorogate-le-misure-sanitarie-straordinarie-di-controllo-del-rischio-per-diossina-e-policlorobifenili — copia in `fonti/2024-09_regione-puglia_comunicato-ordinanza-379-2024-mitili.html`
 
 ## Cosa non sappiamo
 1. [blocca] **Che cosa prevede l'accordo con la Marina del 2025–2026?** Non abbiamo trovato nessun atto firmato sull'Area 170 ha: né l'accordo, né il piano di indagini, né chi lo paga, né il costo [1][2]. L'opuscolo dice che i ruoli sono ancora da "formalizzare" [1]. Non abbiamo trovato nemmeno il "nulla osta tecnico" di ISPRA del 24 novembre 2025 né gli atti della bonifica da ordigni bellici iniziata a gennaio 2026 [16]. Il 9 ottobre 2026 due ricerche sul web non hanno trovato altro. Non verificato.

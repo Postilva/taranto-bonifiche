@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610231500">
+<link rel="stylesheet" href="stile.css?v=202610231800">
 
 <header class="topbar">
   <div class="in">
@@ -49,12 +49,12 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610231500"></script>
-<script src="comune.js?v=202610231500"></script>
+<script src="dati.js?v=202610231800"></script>
+<script src="comune.js?v=202610231800"></script>
 <script>
 /* Report di un intervento: r/<id-scheda>.html (oppure #<id-scheda>-f<n> per aprire una fonte), scritta da costruisci.py
    a partire da questa pagina; i vecchi link report.html#<id-scheda> rimandano lì.
-   Ordine fisso: testata, mappa satellitare, che posto è e perché è inquinata, a che punto è, sostanze, chi e soldi,
+   Ordine fisso: testata, mappa satellitare, che posto è e perché è inquinata, a che punto è, divieti e avvisi, sostanze, chi e soldi,
    poi le sezioni a fisarmonica (storia, cosa è stato fatto, cosa non sappiamo, approfondimenti, fonti). */
 const acc = (title, body, opts={}) => `<details class="acc"${opts.id ? ` id="${opts.id}"` : ""}${opts.open ? " open" : ""}><summary><span>${title}${opts.sub ? `<small>${opts.sub}</small>` : ""}</span></summary><div class="body prose">${body}</div></details>`;
 
@@ -90,6 +90,16 @@ function domandeHtml(s){
     + (fo.length ? `<div class="unk-fonti"><h4 class="unk-h">Le fonti non concordano</h4>${ol(fo)}</div>` : "")
     + (s.richieste.length ? `<a class="more-link" href="#chiesto" data-open="chiesto">Cosa abbiamo chiesto agli enti ↓</a>` : "");
   return acc("Cosa non sappiamo", body, {id: "domande", sub: sub[0].toUpperCase() + sub.slice(1)});
+}
+// divieti e avvisi: solo atti ufficiali, prima quelli in vigore, poi quelli di cui non sappiamo se valgono ancora,
+// poi scaduti e revocati (nelle schede senza atti il riquadro non c'è)
+const STATO_ATTO = [["in vigore", "In vigore"], ["non si sa", "Non sappiamo se vale ancora"], ["scaduto", "Scaduto"], ["revocato", "Revocato"]];
+function divietiHtml(s){
+  const dd = s.divieti; if (!dd.length) return "";
+  const ord = STATO_ATTO.flatMap(([k, lbl]) => dd.filter(d => d.t === k).map(d => ({...d, lbl})));
+  return `<section class="card divieti" id="divieti"><h2>Divieti e avvisi</h2>
+    <ul class="dv">${ord.map(d => `<li class="${d.t.replace(/ /g, "-")}"><span class="st">${d.lbl}</span><b>${cite(d.q, s.id)}</b>${d.h ? cite(d.h, s.id) : ""}</li>`).join("")}</ul>
+    <p class="nota">Solo gli atti ufficiali che abbiamo trovato: ordinanze, decreti, note degli enti.</p></section>`;
 }
 // le richieste di accesso agli atti (richieste.md), dalla più vecchia: quando, a chi, cosa, entro quando;
 // le risposte si aggiungeranno quando saranno arrivate tutte
@@ -152,6 +162,7 @@ function render(s, sel){
   if (!largo) h += mappa;
   if (s.posto || s.perche) h += `<div class="ctx2">${s.posto ? `<section class="card"><h2>Che posto è</h2><div class="prose">${c(s.posto)}</div></section>` : ""}${s.perche ? `<section class="card"><h2>Perché è inquinata</h2><div class="prose">${c(s.perche)}</div><a class="more-link" href="${RADICE}index.html#come-inquina">Come inquina l'Ilva →</a></section>` : ""}</div>`;
   h += statoHtml(s, largo ? "racconto" : "", sel);
+  h += divietiHtml(s);
   const sost = glossarioIn([...s.punto.map(b => b.html), s.posto, s.perche, s.fatto, ...s.sections.map(x => x.html)].join(" "));
   if (sost.length) h += `<p class="sost">Sostanze: ${sost.map(g => `<a href="${RADICE}index.html#${g.id}">${esc(g.titolo.replace(/\s*\(.*\)$/, ""))}</a>`).join("")}</p>`;
   h += infoHtml(s);

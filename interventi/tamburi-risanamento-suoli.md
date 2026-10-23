@@ -1,5 +1,5 @@
 # D1 + D2 + D3 + D4 + D5 – Quartiere Tamburi: risanamento dei suoli (sottoperimetri SP1–SP4)
-*Stato scheda: approvata — aggiornata al 20 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -16,6 +16,9 @@ Il quartiere Tamburi, il quartiere di Taranto attaccato allo stabilimento [4]. L
 
 ## Perché è inquinata
 La Regione indica come causa, per tutte le aree, la "deposizione inquinanti su suolo", cioè sostanze ricadute dall'aria sul terreno [1]. Per la Commissione parlamentare sui rifiuti il Tamburi è la parte della città "più esposta alle ricadute dei fumi dell'ILVA", e le polveri dello stabilimento hanno reso necessarie le ordinanze del Sindaco sui giardini delle scuole e poi le bonifiche [4]. Non abbiamo trovato una fonte che dica quali sostanze sono state trovate in ciascuna area.
+
+## Divieti e avvisi
+- [non si sa] **Aree del quartiere chiuse per motivi sanitari.** Nel 2013 la Regione riferisce che il Comune si è impegnato a mandare i progetti di bonifica delle aree dei Tamburi "il cui accesso era interdetto per motivi sanitari da ordinanze sindacali" [5]. Anche la Commissione parlamentare sui rifiuti parla di ordinanze del Sindaco sui giardini delle scuole del quartiere [4]. Non sappiamo quali ordinanze, per quali aree, né se valgano ancora.
 
 ## Chi se ne occupa
 - Il **Comune di Taranto** è il soggetto del procedimento per le aree pubbliche (SP1–SP4) e ha chiesto le certificazioni [1].
@@ -92,6 +95,7 @@ Per ogni area la Regione indica il punto centrale ("centroide del poligono"), ne
 6. [altra] **Le scuole Deledda, De Carolis e D'Aquino sono dentro SP4?** Hanno una pratica a parte (scheda B2), e nessuna delle fonti trovate dice se stanno dentro SP4. Non verificato.
 7. [altra] **Dov'è il rilevato di via San Brunone, e che cosa contiene?** Il Comune ha un progetto da 1,9 milioni di euro per bonificarlo [8], lo ha approvato e ha bandito la gara per i lavori [9]. Non sappiamo in quale sottoperimetro sia, che cosa contenga né se i lavori siano stati fatti. Non verificato.
 8. [fonti] **"SP" vuol dire "sottoprogetto"?** I nomi fanno pensare che SP1–SP4 siano le aree dei sottoprogetti 1–4 del "Progetto coordinato per il risanamento del quartiere Tamburi" [1][3], ma nessuna fonte lo dice, e non sappiamo quali strade comprenda ciascuna. Nel programma del Comune il sottoprogetto 4 è la riqualificazione urbana [7], mentre per la Regione SP4 è un'area di suolo bonificata [1]. Non verificato.
+9. [altra] **Quali ordinanze hanno chiuso le aree del quartiere, e valgono ancora?** La Regione nel 2013 parla di aree con accesso «interdetto per motivi sanitari da ordinanze sindacali» [5], ma nessuna fonte ufficiale trovata dà numeri, date o aree. Un giornale cita un'ordinanza n. 45 del 23 giugno 2010 sulle aree verdi del quartiere, che non abbiamo trovato negli atti del Comune.
 
 Ricerca online del 20 ottobre 2026 ("Tamburi" con SP1–SP4, sottoprogetti, certificazione di avvenuta bonifica, Provincia di Taranto, aree private; portale trasparenza del Comune e del Ministero delle Infrastrutture; OpenCUP; archivio del Ministero dell'Ambiente): trovate solo le fonti elencate sopra. Un giornale del 2010 (AmbienteAmbienti, 13 giugno 2010) parla di un'analisi di rischio su 75 ettari, di berillio sopra i limiti e di 30 cm di terreno da togliere: dati utili per le richieste, ma senza fonte ufficiale. Non verificati. La pagina ufficiale del CIS Taranto sul programma per il Tamburi (cistaranto.coesionemezzogiorno.it) non era raggiungibile il 20 ottobre 2026.
 

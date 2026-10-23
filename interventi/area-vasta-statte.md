@@ -1,5 +1,5 @@
 # D8 – Area vasta di Statte: terreni contaminati fuori dal SIN
-*Stato scheda: approvata — aggiornata al 20 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -16,6 +16,10 @@ Quasi tutto il territorio del Comune di Statte che sta fuori dal SIN: circa 58 k
 
 ## Perché è inquinata
 La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanze ricadute dall'aria sul terreno [5]. Nel 2018 la Provincia di Taranto ha chiuso la pratica per individuare il responsabile della contaminazione del suolo superficiale nelle aree di Statte fuori dal SIN, e Ilva ha fatto ricorso al TAR contro quell'atto [3]. In Parlamento ARPA Puglia ha detto che per un'area di Statte il responsabile individuato è "Ilva per alcuni parametri come diossine e furani" [4].
+
+## Divieti e avvisi
+- [scaduto] **Divieti nelle zone a rischio (2017–2018).** Con l'ordinanza n. 62 del 24 ottobre 2017, nelle zone disegnate nell'allegato, 19 in tutto il territorio, il Sindaco di Statte ha vietato di arare e smuovere la terra, di portarla via o scavare, di usare per svago le parti non pavimentate e di produrre alimenti e mangimi, pascolo compreso, salvo deroghe con analisi di ogni partita [1]. Chi lavora la terra in quelle zone doveva essere informato del rischio e proteggersi [1]. L'ordinanza valeva fino al 31 dicembre 2018 [1]. Non abbiamo trovato proroghe né nuove ordinanze, e il 21 ottobre 2026 le abbiamo chieste al Comune.
+- [non si sa] **Divieto di pascolo in alcune aree incolte (2008).** Con le ordinanze n. 11 del 3 aprile 2008 e n. 13 del 14 aprile 2008 il Sindaco di Statte ha vietato il pascolo in alcune aree incolte: le cita l'ordinanza del 2017 [1]. Non sappiamo quali aree riguardino né se valgano ancora.
 
 ## Chi se ne occupa
 - Il **Comune di Statte** ha fatto le analisi di tutto il territorio e l'analisi di rischio, e ha emesso le ordinanze con i divieti [1]. Nell'elenco della Regione è indicato come soggetto del procedimento [5].
