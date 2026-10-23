@@ -1,5 +1,5 @@
 # A4 – Discarica ex cava Cementir
-*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -9,7 +9,7 @@ Tra il 2020 e il 2023 Ilva ha costruito una barriera tutto intorno alla discaric
 Nessun ente ha certificato che la messa in sicurezza sia completa e fatta bene: per legge deve farlo la Provincia, che prima vuole garanzie economiche adeguate, e su questo Ilva e la Provincia sono andate in causa [1][3][4][24]. ARPA non esclude che una parte dei rifiuti sia rimasta fuori dalla nuova barriera [11][14]. La falda superficiale è inquinata e c'è un pompaggio d'emergenza [1][18]. I rifiuti restano dentro: non è una bonifica.
 
 ### Adesso
-Il 19 giugno 2025 la Provincia ha chiesto a Ilva di presentare la domanda di certificazione [1]; il Consiglio di Stato le ha dato ragione sulle garanzie, nel 2025 e nel 2026 [4][5]. Il decreto-legge n. 154 del 28 agosto 2026 prevede garanzie di un anno per le società in amministrazione straordinaria che gestiscono impianti strategici [29]: non si sa ancora se sbloccherà il certificato.
+Il 19 giugno 2025 la Provincia ha chiesto a Ilva di presentare la domanda di certificazione [1]; il Consiglio di Stato le ha dato ragione sulle garanzie, nel 2025 e nel 2026 [4][5]. Il decreto-legge n. 154 del 28 agosto 2026 prevede garanzie di un anno per le società in amministrazione straordinaria che gestiscono impianti strategici [29]. Il 25 settembre 2026 Ilva ha chiesto alla Provincia di applicarlo [30]; non si sa ancora se sbloccherà il certificato.
 
 ## Che posto è
 Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino alla raffineria ENI, nel SIN di Taranto [13][14][11].
@@ -86,12 +86,13 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 - Motivi principali: durata di soli 5 anni senza possibilità di incassarla se non rinnovata; garanzia non "a prima richiesta" [5].
 - 11 aprile 2023: il **TAR di Lecce** dà in gran parte ragione alla Provincia (sentenza n. 458 per Cementir, n. 459 per Due Mari); dà ragione a Ilva solo sulla riduzione del 40% dell'importo per la certificazione ambientale ISO 14001 [3].
 - 22 maggio 2025: il **Consiglio di Stato** respinge gli appelli di Ilva (sentenza n. 4443 per Cementir, n. 4442 per Due Mari) [4]. Senza continuità della garanzia, scrive, "in caso di insolvenza del gestore" i costi di un incidente ambientale ricadrebbero "sulla collettività" [4]. Ilva paga 10.000 € di spese per ciascuna causa [4].
-- 18 marzo 2025: Ilva aveva chiesto alla Provincia di passare alla post-gestione (30 anni); il 7 maggio 2025 la Provincia ha risposto che la domanda era **inammissibile**, il 12 maggio ha contestato le garanzie e il 26 maggio ha mandato la decisione di **non accettarle** per le due discariche [20][1].
+- 18 marzo 2025: Ilva aveva chiesto alla Provincia di passare alla post-gestione (30 anni); il 7 maggio 2025 la Provincia ha risposto che la domanda era **inammissibile**, il 12 maggio ha contestato le garanzie e il 26 maggio ha mandato la decisione di **non accettarle** per le due discariche [20][1]. La decisione è la determina n. 683/2025; il 30 maggio 2025 Ilva ha ripetuto la domanda di post-gestione e il 19 giugno la Provincia l'ha giudicata di nuovo improcedibile [30].
 - 19 giugno 2025: la Provincia chiede la domanda di certificazione, da rilasciare solo con garanzie adeguate [1].
 - 28 luglio 2025: Ilva chiede al Consiglio di Stato la "revocazione" delle sentenze e fa ricorso contro una sentenza del TAR di Lecce [1].
 - 26 marzo 2026: il Consiglio di Stato dichiara **inammissibili** le richieste di revocazione (Ilva ripete gli stessi argomenti) e la condanna a pagare altri 6.000 € alla Provincia [5].
 
 - 28 agosto 2026: il **decreto-legge n. 154** stabilisce che le società in amministrazione straordinaria "che gestiscono almeno un impianto dichiarato di interesse strategico nazionale" possono dare garanzie per le discariche, anche per il dopo-chiusura, **di un anno alla volta**, fino alla vendita dell'azienda [29]. Il decreto non nomina Ilva: non sappiamo se vale per Ilva in amministrazione straordinaria, che l'acciaieria non la gestisce più, e quindi se chiude la lite. I giornali lo collegano alle discariche interne dell'acciaieria (Acciaierie d'Italia): non verificato.
+- 25 settembre 2026: Ilva chiede alla Provincia di applicare il decreto-legge n. 154 alle discariche (nota arrivata il 28 settembre, prot. 39954) [30]. Nell'elenco dei documenti che la Provincia ha su queste discariche (ottobre 2026) non c'è una domanda di certificazione di Ilva [30].
 
 **Cosa sosteneva Ilva:** che la messa in sicurezza era "sostanzialmente conclusa" e che banche e assicurazioni non danno garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
@@ -128,10 +129,12 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 | 18 marzo 2025 | Ilva chiede la post-gestione | [20] |
 | 22 maggio 2025 | Consiglio di Stato, sentenza n. 4443: appello di Ilva respinto | [4] |
 | 26 maggio 2025 | La Provincia non accetta le garanzie (nuova decisione) | [1] |
+| 30 maggio 2025 | Ilva ripete la domanda di post-gestione; il 19 giugno la Provincia la giudica di nuovo improcedibile | [30] |
 | 19 giugno 2025 | La Provincia chiede la domanda di certificazione | [1] |
 | 12–14 novembre 2025 | Ultimo controllo della falda citato da Ilva | [1] |
 | 26 marzo 2026 | Consiglio di Stato, sentenza n. 2519: revocazione inammissibile | [5] |
 | 28 agosto 2026 | Decreto-legge n. 154: garanzie di un anno per le società in amministrazione straordinaria che gestiscono impianti strategici | [29] |
+| 25 settembre 2026 | Ilva chiede alla Provincia di applicare il decreto-legge n. 154 | [30] |
 
 ## Fonti
 [1] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pagine 30–31, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
@@ -192,11 +195,13 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 
 [29] Gazzetta Ufficiale, Serie generale n. 199 del 28 agosto 2026, *Decreto-legge 28 agosto 2026, n. 154* (Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale), articolo 1, https://www.gazzettaufficiale.it/eli/gu/2026/08/28/199/sg/pdf — copia in `fonti/2026-08_gazzetta-ufficiale_dl-154-2026-garanzie-discariche.pdf`
 
+[30] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44123 del 23 ottobre 2026, con l'elenco dei documenti della Provincia su garanzie, post-gestione e certificazione delle discariche Cementir e Due Mari (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-garanzie-cementir-due-mari.pdf`
+
 Nota: questa discarica non segue la normale procedura di bonifica del SIN. I suoi progetti sono stati approvati con le conferenze speciali previste dalle leggi sull'Ilva, pubblicate sul portale del Ministero per le autorizzazioni (va.mite.gov.it), e solo in piccola parte nell'archivio delle bonifiche (https://bonifichesiticontaminati.mite.gov.it/ricerca/), dove per quest'area (codice 7/3060) c'è un solo documento, il [28] (controllato il 9 ottobre 2026) [10][13].
 
 ## Cosa non sappiamo
-1. [blocca] **Ilva ha chiesto il certificato alla Provincia, ed è stato rilasciato?** Per legge deve certificare la Provincia, che prima vuole garanzie economiche adeguate [1][3][4][24]. Il 19 giugno 2025 la Provincia ha chiesto a Ilva di presentare la domanda [1]. Non sappiamo se Ilva l'abbia fatto né se il certificato sia stato rilasciato, e nemmeno se il collaudo previsto nel 2023 sia stato fatto [27].
-2. [blocca] **Il decreto-legge del 2026 sulle garanzie vale anche per Ilva in amministrazione straordinaria?** Il testo parla delle società che "gestiscono" un impianto strategico [29]. Non sappiamo se Ilva abbia presentato nuove garanzie annuali né se la Provincia le abbia accettate.
+1. [blocca] **Ilva ha chiesto il certificato alla Provincia, ed è stato rilasciato?** Per legge deve certificare la Provincia, che prima vuole garanzie economiche adeguate [1][3][4][24]. Il 19 giugno 2025 la Provincia ha chiesto a Ilva di presentare la domanda [1]. Nell'elenco dei documenti che la Provincia ha su questa discarica (ottobre 2026) ci sono due domande di Ilva per passare alla post-gestione, giudicate improcedibili, ma nessuna domanda di certificazione [30]: non risulta quindi nessun certificato. Non sappiamo nemmeno se il collaudo previsto nel 2023 sia stato fatto [27].
+2. [blocca] **Il decreto-legge del 2026 sulle garanzie vale anche per Ilva in amministrazione straordinaria?** Il testo parla delle società che "gestiscono" un impianto strategico [29]. Il 25 settembre 2026 Ilva ha chiesto alla Provincia di applicarlo [30]: non sappiamo cosa abbia risposto la Provincia, né se Ilva abbia presentato nuove garanzie annuali.
 3. [altra] **Quanto è inquinata la falda, e con quali sostanze?** La falda superficiale è inquinata e c'è un pompaggio d'emergenza [1][18]. Sappiamo che i limiti di legge sono superati nei pozzi vicino alla discarica, ma non quali sostanze né di quanto: i dati di ARPA e quelli dei controlli di Ilva non sono pubblici. Non abbiamo trovato neanche il testo della richiesta del Ministero dell'11 marzo 2022.
 4. [altra] **Di chi è l'inquinamento della falda?** Vicino ci sono anche il cementificio e la raffineria ENI. Ilva dice che gli idrocarburi non vengono dalla discarica [12]; nessun ente pubblico, nelle fonti trovate, ha deciso questa questione.
 5. [altra] **La barriera chiude tutta la discarica?** ARPA e la Commissione parlamentare hanno avuto dubbi su rifiuti rimasti fuori [11][14]. Ilva ha mandato i risultati dei sondaggi a febbraio 2023 e a fine 2023 non aveva avuto risposta [18]. Non sappiamo come è finita.

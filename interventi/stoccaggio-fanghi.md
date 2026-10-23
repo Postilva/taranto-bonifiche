@@ -1,15 +1,15 @@
 # A5 + A6 – Stoccaggio fanghi dell'altoforno e dell'acciaieria (AFO/ACC) e aree vicine
-*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
 
 ## A che punto è
 ### Finora
 Tra il 2019 e l'agosto 2023 Ilva ha portato via circa 333.000 tonnellate di fanghi dell'altoforno e dell'acciaieria e ne ha spostate altre 113.107 in un deposito impermeabilizzato [1][2]. Dal deposito, a gennaio 2025, ne erano uscite 95.737 tonnellate e ne restavano 17.370 [14].
 
 ### Cosa manca
-Il terreno sotto i fanghi non è ancora stato analizzato: le analisi si faranno solo dopo aver svuotato il deposito [1][2][6]. Il deposito doveva essere vuoto entro il 23 agosto 2026, ma non sappiamo se la scadenza è stata rispettata [2]. Nel 2025 l'invio dei fanghi si è fermato per alcuni mesi, dopo controlli della Procura [1].
+Il terreno sotto i fanghi non è ancora stato analizzato: le analisi si faranno solo dopo aver svuotato il deposito [1][2][6]. Il deposito doveva essere vuoto entro il 23 agosto 2026 [2]: il 27 luglio 2026 Ilva ha mandato alla Provincia una «comunicazione completamento UP3», che non abbiamo ancora letto, e non ha chiesto proroghe [21]. Nel 2025 l'invio dei fanghi si è fermato per alcuni mesi, dopo controlli della Procura [1].
 
 ### Adesso
-Da settembre 2025 Ilva gestisce dei materiali con «anomalie radiometriche», e a dicembre 2025 ha completato 5 nuovi pozzi per controllare l'acqua sotterranea [1]. Quando il deposito sarà vuoto dovrà analizzare il terreno liberato [2].
+L'ultimo atto noto è la nota di Ilva del 27 luglio 2026 alla Provincia sul «completamento UP3» [21]. Quando il deposito sarà vuoto Ilva dovrà analizzare il terreno liberato [2].
 
 ## Che posto è
 Un piazzale nel Comune di Statte, vicino alla Strada provinciale 48 Taranto–Statte; accanto ci sono le "aree vicine", con quattro vasche per l'acqua piovana [4][7].
@@ -22,7 +22,7 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 - **Ministero dell'Ambiente (MASE)**, con due uffici diversi:
   - la **Direzione valutazioni ambientali** segue la rimozione dei fanghi, perché è una prescrizione (la "UP3") del piano ambientale dell'acciaieria; ha autorizzato il deposito impermeabilizzato con il decreto n. 50 del 2023 [2];
   - la **Direzione bonifiche** segue le analisi del terreno (procedura del SIN, codice area 7/3920) [5][6].
-- **Provincia di Taranto** e **ARPA Puglia**: ricevono ogni anno da Ilva il resoconto dei fanghi portati via dal deposito; la Provincia ha anche la garanzia economica [2][13][14][15].
+- **Provincia di Taranto** e **ARPA Puglia**: ricevono ogni anno da Ilva il resoconto dei fanghi portati via dal deposito; la Provincia riceve anche la garanzia economica, che però non ha accettato [2][13][14][15][21].
 - **Regione Puglia**: ha condiviso la decisione di rinviare le analisi del terreno [6].
 - **Procura della Repubblica di Taranto e Guardia di Finanza**: nel 2024–2025 hanno fatto prelevare e analizzare da ARPA i fanghi rimasti [1].
 
@@ -59,6 +59,7 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
   - al 31 gennaio 2024: 42.727 t portate via, 70.380 t ancora nel deposito [13];
   - l'obiettivo di 60.000 t è stato raggiunto il 1° marzo 2024 (61.557 t) [1];
   - al 31 gennaio 2025: 95.737 t portate via, **17.370 t ancora nel deposito**; da agosto 2024 a gennaio 2025 non è uscito niente [14].
+  - 11 marzo 2026: Ilva manda alla Provincia il rapporto annuale 2026; 27 luglio 2026: Ilva manda la «comunicazione completamento UP3». Secondo la Provincia non ci sono richieste di proroga della scadenza. Queste note non le abbiamo ancora lette [21].
 - **Dove sono finiti?** Ilva indica le ditte che li hanno ritirati (Ecologica, PH Facility, Elios) e gli impianti di destinazione: Recupero Materie Prime, M.P.A., Vincenzo Fagioli, Silva, Centro Lombardo Recuperi Industriali (Erbusco), Ambienta, Spica, Rail & Recycling, e Heracles in **Grecia** (trasporto all'estero autorizzato dalla Provincia di Taranto, notifica IT027713) [13][14]. Il decreto prevede che i fanghi del deposito vadano a **recupero**, non in discarica [2]. Le fonti non dicono in che modo ogni impianto li abbia usati.
 - Le misure di polvere e rumore prescritte dal decreto, fatte il 5–6 ottobre 2023, secondo Ilva non hanno mostrato problemi [1].
 
@@ -89,7 +90,7 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 ## Soldi
 - **Speso o impegnato fino al 31 ottobre 2018** per la rimozione dei fanghi della zona Ilva: 8,37 milioni € [16].
 - **Al 12 luglio 2022**, secondo Ilva: 75,03 milioni € stanziati per l'intervento sui fanghi (rimozione, analisi, bonifica del suolo superficiale e ripristino), 69,18 milioni impegnati in ordini, 7,89 milioni pagati, 9,19 milioni fatturati [7]. Per le aree vicine: 12,90 milioni € stanziati [7].
-- **Garanzia per il deposito**: Ilva ha dato alla Provincia una polizza fideiussoria di Generali Italia (n. 430358557, emessa il 29 marzo 2023) [15]. L'importo non è indicato. Non verificato.
+- **Garanzia per il deposito**: Ilva ha dato alla Provincia una polizza fideiussoria di Generali Italia (n. 430358557, emessa il 29 marzo 2023) [15]. La Provincia **non ha accettato** le garanzie per il deposito (determina n. 1090/2023 e nota prot. 29377/2023) [21]. Importo e motivi: non verificati.
 - **Speso in totale e da dove vengono i soldi**: le relazioni di Ilva dopo il 2022 non danno cifre per quest'area. Non verificato.
 
 ## Date principali
@@ -108,6 +109,7 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 | 6 giugno 2023 | Inizia lo spostamento dei fanghi nel deposito | [19] |
 | 12 agosto 2023 | Fine della rimozione dall'area: 113.107 t nel deposito; trovati "materiali inattesi" | [1][12] |
 | 23 agosto 2023 | Scadenza del DPCM per togliere i fanghi dal terreno | [2][3] |
+| 2023 | La Provincia non accetta le garanzie per il deposito (determina n. 1090/2023) | [21] |
 | 1° marzo 2024 | Portate via dal deposito le prime 60.000 t (61.557 t) | [1] |
 | 11–12 settembre 2024 | Analisi radiometriche dei materiali inattesi: "minime anomalie" | [1] |
 | 22 ottobre 2024 | La Procura dispone prelievi di fanghi da parte di ARPA | [1] |
@@ -117,7 +119,9 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 | 5 agosto 2025 | Il Procuratore consente a Ilva di riprendere, se lo smaltimento è conforme alla legge | [1] |
 | 2 settembre 2025 | Iniziata la gestione dei materiali con anomalie radiometriche | [1] |
 | dicembre 2025 | Completati 5 nuovi pozzi di controllo della falda | [1] |
-| 23 agosto 2026 | Scadenza per svuotare del tutto il deposito: **non si sa se è stata rispettata** | [2] |
+| 11 marzo 2026 | Ilva manda alla Provincia il rapporto annuale 2026 | [21] |
+| 27 luglio 2026 | Ilva manda alla Provincia la «comunicazione completamento UP3» | [21] |
+| 23 agosto 2026 | Scadenza per svuotare del tutto il deposito; nessuna proroga chiesta | [2][21] |
 
 ## Fonti
 [1] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pagine 32–33 (scansione), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
@@ -160,21 +164,24 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 
 [20] Ilva S.p.A. in A.S., *Relazione trimestrale, 1° trimestre 2025*, pagine 42–43, copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
 
+[21] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44110 del 23 ottobre 2026, con l'elenco dei documenti della Provincia sul deposito (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-fanghi-up3.pdf`
+
 Nota sul [10]: la relazione di fine 2024 è la fonte dei dati al 30 settembre 2024 (17.371 t ancora nel deposito), coerenti con il [14].
 
 ## Cosa non sappiamo
-1. [blocca] **Il deposito è stato svuotato entro il 23 agosto 2026, come chiedeva il decreto?** Le analisi del terreno si faranno solo dopo averlo svuotato [1][2][6]. L'ultimo dato è del 31 gennaio 2025 (17.370 tonnellate ancora dentro) [14]. Poi c'è stato lo stop di marzo–agosto 2025 [1]. Il resoconto annuale che Ilva doveva mandare a febbraio 2026 non è pubblicato, e le relazioni di Ilva del 2026 non sono ancora uscite. Non si sa nemmeno se il Ministero abbia concesso una proroga. Il 9 ottobre 2026 abbiamo controllato gli archivi del Ministero: nella procedura del deposito l'ultimo documento è il resoconto di febbraio 2025 [14], e nella pratica di bonifica dell'area (3920) l'ultimo atto è del 3 maggio 2022 [6]. Due ricerche sul web non hanno trovato notizie più recenti.
+1. [blocca] **Il deposito è davvero vuoto?** Le analisi del terreno si faranno solo dopo averlo svuotato [1][2][6]. L'ultimo dato pubblico è del 31 gennaio 2025, con 17.370 tonnellate ancora dentro [14]; poi c'è stato lo stop di marzo–agosto 2025 [1]. Il 27 luglio 2026 Ilva ha mandato alla Provincia una «comunicazione completamento UP3» e non ha chiesto proroghe [21], ma non l'abbiamo ancora letta: non sappiamo se dica che il deposito è vuoto, né se un ente l'abbia controllato.
 2. [altra] **Che cosa hanno trovato le analisi di ARPA chieste dalla Procura?** La relazione di Ilva dice solo che, dopo averle ricevute, Ilva ha fermato lo smaltimento [1]. Non sappiamo il risultato, né quello del test di ecotossicità, né se c'è un procedimento penale aperto e su cosa. Nessun atto giudiziario pubblicato è stato trovato. I giornali (non verificato) parlano anche di sequestri e indagini su quest'area.
 3. [altra] **Quanto sono gravi le anomalie radiometriche?** Non sappiamo quanto materiale è coinvolto, quanto erano alte le misure, in quale impianto sono state rilevate e se gli enti pubblici (ARPA, ISPRA) le hanno verificate. Tutte le informazioni vengono da Ilva [1].
 4. [altra] **Che cosa contenevano i fanghi, e il terreno sotto è inquinato?** Nessuna analisi pubblicata, nemmeno quelle annuali fatte fare da Ilva [7][19]. Lo si saprà solo dopo le analisi del terreno, che non sono ancora iniziate [1][6].
 5. [altra] **Dov'è il deposito impermeabilizzato?** Il decreto rimanda alla domanda di Ilva [2]; non abbiamo verificato se si trova nelle "aree vicine" o altrove.
 6. [altra] **Quanto è stato speso in tutto, e con quali soldi?** Ci sono solo le cifre del 2018 e del 2022 [7][16].
-7. [fonti] **Quanti fanghi c'erano davvero?** Ilva parlava di circa 490.000 tonnellate nel 2018 e nel 2021, ma nello stesso documento del 2021 scrive anche "circa 410.000" [4][16]. Alla fine ne risultano circa 446.000 (332.817 portate via più 113.107 nel deposito) [1][9]. Le fonti non spiegano la differenza.
-8. [fonti] **Quanto è grande l'area?** 10,5 + 4,8 ettari secondo il piano di analisi [4], 7,0 + 4,1 secondo il documento per l'Osservatorio [7].
-9. [fonti] **Qual è il codice dei fanghi?** Il piano di analisi indica due codici diversi per i fanghi d'altoforno e d'acciaieria [4], il decreto un solo codice per entrambi [2]. Non sappiamo quale sia corretto.
-10. [fonti] **Un errore nelle relazioni di Ilva.** Le relazioni del 2024 e del 2025 citano la "nota prot. 12264 del 03/05/2022" del Ministero [1][10]. Nell'archivio del Ministero, però, 12264 è il numero del file: la nota ha protocollo **53501** del 3 maggio 2022 [6].
+7. [altra] **Perché la Provincia non ha accettato la garanzia del deposito, e oggi ce n'è una valida?** Ilva le ha dato una polizza di Generali nel 2023 [15]; la Provincia non ha accettato le garanzie con la determina n. 1090/2023 [21]. Non sappiamo i motivi, l'importo, né se Ilva ne abbia data un'altra.
+8. [fonti] **Quanti fanghi c'erano davvero?** Ilva parlava di circa 490.000 tonnellate nel 2018 e nel 2021, ma nello stesso documento del 2021 scrive anche "circa 410.000" [4][16]. Alla fine ne risultano circa 446.000 (332.817 portate via più 113.107 nel deposito) [1][9]. Le fonti non spiegano la differenza.
+9. [fonti] **Quanto è grande l'area?** 10,5 + 4,8 ettari secondo il piano di analisi [4], 7,0 + 4,1 secondo il documento per l'Osservatorio [7].
+10. [fonti] **Qual è il codice dei fanghi?** Il piano di analisi indica due codici diversi per i fanghi d'altoforno e d'acciaieria [4], il decreto un solo codice per entrambi [2]. Non sappiamo quale sia corretto.
+11. [fonti] **Un errore nelle relazioni di Ilva.** Le relazioni del 2024 e del 2025 citano la "nota prot. 12264 del 03/05/2022" del Ministero [1][10]. Nell'archivio del Ministero, però, 12264 è il numero del file: la nota ha protocollo **53501** del 3 maggio 2022 [6].
 
-### Richieste di accesso civico (FOIA) n. 17 e 18 — da inviare tu
+### Richieste di accesso civico (FOIA) n. 17 e 18 — inviate
 Il Ministero (Direzione valutazioni ambientali) ha solo la PEC: le domande vanno quindi a chi riceve gli stessi documenti da Ilva.
 
 **FOIA 17 — Provincia di Taranto**, Settore Pianificazione Ambiente (A: aniello.polignano@provincia.ta.it, Cc: info@provincia.ta.it)
