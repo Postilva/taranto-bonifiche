@@ -72,7 +72,7 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 - **Da decidere (privacy):** `.tmp/foia/REGISTRO.md` contiene nomi di funzionari, caselle PEC e note private, quindi **non va letto dal sito**. Raccomandato: un file nuovo tracciato `richieste.md` con solo le colonne pubbliche (codice area, ente, oggetto breve, inviata il, scadenza, esito breve), aggiornato a mano quando cambia il registro; `costruisci.py` lo legge.
 - Anche in home una riga: "N richieste inviate, M risposte".
 
-### [ ] 9. I soldi in totale
+### [x] 9. I soldi in totale (fatto il 23/10/2026: due totali separati, fondi pubblici e "secondo Ilva" luglio 2022, con quanti report hanno il dato e l'elenco dei report senza cifre; in MONEY aggiunte Gravina (Ilva) e Land D2, aggiornato il pagato delle scuole del Tamburi)
 - In home, sotto il grafico, un riquadro "Soldi": totale stanziato e totale pagato da `MONEY`, con **quante aree hanno il dato** ("su 12 aree con il dato") e un link alle aree senza dato. Niente totale "stimato" se mancano troppi dati. Attenzione a non sommare due volte gli stessi fondi (es. A5+A6, parti del Tamburi): controllare le spiegazioni in `MONEY` e farle approvare all'utente prima di pubblicare il numero.
 
 ### [ ] 10. Cosa è cambiato
