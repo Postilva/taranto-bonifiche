@@ -68,6 +68,10 @@ Qui la ditta Sidercomit produceva e immagazzinava prodotti siderurgici (soprattu
 - Con la riduzione del SIN di Taranto (decreto n. 249 dell'11 dicembre 2024 e decreto del Ministro n. 449 del 20 dicembre 2024) **i Fogli 192 e 194 di Land E non sono tra le aree escluse**, né nella proposta del marzo 2024 né tra le aree aggiunte dal decreto [15][16][17].
 
 ## Soldi
+- [costo] — · nessun costo stimato nelle fonti
+- [disponibili] 3.650.000 € · Ilva · luglio 2022 [6] per analisi, eventuale bonifica dell'acqua e messa in sicurezza dei terreni con la pavimentazione
+- [spesi] nessuna cifra · la tabella di Ilva del luglio 2022 non indica quanto è stato pagato [6]
+
 - Al 12 luglio 2022, secondo Ilva: **3,65 milioni €** destinati a Land E (analisi di terreno e acqua, eventuale bonifica dell'acqua, messa in sicurezza dei terreni con la pavimentazione), di cui 0,11 milioni impegnati in ordini e 0,02 milioni fatturati; pagato: nessuna cifra indicata [6].
 - Costo del progetto per gli edifici e spese dopo il 2022: **non verificato**.
 

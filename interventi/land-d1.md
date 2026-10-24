@@ -71,6 +71,10 @@ Tutti i valori vengono dalla validazione di ARPA, che li confronta con i limiti 
 **No.** Nessuna area di Ilva compare tra quelle tolte dal SIN (il "Sito di interesse nazionale" da bonificare) con il decreto del Ministero n. 249 dell'11 dicembre 2024 [10].
 
 ## Soldi
+- [costo] — · nessun costo stimato nelle fonti
+- [disponibili] 2.300.000 € · Ilva · luglio 2022 [5] stanziati; circa 170.000 € impegnati in ordini
+- [spesi] circa 90.000 € · Ilva · luglio 2022 [5]
+
 - Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land D1 erano stati **stanziati 2,30 milioni €** (analisi di terreno e acqua, "bonifica soprassuolo e ripristino ambientale"), di cui **0,17 milioni impegnati** in ordini e **0,09 milioni pagati** [5]. Sono cifre di Ilva, non verificate da un ente pubblico.
 - Le analisi di controllo di ARPA sono pagate da Ilva, in base a una convenzione [8].
 - Quanto costano la rimozione dei rifiuti sepolti e la messa in sicurezza della strada, e con quali fondi: **non verificato**.

@@ -9,6 +9,8 @@ Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
 - ogni punto di "Cosa non sappiamo" è "[blocca|altra|fonti] **domanda** frasi": si tiene la domanda e si tolgono
   solo le frasi non verificate, di giornali o con le bozze FOIA; un punto senza etichetta ferma la costruzione;
 - ogni punto di "Divieti e avvisi" è "[in vigore|non si sa|scaduto|revocato] **atto** frasi", con le stesse regole;
+- le righe "- [costo|disponibili|spesi] ..." in cima a "Soldi" sono le cifre del riquadro: ogni cifra ha chi lo dice,
+  quando e la fonte, altrimenti la costruzione si ferma;
 - le bozze FOIA non vanno sul sito.
 Il testo non viene riscritto: viene solo convertito da Markdown a HTML.
 """
@@ -169,6 +171,43 @@ def domanda(item, nome, sezione="Cosa non sappiamo"):
     head, sub, coda = frasi(head), [x for x in map(frasi, sub) if x], frasi(coda)
     h = (f"<p>{inline(head)}</p>" if head else "") + ("<ul>" + "".join(f"<li>{inline(x)}</li>" for x in sub) + "</ul>" if sub else "") + (f"<p>{inline(coda)}</p>" if coda else "")
     return {"t": m.group(1), "q": inline(m.group(2).strip()), "h": h}
+
+
+TIPI_SOLDI = ("costo", "disponibili", "spesi")
+MESI_BREVI = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"]
+
+
+def riga_soldi(t, nome):
+    """Una riga del blocco in cima a "## Soldi" (vedi LEGGIMI.md):
+    "[tipo] 18.400.000 € · chi lo dice · quando [n] nota" oppure "[tipo] testo al posto della cifra · nota".
+    La cifra può cominciare con "circa" o "meno di". Restituisce {k, p, v (euro o None), pre, lbl, chi, quando, qb, t, src, note}."""
+    m = re.match(r"\[(" + "|".join(TIPI_SOLDI) + r")(?: · ([^\]]+))?\]\s+(.*)", t)
+    if not m:
+        sys.exit(f"{nome}: in \"Soldi\" una riga del blocco non ha l'etichetta [costo], [disponibili] o [spesi]: {t[:60]}")
+    if FILTRO.search(t):
+        sys.exit(f"{nome}: in \"Soldi\" una riga del blocco va sul sito e non può dire \"non verificato\" o citare giornali: {t[:60]}")
+    r = {"k": m.group(1), "p": m.group(2) or "", "v": None, "pre": "", "lbl": "", "chi": "", "quando": "", "qb": "", "t": None, "src": "", "note": ""}
+    resto = m.group(3).strip()
+    c = re.match(r"(?:(circa|meno di)\s+)?(\d{1,3}(?:\.\d{3})*(?:,\d+)?)\s*€\s*(.*)", resto)
+    nota = lambda x: inline(re.sub(r"\s+(?=\[\d+\])", "", x.strip()))   # le note [n] attaccate al testo, come nel resto del sito
+    if not c:   # nessuna cifra: il testo da mostrare al posto del numero e, dopo " · ", la spiegazione
+        lbl, _, note = resto.partition(" · ")
+        r.update(lbl=lbl.strip(), note=nota(note))
+        return r
+    f = re.match(r"·\s*([^·\[]+?)\s*·\s*([^·\[]+?)\s*((?:\[\d+\])+)\s*(.*)", c.group(3))
+    if not f:
+        sys.exit(f"{nome}: in \"Soldi\" la cifra {c.group(2)} € deve avere \"· chi lo dice · quando [n]\": {t[:80]}")
+    v = float(c.group(2).replace(".", "").replace(",", "."))
+    quando = f.group(2)
+    y = re.search(r"\b(19|20)\d{2}\b", quando)
+    if not y:
+        sys.exit(f"{nome}: in \"Soldi\" manca l'anno in \"{quando}\"")
+    mese = next((MESI[k] for k in MESI if re.search(r"\b" + k + r"\b", quando.lower())), 0)
+    r.update(v=v / 2 if c.group(1) == "meno di" else v,   # "meno di 10.000 €": nei totali conta la metà
+             pre=c.group(1) or "", lbl=c.group(2), chi=f.group(1), quando=quando,
+             qb=(MESI_BREVI[mese - 1] + " " if mese else "") + y.group(0), t=[int(y.group(0)), mese],
+             src=f.group(3), note=nota(f.group(4)))
+    return r
 
 
 # ---------- coordinate UTM fuso 33 Nord → gradi (WGS84) ----------
@@ -405,7 +444,7 @@ def leggi_scheda(path):
         elif cur:
             cur[1].append(ln)
     out = {"id": path.stem, "codes": codes, "code": codes[0], "title": title, "updated": upd, "warnNote": warn,
-           "sections": [], "nonsappiamo": [], "divieti": [], "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
+           "sections": [], "nonsappiamo": [], "divieti": [], "soldi": [], "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
     for t, body in secs:
         tl = t.lower()
         if tl.startswith("cosa è stato fatto"):
@@ -445,6 +484,10 @@ def leggi_scheda(path):
             continue
         if ESCLUSE.match(t):
             continue
+        if tl.startswith("soldi"):   # il blocco con le etichette va nel riquadro "Soldi"; il resto è il racconto
+            blocco = [ln for ln in body if re.match(r"- \[[^\]]+\](?!\()", ln)]   # non i link [testo](url)
+            out["soldi"] = [riga_soldi(ln[2:].strip(), path.name) for ln in blocco]
+            body = [ln for ln in body if ln not in blocco]
         if tl.startswith("date principali"):
             for kind, val in blocks(body):
                 if kind == "table":
@@ -464,7 +507,7 @@ def leggi_scheda(path):
                             if nome[:1].isupper() and nome.lower() != "attenzione" and not FILTRO.search(nome) and nome not in out["chi"]:
                                 out["chi"].append(nome)
         h = section_html(body)
-        if not h and tl.startswith("soldi"):
+        if not h and tl.startswith("soldi") and not out["soldi"]:
             h = "<p>Nessuna cifra verificata: i costi non si trovano nei documenti ufficiali.</p>"
         if tl.startswith("cosa è stato fatto"):
             out["fatto"] = h; continue
@@ -472,6 +515,11 @@ def leggi_scheda(path):
             out["sections"].append({"title": t, "html": h})
     if len(out["punto"]) != 3:   # ogni scheda racconta a che punto è in tre blocchi (vedi LEGGIMI.md)
         sys.exit(f"{path.name}: manca \"## A che punto è\" con i blocchi ### Finora, ### Cosa manca, ### Adesso")
+    numeri = {f["n"] for f in out["fonti"]}
+    for r in out["soldi"]:   # ogni cifra rimanda a una fonte della scheda
+        for n in map(int, re.findall(r"\d+", r["src"])):
+            if n not in numeri:
+                sys.exit(f"{path.name}: in \"Soldi\" la fonte [{n}] non è nell'elenco delle fonti")
     out["coord"] = coordinate(txt)
     per_cod = coordinate_per_codice(txt)
     out["coords"] = {k: v for k, v in per_cod.items() if k != "*"} or None

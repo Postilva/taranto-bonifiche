@@ -298,18 +298,18 @@ function mappaFabbrica(d){
   $("#scala-why").textContent = `Le aree sono ${TOTAL}, i blocchi ${S.length}, i report ${SCHEDE.length}` + (perche.length ? ": " + perche.join("; ") : "") + ".";
 })();
 
-/* ---------- soldi: i totali di MONEY ---------- */
-// si sommano solo stanziato e pagato ("Soldi disponibili" e "Già spesi"); le cifre "secondo Ilva" (tabella di luglio 2022) a parte, perché nessun ente le ha controllate.
-// Ogni scheda ha la sua voce in MONEY (A5+A6 e le parti del Tamburi una sola), quindi nessun fondo è contato due volte.
+/* ---------- soldi: i totali delle cifre dei report ---------- */
+// si sommano solo "Soldi disponibili" e "Già spesi"; le cifre dette da Ilva (chi lo dice: Ilva) a parte, perché nessun ente le ha controllate.
+// Ogni scheda ha le sue cifre (A5+A6 e le parti del Tamburi una sola), quindi nessun fondo è contato due volte.
 (function(){
-  const righe = SCHEDE.flatMap(s => (MONEY[s.id] || []).map(([k, v, t]) => ({s, k: k.split(" · ")[0], v, ilva: /secondo Ilva/.test(t)})));
+  const righe = SCHEDE.flatMap(s => s.soldi.map(r => ({s, k: r.k, v: r.v, ilva: /^Ilva\b/.test(r.chi)})));
   const conValore = r => r.filter(x => x.v != null);
   const tot = (k, ilva) => { const r = conValore(righe.filter(x => x.k === k && x.ilva === ilva)); return {v: r.reduce((a, x) => a + x.v, 0), n: new Set(r.map(x => x.s.id)).size}; };
   const casella = (k, ilva) => { const t = tot(k, ilva), [n, u] = fmtSoldi(t.v); return `<div><small>${NOMI_SOLDI[k]}</small><b>${n}</b><span class="small muted">${u}</span><span class="small">in ${t.n} report</span></div>`; };
-  const blocco = (titolo, sotto, ilva) => `<div><h4>${titolo}<small>${sotto}</small></h4><div class="soldi" style="--n:2">${casella("Stanziato", ilva)}${casella("Pagato", ilva)}</div></div>`;
-  const conCifre = new Set(conValore(righe.filter(x => x.k !== "Stimato")).map(x => x.s.id));
+  const blocco = (titolo, sotto, ilva) => `<div><h4>${titolo}<small>${sotto}</small></h4><div class="soldi" style="--n:2">${casella("disponibili", ilva)}${casella("spesi", ilva)}</div></div>`;
+  const conCifre = new Set(conValore(righe.filter(x => x.k !== "costo")).map(x => x.s.id));
   const senza = SCHEDE.filter(s => !conCifre.has(s.id));
-  const stimati = new Set(conValore(righe.filter(x => x.k === "Stimato")).map(x => x.s.id)).size;
+  const stimati = new Set(conValore(righe.filter(x => x.k === "costo")).map(x => x.s.id)).size;
   $("#soldi-tot").innerHTML = `<h3>Soldi ${soldiInfo("soldi-info")}</h3>${soldiInfoBox("soldi-info")}
     <p class="chart-intro">Quanti soldi sono disponibili e quanti sono già stati spesi, sommando le cifre dei report (somme fatte da noi). Le cifre di Ilva sono a parte: le ha dichiarate Ilva e nessun ente pubblico le ha controllate.</p>
     <div class="tot">${blocco("Fondi pubblici", "A date diverse: ogni report dice quando e da dove vengono", false)}${blocco("Secondo Ilva", "Tabella di Ilva in amministrazione straordinaria, luglio 2022", true)}</div>

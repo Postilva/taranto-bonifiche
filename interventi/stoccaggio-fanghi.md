@@ -93,6 +93,10 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 - **Verifica sul catasto** (23 ottobre 2026): il punto del piano cade in una particella con il numero 917, che il piano non nomina; accanto ci sono le particelle 51 e 192, mentre la 50 e la 424 non compaiono sulla mappa di oggi, forse perché sono state divise e hanno cambiato numero. Per questo il pallino resta sul punto del piano [22].
 
 ## Soldi
+- [costo] — · nessun costo stimato nelle fonti
+- [disponibili] 75.030.000 € · Ilva · luglio 2022 [7] per i fanghi; per le aree vicine altri 12.900.000 €
+- [spesi] 7.890.000 € · Ilva · luglio 2022 [7]
+
 - **Speso o impegnato fino al 31 ottobre 2018** per la rimozione dei fanghi della zona Ilva: 8,37 milioni € [16].
 - **Al 12 luglio 2022**, secondo Ilva: 75,03 milioni € stanziati per l'intervento sui fanghi (rimozione, analisi, bonifica del suolo superficiale e ripristino), 69,18 milioni impegnati in ordini, 7,89 milioni pagati, 9,19 milioni fatturati [7]. Per le aree vicine: 12,90 milioni € stanziati [7].
 - **Garanzia per il deposito**: Ilva ha dato alla Provincia una polizza fideiussoria di Generali Italia (n. 430358557, emessa il 29 marzo 2023) [15]. La Provincia **non ha accettato** le garanzie per il deposito (determina n. 1090/2023 e nota prot. 29377/2023) [21]. Importo e motivi: non verificati.

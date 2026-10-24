@@ -73,6 +73,10 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 - **Posizione sulla mappa**: centro della particella indicata dalla Regione [3] — Comune di Taranto, foglio 203, particella 502 — calcolato da noi sulla cartografia catastale dell'Agenzia delle Entrate [15]: 689296,5 m E – 4485280,6 m N (UTM fuso 33 Nord, ETRS89), cioè circa 40,4967° N – 17,2338° E. Nota: la particella è il campo sportivo, circa 20.100 m²; l'area delle analisi del Commissario è più grande, circa 70.000 m².
 
 ## Soldi
+- [costo] non c'è · il costo di una bonifica non esiste ancora: prima servono analisi e analisi di rischio [3]
+- [disponibili] 86.876,20 € · Decreto del Commissario · ottobre 2025 [2] per le analisi
+- [spesi] non si sa · al 2 ottobre 2026 né l'anticipo né il saldo risultano pagati con un decreto pubblicato [7][8]
+
 - **Soldi per le analisi:** 86.876,20 € IVA compresa, concessi e impegnati il 3 ottobre 2025 [2].
 - **Come verranno pagati:** il 40% come anticipo, dopo la firma del contratto del Comune con la ditta e l'inizio vero del servizio; il 60% a saldo, dopo la rendicontazione [2]. Negli elenchi dei decreti del Commissario non c'è nessun pagamento al Comune per questo intervento: dopo il decreto n. 23 del 3 ottobre 2025 non ci sono altri decreti sul quartiere Tamburi fino al n. 54 del 2 ottobre 2026, a parte quello sulla ventilazione delle scuole [7][8]. Quindi, al 2 ottobre 2026, **né l'anticipo né il saldo risultano pagati** con un decreto pubblicato.
 - **Recinzione del campo (2024):** 55.000 € IVA compresa, pagati dal Comune alla ditta A.D. S.r.l.s. con fondi del Lotto 1 (stesso CUP) [14].

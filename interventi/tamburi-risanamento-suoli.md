@@ -55,6 +55,10 @@ Per ogni area la Regione indica il punto centrale ("centroide del poligono"), ne
 - **Superfici:** in tutto 1.056.584 m² (somma nostra delle cinque righe) [1].
 
 ## Soldi
+- [costo] — · nessun costo stimato nelle fonti
+- [disponibili] — · nessuna cifra oltre al contributo del Ministero delle Infrastrutture
+- [spesi] 1.504.034,76 € · Ministero delle Infrastrutture · settembre 2018 [3] versati al Comune il 28/09/2018 per la bonifica dei suoli dei sottoprogetti 1–3
+
 - **1.504.034,76 €** versati dal Ministero delle Infrastrutture al Comune il 28 settembre 2018, per le aree dei sottoprogetti 1, 2 e 3 [3].
 - Non sappiamo quanto sia costata la bonifica di SP4 né il costo totale del programma. Non verificato.
 

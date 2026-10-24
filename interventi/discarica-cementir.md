@@ -97,6 +97,10 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 **Cosa sosteneva Ilva:** che la messa in sicurezza era "sostanzialmente conclusa" e che banche e assicurazioni non danno garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
 ## Soldi
+- [costo] — · nessun costo stimato nelle fonti
+- [disponibili] 16.750.000 € · Ilva · luglio 2022 [15] fondi previsti; impegnati 17.370.000 €
+- [spesi] 5.400.000 € · Ilva · luglio 2022 [15]
+
 - **Speso o impegnato al 31 dicembre 2018** (secondo Ilva): 494.000 € (285.000 € fino a ottobre 2018 e 209.000 € dopo) [23].
 - **Fino a luglio 2022** (secondo Ilva): fondi previsti 16,75 milioni €; impegnati 17,37 milioni; pagati 5,40 milioni; fatturati 6,47 milioni [15]. Sono dati di Ilva, non verificati da un ente pubblico.
 - **Costo finale dei lavori e da dove vengono i soldi:** non verificato.

@@ -56,7 +56,12 @@ Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano
 ## Cosa è stato fatto
 (dire chiaramente se è "bonificato" o solo "messo in sicurezza")
 ## Soldi
-(promessi / spesi, se si trovano)
+(solo se ci sono cifre; il blocco va sul sito, il resto è il racconto)
+- [costo] 29.812.351,53 € · Ministero dell'Ambiente · dicembre 2025 [2] costo stimato del progetto approvato
+- [disponibili] 18.400.000 € · Ilva · luglio 2022 [8] "allocati"
+- [spesi] non si sa · le relazioni di Ilva dopo il 2018 non danno cifre
+
+(promessi / spesi, con le fonti)
 ## Date principali
 ## Fonti
 [1] Ente, titolo, data, link — copia in fonti/<file>
@@ -70,6 +75,8 @@ Ogni frase della scheda finisce con il numero della sua fonte, per esempio [1].
 **"Cosa non sappiamo"** (deciso il 23/10/2026): ogni punto comincia con un'etichetta, `[blocca]` (ferma la bonifica o la messa in sicurezza), `[altra]` (altra domanda aperta) o `[fonti]` (fonti che si contraddicono, numeri o date che non tornano, cose da non confondere), seguita dalla domanda in grassetto. Sul sito vanno in "Cosa blocca la bonifica", "Altre domande" e nel riquadro "Le fonti non concordano". Le frasi con "non verificato", giornali o bozze FOIA restano nella scheda ma non vanno sul sito: scriverle come frasi a parte. `costruisci.py` si ferma se un punto non ha l'etichetta. **Quando una risposta arriva**, il punto esce da "Cosa non sappiamo" e il dato entra nel racconto con la sua fonte.
 
 **"Divieti e avvisi"** (deciso il 23/10/2026): ordinanze, decreti, note di ASL o di altri enti che dicono a chi vive o passa lì cosa non si può fare (entrare, coltivare, raccogliere cozze...). Ogni atto comincia con un'etichetta: `[in vigore]`, `[non si sa]` (citato da una fonte ufficiale ma senza numero o data, o non sappiamo se vale ancora), `[scaduto]` o `[revocato]`, sempre con la data. Gli atti scaduti e revocati restano, con il loro stato. Dove non c'è nessun atto la sezione non si scrive (niente "nessun divieto trovato"). `costruisci.py` si ferma se un punto non ha l'etichetta; le frasi non verificate o di giornali restano nella scheda ma non vanno sul sito.
+
+**Il blocco dei soldi** (deciso il 24/10/2026): in cima a "## Soldi", una riga per casella del riquadro "Soldi" del report: `[costo]` (quanto costerebbe), `[disponibili]` (stanziati, assegnati, allocati, impegnati: la parola della fonte si scrive nella nota) e `[spesi]`. Se servono due righe dello stesso tipo, chi riceve i soldi va nell'etichetta (`[disponibili · Comune]`). Una cifra si scrive in euro, eventualmente con "circa" o "meno di", seguita da `· chi lo dice · quando [n]` e da una nota breve; senza cifra si scrive il testo da mostrare al posto del numero (`non si sa`, `—`, `vedi nota`) e, dopo ` · `, il perché. Sul sito sotto ogni cifra compaiono chi la dice e quando; le cifre di più di due anni fa sono in grigio con "dato vecchio". In home le cifre con `· Ilva ·` si sommano a parte. `costruisci.py` si ferma se una riga non ha l'etichetta, se una cifra non ha chi, quando e fonte, se la fonte non è nell'elenco o se la riga dice "non verificato". Nella nota e nel racconto le cifre devono coincidere con quelle del blocco.
 
 ## Come lavorare con i PDF
 Molti PDF ufficiali sono scansioni: `pdftotext` non estrae testo, quindi vanno letti come immagini, per gruppi di pagine.
