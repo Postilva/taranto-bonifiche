@@ -58,7 +58,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 - Nella scheda serve un modo per dirlo: *da decidere* fra un segno sulla riga `[spesi]` (es. `[spesi, stessa voce]`) e una riga `[confronto] sì/no: motivo` (raccomandata, perché obbliga a scrivere il motivo).
 - Verifica: Area verde nord (barra bassissima), Due Mari (oltre il 100%), gara 2018 (niente barra), Cimitero.
 
-### [ ] 5. Le stranezze dette chiaramente
+### [x] 5. Le stranezze dette chiaramente (fatto il 24/10/2026: righe `[stranezza · tipo]` nel blocco Soldi, tipo "più del previsto" invece di "speso più del previsto" perché vale anche per impegni e divisioni; 10 righe in 6 schede: Due Mari, Cementir, gara 2018, PIP Statte, Cimitero, Scuole Tamburi; in PIP Statte nuova fonte [27], decreto n. 1/2025)
 - Etichette nel riquadro "Soldi", con una frase e la fonte:
   - **speso più del previsto** (Due Mari: 5,39 pagati su 5,05 previsti, ma 5,95 impegnati);
   - **soldi usati per altro** (Mar Piccolo: i 21 milioni della Regione per togliere i fanghi con PCB, nessuna voce toglie fanghi, decreto n. 56/2026);

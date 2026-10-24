@@ -60,6 +60,8 @@ Nelle scuole Deledda e De Carolis, e in altre tre scuole del quartiere (Vico, Ga
 - [costo] 165.000 € · Commissario · dicembre 2018 [2] costo di analisi e analisi di rischio per le tre scuole
 - [disponibili] vedi nota · il fondo di 8.000.000 € del Ministero copre tutti i suoli del quartiere Tamburi, non solo queste scuole [2]
 - [spesi] 75.751,33 € · Commissione parlamentare · maggio 2022 [9] dati del Commissario; costo finale non si sa
+- [stranezza · più report] Il fondo di 8 milioni € del Ministero dell'Ambiente (2012) è per tutti i suoli del quartiere Tamburi: con gli stessi soldi sono pagate in parte anche le analisi del cimitero San Brunone [2]
+- [stranezza · fonti non concordano] Nel 2018 le analisi per le tre scuole costavano 165.000 € [2]; nel 2022 i dati del Commissario indicano un importo di 106.240,30 € [9]. Nessuna fonte spiega la differenza [2][9]
 
 - **Fondo di partenza:** 8.000.000 € del Ministero dell'Ambiente (decreto direttoriale n. 398 del 17/12/2012; nella tabella della Commissione parlamentare la data è scritta per errore "17/12/2021" [9]) per "messa in sicurezza e bonifica dei suoli contaminati del quartiere Tamburi" [2]. A dicembre 2018 ne erano stati trasferiti 6.000.000 € al conto del Commissario [2]. Dalla stessa fonte sono finanziate, in parte, anche le analisi del cimitero San Brunone [2].
 - **Costo di analisi e analisi di rischio per le tre scuole:** 165.000 € [2] (pag. 29).

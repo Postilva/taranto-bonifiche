@@ -103,6 +103,7 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 - [disponibili] 16.750.000 € · Ilva · luglio 2022 [15] fondi previsti; impegnati 17.370.000 €
 - [spesi] 5.400.000 € · Ilva · luglio 2022 [15]
 - [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [15]
+- [stranezza · più del previsto] A luglio 2022 gli impegni indicati da Ilva, 17,37 milioni €, superavano già i 16,75 milioni di fondi previsti; i pagamenti, 5,40 milioni, erano ancora sotto [15]
 
 - **Speso o impegnato al 31 dicembre 2018** (secondo Ilva): 494.000 € (285.000 € fino a ottobre 2018 e 209.000 € dopo) [23].
 - **Fino a luglio 2022** (secondo Ilva): fondi previsti 16,75 milioni €; impegnati 17,37 milioni; pagati 5,40 milioni; fatturati 6,47 milioni [15]. Sono dati di Ilva, non verificati da un ente pubblico.

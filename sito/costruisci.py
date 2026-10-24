@@ -14,6 +14,8 @@ Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
   sui soldi del riquadro e della mappa: senza fonte la costruzione si ferma, se manca in una scheda con cifre c'è un avviso;
 - la riga "- [confronto] sì|no · motivo" del blocco dice se "Già spesi" e "Soldi disponibili" si possono confrontare:
   con "sì" (due cifre della stessa fonte o della stessa data) il riquadro mostra la barra, con "no" il motivo;
+- le righe "- [stranezza · tipo] frase [n]" del blocco sono le stranezze dei soldi (più del previsto, usati per altro,
+  più report, fonti non concordano): senza tipo o senza fonte la costruzione si ferma;
 - le bozze FOIA non vanno sul sito.
 Il testo non viene riscritto: viene solo convertito da Markdown a HTML.
 """
@@ -254,6 +256,24 @@ def confronto(righe, soldi, nome):
     return c
 
 
+TIPI_STRANEZZA = ("più del previsto", "usati per altro", "più report", "fonti non concordano")
+
+
+def stranezza(t, nome):
+    """Una riga "[stranezza · tipo] frase [n]" nel blocco dei soldi (vedi LEGGIMI.md): una cosa strana nei soldi,
+    detta in una frase con la sua fonte. Restituisce {t: tipo, h: frase HTML, src}."""
+    m = re.match(r"\[stranezza · (" + "|".join(TIPI_STRANEZZA) + r")\]\s+(\S.*)", t)
+    if not m:
+        sys.exit(f"{nome}: in \"Soldi\" la riga deve essere \"[stranezza · tipo] frase [n]\" con tipo "
+                 + ", ".join(f"\"{x}\"" for x in TIPI_STRANEZZA) + f": {t[:60]}")
+    if FILTRO.search(t):
+        sys.exit(f"{nome}: in \"Soldi\" la riga [stranezza] va sul sito e non può dire \"non verificato\" o citare giornali")
+    frase = m.group(2).strip()
+    if not re.search(r"\[\d+\]$", frase):
+        sys.exit(f"{nome}: in \"Soldi\" la riga [stranezza] deve finire con la sua fonte: {t[:60]}")
+    return {"t": m.group(1), "h": inline(re.sub(r"\s+(?=\[\d+\])", "", frase)), "src": "".join(re.findall(r"\[\d+\]", frase))}
+
+
 # ---------- coordinate UTM fuso 33 Nord → gradi (WGS84) ----------
 def utm33_to_ll(E, N):
     a, f, k0 = 6378137.0, 1 / 298.257223563, 0.9996
@@ -488,7 +508,7 @@ def leggi_scheda(path):
         elif cur:
             cur[1].append(ln)
     out = {"id": path.stem, "codes": codes, "code": codes[0], "title": title, "updated": upd, "warnNote": warn,
-           "sections": [], "nonsappiamo": [], "divieti": [], "soldi": [], "soldiFrase": "", "confronto": None, "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
+           "sections": [], "nonsappiamo": [], "divieti": [], "soldi": [], "soldiFrase": "", "confronto": None, "stranezze": [], "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
     for t, body in secs:
         tl = t.lower()
         if tl.startswith("cosa è stato fatto"):
@@ -540,7 +560,9 @@ def leggi_scheda(path):
                 body = body[:k] + body[k + 1:]
             blocco = [ln for ln in body if re.match(r"- \[[^\]]+\](?!\()", ln)]   # non i link [testo](url)
             conf = [ln for ln in blocco if ln.startswith("- [confronto")]
-            out["soldi"] = [riga_soldi(ln[2:].strip(), path.name) for ln in blocco if ln not in conf]
+            strane = [ln for ln in blocco if ln.startswith("- [stranezza")]
+            out["stranezze"] = [stranezza(ln[2:].strip(), path.name) for ln in strane]
+            out["soldi"] = [riga_soldi(ln[2:].strip(), path.name) for ln in blocco if ln not in conf and ln not in strane]
             out["confronto"] = confronto(conf, out["soldi"], path.name)
             body = [ln for ln in body if ln not in blocco]
         if tl.startswith("date principali"):
@@ -571,7 +593,7 @@ def leggi_scheda(path):
     if len(out["punto"]) != 3:   # ogni scheda racconta a che punto è in tre blocchi (vedi LEGGIMI.md)
         sys.exit(f"{path.name}: manca \"## A che punto è\" con i blocchi ### Finora, ### Cosa manca, ### Adesso")
     numeri = {f["n"] for f in out["fonti"]}
-    for src in [r["src"] for r in out["soldi"]] + re.findall(r"\[\d+\]", out["soldiFrase"]) + [(out["confronto"] or {}).get("src", "")]:   # cifre e frase rimandano a una fonte della scheda
+    for src in [r["src"] for r in out["soldi"] + out["stranezze"]] + re.findall(r"\[\d+\]", out["soldiFrase"]) + [(out["confronto"] or {}).get("src", "")]:   # cifre, frase e stranezze rimandano a una fonte della scheda
         for n in map(int, re.findall(r"\d+", src)):
             if n not in numeri:
                 sys.exit(f"{path.name}: in \"Soldi\" la fonte [{n}] non è nell'elenco delle fonti")
