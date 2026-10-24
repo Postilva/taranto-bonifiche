@@ -54,6 +54,7 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 - [costo] — · nessun intervento previsto
 - [disponibili] circa 10.000 € · Ilva · luglio 2022 [4] per la gestione generale
 - [spesi] 0 € · Ilva · luglio 2022 [4] nessuna spesa impegnata o pagata
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [4]
 
 - Nel luglio 2022, secondo Ilva: **0,01 milioni €** (10.000 €) assegnati per la gestione generale, nessuna spesa impegnata o pagata [4].
 

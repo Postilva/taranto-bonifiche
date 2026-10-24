@@ -73,6 +73,7 @@ Valori confrontati con i limiti per le aree verdi e residenziali, in mg/kg [4][7
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 18.400.000 € · Ilva · luglio 2022 [2] "allocati" per analisi, controllo dell'acqua e bonifica del soprassuolo; di questi, circa 800.000 € impegnati in ordini
 - [spesi] circa 290.000 € · Ilva · luglio 2022 [2] dopo luglio 2022 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [2]
 
 - A luglio 2022 Ilva indicava per quest'area **18,40 milioni € "allocati"** (analisi, controllo dell'acqua e "bonifica soprassuolo e ripristino delle condizioni ambientali"), di cui 0,80 milioni impegnati in ordini, 0,34 fatturati e **0,29 milioni pagati** [2].
 - Spese successive al 2022: **non verificato** [1].

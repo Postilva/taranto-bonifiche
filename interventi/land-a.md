@@ -80,6 +80,7 @@ Tutti i valori qui sotto vengono dalla validazione di ARPA [12]. I limiti di leg
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 2.160.000 € · Ilva · luglio 2022 [5] stanziati; circa 420.000 € impegnati in ordini
 - [spesi] circa 20.000 € · Ilva · luglio 2022 [5] dopo luglio 2022 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [5]
 
 - Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land A erano stati **stanziati 2,16 milioni €** (analisi di terreno e acqua, "bonifica soprassuolo e ripristino delle condizioni ambientali"), di cui **0,42 milioni impegnati** in ordini e **0,02 milioni pagati** [5]. Sono cifre di Ilva, non verificate da un ente pubblico.
 - Le analisi di controllo di ARPA sono pagate da Ilva, in base a una convenzione [12].

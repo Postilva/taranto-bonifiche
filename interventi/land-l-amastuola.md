@@ -58,6 +58,7 @@ Negli anni '80 nella cava c'era una discarica [2][3][4]. La Regione ha chiesto d
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 3.350.000 € · Ilva · luglio 2022 [3] assegnati; il recupero della cava non è compreso [1]
 - [spesi] meno di 10.000 € · Ilva · luglio 2022 [3]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [3]
 
 - Nel luglio 2022, secondo Ilva: **3,35 milioni €** assegnati all'area; meno di 0,01 milioni impegnati e pagati [3].
 - Per la recinzione, nel 2023 le ditte hanno chiesto circa 160.000 € contro i 100.000 previsti [8].

@@ -90,6 +90,7 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 5.050.000 € · Ilva · luglio 2022 [8] fondi previsti; impegnati 5.950.000 €
 - [spesi] 5.390.000 € · Ilva · luglio 2022 [8]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [8]
 
 - **Speso o impegnato fino al 31 ottobre 2018:** 767.000 € (secondo Ilva) [11].
 - **Fino a luglio 2022 (secondo Ilva):** fondi previsti 5,05 milioni €; impegnati 5,95 milioni; pagati 5,39 milioni [8]. Sono dati di Ilva, non verificati da un ente pubblico.
