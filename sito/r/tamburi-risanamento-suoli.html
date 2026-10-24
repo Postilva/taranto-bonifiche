@@ -115,8 +115,10 @@ function richiesteHtml(s){
 function infoHtml(s){
   const money = MONEY[s.id], rows = [];
   if (s.chi.length) rows.push(["Enti coinvolti", `<div class="chi">${s.chi.map(c => `<span>${esc(c)}</span>`).join("")}</div>`]);
-  rows.push(["Soldi", money
-    ? `<div class="soldi" style="--n:${money.length}">${money.map(([k,v,t,lbl]) => `<div title="${esc(t)}"><small>${k}</small>${v==null ? `<b class="na">${esc(lbl)}</b>` : `<b>${lbl || fmtMln(v)}</b><span class="small muted">mln €</span>`}</div>`).join("")}<p class="why">${money.map(m => esc(m[2])).join(" · ")}</p></div>`
+  const cifra = (v, lbl = "") => { let [n, u] = fmtSoldi(v); const m = lbl.match(/^(.*?)\s*([\d.,]+)$/); if (m) [lbl, n] = [m[1], m[2]];
+    return `<b>${lbl ? `<span class="pre">${esc(lbl)}</span>` : ""}${n}</b><span class="small muted">${u}</span>`; };
+  rows.push([money ? `Soldi ${soldiInfo("soldi-info")}` : "Soldi", money
+    ? `${soldiInfoBox("soldi-info")}<div class="soldi" style="--n:${money.length}">${money.map(([k,v,t,lbl]) => `<div title="${esc(t)}"><small>${nomeSoldi(k)}</small>${v==null ? `<b class="na">${esc(lbl)}</b>` : cifra(v, lbl)}</div>`).join("")}<p class="why">${money.map(m => esc(m[2])).join(" · ")}</p></div>`
     : `<span class="muted small">${s.sections.some(x => /^soldi/i.test(x.title)) ? `I dettagli sono più sotto, in <a href="#" data-open="soldi">Soldi</a>.` : "Nessuna cifra verificata nelle fonti."}</span>`]);
   rows.push(["Aggiornata al", `<span>${esc(s.updated)}</span>`]);
   return `<section class="card kv">${rows.map(([k,v]) => `<div><span class="k">${k}</span>${v}</div>`).join("")}</section>`;

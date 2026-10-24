@@ -24,7 +24,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 
 ## Prima parte: come si leggono le cifre (veloce)
 
-### [ ] 1. Parole da lettore e cifre in euro
+### [x] 1. Parole da lettore e cifre in euro (fatto il 24/10/2026: le cifre di Ilva, date solo in milioni con due decimali, si scrivono "circa 90.000 €" e "meno di 10.000 €")
 - Le tre caselle diventano **"Quanto costerebbe"** (oggi Stimato), **"Soldi disponibili"** (Stanziato), **"Già spesi"** (Pagato), nel report e in home.
 - Una "i" accanto al titolo "Soldi" che al tocco (non solo al passaggio del mouse) spiega le tre parole in una frase ciascuna, e che "disponibili" comprende stanziati, assegnati, allocati e impegnati.
 - Cifre sotto il milione in euro interi (75.751 €), sopra in milioni con due decimali (18,40 mln €). Niente più "< 0,01".
