@@ -112,6 +112,8 @@ function richiesteHtml(s){
   return acc("Cosa abbiamo chiesto", body, {id: "chiesto", sub});
 }
 // chi se ne occupa, soldi, aggiornamento
+const STRANEZZA = {"più del previsto": "Più del previsto", "usati per altro": "Soldi usati per altro",
+  "più report": "Gli stessi soldi in più report", "fonti non concordano": "Le fonti non concordano"};
 function infoHtml(s){
   const money = s.soldi, rows = [];
   if (s.chi.length) rows.push(["Enti coinvolti", `<div class="chi">${s.chi.map(c => `<span>${esc(c)}</span>`).join("")}</div>`]);
@@ -133,8 +135,10 @@ function infoHtml(s){
       + `<span class="bar" role="img" aria-label="Già spesi: ${pct(cf)} dei soldi disponibili">${cf.pct > 0 ? `<span style="width:${Math.min(cf.pct, 100)}%"></span>` : ""}${cf.pct > 100 ? `<i style="left:${100 / cf.pct * 100}%"></i>` : ""}</span>`
       + `<small>${cf.pct > 100 ? "La barra intera sono i soldi già spesi; la tacca segna i soldi disponibili. " : ""}Confronto possibile: ${cite(cf.motivo, s.id)}</small></div>`
     : `<p class="spesa-no"><b>Niente confronto fra soldi disponibili e già spesi:</b> ${cite(cf.motivo, s.id)}</p>`;
+  // le stranezze dei soldi ([stranezza · tipo] nella scheda): un'etichetta e una frase con la fonte
+  const strane = s.stranezze.length ? `<ul class="strane">${s.stranezze.map(x => `<li><span class="st">${STRANEZZA[x.t]}</span>${cite(x.h, s.id)}</li>`).join("")}</ul>` : "";
   rows.push([money.length ? `Soldi ${soldiInfo("soldi-info")}` : "Soldi", money.length
-    ? `${soldiInfoBox("soldi-info")}${s.soldiFrase ? `<p class="soldi-frase">${cite(esc(s.soldiFrase), s.id)}</p>` : ""}<div class="soldi" style="--n:${money.length}">${money.map(casella).join("")}${barra}${note.length ? `<ul class="why">${note.map(r => `<li><b>${esc(nomeSoldi(r))}</b>: ${cite(r.note, s.id)}</li>`).join("")}</ul>` : ""}</div>`
+    ? `${soldiInfoBox("soldi-info")}${s.soldiFrase ? `<p class="soldi-frase">${cite(esc(s.soldiFrase), s.id)}</p>` : ""}<div class="soldi" style="--n:${money.length}">${money.map(casella).join("")}${barra}${strane}${note.length ? `<ul class="why">${note.map(r => `<li><b>${esc(nomeSoldi(r))}</b>: ${cite(r.note, s.id)}</li>`).join("")}</ul>` : ""}</div>`
     : `<span class="muted small">${s.sections.some(x => /^soldi/i.test(x.title)) ? `I dettagli sono più sotto, in <a href="#" data-open="soldi">Soldi</a>.` : "Nessuna cifra verificata nelle fonti."}</span>`]);
   rows.push(["Aggiornata al", `<span>${esc(s.updated)}</span>`]);
   return `<section class="card kv">${rows.map(([k,v]) => `<div><span class="k">${k}</span>${v}</div>`).join("")}</section>`;

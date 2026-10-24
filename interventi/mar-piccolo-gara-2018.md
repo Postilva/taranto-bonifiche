@@ -100,6 +100,9 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 - [disponibili] 55.000.000 € · OpenCoesione · giugno 2026 [9] fondi di tutto il programma "sedimenti del Mar Piccolo", non solo della gara
 - [spesi] 5.585.794,01 € · OpenCoesione · giugno 2026 [9] pagati per altre attività nel Mar Piccolo, non per la gara
 - [confronto] no · i 55 milioni sono di tutto il programma per il Mar Piccolo e i 5,59 milioni sono stati pagati per altre attività, non per la gara [9]
+- [stranezza · usati per altro] La delibera CIPE 87/2012 dava i 21 milioni della Regione per togliere i fanghi con PCB vicino agli allevamenti di cozze; secondo il decreto del Commissario n. 56 del 2026 sono stati usati per i rifiuti sul fondale, il mercato ittico affondato, studi e analisi, e nessuna voce è una rimozione dei fanghi [27]
+- [stranezza · più report] Con i 55 milioni del programma (stesso codice CUP) sono stati pagati anche altri lavori nel Mar Piccolo, come la rimozione del mercato ittico galleggiante affondato [1][7][9]. I 21 milioni della Regione fanno parte dei 75,17 milioni della delibera CIPE 87/2012, che paga anche la zona PIP di Statte (37 milioni) e il dragaggio al molo polisettoriale [23]
+- [stranezza · fonti non concordano] Dei 21 milioni della Regione, le relazioni del Commissario dicono 17,85 milioni versati [6][7], un decreto del 2025 quasi tutti [23], OpenCoesione 0 € pagati [10]. Le voci del decreto n. 56 del 2026 sommano 21,24 milioni, non 21 (calcolo nostro) [27]
 
 - **Valore della gara:** 32.276.250 € IVA esclusa [2]; con l'IVA sono circa 39,4 milioni € (calcolo mio: 32.276.250 × 1,22).
 - **Soldi per tutto il programma "sedimenti del Mar Piccolo"** (CUP J56J14000460001): **55 milioni €** [6][9]:

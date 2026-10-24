@@ -86,6 +86,7 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 - [costo] 17.500.000 € · Commissario · maggio 2026 [1] "attualmente stimato", in attesa del progetto aggiornato
 - [disponibili] 9.377.112,58 € · Decreto del Commissario · aprile 2026 [3] 6.175.862,58 € del Ministero dell'Ambiente, già versati al Commissario, e 3.201.250 € dal Fondo sviluppo e coesione 2014-2020
 - [spesi] non si sa · l'importo della contabilità finale dei lavori fatti fino al 2020 non è pubblicato [3]
+- [stranezza · fonti non concordano] I soldi del Fondo sviluppo e coesione sono 3.250.000 € per OpenCoesione e per il Protocollo d'intesa del 2018 [4][19], 3.201.250 € per il decreto del Commissario del 2026 [3]
 
 - **Costo stimato oggi:** 17,5 milioni € ("attualmente stimato"), in attesa del progetto aggiornato [1].
 - **Soldi davvero disponibili (aprile 2026):** 9.377.112,58 € [3]:
