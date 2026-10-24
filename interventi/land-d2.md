@@ -70,6 +70,8 @@ Le analisi hanno trovato nel terreno idrocarburi e arsenico oltre i limiti previ
 - Nell'archivio del Ministero, al 13 ottobre 2026, non risultano altri decreti di riduzione del SIN di Taranto dopo quello di dicembre 2024.
 
 ## Soldi
+**Ilva ha messo da parte circa 100.000 € per quest'area e fino a luglio 2022 ne aveva spesi circa la metà (calcolo nostro). La bonifica non è servita, quindi non ci sono spese di bonifica.** [2][12][28]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] circa 100.000 € · Ilva · luglio 2022 [28] stanziati
 - [spesi] circa 50.000 € · Ilva · luglio 2022 [28]

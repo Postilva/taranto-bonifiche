@@ -75,6 +75,8 @@ Tutti i valori qui sotto vengono dalla validazione di ARPA [12]. I limiti di leg
 **No.** Le particelle di Land A non sono tra le aree tolte dal SIN (il "Sito di interesse nazionale" da bonificare) con il decreto del Ministero n. 249 dell'11 dicembre 2024 [13].
 
 ## Soldi
+**Ilva ha messo da parte 2,16 milioni € per quest'area; fino a luglio 2022 ne aveva spesi circa 20.000 €, circa l'1% (calcolo nostro). Quanto ha speso dopo non si sa.** [5]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 2.160.000 € · Ilva · luglio 2022 [5] stanziati; circa 420.000 € impegnati in ordini
 - [spesi] circa 20.000 € · Ilva · luglio 2022 [5] dopo luglio 2022 non si sa

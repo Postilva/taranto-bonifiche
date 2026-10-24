@@ -81,6 +81,8 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 - **Coordinate** indicate dalla Regione: 688171,626 m E – 4484723,909 m N, nel sistema UTM-WGS84 fuso 33 Nord [17]; per la Regione è il punto centrale ("centroide") del poligono che delimita il sito, che misura 188.867 m², cioè tutto il cimitero e non solo la parte contaminata [17]. In gradi sono circa **40,492° N – 17,220° E** (conversione nostra).
 
 ## Soldi
+**La bonifica costerebbe circa 17,5 milioni €, ma ce ne sono 9,4: ne mancano circa 8,1 (calcolo nostro). Quanto è stato speso per i lavori fermati nel 2020 non si sa.** [1][3]
+
 - [costo] 17.500.000 € · Commissario · maggio 2026 [1] "attualmente stimato", in attesa del progetto aggiornato
 - [disponibili] 9.377.112,58 € · Decreto del Commissario · aprile 2026 [3] 6.175.862,58 € del Ministero dell'Ambiente, già versati al Commissario, e 3.201.250 € dal Fondo sviluppo e coesione 2014-2020
 - [spesi] non si sa · l'importo della contabilità finale dei lavori fatti fino al 2020 non è pubblicato [3]

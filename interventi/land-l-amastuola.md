@@ -53,6 +53,8 @@ Negli anni '80 nella cava c'era una discarica [2][3][4]. La Regione ha chiesto d
 - Nel 2022 Ilva pensava anche ad altri usi: "selvicoltura" (piantare alberi) e una discarica per i propri fanghi [3]. Che fine abbiano fatto queste idee: non verificato.
 
 ## Soldi
+**Ilva ha messo da parte 3,35 milioni € per quest'area; fino a luglio 2022 ne aveva spesi meno di 10.000 €. Il recupero della cava non è compreso e il suo costo non si sa.** [1][3]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 3.350.000 € · Ilva · luglio 2022 [3] assegnati; il recupero della cava non è compreso [1]
 - [spesi] meno di 10.000 € · Ilva · luglio 2022 [3]

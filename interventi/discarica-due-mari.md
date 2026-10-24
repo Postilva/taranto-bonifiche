@@ -85,6 +85,8 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 **Cosa sosteneva Ilva:** che i lavori di messa in sicurezza erano "sostanzialmente conclusi" e che banche e assicurazioni non concedono garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
 ## Soldi
+**Secondo Ilva, a luglio 2022 per questa discarica erano previsti 5,05 milioni €, ma ne erano già stati pagati 5,39 e impegnati 5,95: più di quanto previsto. Da dove vengano i soldi le fonti non lo dicono.** [8]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 5.050.000 € · Ilva · luglio 2022 [8] fondi previsti; impegnati 5.950.000 €
 - [spesi] 5.390.000 € · Ilva · luglio 2022 [8]

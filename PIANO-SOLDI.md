@@ -45,7 +45,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 - *Da decidere:* soglia per "dato vecchio" (raccomandati 2 anni); se distinguere "impegnati" da "disponibili" con un'etichetta a parte (raccomandato di no per ora: si scrive nel testo della riga).
 - Prima una scheda (Area verde nord), mostrarla, poi tutte e 25 quelle che hanno `MONEY`; per le altre 6 si vede se `## Soldi` ha cifre.
 
-### [ ] 3. Una frase sui soldi per ogni report
+### [x] 3. Una frase sui soldi per ogni report (fatto il 24/10/2026: frase in tutte le 25 schede con cifre; caselle del riquadro allineate riga per riga)
 - La riga in grassetto all'inizio di `## Soldi` (come il riassunto di "Cosa è stato fatto") dice in parole semplici quanto c'è, quanto è stato speso, cosa non si sa. Esempio: *"Ilva ha messo da parte 18,4 milioni; fino al 2022 ne aveva spesi 0,29, meno del 2% (calcolo nostro). Dopo il 2022 non si sa."* [8]
 - Sul sito: in cima al riquadro "Soldi" del report e nella scheda rapida della mappa.
 - Ogni frase si controlla sulle fonti della scheda, non su `MONEY`. `costruisci.py` avvisa se una scheda con cifre non ha la frase.

@@ -68,6 +68,8 @@ Ai tempi dell'Italsider lungo la gravina sono stati ammucchiati circa 5 milioni 
 - La Commissione riporta che, secondo il pubblico ministero sentito in audizione, uno studio fatto fare dal gruppo Riva quando comprò l'azienda nel 1995 indicava già la gravina come un problema da bonificare [10]. Questa è la ricostruzione della Commissione, non una sentenza.
 
 ## Soldi
+**Ilva ha messo da parte 226,6 milioni €, ma fino a luglio 2022 ne aveva spesi circa 120.000 €, meno dello 0,1% (calcolo nostro). Il Comune di Statte ha avuto 300.000 € per il progetto e ne ha usati circa 192.000; per i lavori non c'è ancora un costo.** [1][7][11]
+
 - [costo] non c'è · nessun costo stimato: non c'è ancora un progetto dei lavori [1]
 - [disponibili · Ilva] 226.600.000 € · Ilva · luglio 2022 [7] "allocati"; impegnati in contratti circa 310.000 €
 - [disponibili · Comune] 300.000 € · OpenCoesione · giugno 2026 [11] finanziamento della progettazione del Comune di Statte (fondi di coesione): 191.575,16 € di costo e 108.424,84 € non usati

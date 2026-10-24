@@ -76,6 +76,8 @@ Il terreno è sotto i limiti di legge, ma l'acqua sotterranea dell'area è, per 
 - Ilva, alla fine del 2025 (prima del decreto), metteva "in agenda" un eventuale piano di bonifica dopo l'approvazione dell'analisi di rischio [13]. Non abbiamo trovato atti successivi. Non verificato.
 
 ## Soldi
+**Ilva ha messo da parte circa 390.000 € per quest'area; fino a luglio 2022 ne aveva spesi meno di 10.000 €. Quanto sono costati dopo analisi, controlli e impianto a osmosi non si sa.** [2]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] circa 390.000 € · Ilva · luglio 2022 [2] assegnati; circa 150.000 € impegnati in ordini
 - [spesi] meno di 10.000 € · Ilva · luglio 2022 [2]

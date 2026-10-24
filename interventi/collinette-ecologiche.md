@@ -99,6 +99,8 @@ Le fonti indicano quattro motivi:
 - **Catasto:** Comune di Taranto, foglio 201, particelle 6, 179, 201 e 263 (Collina 1), e foglio 202, particelle 5, 96, 145 e 146 (Collina 2 e Collina 3) [6].
 
 ## Soldi
+**Ilva ha messo da parte 37,5 milioni € per le analisi e la messa in sicurezza; fino a luglio 2022 ne aveva spesi circa 790.000 €, circa il 2% (calcolo nostro). Quanto ha speso dopo non si sa.** [1][2][4]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 37.500.000 € · Ilva · luglio 2022 [4] "allocati" per caratterizzazione e messa in sicurezza
 - [spesi] circa 790.000 € · Ilva · luglio 2022 [4] dopo luglio 2022 non si sa

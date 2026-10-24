@@ -49,6 +49,8 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 - **Quanto è grande:** **0,2 ettari** [2].
 
 ## Soldi
+**A luglio 2022 Ilva aveva assegnato a quest'area circa 10.000 € per la gestione generale e non ne aveva impegnato né pagato nulla.** [4]
+
 - [costo] — · nessun intervento previsto
 - [disponibili] circa 10.000 € · Ilva · luglio 2022 [4] per la gestione generale
 - [spesi] 0 € · Ilva · luglio 2022 [4] nessuna spesa impegnata o pagata

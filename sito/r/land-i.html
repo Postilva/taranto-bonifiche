@@ -115,14 +115,16 @@ function richiesteHtml(s){
 function infoHtml(s){
   const money = s.soldi, rows = [];
   if (s.chi.length) rows.push(["Enti coinvolti", `<div class="chi">${s.chi.map(c => `<span>${esc(c)}</span>`).join("")}</div>`]);
-  // "meno di 10.000 €" si scrive come nella scheda (nei totali conta la metà); le altre cifre con fmtSoldi
+  // "meno di 10.000 €" si scrive come nella scheda (nei totali conta la metà); le altre cifre con fmtSoldi.
+  // Ogni casella ha sempre le stesse sei righe (nome, "circa", cifra, unità, chi e quando, dato vecchio), anche vuote,
+  // così nelle caselle affiancate le righe stanno alla stessa altezza
   const cifra = r => { const [n, u] = r.pre === "meno di" ? [r.lbl, "€"] : fmtSoldi(r.v);
-    return `<b>${r.pre ? `<span class="pre">${r.pre}</span>` : ""}${n}</b><span class="small muted">${u}</span>`; };
-  const casella = r => `<div${vecchio(r) ? ' class="old"' : ""}><small>${esc(nomeSoldi(r))}</small>${r.v == null ? `<b class="na">${esc(r.lbl)}</b>` : cifra(r)}`
-    + (r.chi && r.qb ? `<span class="da">${esc(r.chi)} · <span>${esc(r.qb)}${cite(r.src, s.id)}</span></span>` : "") + (vecchio(r) ? `<span class="vecchio">dato vecchio</span>` : "") + `</div>`;
+    return `<b>${n}</b><span class="u small muted">${u}</span>`; };
+  const casella = r => `<div class="cas${vecchio(r) ? " old" : ""}"><small>${esc(nomeSoldi(r))}</small><span class="pre">${r.pre || ""}</span>${r.v == null ? `<b class="na">${esc(r.lbl)}</b><span class="u"></span>` : cifra(r)}`
+    + `<span class="da">${r.chi && r.qb ? `${esc(r.chi)} · <span>${esc(r.qb)}${cite(r.src, s.id)}</span>` : ""}</span><span class="vv">${vecchio(r) ? `<span class="vecchio">dato vecchio</span>` : ""}</span></div>`;
   const note = money.filter(r => r.note);
   rows.push([money.length ? `Soldi ${soldiInfo("soldi-info")}` : "Soldi", money.length
-    ? `${soldiInfoBox("soldi-info")}<div class="soldi" style="--n:${money.length}">${money.map(casella).join("")}${note.length ? `<ul class="why">${note.map(r => `<li><b>${esc(nomeSoldi(r))}</b>: ${cite(r.note, s.id)}</li>`).join("")}</ul>` : ""}</div>`
+    ? `${soldiInfoBox("soldi-info")}${s.soldiFrase ? `<p class="soldi-frase">${cite(esc(s.soldiFrase), s.id)}</p>` : ""}<div class="soldi" style="--n:${money.length}">${money.map(casella).join("")}${note.length ? `<ul class="why">${note.map(r => `<li><b>${esc(nomeSoldi(r))}</b>: ${cite(r.note, s.id)}</li>`).join("")}</ul>` : ""}</div>`
     : `<span class="muted small">${s.sections.some(x => /^soldi/i.test(x.title)) ? `I dettagli sono più sotto, in <a href="#" data-open="soldi">Soldi</a>.` : "Nessuna cifra verificata nelle fonti."}</span>`]);
   rows.push(["Aggiornata al", `<span>${esc(s.updated)}</span>`]);
   return `<section class="card kv">${rows.map(([k,v]) => `<div><span class="k">${k}</span>${v}</div>`).join("")}</section>`;

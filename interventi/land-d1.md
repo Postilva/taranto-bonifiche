@@ -71,6 +71,8 @@ Tutti i valori vengono dalla validazione di ARPA, che li confronta con i limiti 
 **No.** Nessuna area di Ilva compare tra quelle tolte dal SIN (il "Sito di interesse nazionale" da bonificare) con il decreto del Ministero n. 249 dell'11 dicembre 2024 [10].
 
 ## Soldi
+**Ilva ha messo da parte 2,30 milioni € per quest'area; fino a luglio 2022 ne aveva spesi circa 90.000 €, circa il 4% (calcolo nostro). Quanto costano la rimozione dei rifiuti sepolti e la messa in sicurezza della strada non si sa.** [5]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 2.300.000 € · Ilva · luglio 2022 [5] stanziati; circa 170.000 € impegnati in ordini
 - [spesi] circa 90.000 € · Ilva · luglio 2022 [5]

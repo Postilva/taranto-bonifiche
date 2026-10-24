@@ -68,6 +68,8 @@ Valori confrontati con i limiti per le aree verdi e residenziali, in mg/kg [4][7
 **No.** Il decreto n. 249 dell'11 dicembre 2024, che ha tolto alcune aree dal SIN (il "Sito di interesse nazionale" da bonificare), elenca solo aree nel Comune di Taranto: le particelle di Statte di quest'area non ci sono [13]. Il piano del 2022 di Ilva la indica dentro il SIN [2].
 
 ## Soldi
+**Ilva ha messo da parte 18,4 milioni € per quest'area; fino a luglio 2022 ne aveva spesi circa 290.000 €, meno del 2% (calcolo nostro). Quanto ha speso dopo non si sa.** [2]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 18.400.000 € · Ilva · luglio 2022 [2] "allocati" per analisi, controllo dell'acqua e bonifica del soprassuolo; di questi, circa 800.000 € impegnati in ordini
 - [spesi] circa 290.000 € · Ilva · luglio 2022 [2] dopo luglio 2022 non si sa

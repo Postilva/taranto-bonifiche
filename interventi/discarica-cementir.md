@@ -97,6 +97,8 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 **Cosa sosteneva Ilva:** che la messa in sicurezza era "sostanzialmente conclusa" e che banche e assicurazioni non danno garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
 ## Soldi
+**Secondo Ilva, a luglio 2022 per questa discarica erano previsti 16,75 milioni € e ne erano stati pagati 5,40, circa un terzo (calcolo nostro); gli impegni, 17,37 milioni, superavano già i fondi previsti. Il costo finale dei lavori non si sa.** [15]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 16.750.000 € · Ilva · luglio 2022 [15] fondi previsti; impegnati 17.370.000 €
 - [spesi] 5.400.000 € · Ilva · luglio 2022 [15]

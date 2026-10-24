@@ -96,6 +96,8 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 - **Un segnale:** su OpenCoesione i due vecchi progetti (analisi e messa in sicurezza definitiva) hanno **0 € di pagamenti** registrati [18][19], anche se già a settembre 2018 erano stati spesi 1.180.649,40 € [4]. I dati di monitoraggio, quindi, non sono aggiornati.
 
 ## Soldi
+**Il nuovo intervento costa 124,1 milioni €: 89,9 sono stati assegnati a dicembre 2025 e arrivano a rate, ma a giugno 2026 non era stato speso nulla. Dei 37 milioni dati dalla Regione nel 2012, a settembre 2018 ne erano stati spesi 1,18.** [2][4][15][17]
+
 - [costo] 124.073.987,94 € · Accordo per la Coesione · novembre 2025 [2] costo del nuovo intervento
 - [disponibili] 89.900.000 € · Delibera CIPESS 51/2025 · dicembre 2025 [15] assegnati dal Fondo sviluppo e coesione 2021-2027, a rate dal 2026 al 2033
 - [spesi] non si sa · sul nuovo intervento 0 € al 30 giugno 2026 [17]; dei 37 milioni del 2012, 1.180.649,40 € spesi al 30 settembre 2018 [4], poi non si sa
