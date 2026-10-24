@@ -269,35 +269,50 @@ const NO_STEPS = {
   "mar-piccolo-studi":"Sono studi e analisi: nessuna bonifica, nessuna messa in sicurezza.",
 };
 // soldi (milioni di euro). null = dato assente o "non verificato" nella scheda: non si disegna.
-// [tipo, valore, spiegazione, etichetta se assente o testo al posto del numero]. Il tipo può avere una precisazione dopo " · " (es. "Stanziato · Ilva").
+// [tipo, valore, spiegazione, quarto elemento]. Il tipo può avere una precisazione dopo " · " (es. "Stanziato · Ilva"); sul sito si legge con NOMI_SOLDI.
+// Quarto elemento: se il valore è null, il testo al posto del numero; se c'è un valore, "circa" quando la fonte non dà la cifra esatta (la tabella di Ilva dà solo i milioni con due decimali), oppure prima parola e numero da mostrare ("meno di 10.000": il valore resta per i totali).
 // Le cifre dichiarate da Ilva (tabella di luglio 2022) hanno "secondo Ilva" nella spiegazione: in home si sommano a parte.
 const MONEY = {
-  "gravina-leucaspide":[["Stimato",null,"Nessun costo stimato: non c'è ancora un progetto dei lavori","non c'è"],["Stanziato · Ilva",226.6,"226,6 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Stanziato · Comune",0.3,"0,30 mln €: finanziamento della progettazione del Comune di Statte (fondi di coesione)"],["Pagato",0.12,"0,12 mln € pagati secondo Ilva (luglio 2022); per i lavori nessuna cifra"]],
+  "gravina-leucaspide":[["Stimato",null,"Nessun costo stimato: non c'è ancora un progetto dei lavori","non c'è"],["Stanziato · Ilva",226.6,"226,60 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Stanziato · Comune",0.3,"300.000 €: finanziamento della progettazione del Comune di Statte (fondi di coesione)"],["Pagato",0.12,"Circa 120.000 € pagati secondo Ilva (luglio 2022); per i lavori nessuna cifra","circa"]],
   "discarica-nord-ovest":[["Stimato",29.8124,"29,81 mln € (costo stimato del progetto approvato)"],["Stanziato",null,"Non indicato: le fonti non dicono da dove vengono i soldi","non indicato"],["Pagato",null,"Non si sa: le relazioni di Ilva dopo il 2018 non danno cifre","non si sa"]],
   "stoccaggio-fanghi":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",75.03,"75,03 mln € stanziati per i fanghi secondo Ilva (luglio 2022); per le aree vicine altri 12,90 mln €"],["Pagato",7.89,"7,89 mln € pagati secondo Ilva (luglio 2022)"]],
-  "discarica-nuove-vasche":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",3.0,"3,00 mln € per la post-gestione e i controlli per 30 anni, secondo Ilva (luglio 2022)"],["Pagato",0.87,"0,87 mln € pagati secondo Ilva (luglio 2022)"]],
-  "area-verde-ovest":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",4.88,"4,88 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Pagato",0.09,"0,09 mln € pagati secondo Ilva (luglio 2022)","0,09"]],
-  "area-verde-nord":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",18.4,"18,40 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Pagato",0.29,"0,29 mln € pagati secondo Ilva (luglio 2022)"]],
-  "land-c":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",1.29,"1,29 mln € destinati a Land C secondo Ilva (luglio 2022)"],["Pagato",0.04,"0,04 mln € pagati secondo Ilva (luglio 2022)","0,04"]],
+  "discarica-nuove-vasche":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",3.0,"3,00 mln € per la post-gestione e i controlli per 30 anni, secondo Ilva (luglio 2022)"],["Pagato",0.87,"Circa 870.000 € pagati secondo Ilva (luglio 2022)","circa"]],
+  "area-verde-ovest":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",4.88,"4,88 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Pagato",0.09,"Circa 90.000 € pagati secondo Ilva (luglio 2022)","circa"]],
+  "area-verde-nord":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",18.4,"18,40 mln € \"allocati\" secondo Ilva (luglio 2022)"],["Pagato",0.29,"Circa 290.000 € pagati secondo Ilva (luglio 2022)","circa"]],
+  "land-c":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",1.29,"1,29 mln € destinati a Land C secondo Ilva (luglio 2022)"],["Pagato",0.04,"Circa 40.000 € pagati secondo Ilva (luglio 2022)","circa"]],
   "land-e":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",3.65,"3,65 mln € destinati a Land E secondo Ilva (luglio 2022)"],["Pagato",null,"Nessuna cifra indicata","nessuna cifra"]],
-  "land-l-amastuola":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",3.35,"3,35 mln € assegnati secondo Ilva (luglio 2022)"],["Pagato",0.005,"Meno di 0,01 mln € pagati secondo Ilva (luglio 2022)","< 0,01"]],
-  "collinette-ecologiche":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",37.5,"37,5 mln € \"allocati\" per caratterizzazione e messa in sicurezza secondo Ilva (luglio 2022)"],["Pagato",0.79,"0,79 mln € pagati secondo Ilva (luglio 2022); dopo il 2022 non si sa"]],
-  "pozzo-25":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",0.39,"0,39 mln € assegnati secondo Ilva (luglio 2022)"],["Pagato",0.005,"Meno di 0,01 mln € pagati secondo Ilva (luglio 2022)","< 0,01"]],
-  "land-i":[["Stimato",null,"Nessun intervento previsto","—"],["Stanziato",0.01,"0,01 mln € (10.000 €) per la gestione generale, secondo Ilva (luglio 2022)","0,01"],["Pagato",0,"Nessuna spesa impegnata o pagata, secondo Ilva (luglio 2022)","0"]],
-  "cimitero-san-brunone":[["Stimato",17.5,"17,5 mln € (\"attualmente stimato\", opuscolo maggio 2026)"],["Stanziato",9.3771,"9,38 mln € disponibili ad aprile 2026"],["Pagato",null,"Quanto è stato speso in tutto non si sa","non si sa"]],
-  "pip-statte":[["Stimato",124.074,"124,07 mln €: costo del nuovo intervento nell'Accordo per la Coesione (novembre 2025)"],["Stanziato",89.9,"89,9 mln € assegnati dal Fondo sviluppo e coesione 2021-2027 (delibera CIPESS 51/2025)"],["Pagato",null,"Quanto è stato speso in tutto non si sa (sul nuovo intervento 0 € al 30/06/2026)","non si sa"]],
-  "scuole-tamburi-aree-verdi":[["Stimato",0.165,"165.000 €: costo di analisi e analisi di rischio per le tre scuole","0,17"],["Stanziato",null,"Il fondo di 8 mln € del Ministero copre tutti i suoli del quartiere Tamburi, non solo queste scuole","vedi nota"],["Pagato",0.0758,"75.751,33 € pagati a maggio 2022; costo finale non si sa","0,08"]],
-  "atleti-azzurri-tamburi":[["Stimato",null,"Il costo di una bonifica non esiste ancora: prima servono analisi e analisi di rischio","non c'è"],["Stanziato",0.0869,"86.876,20 € dal Commissario per le analisi (3/10/2025)","0,09"],["Pagato",null,"Non si sa se anticipo o saldo siano stati pagati","non si sa"]],
-  "mar-piccolo-area-170":[["Stimato",33.5,"Circa 33,5 mln € nel documento di proposta della Regione (dicembre 2025)"],["Stanziato",null,"Nessun finanziamento approvato trovato","nessuno"],["Pagato",null,"Speso per l'Area 170 ha: non si sa","non si sa"]],
-  "land-a":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",2.16,"2,16 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.02,"0,02 mln € pagati secondo Ilva (luglio 2022); dopo il 2022 non si sa","0,02"]],
-  "land-d2":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",0.10,"0,10 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.05,"0,05 mln € pagati secondo Ilva (luglio 2022)"]],
-  "land-d1":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",2.30,"2,30 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.09,"0,09 mln € pagati secondo Ilva (luglio 2022)","0,09"]],
+  "land-l-amastuola":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",3.35,"3,35 mln € assegnati secondo Ilva (luglio 2022)"],["Pagato",0.005,"Meno di 10.000 € pagati secondo Ilva (luglio 2022)","meno di 10.000"]],
+  "collinette-ecologiche":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",37.5,"37,50 mln € \"allocati\" per caratterizzazione e messa in sicurezza secondo Ilva (luglio 2022)"],["Pagato",0.79,"Circa 790.000 € pagati secondo Ilva (luglio 2022); dopo il 2022 non si sa","circa"]],
+  "pozzo-25":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",0.39,"Circa 390.000 € assegnati secondo Ilva (luglio 2022)","circa"],["Pagato",0.005,"Meno di 10.000 € pagati secondo Ilva (luglio 2022)","meno di 10.000"]],
+  "land-i":[["Stimato",null,"Nessun intervento previsto","—"],["Stanziato",0.01,"Circa 10.000 € per la gestione generale, secondo Ilva (luglio 2022)","circa"],["Pagato",0,"Nessuna spesa impegnata o pagata, secondo Ilva (luglio 2022)"]],
+  "cimitero-san-brunone":[["Stimato",17.5,"17,50 mln € (\"attualmente stimato\", opuscolo maggio 2026)"],["Stanziato",9.3771,"9,38 mln € disponibili ad aprile 2026"],["Pagato",null,"Quanto è stato speso in tutto non si sa","non si sa"]],
+  "pip-statte":[["Stimato",124.074,"124,07 mln €: costo del nuovo intervento nell'Accordo per la Coesione (novembre 2025)"],["Stanziato",89.9,"89,90 mln € assegnati dal Fondo sviluppo e coesione 2021-2027 (delibera CIPESS 51/2025)"],["Pagato",null,"Quanto è stato speso in tutto non si sa (sul nuovo intervento 0 € al 30/06/2026)","non si sa"]],
+  "scuole-tamburi-aree-verdi":[["Stimato",0.165,"165.000 €: costo di analisi e analisi di rischio per le tre scuole"],["Stanziato",null,"Il fondo di 8 mln € del Ministero copre tutti i suoli del quartiere Tamburi, non solo queste scuole","vedi nota"],["Pagato",0.07575133,"75.751 € pagati a maggio 2022; costo finale non si sa"]],
+  "atleti-azzurri-tamburi":[["Stimato",null,"Il costo di una bonifica non esiste ancora: prima servono analisi e analisi di rischio","non c'è"],["Stanziato",0.0868762,"86.876 € dal Commissario per le analisi (3/10/2025)"],["Pagato",null,"Non si sa se anticipo o saldo siano stati pagati","non si sa"]],
+  "mar-piccolo-area-170":[["Stimato",33.5,"Circa 33,50 mln € nel documento di proposta della Regione (dicembre 2025)","circa"],["Stanziato",null,"Nessun finanziamento approvato trovato","nessuno"],["Pagato",null,"Speso per l'Area 170 ha: non si sa","non si sa"]],
+  "land-a":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",2.16,"2,16 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.02,"Circa 20.000 € pagati secondo Ilva (luglio 2022); dopo il 2022 non si sa","circa"]],
+  "land-d2":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",0.10,"Circa 100.000 € stanziati secondo Ilva (luglio 2022)","circa"],["Pagato",0.05,"Circa 50.000 € pagati secondo Ilva (luglio 2022)","circa"]],
+  "land-d1":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",2.30,"2,30 mln € stanziati secondo Ilva (luglio 2022)"],["Pagato",0.09,"Circa 90.000 € pagati secondo Ilva (luglio 2022)","circa"]],
   "discarica-due-mari":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",5.05,"5,05 mln € di fondi previsti secondo Ilva (luglio 2022)"],["Pagato",5.39,"5,39 mln € pagati secondo Ilva (luglio 2022)"]],
   "discarica-cementir":[["Stimato",null,"Nessun costo stimato nelle fonti","—"],["Stanziato",16.75,"16,75 mln € di fondi previsti secondo Ilva (luglio 2022)"],["Pagato",5.40,"5,40 mln € pagati secondo Ilva (luglio 2022)"]],
-  "mar-piccolo-gara-2018":[["Stimato",32.276,"32,28 mln € IVA esclusa: valore della gara del 2018"],["Stanziato",55,"55 mln €: fondi di tutto il programma \"sedimenti del Mar Piccolo\", non solo della gara"],["Pagato",5.586,"5,59 mln € pagati per altre attività nel Mar Piccolo, non per la gara (OpenCoesione)"]],
-  "area-vasta-statte":[["Stimato", null, "Nessun costo stimato per la bonifica", "—"], ["Stanziato", 0.75, "0,75 mln € dalla Regione al Comune di Statte per nuove analisi delle aree agricole (avviso DD 202/2017)"], ["Pagato", null, "Quanto è stato speso non si sa", "non si sa"]],
-  "tamburi-risanamento-suoli":[["Stimato", null, "Nessun costo stimato nelle fonti", "—"], ["Stanziato", null, "Nessuna cifra oltre al contributo del Ministero delle Infrastrutture", "—"], ["Pagato", 1.504, "1,50 mln € versati dal Ministero delle Infrastrutture al Comune il 28/09/2018 per la bonifica dei suoli dei sottoprogetti 1–3"]]
+  "mar-piccolo-gara-2018":[["Stimato",32.276,"32,28 mln € IVA esclusa: valore della gara del 2018"],["Stanziato",55,"55,00 mln €: fondi di tutto il programma \"sedimenti del Mar Piccolo\", non solo della gara"],["Pagato",5.586,"5,59 mln € pagati per altre attività nel Mar Piccolo, non per la gara (OpenCoesione)"]],
+  "area-vasta-statte":[["Stimato", null, "Nessun costo stimato per la bonifica", "—"], ["Stanziato", 0.75, "750.000 € dalla Regione al Comune di Statte per nuove analisi delle aree agricole (avviso DD 202/2017)"], ["Pagato", null, "Quanto è stato speso non si sa", "non si sa"]],
+  "tamburi-risanamento-suoli":[["Stimato", null, "Nessun costo stimato nelle fonti", "—"], ["Stanziato", null, "Nessuna cifra oltre al contributo del Ministero delle Infrastrutture", "—"], ["Pagato", 1.50403476, "1,50 mln € versati dal Ministero delle Infrastrutture al Comune il 28/09/2018 per la bonifica dei suoli dei sottoprogetti 1–3"]]
 };
+// i nomi delle tre caselle sul sito e cosa vogliono dire (la "i" accanto a "Soldi", che si apre al tocco)
+const NOMI_SOLDI = {Stimato:"Quanto costerebbe", Stanziato:"Soldi disponibili", Pagato:"Già spesi"};
+const nomeSoldi = k => k.split(" · ").map((x, i) => i ? x : NOMI_SOLDI[x] || x).join(" · ");
+const soldiInfo = id => `<button type="button" class="info-i" aria-expanded="false" aria-controls="${id}" aria-label="Cosa vogliono dire le cifre">i</button>`;
+const soldiInfoBox = id => `<div class="info-box" id="${id}" hidden>
+  <p><b>Quanto costerebbe</b>: il costo stimato dei lavori o delle analisi, scritto in un progetto, in una gara o in un altro documento.</p>
+  <p><b>Soldi disponibili</b>: i soldi messi a disposizione per l'intervento. Comprende le cifre che le fonti chiamano stanziate, assegnate, allocate o impegnate.</p>
+  <p><b>Già spesi</b>: i soldi già pagati, alla data indicata dalla fonte.</p>
+  <p>Sotto il milione le cifre sono in euro; "circa" vuol dire che la fonte non dà la cifra esatta (per esempio Ilva dà solo i milioni con due decimali).</p></div>`;
+document.addEventListener("click", e => {
+  const b = e.target.closest(".info-i"); if (!b) return;
+  const open = b.getAttribute("aria-expanded") !== "true";
+  b.setAttribute("aria-expanded", open); document.getElementById(b.getAttribute("aria-controls")).hidden = !open;
+});
 
 /* ---------- mappa: tile locali (sito/tiles) e segnaposti ---------- */
 // tile scaricati per ogni zoom: [x min, x max, y min, y max]. Agli zoom lontani la zona è più ampia, così la vista d'insieme riempie lo schermo.
@@ -323,7 +338,8 @@ function coverZoom(m, from){
   return 14;
 }
 const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${GRUPPO[p.code]} f-${faseCode(p.code)} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
-const fmtMln = v => v.toLocaleString("it-IT",{minimumFractionDigits:1,maximumFractionDigits:2});
+// cifra in milioni → [numero, unità]: sotto il milione euro interi (75.751 €), sopra milioni con due decimali (18,40 mln €)
+const fmtSoldi = v => v < 1 ? [Math.round(v * 1e6).toLocaleString("it-IT"), "€"] : [v.toLocaleString("it-IT", {minimumFractionDigits:2, maximumFractionDigits:2}), "mln €"];
 const STATO = Object.fromEntries(STATI.map(s => [s[0], {label:s[1], color:s[2]}]));
 
 /* ---------- stabilimento, foto e glossario (home e report) ---------- */
