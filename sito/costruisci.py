@@ -76,24 +76,40 @@ def blocks(lines):
 
 
 def item_html(item):
-    """Una voce di lista, con eventuali sotto-voci indentate."""
+    """Una voce di lista, con eventuali sotto-voci indentate e tabelle indentate (il testo dopo una tabella va in un paragrafo)."""
     head, rest = item[0], item[1:]
     if FILTRO.search(head):
         return ""
-    sub = []
-    for r in rest:
+    sub, dopo, testo, i = [], "", [], 0
+    while i < len(rest):
+        r = rest[i]
+        if r.strip().startswith("|"):
+            if testo:
+                dopo += f"<p>{inline(' '.join(testo))}</p>" if not FILTRO.search(" ".join(testo)) else ""; testo = []
+            rows = []
+            while i < len(rest) and rest[i].strip().startswith("|"):
+                cells = [c.strip() for c in rest[i].strip().strip("|").split("|")]
+                if not all(re.fullmatch(r":?-{2,}:?", c) for c in cells):
+                    rows.append(cells)
+                i += 1
+            dopo += table_html(rows); continue
         m = re.match(r"^\s+(-|\d+\.)\s+(.*)", r)
-        if m:
+        if dopo:
+            testo.append(r.strip())
+        elif m:
             sub.append(m.group(2))
         elif sub:
             sub[-1] += " " + r.strip()
         else:
             head += " " + r.strip()
+        i += 1
+    if testo and not FILTRO.search(" ".join(testo)):
+        dopo += f"<p>{inline(' '.join(testo))}</p>"
     sub = [s for s in sub if not FILTRO.search(s)]
     h = inline(head)
     if sub:
         h += "<ul>" + "".join(f"<li>{inline(s)}</li>" for s in sub) + "</ul>"
-    return f"<li>{h}</li>"
+    return f"<li>{h}{dopo}</li>"
 
 
 def table_html(rows):
