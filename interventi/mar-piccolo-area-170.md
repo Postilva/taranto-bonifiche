@@ -89,6 +89,8 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 - Per l'ecodragaggio dell'Area 170 ha non ho trovato nessuna procedura di VIA, di autorizzazione al dragaggio o di approvazione di un progetto. Non verificato.
 
 ## Soldi
+**In una proposta della Regione (dicembre 2025) la bonifica costa circa 33,5 milioni €, ma non abbiamo trovato nessun finanziamento approvato. Un accordo del 2004 prevedeva per quest'area 26 milioni €, poi 37,2: quanto ne sia stato speso non si sa.** [1][3][12][17]
+
 - [costo] circa 33.500.000 € · Regione Puglia · dicembre 2025 [3] nel documento di proposta della Regione
 - [disponibili] nessuno · nessun finanziamento approvato trovato [1][12]
 - [spesi] non si sa

@@ -93,6 +93,8 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 - **Verifica sul catasto** (23 ottobre 2026): il punto del piano cade in una particella con il numero 917, che il piano non nomina; accanto ci sono le particelle 51 e 192, mentre la 50 e la 424 non compaiono sulla mappa di oggi, forse perché sono state divise e hanno cambiato numero. Per questo il pallino resta sul punto del piano [22].
 
 ## Soldi
+**Ilva ha messo da parte 75 milioni € per i fanghi e ne aveva impegnati 69,2 in ordini, ma fino a luglio 2022 ne aveva pagati 7,89, circa il 10% (calcolo nostro). Quanto ha speso dopo non si sa.** [7]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 75.030.000 € · Ilva · luglio 2022 [7] per i fanghi; per le aree vicine altri 12.900.000 €
 - [spesi] 7.890.000 € · Ilva · luglio 2022 [7]

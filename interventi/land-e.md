@@ -68,6 +68,8 @@ Qui la ditta Sidercomit produceva e immagazzinava prodotti siderurgici (soprattu
 - Con la riduzione del SIN di Taranto (decreto n. 249 dell'11 dicembre 2024 e decreto del Ministro n. 449 del 20 dicembre 2024) **i Fogli 192 e 194 di Land E non sono tra le aree escluse**, né nella proposta del marzo 2024 né tra le aree aggiunte dal decreto [15][16][17].
 
 ## Soldi
+**Ilva ha messo da parte 3,65 milioni € per analisi, eventuale bonifica dell'acqua e messa in sicurezza dei terreni; a luglio 2022 ne aveva impegnati circa 110.000 €, ma quanti ne avesse pagati la sua tabella non lo dice.** [6]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 3.650.000 € · Ilva · luglio 2022 [6] per analisi, eventuale bonifica dell'acqua e messa in sicurezza dei terreni con la pavimentazione
 - [spesi] nessuna cifra · la tabella di Ilva del luglio 2022 non indica quanto è stato pagato [6]

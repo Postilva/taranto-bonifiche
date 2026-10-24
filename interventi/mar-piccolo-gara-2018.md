@@ -94,6 +94,8 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 - **Settembre 2026, percorso partecipativo:** un percorso con cittadini, enti e associazioni, promosso dal Dipartimento Jonico dell'Università di Bari con la legge regionale sulla partecipazione, ha mandato al Commissario il 14 luglio 2026 le sue raccomandazioni sul Mar Piccolo (il decreto le cita numerate fino alla R16: coordinare i cantieri, qualità dell'acqua come indicatore principale, aiuto ai mitilicoltori, trasparenza e rendiconti aperti) [22]. Con il **decreto n. 48 del 4 settembre 2026** il Commissario le "recepisce" per quanto di sua competenza, ma scrive che questo **non approva nuovi interventi, spese o affidamenti** [22]. Il decreto non contiene date né soldi nuovi per la bonifica del 1° seno [22].
 
 ## Soldi
+**La gara valeva 32,3 milioni € (IVA esclusa), da prendere dai 55 milioni del programma per il Mar Piccolo. Di questi ne sono stati pagati 5,59 milioni, ma per altri lavori: la gara si è fermata nel 2020 senza contratto e quanto sia costata finora non si sa.** [1][2][7][9]
+
 - [costo] 32.276.250 € · Bando di gara · giugno 2018 [2] IVA esclusa: valore della gara
 - [disponibili] 55.000.000 € · OpenCoesione · giugno 2026 [9] fondi di tutto il programma "sedimenti del Mar Piccolo", non solo della gara
 - [spesi] 5.585.794,01 € · OpenCoesione · giugno 2026 [9] pagati per altre attività nel Mar Piccolo, non per la gara

@@ -145,6 +145,7 @@ function pvHtml(p){
     <div class="more"><div class="in">
       ${sub ? `<p class="sub">${esc(sub)}</p>` : ""}${steps ? barraHtml(steps) + leg5Html() : ""}
       ${verdictDi(s, p.code) ? `<div class="posto"><span class="k">Cosa è stato fatto</span><p>${esc(senzaNote(verdictDi(s, p.code)))}</p></div>` : ""}
+      ${s.soldiFrase ? `<div class="posto"><span class="k">Soldi</span><p>${esc(senzaNote(s.soldiFrase))}</p></div>` : ""}
       ${posto ? `<div class="posto"><span class="k">Che posto è</span><p>${esc(posto)}</p></div>` : ""}
       <a class="go" href="${reportHref(p.code)}">Leggi il report →</a>
     </div></div>`;

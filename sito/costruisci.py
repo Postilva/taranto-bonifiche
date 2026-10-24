@@ -10,7 +10,8 @@ Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
   solo le frasi non verificate, di giornali o con le bozze FOIA; un punto senza etichetta ferma la costruzione;
 - ogni punto di "Divieti e avvisi" è "[in vigore|non si sa|scaduto|revocato] **atto** frasi", con le stesse regole;
 - le righe "- [costo|disponibili|spesi] ..." in cima a "Soldi" sono le cifre del riquadro: ogni cifra ha chi lo dice,
-  quando e la fonte, altrimenti la costruzione si ferma;
+  quando e la fonte, altrimenti la costruzione si ferma; la riga in grassetto prima del blocco ("**frase** [n]") è la frase
+  sui soldi del riquadro e della mappa: senza fonte la costruzione si ferma, se manca in una scheda con cifre c'è un avviso;
 - le bozze FOIA non vanno sul sito.
 Il testo non viene riscritto: viene solo convertito da Markdown a HTML.
 """
@@ -444,7 +445,7 @@ def leggi_scheda(path):
         elif cur:
             cur[1].append(ln)
     out = {"id": path.stem, "codes": codes, "code": codes[0], "title": title, "updated": upd, "warnNote": warn,
-           "sections": [], "nonsappiamo": [], "divieti": [], "soldi": [], "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
+           "sections": [], "nonsappiamo": [], "divieti": [], "soldi": [], "soldiFrase": "", "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
     for t, body in secs:
         tl = t.lower()
         if tl.startswith("cosa è stato fatto"):
@@ -484,7 +485,16 @@ def leggi_scheda(path):
             continue
         if ESCLUSE.match(t):
             continue
-        if tl.startswith("soldi"):   # il blocco con le etichette va nel riquadro "Soldi"; il resto è il racconto
+        if tl.startswith("soldi"):   # la frase in grassetto e il blocco con le etichette vanno nel riquadro "Soldi"; il resto è il racconto
+            k = next((j for j, b in enumerate(body) if b.strip()), None)
+            if k is not None and body[k].startswith("**"):
+                fm = re.match(r"\*\*(.+?)\*\*\s*((?:\[\d+\])+)\s*$", body[k].strip())
+                if not fm:
+                    sys.exit(f"{path.name}: in \"Soldi\" la frase in grassetto deve finire con la sua fonte: {body[k][:60]}")
+                if FILTRO.search(fm.group(1)):
+                    sys.exit(f"{path.name}: in \"Soldi\" la frase va sul sito e non può dire \"non verificato\" o citare giornali")
+                out["soldiFrase"] = fm.group(1).strip() + fm.group(2)
+                body = body[:k] + body[k + 1:]
             blocco = [ln for ln in body if re.match(r"- \[[^\]]+\](?!\()", ln)]   # non i link [testo](url)
             out["soldi"] = [riga_soldi(ln[2:].strip(), path.name) for ln in blocco]
             body = [ln for ln in body if ln not in blocco]
@@ -516,10 +526,12 @@ def leggi_scheda(path):
     if len(out["punto"]) != 3:   # ogni scheda racconta a che punto è in tre blocchi (vedi LEGGIMI.md)
         sys.exit(f"{path.name}: manca \"## A che punto è\" con i blocchi ### Finora, ### Cosa manca, ### Adesso")
     numeri = {f["n"] for f in out["fonti"]}
-    for r in out["soldi"]:   # ogni cifra rimanda a una fonte della scheda
-        for n in map(int, re.findall(r"\d+", r["src"])):
+    for src in [r["src"] for r in out["soldi"]] + re.findall(r"\[\d+\]", out["soldiFrase"]):   # cifre e frase rimandano a una fonte della scheda
+        for n in map(int, re.findall(r"\d+", src)):
             if n not in numeri:
                 sys.exit(f"{path.name}: in \"Soldi\" la fonte [{n}] non è nell'elenco delle fonti")
+    if out["soldi"] and not out["soldiFrase"]:
+        print(f"Avviso: {path.name} ha le cifre dei soldi ma non la frase in grassetto all'inizio di \"Soldi\"")
     out["coord"] = coordinate(txt)
     per_cod = coordinate_per_codice(txt)
     out["coords"] = {k: v for k, v in per_cod.items() if k != "*"} or None

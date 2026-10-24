@@ -46,6 +46,8 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 - **Mappa dei divieti:** allegato A all'ordinanza n. 62/2017 [1].
 
 ## Soldi
+**La Regione ha dato al Comune di Statte 750.000 € per nuove analisi delle aree agricole; quanto ne sia stato speso non si sa. Per la bonifica non c'è nessun costo stimato.** [6]
+
 - [costo] — · nessun costo stimato per la bonifica
 - [disponibili] 750.000 € · Regione Puglia · giugno 2021 [6] dalla Regione al Comune di Statte per nuove analisi delle aree agricole (avviso DD 202/2017)
 - [spesi] non si sa

@@ -62,6 +62,8 @@ Qui non ci sono mai stati impianti [7][20]. Il terreno è stato dichiarato non c
 - Nell'archivio del Ministero, al 2 ottobre 2026, non risultano altri decreti di riduzione del SIN di Taranto dopo quello di dicembre 2024.
 
 ## Soldi
+**Ilva ha messo da parte 1,29 milioni € per quest'area; fino a luglio 2022 ne aveva spesi circa 40.000 €, circa il 3% (calcolo nostro). Quanto ha speso dopo non si sa.** [20]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 1.290.000 € · Ilva · luglio 2022 [20] per analisi del terreno e dell'acqua e sistemazione del verde
 - [spesi] circa 40.000 € · Ilva · luglio 2022 [20] dopo luglio 2022 non si sa

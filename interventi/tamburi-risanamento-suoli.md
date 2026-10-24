@@ -55,6 +55,8 @@ Per ogni area la Regione indica il punto centrale ("centroide del poligono"), ne
 - **Superfici:** in tutto 1.056.584 m² (somma nostra delle cinque righe) [1].
 
 ## Soldi
+**Nel 2018 il Ministero delle Infrastrutture ha versato al Comune 1,50 milioni € per i suoli dei sottoprogetti 1–3; quanto sia costato tutto il programma non si sa.** [3]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] — · nessuna cifra oltre al contributo del Ministero delle Infrastrutture
 - [spesi] 1.504.034,76 € · Ministero delle Infrastrutture · settembre 2018 [3] versati al Comune il 28/09/2018 per la bonifica dei suoli dei sottoprogetti 1–3

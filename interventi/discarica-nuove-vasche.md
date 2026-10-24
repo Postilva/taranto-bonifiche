@@ -61,6 +61,8 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 **Controllo della falda di tutta la zona.** Nel piano di controllo dell'acqua sotterranea mandato da Ilva al Ministero il 19 giugno 2024, la discarica è controllata insieme all'area fanghi: 7 pozzi (5 nuovi), con prelievi ogni tre mesi per almeno due anni; i 5 pozzi nuovi sono stati completati a dicembre 2025 [1][9].
 
 ## Soldi
+**Ilva ha messo da parte 3 milioni € per la gestione e i controlli della discarica per 30 anni; fino a luglio 2022 ne aveva spesi circa 870.000 €, circa il 29% (calcolo nostro).** [2]
+
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 3.000.000 € · Ilva · luglio 2022 [2] per la gestione post-operativa e i controlli per 30 anni
 - [spesi] circa 870.000 € · Ilva · luglio 2022 [2]
