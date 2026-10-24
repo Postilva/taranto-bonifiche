@@ -70,6 +70,10 @@ Le analisi hanno trovato nel terreno idrocarburi e arsenico oltre i limiti previ
 - Nell'archivio del Ministero, al 13 ottobre 2026, non risultano altri decreti di riduzione del SIN di Taranto dopo quello di dicembre 2024.
 
 ## Soldi
+- [costo] — · nessun costo stimato nelle fonti
+- [disponibili] circa 100.000 € · Ilva · luglio 2022 [28] stanziati
+- [spesi] circa 50.000 € · Ilva · luglio 2022 [28]
+
 - Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land D2 erano stati **stanziati 0,10 milioni €** (gestione del verde, analisi di terreno e acqua, "bonifica soprassuolo e ripristino condizioni ambientali"), di cui **0,05 milioni impegnati** in ordini e 0,05 pagati [28]. Sono cifre di Ilva, non verificate da un ente pubblico.
 - Quanto sono costati in tutto le analisi, il controllo della falda (ordine n. 42/23 [30]) e la manutenzione del verde dopo il 2022: **non verificato**. Non ci sono spese di bonifica, perché la bonifica non è stata necessaria [2][12].
 

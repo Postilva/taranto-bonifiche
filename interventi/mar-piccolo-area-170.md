@@ -89,6 +89,10 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 - Per l'ecodragaggio dell'Area 170 ha non ho trovato nessuna procedura di VIA, di autorizzazione al dragaggio o di approvazione di un progetto. Non verificato.
 
 ## Soldi
+- [costo] circa 33.500.000 € · Regione Puglia · dicembre 2025 [3] nel documento di proposta della Regione
+- [disponibili] nessuno · nessun finanziamento approvato trovato [1][12]
+- [spesi] non si sa
+
 - Bonifica Area 170 ha: circa 33,5 milioni € indicati nel documento di proposta della Regione (dicembre 2025) [3]; nessun finanziamento approvato trovato [1][12].
 - Difesa, Intervento A (Mar Grande): 512 milioni € di lavori stimati [8]; 191,4 milioni € monitorati su OpenCoesione, di cui 5,6 milioni € pagati al 30 giugno 2026 [11].
 - Accordo di programma del 2004: 26 milioni € previsti per l'Area 170 ha (analisi, sperimentazione e bonifica), poi 37,244 milioni € [17]. Non si sa quanto sia stato speso né se i soldi rimasti siano stati spostati altrove. Non verificato.

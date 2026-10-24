@@ -96,6 +96,10 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 - **Un segnale:** su OpenCoesione i due vecchi progetti (analisi e messa in sicurezza definitiva) hanno **0 € di pagamenti** registrati [18][19], anche se già a settembre 2018 erano stati spesi 1.180.649,40 € [4]. I dati di monitoraggio, quindi, non sono aggiornati.
 
 ## Soldi
+- [costo] 124.073.987,94 € · Accordo per la Coesione · novembre 2025 [2] costo del nuovo intervento
+- [disponibili] 89.900.000 € · Delibera CIPESS 51/2025 · dicembre 2025 [15] assegnati dal Fondo sviluppo e coesione 2021-2027, a rate dal 2026 al 2033
+- [spesi] non si sa · sul nuovo intervento 0 € al 30 giugno 2026 [17]; dei 37 milioni del 2012, 1.180.649,40 € spesi al 30 settembre 2018 [4], poi non si sa
+
 **Primo finanziamento: 37 milioni € della Regione (2012)**
 - Fonte: Fondo sviluppo e coesione 2007-2013 della Regione Puglia, delibera CIPE 87/2012 [4][5].
 - Nel 2013 i 37 milioni erano divisi così: 400.000 € per le analisi e 36,6 milioni € per la messa in sicurezza della falda [20]. Sono le stesse cifre che si trovano oggi su OpenCoesione [18][19].

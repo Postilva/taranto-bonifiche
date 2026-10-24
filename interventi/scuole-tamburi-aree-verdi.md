@@ -55,6 +55,10 @@ Nelle scuole Deledda e De Carolis, e in altre tre scuole del quartiere (Vico, Ga
 - **Coordinate** indicate dalla Regione: 688944,1196 m E – 4485371,139 m N, nel sistema UTM-WGS84 fuso 33 Nord [8]; per la Regione è il punto centrale ("centroide") del poligono del "Comprensorio scolastico via Deledda", che misura 24.836 m² [8]. In gradi sono circa **40,498° N – 17,230° E** (conversione nostra).
 
 ## Soldi
+- [costo] 165.000 € · Commissario · dicembre 2018 [2] costo di analisi e analisi di rischio per le tre scuole
+- [disponibili] vedi nota · il fondo di 8.000.000 € del Ministero copre tutti i suoli del quartiere Tamburi, non solo queste scuole [2]
+- [spesi] 75.751,33 € · Commissione parlamentare · maggio 2022 [9] dati del Commissario; costo finale non si sa
+
 - **Fondo di partenza:** 8.000.000 € del Ministero dell'Ambiente (decreto direttoriale n. 398 del 17/12/2012; nella tabella della Commissione parlamentare la data è scritta per errore "17/12/2021" [9]) per "messa in sicurezza e bonifica dei suoli contaminati del quartiere Tamburi" [2]. A dicembre 2018 ne erano stati trasferiti 6.000.000 € al conto del Commissario [2]. Dalla stessa fonte sono finanziate, in parte, anche le analisi del cimitero San Brunone [2].
 - **Costo di analisi e analisi di rischio per le tre scuole:** 165.000 € [2] (pag. 29).
 - **Impegnati e pagati (dicembre 2018):** 106.240,30 € impegnati e 49.709,97 € pagati per "aree a verde delle scuole Deledda, De Carolis e D'Aquino" [2] (pag. 15). La differenza con i 165.000 € non è spiegata: può essere il costo finale più basso o una parte non ancora impegnata, ma nessuna fonte lo dice. Non verificato.

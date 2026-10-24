@@ -94,6 +94,10 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 - **Settembre 2026, percorso partecipativo:** un percorso con cittadini, enti e associazioni, promosso dal Dipartimento Jonico dell'Università di Bari con la legge regionale sulla partecipazione, ha mandato al Commissario il 14 luglio 2026 le sue raccomandazioni sul Mar Piccolo (il decreto le cita numerate fino alla R16: coordinare i cantieri, qualità dell'acqua come indicatore principale, aiuto ai mitilicoltori, trasparenza e rendiconti aperti) [22]. Con il **decreto n. 48 del 4 settembre 2026** il Commissario le "recepisce" per quanto di sua competenza, ma scrive che questo **non approva nuovi interventi, spese o affidamenti** [22]. Il decreto non contiene date né soldi nuovi per la bonifica del 1° seno [22].
 
 ## Soldi
+- [costo] 32.276.250 € · Bando di gara · giugno 2018 [2] IVA esclusa: valore della gara
+- [disponibili] 55.000.000 € · OpenCoesione · giugno 2026 [9] fondi di tutto il programma "sedimenti del Mar Piccolo", non solo della gara
+- [spesi] 5.585.794,01 € · OpenCoesione · giugno 2026 [9] pagati per altre attività nel Mar Piccolo, non per la gara
+
 - **Valore della gara:** 32.276.250 € IVA esclusa [2]; con l'IVA sono circa 39,4 milioni € (calcolo mio: 32.276.250 × 1,22).
 - **Soldi per tutto il programma "sedimenti del Mar Piccolo"** (CUP J56J14000460001): **55 milioni €** [6][9]:
   - 21 milioni € dal Fondo sviluppo e coesione 2007-2013 della Regione Puglia (delibera CIPE 87/2012): 17,85 milioni già versati al Commissario secondo le relazioni del 2018 e del 2023 [6][7]. Un decreto del Commissario del 2025 scrive invece che la Regione ha versato 75 milioni € dei 75,17 assegnati con la stessa delibera a tre interventi (molo polisettoriale, PIP di Statte e Mar Piccolo), con tre determine del 2013, 2020 e 2021; con questi soldi è stato pagato anche il "completamento" della rimozione dei rifiuti dal fondale (scheda B5) [23];

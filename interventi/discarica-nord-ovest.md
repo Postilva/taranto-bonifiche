@@ -83,6 +83,10 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 - **Posizione sulla mappa**: centro delle particelle indicate da ARPA [7] — Comune di Statte, foglio 7, particelle 41, 869, 870, 872, 875, 1052 e 1054, e foglio 24, particelle 1 e 110 — calcolato da noi sulla cartografia catastale dell'Agenzia delle Entrate [27]: 685802,3 m E – 4491105,3 m N (UTM fuso 33 Nord, ETRS89), cioè circa 40,5499° N – 17,1943° E. Nota: le particelle misurano insieme circa 19,5 ettari, le tre zone dell'area circa 11, quindi il punto è il centro delle particelle e non dell'area.
 
 ## Soldi
+- [costo] 29.812.351,53 € · Ministero dell'Ambiente · dicembre 2025 [2] costo stimato del progetto approvato
+- [disponibili] non indicato · le fonti non dicono da dove vengono i soldi
+- [spesi] non si sa · le relazioni di Ilva dopo il 2018 non danno cifre
+
 - **Costo stimato del progetto:** 29.812.351,53 € [2]. È una stima del progetto, non una spesa.
 - **Garanzia richiesta:** Ilva deve dare alla Regione Puglia una fideiussione pari al 50% del costo stimato (circa 14,9 milioni €) [2]. Il Ministero ha chiarito a maggio 2026 che va emessa subito dopo l'approvazione del progetto [5]. Alla nostra richiesta di accesso civico la Regione ha risposto il 19 ottobre 2026 che la polizza "non risulta reperibile" agli atti del suo Servizio bonifiche, e rimanda al Ministero, che segue tutto il procedimento [26]. Non si sa quindi se Ilva l'abbia data.
 - **Speso finora:** a fine 2018 Ilva dichiarava 195.000 € spesi o impegnati per la Discarica Nord-Ovest e 222.000 € per l'area ex Fintecna [16]. Le relazioni successive non danno cifre per quest'area. Non verificato.

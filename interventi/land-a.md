@@ -75,6 +75,10 @@ Tutti i valori qui sotto vengono dalla validazione di ARPA [12]. I limiti di leg
 **No.** Le particelle di Land A non sono tra le aree tolte dal SIN (il "Sito di interesse nazionale" da bonificare) con il decreto del Ministero n. 249 dell'11 dicembre 2024 [13].
 
 ## Soldi
+- [costo] — · nessun costo stimato nelle fonti
+- [disponibili] 2.160.000 € · Ilva · luglio 2022 [5] stanziati; circa 420.000 € impegnati in ordini
+- [spesi] circa 20.000 € · Ilva · luglio 2022 [5] dopo luglio 2022 non si sa
+
 - Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land A erano stati **stanziati 2,16 milioni €** (analisi di terreno e acqua, "bonifica soprassuolo e ripristino delle condizioni ambientali"), di cui **0,42 milioni impegnati** in ordini e **0,02 milioni pagati** [5]. Sono cifre di Ilva, non verificate da un ente pubblico.
 - Le analisi di controllo di ARPA sono pagate da Ilva, in base a una convenzione [12].
 - Quanto è stato speso dopo il 2022, e con quali fondi: **non verificato**.

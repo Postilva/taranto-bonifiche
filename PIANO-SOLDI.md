@@ -31,7 +31,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 - *Da decidere:* i tre nomi (raccomandati quelli sopra; in alternativa "Costo previsto / Soldi messi a disposizione / Soldi spesi").
 - Verifica: Scuole Tamburi, Land L, Gravina, gara 2018 a 390 px.
 
-### [ ] 2. Le cifre dentro la scheda, con chi le dice e quando
+### [x] 2. Le cifre dentro la scheda, con chi le dice e quando (fatto il 24/10/2026: "dato vecchio" dopo 2 anni, "impegnati" scritti nella nota di [disponibili]; Mar Piccolo studi senza riquadro, da rivedere con i task 7–8)
 - Oggi le cifre del riquadro stanno in `MONEY` dentro `comune.js`, scritte a mano e separate dalla scheda: possono non coincidere con `## Soldi`. Spostarle nella scheda: all'inizio di `## Soldi` un blocco con etichette, letto da `costruisci.py` (come "Cosa non sappiamo" e "Divieti e avvisi"), che si ferma se manca l'etichetta o la fonte. Bozza:
   ```
   - [costo] 29.812.400 € · progetto approvato · 2019 [3]
