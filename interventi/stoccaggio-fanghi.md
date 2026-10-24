@@ -98,6 +98,7 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 75.030.000 € · Ilva · luglio 2022 [7] per i fanghi; per le aree vicine altri 12.900.000 €
 - [spesi] 7.890.000 € · Ilva · luglio 2022 [7]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [7]
 
 - **Speso o impegnato fino al 31 ottobre 2018** per la rimozione dei fanghi della zona Ilva: 8,37 milioni € [16].
 - **Al 12 luglio 2022**, secondo Ilva: 75,03 milioni € stanziati per l'intervento sui fanghi (rimozione, analisi, bonifica del suolo superficiale e ripristino), 69,18 milioni impegnati in ordini, 7,89 milioni pagati, 9,19 milioni fatturati [7]. Per le aree vicine: 12,90 milioni € stanziati [7].

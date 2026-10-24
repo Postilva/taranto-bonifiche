@@ -81,6 +81,7 @@ Il terreno è sotto i limiti di legge, ma l'acqua sotterranea dell'area è, per 
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] circa 390.000 € · Ilva · luglio 2022 [2] assegnati; circa 150.000 € impegnati in ordini
 - [spesi] meno di 10.000 € · Ilva · luglio 2022 [2]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [2]
 
 - Nel luglio 2022, secondo Ilva: **0,39 milioni €** assegnati all'area, 0,15 impegnati in ordini, meno di 0,01 pagati [2].
 - Costi successivi (analisi, controlli, impianto a osmosi): **non verificato**.

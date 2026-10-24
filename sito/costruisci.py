@@ -12,6 +12,8 @@ Regole applicate al testo (vedi LEGGIMI.md e le richieste sul sito):
 - le righe "- [costo|disponibili|spesi] ..." in cima a "Soldi" sono le cifre del riquadro: ogni cifra ha chi lo dice,
   quando e la fonte, altrimenti la costruzione si ferma; la riga in grassetto prima del blocco ("**frase** [n]") è la frase
   sui soldi del riquadro e della mappa: senza fonte la costruzione si ferma, se manca in una scheda con cifre c'è un avviso;
+- la riga "- [confronto] sì|no · motivo" del blocco dice se "Già spesi" e "Soldi disponibili" si possono confrontare:
+  con "sì" (due cifre della stessa fonte o della stessa data) il riquadro mostra la barra, con "no" il motivo;
 - le bozze FOIA non vanno sul sito.
 Il testo non viene riscritto: viene solo convertito da Markdown a HTML.
 """
@@ -209,6 +211,47 @@ def riga_soldi(t, nome):
              qb=(MESI_BREVI[mese - 1] + " " if mese else "") + y.group(0), t=[int(y.group(0)), mese],
              src=f.group(3), note=nota(f.group(4)))
     return r
+
+
+def confronto(righe, soldi, nome):
+    """La riga "[confronto] sì · motivo" o "[confronto] no · motivo" nel blocco dei soldi (vedi LEGGIMI.md): dice se
+    "Già spesi" e "Soldi disponibili" coprono la stessa cosa. Con "sì" il sito mostra la barra con la percentuale
+    (calcolo nostro), con "no" il motivo. Con due righe [disponibili · chi] si scrive [confronto · chi].
+    Restituisce {si, motivo, p, pct, pre, src} o None se la scheda non ha cifre da confrontare."""
+    def cifre(k, p):   # le righe con una cifra di quel tipo; con [confronto · chi], quella di chi (o quella senza nome)
+        rr = [r for r in soldi if r["k"] == k and r["v"] is not None]
+        return [r for r in rr if r["p"] == p] or [r for r in rr if not r["p"]] if p else rr
+    if len(righe) > 1:
+        sys.exit(f"{nome}: in \"Soldi\" c'è più di una riga [confronto]")
+    if not righe:
+        if cifre("disponibili", "") and cifre("spesi", ""):
+            sys.exit(f"{nome}: in \"Soldi\" ci sono \"disponibili\" e \"spesi\" ma manca la riga \"[confronto] sì|no · motivo\"")
+        return None
+    t = righe[0][2:].strip()
+    m = re.match(r"\[confronto(?: · ([^\]]+))?\]\s+(sì|no)\s+·\s+(\S.*)", t)
+    if not m:
+        sys.exit(f"{nome}: in \"Soldi\" la riga deve essere \"[confronto] sì · motivo\" o \"[confronto] no · motivo\": {t[:60]}")
+    if FILTRO.search(t):
+        sys.exit(f"{nome}: in \"Soldi\" la riga [confronto] va sul sito e non può dire \"non verificato\" o citare giornali")
+    p, si, motivo = m.group(1) or "", m.group(2) == "sì", m.group(3).strip()
+    c = {"si": si, "motivo": inline(re.sub(r"\s+(?=\[\d+\])", "", motivo)), "p": p, "pct": None, "pre": "",
+         "src": "".join(re.findall(r"\[\d+\]", motivo))}
+    if not si:
+        return c
+    d, s = cifre("disponibili", p), cifre("spesi", p)
+    if len(d) != 1 or len(s) != 1:
+        sys.exit(f"{nome}: in \"Soldi\" [confronto] sì vuole una sola cifra di \"disponibili\" e una di \"spesi\""
+                 + (" (con più righe si scrive [confronto · chi])" if len(d) > 1 or len(s) > 1 else ""))
+    d, s = d[0], s[0]
+    if d["chi"] != s["chi"] and d["qb"] != s["qb"]:
+        sys.exit(f"{nome}: in \"Soldi\" [confronto] sì vuole due cifre della stessa fonte o della stessa data: "
+                 f"{d['chi']} · {d['qb']} e {s['chi']} · {s['qb']}")
+    if d["v"] <= 0:
+        sys.exit(f"{nome}: in \"Soldi\" [confronto] sì vuole \"disponibili\" maggiore di 0 €")
+    sv = float(s["lbl"].replace(".", "").replace(",", ".")) if s["pre"] == "meno di" else s["v"]   # "meno di 10.000 €": la percentuale si fa sulla cifra scritta
+    c.update(pct=round(sv / d["v"] * 100, 3),
+             pre="" if sv == 0 else "meno di" if s["pre"] == "meno di" else "circa" if s["pre"] or d["pre"] else "")
+    return c
 
 
 # ---------- coordinate UTM fuso 33 Nord → gradi (WGS84) ----------
@@ -445,7 +488,7 @@ def leggi_scheda(path):
         elif cur:
             cur[1].append(ln)
     out = {"id": path.stem, "codes": codes, "code": codes[0], "title": title, "updated": upd, "warnNote": warn,
-           "sections": [], "nonsappiamo": [], "divieti": [], "soldi": [], "soldiFrase": "", "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
+           "sections": [], "nonsappiamo": [], "divieti": [], "soldi": [], "soldiFrase": "", "confronto": None, "fonti": [], "date": [], "verdict": "", "punto": [], "fatto": "", "chi": [], "posto": "", "perche": ""}
     for t, body in secs:
         tl = t.lower()
         if tl.startswith("cosa è stato fatto"):
@@ -496,7 +539,9 @@ def leggi_scheda(path):
                 out["soldiFrase"] = fm.group(1).strip() + fm.group(2)
                 body = body[:k] + body[k + 1:]
             blocco = [ln for ln in body if re.match(r"- \[[^\]]+\](?!\()", ln)]   # non i link [testo](url)
-            out["soldi"] = [riga_soldi(ln[2:].strip(), path.name) for ln in blocco]
+            conf = [ln for ln in blocco if ln.startswith("- [confronto")]
+            out["soldi"] = [riga_soldi(ln[2:].strip(), path.name) for ln in blocco if ln not in conf]
+            out["confronto"] = confronto(conf, out["soldi"], path.name)
             body = [ln for ln in body if ln not in blocco]
         if tl.startswith("date principali"):
             for kind, val in blocks(body):
@@ -526,7 +571,7 @@ def leggi_scheda(path):
     if len(out["punto"]) != 3:   # ogni scheda racconta a che punto è in tre blocchi (vedi LEGGIMI.md)
         sys.exit(f"{path.name}: manca \"## A che punto è\" con i blocchi ### Finora, ### Cosa manca, ### Adesso")
     numeri = {f["n"] for f in out["fonti"]}
-    for src in [r["src"] for r in out["soldi"]] + re.findall(r"\[\d+\]", out["soldiFrase"]):   # cifre e frase rimandano a una fonte della scheda
+    for src in [r["src"] for r in out["soldi"]] + re.findall(r"\[\d+\]", out["soldiFrase"]) + [(out["confronto"] or {}).get("src", "")]:   # cifre e frase rimandano a una fonte della scheda
         for n in map(int, re.findall(r"\d+", src)):
             if n not in numeri:
                 sys.exit(f"{path.name}: in \"Soldi\" la fonte [{n}] non è nell'elenco delle fonti")

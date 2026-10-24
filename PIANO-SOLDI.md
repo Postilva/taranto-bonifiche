@@ -53,7 +53,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 
 ## Seconda parte: confronti e stranezze
 
-### [ ] 4. La barra "quanto è stato speso"
+### [x] 4. La barra "quanto è stato speso" (fatto il 24/10/2026: riga `[confronto] sì|no · motivo`, con `[confronto · chi]` se ci sono due righe di disponibili; barra in 15 schede, tutte con la tabella di Ilva del luglio 2022, "no" nella gara 2018)
 - Nel riquadro del report una barra **Già spesi su Soldi disponibili** con la percentuale (calcolo nostro), **solo se le due cifre coprono la stessa cosa e vengono dalla stessa fonte o dallo stesso periodo**. Altrimenti niente barra e una riga col motivo ("le due cifre riguardano cose diverse", "date diverse").
 - Nella scheda serve un modo per dirlo: *da decidere* fra un segno sulla riga `[spesi]` (es. `[spesi, stessa voce]`) e una riga `[confronto] sì/no: motivo` (raccomandata, perché obbliga a scrivere il motivo).
 - Verifica: Area verde nord (barra bassissima), Due Mari (oltre il 100%), gara 2018 (niente barra), Cimitero.

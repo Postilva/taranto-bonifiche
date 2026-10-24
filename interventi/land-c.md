@@ -67,6 +67,7 @@ Qui non ci sono mai stati impianti [7][20]. Il terreno è stato dichiarato non c
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 1.290.000 € · Ilva · luglio 2022 [20] per analisi del terreno e dell'acqua e sistemazione del verde
 - [spesi] circa 40.000 € · Ilva · luglio 2022 [20] dopo luglio 2022 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [20]
 
 - Al 12 luglio 2022, secondo Ilva: **1,29 milioni €** destinati a Land C (analisi del terreno e dell'acqua, sistemazione del verde), di cui 0,07 milioni impegnati in ordini e **0,04 milioni pagati** [20].
 - Spese successive (pozzetti 2025, controlli dell'acqua, manutenzione): **non verificato**.

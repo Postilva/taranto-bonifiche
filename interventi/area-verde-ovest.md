@@ -80,6 +80,7 @@ Il terreno è stato confrontato con due limiti diversi: quelli per le **aree ver
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 4.880.000 € · Ilva · luglio 2022 [2] "allocati" per analisi, controllo dell'acqua e bonifica del soprassuolo; di questi, circa 170.000 € impegnati in ordini
 - [spesi] circa 90.000 € · Ilva · luglio 2022 [2] dopo luglio 2022 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [2]
 
 - A luglio 2022 Ilva indicava per quest'area **4,88 milioni € "allocati"** (per analisi, controllo dell'acqua e "bonifica soprassuolo e ripristino delle condizioni ambientali"), di cui 0,17 milioni impegnati in ordini, 0,13 fatturati e **0,09 milioni pagati** [2].
 - Spese successive al 2022: **non verificato**. Nessun documento successivo dà cifre [1].

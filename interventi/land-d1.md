@@ -76,6 +76,7 @@ Tutti i valori vengono dalla validazione di ARPA, che li confronta con i limiti 
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 2.300.000 € · Ilva · luglio 2022 [5] stanziati; circa 170.000 € impegnati in ordini
 - [spesi] circa 90.000 € · Ilva · luglio 2022 [5]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [5]
 
 - Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land D1 erano stati **stanziati 2,30 milioni €** (analisi di terreno e acqua, "bonifica soprassuolo e ripristino ambientale"), di cui **0,17 milioni impegnati** in ordini e **0,09 milioni pagati** [5]. Sono cifre di Ilva, non verificate da un ente pubblico.
 - Le analisi di controllo di ARPA sono pagate da Ilva, in base a una convenzione [8].

@@ -99,6 +99,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 - [costo] 32.276.250 € · Bando di gara · giugno 2018 [2] IVA esclusa: valore della gara
 - [disponibili] 55.000.000 € · OpenCoesione · giugno 2026 [9] fondi di tutto il programma "sedimenti del Mar Piccolo", non solo della gara
 - [spesi] 5.585.794,01 € · OpenCoesione · giugno 2026 [9] pagati per altre attività nel Mar Piccolo, non per la gara
+- [confronto] no · i 55 milioni sono di tutto il programma per il Mar Piccolo e i 5,59 milioni sono stati pagati per altre attività, non per la gara [9]
 
 - **Valore della gara:** 32.276.250 € IVA esclusa [2]; con l'IVA sono circa 39,4 milioni € (calcolo mio: 32.276.250 × 1,22).
 - **Soldi per tutto il programma "sedimenti del Mar Piccolo"** (CUP J56J14000460001): **55 milioni €** [6][9]:

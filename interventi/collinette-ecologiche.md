@@ -104,6 +104,7 @@ Le fonti indicano quattro motivi:
 - [costo] — · nessun costo stimato nelle fonti
 - [disponibili] 37.500.000 € · Ilva · luglio 2022 [4] "allocati" per caratterizzazione e messa in sicurezza
 - [spesi] circa 790.000 € · Ilva · luglio 2022 [4] dopo luglio 2022 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [4]
 
 - **Promessi:** 37,5 milioni € "allocati" da Ilva per "caratterizzazione e messa in sicurezza" delle collinette [4].
 - **Spesi:** a luglio 2022, 0,84 milioni impegnati e 0,79 milioni pagati [4].
