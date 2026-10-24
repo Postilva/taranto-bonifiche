@@ -1,5 +1,5 @@
 # B13 – Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018)
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 24 ottobre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -11,7 +11,7 @@ Il fondale del 1° seno è stato studiato molte volte: Sviluppo Italia e ICRAM (
 Il 21 agosto 2020 la gara si è fermata, perché scadeva il mandato della Commissaria, e non è mai stata aggiudicata: nessun lavoro in mare è stato fatto [1][7]. Il Commissario successivo ha giudicato troppo cara una spesa così per circa 14 ettari di prova [7]. Non abbiamo trovato un atto che annulli la gara [1]. Per il 1° seno non c'è un progetto approvato e finanziato [1][11][14].
 
 ### Adesso
-Il Commissario lavora con la Marina Militare su una sola zona, l'«Area 170 ettari» davanti all'Arsenale (scheda B12), ma fondi e tempi non sono decisi [1][11][14]. Nel 2026 sono partiti solo lavori più piccoli: dal 7 agosto la rimozione dei rifiuti dalle coste, 250.000 € per il primo stralcio [19][20].
+Il Commissario lavora con la Marina Militare su una sola zona, l'«Area 170 ettari» davanti all'Arsenale (scheda B12), ma fondi e tempi non sono decisi [1][11][14]. Nel 2026 sono partiti solo lavori più piccoli: dal 7 agosto la rimozione dei rifiuti dalle coste, 250.000 € per il primo stralcio [19][20]. Il 21 ottobre 2026 il Commissario ha deciso di usare gli ultimi 5,2 milioni dei 21 della Regione, nati per togliere i fanghi con PCB, per togliere rifiuti dal fondale davanti al nuovo lungomare del Comune: ha nominato il responsabile, ma non c'è ancora un progetto né una gara [27].
 
 ## Che posto è
 I fanghi inquinati sul fondo del 1° seno del Mar Piccolo, dove la gara del 2018 doveva provare tre tecniche di pulizia dei fanghi [2][3].
@@ -78,7 +78,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 ## Cosa ha sostituito la gara
 - **2021–2022, proposta del Prefetto Martino:** usare i soldi per tre progetti: decontaminazione delle cozze, "Life Mar Piccolo" e un "sistema di ecodragaggio" [7]. Non è stata approvata dal Tavolo del CIS [7]. Il Commissario ha comunque avviato nel 2023 lo studio sulla decontaminazione delle cozze, costo stimato 540.000 € [7].
 - **2025–2026, Commissario Uricchio:** l'opuscolo indica due progetti [1]:
-  - **Rifiuti sul fondale, 2° lotto**, con il Comune di Taranto: i soldi sono ancora "in fase di perfezionamento", poi si farà il progetto [1]. La Regione nel 2024 parlava di 4,7 milioni € per questo intervento [11].
+  - **Rifiuti sul fondale, 2° lotto**, con il Comune di Taranto: a maggio 2026 i soldi erano ancora "in fase di perfezionamento" [1]; la Regione nel 2024 parlava di 4,7 milioni € [11]. Con il **decreto n. 56 del 21 ottobre 2026** il Commissario lo rende "prioritario", per **5.224.848,56 €** (stima), e nomina il responsabile unico del progetto (ing. Francesco Voltasio) e la responsabile della gara [27]. I soldi sono quelli rimasti dei **21 milioni della Regione** per la messa in sicurezza dei fanghi con PCB [27]. Serve a togliere i rifiuti dal fondale davanti al lungomare che il Comune vuole rifare ("Riqualificazione e rinaturalizzazione del Waterfront Mar Piccolo"): il Comune prevede di aprire il cantiere entro febbraio 2027 e i rifiuti si toglieranno man mano che verranno smontati i moli [27]. Il decreto lo chiama "messa in sicurezza prodromica alla eventuale successiva bonifica dei sedimenti": non toglie i fanghi [27].
   - **"Area 170 ettari" – ecodragaggio**, in collaborazione con la **Marina Militare** dal 2025: si parte dalla zona dell'Arsenale, legata ai lavori di ammodernamento della base dei sommergibili [1]. È stato "velocizzato" il **piano di indagini**, il passo obbligatorio prima di dragare [1]. Si studia di allargare la rimozione dei sedimenti alle zone vicine [1].
   - Per l'Area 170 ettari **non ci sono ancora soldi certi né date**: l'opuscolo dice che sarà cofinanziata "anche nell'ambito del CIS Taranto" e che i tempi verranno decisi dopo aver formalizzato i ruoli con la Marina [1]. A gennaio 2026 il responsabile del CIS ha detto che darà il suo "assenso formale" [14].
 - **Giugno–agosto 2026, rifiuti su coste e fondali:** il 26 giugno 2026 il CIS ha approvato 500.000 € (stima) per togliere relitti e rifiuti da coste, spiagge e fondali del Mar Piccolo, anche in vista dei Giochi del Mediterraneo [19]. **Non sono soldi della gara:** vengono da avanzi di una vecchia delibera (CIPE 17/2003) [19][20]. Con il decreto n. 43/2026 il Comune di Taranto è stato incaricato dei lavori; il 7 agosto 2026 è partito il 1° stralcio "parte a terra" (250.000 €); gli altri 250.000 € sono per il 2° stralcio "parte a mare" [20]. *Il comunicato scrive per errore "500.000.000 euro"* [20]. È una pulizia da rifiuti, non una bonifica dei sedimenti [19][20].
@@ -99,6 +99,20 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
   - 21 milioni € dal Fondo sviluppo e coesione 2007-2013 della Regione Puglia (delibera CIPE 87/2012): 17,85 milioni già versati al Commissario secondo le relazioni del 2018 e del 2023 [6][7]. Un decreto del Commissario del 2025 scrive invece che la Regione ha versato 75 milioni € dei 75,17 assegnati con la stessa delibera a tre interventi (molo polisettoriale, PIP di Statte e Mar Piccolo), con tre determine del 2013, 2020 e 2021; con questi soldi è stato pagato anche il "completamento" della rimozione dei rifiuti dal fondale (scheda B5) [23];
   - 34 milioni € dal Fondo sviluppo e coesione 2014-2020 del Ministero dell'Ambiente (delibera CIPE 55/2016): 3,4 milioni versati al Commissario (dato 2023) [7].
   Questi 55 milioni non servivano solo per la gara: con lo stesso codice (CUP) sono stati pagati anche altri lavori nel Mar Piccolo, per esempio la rimozione del mercato ittico galleggiante affondato [1][7][9].
+- **Come sono stati usati i 21 milioni della Regione**, secondo la ricostruzione della Subcommissaria Annamaria Basile riportata nel decreto n. 56 del 21 ottobre 2026 [27]. La delibera li assegnava a "interventi di messa in sicurezza di emergenza (MISE) per la rimozione dei sedimenti contaminati da PCB [...] in corrispondenza delle aree di mitilicoltura" [27]. **Nessuna voce è una rimozione dei fanghi** [27]:
+  | Voce | Importo |
+  |---|---|
+  | Rimozione di rifiuti ingombranti dal fondale del 1° seno, I lotto | 1.695.190,75 € |
+  | Completamento del I lotto (scheda B5) | 4.041.717,03 € |
+  | Rimozione del mercato ittico galleggiante affondato | 3.084.294,08 € |
+  | Accantonati per una causa con l'impresa del mercato ittico | 1.200.000,00 € |
+  | Accordi con università, enti di ricerca e forze dell'ordine (studi sul Mar Piccolo e sulle fonti di inquinamento ancora attive) | 4.104.231,31 € |
+  | Indagini geognostiche sui sedimenti | 204.900,01 € |
+  | Convenzione con Sogesid: studio della falda e rilievo lidar (985.310,80 € già pagati) | 1.129.818,26 € |
+  | Quota dell'1,5% trattenuta dal Commissario (decreto-legge 1/2015) | 555.000,00 € |
+  | **Ancora disponibili, senza impegni** | **5.224.848,56 €** |
+
+  Gli studi e le indagini sono descritti come "prodromici alla successiva bonifica dei sedimenti", tutti conclusi [27]. I 5,2 milioni rimasti vanno ora al 2° lotto di rimozione dei rifiuti [27].
 - **OpenCoesione** (dati al 30 giugno 2026) [9][10]:
   | Progetto | Costo pubblico | Pagamenti |
   |---|---|---|
@@ -107,7 +121,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 
   I 21 milioni della Regione sembrano contati due volte: sono dentro i 55 milioni del primo progetto e compaiono anche come progetto a sé [9][10]. Il primo progetto è segnato come "In corso", fase "Esecuzione lavori", con avanzamento al 10% e superficie prevista di 30.000 m² [9].
 - **Spesi per la gara:** nel 2021, nella proposta al Tavolo del CIS, il Commissario indicava per la gara 39.345.637,64 € di risorse finanziate e **1.726.613,00 € di risorse spese** [8]. Non è scritto per cosa siano stati spesi. Non verificato.
-- **Dove sono finiti i soldi:** secondo i documenti trovati, **non sono stati spostati ufficialmente su altri progetti**. La richiesta del 2021 di spostarli non è stata approvata [7][8]. Nel 2024 la Regione scriveva che la gara era ancora "già dotata di copertura finanziaria" [11]. Su OpenCoesione il progetto ha ancora 55 milioni e risulta "in corso" [9]. **Il taglio è stato evitato:** a fine 2024 il governo (CIPESS) ha tolto quasi 3 miliardi a progetti dei Ministeri che non avevano firmato contratti in tempo, ma il progetto del Mar Piccolo è nell'elenco dei progetti **salvati** perché fanno parte del CIS Taranto (delibera n. 78 del 29/11/2024, Allegato 1, elenco C) [18]. Per i 21 milioni della Regione non ho trovato un atto simile. Non verificato. In pratica: circa 5,6 milioni pagati per altre attività nel Mar Piccolo [9]; il resto, circa 49,4 milioni (calcolo mio: 55 − 5,59), risulta non speso, e solo una parte (circa 21,25 milioni) è stata davvero versata al Commissario [6][7].
+- **Dove sono finiti i soldi:** secondo i documenti trovati, **non sono stati spostati ufficialmente su altri progetti**. La richiesta del 2021 di spostarli non è stata approvata [7][8]. Nel 2024 la Regione scriveva che la gara era ancora "già dotata di copertura finanziaria" [11]. Su OpenCoesione il progetto ha ancora 55 milioni e risulta "in corso" [9]. **Il taglio è stato evitato:** a fine 2024 il governo (CIPESS) ha tolto quasi 3 miliardi a progetti dei Ministeri che non avevano firmato contratti in tempo, ma il progetto del Mar Piccolo è nell'elenco dei progetti **salvati** perché fanno parte del CIS Taranto (delibera n. 78 del 29/11/2024, Allegato 1, elenco C) [18]. I 21 milioni della Regione, secondo il Commissario, sono passati nel Piano sviluppo e coesione della Regione Puglia (delibera CIPESS n. 17 del 29 aprile 2021) e ne restano 5,2 milioni senza impegni (ottobre 2026) [27]. In pratica: circa 5,6 milioni pagati per altre attività nel Mar Piccolo [9]; il resto, circa 49,4 milioni (calcolo mio: 55 − 5,59), risulta non speso, e solo una parte (circa 21,25 milioni) è stata davvero versata al Commissario [6][7].
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -144,6 +158,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 | 14 luglio 2026 | L'Università di Bari manda al Commissario le raccomandazioni del percorso partecipativo | [22] |
 | 7 agosto 2026 | Parte la rimozione dei rifiuti sulle coste (1° stralcio, 250.000 €) | [20] |
 | 4 settembre 2026 | Decreto n. 48: il Commissario recepisce le raccomandazioni, senza nuove spese | [22] |
+| 21 ottobre 2026 | Decreto n. 56: gli ultimi 5,2 milioni dei 21 della Regione vanno al 2° lotto di rimozione dei rifiuti dal fondale | [27] |
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 18–22 (pagine 19–23 del PDF; la gara è a pag. 19), https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
@@ -198,9 +213,11 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 
 [26] Regione Puglia, comunicato *Mitilicoltura Taranto, prorogate le misure sanitarie straordinarie di controllo del rischio per diossina e policlorobifenili*, 5 settembre 2024 (ordinanza n. 379 del 5 settembre 2024), https://press.regione.puglia.it/-/mitilicoltura-taranto-prorogate-le-misure-sanitarie-straordinarie-di-controllo-del-rischio-per-diossina-e-policlorobifenili — copia in `fonti/2024-09_regione-puglia_comunicato-ordinanza-379-2024-mitili.html`
 
+[27] Commissario straordinario per la bonifica di Taranto, *Decreto n. 56 del 21 ottobre 2026*, "CIS Taranto. PSC Regione Puglia - Delibera CIPE 87/2012. Intervento di "Rimozione del materiale di natura antropica dai fondali del I Seno del Mar Piccolo - II lotto". Nomina del Responsabile Unico del Progetto e del Responsabile del Procedimento", CUP J56J14000460001, pagine 3–6, https://commissari.gov.it/media/lnsjudnp/20261021_d_56_nomina_rup_marine-litter-ii-lotto_signed_signed.pdf — copia in `fonti/2026-10_commissario-taranto_decreto-56-rup-rimozione-rifiuti-fondale-lotto2.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Che cosa prevede l'accordo con la Marina Militare?** Oggi il Commissario lavora con la Marina su una sola zona, l'«Area 170 ettari» (scheda B12), ma fondi e tempi non sono decisi [1][11][14]. Non abbiamo trovato l'atto firmato tra Commissario e Marina, né il piano di indagini, né quanto costerà, né chi pagherà [1][14]. Non verificato.
-2. [blocca] **I soldi per il Mar Piccolo sono ancora disponibili?** Soldi vecchi come quelli del 2012 e del 2016 rischiano di scadere: il cimitero San Brunone ha perso così la quota della Regione (vedi scheda B8). Per i 55 milioni del Ministero il taglio è stato evitato con la delibera CIPESS n. 78/2024 [18]; per i 21 milioni della Regione non abbiamo trovato nessun documento che dica se siano ancora validi o siano stati tolti. Non verificato.
+2. [blocca] **Restano soldi per togliere i fanghi?** Dei 21 milioni della Regione non resta niente per i fanghi: gli ultimi 5,2 milioni vanno alla rimozione dei rifiuti dal fondale (decreto n. 56 del 21 ottobre 2026) [27]. Restano i 34 milioni del Ministero (delibera CIPE 55/2016), salvati dal taglio con la delibera CIPESS n. 78/2024 [18], di cui 3,4 milioni versati al Commissario nel 2023 [7]: non abbiamo trovato un atto che dica quanti ne restano e a cosa saranno destinati. Non verificato.
 3. [altra] **La gara è stata chiusa ufficialmente?** C'è solo la sospensione del 21 agosto 2020 [7][8]: non risulta nessun atto che annulli o chiuda la gara. Nella banca dati nazionale delle gare (ANAC) la gara è ancora **"attiva"**, senza vincitori [15][17]. Sullo stesso codice di finanziamento del Mar Piccolo compaiono anche spese che non c'entrano con il Mar Piccolo: per esempio un articolo scientifico sul turismo alle isole Tremiti [16]. Potrebbe essere un errore di compilazione: non si sa. Le 6 imprese ammesse potrebbero avere ancora diritti o pretese. Non verificato. Il 9 ottobre 2026 abbiamo ricontrollato: l'elenco dei decreti 2026 del Commissario non contiene atti sulla gara, e due ricerche sul web non hanno trovato notizie sulla sua chiusura.
 4. [altra] **Quanto c'è di PCB, diossine e metalli nei fanghi?** Mancano le concentrazioni misurate: la relazione ISPRA del 2010, lo studio ARPA del 2014 e i risultati della campagna del Commissario 2016–2017 non sono online [7][13]. Nell'archivio documenti del Ministero dell'Ambiente (SIN Taranto, controllato il 1/10/2026) non c'è nessun documento sui sedimenti del Mar Piccolo, né del Commissario né della Marina. La relazione ISPRA del 2010 ha il codice "CII-El-PU-TA-Mar Grande II Lotto e Mar Piccolo-01.06". Non verificato.
 5. [altra] **Chi erano le imprese?** I nomi dei 9 operatori selezionati e dei 6 raggruppamenti ammessi non sono pubblicati online [3][4]. Non verificato.
@@ -208,7 +225,8 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 7. [fonti] **Perché si è fermata la gara?** L'opuscolo parla di problemi emersi "durante la fase di negoziazione con i raggruppamenti di imprese" e di "nuove prospettive" scientifiche [1]. Ma secondo la relazione del Prefetto Martino e la Commissione parlamentare la gara è stata sospesa per la scadenza del mandato della Commissaria, subito dopo l'ammissione dei concorrenti, prima della trattativa [7][8]; poi è rimasta ferma per i dubbi sui costi e sui benefici [7][8].
 8. [fonti] **I numeri dei soldi non tornano tra le fonti.**
    - pagamenti: 4.588.677,56 € a dicembre 2018 secondo il Commissario [6], ma OpenCoesione registra il primo pagamento solo ad aprile 2021 [9];
-   - i 21 milioni della Regione: 17,85 milioni versati al Commissario secondo le relazioni [6][7], praticamente tutto versato secondo il decreto del 2025 [23], 0 € pagati secondo OpenCoesione [10], anche se almeno il completamento della rimozione dei rifiuti (scheda B5) è stato pagato con questi soldi [23];
+   - i 21 milioni della Regione: 17,85 milioni versati al Commissario secondo le relazioni [6][7], praticamente tutto versato secondo il decreto del 2025 [23], 0 € pagati secondo OpenCoesione [10], mentre il Commissario nel 2026 elenca circa 16 milioni di lavori, studi e accantonamenti già fatti con questi soldi (calcolo mio: 21,24 − 5,22) [27];
+   - le voci del decreto n. 56 sommano 21.240.000 €, non 21.000.000 (calcolo mio) [27]. La differenza è nella quota dell'1,5%: il decreto scrive 555.000 €, che è l'1,5% di 37 milioni (un altro intervento della stessa delibera), mentre l'1,5% di 21 milioni è 315.000 €; con 315.000 € le voci darebbero esattamente 21 milioni (calcolo mio) [27];
    - risorse "finanziate" per la gara: 39.345.637,64 € nel 2021 [8], 32.276.250 € + IVA nel bando [2].
    Non verificato.
 9. [fonti] **Quanto era grande l'area della prova?** "Poco più di 14 ettari" secondo il Prefetto Martino [7], 30.000 m² (3 ettari) di superficie prevista su OpenCoesione [9]. Non verificato.

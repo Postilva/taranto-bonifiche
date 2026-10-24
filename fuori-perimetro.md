@@ -18,7 +18,7 @@ Fonte principale: [Opuscolo del Commissario, maggio 2026](https://commissari.gov
 
 | # | Intervento | Cosa dice la fonte | Pag. | Scheda |
 |---|---|---|---|---|
-| B11 | Mar Piccolo: rifiuti sul fondale del 1° seno (2° lotto) | Solo programmazione: nessun progetto, gara o data. La Regione stimava 4,7 milioni (2024) e nel 2025 ha chiesto al Governo circa 5 milioni; i fondali sono quelli davanti al waterfront del Comune (6 milioni, ancora in affidamento). ⚠ Non partito, e comunque non tocca i fanghi. | 21 | ✅ [scheda](interventi/fuori-perimetro/mar-piccolo-rifiuti-lotto2.md) |
+| B11 | Mar Piccolo: rifiuti sul fondale del 1° seno (2° lotto) | Decreto n. 56 del 21/10/2026: "prioritario", 5,22 milioni (gli ultimi dei 21 della Regione per i fanghi del Mar Piccolo), nominato il responsabile; nessun progetto o gara. I fondali sono quelli davanti al waterfront del Comune (6 milioni, ancora in affidamento). ⚠ Non partito, e comunque non tocca i fanghi. | 21 | ✅ [scheda](interventi/fuori-perimetro/mar-piccolo-rifiuti-lotto2.md) |
 | B15 | Filiere verdi | Piante per ripulire il suolo su circa 90 ettari pubblici: finanziata solo la parte a terra (23 milioni, marzo 2026), progetto in scrittura, nessuna gara. ⚠ Non "operativo" come dice l'opuscolo; nessun dato sui risultati. | 29–31 | ✅ [scheda](interventi/fuori-perimetro/filiere-verdi.md) |
 
 ### Nel programma del Commissario, ma non sono opere ambientali

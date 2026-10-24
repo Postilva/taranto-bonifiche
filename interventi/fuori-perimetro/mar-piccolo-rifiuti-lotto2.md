@@ -1,8 +1,8 @@
 # B11 – Mar Piccolo: rifiuti sul fondale del 1° seno, 2° lotto
-*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 24 ottobre 2026*
 
 ## In breve
-Il 2° lotto serve a togliere altri rifiuti dal fondale del 1° seno del Mar Piccolo, dopo quelli già tolti nel 1° lotto, e sarà fatto con il Comune di Taranto [1][5]. Per ora esiste solo l'idea: l'opuscolo del Commissario (maggio 2026) dice che si sta ancora "perfezionando la programmazione finanziaria" e che il progetto verrà dopo [1]. La Regione Puglia nel 2024 indicava 4,7 milioni € per questa prosecuzione, e a dicembre 2025 ha chiesto al Governo circa 5 milioni € per togliere i rifiuti dal fondale del 1° seno [2][6]. I fondali da pulire sono quelli davanti al "waterfront Mar Piccolo", un progetto del Comune da 6 milioni € che va da via Nuova al piazzale Democrate e che a giugno 2026 era ancora "in affidamento" [1][7][8]. **Non è partito nessun lavoro, e togliere rifiuti non è bonificare: i fanghi inquinati del 1° seno restano dove sono** [1].
+Il 2° lotto serve a togliere altri rifiuti dal fondale del 1° seno del Mar Piccolo, dopo quelli già tolti nel 1° lotto, e sarà fatto con il Comune di Taranto [1][5]. Per ora esiste solo l'idea: l'opuscolo del Commissario (maggio 2026) dice che si sta ancora "perfezionando la programmazione finanziaria" e che il progetto verrà dopo [1]. La Regione Puglia nel 2024 indicava 4,7 milioni € per questa prosecuzione, e a dicembre 2025 ha chiesto al Governo circa 5 milioni € per togliere i rifiuti dal fondale del 1° seno [2][6]. I fondali da pulire sono quelli davanti al "waterfront Mar Piccolo", un progetto del Comune da 6 milioni € che va da via Nuova al piazzale Democrate e che a giugno 2026 era ancora "in affidamento" [1][7][8]. Il **21 ottobre 2026**, con il decreto n. 56, il Commissario ha reso l'intervento "prioritario", con un costo stimato di **5.224.848,56 €**, e ha nominato il responsabile unico del progetto (ing. Francesco Voltasio) e la responsabile della gara (dott.ssa Emanuela Fiucci) [9]. I soldi sono gli ultimi rimasti dei 21 milioni della Regione per la messa in sicurezza dei fanghi del Mar Piccolo (CUP J56J14000460001, scheda B13) [9]. **Non è partito nessun lavoro, e togliere rifiuti non è bonificare: i fanghi inquinati del 1° seno restano dove sono** [1][9].
 
 ## Chi se ne occupa
 - Il **Commissario straordinario per la bonifica di Taranto**, Vito Felice Uricchio, che inserisce l'intervento tra i "progetti in cantiere" [1].
@@ -34,8 +34,8 @@ Il 2° lotto serve a togliere altri rifiuti dal fondale del 1° seno del Mar Pic
 - Questa pulizia riguarda soprattutto il 2° seno [3], mentre il waterfront del 2° lotto è nel 1° seno [7]. I comunicati **non dicono** che i 250.000 € per i fondali siano il "2° lotto" dell'opuscolo [3][4]. Non verificato.
 
 ## Soldi
-- **Promessi:** nessun importo assegnato. Ci sono solo stime: 4,7 milioni € nella lista della Regione del 2024, dentro i 429,7 milioni € del Mar Piccolo 1° seno [2], e 5.041.858,30 € nella richiesta della Regione al Governo del 9 dicembre 2025 [6].
-- **Disponibili e certi:** non si sa. L'opuscolo dice solo che la programmazione finanziaria è in corso di perfezionamento [1].
+- **Assegnati:** 5.224.848,56 € (stima) dal decreto n. 56 del 21 ottobre 2026, presi dai fondi della delibera CIPE 87/2012 (Fondo sviluppo e coesione 2007-2013 della Regione, oggi nel Piano sviluppo e coesione della Regione Puglia), cioè dai 21 milioni per la messa in sicurezza dei fanghi con PCB del Mar Piccolo [9]. Il decreto li definisce "non gravate da alcuna obbligazione vincolante" [9].
+- **Stime precedenti:** 4,7 milioni € nella lista della Regione del 2024, dentro i 429,7 milioni € del Mar Piccolo 1° seno [2], e 5.041.858,30 € nella richiesta della Regione al Governo del 9 dicembre 2025 [6].
 - **Spesi:** nulla risulta [1].
 - Il waterfront del Comune (6 milioni €, 124.065,22 € spesi a giugno 2026) è un progetto diverso, sulla riva [8].
 
@@ -50,6 +50,7 @@ Il 2° lotto serve a togliere altri rifiuti dal fondale del 1° seno del Mar Pic
 | 26 giugno 2026 | Il CIS approva 500.000 € per coste e fondali, soprattutto del 2° seno (non è detto che sia il 2° lotto) | [3] |
 | 30 giugno 2026 | Il waterfront del Comune è ancora "in affidamento", speso il 2% | [8] |
 | 7 agosto 2026 | Parte la "parte a terra" (250.000 €); la "parte a mare" è ancora da fare | [4] |
+| 21 ottobre 2026 | Decreto n. 56: il 2° lotto è "prioritario" (5.224.848,56 €), nominati responsabile del progetto e della gara | [9] |
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 21 ("I progetti in cantiere"), https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
@@ -68,12 +69,14 @@ Il 2° lotto serve a togliere altri rifiuti dal fondale del 1° seno del Mar Pic
 
 [8] OpenCoesione (Presidenza del Consiglio – Dipartimento per le politiche di coesione), progetto *Waterfront Mar Piccolo – Riqualificazione e rinaturalizzazione del waterfront Mar Piccolo*, CUP E55C15000090001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1misefsc-cistaranto4/ (dati scaricati dall'API ufficiale) — copia in `fonti/2026-06_opencoesione_waterfront-mar-piccolo-6mln.json`
 
+[9] Commissario straordinario per la bonifica di Taranto, *Decreto n. 56 del 21 ottobre 2026*, nomina del RUP per la "Rimozione del materiale di natura antropica dai fondali del I Seno del Mar Piccolo - II lotto", CUP J56J14000460001, pagine 3–6, https://commissari.gov.it/media/lnsjudnp/20261021_d_56_nomina_rup_marine-litter-ii-lotto_signed_signed.pdf — copia in `fonti/2026-10_commissario-taranto_decreto-56-rup-rimozione-rifiuti-fondale-lotto2.pdf`
+
 ## Cosa non sappiamo
-1. **Se il 2° lotto è finanziato.** L'opuscolo dice che la programmazione è "in fase di perfezionamento" [1]; la Regione l'ha chiesto al Governo nel dicembre 2025 [6]. Non ho trovato l'atto che assegna i soldi. Non verificato.
-2. **Quanto costa davvero.** Le stime sono 4,7 milioni € (2024) e 5.041.858,30 € (2025) [2][6]. Non c'è un progetto con un quadro economico. Non verificato.
+1. **Quanto costa davvero.** Le stime sono 4,7 milioni € (2024), 5.041.858,30 € (2025) e 5.224.848,56 € (decreto n. 56 del 2026, pari ai soldi rimasti) [2][6][9]. Non c'è un progetto con un quadro economico. Non verificato.
+2. **Che fine fa la richiesta al Governo del 2025** (5.041.858,30 € dai fondi FSC 2021-2027 del Ministero) ora che il lavoro è pagato con i vecchi fondi della Regione [6][9]. Non verificato.
 3. **Se la "parte a mare" da 250.000 € del 2026 è il 2° lotto**, o una cosa diversa. Il waterfront è nel 1° seno [7], la pulizia del 2026 punta al 2° seno [3]: sembrano due cose diverse, ma nessun atto lo dice. Non verificato.
 4. **Quanti rifiuti restano sul fondale** e dove esattamente. Non verificato.
-5. **Quando potrà partire.** Nessun documento dà date [1]. Il waterfront del Comune dovrebbe finire entro marzo 2028 [8]; non so se il 2° lotto debba essere fatto prima. Non verificato.
+5. **Quando potrà partire.** Il Comune ha detto al CIS (30 gennaio 2026) che il cantiere del waterfront partirà entro febbraio 2027 e che i rifiuti si toglieranno man mano che verranno smontati i moli [9]; il waterfront dovrebbe finire entro marzo 2028 [8]. Per il 2° lotto non ci sono ancora progetto né gara [9]. Non verificato.
 
 ### Richieste di accesso civico (FOIA) n. 25 e 26 — da inviare tu
 La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`). Sostituiscono il punto 4 della vecchia bozza comune nella scheda B5.
