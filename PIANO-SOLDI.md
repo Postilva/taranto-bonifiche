@@ -74,7 +74,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 
 ## Terza parte: da dove vengono i soldi
 
-### [ ] 7. L'elenco dei fondi (`fondi.md`)
+### [x] 7. L'elenco dei fondi (`fondi.md`) (fatto il 25/10/2026: 13 fondi pubblici e il Patrimonio Destinato di Ilva, 1.157 mln dall'accordo con i Riva secondo la Commissione parlamentare; delibera CIPE 87/2012 in una sezione con le quote; fondi non per la bonifica in una riga in fondo; nessuna soglia; la quota dell'1,5% del Commissario spiega, per calcolo nostro, le differenze di Cimitero, PIP e decreto n. 56)
 - Un file nuovo con una sezione per ogni fondo: nome semplice, chi l'ha dato, atto (delibera, decreto, accordo), importo, per cosa doveva servire, CUP, in quali report è finito e con quanto, quanto è stato speso (con data), fonti.
 - Partire da quello che c'è già nelle schede, cominciando dal Mar Piccolo, che è il caso più ingarbugliato: FSC 2007-2013 della Regione (21 mln, CIPE 87/2012), FSC 2014-2020 del Ministero (34 mln, CIPE 55/2016), poi la delibera CIPE 87/2012 intera (75,17 mln con PIP Statte e molo), il fondo di 8 mln per i suoli del Tamburi, la CIPESS 51/2025 (89,9 mln, PIP Statte), il contributo del Ministero delle Infrastrutture al Comune (1,50 mln).
 - **I soldi di Ilva:** da dove vengono le cifre "secondo Ilva" (fondi di Ilva in AS, somme recuperate dai Riva, altro)? Cercarlo in una fonte ufficiale (decreti, relazioni al Parlamento, archivio MASE). Finché non c'è, sul sito resta "secondo Ilva" e la domanda va in "Cosa non sappiamo".
