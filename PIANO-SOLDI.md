@@ -95,7 +95,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 - Se non c'è: una FOIA al MASE (ed eventualmente a Ilva in AS, se è tenuta a rispondere: verificarlo) per lo stato della spesa per intervento, via PEC, pacchetto in `.tmp/foia/invio/`. Mai accettare costi di ricerca.
 - Le cifre nuove entrano nelle schede con data e fonte; quelle del 2022 restano come storia.
 
-### [ ] 10. I fondi pubblici aggiornati (OpenCoesione e OpenCUP)
+### [x] 10. I fondi pubblici aggiornati (OpenCoesione e OpenCUP) (fatto il 25/10/2026: OpenCoesione è ancora ai dati del 30 giugno 2026; nuovi il CUP J76J17000370002 dei 750.000 € dell'area vasta di Statte, impegnati nel 2021 e senza pagamenti, che dà la prima barra dei fondi pubblici (0%), le analisi del 2014–2015 dell'area vasta, 1,14 mln tutti pagati, la delibera CIPE 93/2017 e i tre pagamenti della Gravina, il costo OpenCUP di 275.192 € della Gravina e il CUP dell'intervento d'emergenza del PIP; date dell'ultimo pagamento in fondi.md; script in `.tmp/lavoro/controllo-opencoesione.py` e `controllo-opencup.py`)
 - Per ogni CUP dei fondi del task 7: costo pubblico e pagamenti a oggi su OpenCoesione e OpenCUP, atti del Comune sul portale trasparenza. Aggiornare "Già spesi" con data.
 - Dove i pagamenti sono fermi da anni o a 0 €, scriverlo con la data dell'ultimo pagamento.
 - Ripetibile: annotare in fondo a `fondi.md` la data dell'ultimo controllo.
