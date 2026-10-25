@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="../stile.css?v=202610241200">
+<link rel="stylesheet" href="../stile.css?v=202610251500">
 
 <header class="topbar">
   <div class="in">
@@ -32,6 +32,7 @@
     <nav aria-label="Pagine">
       <a href="../index.html">Inizio</a>
       <a href="../mappa.html">Mappa</a>
+      <a href="../soldi.html">Soldi</a>
     </nav>
   </div>
 </header>
@@ -49,8 +50,8 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="../dati.js?v=202610241200"></script>
-<script src="../comune.js?v=202610241200"></script>
+<script src="../dati.js?v=202610251500"></script>
+<script src="../comune.js?v=202610251500"></script>
 <script>
 /* Report di un intervento: r/<id-scheda>.html (oppure #<id-scheda>-f<n> per aprire una fonte), scritta da costruisci.py
    a partire da questa pagina; i vecchi link report.html#<id-scheda> rimandano lì.
@@ -137,6 +138,8 @@ function infoHtml(s){
   rows.push([money.length ? `Soldi ${soldiInfo("soldi-info")}` : "Soldi", money.length
     ? `${soldiInfoBox("soldi-info")}${s.soldiFrase ? `<p class="soldi-frase">${cite(esc(s.soldiFrase), s.id)}</p>` : ""}<div class="soldi" style="--n:${money.length}">${money.map(casella).join("")}${barra}${strane}${note.length ? `<ul class="why">${note.map(r => `<li><b>${esc(nomeSoldi(r))}</b>: ${cite(r.note, s.id)}</li>`).join("")}</ul>` : ""}</div>`
     : `<span class="muted small">${s.sections.some(x => /^soldi/i.test(x.title)) ? `I dettagli sono più sotto, in <a href="#" data-open="soldi">Soldi</a>.` : "Nessuna cifra verificata nelle fonti."}</span>`]);
+  // i fondi che pagano l'intervento (fondi.md, letto da costruisci.py): ognuno porta al suo riquadro in soldi.html
+  if (s.fondi.length) rows.push(["Da dove vengono i soldi",`<p class="fondi-di">${s.fondi.map(f => `<a href="${RADICE}soldi.html#${f.id}">${esc(f.nome)} →</a>`).join("")}</p>`]);
   rows.push(["Aggiornata al", `<span>${esc(s.updated)}</span>`]);
   return `<section class="card kv">${rows.map(([k,v]) => `<div><span class="k">${k}</span>${v}</div>`).join("")}</section>`;
 }
