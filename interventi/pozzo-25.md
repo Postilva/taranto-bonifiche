@@ -1,5 +1,5 @@
 # A17 – Area Pozzo 25 (il pozzo che irriga le Collinette ecologiche)
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -76,15 +76,16 @@ Il terreno è sotto i limiti di legge, ma l'acqua sotterranea dell'area è, per 
 - Ilva, alla fine del 2025 (prima del decreto), metteva "in agenda" un eventuale piano di bonifica dopo l'approvazione dell'analisi di rischio [13]. Non abbiamo trovato atti successivi. Non verificato.
 
 ## Soldi
-**Ilva ha messo da parte circa 390.000 € per quest'area; fino a luglio 2022 ne aveva spesi meno di 10.000 €. Quanto sono costati dopo analisi, controlli e impianto a osmosi non si sa.** [2]
+**Ilva ha messo da parte circa 390.000 € per quest'area; fino a febbraio 2023 ne aveva spesi circa 70.000 €, circa il 18% (calcolo nostro). Quanto sono costati dopo analisi, controlli e impianto a osmosi non si sa.** [21]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] circa 390.000 € · Ilva · luglio 2022 [2] assegnati; circa 150.000 € impegnati in ordini
-- [spesi] meno di 10.000 € · Ilva · luglio 2022 [2]
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [2]
+- [disponibili] circa 390.000 € · Ilva · febbraio 2023 [21] assegnati; circa 240.000 € impegnati in ordini
+- [spesi] circa 70.000 € · Ilva · febbraio 2023 [21]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [21]
 
 - Nel luglio 2022, secondo Ilva: **0,39 milioni €** assegnati all'area, 0,15 impegnati in ordini, meno di 0,01 pagati [2].
-- Costi successivi (analisi, controlli, impianto a osmosi): **non verificato**.
+- A febbraio 2023, secondo Ilva: 0,24 milioni impegnati in ordini, 0,07 fatturati e 0,07 pagati [21].
+- Costi successivi al febbraio 2023 (analisi, controlli, impianto a osmosi): **non verificato**.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -152,6 +153,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [19] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pag. 59, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
 
 [20] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, foglio 202; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
+
+[21] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 14 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Che cosa succede ora che l'acqua è "contaminata"?** Nell'archivio del Ministero (area 3919), al 13 ottobre 2026, l'ultimo documento è il decreto del 26 maggio 2026; una ricerca online dello stesso giorno non ha trovato altro. Per legge, quando si superano le soglie calcolate con l'analisi di rischio servono messa in sicurezza e bonifica [11]. Il decreto però chiede solo controlli [1], e l'analisi di Ilva non ha calcolato quelle soglie, ma ha usato indizi [9]. Non sappiamo se il Ministero chiederà dei lavori, né se i controlli del 2026 siano stati fatti. Non verificato.

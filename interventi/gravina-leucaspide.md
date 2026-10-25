@@ -1,5 +1,5 @@
 # A1 – Gravina di Leucaspide e "Vecchie Vasche" (sotto sequestro)
-*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -68,15 +68,15 @@ Ai tempi dell'Italsider lungo la gravina sono stati ammucchiati circa 5 milioni 
 - La Commissione riporta che, secondo il pubblico ministero sentito in audizione, uno studio fatto fare dal gruppo Riva quando comprò l'azienda nel 1995 indicava già la gravina come un problema da bonificare [10]. Questa è la ricostruzione della Commissione, non una sentenza.
 
 ## Soldi
-**Ilva ha messo da parte 226,6 milioni €, ma fino a luglio 2022 ne aveva spesi circa 120.000 €, meno dello 0,1% (calcolo nostro). Il Comune di Statte ha avuto 300.000 € per il progetto e ne ha usati circa 192.000; per i lavori non c'è ancora un costo.** [1][7][11]
+**Ilva ha messo da parte 226,6 milioni €, ma fino a febbraio 2023 ne aveva spesi circa 230.000 €, circa lo 0,1% (calcolo nostro). Il Comune di Statte ha avuto 300.000 € per il progetto e ne ha usati circa 192.000; per i lavori non c'è ancora un costo.** [1][20][11]
 
 - [costo] non c'è · nessun costo stimato: non c'è ancora un progetto dei lavori [1]
-- [disponibili · Ilva] 226.600.000 € · Ilva · luglio 2022 [7] "allocati"; impegnati in contratti circa 310.000 €
+- [disponibili · Ilva] 226.600.000 € · Ilva · febbraio 2023 [20] "allocati"; impegnati in contratti 1.210.000 €
 - [disponibili · Comune] 300.000 € · OpenCoesione · giugno 2026 [11] finanziamento della progettazione del Comune di Statte (fondi di coesione): 191.575,16 € di costo e 108.424,84 € non usati
-- [spesi] circa 120.000 € · Ilva · luglio 2022 [7] per i lavori nessuna cifra
-- [confronto · Ilva] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [7]
+- [spesi] circa 230.000 € · Ilva · febbraio 2023 [20] per i lavori nessuna cifra
+- [confronto · Ilva] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [20]
 
-- **Ilva:** a luglio 2022 Ilva indicava per quest'area **226,6 milioni € "allocati"** (cioè messi in conto), ma solo **0,31 milioni impegnati** in contratti e **0,12 milioni pagati** [7]. Le relazioni successive non danno cifre. Non verificato quanto sia stato speso dopo il 2022.
+- **Ilva:** a luglio 2022 Ilva indicava per quest'area **226,6 milioni € "allocati"** (cioè messi in conto), ma solo **0,31 milioni impegnati** in contratti e **0,12 milioni pagati** [7]. A febbraio 2023: 1,21 milioni impegnati, 0,31 fatturati e **0,23 milioni pagati** [20]. Dopo febbraio 2023 le fonti non danno cifre. Non verificato quanto sia stato speso dopo.
 - **Comune di Statte (progetto):** 191.575,16 € di fondi pubblici di coesione per la progettazione [11]. Il finanziamento era di 300.000 €: 191.575,16 € di costo più 108.424,84 € di "economie" (soldi non usati) [11] (somma fatta da noi).
 - **Lavori di messa in sicurezza o bonifica:** nessun costo stimato, perché non c'è ancora un progetto [1].
 
@@ -153,12 +153,14 @@ Tutti i documenti del Ministero su questa procedura sono nell'archivio https://b
 
 [19] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagine 34–35, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
 
+[20] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 11 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Le analisi complete sono partite?** L'area è sotto sequestro e il permesso del giudice per entrarci è arrivato solo a febbraio 2024 [1][19]. L'ultima notizia è un sopralluogo con ARPA a settembre 2025 [1]. Le relazioni di Ilva del 2026 non sono ancora pubblicate e nell'archivio del Ministero non ci sono documenti su quest'area dopo il 2022 (controllato il 12 ottobre 2026); una ricerca sul web non ha trovato notizie del 2026.
 2. [blocca] **Le analisi guarderanno proprio i rifiuti?** Secondo ISPRA il piano approvato non comprende la zona delle colline e delle vasche, dove stanno i rifiuti [5]. Ilva scrive invece che i risultati delle indagini già fatte lì confluiranno nelle analisi [1]. Non è chiaro chi e quando valuterà nel complesso le colline come fonte di inquinamento.
 3. [altra] **Quali limiti valgono?** Ilva confronta i suoi risultati con i limiti per le aree industriali [1]. Ma per il piano urbanistico di Statte quasi tutta l'area è zona rurale di valore ambientale e paesaggistico [4], e il decreto ha chiesto al Comune di Statte di chiarire l'uso dei terreni [2]. Non abbiamo trovato nessuna risposta del Comune. Con limiti più severi, i superamenti potrebbero essere di più: nessuna fonte lo ha verificato.
 4. [altra] **Le colline sono sicure?** Ilva dice che i controlli non mostrano problemi [1], ma la stessa relazione riporta un abbassamento del terreno nella maggior parte dei sensori e zone che potrebbero franare [1]. La messa in sicurezza delle colline è ancora da progettare [1]. Non abbiamo trovato una relazione di ARPA o di un altro ente pubblico che valuti questi dati.
-5. [altra] **Quanto è stato speso da Ilva?** C'è solo la cifra di luglio 2022 (0,12 milioni pagati su 226,6 milioni messi in conto) [7]. Dopo: non verificato.
+5. [altra] **Quanto è stato speso da Ilva?** L'ultima cifra è di febbraio 2023 (0,23 milioni pagati su 226,6 milioni messi in conto) [20]. Dopo: non verificato.
 6. [altra] **Che cosa contiene il progetto del Comune di Statte?** Non sappiamo che parte della gravina riguarda e se è stato usato da qualcuno [11][12]. Il saldo è stato pagato con il decreto n. 53 del 2 ottobre 2026 [14], ma il decreto non descrive i risultati delle indagini né dice se il progetto definitivo sia stato scritto. Un giornale del 2021 riportava che il Comune voleva intervenire su due tratti della gravina (dalla cava Mater Gratiae al cimitero di Statte e dal cimitero alla chiesa di San Michele) con 5,5 milioni di fondi del Ministero: **non verificato**. Una ricerca sul web restituisce anche una seconda pagina di OpenCoesione sulla gravina, con un altro codice (CUP J74J18000120001, 300.000 €), che però non si apre più dal sito: **non verificato** se sia lo stesso progetto registrato prima con un altro codice. Per il "tratto nord" previsto dall'accordo del 2021 non abbiamo trovato atti [18].
 7. [altra] **A che punto è il processo penale?** Nel 2022 era in corso [10]. Lo stato attuale e la data esatta del sequestro: non verificati.
 8. [fonti] **Dov'è la Masseria Leucaspide rispetto all'area?** È una masseria vicina, dove secondo le fonti si fanno anche percorsi naturalistici, eventi e matrimoni [6]. Ilva scrive che è a circa 150 metri a est dell'area; ARPA e ISPRA scrivono che è a ovest [5][6]. Il decreto chiede di tenerne conto nel calcolo del rischio [2].

@@ -90,7 +90,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 
 ## Quarta parte: dati nuovi (ricerca)
 
-### [ ] 9. Le cifre di Ilva dopo luglio 2022
+### [x] 9. Le cifre di Ilva dopo luglio 2022 (fatto il 25/10/2026: le cifre per area più recenti sono quelle di Ilva al 28 febbraio 2023, nell'aggiornamento per l'Osservatorio del 29 marzo 2023, ora in 17 schede con Nord-Ovest, 12 mln; dopo non c'è nulla. Le relazioni semestrali dei commissari al Parlamento sul conto 6055 (Doc. XXVII) danno i pagamenti di Ilva "per attività di Decontaminazione" in tutto, non per area, i 250 mln ad Acciaierie d'Italia del 2025 (DL 3/2025) e quanto resta del Patrimonio Destinato: 133,4 mln a giugno 2025, 80,6 a dicembre 2025; tolto il punto "387,5 a marzo 2025", superato. Le relazioni del secondo semestre 2023 e del primo semestre 2024 non sono pubblicate. Le pagine "OMISSIS" delle relazioni trimestrali hanno ancora il testo nascosto: non usato. Nessuna FOIA per ora, scelta dell'utente)
 - Il blocco A ha quasi solo la tabella di Ilva di luglio 2022. Cercare un resoconto più recente: online e nell'archivio MASE (relazioni dei commissari di Ilva in AS, rendiconti al Ministero, relazioni al Parlamento, Corte dei conti), come da regola delle ricerche prima delle FOIA.
 - Se non c'è: una FOIA al MASE (ed eventualmente a Ilva in AS, se è tenuta a rispondere: verificarlo) per lo stato della spesa per intervento, via PEC, pacchetto in `.tmp/foia/invio/`. Mai accettare costi di ricerca.
 - Le cifre nuove entrano nelle schede con data e fonte; quelle del 2022 restano come storia.

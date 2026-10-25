@@ -1,5 +1,5 @@
 # A5 + A6 – Stoccaggio fanghi dell'altoforno e dell'acciaieria (AFO/ACC) e aree vicine
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -93,17 +93,19 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 - **Verifica sul catasto** (23 ottobre 2026): il punto del piano cade in una particella con il numero 917, che il piano non nomina; accanto ci sono le particelle 51 e 192, mentre la 50 e la 424 non compaiono sulla mappa di oggi, forse perché sono state divise e hanno cambiato numero. Per questo il pallino resta sul punto del piano [22].
 
 ## Soldi
-**Ilva ha messo da parte 75 milioni € per i fanghi e ne aveva impegnati 69,2 in ordini, ma fino a luglio 2022 ne aveva pagati 7,89, circa il 10% (calcolo nostro). Quanto ha speso dopo non si sa.** [7]
+**Ilva ha messo da parte 75 milioni € per i fanghi; a febbraio 2023 ne aveva impegnati 80,1 in ordini, più di quanto previsto, e pagati 25,22, circa un terzo (calcolo nostro). Quanto ha speso dopo non si sa.** [23]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 75.030.000 € · Ilva · luglio 2022 [7] per i fanghi; per le aree vicine altri 12.900.000 €
-- [spesi] 7.890.000 € · Ilva · luglio 2022 [7]
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [7]
+- [disponibili] 75.030.000 € · Ilva · febbraio 2023 [23] per i fanghi; impegnati 80.120.000 €; per le aree vicine altri 12.900.000 €
+- [spesi] 25.220.000 € · Ilva · febbraio 2023 [23]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [23]
+- [stranezza · più del previsto] A febbraio 2023 gli impegni indicati da Ilva, 80,12 milioni €, superavano di 5,09 milioni i 75,03 milioni di fondi previsti [23]
 
 - **Speso o impegnato fino al 31 ottobre 2018** per la rimozione dei fanghi della zona Ilva: 8,37 milioni € [16].
 - **Al 12 luglio 2022**, secondo Ilva: 75,03 milioni € stanziati per l'intervento sui fanghi (rimozione, analisi, bonifica del suolo superficiale e ripristino), 69,18 milioni impegnati in ordini, 7,89 milioni pagati, 9,19 milioni fatturati [7]. Per le aree vicine: 12,90 milioni € stanziati [7].
+- **Al 28 febbraio 2023**, secondo Ilva: 75,03 milioni € stanziati per i fanghi, 80,12 milioni impegnati, 5,09 più del previsto, 25,22 milioni pagati, 27,87 milioni fatturati [23]. Per le aree vicine: 12,90 milioni stanziati e nessuna spesa [23].
 - **Garanzia per il deposito**: Ilva ha dato alla Provincia una polizza fideiussoria di Generali Italia (n. 430358557, emessa il 29 marzo 2023) [15]. La Provincia **non ha accettato** le garanzie per il deposito (determina n. 1090/2023 e nota prot. 29377/2023) [21]. Importo e motivi: non verificati.
-- **Speso in totale e da dove vengono i soldi**: le relazioni di Ilva dopo il 2022 non danno cifre per quest'area. Non verificato.
+- **Speso in totale e da dove vengono i soldi**: dopo febbraio 2023 le fonti non danno cifre per quest'area. Non verificato.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -180,6 +182,8 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 
 [22] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 24; numeri delle particelle letti sulla mappa, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
+[23] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 10 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
 Nota sul [10]: la relazione di fine 2024 è la fonte dei dati al 30 settembre 2024 (17.371 t ancora nel deposito), coerenti con il [14].
 
 ## Cosa non sappiamo
@@ -188,7 +192,7 @@ Nota sul [10]: la relazione di fine 2024 è la fonte dei dati al 30 settembre 20
 3. [altra] **Quanto sono gravi le anomalie radiometriche?** Non sappiamo quanto materiale è coinvolto, quanto erano alte le misure, in quale impianto sono state rilevate e se gli enti pubblici (ARPA, ISPRA) le hanno verificate. Tutte le informazioni vengono da Ilva [1].
 4. [altra] **Che cosa contenevano i fanghi, e il terreno sotto è inquinato?** Nessuna analisi pubblicata, nemmeno quelle annuali fatte fare da Ilva [7][19]. Lo si saprà solo dopo le analisi del terreno, che non sono ancora iniziate [1][6].
 5. [altra] **Dov'è il deposito impermeabilizzato?** Il decreto rimanda alla domanda di Ilva [2]; non abbiamo verificato se si trova nelle "aree vicine" o altrove.
-6. [altra] **Quanto è stato speso in tutto, e con quali soldi?** Ci sono solo le cifre del 2018 e del 2022 [7][16].
+6. [altra] **Quanto è stato speso in tutto, e con quali soldi?** Ci sono solo le cifre di Ilva del 2018, del 2022 e del febbraio 2023 [7][16][23].
 7. [altra] **Perché la Provincia non ha accettato la garanzia del deposito, e oggi ce n'è una valida?** Ilva le ha dato una polizza di Generali nel 2023 [15]; la Provincia non ha accettato le garanzie con la determina n. 1090/2023 [21]. Non sappiamo i motivi, l'importo, né se Ilva ne abbia data un'altra.
 8. [fonti] **Quanti fanghi c'erano davvero?** Ilva parlava di circa 490.000 tonnellate nel 2018 e nel 2021, ma nello stesso documento del 2021 scrive anche "circa 410.000" [4][16]. Alla fine ne risultano circa 446.000 (332.817 portate via più 113.107 nel deposito) [1][9]. Le fonti non spiegano la differenza.
 9. [fonti] **Quanto è grande l'area?** 10,5 + 4,8 ettari secondo il piano di analisi [4], 7,0 + 4,1 secondo il documento per l'Osservatorio [7].

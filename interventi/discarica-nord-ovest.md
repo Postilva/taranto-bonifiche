@@ -1,5 +1,5 @@
 # A2 – Discarica Nord-Ovest (con area ex Fintecna e aree vicine)
-*Stato scheda: approvata — aggiornata al 19 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -83,16 +83,17 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 - **Posizione sulla mappa**: centro delle particelle indicate da ARPA [7] — Comune di Statte, foglio 7, particelle 41, 869, 870, 872, 875, 1052 e 1054, e foglio 24, particelle 1 e 110 — calcolato da noi sulla cartografia catastale dell'Agenzia delle Entrate [27]: 685802,3 m E – 4491105,3 m N (UTM fuso 33 Nord, ETRS89), cioè circa 40,5499° N – 17,1943° E. Nota: le particelle misurano insieme circa 19,5 ettari, le tre zone dell'area circa 11, quindi il punto è il centro delle particelle e non dell'area.
 
 ## Soldi
-**Il progetto approvato a dicembre 2025 costa 29,8 milioni €, ma le fonti non dicono da dove vengano i soldi. A fine 2018 Ilva dichiarava 195.000 € spesi o impegnati; dopo non si sa.** [2][16]
+**Il progetto approvato a dicembre 2025 costa 29,8 milioni €. Ilva a febbraio 2023 aveva messo da parte 12 milioni per quest'area e ne aveva spesi circa 30.000 €; dopo non si sa.** [2][28]
 
 - [costo] 29.812.351,53 € · Ministero dell'Ambiente · dicembre 2025 [2] costo stimato del progetto approvato
-- [disponibili] non indicato · le fonti non dicono da dove vengono i soldi
-- [spesi] non si sa · le relazioni di Ilva dopo il 2018 non danno cifre
+- [disponibili] 12.000.000 € · Ilva · febbraio 2023 [28] "allocati" per la copertura, le indagini e i controlli, insieme all'area ex Fintecna; circa 400.000 € impegnati in ordini
+- [spesi] circa 30.000 € · Ilva · febbraio 2023 [28] dopo febbraio 2023 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [28]
 
 - **Costo stimato del progetto:** 29.812.351,53 € [2]. È una stima del progetto, non una spesa.
 - **Garanzia richiesta:** Ilva deve dare alla Regione Puglia una fideiussione pari al 50% del costo stimato (circa 14,9 milioni €) [2]. Il Ministero ha chiarito a maggio 2026 che va emessa subito dopo l'approvazione del progetto [5]. Alla nostra richiesta di accesso civico la Regione ha risposto il 19 ottobre 2026 che la polizza "non risulta reperibile" agli atti del suo Servizio bonifiche, e rimanda al Ministero, che segue tutto il procedimento [26]. Non si sa quindi se Ilva l'abbia data.
-- **Speso finora:** a fine 2018 Ilva dichiarava 195.000 € spesi o impegnati per la Discarica Nord-Ovest e 222.000 € per l'area ex Fintecna [16]. Le relazioni successive non danno cifre per quest'area. Non verificato.
-- **Da dove vengono i soldi:** le fonti non lo dicono. Su OpenCoesione (fondi pubblici di coesione) non c'è nessun progetto per questa discarica. Non verificato.
+- **Speso finora:** a fine 2018 Ilva dichiarava 195.000 € spesi o impegnati per la Discarica Nord-Ovest e 222.000 € per l'area ex Fintecna [16]. A febbraio 2023 Ilva indicava per la discarica e l'area ex Fintecna (prescrizioni UP4–UP7) 12,00 milioni € allocati per la copertura di tutta la superficie, le indagini e i controlli, 0,40 milioni impegnati, 0,07 fatturati e 0,03 pagati [28]. Dopo febbraio 2023 le fonti non danno cifre. Non verificato.
+- **Da dove vengono i soldi:** Ilva conta i soldi delle Aree escluse, questa compresa, fra i 467 milioni del Patrimonio Destinato [28]. Su OpenCoesione (fondi pubblici di coesione) non c'è nessun progetto per questa discarica. Non verificato.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -177,6 +178,8 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 
 [27] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 7, particelle 41, 869, 870, 872, 875, 1052, 1054, e foglio 24, particelle 1 e 110; centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
+[28] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 4 e 11 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
 Tutti i documenti del Ministero si trovano anche nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ scegliendo SIN "Taranto" e Area "3000".
 
 ## Cosa non sappiamo
@@ -185,7 +188,7 @@ Tutti i documenti del Ministero si trovano anche nell'archivio https://bonifiche
 3. [altra] **La fideiussione di circa 14,9 milioni € è stata data?** La chiede il decreto [2][5]. La Regione, che dovrebbe riceverla, non la trova nei suoi archivi (19 ottobre 2026) e indica il Ministero come ente che conserva le garanzie [26].
 4. [altra] **Che ne sarà della falda inquinata?** La copertura serve a non peggiorare la situazione, ma non pulisce la falda, che ha una procedura separata [6]. ISPRA ha chiesto di non tenere del tutto separati i due problemi [6].
 5. [altra] **Quanti rifiuti ci sono?** Le fonti danno le superfici (circa 11 ettari in tutto secondo ISPRA [6]; 12,9 ettari nella scheda di Ilva per l'Osservatorio del 2022 [25]) ma non il volume dei rifiuti della Discarica Nord-Ovest [6]. I 5 milioni di metri cubi citati dal Parlamento si riferiscono al complesso della Gravina di Leucaspide [19]; non è chiaro se comprendono anche questa discarica.
-6. [altra] **Quanto è stato speso davvero, e con quali soldi?** Ci sono solo le cifre del 2018 (circa 417.000 € in tutto) [16]. Non verificato.
+6. [altra] **Quanto è stato speso davvero, e con quali soldi?** Ci sono solo le cifre di Ilva del 2018 (circa 417.000 € spesi o impegnati in tutto) [16] e del febbraio 2023 (circa 30.000 € pagati) [28]. Non verificato.
 7. [altra] **Quando e perché è stata sequestrata, e com'è finito il processo?** Non abbiamo trovato un atto giudiziario pubblicato. La data precisa (i giornali scrivono 30 ottobre 2018) e l'estensione esatta dell'area sequestrata si trovano solo sui giornali. Lo stato attuale del processo penale: non verificato.
 8. [altra] **Che cosa contiene il progetto del Comune di Statte sulla Gravina di Leucaspide?** Il progetto costava 191.575 € e si è concluso nel 2022 [20]. Non si sa cosa contenga né se sia stato usato da Ilva o dal Ministero.
 9. [fonti] **Piccole incongruenze nelle fonti.**

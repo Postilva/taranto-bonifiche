@@ -1,5 +1,5 @@
 # A18 – Land I (area verde vicino all'Ospedale Nord)
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -49,14 +49,14 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 - **Quanto è grande:** **0,2 ettari** [2].
 
 ## Soldi
-**A luglio 2022 Ilva aveva assegnato a quest'area circa 10.000 € per la gestione generale e non ne aveva impegnato né pagato nulla.** [4]
+**A febbraio 2023 Ilva aveva assegnato a quest'area circa 10.000 € per la gestione generale e non ne aveva impegnato né pagato nulla.** [9]
 
 - [costo] — · nessun intervento previsto
-- [disponibili] circa 10.000 € · Ilva · luglio 2022 [4] per la gestione generale
-- [spesi] 0 € · Ilva · luglio 2022 [4] nessuna spesa impegnata o pagata
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [4]
+- [disponibili] circa 10.000 € · Ilva · febbraio 2023 [9] per la gestione generale
+- [spesi] 0 € · Ilva · febbraio 2023 [9] nessuna spesa impegnata o pagata
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [9]
 
-- Nel luglio 2022, secondo Ilva: **0,01 milioni €** (10.000 €) assegnati per la gestione generale, nessuna spesa impegnata o pagata [4].
+- Nel luglio 2022, secondo Ilva: **0,01 milioni €** (10.000 €) assegnati per la gestione generale, nessuna spesa impegnata o pagata [4]. Uguale a febbraio 2023, con "possibile cessione dell'area" [9].
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -82,6 +82,8 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 [7] Stesso documento del [2], pag. 1 (mappa delle 18 aree e nota in fondo; pagina 5 del PDF)
 
 [8] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, paragrafo "Aree Escluse di competenza Ilva" (pagina 36 del PDF) — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`; stessa divisione nella relazione del 1° trimestre 2025 (pagina 34 del PDF) — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
+[9] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 13 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 ## Cosa non sappiamo
 1. [altra] **Il terreno è davvero pulito?** Non c'è nessuna analisi pubblica: "senza problemi" è un giudizio di Ilva, non di un ente di controllo [1][2]. Non verificato.

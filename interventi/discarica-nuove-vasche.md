@@ -1,5 +1,5 @@
 # A7 – Discarica Nuove Vasche
-*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -61,14 +61,15 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 **Controllo della falda di tutta la zona.** Nel piano di controllo dell'acqua sotterranea mandato da Ilva al Ministero il 19 giugno 2024, la discarica è controllata insieme all'area fanghi: 7 pozzi (5 nuovi), con prelievi ogni tre mesi per almeno due anni; i 5 pozzi nuovi sono stati completati a dicembre 2025 [1][9].
 
 ## Soldi
-**Ilva ha messo da parte 3 milioni € per la gestione e i controlli della discarica per 30 anni; fino a luglio 2022 ne aveva spesi circa 870.000 €, circa il 29% (calcolo nostro).** [2]
+**Ilva ha messo da parte 3 milioni € per la gestione e i controlli della discarica per 30 anni; fino a febbraio 2023 ne aveva spesi 1,69 milioni, circa il 56% (calcolo nostro).** [12]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 3.000.000 € · Ilva · luglio 2022 [2] per la gestione post-operativa e i controlli per 30 anni
-- [spesi] circa 870.000 € · Ilva · luglio 2022 [2]
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [2]
+- [disponibili] 3.000.000 € · Ilva · febbraio 2023 [12] per la gestione post-operativa e i controlli per 30 anni
+- [spesi] 1.690.000 € · Ilva · febbraio 2023 [12]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [12]
 
 - **Al 12 luglio 2022**, secondo Ilva: 3,00 milioni € stanziati per la gestione post-operativa e i controlli per 30 anni, 1,35 milioni impegnati in ordini, 0,87 milioni pagati, 0,95 milioni fatturati [2].
+- **Al 28 febbraio 2023**, secondo Ilva: 3,00 milioni € stanziati, 2,79 milioni impegnati in ordini, 1,69 milioni pagati, 2,08 milioni fatturati [12]. Dopo febbraio 2023 le fonti non danno cifre.
 - A fine 2018 Ilva non indicava spese per questa voce [5].
 - **Costo dei lavori sulla rete dell'acqua piovana**: non verificato.
 - **Garanzia economica per la post-gestione**: non verificato.
@@ -111,6 +112,8 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 [10] Ilva S.p.A. in A.S., *Relazione trimestrale, 1° trimestre 2022*, pagina 40, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2022_omissisb.pdf — copia in `fonti/2022-03_ilva-as_relazione-trimestrale-I-2022.pdf`
 
 [11] Ilva S.p.A., *Stabilimento di Taranto – Ulteriore documentazione per la gestione rifiuti*, febbraio 2007 (documentazione per l'autorizzazione integrata ambientale), pagina 6 del PDF, portale Valutazioni ambientali del Ministero dell'Ambiente, https://va.mite.gov.it/File/Documento/260025 — copia in `fonti/2007-02_ilva_aia-ulteriore-documentazione-gestione-rifiuti.pdf`
+
+[12] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 11 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Quando partono i lavori per l'acqua piovana?** ISPRA ha fatto verificare la rete che raccoglie l'acqua piovana, ed è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1]. Non sappiamo quando inizieranno, quanto costano, né se nel frattempo l'acqua che scorre sui fianchi abbia causato danni. Non verificato.

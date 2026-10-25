@@ -1,5 +1,5 @@
 # A15 – Collinette ecologiche (quartiere Tamburi)
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -99,16 +99,16 @@ Le fonti indicano quattro motivi:
 - **Catasto:** Comune di Taranto, foglio 201, particelle 6, 179, 201 e 263 (Collina 1), e foglio 202, particelle 5, 96, 145 e 146 (Collina 2 e Collina 3) [6].
 
 ## Soldi
-**Ilva ha messo da parte 37,5 milioni € per le analisi e la messa in sicurezza; fino a luglio 2022 ne aveva spesi circa 790.000 €, circa il 2% (calcolo nostro). Quanto ha speso dopo non si sa.** [1][2][4]
+**Ilva ha messo da parte 37,5 milioni € per le analisi e la messa in sicurezza; fino a febbraio 2023 ne aveva spesi circa 790.000 €, circa il 2% (calcolo nostro). Quanto ha speso dopo non si sa.** [1][2][20]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 37.500.000 € · Ilva · luglio 2022 [4] "allocati" per caratterizzazione e messa in sicurezza
-- [spesi] circa 790.000 € · Ilva · luglio 2022 [4] dopo luglio 2022 non si sa
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [4]
+- [disponibili] 37.500.000 € · Ilva · febbraio 2023 [20] "allocati" per caratterizzazione e messa in sicurezza
+- [spesi] circa 790.000 € · Ilva · febbraio 2023 [20] dopo febbraio 2023 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [20]
 
 - **Promessi:** 37,5 milioni € "allocati" da Ilva per "caratterizzazione e messa in sicurezza" delle collinette [4].
-- **Spesi:** a luglio 2022, 0,84 milioni impegnati e 0,79 milioni pagati [4].
-- **Dopo il 2022: non verificato.** Le relazioni del 2024 e 2025 non danno cifre per quest'area [1][2]. Non sappiamo quanto sono costati la rete in cocco del 2019, il taglio degli alberi dopo l'incendio e le analisi che stanno per iniziare.
+- **Spesi:** a luglio 2022, 0,84 milioni impegnati e 0,79 milioni pagati [4]; a febbraio 2023, 0,99 milioni impegnati e ancora 0,79 milioni pagati [20].
+- **Dopo febbraio 2023: non verificato.** Le relazioni del 2024 e 2025 non danno cifre per quest'area [1][2]. Non sappiamo quanto sono costati la rete in cocco del 2019, il taglio degli alberi dopo l'incendio e le analisi che stanno per iniziare.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -176,6 +176,8 @@ Le fonti indicano quattro motivi:
 [18] Regione Puglia, *Deliberazione della Giunta regionale n. 892 del 15 maggio 2019* (Valutazione dell'impatto sanitario dello stabilimento siderurgico di Taranto), che riporta la nota ARPA Puglia prot. 15566 del 1° marzo 2019, pagina 12 dell'estratto. È allegata al materiale della riunione dell'Osservatorio ILVA del 30 maggio 2019, https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=159 (pagine 31–46). Copia delle sole pagine della delibera in `fonti/2019-05_regione-puglia_dgr-892-2019-vis-ilva.pdf`
 
 [19] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020), tabella 2.2 "Siti potenzialmente contaminati", riga 149, pag. 22, e nota sulle colonne "centro X; centro Y e Area" a pag. 6, https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
+
+[20] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 14 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Quando partono le analisi complete delle collinette?** La Regione ha approvato il piano il 2 dicembre 2024, ma prima di iniziare Ilva deve mandare un piano operativo con la data presunta di inizio [6]. A fine 2025 Ilva stava ancora preparando quel piano con ARPA [1]: non sappiamo se l'abbia mandato né quale data indichi. Da queste analisi dipende la nuova analisi di rischio, che Ilva farà solo dopo [1]. Anche il piano approvato (revisione 02) non è pubblico. Vedi la bozza FOIA n. 1.

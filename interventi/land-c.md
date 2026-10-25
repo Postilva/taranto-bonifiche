@@ -1,5 +1,5 @@
 # A11 – Land C (area verde vicino alla fabbrica)
-*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -62,14 +62,15 @@ Qui non ci sono mai stati impianti [7][20]. Il terreno è stato dichiarato non c
 - Nell'archivio del Ministero, al 2 ottobre 2026, non risultano altri decreti di riduzione del SIN di Taranto dopo quello di dicembre 2024.
 
 ## Soldi
-**Ilva ha messo da parte 1,29 milioni € per quest'area; fino a luglio 2022 ne aveva spesi circa 40.000 €, circa il 3% (calcolo nostro). Quanto ha speso dopo non si sa.** [20]
+**Ilva ha messo da parte 1,29 milioni € per quest'area; fino a febbraio 2023 ne aveva spesi circa 60.000 €, circa il 5% (calcolo nostro). Quanto ha speso dopo non si sa.** [26]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 1.290.000 € · Ilva · luglio 2022 [20] per analisi del terreno e dell'acqua e sistemazione del verde
-- [spesi] circa 40.000 € · Ilva · luglio 2022 [20] dopo luglio 2022 non si sa
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [20]
+- [disponibili] 1.290.000 € · Ilva · febbraio 2023 [26] per analisi del terreno e dell'acqua e sistemazione del verde
+- [spesi] circa 60.000 € · Ilva · febbraio 2023 [26] dopo febbraio 2023 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [26]
 
 - Al 12 luglio 2022, secondo Ilva: **1,29 milioni €** destinati a Land C (analisi del terreno e dell'acqua, sistemazione del verde), di cui 0,07 milioni impegnati in ordini e **0,04 milioni pagati** [20].
+- Al 28 febbraio 2023, secondo Ilva: 0,07 milioni impegnati in ordini, 0,06 fatturati e **0,06 milioni pagati** [26].
 - Spese successive (pozzetti 2025, controlli dell'acqua, manutenzione): **non verificato**.
 
 ## Date principali
@@ -148,12 +149,14 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [25] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, foglio 183; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
+[26] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 12 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Da dove viene l'inquinamento dell'acqua sotterranea?** Arsenico, boro, manganese, nichel, nitriti e solfati sono oltre i limiti, ma nessun ente ha stabilito l'origine [2][12]. Per l'acqua la pratica è ancora aperta e non è previsto nessun intervento [2][12]. Ilva sostiene che l'inquinamento potrebbe venire da fuori dell'area [7]: è una sua ipotesi, non verificata.
 2. [blocca] **Che cosa dicono i nuovi controlli dell'acqua?** Secondo Ilva i nuovi pozzetti sono pronti dal 20 giugno 2025, i controlli dureranno almeno due anni e a novembre 2025 c'è stata la seconda campagna [1], ma nell'archivio del Ministero non c'è nessun risultato [3]. Non verificato. Vedi la bozza di richiesta FOIA qui sotto.
 3. [altra] **L'incendio di aprile 2022 ha cambiato le analisi?** Secondo Ilva ha distrutto 8 cassette su 12 di campioni dei sondaggi [20]. Nessun documento pubblico dice se questo ha cambiato le analisi, né chi ha appiccato il fuoco. Ilva dice di aver avvisato il Ministero il 7 luglio 2022 [20]: questa nota non è nell'archivio. Non verificato.
 4. [altra] **Che cosa hanno deciso Comune e Autorità di Bacino sul taglio degli alberi?** Il 10 ottobre 2023 Ilva ha chiesto un parere sul rischio idraulico per i lavori sul verde; il 22 novembre 2023 il Comune di Taranto ha risposto che serviva una domanda di abbattimento con la relazione di un agronomo, e il 26 novembre 2024 ha rimandato la valutazione del rischio idraulico all'Autorità di Bacino [23][24]. Sono tutte informazioni di Ilva: non abbiamo trovato nessun atto del Comune o dell'Autorità di Bacino. Non verificato.
-5. [altra] **Quanto è stato speso dopo il 2022?** Nessuna delle fonti trovate lo dice (vedi "Soldi"). Non verificato.
+5. [altra] **Quanto è stato speso dopo febbraio 2023?** Le ultime cifre di Ilva sono di quel mese [26]; nessuna fonte trovata dà cifre successive (vedi "Soldi"). Non verificato.
 6. [fonti] **L'area è uscita dal SIN?** La relazione di Ilva scrive che il Ministero ha deciso "l'esito positivo della caratterizzazione del suolo con svincolo dal SIN" [1]. Il decreto riguarda solo il terreno e non dice nulla sull'uscita dal SIN [2], e l'area non è tra quelle escluse nel dicembre 2024 [16][18]. Ilva stessa nel 2022 scriveva che le analisi servivano "ai fini dello svincolo" [20]: era un obiettivo, non un risultato.
 7. [fonti] **Una data che non torna (probabilmente un errore di Ilva).** Dal 2024 Ilva scrive che il Ministero ha chiesto i nuovi pozzetti e un anno di controlli "in data 20/03/2023" [1]. Nell'archivio c'è invece la lettera del 27 febbraio 2023 [12], e la relazione di Ilva scritta subito dopo, quella del 1° trimestre 2023, dà la stessa data, 27 febbraio 2023 [22]. Una lettera del 20 marzo 2023 non l'abbiamo trovata.
 8. [fonti] **Quanto è lontana dalla città?** Le relazioni di Ilva su Land C e Land E usano la stessa frase ("circa 4,5 km a Nord-Ovest dal centro abitato") [7], ma le due aree, secondo le coordinate, distano tra loro circa 2,5 km (calcolo nostro). Il dato va ricontrollato sulla mappa.

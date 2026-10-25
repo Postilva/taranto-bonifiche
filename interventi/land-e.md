@@ -1,5 +1,5 @@
 # A13 – Land E (ex Sidercomit, stabilimento dismesso sulla Statale Appia)
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -68,14 +68,16 @@ Qui la ditta Sidercomit produceva e immagazzinava prodotti siderurgici (soprattu
 - Con la riduzione del SIN di Taranto (decreto n. 249 dell'11 dicembre 2024 e decreto del Ministro n. 449 del 20 dicembre 2024) **i Fogli 192 e 194 di Land E non sono tra le aree escluse**, né nella proposta del marzo 2024 né tra le aree aggiunte dal decreto [15][16][17].
 
 ## Soldi
-**Ilva ha messo da parte 3,65 milioni € per analisi, eventuale bonifica dell'acqua e messa in sicurezza dei terreni; a luglio 2022 ne aveva impegnati circa 110.000 €, ma quanti ne avesse pagati la sua tabella non lo dice.** [6]
+**Ilva ha messo da parte 3,65 milioni € per analisi, eventuale bonifica dell'acqua e messa in sicurezza dei terreni; fino a febbraio 2023 ne aveva spesi circa 100.000 €, meno del 3% (calcolo nostro). Quanto ha speso dopo non si sa.** [25]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 3.650.000 € · Ilva · luglio 2022 [6] per analisi, eventuale bonifica dell'acqua e messa in sicurezza dei terreni con la pavimentazione
-- [spesi] nessuna cifra · la tabella di Ilva del luglio 2022 non indica quanto è stato pagato [6]
+- [disponibili] 3.650.000 € · Ilva · febbraio 2023 [25] per analisi, eventuale bonifica dell'acqua e messa in sicurezza dei terreni con la pavimentazione; circa 110.000 € impegnati in ordini
+- [spesi] circa 100.000 € · Ilva · febbraio 2023 [25] dopo febbraio 2023 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [25]
 
 - Al 12 luglio 2022, secondo Ilva: **3,65 milioni €** destinati a Land E (analisi di terreno e acqua, eventuale bonifica dell'acqua, messa in sicurezza dei terreni con la pavimentazione), di cui 0,11 milioni impegnati in ordini e 0,02 milioni fatturati; pagato: nessuna cifra indicata [6].
-- Costo del progetto per gli edifici e spese dopo il 2022: **non verificato**.
+- Al 28 febbraio 2023, secondo Ilva: 0,11 milioni impegnati in ordini, 0,11 fatturati e **0,10 milioni pagati** [25].
+- Costo del progetto per gli edifici e spese dopo febbraio 2023: **non verificato**.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -155,6 +157,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [24] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, fogli 192 e 194; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
+[25] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 13 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Ilva ha risposto al Ministero?** Il 19 gennaio 2024 il Ministero ha respinto l'analisi di rischio così com'era, e ARPA e ISPRA chiedono nuovi pozzetti e controlli periodici dell'acqua [11][12][14]. Dopo, nell'archivio non c'è né una risposta di Ilva né una nuova analisi di rischio. Ilva scrive solo che i nuovi pozzetti e i controlli sono "in fase di pianificazione" e, nella stessa frase, che la seconda campagna è stata fatta il 6–7 novembre 2025 [1]. Non è chiaro se i nuovi pozzetti esistano. Vedi la bozza di richiesta FOIA qui sotto.
 2. [altra] **Da dove viene l'inquinamento dell'acqua?** ARPA e ISPRA indicano due possibili collegamenti, il materiale di riporto e la vecchia attività della Sidercomit, ma scrivono che non è un rapporto di causa certo [11][12]. Ilva fa notare che a nord c'è un altro sito con l'acqua inquinata e che l'inquinamento potrebbe arrivare da lì [9]. Nessun ente ha deciso. Non verificato.
@@ -162,7 +166,7 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 4. [altra] **I capannoni sono pericolanti?** Il progetto di sicurezza dei capannoni è citato solo da Ilva, e riguarda gli edifici, non l'inquinamento [1]. Non sappiamo quanto costa, se riguarda una demolizione o un consolidamento, e se i capannoni sono pericolanti. Non verificato.
 5. [altra] **Che cosa faceva la Sidercomit, e quando ha chiuso?** Il catasto dice solo chi erano i proprietari [5]. Quando ha chiuso, cosa produceva esattamente oltre ai profilati e come l'area è passata a Ilva nel 1997: non verificato.
 6. [altra] **Dove sono il piano delle analisi del 2021 e la validazione di ARPA?** Il piano delle analisi del 12 aprile 2021 nell'archivio del Ministero è un file vuoto [3]. La relazione di validazione di ARPA del 16 maggio 2023 è citata nell'analisi di rischio ma non è pubblicata a parte [9].
-7. [altra] **Quanto è stato speso dopo il 2022?** Nessuna delle fonti trovate lo dice (vedi "Soldi"). Non verificato.
+7. [altra] **Quanto è stato speso dopo febbraio 2023?** Le ultime cifre di Ilva sono di quel mese [25]; nessuna fonte trovata dà cifre successive (vedi "Soldi"). Non verificato.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
 **A:** ARPA Puglia, Dipartimento provinciale di Taranto — email ordinaria info@arpa.puglia.it, in copia il Responsabile della trasparenza responsabile.trasparenza@arpa.puglia.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina URP](https://www.arpa.puglia.it/pagina2819_urp.html)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
