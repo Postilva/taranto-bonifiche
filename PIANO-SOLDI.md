@@ -81,7 +81,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 - Prima l'elenco dei fondi trovati, da approvare con l'utente; poi le sezioni.
 - *Da decidere:* includere anche i fondi sotto una soglia (es. 100.000 €)? Raccomandato sì, se sono gli unici di un report.
 
-### [ ] 8. La pagina "Da dove vengono i soldi"
+### [x] 8. La pagina "Da dove vengono i soldi" (fatto il 25/10/2026: sul telefono un riquadro a fisarmonica per fondo con il percorso dato → finito in → speso; su schermo grande, al posto del diagramma a flussi e delle barre, scartati perché troppo complicati, i fondi report per report; totali in home invariati, nessun fondo contato due volte)
 - `costruisci.py` legge `fondi.md` e scrive `sito/soldi.html` (più le voci in `sitemap.xml`): un riquadro per fondo con il percorso dei soldi (dato → finito in quali report → speso).
 - Un disegno fondi → interventi: su schermo grande un diagramma a flussi, sul telefono un elenco a fisarmonica. Mostrare la versione 390 px prima di fare l'altra.
 - Nel riquadro "Soldi" di ogni report il nome del fondo diventa un link alla pagina.

@@ -142,9 +142,9 @@ body.mappa .topbar .in{max-width:none}
 .riga .sub{font-size:.78rem;line-height:1.4;color:var(--ink-3);margin:8px 6px 0}.riga .sub b{color:var(--ink)}
 .riga .aree{display:flex;flex-wrap:wrap;gap:6px;margin:10px 6px 12px}
 .riga.f-cert .nome,.riga.f-cert .n{color:var(--gA)}
-.righe .area,.soldi-tot .area{display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.8rem;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
-.righe .area b,.soldi-tot .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
-.righe .area.gB b,.soldi-tot .area.gB b{background:var(--gB)}
+.righe .area,.soldi-tot .area,.dove .area{display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.8rem;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
+.righe .area b,.soldi-tot .area b,.dove .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
+.righe .area.gB b,.soldi-tot .area.gB b,.dove .area.gB b{background:var(--gB)}
 @media (min-width:900px){
   /* due righe comuni a tutte le colonne: le barre (in basso, sulla stessa linea di base) e le scritte (in alto) */
   .colonne{display:grid;grid-template-columns:repeat(var(--n,6),minmax(0,1fr));grid-template-rows:auto auto;column-gap:12px;margin-top:8px}
@@ -623,3 +623,56 @@ body.pv-on .paneltoggle{display:none}
 .mini5 .done{background:var(--c)}
 .mini5 .part{background:linear-gradient(90deg,var(--c) 50%,var(--surface) 50%)}
 .mini5 .no,.mini5 .na{border-style:dashed}
+/* menu con tre voci: sui telefoni stretti le voci si stringono */
+@media (max-width:420px){.topbar .in{gap:6px}.topbar nav{gap:0}.topbar nav a{padding:10px 10px}}
+/* pagina "Da dove vengono i soldi" (soldi.html, scritta da costruisci.py leggendo fondi.md): un riquadro a fisarmonica
+   per fondo; dentro, il percorso dei soldi in tre tappe (dato → finito in → speso) su una linea verticale */
+.sd>.wrap{gap:20px}
+.sd-head{display:grid;gap:10px}
+.sd-head h1{font-size:clamp(1.6rem,6.4vw,2.4rem);font-weight:800}
+.gruppo{display:grid;gap:10px}
+.gruppo h2{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.gruppo h2 small{font-weight:600;letter-spacing:0;text-transform:none}
+.fondo>summary{align-items:flex-start;padding-block:14px}
+.fondo>summary>span{line-height:1.3}
+.fondo>summary small{margin-top:4px;line-height:1.35}
+.fondo>summary::after{margin-top:6px}
+.fondo[open]>summary::after{margin-top:12px}
+.percorso{list-style:none;margin:0;padding:0;display:grid}
+.percorso>li{position:relative;display:grid;gap:8px;min-width:0;padding:0 0 18px 28px}
+.percorso>li::before{content:"";position:absolute;left:4px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--gA);box-shadow:0 0 0 3px var(--surface)}
+.percorso>li::after{content:"";position:absolute;left:9px;top:20px;bottom:0;width:2px;background:var(--line)}
+.percorso>li:last-child{padding-bottom:4px}
+.percorso>li:last-child::after{content:none}
+.percorso .tappa{font:700 .72rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--gA)}
+.percorso p{color:var(--ink)}
+.percorso ul{margin:0;padding-left:1.1em;display:grid;gap:6px}
+.percorso .dato{display:grid;gap:10px}
+.percorso .dato .k{display:block;font:700 .7rem/1.3 var(--f-body);color:var(--ink-3)}
+.percorso .dato li{color:var(--ink)}
+.dove{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.dove li{display:grid;gap:6px;justify-items:start;min-width:0;background:var(--surface-2);border-radius:12px;padding:10px;font-size:.9rem;line-height:1.45;color:var(--ink)}
+.dove li.altro{background:none;padding:0 2px;color:var(--ink-3);font-size:.85rem}
+.sapere{border-top:1px solid var(--line);padding-top:12px}
+.sapere h4{margin:0 0 6px;font:700 .72rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.sapere ul{margin:0;padding-left:1.1em;display:grid;gap:6px}
+/* report: i fondi che pagano l'intervento, link alla pagina "Da dove vengono i soldi" */
+.fondi-di{display:flex;flex-wrap:wrap;gap:6px}
+.fondi-di a{display:inline-flex;align-items:center;min-height:36px;padding:6px 12px;border-radius:12px;background:var(--surface-2);box-shadow:inset 0 0 0 1px var(--line);color:var(--ink);font-weight:600;font-size:.84rem;line-height:1.3;text-decoration:none}
+/* soldi.html, schermo grande: i fondi report per report, sopra i riquadri (sul telefono resta solo l'elenco a fisarmonica) */
+.flussi{display:none}
+.prr{display:grid;gap:10px}
+.pr{display:grid;gap:10px;align-content:start;background:var(--surface);border-radius:14px;box-shadow:var(--shadow);padding:14px}
+.pr>.area,.pr .aree .area{justify-self:start;display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface-2);color:var(--ink);text-decoration:none;font-size:.85rem;font-weight:600;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
+.pr .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
+.pr .area.gB b{background:var(--gB)}
+.pr ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.pr li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:baseline;font-size:.88rem;line-height:1.35}
+.pr li a{color:var(--ink-2);text-decoration:none}
+.pr li a:hover{color:var(--ink);text-decoration:underline}
+.pr li span{font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink)}
+.pr li span.na{font:italic 500 .82rem/1.35 var(--f-body);color:var(--ink-3)}
+.pr .tutti{font-weight:700;color:var(--ink);text-decoration:none}
+.pr .aree{display:flex;flex-wrap:wrap;gap:6px}
+.pr .aree .area{font-weight:500;font-size:.78rem}
+@media (min-width:900px){.flussi{display:grid;gap:12px}.prr{grid-template-columns:1fr 1fr}.pr.largo{grid-column:1/-1}}

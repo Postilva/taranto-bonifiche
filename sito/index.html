@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610241200">
+<link rel="stylesheet" href="stile.css?v=202610251500">
 
 <header class="topbar">
   <div class="in">
@@ -30,6 +30,7 @@
     <nav aria-label="Pagine">
       <a href="index.html" aria-current="page">Inizio</a>
       <a href="mappa.html">Mappa</a>
+      <a href="soldi.html">Soldi</a>
     </nav>
   </div>
 </header>
@@ -97,8 +98,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610241200"></script>
-<script src="comune.js?v=202610241200"></script>
+<script src="dati.js?v=202610251500"></script>
+<script src="comune.js?v=202610251500"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -334,6 +335,7 @@ function mappaFabbrica(d){
     <p class="chart-intro">Quanti soldi sono disponibili e quanti sono già stati spesi, sommando le cifre dei report (somme fatte da noi). Le cifre di Ilva sono a parte: le ha dichiarate Ilva e nessun ente pubblico le ha controllate.</p>
     <div class="tot">${blocco("Fondi pubblici", "A date diverse: ogni report dice quando e da dove vengono", false)}${blocco("Secondo Ilva", "Tabella di Ilva in amministrazione straordinaria, luglio 2022", true)}</div>
     <p class="note">Le cifre ci sono in ${conCifre.size} report su ${SCHEDE.length}. Non sommiamo quanto costerebbero i lavori: la cifra c'è solo in ${stimati} report.</p>
+    <p class="chart-intro"><a href="soldi.html">Da dove vengono i soldi, fondo per fondo →</a></p>
     ${senza.length ? `<details class="note"><summary>${senza.length === 1 ? "Il report" : `${/^8/.test(senza.length) || senza.length === 11 ? "Gli" : "I"} ${senza.length} report`} senza cifre</summary><div class="aree">${senza.map(chip).join("")}</div></details>` : ""}
     <div class="ferme"><h4>Dove i soldi sono fermi</h4>
       <p class="chart-intro">Per ogni report, quanta parte dei soldi disponibili è già stata spesa (calcolo nostro), dalla percentuale più bassa. Solo dove le due cifre riguardano la stessa cosa e vengono dalla stessa fonte o dalla stessa data; gli altri report sono sotto, con il motivo.</p>
