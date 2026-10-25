@@ -315,6 +315,13 @@ function coverZoom(m, from){
 const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${GRUPPO[p.code]} f-${faseCode(p.code)} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
 // cifra in euro → [numero, unità]: sotto il milione euro interi (75.751 €), sopra milioni con due decimali (18,40 mln €)
 const fmtSoldi = v => v < 1e6 ? [Math.round(v).toLocaleString("it-IT"), "€"] : [(v / 1e6).toLocaleString("it-IT", {minimumFractionDigits:2, maximumFractionDigits:2}), "mln €"];
+// una riga del blocco dei soldi: "meno di 10.000 €" si scrive come nella scheda (nei totali conta la metà), le altre cifre con fmtSoldi
+const fmtRiga = r => r.pre === "meno di" ? [r.lbl, "€"] : fmtSoldi(r.v);
+// la percentuale di [confronto] sì (calcolo nostro): sotto lo 0,1% "meno di 0,1%"; fino al 100% un decimale, oltre senza
+const pctSpesi = c => c.pct > 0 && c.pct < 0.1 ? "meno di 0,1%"
+  : (c.pre ? c.pre + " " : "") + c.pct.toLocaleString("it-IT", {maximumFractionDigits: c.pct < 100 ? 1 : 0}) + "%";
+// la barra "Già spesi su Soldi disponibili" (report e home): oltre il 100% la barra intera sono i già spesi e una tacca segna i disponibili
+const barraSpesi = c => `<span class="bar" role="img" aria-label="Già spesi: ${pctSpesi(c)} dei soldi disponibili">${c.pct > 0 ? `<span style="width:${Math.min(c.pct, 100)}%"></span>` : ""}${c.pct > 100 ? `<i style="left:${100 / c.pct * 100}%"></i>` : ""}</span>`;
 const STATO = Object.fromEntries(STATI.map(s => [s[0], {label:s[1], color:s[2]}]));
 
 /* ---------- stabilimento, foto e glossario (home e report) ---------- */

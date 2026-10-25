@@ -67,7 +67,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 - Nella scheda: righe `[stranezza]` nel blocco del task 2, oppure riuso dei punti `[fonti]` di "Cosa non sappiamo" che parlano di soldi. *Da decidere* (raccomandato `[stranezza]` nel blocco Soldi, perché i punti `[fonti]` hanno già il loro riquadro).
 - Prima cercare nelle schede tutti i casi (grep di "impegnati", "non concord", "per altro", "tutto il programma"), elencarli all'utente, poi farli.
 
-### [ ] 6. Home: dove i soldi sono fermi
+### [x] 6. Home: dove i soldi sono fermi (fatto il 25/10/2026: le 15 barre sono tutte "secondo Ilva", luglio 2022; nessun report di fondi pubblici ha un confronto possibile, gli 8 report sono nell'elenco con il motivo)
 - Sotto i due totali un grafico a barre per report: soldi disponibili e già spesi, ordinato dalla percentuale spesa più bassa. Fondi pubblici e "secondo Ilva" in due gruppi separati, come i totali.
 - Solo i report che hanno la barra del task 4; gli altri in un elenco sotto ("senza confronto possibile").
 - Leggere la skill `dataviz` prima di scrivere il grafico. Sul telefono barre orizzontali con il nome sopra, niente assi illeggibili.

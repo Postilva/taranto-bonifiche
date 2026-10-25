@@ -108,6 +108,22 @@ body.mappa .topbar .in{max-width:none}
 .soldi-tot details summary{cursor:pointer;color:var(--gA);font-weight:700}
 .soldi-tot .aree{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 @media (min-width:900px){.soldi-tot .tot{grid-template-columns:1fr 1fr;gap:16px}}
+/* dove i soldi sono fermi: una barra per report, nome sopra, percentuale a destra, cifre sotto */
+.ferme{display:grid;gap:10px;margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+.ferme>h4{font-size:1rem}
+.ferme .tot{align-items:start}
+.ferme h5{margin:6px 0 0;font:700 .7rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.fr,.fr-no{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.fr a{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:6px 10px;padding:10px 12px;border-radius:12px;background:var(--surface-2);color:var(--ink);text-decoration:none}
+.fr a:hover,.fr a:focus-visible{box-shadow:inset 0 0 0 1px var(--ink-3)}
+.fr-n{display:flex;align-items:center;gap:8px;min-width:0;font-size:.85rem;line-height:1.25}
+.fr-n b{flex:none;font:700 11px/1 var(--f-mono);padding:5px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
+.fr-n b.gB{background:var(--gB)}
+.fr-p{font:800 .95rem/1.2 var(--f-body);white-space:nowrap}
+.fr .bar{grid-column:1/-1}
+.fr small{grid-column:1/-1;font-size:.72rem;line-height:1.35;color:var(--ink-2)}
+.fr-vuoto{font-size:.85rem;line-height:1.4;color:var(--ink-2);padding:10px 12px;border-radius:12px;box-shadow:inset 0 0 0 1px var(--line)}
+.fr-no li{display:grid;gap:4px;justify-items:start;font-size:.78rem;line-height:1.4;color:var(--ink-2)}
 .chart-intro{font-size:.9rem;line-height:1.5;color:var(--ink-2)}.chart-intro b{color:var(--ink)}.chart-intro a{color:var(--gA);white-space:nowrap}
 /* computer: una colonna per fase, fatta di un quadratino per area; l'altezza dice quante sono */
 .colonne,.solo-pc{display:none}
@@ -524,9 +540,9 @@ body.pv-on .paneltoggle{display:none}
 .soldi .spesa{grid-column:1/-1;gap:8px;padding:12px}
 .soldi .spesa p{font-size:.85rem;line-height:1.35}.soldi .spesa p b{font:700 .95rem/1.35 var(--f-body)}
 .soldi .spesa small{font:500 .72rem/1.35 var(--f-body);text-transform:none;letter-spacing:0;color:var(--ink-2)}
-.soldi .bar{position:relative;display:block;height:12px;border-radius:999px;background:var(--bg);box-shadow:inset 0 0 0 1px var(--line)}
-.soldi .bar span{display:block;height:100%;min-width:3px;border-radius:999px;background:var(--m-pay)}
-.soldi .bar i{position:absolute;top:-3px;bottom:-3px;width:2px;margin-left:-1px;background:var(--ink)}
+.soldi .bar,.ferme .bar{position:relative;display:block;height:12px;border-radius:999px;background:var(--bg);box-shadow:inset 0 0 0 1px var(--line)}
+.soldi .bar span,.ferme .bar span{display:block;height:100%;min-width:3px;border-radius:999px;background:var(--m-pay)}
+.soldi .bar i,.ferme .bar i{position:absolute;top:-3px;bottom:-3px;width:2px;margin-left:-1px;background:var(--ink)}
 .soldi .spesa-no{grid-column:1/-1;font-size:.78rem;line-height:1.4;color:var(--ink-2);padding:10px 12px;border-radius:12px;box-shadow:inset 0 0 0 1px var(--line)}
 .soldi .spesa-no b{font:700 .78rem/1.4 var(--f-body);color:var(--ink)}
 /* report: le stranezze dei soldi, un'etichetta in giallo e una frase con la fonte */
