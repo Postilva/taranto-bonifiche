@@ -310,10 +310,33 @@ function mappaFabbrica(d){
   const conCifre = new Set(conValore(righe.filter(x => x.k !== "costo")).map(x => x.s.id));
   const senza = SCHEDE.filter(s => !conCifre.has(s.id));
   const stimati = new Set(conValore(righe.filter(x => x.k === "costo")).map(x => x.s.id)).size;
+  // dove i soldi sono fermi: per gruppo (fondi pubblici, secondo Ilva) le barre "Già spesi su Soldi disponibili" dei report con [confronto] sì,
+  // dalla percentuale più bassa; sotto i report con cifre del gruppo ma senza barra, con il motivo
+  const chip = s => `<a class="area g${GRUPPO[s.code] || "A"}" href="${reportUrl(s)}"><b>${elencoCodici(s.codes)}</b>${esc(s.short)}</a>`;
+  const cifreDi = (s, k, ilva) => s.soldi.filter(r => r.k === k && r.v != null && /^Ilva\b/.test(r.chi) === ilva);
+  const fra = r => { const [n, u] = fmtRiga(r); return `${r.pre ? r.pre + " " : ""}${n} ${u}`; };
+  const ferme = ilva => {
+    const barre = [], altri = [];
+    for (const s of SCHEDE) {
+      const d = cifreDi(s, "disponibili", ilva), sp = cifreDi(s, "spesi", ilva), cf = s.confronto;
+      if (!d.length && !sp.length) continue;
+      const dc = cf?.si && (cf.p ? d.find(r => r.p === cf.p) || d.find(r => !r.p) : d[0]);
+      if (dc) { barre.push({s, cf, d: dc, sp: sp[0]}); continue; }
+      altri.push({s, perche: cf && !cf.si ? cf.motivo.replace(/\[\d+\]/g, "").replace(/<[^>]+>/g, "")
+        : !sp.length ? "nel report c'è solo la cifra dei soldi disponibili" : "nel report c'è solo la cifra dei già spesi"});
+    }
+    barre.sort((a, b) => a.cf.pct - b.cf.pct);
+    return (barre.length ? `<ol class="fr">${barre.map(b => `<li><a href="${reportUrl(b.s)}"><span class="fr-n"><b class="g${GRUPPO[b.s.code] || "A"}">${elencoCodici(b.s.codes)}</b>${esc(b.s.short)}</span><span class="fr-p">${pctSpesi(b.cf)}</span>${barraSpesi(b.cf)}<small>${fra(b.sp)} già spesi su ${fra(b.d)} disponibili${b.cf.pct > 100 ? " (la tacca segna i soldi disponibili)" : ""}</small></a></li>`).join("")}</ol>`
+        : `<p class="fr-vuoto">Nessun report ha due cifre ${ilva ? "di Ilva" : "di fondi pubblici"} che si possono confrontare.</p>`)
+      + (altri.length ? `<h5>Senza confronto possibile</h5><ul class="fr-no">${altri.map(a => `<li>${chip(a.s)}<span>${esc(a.perche)}</span></li>`).join("")}</ul>` : "");
+  };
   $("#soldi-tot").innerHTML = `<h3>Soldi ${soldiInfo("soldi-info")}</h3>${soldiInfoBox("soldi-info")}
     <p class="chart-intro">Quanti soldi sono disponibili e quanti sono già stati spesi, sommando le cifre dei report (somme fatte da noi). Le cifre di Ilva sono a parte: le ha dichiarate Ilva e nessun ente pubblico le ha controllate.</p>
     <div class="tot">${blocco("Fondi pubblici", "A date diverse: ogni report dice quando e da dove vengono", false)}${blocco("Secondo Ilva", "Tabella di Ilva in amministrazione straordinaria, luglio 2022", true)}</div>
     <p class="note">Le cifre ci sono in ${conCifre.size} report su ${SCHEDE.length}. Non sommiamo quanto costerebbero i lavori: la cifra c'è solo in ${stimati} report.</p>
-    ${senza.length ? `<details class="note"><summary>${senza.length === 1 ? "Il report" : `${/^8/.test(senza.length) || senza.length === 11 ? "Gli" : "I"} ${senza.length} report`} senza cifre</summary><div class="aree">${senza.map(s => `<a class="area g${GRUPPO[s.code] || "A"}" href="${reportUrl(s)}"><b>${elencoCodici(s.codes)}</b>${esc(s.short)}</a>`).join("")}</div></details>` : ""}`;
+    ${senza.length ? `<details class="note"><summary>${senza.length === 1 ? "Il report" : `${/^8/.test(senza.length) || senza.length === 11 ? "Gli" : "I"} ${senza.length} report`} senza cifre</summary><div class="aree">${senza.map(chip).join("")}</div></details>` : ""}
+    <div class="ferme"><h4>Dove i soldi sono fermi</h4>
+      <p class="chart-intro">Per ogni report, quanta parte dei soldi disponibili è già stata spesa (calcolo nostro), dalla percentuale più bassa. Solo dove le due cifre riguardano la stessa cosa e vengono dalla stessa fonte o dalla stessa data; gli altri report sono sotto, con il motivo.</p>
+      <div class="tot"><div><h4>Fondi pubblici</h4>${ferme(false)}</div><div><h4>Secondo Ilva<small>Tabella di Ilva in amministrazione straordinaria, luglio 2022</small></h4>${ferme(true)}</div></div></div>`;
 })();
 </script>

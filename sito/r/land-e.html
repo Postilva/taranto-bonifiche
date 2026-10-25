@@ -117,22 +117,19 @@ const STRANEZZA = {"più del previsto": "Più del previsto", "usati per altro": 
 function infoHtml(s){
   const money = s.soldi, rows = [];
   if (s.chi.length) rows.push(["Enti coinvolti", `<div class="chi">${s.chi.map(c => `<span>${esc(c)}</span>`).join("")}</div>`]);
-  // "meno di 10.000 €" si scrive come nella scheda (nei totali conta la metà); le altre cifre con fmtSoldi.
   // Ogni casella ha sempre le stesse sei righe (nome, "circa", cifra, unità, chi e quando, dato vecchio), anche vuote,
   // così nelle caselle affiancate le righe stanno alla stessa altezza
-  const cifra = r => { const [n, u] = r.pre === "meno di" ? [r.lbl, "€"] : fmtSoldi(r.v);
+  const cifra = r => { const [n, u] = fmtRiga(r);
     return `<b>${n}</b><span class="u small muted">${u}</span>`; };
   const casella = r => `<div class="cas${vecchio(r) ? " old" : ""}"><small>${esc(nomeSoldi(r))}</small><span class="pre">${r.pre || ""}</span>${r.v == null ? `<b class="na">${esc(r.lbl)}</b><span class="u"></span>` : cifra(r)}`
     + `<span class="da">${r.chi && r.qb ? `${esc(r.chi)} · <span>${esc(r.qb)}${cite(r.src, s.id)}</span>` : ""}</span><span class="vv">${vecchio(r) ? `<span class="vecchio">dato vecchio</span>` : ""}</span></div>`;
   const note = money.filter(r => r.note);
   // la barra "Già spesi su Soldi disponibili" solo se la scheda dice che le due cifre coprono la stessa cosa ([confronto] sì),
-  // altrimenti il motivo. Oltre il 100% la barra intera sono i già spesi e una tacca segna i soldi disponibili.
-  // sotto lo 0,1% si scrive "meno di 0,1%"; fino al 100% un decimale, oltre senza
-  const cf = s.confronto, pct = c => c.pct > 0 && c.pct < 0.1 ? "meno di 0,1%"
-    : (c.pre ? c.pre + " " : "") + c.pct.toLocaleString("it-IT", {maximumFractionDigits: c.pct < 100 ? 1 : 0}) + "%";
+  // altrimenti il motivo
+  const cf = s.confronto;
   const barra = !cf ? "" : cf.si
-    ? `<div class="spesa"><p><b>Già spesi: ${pct(cf)}</b> dei soldi disponibili${cf.p ? ` (${esc(cf.p)})` : ""} <span class="muted">(calcolo nostro)</span></p>`
-      + `<span class="bar" role="img" aria-label="Già spesi: ${pct(cf)} dei soldi disponibili">${cf.pct > 0 ? `<span style="width:${Math.min(cf.pct, 100)}%"></span>` : ""}${cf.pct > 100 ? `<i style="left:${100 / cf.pct * 100}%"></i>` : ""}</span>`
+    ? `<div class="spesa"><p><b>Già spesi: ${pctSpesi(cf)}</b> dei soldi disponibili${cf.p ? ` (${esc(cf.p)})` : ""} <span class="muted">(calcolo nostro)</span></p>`
+      + barraSpesi(cf)
       + `<small>${cf.pct > 100 ? "La barra intera sono i soldi già spesi; la tacca segna i soldi disponibili. " : ""}Confronto possibile: ${cite(cf.motivo, s.id)}</small></div>`
     : `<p class="spesa-no"><b>Niente confronto fra soldi disponibili e già spesi:</b> ${cite(cf.motivo, s.id)}</p>`;
   // le stranezze dei soldi ([stranezza · tipo] nella scheda): un'etichetta e una frase con la fonte
