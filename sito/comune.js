@@ -320,7 +320,7 @@ const fmtRiga = r => r.pre === "meno di" ? [r.lbl, "€"] : fmtSoldi(r.v);
 // la percentuale di [confronto] sì (calcolo nostro): sotto lo 0,1% "meno di 0,1%"; fino al 100% un decimale, oltre senza
 const pctSpesi = c => c.pct > 0 && c.pct < 0.1 ? "meno di 0,1%"
   : (c.pre ? c.pre + " " : "") + c.pct.toLocaleString("it-IT", {maximumFractionDigits: c.pct < 100 ? 1 : 0}) + "%";
-// la barra "Già spesi su Soldi disponibili" (report e home): oltre il 100% la barra intera sono i già spesi e una tacca segna i disponibili
+// la barra "Già spesi su Soldi disponibili" (report; in soldi.html la scrive costruisci.py, con le stesse regole): oltre il 100% la barra intera sono i già spesi e una tacca segna i disponibili
 const barraSpesi = c => `<span class="bar" role="img" aria-label="Già spesi: ${pctSpesi(c)} dei soldi disponibili">${c.pct > 0 ? `<span style="width:${Math.min(c.pct, 100)}%"></span>` : ""}${c.pct > 100 ? `<i style="left:${100 / c.pct * 100}%"></i>` : ""}</span>`;
 const STATO = Object.fromEntries(STATI.map(s => [s[0], {label:s[1], color:s[2]}]));
 

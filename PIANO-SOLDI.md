@@ -106,7 +106,7 @@ File principali: `sito/comune.js` (`MONEY`, `fmtMln`), `sito/report.html` (riqua
 1. In breve (task 14) · 2. I totali · 3. Dove i soldi sono fermi · 4. Le stranezze · 5. Quanto resta ai soldi di Ilva · 6. Report per report · 7. Fondo per fondo · 8. Cosa non sappiamo e Fonti.
 Sul telefono le sezioni 1–5 sono aperte; 6, 7 e 8 a fisarmonica, così la pagina resta corta (scelta lasciata a Claude dall'utente).
 
-### [ ] 11. Titolo, totali e "Dove i soldi sono fermi" nella pagina
+### [x] 11. Titolo, totali e "Dove i soldi sono fermi" nella pagina (fatto il 25/10/2026: calcoli in `costruisci.py`, totali e barre identici a quelli che c'erano in home; pagina larga come la home; "Report per report" a fisarmonica, aperto su schermo grande)
 - Titolo "I soldi della bonifica" in `<title>`, `h1`, anteprime (og) e descrizione; frase iniziale riscritta: la pagina dice quanti soldi ci sono, quanti ne sono stati spesi, cosa non torna e da dove vengono.
 - Spostare dalla home a `soldi.html` i due totali (Fondi pubblici e Secondo Ilva, disponibili e già spesi, con "in N report"), la nota "Le cifre ci sono in N report", l'elenco dei report senza cifre e tutto "Dove i soldi sono fermi" (barre e "Senza confronto possibile").
 - In home resta il riquadro "Soldi" con i due totali e il link "Analisi dei soldi →" (al posto di "Da dove vengono i soldi, fondo per fondo →").
@@ -114,18 +114,18 @@ Sul telefono le sezioni 1–5 sono aperte; 6, 7 e 8 a fisarmonica, così la pagi
 - *Da decidere:* dove si fanno i calcoli. Raccomandato: in `costruisci.py`, così `soldi.html` resta statica e non carica `dati.js` (860 KB); i totali della pagina e quelli della home devono coincidere (controllarlo prima e dopo). In alternativa la pagina carica `dati.js` e `comune.js` e riusa il codice della home.
 - Verifica a 390 e 1440 px.
 
-### [ ] 12. Le stranezze tutte insieme
+### [x] 12. Le stranezze tutte insieme (fatto il 25/10/2026: sono 11 in 6 report, non 10; su schermo grande su due colonne)
 - Una sezione con tutte le righe `[stranezza · tipo]` delle schede (oggi 10 in 6 schede: Due Mari, Cementir, gara 2018, PIP Statte, Cimitero, Scuole Tamburi), divise per i quattro tipi (più del previsto, usati per altro, più report, fonti non concordano), con il numero per tipo.
 - Ogni stranezza con il report (codice e nome, link) e la frase con la sua fonte: la fonte è della scheda, quindi il numero porta alla fonte nel report (`r/<id>.html#<id>-f<n>`).
 - Nessuna frase nuova: il testo è quello delle schede.
 
-### [ ] 13. Quanto resta ai soldi di Ilva
+### [x] 13. Quanto resta ai soldi di Ilva (fatto il 25/10/2026: cifre ricontrollate sulle relazioni di Ilva; la riga del DL 21/2022 all'inizio del 2022 perché la data del decreto non è nelle fonti; su schermo grande il grafico è alto quanto la colonna con nota, tabella e domanda. Per il task 9: le relazioni trimestrali hanno una sezione "5. Aree Escluse di competenza Ilva" da leggere, e il punto 3 di Cosa non sappiamo in `fondi.md` va ricontrollato)
 - Una linea con quanto resta del Patrimonio Destinato, dalla voce **Quanto resta** di `fondi.md`: 1.064 milioni a fine 2018 [28], 818,3 a marzo 2022 [29], 726,8 a dicembre 2022 [30], 624,2 a dicembre 2023 [31], 387,5 a dicembre 2024 [32] e a marzo 2025 [33].
 - `costruisci.py` legge le cifre con data e fonte e si ferma se una cifra non ha la data o la fonte. Fra il 2019 e il 2021 non ci sono dati: il disegno deve mostrarlo (punti solo dove c'è la cifra, niente linea inventata in mezzo).
 - Sul disegno: i 150 milioni spostati alla decarbonizzazione dal decreto-legge 21/2022 [2]; sotto, la domanda aperta "quanto di questo calo è andato alle bonifiche?" (Cosa non sappiamo, punto 3).
 - Leggere la skill `dataviz` prima di scrivere il disegno: etichette dirette, cifre al tocco, tabella con le stesse cifre.
 
-### [ ] 14. In breve
+### [x] 14. In breve (fatto il 25/10/2026: 4 frasi approvate dall'utente; la costruzione controlla anche che "Le stranezze sono N, in M report" sia giusto)
 - 3–4 frasi in cima alla pagina, scritte in una sezione nuova `## In breve` di `fondi.md`, ognuna con la sua fonte o con "calcolo nostro" (per esempio: le cifre di Ilva sono quasi tutte ferme a luglio 2022; nessun report di fondi pubblici permette il confronto fra disponibili e spesi; stranezze in N report).
 - `costruisci.py` si ferma se una frase non finisce con la fonte o se la fonte non è nell'elenco. Ogni frase si controlla sulle fonti prima di mostrarla.
 - Prima le frasi all'utente, poi sul sito.
