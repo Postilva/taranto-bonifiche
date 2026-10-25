@@ -625,14 +625,58 @@ body.pv-on .paneltoggle{display:none}
 .mini5 .no,.mini5 .na{border-style:dashed}
 /* menu con tre voci: sui telefoni stretti le voci si stringono */
 @media (max-width:420px){.topbar .in{gap:6px}.topbar nav{gap:0}.topbar nav a{padding:10px 10px}}
-/* pagina "Da dove vengono i soldi" (soldi.html, scritta da costruisci.py leggendo fondi.md): un riquadro a fisarmonica
-   per fondo; dentro, il percorso dei soldi in tre tappe (dato → finito in → speso) su una linea verticale */
-.sd>.wrap{gap:20px}
+/* pagina "I soldi della bonifica" (soldi.html, scritta da costruisci.py leggendo fondi.md e le schede): in cima le sezioni
+   dell'analisi (In breve, i totali, dove i soldi sono fermi, le stranezze, quanto resta), poi report per report e un
+   riquadro a fisarmonica per fondo; dentro, il percorso dei soldi in tre tappe (dato → finito in → speso) su una linea verticale */
+.sd>.wrap{gap:20px;max-width:1080px}   /* larga come la home */
 .sd-head{display:grid;gap:10px}
 .sd-head h1{font-size:clamp(1.6rem,6.4vw,2.4rem);font-weight:800}
+.sd .sz{margin:0}
+.sd .sz>h2,.sz-fondi>h2{font-size:1.15rem;font-weight:800}
+.sd .sz.ferme{border-top:0;padding-top:16px}
+.sz-fondi{display:grid;gap:12px}
+.breve ul{margin:0;padding-left:1.1em;display:grid;gap:8px;font-size:.95rem;line-height:1.5;color:var(--ink)}
+/* le stranezze per tipo: l'etichetta in giallo con il numero, la spiegazione del tipo, poi report e frase */
+.st-g{display:grid;gap:8px}
+.st-g+.st-g{border-top:1px solid var(--line);padding-top:14px}
+.st-g h3{display:flex;align-items:center;gap:8px;font:700 .75rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--s-part)}
+.st-g h3 small{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:var(--surface-2);color:var(--ink);font:700 .75rem/1 var(--f-body);letter-spacing:0}
+.st-g ul.strane{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.st-g .strane li{display:grid;gap:8px;justify-items:start;background:var(--surface-2);border-radius:12px;border-left:3px solid var(--s-part);padding:10px 12px;font-size:.88rem;line-height:1.45;color:var(--ink-2)}
+.strane .area{display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.8rem;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
+.strane .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
+.strane .area.gB b{background:var(--gB)}
+/* quanto resta del Patrimonio Destinato: griglia, fascia e linea in un SVG che si allunga con il riquadro; scritte e punti
+   in HTML sopra, posizionati in percentuale (non si deformano); su schermo grande il grafico è alto quanto la colonna accanto */
+.resta{position:relative;margin:0;aspect-ratio:360/214}
+.resta svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.resta .gl{stroke:var(--line);stroke-width:1;vector-effect:non-scaling-stroke}
+.resta .buco{fill:var(--surface-2)}
+.resta .ev{stroke:var(--ink-3);stroke-width:1;vector-effect:non-scaling-stroke}
+.resta .ln{fill:none;stroke:var(--gA);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}
+.resta .lb{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;font:500 11.5px/1.25 var(--f-body);color:var(--ink-3);text-align:center;pointer-events:none}
+.resta .lb.r{transform:translate(-100%,-50%);text-align:right}
+.resta .lb.l{transform:translate(0,-50%);text-align:left}
+.resta .lb.ev-t{color:var(--ink-2);font-weight:700}
+.resta .lb.val{color:var(--ink);font:700 12.5px/1 var(--f-body)}
+.resta .pt{position:absolute;width:28px;height:28px;margin:-14px 0 0 -14px;display:grid;place-items:center;border-radius:50%;cursor:pointer;outline:none}
+.resta .dot{width:9px;height:9px;border-radius:50%;background:var(--gA);box-shadow:0 0 0 2px var(--surface)}
+.resta .pt.on .dot,.resta .pt:focus-visible .dot{box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.resta-tip{position:absolute;z-index:2;pointer-events:none;white-space:nowrap;padding:6px 9px;border-radius:8px;background:var(--ink);color:var(--bg);font:600 .78rem/1.3 var(--f-body)}
+.resta-tab{width:100%;margin-top:8px;border-collapse:collapse;font-size:.85rem;color:var(--ink-2)}
+.resta-tab th,.resta-tab td{text-align:left;padding:6px 8px 6px 0;border-bottom:1px solid var(--line)}
+.resta-tab td:last-child{font-variant-numeric:tabular-nums;color:var(--ink)}
+.aperta{background:var(--gA-soft);border-radius:12px;padding:10px 12px;font-size:.92rem;line-height:1.45;color:var(--ink)}
+.aperta a{white-space:nowrap;font-weight:600;text-decoration:none}
+.resta-g,.resta-dx{display:grid;gap:12px;align-items:start}
+@media (min-width:900px){
+  .resta-g{grid-template-columns:minmax(0,440px) minmax(0,1fr);gap:28px}
+  .resta-g>.resta{align-self:stretch;aspect-ratio:auto;min-height:280px}
+  .st-g ul.strane{grid-template-columns:1fr 1fr}
+}
 .gruppo{display:grid;gap:10px}
-.gruppo h2{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
-.gruppo h2 small{font-weight:600;letter-spacing:0;text-transform:none}
+.gruppo h3{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:6px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.gruppo h3 small{font-weight:600;letter-spacing:0;text-transform:none}
 .fondo>summary{align-items:flex-start;padding-block:14px}
 .fondo>summary>span{line-height:1.3}
 .fondo>summary small{margin-top:4px;line-height:1.35}
@@ -659,11 +703,10 @@ body.pv-on .paneltoggle{display:none}
 /* report: i fondi che pagano l'intervento, link alla pagina "Da dove vengono i soldi" */
 .fondi-di{display:flex;flex-wrap:wrap;gap:6px}
 .fondi-di a{display:inline-flex;align-items:center;min-height:36px;padding:6px 12px;border-radius:12px;background:var(--surface-2);box-shadow:inset 0 0 0 1px var(--line);color:var(--ink);font-weight:600;font-size:.84rem;line-height:1.3;text-decoration:none}
-/* soldi.html, schermo grande: i fondi report per report, sopra i riquadri (sul telefono resta solo l'elenco a fisarmonica) */
-.flussi{display:none}
+/* soldi.html: i fondi report per report, a fisarmonica (aperta su schermo grande dal codice della pagina) */
 .prr{display:grid;gap:10px}
-.pr{display:grid;gap:10px;align-content:start;background:var(--surface);border-radius:14px;box-shadow:var(--shadow);padding:14px}
-.pr>.area,.pr .aree .area{justify-self:start;display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface-2);color:var(--ink);text-decoration:none;font-size:.85rem;font-weight:600;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
+.pr{display:grid;gap:10px;align-content:start;background:var(--surface-2);border-radius:14px;padding:14px}
+.pr>.area,.pr .aree .area{justify-self:start;display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.85rem;font-weight:600;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
 .pr .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
 .pr .area.gB b{background:var(--gB)}
 .pr ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
@@ -675,4 +718,4 @@ body.pv-on .paneltoggle{display:none}
 .pr .tutti{font-weight:700;color:var(--ink);text-decoration:none}
 .pr .aree{display:flex;flex-wrap:wrap;gap:6px}
 .pr .aree .area{font-weight:500;font-size:.78rem}
-@media (min-width:900px){.flussi{display:grid;gap:12px}.prr{grid-template-columns:1fr 1fr}.pr.largo{grid-column:1/-1}}
+@media (min-width:900px){.prr{grid-template-columns:1fr 1fr}.pr.largo{grid-column:1/-1}}

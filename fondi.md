@@ -3,6 +3,12 @@
 
 Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in quali report è finito e quanto è stato speso. Un fondo è un atto (una delibera, un decreto, un accordo): se lo stesso atto paga più interventi, le quote stanno dentro la stessa sezione, così nessun fondo si conta due volte. Ogni frase finisce con la sua fonte, elencata in fondo; le somme e le percentuali fatte da noi sono scritte "(calcolo nostro)". Le righe `- [<scheda>]` sotto **Report** usano il nome del file in `interventi/`.
 
+## In breve
+- Quanto Ilva abbia speso dopo luglio 2022, area per area, non lo sappiamo: le cifre dei 16 report delle sue aree vengono tutte dalla tabella di quel mese [34].
+- Per nessun report pagato con fondi pubblici si può dire quanta parte dei soldi sia già stata spesa: in uno le due cifre non riguardano la stessa cosa, negli altri 7 ne manca una (calcolo nostro).
+- Le stranezze sono 11, in 6 report: soldi pagati o divisi oltre quelli previsti, soldi usati per altro, gli stessi soldi in più report, fonti con cifre diverse (calcolo nostro).
+- Il Patrimonio Destinato di Ilva aveva 1.157 milioni € per bonifiche e risanamento, 150 dei quali spostati nel 2022 alla decarbonizzazione della fabbrica [2]; a fine marzo 2025 ne restavano 387,5 [33].
+
 ---
 
 ## Fondi pubblici
@@ -164,7 +170,13 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **Per cosa:** le bonifiche e il risanamento del sito dell'ex Ilva [2]:
   - 467 milioni € li gestisce Ilva in AS per la bonifica delle "Aree escluse", cioè le aree che non sono passate in affitto ad Acciaierie d'Italia; gli importi li ha fissati la Commissione europea con il Governo (lettera del 4 maggio 2016) [2];
   - 690 milioni € sono a disposizione di Acciaierie d'Italia per bonifica, decontaminazione e decarbonizzazione della fabbrica, pagati comunque da Ilva in AS [2].
-- **Quanto resta:** 1.064 milioni € a fine dicembre 2018 [28], 818,3 a fine marzo 2022 [29], 726,8 a fine dicembre 2022 [30], 624,2 a fine dicembre 2023 [31], 387,5 a fine dicembre 2024 [32] e a fine marzo 2025 [33].
+- **Quanto resta:** quanto c'è nel Patrimonio Destinato, secondo le relazioni trimestrali di Ilva in AS:
+  - 1.064 milioni € · fine dicembre 2018 [28]
+  - 818,3 milioni € · fine marzo 2022 [29]
+  - 726,8 milioni € · fine dicembre 2022 [30]
+  - 624,2 milioni € · fine dicembre 2023 [31]
+  - 387,5 milioni € · fine dicembre 2024 [32]
+  - 387,5 milioni € · fine marzo 2025 [33]
 - **Report** (soldi "allocati" nella tabella di Ilva del luglio 2022 [34]; la cifra di ogni area è nella sua scheda):
   - [area-verde-nord] 18.400.000 €
   - [area-verde-ovest] 4.880.000 €
