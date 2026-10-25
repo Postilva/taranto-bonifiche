@@ -4,10 +4,10 @@
 Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in quali report è finito e quanto è stato speso. Un fondo è un atto (una delibera, un decreto, un accordo): se lo stesso atto paga più interventi, le quote stanno dentro la stessa sezione, così nessun fondo si conta due volte. Ogni frase finisce con la sua fonte, elencata in fondo; le somme e le percentuali fatte da noi sono scritte "(calcolo nostro)". Le righe `- [<scheda>]` sotto **Report** usano il nome del file in `interventi/`.
 
 ## In breve
-- Quanto Ilva abbia speso dopo luglio 2022, area per area, non lo sappiamo: le cifre dei 16 report delle sue aree vengono tutte dalla tabella di quel mese [34].
+- Quanto Ilva abbia speso dopo febbraio 2023, area per area, non lo sappiamo: le cifre dei 17 report delle sue aree vengono tutte dalla tabella di quel mese [39].
 - Per nessun report pagato con fondi pubblici si può dire quanta parte dei soldi sia già stata spesa: in uno le due cifre non riguardano la stessa cosa, negli altri 7 ne manca una (calcolo nostro).
-- Le stranezze sono 11, in 6 report: soldi pagati o divisi oltre quelli previsti, soldi usati per altro, gli stessi soldi in più report, fonti con cifre diverse (calcolo nostro).
-- Il Patrimonio Destinato di Ilva aveva 1.157 milioni € per bonifiche e risanamento, 150 dei quali spostati nel 2022 alla decarbonizzazione della fabbrica [2]; a fine marzo 2025 ne restavano 387,5 [33].
+- Le stranezze sono 12, in 7 report: soldi pagati, impegnati o divisi oltre quelli previsti, soldi usati per altro, gli stessi soldi in più report, fonti con cifre diverse (calcolo nostro).
+- Il Patrimonio Destinato di Ilva aveva 1.157 milioni € per bonifiche e risanamento, 150 dei quali spostati nel 2022 alla decarbonizzazione della fabbrica [2]; nel 2025 ne sono andati 250 ad Acciaierie d'Italia per far funzionare gli impianti, e a fine 2025 ne restavano 80,6 [40][41].
 
 ---
 
@@ -166,23 +166,25 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 ## Patrimonio Destinato di Ilva in AS
 - **Chi lo dà:** le risorse vengono "essenzialmente dall'accordo transattivo raggiunto con esponenti della famiglia Riva", più di 1.330 milioni € in tutto [2]. Nel 2017 Ilva in AS ha emesso un prestito obbligazionario sottoscritto dal Fondo Unico di Giustizia; i soldi sono stati versati in un "Patrimonio Destinato", con una contabilità separata [28].
 - **Atto:** decreto-legge 1/2015, art. 3, comma 1 [2].
-- **Importo:** 1.157 milioni € [2]. Il decreto-legge 21/2022 ne ha spostati 150 milioni alla decarbonizzazione della fabbrica [2].
+- **Importo:** 1.157 milioni € [2]. Il decreto-legge 21/2022 ne ha spostati 150 milioni alla decarbonizzazione della fabbrica [2]. In base al decreto-legge 3/2025, il 29 gennaio e il 13 febbraio 2025 ne sono stati pagati 250 milioni ad Acciaierie d'Italia in AS "per assicurare la continuità operativa degli impianti ex Ilva" [40].
 - **Per cosa:** le bonifiche e il risanamento del sito dell'ex Ilva [2]:
   - 467 milioni € li gestisce Ilva in AS per la bonifica delle "Aree escluse", cioè le aree che non sono passate in affitto ad Acciaierie d'Italia; gli importi li ha fissati la Commissione europea con il Governo (lettera del 4 maggio 2016) [2];
   - 690 milioni € sono a disposizione di Acciaierie d'Italia per bonifica, decontaminazione e decarbonizzazione della fabbrica, pagati comunque da Ilva in AS [2].
-- **Quanto resta:** quanto c'è nel Patrimonio Destinato, secondo le relazioni trimestrali di Ilva in AS:
+- **Quanto resta:** quanto c'è nel Patrimonio Destinato, secondo le relazioni trimestrali di Ilva in AS e, per il 2025, le relazioni semestrali dei commissari di Ilva al Parlamento ("disponibilità del Patrimonio Destinato"):
   - 1.064 milioni € · fine dicembre 2018 [28]
   - 818,3 milioni € · fine marzo 2022 [29]
   - 726,8 milioni € · fine dicembre 2022 [30]
   - 624,2 milioni € · fine dicembre 2023 [31]
   - 387,5 milioni € · fine dicembre 2024 [32]
-  - 387,5 milioni € · fine marzo 2025 [33]
-- **Report** (soldi "allocati" nella tabella di Ilva del luglio 2022 [34]; la cifra di ogni area è nella sua scheda):
+  - 133,4 milioni € · fine giugno 2025 [40]
+  - 80,6 milioni € · fine dicembre 2025 [41]
+- **Report** (soldi "allocati" nella tabella di Ilva con i dati al 28 febbraio 2023 [39]; la cifra di ogni area è nella sua scheda):
   - [area-verde-nord] 18.400.000 €
   - [area-verde-ovest] 4.880.000 €
   - [collinette-ecologiche] 37.500.000 €
   - [discarica-cementir] 16.750.000 €
   - [discarica-due-mari] 5.050.000 €
+  - [discarica-nord-ovest] 12.000.000 €
   - [discarica-nuove-vasche] 3.000.000 €
   - [gravina-leucaspide] 226.600.000 €
   - [land-a] 2.160.000 €
@@ -194,11 +196,12 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
   - [land-l-amastuola] 3.350.000 €
   - [pozzo-25] circa 390.000 €
   - [stoccaggio-fanghi] 75.030.000 €
-- **Speso:** per area, solo fino a luglio 2022 (vedi le schede) [34].
+- **Speso:** per area, solo fino a febbraio 2023 (vedi le schede) [39]; prima c'era la tabella del luglio 2022 [34].
 - **Da sapere:**
-  - Le 16 cifre sommano 400,46 milioni € (calcolo nostro), meno dei 467 milioni per le Aree escluse [2].
-  - La tabella di Ilva del luglio 2022 non scrive, area per area, da quale fondo vengono i soldi [34]. Che siano soldi del Patrimonio Destinato lo dice la Commissione parlamentare per tutte le Aree escluse insieme [2]. Per questo sul sito le cifre restano "secondo Ilva".
-  - Fra il 2018 e il 2025 il Patrimonio Destinato è sceso da 1.064 a 387,5 milioni € [28][33]: le relazioni non dicono quanto di questo calo sia andato alle bonifiche delle Aree escluse.
+  - Le 17 cifre sommano 412,46 milioni € (calcolo nostro), meno dei 467 milioni per le Aree escluse [2].
+  - Nell'aggiornamento del marzo 2023 Ilva scrive che i soldi delle Aree escluse sono 467 milioni del Patrimonio Destinato, di cui 443 già divisi fra le aree (434 per Taranto, Statte e Crispiano) [39]; lo dice anche la Commissione parlamentare [2]. Sul sito le cifre restano "secondo Ilva", perché nessun ente pubblico le ha controllate.
+  - Fra il 2018 e il 2025 il Patrimonio Destinato è sceso da 1.064 a 80,6 milioni € [28][41]. Una parte del calo sono i 250 milioni pagati ad Acciaierie d'Italia nel 2025 [40]. Le relazioni dei commissari al Parlamento danno, semestre per semestre, i pagamenti di Ilva "per attività di Decontaminazione" (per esempio 3,58 milioni nel secondo semestre 2025), ma non dicono per quale area [41].
+  - La relazione trimestrale del 1° trimestre 2025 scrive che a fine marzo 2025 il Patrimonio Destinato era di 387,5 milioni € [33], la stessa cifra di fine 2024; ma i 250 milioni ad Acciaierie d'Italia erano stati pagati il 29 gennaio e il 13 febbraio 2025 [40]. Per questo la linea non usa quella cifra.
 
 ---
 
@@ -207,13 +210,10 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **Difesa, Stazione Navale Mar Grande, Intervento A:** 512 milioni € di lavori stimati [35]; 191,4 milioni € su OpenCoesione, di cui 5,6 milioni pagati al 30 giugno 2026 [36]. Citato nella scheda dell'Area 170 ha.
 - **Impianti sportivi del Tamburi (CIS Taranto):** Lotto 1, 3.359.060,32 € di fondi FSC; Lotto 2, 1.640.939,68 € [37][38]. È la riqualificazione dell'impianto Atleti Azzurri, non la bonifica.
 
-## Report senza un fondo conosciuto
-- [discarica-nord-ovest] il progetto approvato costa 29.812.351,53 €, ma le fonti non dicono da dove vengono i soldi (vedi la scheda).
-
 ## Cosa non sappiamo
 1. [fonti] **Il decreto per i suoli del Tamburi è il n. 398 o il n. 3984, ed è del 2012 o del 2021?** La relazione del Commissario del 2018 scrive "n.3984/TRI/DI/G/SP del 17/12/2012" [1], la tabella della Commissione parlamentare "398/TRI/DU/G/SP del 17/12/2021" [2]. La scheda delle scuole spiega già che "2021" è un errore.
 2. [altra] **Da quale decreto vengono i 6,18 milioni del Cimitero?** Il decreto n. 18 del 2026 dice solo "bilancio proprio e.f. 2012" del Ministero [18]; il fondo di 8 milioni per i suoli del Tamburi paga in parte anche le analisi del Cimitero [1].
-3. [altra] **Quanto del Patrimonio Destinato è stato speso per le Aree escluse?** Le relazioni di Ilva danno solo quanto resta in tutto [28][33]; le cifre per area si fermano a luglio 2022 [34].
+3. [altra] **Quanto del Patrimonio Destinato è stato speso per ogni Area esclusa dopo febbraio 2023?** Le relazioni dei commissari al Parlamento danno i pagamenti di Ilva "per attività di Decontaminazione" tutti insieme [41]; le cifre per area si fermano a febbraio 2023 [39].
 4. [altra] **Cosa sono i 34,17 milioni di "altre risorse" del PIP di Statte?** L'Accordo per la Coesione non lo spiega [12].
 5. [altra] **Cos'è il "Fondo di rotazione" da 9,26 milioni del Cimitero?** Compare solo su OpenCoesione [19].
 6. [altra] **Dove sono finiti i 37,2 milioni dell'accordo del 2004 per l'Area 170 ha?** Nessuna fonte trovata lo dice [27].
@@ -295,5 +295,11 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 [37] OpenCoesione, progetto *Lotto 1 – Impianti sportivi di base, cod. 2.21.1.b7*, CUP E53B19000020001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/7pufc7100129/ — copia in `fonti/2026-06_opencoesione_impianti-sportivi-tamburi-lotto1.json`
 
 [38] OpenCoesione, progetto *Lotto 2 – Completamento struttura Marcatale, cod. 2.21.1.b7*, stesso CUP E53B19000020001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/7pufc7100133/ — copia in `fonti/2026-06_opencoesione_impianti-sportivi-tamburi-lotto2.json`
+
+[39] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 4–5 (fondi del Patrimonio Destinato) e 10–14 ("Recap interventi in corso o pianificati") del PDF, trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
+[40] Commissari straordinari di ILVA S.p.A. in A.S., *Relazione concernente il conto di contabilità speciale n. 6055 (Primo semestre 2025)*, Doc. XXVII n. 24 (XIX legislatura), trasmessa alla Presidenza il 1° luglio 2025, pagine 3–4 (sintesi dei movimenti, "disponibilità del Patrimonio Destinato" al 30 giugno 2025, pagamenti del 29/01/2025 e del 13/02/2025 ai sensi del decreto-legge 3/2025), https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/027/024_RS/INTERO_COM.pdf — copia in `fonti/2025-07_ilva-as_relazione-contabilita-speciale-6055-I-sem-2025.pdf`
+
+[41] Commissari straordinari di ILVA S.p.A. in A.S., *Relazione concernente il conto di contabilità speciale n. 6055 (Secondo semestre 2025)*, Doc. XXVII n. 30 (XIX legislatura), trasmessa alla Presidenza il 12 gennaio 2026, pagine 2–3 (sintesi dei movimenti, "disponibilità del Patrimonio Destinato" al 31 dicembre 2025, estratto conto), https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/027/030_RS/INTERO_COM.pdf — copia in `fonti/2026-01_ilva-as_relazione-contabilita-speciale-6055-II-sem-2025.pdf`
 
 Ultimo controllo dei fondi su OpenCoesione: dati al 30 giugno 2026 (letti dalle schede).

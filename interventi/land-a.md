@@ -1,5 +1,5 @@
 # A10 – Land A (area verde al confine con Statte)
-*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -75,16 +75,17 @@ Tutti i valori qui sotto vengono dalla validazione di ARPA [12]. I limiti di leg
 **No.** Le particelle di Land A non sono tra le aree tolte dal SIN (il "Sito di interesse nazionale" da bonificare) con il decreto del Ministero n. 249 dell'11 dicembre 2024 [13].
 
 ## Soldi
-**Ilva ha messo da parte 2,16 milioni € per quest'area; fino a luglio 2022 ne aveva spesi circa 20.000 €, circa l'1% (calcolo nostro). Quanto ha speso dopo non si sa.** [5]
+**Ilva ha messo da parte 2,16 milioni € per quest'area; fino a febbraio 2023 ne aveva spesi circa 300.000 €, circa il 14% (calcolo nostro). Quanto ha speso dopo non si sa.** [17]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 2.160.000 € · Ilva · luglio 2022 [5] stanziati; circa 420.000 € impegnati in ordini
-- [spesi] circa 20.000 € · Ilva · luglio 2022 [5] dopo luglio 2022 non si sa
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [5]
+- [disponibili] 2.160.000 € · Ilva · febbraio 2023 [17] stanziati; circa 500.000 € impegnati in ordini
+- [spesi] circa 300.000 € · Ilva · febbraio 2023 [17] dopo febbraio 2023 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [17]
 
 - Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land A erano stati **stanziati 2,16 milioni €** (analisi di terreno e acqua, "bonifica soprassuolo e ripristino delle condizioni ambientali"), di cui **0,42 milioni impegnati** in ordini e **0,02 milioni pagati** [5]. Sono cifre di Ilva, non verificate da un ente pubblico.
+- A febbraio 2023, secondo Ilva: 0,50 milioni impegnati in ordini, 0,30 fatturati e **0,30 milioni pagati** [17].
 - Le analisi di controllo di ARPA sono pagate da Ilva, in base a una convenzione [12].
-- Quanto è stato speso dopo il 2022, e con quali fondi: **non verificato**.
+- Quanto è stato speso dopo febbraio 2023, e con quali fondi: **non verificato**.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -140,6 +141,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [15] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2023*, pagina 36, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2023_omissisb.pdf — copia in `fonti/2023-03_ilva-as_relazione-trimestrale-I-2023.pdf`
 
 [16] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, foglio 138; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
+
+[17] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 12 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Quale uso conta: industriale o verde?** Il piano lo chiama "verde industriale", ma il piano regolatore citato nello stesso documento parla di "zona di verde di rispetto" e di "zona speciale vincolata" [7]. Il decreto del 2021 chiedeva ai Comuni di Taranto e Statte di esprimersi; nel 2024 ARPA scrive che questa risposta è "dirimente" e va ancora acquisita [10][12]. Non abbiamo trovato la risposta dei Comuni. Dalla risposta dipende se valgono i limiti residenziali (superati quasi ovunque) o quelli industriali (superati in un punto) [12].

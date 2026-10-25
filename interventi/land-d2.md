@@ -1,5 +1,5 @@
 # A16 – Land D2 (area verde vicino alla Statale 7 Appia)
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -70,15 +70,15 @@ Le analisi hanno trovato nel terreno idrocarburi e arsenico oltre i limiti previ
 - Nell'archivio del Ministero, al 13 ottobre 2026, non risultano altri decreti di riduzione del SIN di Taranto dopo quello di dicembre 2024.
 
 ## Soldi
-**Ilva ha messo da parte circa 100.000 € per quest'area e fino a luglio 2022 ne aveva spesi circa la metà (calcolo nostro). La bonifica non è servita, quindi non ci sono spese di bonifica.** [2][12][28]
+**Ilva ha messo da parte circa 100.000 € per quest'area e fino a febbraio 2023 ne aveva spesi circa la metà (calcolo nostro). La bonifica non è servita, quindi non ci sono spese di bonifica.** [2][12][32]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] circa 100.000 € · Ilva · luglio 2022 [28] stanziati
-- [spesi] circa 50.000 € · Ilva · luglio 2022 [28]
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [28]
+- [disponibili] circa 100.000 € · Ilva · febbraio 2023 [32] stanziati
+- [spesi] circa 50.000 € · Ilva · febbraio 2023 [32]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [32]
 
-- Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land D2 erano stati **stanziati 0,10 milioni €** (gestione del verde, analisi di terreno e acqua, "bonifica soprassuolo e ripristino condizioni ambientali"), di cui **0,05 milioni impegnati** in ordini e 0,05 pagati [28]. Sono cifre di Ilva, non verificate da un ente pubblico.
-- Quanto sono costati in tutto le analisi, il controllo della falda (ordine n. 42/23 [30]) e la manutenzione del verde dopo il 2022: **non verificato**. Non ci sono spese di bonifica, perché la bonifica non è stata necessaria [2][12].
+- Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land D2 erano stati **stanziati 0,10 milioni €** (gestione del verde, analisi di terreno e acqua, "bonifica soprassuolo e ripristino condizioni ambientali"), di cui **0,05 milioni impegnati** in ordini e 0,05 pagati [28]. Sono cifre di Ilva, non verificate da un ente pubblico. A febbraio 2023: 0,06 milioni impegnati, 0,05 fatturati e 0,05 pagati [32].
+- Quanto sono costati in tutto le analisi, il controllo della falda (ordine n. 42/23 [30]) e la manutenzione del verde dopo febbraio 2023: **non verificato**. Non ci sono spese di bonifica, perché la bonifica non è stata necessaria [2][12].
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -172,6 +172,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [30] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2023*, pagina 39, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2023_omissisb.pdf — copia in `fonti/2023-12_ilva-as_relazione-trimestrale-IV-2023.pdf`
 
 [31] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, fogli 184 e 192; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
+
+[32] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 14 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 ## Cosa non sappiamo
 1. [altra] **Le condizioni sono state scritte nel piano regolatore?** Il decreto chiede di annotare negli strumenti urbanistici che l'analisi vale solo per i lavoratori [2]: per un parco, un giardino o per riaprire la chiesa servirebbe una nuova analisi di rischio [2][18]. Non abbiamo trovato nessun atto del Comune di Taranto che lo faccia. Non verificato. Anche il decreto del 2021 chiedeva ai Comuni di Taranto e Statte di esprimersi sulla destinazione d'uso [4], e Ilva nel 2020 stava chiedendo il certificato di destinazione urbanistica [26], che nel 2022 dice di avere [29]: non abbiamo trovato né l'espressione dei Comuni né il certificato. Vedi la bozza di richiesta FOIA qui sotto.

@@ -1,5 +1,5 @@
 # A14 – Land L (Cava L'Amastuola)
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -53,14 +53,15 @@ Negli anni '80 nella cava c'era una discarica [2][3][4]. La Regione ha chiesto d
 - Nel 2022 Ilva pensava anche ad altri usi: "selvicoltura" (piantare alberi) e una discarica per i propri fanghi [3]. Che fine abbiano fatto queste idee: non verificato.
 
 ## Soldi
-**Ilva ha messo da parte 3,35 milioni € per quest'area; fino a luglio 2022 ne aveva spesi meno di 10.000 €. Il recupero della cava non è compreso e il suo costo non si sa.** [1][3]
+**Ilva ha messo da parte 3,35 milioni € per quest'area; fino a febbraio 2023 ne aveva spesi circa 10.000 €. Il recupero della cava non è compreso e il suo costo non si sa.** [1][16]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 3.350.000 € · Ilva · luglio 2022 [3] assegnati; il recupero della cava non è compreso [1]
-- [spesi] meno di 10.000 € · Ilva · luglio 2022 [3]
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [3]
+- [disponibili] 3.350.000 € · Ilva · febbraio 2023 [16] assegnati; circa 140.000 € impegnati in ordini; il recupero della cava non è compreso [1]
+- [spesi] circa 10.000 € · Ilva · febbraio 2023 [16]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [16]
 
 - Nel luglio 2022, secondo Ilva: **3,35 milioni €** assegnati all'area; meno di 0,01 milioni impegnati e pagati [3].
+- A febbraio 2023, secondo Ilva: 0,14 milioni impegnati in ordini, 0,01 fatturati e 0,01 pagati [16].
 - Per la recinzione, nel 2023 le ditte hanno chiesto circa 160.000 € contro i 100.000 previsti [8].
 - Il piano di recupero della cava non è compreso nei fondi assegnati [1]. Il suo costo: non verificato.
 
@@ -115,6 +116,8 @@ Negli anni '80 nella cava c'era una discarica [2][3][4]. La Regione ha chiesto d
 [14] ILVA S.p.A. in A.S., *Documento di aggiornamento periodico per documentare l'attuazione delle prescrizioni dell'Autorizzazione integrata ambientale*, acquisito dal Ministero dell'Ambiente al prot. DVA 4716 del 28 febbraio 2017, elenco della corrispondenza, riga del 15/07/2016 (pagina 596 del PDF), https://va.mite.gov.it/File/Documento/293347 — copia in `fonti/2017-02_ilva_aggiornamento-attuazione-prescrizioni-aia.pdf`
 
 [15] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Crispiano, foglio 66, particelle 66 e 15; riquadro della particella 66 letto dal servizio, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
+
+[16] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 13 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **L'indagine preliminare è partita?** A fine 2025 non era ancora partita: Ilva aspettava le autorizzazioni per i vincoli dell'area, chieste ad agosto 2025 [1]. Le indagini sono appaltate e l'inizio è «in programmazione» [1]. Solo se troveranno problemi Ilva presenterà un nuovo piano delle analisi, poi l'analisi di rischio ed «eventuale bonifica» [1]. Dopo, non abbiamo trovato notizie. La Regione, a ottobre 2026, dice di non aver ricevuto comunicazioni da Ilva dopo il 22 dicembre 2023 [13].

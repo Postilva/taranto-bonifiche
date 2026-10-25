@@ -311,7 +311,7 @@ function mappaFabbrica(d){
   const blocco = (titolo, sotto, ilva) => `<div><h4>${titolo}<small>${sotto}</small></h4><div class="soldi" style="--n:2">${casella("disponibili", ilva)}${casella("spesi", ilva)}</div></div>`;
   $("#soldi-tot").innerHTML = `<h3>Soldi ${soldiInfo("soldi-info")}</h3>${soldiInfoBox("soldi-info")}
     <p class="chart-intro">Quanti soldi sono disponibili e quanti sono già stati spesi, sommando le cifre dei report (somme fatte da noi). Le cifre di Ilva sono a parte: le ha dichiarate Ilva e nessun ente pubblico le ha controllate.</p>
-    <div class="tot">${blocco("Fondi pubblici", "A date diverse: ogni report dice quando e da dove vengono", false)}${blocco("Secondo Ilva", "Tabella di Ilva in amministrazione straordinaria, luglio 2022", true)}</div>
+    <div class="tot">${blocco("Fondi pubblici", "A date diverse: ogni report dice quando e da dove vengono", false)}${blocco("Secondo Ilva", "Tabella di Ilva in amministrazione straordinaria, febbraio 2023", true)}</div>
     <p class="chart-intro"><a href="soldi.html">Analisi dei soldi →</a></p>`;
 })();
 </script>

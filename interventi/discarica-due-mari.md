@@ -1,5 +1,5 @@
 # A3 – Discarica ex cava Due Mari
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -85,16 +85,17 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 **Cosa sosteneva Ilva:** che i lavori di messa in sicurezza erano "sostanzialmente conclusi" e che banche e assicurazioni non concedono garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
 ## Soldi
-**Secondo Ilva, a luglio 2022 per questa discarica erano previsti 5,05 milioni €, ma ne erano già stati pagati 5,39 e impegnati 5,95: più di quanto previsto. Da dove vengano i soldi le fonti non lo dicono.** [8]
+**Secondo Ilva, per questa discarica erano previsti 5,05 milioni €, ma a febbraio 2023 ne erano già stati pagati 5,63 e impegnati 6,20: più di quanto previsto. Da dove vengano i soldi le fonti non lo dicono.** [21]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 5.050.000 € · Ilva · luglio 2022 [8] fondi previsti; impegnati 5.950.000 €
-- [spesi] 5.390.000 € · Ilva · luglio 2022 [8]
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [8]
-- [stranezza · più del previsto] A luglio 2022 Ilva indicava 5,39 milioni € già pagati e 5,95 milioni impegnati, più dei 5,05 milioni di fondi previsti [8]
+- [disponibili] 5.050.000 € · Ilva · febbraio 2023 [21] fondi previsti; impegnati 6.200.000 €
+- [spesi] 5.630.000 € · Ilva · febbraio 2023 [21]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [21]
+- [stranezza · più del previsto] A febbraio 2023 Ilva indicava 5,63 milioni € già pagati e 6,20 milioni impegnati, più dei 5,05 milioni di fondi previsti [21]
 
 - **Speso o impegnato fino al 31 ottobre 2018:** 767.000 € (secondo Ilva) [11].
 - **Fino a luglio 2022 (secondo Ilva):** fondi previsti 5,05 milioni €; impegnati 5,95 milioni; pagati 5,39 milioni [8]. Sono dati di Ilva, non verificati da un ente pubblico.
+- **Fino a febbraio 2023 (secondo Ilva):** fondi previsti 5,05 milioni €; impegnati 6,20 milioni, 1,15 più del previsto; pagati 5,63 milioni; fatturati 5,70 milioni [21]. Dopo febbraio 2023 le fonti non danno cifre per quest'area.
 - **Da dove vengono i soldi:** le fonti non lo dicono. Non verificato.
 - **Importo della garanzia richiesta dalla Provincia:** non verificato.
 - **Spese legali:** Ilva è stata condannata a pagare 10.000 € (2025) e 6.000 € più accessori (2026), quest'ultima cifra per entrambe le discariche insieme [4][5].
@@ -164,6 +165,8 @@ Nota: nell'archivio del Ministero (https://bonifichesiticontaminati.mite.gov.it/
 [19] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44123 del 23 ottobre 2026, con l'elenco dei documenti della Provincia su garanzie, post-gestione e certificazione delle discariche Cementir e Due Mari (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-garanzie-cementir-due-mari.pdf`
 
 [20] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44170 del 23 ottobre 2026, con l'elenco dei documenti della Provincia su autorizzazione, rifiuti, progetto e controlli della discarica Due Mari (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-due-mari.pdf`
+
+[21] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 10 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Ilva ha chiesto il certificato di fine messa in sicurezza, ed è stato rilasciato?** Nell'elenco dei documenti che la Provincia ha su questa discarica (ottobre 2026) ci sono due domande di Ilva per passare alla post-gestione, giudicate improcedibili, ma nessuna domanda di certificazione [19]: non risulta quindi nessun certificato. Nel marzo 2025 Ilva ha chiesto di passare alla «post-gestione», i 30 anni di sorveglianza, ma la Provincia ha giudicato la richiesta inammissibile [1][7]. Senza certificato non si può dire che il lavoro sia stato controllato da un ente pubblico.

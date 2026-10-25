@@ -1,5 +1,5 @@
 # A8 – Area a verde ovest (lungo la strada provinciale per Statte)
-*Stato scheda: approvata — aggiornata all'8 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -75,15 +75,16 @@ Il terreno è stato confrontato con due limiti diversi: quelli per le **aree ver
 **No.** Il decreto n. 249 dell'11 dicembre 2024, che ha tolto alcune aree dal SIN (il "Sito di interesse nazionale" da bonificare), elenca solo aree nel Comune di Taranto: la particella di Statte di quest'area non c'è [19]. Il piano del 2022 di Ilva la indica dentro il SIN [2].
 
 ## Soldi
-**Ilva ha messo da parte 4,88 milioni € per quest'area; fino a luglio 2022 ne aveva spesi circa 90.000 €, meno del 2% (calcolo nostro). Quanto ha speso dopo non si sa.** [2]
+**Ilva ha messo da parte 4,88 milioni € per quest'area; fino a febbraio 2023 ne aveva spesi circa 130.000 €, meno del 3% (calcolo nostro). Quanto ha speso dopo non si sa.** [24]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 4.880.000 € · Ilva · luglio 2022 [2] "allocati" per analisi, controllo dell'acqua e bonifica del soprassuolo; di questi, circa 170.000 € impegnati in ordini
-- [spesi] circa 90.000 € · Ilva · luglio 2022 [2] dopo luglio 2022 non si sa
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [2]
+- [disponibili] 4.880.000 € · Ilva · febbraio 2023 [24] "allocati" per analisi, controllo dell'acqua e bonifica del soprassuolo; di questi, circa 210.000 € impegnati in ordini
+- [spesi] circa 130.000 € · Ilva · febbraio 2023 [24] dopo febbraio 2023 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [24]
 
 - A luglio 2022 Ilva indicava per quest'area **4,88 milioni € "allocati"** (per analisi, controllo dell'acqua e "bonifica soprassuolo e ripristino delle condizioni ambientali"), di cui 0,17 milioni impegnati in ordini, 0,13 fatturati e **0,09 milioni pagati** [2].
-- Spese successive al 2022: **non verificato**. Nessun documento successivo dà cifre [1].
+- A febbraio 2023: 0,21 milioni impegnati in ordini, 0,13 fatturati e **0,13 milioni pagati** [24].
+- Spese successive al febbraio 2023: **non verificato**. Nessun documento successivo dà cifre [1].
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -159,12 +160,14 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [23] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 51, particella 10; centro e superficie calcolati da noi disegnando i confini della particella, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
+[24] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 12 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Quali limiti valgono: quelli per le aree verdi o quelli per le aree industriali?** Da cinque anni non è chiaro. Il Comune di Statte ha risposto solo dopo una diffida di Ilva, e la sua proposta deve ancora essere valutata dagli enti [14][16]. ARPA, nel 2022, aveva validato i risultati confrontando tutta l'area con i limiti per le aree verdi [20]. ARPA e ISPRA fanno notare che, con i limiti industriali, quasi tutti i valori trovati sarebbero in regola, tranne il tallio e i PCB misurati da ARPA [8][9]. La scelta cambia molto il risultato.
 2. [altra] **Quanti rifiuti ci sono al confine nord, e di chi è il terreno?** Quanti sono e di che tipo, non lo dice nessuno. Nel 2022 Ilva scrive che il terreno vicino è del Comune di Statte, nel 2023 parla di "terzi" contro cui il Comune ha emesso un'ordinanza [20][21]. Il Comune ha chiuso la pratica a dicembre 2023, ma i rifiuti sul confine sono ancora lì, e con loro resta ferma la recinzione [21][1]. Non verificato.
 3. [altra] **Da dove vengono PCB, tallio e diossine, e il riporto profondo trovato nel 2025?** Nessuna fonte lo dice. Non verificato.
 4. [altra] **Che cosa dicono i nuovi pozzi del 2025 sull'acqua sotterranea?** I risultati non sono pubblici. Il decreto del 2021 voleva i pozzi coordinati con il progetto di messa in sicurezza della falda della zona PIP di Statte, che è fermo [3] (vedi scheda [PIP Statte](pip-statte.md)). Non verificato.
-5. [altra] **Quanto è stato speso dopo il 2022?** Nessuna delle fonti trovate lo dice. Non verificato.
+5. [altra] **Quanto è stato speso dopo febbraio 2023?** Le ultime cifre di Ilva sono di quel mese [24]; nessuna fonte trovata dà cifre successive. Non verificato.
 6. [fonti] **L'analisi di rischio è "in corso" o respinta?** La relazione di Ilva del 2025 scrive che è "in corso" e che le integrazioni sono state chieste il 13 novembre 2023 "in funzione dei pareri di ARPA, ISPRA e ASL" [1]. In realtà la prima analisi di rischio è stata respinta a maggio 2023 e la pratica archiviata [10][12]; i pareri erano di INAIL, ARPA e ISPRA (nell'archivio non c'è un parere dell'ASL) [10]; la richiesta del 13 novembre 2023 riguardava i nuovi pozzi chiesti da ARPA [17]. La relazione non parla del riporto trovato fino a 21 m nel novembre 2025 [1][18].
 7. [fonti] **L'area è recintata?** Ilva nel 2023 dice che estranei non possono entrare; ARPA e la stessa relazione di Ilva del 2025 dicono il contrario [11][13][1].
 8. [fonti] **Qual è il limite per i PCB?** Nella relazione di Ilva è scritto "60 mg/kg"; ARPA ha corretto: è 0,06 mg/kg per le aree verdi (5 per quelle industriali) [5][8].

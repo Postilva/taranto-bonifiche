@@ -1,5 +1,5 @@
 # A4 – Discarica ex cava Cementir
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -97,16 +97,17 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 **Cosa sosteneva Ilva:** che la messa in sicurezza era "sostanzialmente conclusa" e che banche e assicurazioni non danno garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
 ## Soldi
-**Secondo Ilva, a luglio 2022 per questa discarica erano previsti 16,75 milioni € e ne erano stati pagati 5,40, circa un terzo (calcolo nostro); gli impegni, 17,37 milioni, superavano già i fondi previsti. Il costo finale dei lavori non si sa.** [15]
+**Secondo Ilva, a febbraio 2023 per questa discarica erano previsti 16,75 milioni € e ne erano stati pagati 13,58, circa l'81% (calcolo nostro); gli impegni, 17,61 milioni, superavano i fondi previsti. Il costo finale dei lavori non si sa.** [31]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 16.750.000 € · Ilva · luglio 2022 [15] fondi previsti; impegnati 17.370.000 €
-- [spesi] 5.400.000 € · Ilva · luglio 2022 [15]
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [15]
-- [stranezza · più del previsto] A luglio 2022 gli impegni indicati da Ilva, 17,37 milioni €, superavano già i 16,75 milioni di fondi previsti; i pagamenti, 5,40 milioni, erano ancora sotto [15]
+- [disponibili] 16.750.000 € · Ilva · febbraio 2023 [31] fondi previsti; impegnati 17.610.000 €
+- [spesi] 13.580.000 € · Ilva · febbraio 2023 [31]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [31]
+- [stranezza · più del previsto] A febbraio 2023 gli impegni indicati da Ilva, 17,61 milioni €, superavano i 16,75 milioni di fondi previsti; i pagamenti, 13,58 milioni, erano ancora sotto [31]
 
 - **Speso o impegnato al 31 dicembre 2018** (secondo Ilva): 494.000 € (285.000 € fino a ottobre 2018 e 209.000 € dopo) [23].
 - **Fino a luglio 2022** (secondo Ilva): fondi previsti 16,75 milioni €; impegnati 17,37 milioni; pagati 5,40 milioni; fatturati 6,47 milioni [15]. Sono dati di Ilva, non verificati da un ente pubblico.
+- **Fino a febbraio 2023** (secondo Ilva): fondi previsti 16,75 milioni €, "soggetti a revisione" per la modifica del progetto; impegnati 17,61 milioni; pagati 13,58 milioni; fatturati 15,14 milioni [31]. Dopo febbraio 2023 le fonti non danno cifre per quest'area.
 - **Costo finale dei lavori e da dove vengono i soldi:** non verificato.
 - **Importo della garanzia richiesta dalla Provincia:** non verificato.
 - **Spese legali:** 10.000 € (2025) e 6.000 € più accessori (2026, per entrambe le discariche) [4][5].
@@ -204,6 +205,8 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 [29] Gazzetta Ufficiale, Serie generale n. 199 del 28 agosto 2026, *Decreto-legge 28 agosto 2026, n. 154* (Misure urgenti per assicurare la continuità operativa di impianti di interesse strategico nazionale), articolo 1, https://www.gazzettaufficiale.it/eli/gu/2026/08/28/199/sg/pdf — copia in `fonti/2026-08_gazzetta-ufficiale_dl-154-2026-garanzie-discariche.pdf`
 
 [30] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44123 del 23 ottobre 2026, con l'elenco dei documenti della Provincia su garanzie, post-gestione e certificazione delle discariche Cementir e Due Mari (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-garanzie-cementir-due-mari.pdf`
+
+[31] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 10 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 Nota: questa discarica non segue la normale procedura di bonifica del SIN. I suoi progetti sono stati approvati con le conferenze speciali previste dalle leggi sull'Ilva, pubblicate sul portale del Ministero per le autorizzazioni (va.mite.gov.it), e solo in piccola parte nell'archivio delle bonifiche (https://bonifichesiticontaminati.mite.gov.it/ricerca/), dove per quest'area (codice 7/3060) c'è un solo documento, il [28] (controllato il 9 ottobre 2026) [10][13].
 

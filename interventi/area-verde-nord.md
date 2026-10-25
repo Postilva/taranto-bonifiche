@@ -1,5 +1,5 @@
 # A9 – Area a verde Nord (Statte, accanto alla Gravina di Leucaspide)
-*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -68,15 +68,16 @@ Valori confrontati con i limiti per le aree verdi e residenziali, in mg/kg [4][7
 **No.** Il decreto n. 249 dell'11 dicembre 2024, che ha tolto alcune aree dal SIN (il "Sito di interesse nazionale" da bonificare), elenca solo aree nel Comune di Taranto: le particelle di Statte di quest'area non ci sono [13]. Il piano del 2022 di Ilva la indica dentro il SIN [2].
 
 ## Soldi
-**Ilva ha messo da parte 18,4 milioni € per quest'area; fino a luglio 2022 ne aveva spesi circa 290.000 €, meno del 2% (calcolo nostro). Quanto ha speso dopo non si sa.** [2]
+**Ilva ha messo da parte 18,4 milioni € per quest'area; fino a febbraio 2023 ne aveva spesi circa 530.000 €, meno del 3% (calcolo nostro). Quanto ha speso dopo non si sa.** [20]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 18.400.000 € · Ilva · luglio 2022 [2] "allocati" per analisi, controllo dell'acqua e bonifica del soprassuolo; di questi, circa 800.000 € impegnati in ordini
-- [spesi] circa 290.000 € · Ilva · luglio 2022 [2] dopo luglio 2022 non si sa
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [2]
+- [disponibili] 18.400.000 € · Ilva · febbraio 2023 [20] "allocati" per analisi, controllo dell'acqua e bonifica del soprassuolo; di questi, circa 800.000 € impegnati in ordini
+- [spesi] circa 530.000 € · Ilva · febbraio 2023 [20] dopo febbraio 2023 non si sa
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [20]
 
 - A luglio 2022 Ilva indicava per quest'area **18,40 milioni € "allocati"** (analisi, controllo dell'acqua e "bonifica soprassuolo e ripristino delle condizioni ambientali"), di cui 0,80 milioni impegnati in ordini, 0,34 fatturati e **0,29 milioni pagati** [2].
-- Spese successive al 2022: **non verificato** [1].
+- A febbraio 2023: 0,80 milioni impegnati in ordini, 0,59 fatturati e **0,53 milioni pagati** [20].
+- Spese successive al febbraio 2023: **non verificato** [1].
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -139,13 +140,15 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [19] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 7; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
+[20] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 12 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Che cosa dicono i nuovi pozzi sull'acqua sotterranea?** Da questi controlli, ogni tre mesi per almeno due anni, dipende la nuova analisi di rischio [1][17]. Il cromo esavalente trovato nell'acqua in passato [3] non è ricomparso nei controlli del 2022, che però hanno usato solo 4 pozzi, nessuno al confine a valle [4]. Il piano di controllo dell'acqua del 19 giugno 2024 [17] e i risultati dei nuovi pozzi non sono pubblici. Non verificato.
 2. [altra] **Dove sono esattamente le zone contaminate, e quanto sono grandi?** Le mappe sono negli allegati dell'analisi di rischio, ma Ilva stessa vuole fare saggi per capire quanto è estesa la contaminazione [10]. Non verificato.
 3. [altra] **L'area è davvero recintata?** Ilva dice "segnalata e delimitata" [4]; nessun ente lo ha verificato, e i rifiuti abbandonati fanno pensare che qualcuno ci entri [1]. Non verificato.
 4. [altra] **Da dove vengono berillio, zinco, arsenico e solventi?** Nessuna fonte lo dice. Non verificato.
 5. [altra] **Quanti rifiuti abbandonati ci sono, di che tipo, e quanto è costato toglierli?** Le fonti dicono solo che ci sono [1]. Non verificato.
-6. [altra] **Quanto è stato speso dopo il 2022?** Nessuna delle fonti trovate lo dice. Non verificato.
+6. [altra] **Quanto è stato speso dopo febbraio 2023?** Le ultime cifre di Ilva sono di quel mese [20]; nessuna fonte trovata dà cifre successive. Non verificato.
 7. [altra] **Che uso dà il Comune a quest'area?** Il decreto chiedeva ai Comuni di esprimersi [3]; per quest'area non abbiamo trovato la risposta. Non verificato.
 8. [fonti] **L'analisi di rischio è "in corso" o archiviata?** La relazione di Ilva del 2025 scrive che è stata inviata il 20 luglio 2023 e che è "in corso" [1]. Secondo il Ministero la nota di Ilva è del 6 luglio (ricevuta l'11) e la pratica è stata **archiviata** il 16 febbraio 2024 [5][12]. Ilva scrive anche che i pareri erano di "ARPA, ISPRA e ASL" [1]: erano di ARPA, ISPRA e INAIL [9][12]. Gli stessi errori sono nelle relazioni di dicembre 2024 e marzo 2025 [17][18], mentre quella di dicembre 2023 dava le date giuste [16].
 

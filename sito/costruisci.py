@@ -621,7 +621,7 @@ def elenco_codici(cs, gruppo_di):
     return ", ".join(pezzi[:-1]) + " e " + pezzi[-1] if len(pezzi) > 1 else "".join(pezzi)
 
 
-def grafico_resta(f, evento=None):
+def grafico_resta(f, eventi=()):
     """La linea di quanto resta del Patrimonio Destinato (voce **Quanto resta** di fondi.md): un punto per cifra, una linea
     solo fra due cifre a non più di un anno l'una dall'altra; dove mancano le cifre una fascia "nessuna cifra". Statico:
     griglia, fascia e linea in un SVG che si allunga con il riquadro (su schermo grande è alto quanto la colonna accanto),
@@ -651,9 +651,9 @@ def grafico_resta(f, evento=None):
             linee.append(tratto); tratto = []
         tratto.append(b)
     linee.append(tratto)
-    if evento:   # un atto che ha cambiato il fondo (anno, nome): una riga sottile all'inizio dell'anno
-        g.append(f'<line class="ev" x1="{X(evento[0])}" x2="{X(evento[0])}" y1="{T - 4}" y2="{Y(0)}"/>')
-        s.append(scritta(X(evento[0]) + 4, T + 4, evento[1], "l ev-t"))
+    for anno, nome in eventi:   # gli atti che hanno tolto soldi al fondo: una riga sottile all'inizio dell'anno
+        g.append(f'<line class="ev" x1="{X(anno)}" x2="{X(anno)}" y1="{T - 4}" y2="{Y(0)}"/>')
+        s.append(scritta(X(anno) + 4, T + 4, nome, "l ev-t"))
     g += [f'<polyline class="ln" points="{" ".join(f"{X(p["t"])},{Y(p["v"])}" for p in tr)}"/>' for tr in linee if len(tr) > 1]
     for p in pts:
         t = f'{p["quando"]}: {p["lbl"]} milioni €'
@@ -712,7 +712,7 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
         n, u = fmt_soldi(sum(r["v"] for _, r in rr))
         return f'<div><small>{NOMI_SOLDI[k]}</small><b>{n}</b><span class="small muted">{u}</span><span class="small">in {len({s["id"] for s, _ in rr})} report</span></div>'
     blocco = lambda titolo, sotto, di_ilva: f'<div><h4>{titolo}<small>{sotto}</small></h4><div class="soldi" style="--n:2">{casella("disponibili", di_ilva)}{casella("spesi", di_ilva)}</div></div>'
-    SOTTO = {False: "A date diverse: ogni report dice quando e da dove vengono", True: "Tabella di Ilva in amministrazione straordinaria, luglio 2022"}
+    SOTTO = {False: "A date diverse: ogni report dice quando e da dove vengono", True: "Tabella di Ilva in amministrazione straordinaria, febbraio 2023"}
     con_cifre = {s["id"] for s, r in righe if r["k"] != "costo"}
     senza = [s for s in schede if s["id"] not in con_cifre]
     stimati = len({s["id"] for s, r in righe if r["k"] == "costo"})
@@ -783,14 +783,16 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
     pd = next((f for _, ff in fondi["gruppi"] for f in ff if f.get("resta")), None)
     if pd:
         cifre = "".join(p["src"] for p in pd["resta"])
-        dl = re.search(r"[^.]*\bdecreto-legge \d+/(\d{4})[^.]*\.(?:\s*\[\d+\])*", pd["voci"]["Importo"]["testo"])   # l'atto che ha tolto soldi al fondo
+        # gli atti che hanno tolto soldi al fondo: le frasi di **Importo** con "decreto-legge n/anno"
+        dl = [(int(m.group(2)), "DL " + m.group(1), m.group(0).strip())
+              for m in re.finditer(r"[^.]*\bdecreto-legge (\d+/(\d{4}))[^.]*\.(?:\s*\[\d+\])*", pd["voci"]["Importo"]["testo"])]
         aperta = next((d for d in dom if "Patrimonio Destinato" in d["q"]), None)
         resta = ('<section class="card chart sz" id="resta"><h2>Quanto resta ai soldi di Ilva</h2>'
-                 f'<p class="chart-intro">Quanti soldi c\'erano nel Patrimonio Destinato, il fondo di Ilva per bonifiche e risanamento, a fine trimestre, secondo le relazioni di Ilva{cita(cifre)}. '
+                 f'<p class="chart-intro">Quanti soldi c\'erano nel Patrimonio Destinato, il fondo di Ilva per bonifiche e risanamento, secondo le relazioni di Ilva e dei suoi commissari al Parlamento{cita(cifre)}. '
                  f'Dove manca il punto non abbiamo la cifra, e lì non c\'è la linea.</p>'
-                 # su schermo grande il grafico a sinistra, nota, tabella e domanda a destra
-                 f'<div class="resta-g">{grafico_resta(pd, (int(dl.group(1)), "DL " + re.search(r"\d+/\d{4}", dl.group(0)).group(0)) if dl else None)}<div class="resta-dx">'
-                 + (f'<p class="note"><b>DL {re.search(r"\d+/\d{4}", dl.group(0)).group(0)}</b> · {testo(dl.group(0).strip())}</p>' if dl else "")
+                 # su schermo grande il grafico a sinistra, note, tabella e domanda a destra
+                 f'<div class="resta-g">{grafico_resta(pd, [(a, n) for a, n, _ in dl])}<div class="resta-dx">'
+                 + "".join(f'<p class="note"><b>{n}</b> · {testo(frase)}</p>' for _, n, frase in dl)
                  + tabella_resta(pd, cita)
                  + (f'<p class="aperta"><b>{cita(aperta["q"])}</b> <a href="#domande">Cosa non sappiamo →</a></p>' if aperta else "")
                  + f'<p class="note"><a href="#{pd["id"]}">Il Patrimonio Destinato, da dove viene e per cosa →</a></p></div></div></section>')

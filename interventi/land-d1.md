@@ -1,5 +1,5 @@
 # A12 – Land D1 (area verde lungo il vecchio canale di scarico della fabbrica)
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -71,14 +71,15 @@ Tutti i valori vengono dalla validazione di ARPA, che li confronta con i limiti 
 **No.** Nessuna area di Ilva compare tra quelle tolte dal SIN (il "Sito di interesse nazionale" da bonificare) con il decreto del Ministero n. 249 dell'11 dicembre 2024 [10].
 
 ## Soldi
-**Ilva ha messo da parte 2,30 milioni € per quest'area; fino a luglio 2022 ne aveva spesi circa 90.000 €, circa il 4% (calcolo nostro). Quanto costano la rimozione dei rifiuti sepolti e la messa in sicurezza della strada non si sa.** [5]
+**Ilva ha messo da parte 2,30 milioni € per quest'area; fino a febbraio 2023 ne aveva spesi circa 150.000 €, circa il 7% (calcolo nostro). Quanto costano la rimozione dei rifiuti sepolti e la messa in sicurezza della strada non si sa.** [15]
 
 - [costo] — · nessun costo stimato nelle fonti
-- [disponibili] 2.300.000 € · Ilva · luglio 2022 [5] stanziati; circa 170.000 € impegnati in ordini
-- [spesi] circa 90.000 € · Ilva · luglio 2022 [5]
-- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del luglio 2022 [5]
+- [disponibili] 2.300.000 € · Ilva · febbraio 2023 [15] stanziati; circa 170.000 € impegnati in ordini
+- [spesi] circa 150.000 € · Ilva · febbraio 2023 [15]
+- [confronto] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [15]
 
 - Secondo una tabella di Ilva aggiornata al 12 luglio 2022, per Land D1 erano stati **stanziati 2,30 milioni €** (analisi di terreno e acqua, "bonifica soprassuolo e ripristino ambientale"), di cui **0,17 milioni impegnati** in ordini e **0,09 milioni pagati** [5]. Sono cifre di Ilva, non verificate da un ente pubblico.
+- A febbraio 2023, secondo Ilva: 0,17 milioni impegnati in ordini, 0,15 fatturati e **0,15 milioni pagati** [15].
 - Le analisi di controllo di ARPA sono pagate da Ilva, in base a una convenzione [8].
 - Quanto costano la rimozione dei rifiuti sepolti e la messa in sicurezza della strada, e con quali fondi: **non verificato**.
 
@@ -136,13 +137,15 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [14] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 2° trimestre 2023*, pagina 35, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_II_trim_2023_omissisb.pdf — copia in `fonti/2023-06_ilva-as_relazione-trimestrale-II-2023.pdf`
 
+[15] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 13 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Che cosa dicono i controlli dell'acqua sotterranea?** Ilva manderà l'analisi di rischio solo dopo questi controlli [1]. Nel 2006 e nel 2016 Ilva aveva trovato acqua inquinata nei vecchi pozzetti [7]; nel 2021–2023 i nuovi pozzetti erano asciutti [8]. I risultati dei controlli del 2025 non sono pubblici [1]. Non verificato.
 2. [altra] **Che rifiuti sono sepolti, quanti, e dove vanno?** Durante le analisi sono stati trovati rifiuti sepolti sopra il vecchio canale di scarico, e a fine 2025 la rimozione era «in corso di ultimazione» secondo Ilva [1][2]. Nessuna fonte dice che rifiuti siano, quanti, né dove vadano. Non verificato. Vedi la bozza FOIA qui sotto.
 3. [altra] **Di chi è la condotta sotto la strada, e chi deve riparare la cavità?** Le analisi hanno trovato una cavità sotto una strada, e Ilva ha dato l'incarico di progettarne la messa in sicurezza [1][3]. Di chi sia la condotta: non verificato.
 4. [altra] **Alcuni valori superano anche i limiti per le aree industriali?** ARPA confronta i valori solo con i limiti per le zone abitate [8]; nessun documento ufficiale dice se alcuni valori (per esempio gli IPA nel punto TS12) superano anche quelli per le aree industriali. Dipende anche dall'uso dell'area, su cui i Comuni dovevano esprimersi [7]. Non verificato.
 5. [altra] **Dove si trova esattamente?** Coordinate, particelle catastali e strada sono nel piano delle analisi, che non si scarica [9]. Non verificato.
-6. [altra] **Quanto è stato speso dopo il 2022?** Nessuna delle fonti trovate lo dice (vedi "Soldi"). Non verificato.
+6. [altra] **Quanto è stato speso dopo febbraio 2023?** Le ultime cifre di Ilva sono di quel mese [15]; nessuna fonte trovata dà cifre successive (vedi "Soldi"). Non verificato.
 7. [fonti] **I rifiuti sono a 10 metri?** La relazione di Ilva dice che il canale passa a circa 10 m; non dice a che profondità siano i rifiuti [1][5].
 8. [fonti] **Chi ha chiesto i controlli sull'acqua?** Dal 2024 Ilva scrive che li ha chiesti il Ministero "in funzione dei pareri espressi da ARPA, ISPRA e ASL" [1][2]. Ma l'unico documento nell'archivio è la validazione di ARPA, che propone i controlli [8], e la relazione di Ilva del 2023 scrive che li ha prescritti ARPA [3]. Non abbiamo trovato pareri di ISPRA o ASL né una nota del Ministero su Land D1. La stessa frase compare, quasi identica, nella pagina di Land C, dove si riferisce a una richiesta del Ministero del 20 marzo 2023 [1]: probabilmente è stata copiata da lì.
 9. [fonti] **I problemi erano nella "zona sud ed est"?** Ilva scrive che i problemi con tubi e strutture sepolte erano nella zona sud ed est dell'area [1]. ARPA conferma il canale sul confine sud e i tubi sotto la strada [8], ma non parla della zona est. La stessa frase è stata copiata, per errore, nella pagina di Land D2 (vedi la [scheda Land D2](land-d2.md)).
