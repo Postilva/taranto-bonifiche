@@ -1,5 +1,5 @@
 # B13 – Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018)
-*Stato scheda: approvata — aggiornata al 24 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -98,7 +98,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 
 - [costo] 32.276.250 € · Bando di gara · giugno 2018 [2] IVA esclusa: valore della gara
 - [disponibili] 55.000.000 € · OpenCoesione · giugno 2026 [9] fondi di tutto il programma "sedimenti del Mar Piccolo", non solo della gara
-- [spesi] 5.585.794,01 € · OpenCoesione · giugno 2026 [9] pagati per altre attività nel Mar Piccolo, non per la gara
+- [spesi] 5.585.794,01 € · OpenCoesione · giugno 2026 [9] pagati per altre attività nel Mar Piccolo, non per la gara; l'ultimo pagamento è del 24 gennaio 2023
 - [confronto] no · i 55 milioni sono di tutto il programma per il Mar Piccolo e i 5,59 milioni sono stati pagati per altre attività, non per la gara [9]
 - [stranezza · usati per altro] La delibera CIPE 87/2012 dava i 21 milioni della Regione per togliere i fanghi con PCB vicino agli allevamenti di cozze; secondo il decreto del Commissario n. 56 del 2026 sono stati usati per i rifiuti sul fondale, il mercato ittico affondato, studi e analisi, e nessuna voce è una rimozione dei fanghi [27]
 - [stranezza · più report] Con i 55 milioni del programma (stesso codice CUP) sono stati pagati anche altri lavori nel Mar Piccolo, come la rimozione del mercato ittico galleggiante affondato [1][7][9]. I 21 milioni della Regione fanno parte dei 75,17 milioni della delibera CIPE 87/2012, che paga anche la zona PIP di Statte (37 milioni) e il dragaggio al molo polisettoriale [23]

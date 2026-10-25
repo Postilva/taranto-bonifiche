@@ -5,7 +5,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 
 ## In breve
 - Quanto Ilva abbia speso dopo febbraio 2023, area per area, non lo sappiamo: le cifre dei 17 report delle sue aree vengono tutte dalla tabella di quel mese [39].
-- Per nessun report pagato con fondi pubblici si può dire quanta parte dei soldi sia già stata spesa: in uno le due cifre non riguardano la stessa cosa, negli altri 7 ne manca una (calcolo nostro).
+- Per un solo report pagato con fondi pubblici si può dire quanta parte dei soldi sia già stata spesa: le nuove analisi delle aree agricole di Statte, che a fine giugno 2026 non avevano nessun pagamento registrato sui 750.000 € [42]; in un altro report le due cifre non riguardano la stessa cosa, negli altri 6 ne manca una (calcolo nostro).
 - Le stranezze sono 12, in 7 report: soldi pagati, impegnati o divisi oltre quelli previsti, soldi usati per altro, gli stessi soldi in più report, fonti con cifre diverse (calcolo nostro).
 - Il Patrimonio Destinato di Ilva aveva 1.157 milioni € per bonifiche e risanamento, 150 dei quali spostati nel 2022 alla decarbonizzazione della fabbrica [2]; nel 2025 ne sono andati 250 ad Acciaierie d'Italia per far funzionare gli impianti, e a fine 2025 ne restavano 80,6 [40][41].
 
@@ -18,15 +18,15 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **Atto:** delibera CIPE n. 87 del 3 agosto 2012 [1].
 - **Importo:** 75.167.413 € per tre interventi del Protocollo d'intesa del 26 luglio 2012 (calcolo nostro: 21.000.000 + 37.000.000 + 17.167.413) [1].
 - **Per cosa:** togliere i sedimenti con PCB nel 1° seno del Mar Piccolo vicino agli allevamenti di cozze (21 milioni €), mettere in sicurezza terreni e falda della zona PIP di Statte (37 milioni €), dragare i sedimenti al molo polisettoriale del porto (17.167.413 €) [1].
-- **CUP:** J56J14000460001 (Mar Piccolo) [5]; J73J12001570001 e J73G12000200001 (PIP Statte) [15][16].
+- **CUP:** J56J14000460001 (Mar Piccolo) [5]; J73J12001570001 e J73G12000200001 (PIP Statte) [15][16]; J76J14000840001 per l'intervento d'emergenza sull'olio della zona PIP, 1.400.000 € secondo OpenCUP [45].
 - **Versati al Commissario:** 63.750.000 € nel 2013, cioè l'85% (determina della Regione n. 113 del 25/06/2013) [1]. Un decreto del Commissario del 2025 scrive che la Regione ha versato 75 milioni € dei 75,17, con tre determine del 2013, 2020 e 2021 [4].
 - **Report:**
   - [mar-piccolo-gara-2018] 21.000.000 € per i sedimenti del Mar Piccolo [1][5]
   - [pip-statte] 37.000.000 € per la zona PIP: 400.000 € per le analisi e 36.600.000 € per la messa in sicurezza della falda [17]
   - il dragaggio al molo polisettoriale non è nel censimento (vedi in fondo)
 - **Speso:**
-  - Mar Piccolo: secondo il decreto n. 56 del 21 ottobre 2026 i 21 milioni sono stati usati per i rifiuti sul fondale (1.695.190,75 € e 4.041.717,03 €), il mercato ittico affondato (3.084.294,08 €), una causa con l'impresa del mercato ittico (1.200.000 € accantonati), accordi di studio (4.104.231,31 €), indagini sui sedimenti (204.900,01 €), la convenzione con Sogesid (1.129.818,26 €) e la quota dell'1,5% del Commissario (555.000 €); restano 5.224.848,56 € senza impegni, destinati al 2° lotto di rimozione dei rifiuti [5]. Nessuna voce è una rimozione dei fanghi [5]. Su OpenCoesione il progetto da 21 milioni ha 0 € di pagamenti al 30 giugno 2026 [7].
-  - PIP Statte: 1.180.649,40 € spesi al 30 settembre 2018, il 3,19% [9]. Nel settembre 2022 il Commissario ha trasferito al Comune 375.252,04 € per l'intervento d'emergenza sull'olio (calcolo nostro: 364.469,12 + 10.782,92) [10][11]. Su OpenCoesione i due progetti hanno 0 € di pagamenti al 30 giugno 2026 [15][16].
+  - Mar Piccolo: secondo il decreto n. 56 del 21 ottobre 2026 i 21 milioni sono stati usati per i rifiuti sul fondale (1.695.190,75 € e 4.041.717,03 €), il mercato ittico affondato (3.084.294,08 €), una causa con l'impresa del mercato ittico (1.200.000 € accantonati), accordi di studio (4.104.231,31 €), indagini sui sedimenti (204.900,01 €), la convenzione con Sogesid (1.129.818,26 €) e la quota dell'1,5% del Commissario (555.000 €); restano 5.224.848,56 € senza impegni, destinati al 2° lotto di rimozione dei rifiuti [5]. Nessuna voce è una rimozione dei fanghi [5]. Su OpenCoesione il progetto da 21 milioni ha 21 milioni € di impegni, registrati a fine 2015, e nessun pagamento al 30 giugno 2026 [7].
+  - PIP Statte: 1.180.649,40 € spesi al 30 settembre 2018, il 3,19% [9]. Nel settembre 2022 il Commissario ha trasferito al Comune 375.252,04 € per l'intervento d'emergenza sull'olio (calcolo nostro: 364.469,12 + 10.782,92) [10][11]. Su OpenCoesione i due progetti hanno tutti i 37 milioni impegnati dal 2013 e nessun pagamento al 30 giugno 2026 [15][16].
 - **Da sapere:**
   - Il Commissario trattiene una quota dell'1,5% delle risorse (decreto-legge 1/2015, art. 6, comma 3) [1][5]. Nel 2015 al Comune di Statte sono stati assegnati 36.445.000 € [10]: è esattamente 37 milioni meno l'1,5% (calcolo nostro).
   - Le voci del decreto n. 56 del 2026 sommano 21.240.000 €, non 21 milioni (calcolo nostro) [5]. I 240.000 € in più sono esattamente la differenza fra 555.000 € (l'1,5% di 37 milioni) e 315.000 € (l'1,5% di 21 milioni) (calcolo nostro): il decreto potrebbe aver scritto per il Mar Piccolo la quota dei soldi del PIP, ma nessuna fonte lo dice.
@@ -44,8 +44,8 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
   - [mar-piccolo-gara-2018] 34.000.000 € per il Mar Piccolo [1][3]
   - [cimitero-san-brunone] 3.250.000 € secondo OpenCoesione e il Protocollo del 2018 [19][21]; 3.201.250 € secondo il decreto del Commissario n. 18 del 2026 [18]
 - **Speso:**
-  - Mar Piccolo: 3,4 milioni € versati al Commissario (dato 2023) [3]. Il progetto OpenCoesione "bacino del Mar Piccolo – I e II stralcio" ha 55 milioni € di costo pubblico e 5.585.794,01 € di pagamenti (16 pagamenti, aprile 2021 – gennaio 2023), al 30 giugno 2026 [6]. Il progetto è fra quelli salvati dal taglio di fine 2024 perché fa parte del CIS Taranto (delibera CIPESS n. 78 del 29/11/2024) [8].
-  - Cimitero: 3 pagamenti per 21.417,72 € a febbraio 2023 sul progetto OpenCoesione, che somma anche altri fondi [19].
+  - Mar Piccolo: 3,4 milioni € versati al Commissario (dato 2023) [3]. Il progetto OpenCoesione "bacino del Mar Piccolo – I e II stralcio" ha 55 milioni € di costo pubblico, 7.133.497,35 € di impegni e 5.585.794,01 € di pagamenti, al 30 giugno 2026: 16 pagamenti dal 6 aprile 2021 al 24 gennaio 2023, poi nessuno [6]. Il progetto è fra quelli salvati dal taglio di fine 2024 perché fa parte del CIS Taranto (delibera CIPESS n. 78 del 29/11/2024) [8].
+  - Cimitero: 3 pagamenti per 21.417,72 € fra il 6 e il 21 febbraio 2023 sul progetto OpenCoesione, che somma anche altri fondi, poi nessuno fino al 30 giugno 2026 [19].
 - **Da sapere:**
   - 40 − 34 − 3,25 = 2,75 milioni € non sono in nessuno dei nostri report (calcolo nostro). Nella tabella del Commissario del 2018 c'è una riga da 2.750.000 €, ma dalla tabella non si capisce a quale intervento vada [1]. Non verificato.
   - La differenza fra 3.250.000 € e 3.201.250 € per il Cimitero è esattamente l'1,5% (calcolo nostro), la quota che il Commissario trattiene [1]. Nessuna fonte lo dice per questo caso.
@@ -128,18 +128,32 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **Atto:** avviso approvato con la determinazione n. 202 del 2017, graduatoria tipologia B [24].
 - **Importo:** 750.000 € al Comune di Statte [24].
 - **Per cosa:** "indagini integrative di caratterizzazione ai fini della valutazione del rischio sanitario per le aree agricole" [24].
+- **CUP:** J76J17000370002 [42].
 - **Report:**
   - [area-vasta-statte] 750.000 € [24]
-- **Speso:** non si sa.
+- **Speso:** nessun pagamento al 30 giugno 2026: su OpenCoesione i 750.000 € risultano impegnati il 13 aprile 2021 e il progetto è "non avviato" [42].
+- **Da sapere:** su OpenCoesione i 750.000 € sono del Fondo sviluppo e coesione, nel Piano sviluppo e coesione della Regione Puglia [42].
+
+## Programma europeo FESR della Regione Puglia 2007-2013 (analisi dell'area vasta di Statte)
+- **Chi lo dà:** Regione Puglia, con il programma operativo FESR 2007-2013: 771.945,23 € di fondi europei FESR, 231.583,57 € della Regione e 131.684,77 € del Fondo di rotazione dello Stato [43].
+- **Importo:** 1.135.213,57 € [43].
+- **Per cosa:** "Caratterizzazione area vasta aree esterne al SIN di Taranto", nel territorio di Statte; lavori dal 28 aprile 2014 al 20 gennaio 2015, collaudo il 30 ottobre 2015 [43].
+- **CUP:** J72D09000290002 [43].
+- **Report:**
+  - [area-vasta-statte] 1.135.213,57 € per le analisi di tutto il territorio fuori dal SIN [43]
+- **Speso:** tutto: 22 pagamenti, dal 19 ottobre 2012 al 29 dicembre 2015 [43].
+- **Da sapere:** i dati di questo progetto su OpenCoesione sono fermi al 31 agosto 2022 [43].
 
 ## Fondi del CIS Taranto per il progetto della Gravina (Comune di Statte)
-- **Chi lo dà:** Fondo sviluppo e coesione, Contratto istituzionale di sviluppo per Taranto, con il Commissario come ente che finanzia [25].
-- **Importo:** 300.000 € [25].
+- **Chi lo dà:** Fondo sviluppo e coesione 2014-2020, Contratto istituzionale di sviluppo per Taranto, con il Commissario come ente che finanzia [25][26].
+- **Atto:** delibera CIPE n. 93 del 22 dicembre 2017, che dà al Commissario 12 milioni € per interventi ambientali a Crispiano, Massafra, Montemesola e Statte, 3 milioni per Comune [26].
+- **Importo:** 300.000 € [25][26].
 - **Per cosa:** "Progettazione della bonifica ambientale con misura di sicurezza della Gravina Leucaspide in area SIN" [25].
 - **CUP:** J76J20001130001 [25].
 - **Report:**
   - [gravina-leucaspide] 300.000 €: 191.575,16 € di costo e 108.424,84 € non usati [25]
-- **Speso:** 191.575,16 € [25]; il saldo al Comune è stato pagato con il decreto n. 53 del 2 ottobre 2026 [26].
+- **Speso:** 191.575,16 € [25][26]. Il Commissario ha pagato al Comune 30.000 € di anticipo nel 2019, 114.915,80 € a marzo 2023 e il saldo di 46.659,32 € con il decreto n. 53 del 2 ottobre 2026 [26]. OpenCoesione registra 7 pagamenti, dal 22 luglio 2020 al 5 aprile 2023, e il progetto come "liquidato" [25].
+- **Da sapere:** su OpenCUP il costo previsto del progetto è 275.192 € [44], né 300.000 né 191.575,16 €.
 
 ## Accordo di programma quadro del 2004 per il Mar Piccolo
 - **Chi lo dà:** Ministero dell'Ambiente, Ministero dell'Economia, Commissario delegato per l'emergenza ambientale e Regione Puglia [27].
@@ -302,4 +316,12 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 
 [41] Commissari straordinari di ILVA S.p.A. in A.S., *Relazione concernente il conto di contabilità speciale n. 6055 (Secondo semestre 2025)*, Doc. XXVII n. 30 (XIX legislatura), trasmessa alla Presidenza il 12 gennaio 2026, pagine 2–3 (sintesi dei movimenti, "disponibilità del Patrimonio Destinato" al 31 dicembre 2025, estratto conto), https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/027/030_RS/INTERO_COM.pdf — copia in `fonti/2026-01_ilva-as_relazione-contabilita-speciale-6055-II-sem-2025.pdf`
 
-Ultimo controllo dei fondi su OpenCoesione: dati al 30 giugno 2026 (letti dalle schede).
+[42] OpenCoesione, progetto *Indagini integrative di caratterizzazione per la valutazione del rischio sanitario aree agricole Area Vasta*, CUP J76J17000370002, beneficiario Comune di Statte, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/7pub02037/ — copia in `fonti/2026-06_opencoesione_area-vasta-statte-indagini-aree-agricole-750mila.json`
+
+[43] OpenCoesione, progetto *Caratterizzazione area vasta aree esterne al SIN di Taranto_STATTE (TA)*, CUP J72D09000290002, attuatore Comune di Statte, POR FESR Puglia 2007-2013, dati al 31 agosto 2022, https://opencoesione.gov.it/it/dati/progetti/1pufe2500032/ — copia in `fonti/2022-08_opencoesione_caratterizzazione-area-vasta-statte-2014-2015.json`
+
+[44] OpenCUP (Dipartimento per la programmazione e il coordinamento della politica economica), progetto CUP J76J20001130001, *Progetto esecutivo del piano di indagini integrative per il progetto di bonifica ambientale del tratto sud della Gravina di Leucaspide*, soggetto titolare Comune di Statte, consultato il 25 ottobre 2026, https://www.opencup.gov.it/portale/web/opencup/progetto/-/cup/J76J20001130001 — copia in `fonti/2026-10_opencup_J76J20001130001-progettazione-gravina-leucaspide.html`
+
+[45] OpenCUP, progetto CUP J76J14000840001, *Intervento di MISE del surnatante oleoso falda profonda area PIP*, soggetto titolare Comune di Statte, delibera CIPE 87, consultato il 25 ottobre 2026, https://www.opencup.gov.it/portale/web/opencup/progetto/-/cup/J76J14000840001 — copia in `fonti/2026-10_opencup_J76J14000840001-mise-surnatante-pip-statte.html`
+
+Ultimo controllo dei fondi pubblici: 25 ottobre 2026, su OpenCoesione (dati al 30 giugno 2026, gli ultimi pubblicati), OpenCUP, portale trasparenza del Comune di Taranto e decreti 2026 del Commissario (fino al n. 57 del 21 ottobre 2026).

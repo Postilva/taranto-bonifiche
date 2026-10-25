@@ -1,12 +1,12 @@
 # D8 – Area vasta di Statte: terreni contaminati fuori dal SIN
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
 
 ## A che punto è
 ### Finora
 Nel 2014–2015 il Comune ha analizzato tutto il suo territorio fuori dal SIN, e i valori superavano i limiti [1]. Nel 2017 la Regione ha approvato l'analisi di rischio: in alcune zone il rischio per la salute è «inaccettabile» [1][2]. Così il Sindaco ha vietato, in 19 zone, di arare, scavare e produrre cibo (ordinanza n. 62/2017) [1]. Nel 2018 la Provincia ha individuato il responsabile, che secondo ARPA è l'Ilva «per alcuni parametri come diossine e furani» [3][4].
 
 ### Cosa manca
-Non è stato bonificato né messo in sicurezza nulla: ci sono stati solo i divieti, e l'ordinanza valeva fino alla fine del 2018 [1]. Nel 2021 la Regione scriveva che i confini delle zone inquinate erano ancora «in fase di definizione» [6]. Non si sa come siano andate le nuove analisi delle aree agricole, finanziate dalla Regione con 750.000 € [6].
+Non è stato bonificato né messo in sicurezza nulla: ci sono stati solo i divieti, e l'ordinanza valeva fino alla fine del 2018 [1]. Nel 2021 la Regione scriveva che i confini delle zone inquinate erano ancora «in fase di definizione» [6]. Non si sa come siano andate le nuove analisi delle aree agricole, finanziate dalla Regione con 750.000 € [6]: a fine giugno 2026 il progetto risultava «non avviato», senza nessun pagamento [10].
 
 ### Adesso
 Ilva ha detto di non avere più interesse al suo ricorso contro la Provincia, e nel dicembre 2022 il TAR ha chiuso la causa senza decidere [3]. Dopo non abbiamo trovato atti pubblici. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Provincia e al Comune di Statte con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
@@ -32,12 +32,12 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 **Analisi e divieti d'uso. Nessuna messa in sicurezza, nessuna bonifica, nessun certificato.** [1][5][6]
 
 - **I primi divieti (2008).** Con le ordinanze n. 11 del 3 aprile 2008 e n. 13 del 14 aprile 2008 il Sindaco vieta il pascolo in alcune aree incolte [1].
-- **Le analisi di tutto il territorio (2014–2015).** Il Comune esegue il "Progetto di caratterizzazione di area vasta" dell'intero territorio comunale, senza le aree del SIN; i valori superano i limiti di legge e si passa all'analisi di rischio [1].
+- **Le analisi di tutto il territorio (2014–2015).** Il Comune esegue il "Progetto di caratterizzazione di area vasta" dell'intero territorio comunale, senza le aree del SIN; i valori superano i limiti di legge e si passa all'analisi di rischio [1]. Le analisi, con fondi europei, regionali e statali, sono costate 1.135.213,57 €; i lavori sono durati dal 28 aprile 2014 al 20 gennaio 2015 [11].
 - **L'analisi di rischio (2017).** Approvata dalla conferenza di servizi il 28 marzo 2017 e con la determinazione della Regione n. 124 del 26 maggio 2017: in alcune aree c'è un rischio per la salute "inaccettabile" [1][2]. Il Comune stima che i tempi ordinari per trovare il responsabile e fare la bonifica siano di almeno 12 mesi, e per questo decide i divieti subito [2].
 - **I divieti del 2017.** Con l'ordinanza n. 62 del 24 ottobre 2017 il Sindaco vieta, nelle aree disegnate nell'allegato, di arare e scavare, di portare via terra, di usarle per svago, e di produrre alimenti e mangimi, pascolo compreso, salvo deroghe con analisi del prodotto [1]. Nella mappa allegata ci sono 19 zone con un codice, sparse in tutto il territorio (conteggio nostro) [1]. L'ordinanza vale fino al 31 dicembre 2018 [1].
 - **Il responsabile (2018).** La Provincia apre la pratica il 1° febbraio 2018 (suolo e acqua di falda), fa due tavoli tecnici l'8 e il 23 febbraio e la chiude il 19 aprile 2018 (prot. 12675), avviando insieme l'ordinanza contro il responsabile [3].
 - **Il ricorso di Ilva (2018–2022).** Ilva in A.S. impugna questi atti al TAR di Lecce (ricorso n. 724/2018). Il 19 ottobre 2022 dichiara che non ha più interesse e il 15 dicembre 2022 il TAR chiude la causa senza decidere nel merito ("improcedibile") [3].
-- **Nuove analisi finanziate.** Con l'avviso regionale del 2017 (DD 202/2017) il Comune ottiene 750.000 € per "indagini integrative di caratterizzazione ai fini della valutazione del rischio sanitario per le aree agricole" [6].
+- **Nuove analisi finanziate.** Con l'avviso regionale del 2017 (DD 202/2017) il Comune ottiene 750.000 € per "indagini integrative di caratterizzazione ai fini della valutazione del rischio sanitario per le aree agricole" [6]. Su OpenCoesione i soldi risultano impegnati il 13 aprile 2021, ma al 30 giugno 2026 il progetto è «non avviato» e non ha nessun pagamento [10].
 - **Lo stato nel 2020–2021.** Ad aprile 2020 il sito è "contaminato", con il procedimento fermo all'"approvazione esiti PdC e AdR" [5]. Nel 2021 la Regione scrive che i perimetri delle zone contaminate sono "in fase di definizione" [6].
 
 ## Dove si trova e quanto è grande
@@ -46,21 +46,22 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 - **Mappa dei divieti:** allegato A all'ordinanza n. 62/2017 [1].
 
 ## Soldi
-**La Regione ha dato al Comune di Statte 750.000 € per nuove analisi delle aree agricole; quanto ne sia stato speso non si sa. Per la bonifica non c'è nessun costo stimato.** [6]
+**La Regione ha dato al Comune di Statte 750.000 € per nuove analisi delle aree agricole, ma a fine giugno 2026 non risultava ancora nessun pagamento. Per la bonifica non c'è nessun costo stimato.** [6][10]
 
 - [costo] — · nessun costo stimato per la bonifica
-- [disponibili] 750.000 € · Regione Puglia · giugno 2021 [6] dalla Regione al Comune di Statte per nuove analisi delle aree agricole (avviso DD 202/2017)
-- [spesi] non si sa
+- [disponibili] 750.000 € · OpenCoesione · giugno 2026 [10] dalla Regione al Comune di Statte per nuove analisi delle aree agricole (avviso DD 202/2017), impegnati il 13 aprile 2021
+- [spesi] 0 € · OpenCoesione · giugno 2026 [10] nessun pagamento registrato: il progetto risulta «non avviato»
+- [confronto] sì · le due cifre vengono dallo stesso progetto su OpenCoesione, con i dati al 30 giugno 2026 [10]
 
-- **750.000 €** assegnati dalla Regione al Comune per le nuove analisi delle aree agricole [6]. Non sappiamo quanto sia stato speso.
-- Il costo delle analisi del 2014–2015 non lo abbiamo trovato in fonti ufficiali. Non verificato.
+- **750.000 €** assegnati dalla Regione al Comune per le nuove analisi delle aree agricole [6]. Su OpenCoesione (CUP J76J17000370002) sono soldi del Fondo sviluppo e coesione, impegnati il 13 aprile 2021; al 30 giugno 2026 il progetto è «non avviato» e non ha nessun pagamento [10].
+- **1.135.213,57 €** per le analisi del 2014–2015 (CUP J72D09000290002): 771.945,23 € di fondi europei FESR, 231.583,57 € della Regione e 131.684,77 € del Fondo di rotazione dello Stato, tutti pagati in 22 volte fra ottobre 2012 e dicembre 2015 [11].
 
 ## Date principali
 | Data | Cosa succede | Fonte |
 |---|---|---|
 | 3 e 14 aprile 2008 | Ordinanze n. 11 e 13: divieto di pascolo in alcune aree incolte | [1] |
 | 2011 | Inizio del procedimento secondo l'elenco della Regione | [5] |
-| 2014–2015 | Analisi di tutto il territorio comunale fuori dal SIN | [1] |
+| 2014–2015 | Analisi di tutto il territorio comunale fuori dal SIN (lavori dal 28 aprile 2014 al 20 gennaio 2015) | [1][11] |
 | 28 marzo 2017 | La conferenza di servizi approva l'analisi di rischio | [1] |
 | 26 maggio 2017 | Determinazione della Regione n. 124 | [1] |
 | 24 ottobre 2017 | Ordinanza n. 62: divieti nelle aree con rischio "inaccettabile" | [1] |
@@ -68,6 +69,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 | 19 aprile 2018 | La Provincia chiude la pratica e avvia l'ordinanza contro il responsabile | [3] |
 | 2018 | Ricorso di Ilva in A.S. al TAR di Lecce | [3] |
 | aprile 2020 | Per la Regione il sito è "contaminato" | [5] |
+| 13 aprile 2021 | Impegnati i 750.000 € per le nuove analisi delle aree agricole | [10] |
 | giugno 2021 | Piano regionale: perimetri delle zone contaminate "in fase di definizione" | [6] |
 | 29 giugno 2022 | ARPA in Parlamento: responsabile Ilva "per alcuni parametri come diossine e furani" | [4] |
 | 15 dicembre 2022 | Il TAR chiude il ricorso di Ilva: "improcedibile" | [3] |
@@ -91,9 +93,13 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 
 [9] Stesso documento del [5], nota sulle colonne "centro X; centro Y e Area" (pagina 6 del PDF)
 
+[10] OpenCoesione (Presidenza del Consiglio – Dipartimento per le politiche di coesione), progetto *Indagini integrative di caratterizzazione per la valutazione del rischio sanitario aree agricole Area Vasta*, CUP J76J17000370002, beneficiario Comune di Statte, Piano sviluppo e coesione della Regione Puglia, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/7pub02037/ — copia in `fonti/2026-06_opencoesione_area-vasta-statte-indagini-aree-agricole-750mila.json`
+
+[11] OpenCoesione, progetto *Caratterizzazione area vasta aree esterne al SIN di Taranto_STATTE (TA)*, CUP J72D09000290002, attuatore Comune di Statte, POR FESR Puglia 2007-2013, dati al 31 agosto 2022, https://opencoesione.gov.it/it/dati/progetti/1pufe2500032/ — copia in `fonti/2022-08_opencoesione_caratterizzazione-area-vasta-statte-2014-2015.json`
+
 ## Cosa non sappiamo
 1. [blocca] **La Provincia ha ordinato a Ilva di bonificare?** Nel 2018 la Provincia ha individuato il responsabile, che secondo ARPA è l'Ilva «per alcuni parametri come diossine e furani» [3][4]. La sentenza del TAR del 2022 parla solo dell'avvio dell'ordinanza [3]. Non sappiamo se sia stata emessa, che cosa ordini e se Ilva l'abbia eseguita o impugnata. Non verificato.
-2. [blocca] **Dove sono, oggi, le zone inquinate?** Nel 2021 la Regione scriveva che i confini erano ancora «in fase di definizione» e finanziava con 750.000 € nuove analisi delle aree agricole [6]. Non sappiamo come siano andate né se le zone siano state ridisegnate. Non verificato.
+2. [blocca] **Dove sono, oggi, le zone inquinate?** Nel 2021 la Regione scriveva che i confini erano ancora «in fase di definizione» e finanziava con 750.000 € nuove analisi delle aree agricole [6]; a fine giugno 2026 quelle analisi risultavano «non avviate» [10]. Non sappiamo come siano andate né se le zone siano state ridisegnate. Non verificato.
 3. [altra] **I divieti valgono ancora?** L'ordinanza n. 62 del 2017 vietava in 19 zone di arare, scavare e produrre cibo fino al 31 dicembre 2018 [1]. Non abbiamo trovato proroghe né nuove ordinanze. Non verificato.
 4. [altra] **Quali sostanze ci sono, zona per zona?** ARPA parla di diossine e furani [4]; l'ordinanza non elenca le sostanze [1]. Non abbiamo i risultati delle analisi né l'analisi di rischio. Non verificato.
 5. [altra] **L'Ilva è responsabile anche di altre sostanze o di altre zone?** ARPA parla di "un'area di Statte" e di "alcuni parametri" [4]. Non verificato.
