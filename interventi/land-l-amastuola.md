@@ -1,5 +1,5 @@
 # A14 – Land L (Cava L'Amastuola)
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 26 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -19,7 +19,7 @@ Negli anni '80 nella cava c'era una discarica [2][3][4]. La Regione ha chiesto d
 
 ## Chi se ne occupa
 - **Ilva in amministrazione straordinaria** (i commissari nominati dal Governo per le vecchie aree dell'Ilva): gestisce la cava e ha fatto preparare i piani di indagine alla società Engea [1][6][8].
-- **Regione Puglia**: poiché l'area è fuori dal SIN, la procedura non è del Ministero ma della Regione, che convoca la conferenza di servizi e autorizza il piano delle analisi [9][4]. La Regione ha anche autorizzato nel 2010 il piano di recupero della cava, e il suo Ufficio minerario riceve ogni anno le comunicazioni sulla cava [1]. A ottobre 2026 però la Regione non ha trovato l'atto di autorizzazione della cava con i riferimenti che le avevamo dato [13].
+- **Regione Puglia**: poiché l'area è fuori dal SIN, la procedura non è del Ministero ma della Regione, che convoca la conferenza di servizi e autorizza il piano delle analisi [9][4]. La Regione ha anche autorizzato nel 2010 il piano di recupero della cava, e il suo Ufficio minerario riceve ogni anno le comunicazioni sulla cava [1]. A ottobre 2026 però la Regione non ha trovato l'atto di autorizzazione della cava con i riferimenti che le avevamo dato [13]; il suo Servizio Attività estrattive, che segue le cave, lo conferma: nessuna autorizzazione regionale del 13/08/2010 per questo sito [17].
 - **ARPA Puglia**: dà i pareri tecnici sui piani di indagine [7][8].
 - **Direttore di cava**: un professionista esterno che, per legge, deve essere nominato finché la cava esiste [1][3].
 
@@ -119,9 +119,11 @@ Negli anni '80 nella cava c'era una discarica [2][3][4]. La Regione ha chiesto d
 
 [16] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 13 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
+[17] Regione Puglia, Sezione Ciclo dei rifiuti e bonifiche, Servizio Attività estrattive, *Richiesta di riesame – Differimento del punto 1 della richiesta di accesso civico generalizzato e di accesso all'informazione ambientale sull'area "Land L – Cava L'Amastuola" di ILVA S.p.A. in A.S. – riscontro*, prot. n. 0633736 del 26 ottobre 2026 (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_regione-puglia_attivita-estrattive-conferma-atto-cava-amastuola.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **L'indagine preliminare è partita?** A fine 2025 non era ancora partita: Ilva aspettava le autorizzazioni per i vincoli dell'area, chieste ad agosto 2025 [1]. Le indagini sono appaltate e l'inizio è «in programmazione» [1]. Solo se troveranno problemi Ilva presenterà un nuovo piano delle analisi, poi l'analisi di rischio ed «eventuale bonifica» [1]. Dopo, non abbiamo trovato notizie. La Regione, a ottobre 2026, dice di non aver ricevuto comunicazioni da Ilva dopo il 22 dicembre 2023 [13].
-2. [altra] **Dove sono gli atti della Regione?** Tutto quello che sappiamo sulla procedura viene dalle relazioni di Ilva [1][7][8]. Il verbale della conferenza del 18 maggio 2023, il parere di ARPA e l'autorizzazione del piano di recupero del 2010 non sono pubblicati online. A ottobre 2026 la Regione ha rinviato l'accesso al piano delle analisi alla fine del procedimento e non ha trovato l'atto sulla cava con i riferimenti che avevamo dato [13].
+2. [altra] **Dove sono gli atti della Regione?** Tutto quello che sappiamo sulla procedura viene dalle relazioni di Ilva [1][7][8]. Il verbale della conferenza del 18 maggio 2023, il parere di ARPA e l'autorizzazione del piano di recupero del 2010 non sono pubblicati online. A ottobre 2026 la Regione ha rinviato l'accesso al piano delle analisi alla fine del procedimento e non ha trovato l'atto sulla cava con i riferimenti che avevamo dato [13]; il 26 ottobre 2026 il Servizio Attività estrattive lo ha confermato [17].
 3. [altra] **Che cosa contiene la vecchia discarica, quanto è grande e chi la usava?** Le relazioni di Ilva parlano solo di "discarica di 2ª categoria degli anni '80" e di rifiuti stoccati "dal 1985 al 1995" [3][6].
 4. [altra] **Dove si trova esattamente?** Catasto e coordinate dell'area non compaiono in nessuna fonte ufficiale trovata [2][3]. Nel 2016 il Comune di Crispiano ha mandato a Ilva un'ordinanza per rifiuti abbandonati in località L'amastuola (foglio 66, p.lla 66), accanto alla cava, ma non dice che sia l'area "Land L" [14][15].
 5. [altra] **Quanto è grande?** Secondo Ilva 128,2 ettari [3]. I giornali danno altre cifre: non verificato.
