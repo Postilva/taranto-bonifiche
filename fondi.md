@@ -184,14 +184,33 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **Chi lo dà:** le risorse vengono "essenzialmente dall'accordo transattivo raggiunto con esponenti della famiglia Riva", più di 1.330 milioni € in tutto [2]. Nel 2017 Ilva in AS ha emesso un prestito obbligazionario sottoscritto dal Fondo Unico di Giustizia; i soldi sono stati versati in un "Patrimonio Destinato", con una contabilità separata [28].
 - **Atto:** decreto-legge 1/2015, art. 3, comma 1 [2].
 - **Importo:** 1.157 milioni € [2]. Il decreto-legge 21/2022 ne ha spostati 150 milioni alla decarbonizzazione della fabbrica [2]. In base al decreto-legge 3/2025, il 29 gennaio e il 13 febbraio 2025 ne sono stati pagati 250 milioni ad Acciaierie d'Italia in AS "per assicurare la continuità operativa degli impianti ex Ilva" [40].
-- **Per cosa:** le bonifiche e il risanamento del sito dell'ex Ilva [2]:
+- **Per cosa:** le bonifiche e il risanamento del sito dell'ex Ilva. Ilva li divideva così a giugno 2022 (figura 6 della Commissione parlamentare) [2]:
   - 467 milioni € li gestisce Ilva in AS per la bonifica delle "Aree escluse", cioè le aree che non sono passate in affitto ad Acciaierie d'Italia; gli importi li ha fissati la Commissione europea con il Governo (lettera del 4 maggio 2016) [2];
-  - 690 milioni € sono a disposizione di Acciaierie d'Italia per bonifica, decontaminazione e decarbonizzazione della fabbrica, pagati comunque da Ilva in AS [2].
+  - 503 milioni € per la decontaminazione nella fabbrica, gestiti da Acciaierie d'Italia: 352 previsti dal contratto d'affitto più 151 spostati dalle bonifiche del sottosuolo dopo i piani di caratterizzazione [2];
+  - 37 milioni € per le bonifiche del sottosuolo nella fabbrica, gestiti da Acciaierie d'Italia [2];
+  - 150 milioni € per la decarbonizzazione della fabbrica, spostati dal decreto-legge 21/2022 [2].
+  - Le ultime tre cifre fanno i 690 milioni "a disposizione di Acciaierie d'Italia per attività di bonifica, di decontaminazione e di decarbonizzazione dello stabilimento", pagati comunque da Ilva in AS [2]. Per bonificare la fabbrica restavano quindi 540 milioni, e per le bonifiche in tutto 1.007 (calcolo nostro).
+- **Usati per altro:** soldi usciti dal Patrimonio Destinato che non sono bonifiche:
+  - 150 milioni € ad Acciaierie d'Italia in AS "per assicurare la continuità operativa degli impianti ex Ilva", nel primo trimestre 2024, in base all'art. 39 del decreto-legge 19/2024 [53];
+  - probabilmente altri 150 milioni € ad Acciaierie d'Italia in AS nel secondo trimestre 2024, in base al decreto-legge 63/2024, che ha aggiunto all'art. 39 un secondo periodo: le risorse "possono essere incrementate fino a 150 milioni di euro" [60]. Nel trimestre il Patrimonio Destinato scende di 133,5 milioni [53][54], ma la tabella dei movimenti è coperta da "(OMISSIS)" [54]; AGI e il Corriere di Taranto li danno per versati [61][62], il Servizio Bilancio del Senato chiedeva al Governo di chiarirlo [59];
+  - 250 milioni € ad Acciaierie d'Italia in AS, 110 il 29 gennaio e 140 il 13 febbraio 2025, dopo che il decreto-legge 3/2025 ha alzato il secondo periodo dell'art. 39 da 150 a 400 milioni [40][60];
+  - 23,59 milioni € ad Acciaierie d'Italia in AS "per costituzione garanzia finanziaria per il rinnovo dell'Autorizzazione integrata ambientale (AIA)", nel secondo semestre 2024 [58];
+  - un "Anticipo di 188 milioni di euro del 26 marzo 2019 concesso alla gestione ordinaria di Ilva S.p.A. in A.S." [57]: ne sono tornati 17 milioni a maggio 2023 [57] e 112,22 milioni più 6,45 di interessi nel secondo semestre 2024 [58], con i soldi rimasti dell'accordo per l'esodo incentivato dei dipendenti [32]. Ne mancano circa 58,8 milioni (calcolo nostro).
 - **Quanto resta:** quanto c'è nel Patrimonio Destinato, secondo le relazioni trimestrali di Ilva in AS e, per il 2025, le relazioni semestrali dei commissari di Ilva al Parlamento ("disponibilità del Patrimonio Destinato"):
   - 1.064 milioni € · fine dicembre 2018 [28]
+  - 878,0 milioni € · fine marzo 2021 [46]
+  - 860,4 milioni € · fine giugno 2021 [47]
+  - 857,3 milioni € · fine settembre 2021 [48]
+  - 832,3 milioni € · fine dicembre 2021 [49]
   - 818,3 milioni € · fine marzo 2022 [29]
   - 726,8 milioni € · fine dicembre 2022 [30]
+  - 704,0 milioni € · fine marzo 2023 [50]
+  - 669,5 milioni € · fine giugno 2023 [51]
+  - 640,0 milioni € · fine settembre 2023 [52]
   - 624,2 milioni € · fine dicembre 2023 [31]
+  - 464,2 milioni € · fine marzo 2024 [53]
+  - 330,7 milioni € · fine giugno 2024 [54]
+  - 294,5 milioni € · fine settembre 2024 [55]
   - 387,5 milioni € · fine dicembre 2024 [32]
   - 133,4 milioni € · fine giugno 2025 [40]
   - 80,6 milioni € · fine dicembre 2025 [41]
@@ -213,11 +232,25 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
   - [land-l-amastuola] 3.350.000 €
   - [pozzo-25] circa 390.000 €
   - [stoccaggio-fanghi] 75.030.000 €
-- **Speso:** per area, solo fino a febbraio 2023 (vedi le schede) [39]; prima c'era la tabella del luglio 2022 [34].
+- **Speso:** per area, solo fino a febbraio 2023 (vedi le schede) [39]; prima c'era la tabella del luglio 2022 [34]. Per semestre, le relazioni dei commissari al Parlamento sul conto n. 6055 danno i "Rimborsi ad Arcelor Mittal Italia [poi Acciaierie d'Italia] per attività di Decontaminazione come da procedura ex art. 20.4 del contratto di affitto" (la fabbrica) e i "Pagamenti per attività di Decontaminazione" di Ilva, senza dire per quale area:
+  - secondo semestre 2022: 47,18 milioni di rimborsi ad Acciaierie d'Italia e 22,34 milioni di pagamenti di Ilva [56]
+  - primo semestre 2023: 38,00 milioni ad Acciaierie d'Italia e 32,73 milioni di Ilva [57]
+  - secondo semestre 2023 e primo semestre 2024: relazioni non trovate
+  - secondo semestre 2024: 33,00 milioni ad Acciaierie d'Italia e 5,24 milioni di Ilva [58]
+  - primo semestre 2025: nessun rimborso ad Acciaierie d'Italia e 3,97 milioni di Ilva [40]
+  - secondo semestre 2025: 49,17 milioni ad Acciaierie d'Italia e 3,58 milioni di Ilva [41]
+  - In questi 5 semestri fanno 167,37 milioni per la fabbrica e 67,86 milioni di Ilva (calcolo nostro).
 - **Da sapere:**
+  - Il conto in breve (calcolo nostro): dai 1.157 milioni agli 80,6 di fine 2025 sono usciti circa 1.076 milioni. Di questi, circa 632 sono stati usati per altro (550 ad Acciaierie d'Italia, contando i 150 probabili, 23,6 per la garanzia dell'AIA, 58,8 di anticipo non restituito); per le bonifiche, nella fabbrica e nelle Aree escluse, restano al massimo circa 444 milioni in 8 anni, contro i 1.007 previsti.
+  - Il Servizio Bilancio del Senato, a febbraio 2025: "Ove invece sia ancora da erogare un secondo finanziamento di 150 milioni, questo unito ai 250 milioni disposti dal provvedimento in esame lascerebbe soli 5 milioni di euro a finalità di ripristino ambientale"; e chiedeva "un quadro riepilogativo e sufficientemente analitico degli impegni finanziari previsti in futuro per concludere il processo di decontaminazione del sito" [59]. La relazione tecnica del Governo diceva che il prelievo "allo stato è compatibile con le obbligazioni e con le previsioni di rimborso assunte da ILVA in a.s. per le originarie finalità di decontaminazione" [59].
+  - L'11 novembre 2024 il Comitato di sorveglianza di Ilva in AS ha chiesto ai commissari "Dettagli sul "Patrimonio destinato", eventuali bonifiche mancanti e relativa copertura costi" [32]. La risposta non è nelle relazioni.
+  - Dei 150 milioni spostati alla decarbonizzazione dal decreto-legge 21/2022 nessuna fonte dice se e quando sono stati pagati: a fine 2022 sul conto c'erano ancora 744,03 milioni [56].
+  - Il saldo delle relazioni semestrali è un po' più alto della "disponibilità del Patrimonio Destinato": sullo stesso conto ci sono anche i 30 milioni del piano per le famiglie disagiate di Taranto, Statte, Crispiano, Massafra e Montemesola, che le relazioni tolgono come "finalità estranee" [40][41].
+  - Dal 2025 Ilva paga con il Patrimonio Destinato anche il "Costo del lavoro relativo al personale dedicato" (0,70 milioni nel primo trimestre 2025) e le "Comissioni fidejussorie polizza assicurativa Generali per discariche" (0,99 milioni) [33].
+  - La relazione del terzo trimestre 2021 scrive "a fine giugno 2021 ammonta a 857,3 mln" [48], ma quella del secondo trimestre dà 860,4 milioni per la stessa data [47]: la linea usa 857,3 per fine settembre 2021.
   - Le 17 cifre sommano 412,46 milioni € (calcolo nostro), meno dei 467 milioni per le Aree escluse [2].
   - Nell'aggiornamento del marzo 2023 Ilva scrive che i soldi delle Aree escluse sono 467 milioni del Patrimonio Destinato, di cui 443 già divisi fra le aree (434 per Taranto, Statte e Crispiano) [39]; lo dice anche la Commissione parlamentare [2]. Sul sito le cifre restano "secondo Ilva", perché nessun ente pubblico le ha controllate.
-  - Fra il 2018 e il 2025 il Patrimonio Destinato è sceso da 1.064 a 80,6 milioni € [28][41]. Una parte del calo sono i 250 milioni pagati ad Acciaierie d'Italia nel 2025 [40]. Le relazioni dei commissari al Parlamento danno, semestre per semestre, i pagamenti di Ilva "per attività di Decontaminazione" (per esempio 3,58 milioni nel secondo semestre 2025), ma non dicono per quale area [41].
+  - Fra il 2018 e il 2025 il Patrimonio Destinato è sceso da 1.064 a 80,6 milioni € [28][41]. Più della metà del calo sono i soldi "usati per altro" (vedi sopra; calcolo nostro).
   - La relazione trimestrale del 1° trimestre 2025 scrive che a fine marzo 2025 il Patrimonio Destinato era di 387,5 milioni € [33], la stessa cifra di fine 2024; ma i 250 milioni ad Acciaierie d'Italia erano stati pagati il 29 gennaio e il 13 febbraio 2025 [40]. Per questo la linea non usa quella cifra.
 
 ---
@@ -230,16 +263,20 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 ## Cosa non sappiamo
 1. [fonti] **Il decreto per i suoli del Tamburi è il n. 398 o il n. 3984, ed è del 2012 o del 2021?** La relazione del Commissario del 2018 scrive "n.3984/TRI/DI/G/SP del 17/12/2012" [1], la tabella della Commissione parlamentare "398/TRI/DU/G/SP del 17/12/2021" [2]. La scheda delle scuole spiega già che "2021" è un errore.
 2. [altra] **Da quale decreto vengono i 6,18 milioni del Cimitero?** Il decreto n. 18 del 2026 dice solo "bilancio proprio e.f. 2012" del Ministero [18]; il fondo di 8 milioni per i suoli del Tamburi paga in parte anche le analisi del Cimitero [1].
-3. [altra] **Quanto del Patrimonio Destinato è stato speso per ogni Area esclusa dopo febbraio 2023?** Le relazioni dei commissari al Parlamento danno i pagamenti di Ilva "per attività di Decontaminazione" tutti insieme [41]; le cifre per area si fermano a febbraio 2023 [39].
+3. [altra] **Quanto del Patrimonio Destinato è stato speso per ogni Area esclusa dopo febbraio 2023?** Le relazioni dei commissari al Parlamento danno i pagamenti di Ilva "per attività di Decontaminazione" tutti insieme [41]; le cifre per area si fermano a febbraio 2023 [39]. Intanto dal Patrimonio sono usciti almeno 400 milioni per far funzionare la fabbrica [53][40].
 4. [altra] **Cosa sono i 34,17 milioni di "altre risorse" del PIP di Statte?** L'Accordo per la Coesione non lo spiega [12].
 5. [altra] **Cos'è il "Fondo di rotazione" da 9,26 milioni del Cimitero?** Compare solo su OpenCoesione [19].
 6. [altra] **Dove sono finiti i 37,2 milioni dell'accordo del 2004 per l'Area 170 ha?** Nessuna fonte trovata lo dice [27].
 7. [fonti] **I 21 milioni della Regione per il Mar Piccolo sono stati versati?** 17,85 milioni secondo le relazioni del Commissario [1][3], quasi tutti secondo un decreto del 2025 [4], 0 € pagati secondo OpenCoesione [7].
+8. [fonti] **Ad Acciaierie d'Italia sono andati 400 o 550 milioni dei Riva?** I 150 del primo trimestre 2024 e i 250 del 2025 sono nelle relazioni [53][40]; i 150 del decreto-legge 63/2024 li danno per versati AGI e il Corriere di Taranto [61][62], ma la tabella del secondo trimestre 2024 è coperta da "(OMISSIS)" [54] e mancano le relazioni sul conto del secondo semestre 2023 e del primo semestre 2024.
+9. [altra] **Quanto hanno avuto in tutto Arcelor Mittal e Acciaierie d'Italia per decontaminare la fabbrica, e quanto resta dei 540 milioni?** Le relazioni sul conto danno i rimborsi solo per 5 semestri, 167,37 milioni (calcolo nostro) [56][57][58][40][41]; mancano gli anni dal 2017 a metà 2022.
+10. [altra] **I 150 milioni della decarbonizzazione sono stati spesi, e per cosa?** Il decreto-legge 21/2022 li ha spostati [2], ma nessuna relazione trovata ne registra il pagamento.
+11. [altra] **Con quali soldi si finiranno le bonifiche delle Aree escluse?** Per Ilva servivano 467 milioni e ne aveva spesi 48,57 a febbraio 2023 [39]; a fine 2025 nel Patrimonio Destinato restavano 80,6 milioni per tutto [41]. Il Comitato di sorveglianza l'ha chiesto ai commissari l'11 novembre 2024 [32].
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Relazione sintetica – Aggiornamento dello stato di attuazione delle attività*, dicembre 2018, pag. 9–15 (fondi del Commissario e "Quadro generale impegni/liquidazioni"; la tabella è a pagina 15 del PDF) (acquisita dalla Camera dei deputati), https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/000/520/RELAZIONE_dicembre_2018.pdf — copia in `fonti/2018-12_commissario-taranto_relazione-stato-attuazione.pdf`
 
-[2] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), 15 settembre 2022, pag. 22 (tabella 1, dati del Commissario al 3/5/2022), pag. 34–35 (spesa della "piattaforma" dell'area vasta) e pag. 54–55 (paragrafo 3.3.3, "1.157 milioni di euro per le bonifiche: il Patrimonio Destinato") della numerazione della Camera, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
+[2] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), 15 settembre 2022, pag. 22 (tabella 1, dati del Commissario al 3/5/2022), pag. 34–35 (spesa della "piattaforma" dell'area vasta) e pag. 54–55 (paragrafo 3.3.3, "1.157 milioni di euro per le bonifiche: il Patrimonio Destinato", e figura 6, "ripartizione per responsabilità di gestione ed attività del Patrimonio Destinato", con i dati di Ilva al 10/06/2022) della numerazione della Camera, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
 
 [3] Commissario straordinario per la bonifica di Taranto (Prefetto Martino), *Relazione attività commissariali – periodo 30/03/2022–1/10/2023*, prot. n. 56411 del 29 settembre 2023, pagine 15–18 del PDF (acquisita dalla Camera dei deputati, gennaio 2024), https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Progettodilegge/leg19.com05.Progettodilegge.Altro.PUBBLICO.ideGes.26863.16-01-2024-10-27-10.315.pdf — copia in `fonti/2023-09_commissario-taranto_relazione-fine-mandato-martino.pdf`
 
@@ -299,9 +336,9 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 
 [31] Ilva S.p.A. in AS, *Relazione trimestrale, 4° trimestre 2023*, pagina 15 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2023_omissisb.pdf — copia in `fonti/2023-12_ilva-as_relazione-trimestrale-IV-2023.pdf`
 
-[32] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pagina 18 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
+[32] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2024*, pagine 15 (fondi dell'esodo usati per rimborsare il finanziamento del Patrimonio Destinato), 18 e 84 (riunione del Comitato di sorveglianza dell'11 novembre 2024) del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2024.pdf — copia in `fonti/2024-12_ilva-as_relazione-trimestrale-IV-2024.pdf`
 
-[33] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagina 17 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+[33] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagine 16 (tabella "Patrimonio Destinato Ilva al 31.03.2025") e 17 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
 
 [34] Ilva S.p.A. in A.S., *Aggiornamento sullo stato di attuazione degli interventi in capo a ILVA in AS* (aggiornato al 12 luglio 2022), per l'Osservatorio ILVA, tabella riepilogativa (pagina 9 del PDF) e schede delle aree, https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=291 — copia in `fonti/2022-07_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
@@ -326,5 +363,39 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 [44] OpenCUP (Dipartimento per la programmazione e il coordinamento della politica economica), progetto CUP J76J20001130001, *Progetto esecutivo del piano di indagini integrative per il progetto di bonifica ambientale del tratto sud della Gravina di Leucaspide*, soggetto titolare Comune di Statte, consultato il 25 ottobre 2026, https://www.opencup.gov.it/portale/web/opencup/progetto/-/cup/J76J20001130001 — copia in `fonti/2026-10_opencup_J76J20001130001-progettazione-gravina-leucaspide.html`
 
 [45] OpenCUP, progetto CUP J76J14000840001, *Intervento di MISE del surnatante oleoso falda profonda area PIP*, soggetto titolare Comune di Statte, delibera CIPE 87, consultato il 25 ottobre 2026, https://www.opencup.gov.it/portale/web/opencup/progetto/-/cup/J76J14000840001 — copia in `fonti/2026-10_opencup_J76J14000840001-mise-surnatante-pip-statte.html`
+
+[46] Ilva S.p.A. in A.S., *Relazione trimestrale, 1° trimestre 2021*, pagina 14 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2021_omissis.pdf — copia in `fonti/2021-03_ilva-as_relazione-trimestrale-I-2021.pdf`
+
+[47] Ilva S.p.A. in A.S., *Relazione trimestrale, 2° trimestre 2021*, pagina 14 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_II_trim_2021_omissis.pdf — copia in `fonti/2021-06_ilva-as_relazione-trimestrale-II-2021.pdf`
+
+[48] Ilva S.p.A. in A.S., *Relazione trimestrale, 3° trimestre 2021*, pagina 14 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_III_trim_2021_omissis.pdf — copia in `fonti/2021-09_ilva-as_relazione-trimestrale-III-2021.pdf`
+
+[49] Ilva S.p.A. in A.S., *Relazione trimestrale, 4° trimestre 2021*, pagina 14 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_IV_trim_2021_omissis.pdf — copia in `fonti/2021-12_ilva-as_relazione-trimestrale-IV-2021.pdf`
+
+[50] Ilva S.p.A. in A.S., *Relazione trimestrale, 1° trimestre 2023*, pagina 15 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_I_trim_2023_omissisb.pdf — copia in `fonti/2023-03_ilva-as_relazione-trimestrale-I-2023.pdf`
+
+[51] Ilva S.p.A. in A.S., *Relazione trimestrale, 2° trimestre 2023*, pagina 14 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_II_trim_2023_omissisb.pdf — copia in `fonti/2023-06_ilva-as_relazione-trimestrale-II-2023.pdf`
+
+[52] Ilva S.p.A. in A.S., *Relazione trimestrale, 3° trimestre 2023*, pagina 15 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_III_trim_2023_omissisb.pdf — copia in `fonti/2023-09_ilva-as_relazione-trimestrale-III-2023.pdf`
+
+[53] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2024*, pagine 16–17 del PDF (tabella "Patrimonio Destinato Ilva al 31.03.2024", con il "Trasferimento ad Acciaierie d'Italia in A.S. per assicurare la continuità operativa degli impianti ex Ilva ai sensi del decreto-legge 2 marzo 2024, n. 19" di 150.000 migliaia di euro), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2024.pdf — copia in `fonti/2024-03_ilva-as_relazione-trimestrale-I-2024.pdf`
+
+[54] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 2° trimestre 2024*, pagine 16–18 del PDF (la tabella del Patrimonio Destinato è "(OMISSIS)"), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_II_trim_2024.pdf — copia in `fonti/2024-06_ilva-as_relazione-trimestrale-II-2024.pdf`
+
+[55] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 3° trimestre 2024*, pagina 18 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_Relazione_Trimestrale_III_trim_2024.pdf — copia in `fonti/2024-09_ilva-as_relazione-trimestrale-III-2024.pdf`
+
+[56] Commissari straordinari di ILVA S.p.A. in A.S., *Relazione concernente il conto di contabilità speciale n. 6055 (periodo dal 1° luglio al 31 dicembre 2022)*, Doc. XXVII n. 3 (XIX legislatura), trasmessa alla Presidenza il 13 gennaio 2023, pagine 2 e 4 (sintesi dei movimenti ed estratto conto), https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/027/003/INTERO.pdf — copia in `fonti/2023-01_ilva-as_relazione-contabilita-speciale-6055-II-sem-2022.pdf`
+
+[57] Commissari straordinari di ILVA S.p.A. in A.S., *Relazione concernente il conto di contabilità speciale n. 6055 (Primo semestre 2023)*, Doc. XXVII n. 8 (XIX legislatura), pagine 2–3 (sintesi dei movimenti, "Rimborso parziale dell'Anticipo di 188 milioni di euro del 26 marzo 2019 concesso alla gestione ordinaria di Ilva S.p.A. in A.S.", estratto conto), https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/027/008_RS/INTERO_COM.pdf — copia in `fonti/2023-07_ilva-as_relazione-contabilita-speciale-6055-I-sem-2023.pdf`
+
+[58] Commissari straordinari di ILVA S.p.A. in A.S., *Relazione concernente il conto di contabilità speciale n. 6055 (Secondo semestre 2024)*, Doc. XXVII n. 20 (XIX legislatura), trasmessa alla Presidenza il 7 gennaio 2025, pagina 3 (sintesi dei movimenti, scansione), https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/027/020_RS/INTERO_COM.pdf — copia in `fonti/2025-01_ilva-as_relazione-contabilita-speciale-6055-II-sem-2024.pdf`
+
+[59] Senato della Repubblica, Servizio del Bilancio, *Nota di lettura n. 221 – A.S. 1359: Conversione in legge del decreto-legge 24 gennaio 2025, n. 3*, febbraio 2025, pagine 5–6 del PDF (prospetto del conto al 31 dicembre 2024 e osservazioni), https://www.parlamento.it/service/PDF/PDFServer/BGT/01443763.pdf — copia in `fonti/2025-02_senato_servizio-bilancio-nota-221-dl-3-2025.pdf`
+
+[60] Senato della Repubblica, Servizio Studi, *Dossier A.S. n. 1359 – Conversione in legge del decreto-legge 24 gennaio 2025, n. 3*, 29 gennaio 2025, pagine 7–8 del PDF (art. 39 del decreto-legge 19/2024, il secondo periodo aggiunto dal decreto-legge 63/2024 e il testo a fronte), https://www.parlamento.it/service/PDF/PDFServer/BGT/01443650.pdf — copia in `fonti/2025-01_senato_servizio-studi-dossier-dl-3-2025.pdf`
+
+[61] AGI, *Acciaio: ex Ilva, da Governo altri 250 milioni*, 24 gennaio 2025 ("una prima tranche di 150 e una seconda di 150, quest'ultima ampliata ora di altri 250 per un totale di 400. Che aggiunti ai primi 150 fanno appunto 550"), https://www.agi.it/economia/news/2025-01-24/acciaio-ex-ilva-da-governo-250-milioni-euro-29715253/ — copia in `fonti/2025-01_agi_ex-ilva-250-milioni.html`
+
+[62] Corriere di Taranto, *Bonifiche ex Ilva, ci sono 155 milioni (per ora)*, 24 marzo 2025 (secondo l'articolo, la relazione tecnica al decreto-legge 3/2025 scrive che il saldo di 405.179.121 € al 31 dicembre 2024 "tiene già conto" dei due prelievi da 150 milioni), https://www.corriereditaranto.it/2025/03/24/bonifiche-ex-ilva-ci-sono-155-milioni-per-ora/ — copia non salvata (il sito blocca lo scaricamento automatico)
 
 Ultimo controllo dei fondi pubblici: 25 ottobre 2026, su OpenCoesione (dati al 30 giugno 2026, gli ultimi pubblicati), OpenCUP, portale trasparenza del Comune di Taranto e decreti 2026 del Commissario (fino al n. 57 del 21 ottobre 2026).

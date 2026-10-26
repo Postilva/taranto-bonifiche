@@ -147,3 +147,17 @@ Oggi la barra c'è solo dove le due cifre si possono confrontare (D8 e i 17 repo
 - *Da decidere:* dove vanno. Raccomandato: in fondo a ogni gruppo (Fondi pubblici, Secondo Ilva), dopo quelle con la percentuale, così l'ordine dalla più bassa resta.
 - *Da decidere:* anche i report senza nessuna cifra (quelli elencati sotto "I totali")? Raccomandato no: lì non c'è niente da disegnare, restano nell'elenco.
 - Leggere la skill `dataviz` prima del disegno. Mostrare 2–3 righe a 390 px prima di estenderle a tutti; poi 1440 px.
+
+## Settima parte: dove sono finiti i soldi dei Riva (26/10/2026)
+
+Ragionando con l'utente sul Patrimonio Destinato è venuto fuori che più della metà è stata usata per altro (calcolo nostro): dati e fonti già in `fondi.md` (voci **Per cosa**, **Usati per altro**, **Speso**, **Quanto resta**, **Da sapere**, punti 3 e 8–11 di Cosa non sappiamo, fonti [46]–[62]). Il sito non è stato ricostruito: alla prossima costruzione `soldi.html` prende i dati nuovi, quindi questo task va fatto prima di pubblicare altro.
+
+### [ ] 17. "Dove sono finiti i soldi dei Riva"
+L'utente vuole che il sito spieghi bene la situazione. Oggi la pagina dice solo "1.157 milioni, 150 spostati alla decarbonizzazione, 250 ad Acciaierie d'Italia, restano 80,6".
+- La sezione "Quanto resta ai soldi di Ilva" di `sito/soldi.html` diventa "Dove sono finiti i soldi dei Riva", in tre parti: (1) **come erano divisi** i 1.157 milioni (467 Aree escluse di Ilva, 503 decontaminazione della fabbrica, 37 sottosuolo della fabbrica, 150 decarbonizzazione) [2]; (2) **dove sono andati** (circa 550 ad Acciaierie d'Italia per far funzionare la fabbrica, di cui 150 probabili; 23,6 per la garanzia dell'AIA; 58,8 di anticipo alla gestione ordinaria non restituito; al massimo circa 444 per bonifiche e decontaminazione; 80,6 rimasti); (3) la linea **quanto resta**, ora con 17 punti, con i prelievi segnati sopra (marzo 2024, primavera 2024, gennaio–febbraio 2025).
+- Ogni pezzo deve dire se è **certo** (cifra in una relazione), **probabile** (i 150 del DL 63/2024) o **calcolo nostro**; `costruisci.py` legge le cifre da `fondi.md` e si ferma se manca la fonte.
+- "In breve": riscrivere il terzo paragrafo, quello del Patrimonio Destinato. Proposta: "Dei 1.157 milioni lasciati dai Riva per le bonifiche, almeno 400 sono andati ad Acciaierie d'Italia per far funzionare la fabbrica [53][40]; a fine 2025 ne restavano 80,6 [41], mentre per le Aree escluse Ilva ne aveva previsti 467 e spesi 48,57 a febbraio 2023 [39]."
+- *Da decidere:* barra in pila (raccomandato: due barre una sopra l'altra, "previsti" e "dove sono andati", stessa scala) o tabella; il colore dei pezzi "usati per altro".
+- *Da decidere:* dove mettere i rimborsi semestre per semestre (raccomandato: tabella a fisarmonica sotto la linea).
+- Leggere la skill `dataviz` prima del disegno. Mostrare a 390 px, poi 1440 px; pubblicare solo con "pubblica".
+- Quando arriva la risposta alla richiesta 72 (MIMIT), aggiornare `fondi.md` (punti 8–11 di Cosa non sappiamo) prima o dopo questo task.
