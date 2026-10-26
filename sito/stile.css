@@ -672,10 +672,37 @@ body.pv-on .paneltoggle{display:none}
 .aperta{background:var(--gA-soft);border-radius:12px;padding:10px 12px;font-size:.92rem;line-height:1.45;color:var(--ink)}
 .aperta a{white-space:nowrap;font-weight:600;text-decoration:none}
 .resta-g,.resta-dx{display:grid;gap:12px;align-items:start}
+.resta .ev{stroke:var(--s-part)}
+.resta .lb.ev-t{color:var(--s-part);background:var(--surface);padding:0 2px;border-radius:3px}
+.resta-tab tr.tot td{font-weight:700;color:var(--ink);border-bottom:0}
+.resta-tab td.na{color:var(--ink-3)}
+/* dove sono finiti i soldi dei Riva: due barre in pila con la stessa scala (il totale del fondo), sotto ognuna i pezzi con
+   cifra, nome, certezza e fonte. Giallo = usati per altro (a righe se probabili), arancione = Aree escluse e quello che
+   resta, tratteggiato = il resto "al massimo" (calcolo nostro), grigi = gli altri pezzi */
+.pz-g{display:grid;gap:22px}
+.pz-p{display:grid;gap:10px;align-content:start}
+.pz-p h3,.pz-h{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:8px;font-size:1rem;font-weight:700}
+.pz-p h3 small{font-size:.8rem;font-weight:500;color:var(--ink-3)}
+.pz-h{margin-top:24px}
+.pzb{display:flex;gap:2px;height:34px}
+.pz{min-width:3px;border-radius:2px;display:grid;place-items:center;overflow:hidden;white-space:nowrap;font:700 12px/1 var(--f-body);color:var(--on-g)}
+.pz:first-child{border-radius:4px 2px 2px 4px}.pz:last-child{border-radius:2px 4px 4px 2px}
+.c-ilva{background:var(--gA)}
+.c-altro{background:var(--s-part)}
+.c-altro.prob{background:repeating-linear-gradient(135deg,var(--s-part) 0 3px,transparent 3px 6px);box-shadow:inset 0 0 0 1.5px var(--s-part);color:var(--ink);text-shadow:0 0 3px var(--bg),0 0 3px var(--bg)}
+.c-max{background:var(--surface-2);border:1.5px dashed var(--ink-2);color:var(--ink)}
+.c-g1{background:#a1a1aa}.c-g2{background:#71717a;color:var(--ink)}.c-g3{background:#52525b;color:var(--ink)}
+.pz-leg{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:12px max-content 1fr;gap:7px 10px;align-items:baseline;font-size:.88rem;line-height:1.4;color:var(--ink-2)}
+.pz-leg li{display:contents}
+.pz-leg b{color:var(--ink);text-align:right;font-variant-numeric:tabular-nums}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px}
+.cert{display:inline-block;font:600 .64rem/1 var(--f-body);letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);border:1px solid var(--line);border-radius:999px;padding:3px 6px;white-space:nowrap;vertical-align:1px}
+#rimborsi{margin-top:14px}
 @media (min-width:900px){
   .resta-g{grid-template-columns:minmax(0,440px) minmax(0,1fr);gap:28px}
   .resta-g>.resta{align-self:stretch;aspect-ratio:auto;min-height:280px}
   .st-g ul.strane{grid-template-columns:1fr 1fr}
+  .pz-g{grid-template-columns:1fr 1fr;gap:32px}
 }
 .gruppo{display:grid;gap:10px}
 .gruppo h3{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:6px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
