@@ -1,5 +1,5 @@
 # D6 – Quartiere Tamburi: acque sotterranee (Comune di Taranto)
-*Stato scheda: approvata — aggiornata al 20 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 26 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -24,7 +24,8 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 ## Cosa è stato fatto
 **Analisi e analisi di rischio approvate. Nessuna messa in sicurezza, nessuna bonifica.** [1]
 
-- **2015.** Inizia il procedimento, con le regole del Codice dell'ambiente (D.Lgs. 152/2006) [1].
+- **2015.** Inizia il procedimento, con le regole del Codice dell'ambiente (D.Lgs. 152/2006) [1]. Il 2 luglio 2015 la Conferenza di servizi stabilisce che per l'acqua sotterranea del Tamburi si farà un'unica analisi di rischio per tutto il quartiere, perché sotto c'è un solo corpo d'acqua [6].
+- **2016.** Approvando l'analisi di rischio delle aree verdi delle scuole Deledda, De Carolis e D'Aquino (scheda B2), la Regione trova un rischio non accettabile per la falda e rimanda gli obiettivi di bonifica a questa analisi di tutto il quartiere [6]. Il 16 giugno 2016 il Comune aveva scritto che l'avrebbe completata a novembre 2016 [6].
 - **Entro aprile 2020.** Vengono approvati i risultati delle analisi (piano di caratterizzazione) e l'analisi di rischio; il sito è "contaminato" [1].
 
 ## Dove si trova e quanto è grande
@@ -38,6 +39,8 @@ Nessuna cifra trovata. Non verificato.
 | Data | Cosa succede | Fonte |
 |---|---|---|
 | 2015 | Inizio del procedimento | [1] |
+| 2 luglio 2015 | Conferenza di servizi: un'unica analisi di rischio della falda per tutto il quartiere | [6] |
+| 16 giugno 2016 | Il Comune: l'analisi di rischio della falda sarà pronta a novembre 2016 | [6] |
 | aprile 2020 | Sito "contaminato": analisi e analisi di rischio approvate | [1] |
 
 ## Fonti
@@ -50,6 +53,8 @@ Nessuna cifra trovata. Non verificato.
 [4] Stesso documento del [1], colonne "centro X" e "centro Y" del sito n. 148 (pag. 53)
 
 [5] Comune di Taranto e Sogesid S.p.A., *Progetto definitivo per la messa in sicurezza operativa della falda superficiale soggiacente l'area del SIN di Taranto – Comparto orientale/bacino drenante Galeso. Relazione tecnica illustrativa* (elaborato PDED02, rev. 1 ottobre 2025), paragrafo 3.2 (pagina 10 del PDF) — copia in `fonti/2025-06_comune-taranto-sogesid_progetto-miso-falda-galeso-relazione-tecnica.pdf`
+
+[6] Regione Puglia, Sezione Ciclo dei rifiuti e bonifica, *Determinazione dirigenziale n. 145 del 24 giugno 2016*, approvazione dell'analisi di rischio delle aree verdi delle scuole Deledda, De Carolis e D'Aquino del quartiere Tamburi, pag. 3–4 (avuta dalla Regione il 26 ottobre 2026 dopo una nostra richiesta; non pubblicata online) — copia in `fonti/2016-06_regione-puglia_determina-145-analisi-rischio-scuole-deledda.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Dopo il 2020 è stato deciso qualche intervento?** Entro aprile 2020 erano state approvate le analisi e l'analisi di rischio, e il sito risultava "contaminato" [1]. Ma non c'erano né un progetto di messa in sicurezza né una bonifica [1], e non abbiamo trovato atti più recenti. Non verificato.
