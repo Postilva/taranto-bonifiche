@@ -129,3 +129,21 @@ Sul telefono le sezioni 1–5 sono aperte; 6, 7 e 8 a fisarmonica, così la pagi
 - 3–4 frasi in cima alla pagina, scritte in una sezione nuova `## In breve` di `fondi.md`, ognuna con la sua fonte o con "calcolo nostro" (per esempio: le cifre di Ilva sono quasi tutte ferme a luglio 2022; nessun report di fondi pubblici permette il confronto fra disponibili e spesi; stranezze in N report).
 - `costruisci.py` si ferma se una frase non finisce con la fonte o se la fonte non è nell'elenco. Ogni frase si controlla sulle fonti prima di mostrarla.
 - Prima le frasi all'utente, poi sul sito.
+
+## Sesta parte: appunti dell'utente sulla pagina (26/10/2026)
+
+### [x] 15. In breve, più chiaro (fatto il 26/10/2026: per scelta dell'utente un testo discorsivo in 4 paragrafi invece delle frasi a elenco: fondi pubblici, spese di Ilva per area, Patrimonio Destinato, stranezze; cifre principali in grassetto; la costruzione controlla ogni frase e i quattro totali)
+Oggi le 4 frasi sono lunghe e piene di punti e virgola: la prima comincia da quello che non sappiamo, la seconda mette insieme tre cose (un report confrontabile, uno che non torna, 6 a cui manca una cifra), nessuna dice i totali (fondi pubblici 155,41 mln disponibili e 7,17 spesi; secondo Ilva 412,46 e 48,57), "Patrimonio Destinato" non è spiegato.
+- Riscrivere `## In breve` in `fondi.md`: frasi corte, una cosa per frase, prima quello che si sa (la cifra) e poi quello che manca; ogni frase con la sua fonte o con "calcolo nostro", come nel task 14.
+- *Da decidere:* quali frasi. Raccomandato, nell'ordine: (1) quanti soldi ci sono e quanti ne sono stati spesi, fondi pubblici e Ilva separati; (2) dove i soldi sono più fermi (i report a 0% o quasi); (3) le stranezze, quante e in quanti report; (4) quanto resta del Patrimonio Destinato di Ilva, detto come "i soldi lasciati dai Riva per le bonifiche"; (5) le cifre di Ilva ferme a febbraio 2023. Al massimo 5 frasi.
+- *Da decidere:* la cifra principale di ogni frase in grassetto? Raccomandato sì, così sul telefono si legge anche solo scorrendo.
+- Le cifre dei totali in "In breve" devono essere quelle della sezione "I totali": `costruisci.py` si ferma se non coincidono (come già fa per le stranezze).
+- Prima le frasi all'utente, poi sul sito. Verifica a 390 e 1440 px.
+
+### [x] 16. "Dove i soldi sono fermi": una barra per ogni report (fatto il 26/10/2026: per scelta dell'utente le stesse barre, vuote, con "?" al posto della percentuale, in fondo al gruppo sotto "Senza confronto possibile"; su schermo grande i titoli delle due colonne su una riga comune, così il sottotitolo di destra non sfasa più le righe)
+Oggi la barra c'è solo dove le due cifre si possono confrontare (D8 e i 17 report di Ilva); i 7 report di fondi pubblici in "Senza confronto possibile" (A1 Gravina, B2 Scuole Tamburi, B8 Cimitero, B9 Atleti Azzurri, B10 PIP Statte, B13 gara 2018, D1–D5 suoli Tamburi) hanno solo la frase.
+- Una riga con la barra per ogni report, anche dove manca una cifra, senza inventare la percentuale: la regola del task 4 resta (percentuale solo se le due cifre riguardano la stessa cosa).
+- *Da decidere:* come si disegna la barra senza confronto. Raccomandato: stessa riga degli altri, barra grigia tratteggiata con scritto "non si sa" al posto della percentuale; sotto la cifra che c'è ("750.000 € disponibili, spesi: non si sa") e il motivo di oggi in piccolo. Per la gara 2018 le due cifre, con il motivo per cui non si confrontano.
+- *Da decidere:* dove vanno. Raccomandato: in fondo a ogni gruppo (Fondi pubblici, Secondo Ilva), dopo quelle con la percentuale, così l'ordine dalla più bassa resta.
+- *Da decidere:* anche i report senza nessuna cifra (quelli elencati sotto "I totali")? Raccomandato no: lì non c'è niente da disegnare, restano nell'elenco.
+- Leggere la skill `dataviz` prima del disegno. Mostrare 2–3 righe a 390 px prima di estenderle a tutti; poi 1440 px.

@@ -112,6 +112,8 @@ body.mappa .topbar .in{max-width:none}
 .ferme{display:grid;gap:10px;margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
 .ferme>h4{font-size:1rem}
 .ferme .tot{align-items:start}
+.fr-c{display:grid;gap:8px;align-content:start}
+@media (min-width:900px){.ferme .tot{grid-template-rows:auto auto}.ferme .tot>div{grid-row:span 2;grid-template-rows:subgrid;align-content:start}.ferme .tot h4{align-self:end}}
 .ferme h5{margin:6px 0 0;font:700 .7rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
 .fr,.fr-no{margin:0;padding:0;list-style:none;display:grid;gap:6px}
 .fr a{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:6px 10px;padding:10px 12px;border-radius:12px;background:var(--surface-2);color:var(--ink);text-decoration:none}
@@ -122,6 +124,7 @@ body.mappa .topbar .in{max-width:none}
 .fr-p{font:800 .95rem/1.2 var(--f-body);white-space:nowrap}
 .fr .bar{grid-column:1/-1}
 .fr small{grid-column:1/-1;font-size:.72rem;line-height:1.35;color:var(--ink-2)}
+.fr-m{color:var(--ink-3)}
 .fr-vuoto{font-size:.85rem;line-height:1.4;color:var(--ink-2);padding:10px 12px;border-radius:12px;box-shadow:inset 0 0 0 1px var(--line)}
 .fr-no li{display:grid;gap:4px;justify-items:start;font-size:.78rem;line-height:1.4;color:var(--ink-2)}
 .chart-intro{font-size:.9rem;line-height:1.5;color:var(--ink-2)}.chart-intro b{color:var(--ink)}.chart-intro a{color:var(--gA);white-space:nowrap}
@@ -635,7 +638,7 @@ body.pv-on .paneltoggle{display:none}
 .sd .sz>h2,.sz-fondi>h2{font-size:1.15rem;font-weight:800}
 .sd .sz.ferme{border-top:0;padding-top:16px}
 .sz-fondi{display:grid;gap:12px}
-.breve ul{margin:0;padding-left:1.1em;display:grid;gap:8px;font-size:.95rem;line-height:1.5;color:var(--ink)}
+.breve p{margin:0 0 10px;font-size:.95rem;line-height:1.55;color:var(--ink)}.breve p:last-child{margin-bottom:0}.breve strong{font-weight:800}
 /* le stranezze per tipo: l'etichetta in giallo con il numero, la spiegazione del tipo, poi report e frase */
 .st-g{display:grid;gap:8px}
 .st-g+.st-g{border-top:1px solid var(--line);padding-top:14px}

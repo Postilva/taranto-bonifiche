@@ -569,12 +569,12 @@ def leggi_fondi(schede):
         if n not in numeri:
             sys.exit(f"fondi.md: la fonte [{n}] non è nell'elenco delle fonti")
     controllo = next((l.strip() for l in altre.get("Fonti", []) if l.startswith("Ultimo controllo")), "")
-    breve = []   # "## In breve": le frasi in cima alla pagina, ognuna con la sua fonte o con "(calcolo nostro)"
+    breve = []   # "## In breve": i paragrafi in cima alla pagina; ogni frase finisce con la sua fonte o con "(calcolo nostro)"
     for kind, val in blocks(altre.get("In breve", [])):
-        for it in (val if kind == "ul" else []):
-            b = " ".join(x.strip() for x in it)
-            if FILTRO.search(b) or not re.search(r"(?:\[\d+\]|\(calcolo nostro\))\.?$", b):
-                sys.exit(f"fondi.md, In breve: ogni frase deve finire con la sua fonte [n] o con \"(calcolo nostro)\": {b[:60]}")
+        for b in ([val] if kind == "p" else []):
+            for fr in re.split(r"(?<=[.!?])\s+(?=[A-ZÀÈÉÌÒÙ«\"(⚠*])", b.strip()):   # le frasi, come in frasi()
+                if FILTRO.search(fr) or not re.search(r"(?:\[\d+\]|\(calcolo nostro\))\.?$", fr):
+                    sys.exit(f"fondi.md, In breve: ogni frase deve finire con la sua fonte [n] o con \"(calcolo nostro)\": {fr[:60]}")
             breve.append(b)
     return {"gruppi": [g for g in gruppi if g[1]], "altre": altre, "fonti": fonti, "controllo": controllo, "breve": breve}
 
@@ -711,6 +711,11 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
         rr = [(s, r) for s, r in righe if r["k"] == k and ilva(r) == di_ilva]
         n, u = fmt_soldi(sum(r["v"] for _, r in rr))
         return f'<div><small>{NOMI_SOLDI[k]}</small><b>{n}</b><span class="small muted">{u}</span><span class="small">in {len({s["id"] for s, _ in rr})} report</span></div>'
+    for k in ("disponibili", "spesi"):   # i totali scritti in "In breve" devono essere quelli di oggi
+        for di_ilva in (False, True):
+            n = fmt_soldi(sum(r["v"] for s, r in righe if r["k"] == k and ilva(r) == di_ilva))[0]
+            if fondi["breve"] and not any(f"**{n}" in b for b in fondi["breve"]):
+                sys.exit(f"fondi.md, In breve: manca il totale {NOMI_SOLDI[k]} {'secondo Ilva' if di_ilva else 'dei fondi pubblici'}, {n} (in grassetto)")
     blocco = lambda titolo, sotto, di_ilva: f'<div><h4>{titolo}<small>{sotto}</small></h4><div class="soldi" style="--n:2">{casella("disponibili", di_ilva)}{casella("spesi", di_ilva)}</div></div>'
     SOTTO = {False: "A date diverse: ogni report dice quando e da dove vengono", True: "Tabella di Ilva in amministrazione straordinaria, febbraio 2023"}
     con_cifre = {s["id"] for s, r in righe if r["k"] != "costo"}
@@ -743,16 +748,23 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
                 dc = (next((r for r in d if r["p"] == cf["p"]), None) or next((r for r in d if not r["p"]), None)) if cf["p"] else (d[0] if d else None)
             if dc:
                 barre.append((s, cf, dc, sp[0])); continue
-            altri.append((s, html.unescape(re.sub(r"<[^>]+>", "", re.sub(r"\[\d+\]", "", cf["motivo"]))) if cf and not cf["si"]
+            altri.append((s, d[0] if d else None, sp[0] if sp else None,
+                          html.unescape(re.sub(r"<[^>]+>", "", re.sub(r"\[\d+\]", "", cf["motivo"]))) if cf and not cf["si"]
                           else "nel report c'è solo la cifra dei soldi disponibili" if not sp else "nel report c'è solo la cifra dei già spesi"))
         barre.sort(key=lambda b: b[1]["pct"])
         li = lambda s, cf, d, sp: (f'<li><a href="r/{s["id"]}.html"><span class="fr-n"><b class="g{gruppo_di.get(s["code"], "A")}">{elenco_codici(s["codes"], gruppo_di)}</b>{html.escape(nome_breve(s))}</span>'
                                    f'<span class="fr-p">{pct_spesi(cf)}</span>{barra_spesi(cf)}<small>{fra(sp)} già spesi su {fra(d)} disponibili{" (la tacca segna i soldi disponibili)" if cf["pct"] > 100 else ""}</small></a></li>')
-        return ((f'<ol class="fr">{"".join(li(*b) for b in barre)}</ol>' if barre
+        # senza confronto: la stessa riga e la stessa barra, vuota, con "?" al posto della percentuale
+        cosa = lambda d, sp: (f"{fra(sp)} già spesi · {fra(d)} disponibili" if d and sp
+                              else f"{fra(d)} disponibili · già spesi: non si sa" if d else f"{fra(sp)} già spesi · disponibili: non si sa")
+        nd = lambda s, d, sp, p: (f'<li><a href="r/{s["id"]}.html"><span class="fr-n"><b class="g{gruppo_di.get(s["code"], "A")}">{elenco_codici(s["codes"], gruppo_di)}</b>{html.escape(nome_breve(s))}</span>'
+                                  f'<span class="fr-p">?</span><span class="bar" role="img" aria-label="Quanta parte è già stata spesa: non si sa"></span>'
+                                  f'<small>{cosa(d, sp)}<br><span class="fr-m">{html.escape(p, quote=False)}</span></small></a></li>')
+        return '<div class="fr-c">' + ((f'<ol class="fr">{"".join(li(*b) for b in barre)}</ol>' if barre
                  else f'<p class="fr-vuoto">Nessun report ha due cifre {"di Ilva" if di_ilva else "di fondi pubblici"} che si possono confrontare.</p>')
-                + (f'<h5>Senza confronto possibile</h5><ul class="fr-no">{"".join(f"<li>{chip(s['id'])}<span>{html.escape(p, quote=False)}</span></li>" for s, p in altri)}</ul>' if altri else ""))
+                + (f'<h5>Senza confronto possibile</h5><ul class="fr fr-nd">{"".join(nd(*a) for a in altri)}</ul>' if altri else "")) + "</div>"
     fermi = ('<section class="card chart soldi-tot ferme sz" id="fermi"><h2>Dove i soldi sono fermi</h2>'
-             '<p class="chart-intro">Per ogni report, quanta parte dei soldi disponibili è già stata spesa (calcolo nostro), dalla percentuale più bassa. Solo dove le due cifre riguardano la stessa cosa e vengono dalla stessa fonte o dalla stessa data; gli altri report sono sotto, con il motivo.</p>'
+             '<p class="chart-intro">Per ogni report, quanta parte dei soldi disponibili è già stata spesa (calcolo nostro), dalla percentuale più bassa. Solo dove le due cifre riguardano la stessa cosa e vengono dalla stessa fonte o dalla stessa data; gli altri report sono in fondo, con il punto di domanda e il motivo.</p>'
              f'<div class="tot"><div><h4>Fondi pubblici</h4>{ferme(False)}</div><div><h4>Secondo Ilva<small>{SOTTO[True]}</small></h4>{ferme(True)}</div></div></section>')
 
     # ---- le stranezze: tutte le righe [stranezza · tipo] delle schede, per tipo; il numero porta alla fonte nel report
@@ -798,8 +810,8 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
                  + f'<p class="note"><a href="#{pd["id"]}">Il Patrimonio Destinato, da dove viene e per cosa →</a></p></div></div></section>')
 
     # ---- in breve, in cima
-    breve = ('<section class="card chart sz breve" id="in-breve"><h2>In breve</h2><ul>'
-             + "".join(f"<li>{testo(b)}</li>" for b in fondi["breve"]) + "</ul></section>") if fondi["breve"] else ""
+    breve = ('<section class="card chart sz breve" id="in-breve"><h2>In breve</h2>'
+             + "".join(f"<p>{testo(b)}</p>" for b in fondi["breve"]) + "</section>") if fondi["breve"] else ""
 
     def voce_report(r):   # "[scheda] cifra e per cosa" → il report e la sua quota; le altre righe come testo
         m = re.match(r"\[([a-z0-9-]+)\]\s*(.*)", r)
