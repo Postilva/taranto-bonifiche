@@ -97,14 +97,14 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **Da sapere:** le "altre risorse" da 34,17 milioni non sono spiegate [12]. Il cimitero San Brunone non è nell'Accordo [12]; a dicembre 2025 la Regione chiedeva ancora i soldi al Governo [20].
 
 ## Contributo del Ministero delle Infrastrutture al Comune di Taranto (2018)
-- **Chi lo dà:** Ministero delle Infrastrutture e dei Trasporti, al Comune di Taranto [23].
-- **Atto:** atto di concessione del 28 settembre 2018 [23].
+- **Chi lo dà:** Ministero delle Infrastrutture e dei Trasporti (Direzione generale per lo sviluppo del territorio), al Comune di Taranto, con il Fondo di rotazione della legge 183/1987 per il Piano di Azione Coesione del Ministero [23].
+- **Atto:** atto di concessione del 28 settembre 2018; il finanziamento era stato rideterminato con il decreto n. 33 del 2015 (Gazzetta Ufficiale del 17/09/2015) [23].
 - **Importo:** 1.504.034,76 € [23].
 - **Per cosa:** "Progetto di bonifica dei suoli per annullare il rischio sanitario – aree sottoprogetti 1, 2 e 3 Quartiere Tamburi" [23].
 - **Report:**
   - [tamburi-risanamento-suoli] 1.504.034,76 € [23]
-- **Speso:** versati al Comune il 28 settembre 2018 [23]; come il Comune li abbia spesi non si sa.
-- **Da sapere:** la pagina del Ministero non dice da quale programma vengono i soldi [23].
+- **Speso:** versati al Comune il 28 settembre 2018 come "domanda di rimborso n. 1", con la disposizione di pagamento n. 2018100428 del 21/09/2018 sulla contabilità speciale del Ministero n. 5838 [23]; come il Comune li abbia spesi non si sa.
+- **Da sapere:** la pagina del Ministero cita una "Convenzione MIT comune di Catania prot. 3093/RU del 17/04/2014", anche se il beneficiario è il Comune di Taranto [23].
 
 ## Programma europeo FESR della Regione Puglia 2014-2020 (revocato)
 - **Chi lo dà:** Regione Puglia, POR Puglia 2014-2020, Azione 6.2 [1].
