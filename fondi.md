@@ -4,10 +4,13 @@
 Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in quali report è finito e quanto è stato speso. Un fondo è un atto (una delibera, un decreto, un accordo): se lo stesso atto paga più interventi, le quote stanno dentro la stessa sezione, così nessun fondo si conta due volte. Ogni frase finisce con la sua fonte, elencata in fondo; le somme e le percentuali fatte da noi sono scritte "(calcolo nostro)". Le righe `- [<scheda>]` sotto **Report** usano il nome del file in `interventi/`.
 
 ## In breve
-- Quanto Ilva abbia speso dopo febbraio 2023, area per area, non lo sappiamo: le cifre dei 17 report delle sue aree vengono tutte dalla tabella di quel mese [39].
-- Per un solo report pagato con fondi pubblici si può dire quanta parte dei soldi sia già stata spesa: le nuove analisi delle aree agricole di Statte, che a fine giugno 2026 non avevano nessun pagamento registrato sui 750.000 € [42]; in un altro report le due cifre non riguardano la stessa cosa, negli altri 6 ne manca una (calcolo nostro).
-- Le stranezze sono 12, in 7 report: soldi pagati, impegnati o divisi oltre quelli previsti, soldi usati per altro, gli stessi soldi in più report, fonti con cifre diverse (calcolo nostro).
-- Il Patrimonio Destinato di Ilva aveva 1.157 milioni € per bonifiche e risanamento, 150 dei quali spostati nel 2022 alla decarbonizzazione della fabbrica [2]; nel 2025 ne sono andati 250 ad Acciaierie d'Italia per far funzionare gli impianti, e a fine 2025 ne restavano 80,6 [40][41].
+Sommando le cifre dei report, per la bonifica ci sono **155,41 milioni €** di fondi pubblici e ne risultano già spesi **7,17 milioni** (calcolo nostro). Le due somme però non si possono confrontare: vengono da report diversi, a date diverse, e in quasi tutti i report manca una delle due cifre (calcolo nostro). Solo per le nuove analisi delle aree agricole di Statte si può dire quanto è stato speso: a fine giugno 2026 sui 750.000 € non c'era **nessun pagamento** registrato [42].
+
+Per le aree di Ilva le cifre le dà Ilva stessa [39]. Secondo la sua tabella di febbraio 2023 [39], per le 17 aree c'erano **412,46 milioni €** e ne erano stati spesi **48,57**, circa il **12%** (calcolo nostro). In 9 aree su 17 era stato speso meno del 5%; in quella con più soldi, la Gravina di Leucaspide con 226,60 milioni, circa lo 0,1% (calcolo nostro). Quanto abbia speso Ilva dopo, area per area, non lo sappiamo: le cifre vengono tutte da quella tabella [39].
+
+I soldi di Ilva vengono dal Patrimonio Destinato, nato soprattutto dall'accordo con la famiglia Riva: **1.157 milioni €** per bonifiche e risanamento [2]. Nel 2022 ne sono stati spostati 150 alla decarbonizzazione della fabbrica [2] e nel 2025 ne sono andati 250 ad Acciaierie d'Italia per far funzionare gli impianti [40]. A fine 2025 ne restavano **80,6 milioni** [41].
+
+Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 report** (calcolo nostro). Sono soldi pagati, impegnati o divisi oltre quelli previsti, soldi usati per altro, gli stessi soldi in più report e fonti con cifre diverse (calcolo nostro).
 
 ---
 
