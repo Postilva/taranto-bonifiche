@@ -1,5 +1,5 @@
 # Da dove vengono i soldi
-*Stato: bozza — aggiornata al 25/10/2026*
+*Stato: bozza — aggiornata al 26/10/2026*
 
 Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in quali report è finito e quanto è stato speso. Un fondo è un atto (una delibera, un decreto, un accordo): se lo stesso atto paga più interventi, le quote stanno dentro la stessa sezione, così nessun fondo si conta due volte. Ogni frase finisce con la sua fonte, elencata in fondo; le somme e le percentuali fatte da noi sono scritte "(calcolo nostro)". Le righe `- [<scheda>]` sotto **Report** usano il nome del file in `interventi/`.
 
@@ -8,7 +8,7 @@ Sommando le cifre dei report, per la bonifica ci sono **155,41 milioni €** di 
 
 Per le aree di Ilva le cifre le dà Ilva stessa [39]. Secondo la sua tabella di febbraio 2023 [39], per le 17 aree c'erano **412,46 milioni €** e ne erano stati spesi **48,57**, circa il **12%** (calcolo nostro). In 9 aree su 17 era stato speso meno del 5%; in quella con più soldi, la Gravina di Leucaspide con 226,60 milioni, circa lo 0,1% (calcolo nostro). Quanto abbia speso Ilva dopo, area per area, non lo sappiamo: le cifre vengono tutte da quella tabella [39].
 
-I soldi di Ilva vengono dal Patrimonio Destinato, nato soprattutto dall'accordo con la famiglia Riva: **1.157 milioni €** per bonifiche e risanamento [2]. Nel 2022 ne sono stati spostati 150 alla decarbonizzazione della fabbrica [2] e nel 2025 ne sono andati 250 ad Acciaierie d'Italia per far funzionare gli impianti [40]. A fine 2025 ne restavano **80,6 milioni** [41].
+I soldi di Ilva vengono dal Patrimonio Destinato, lasciati soprattutto dalla famiglia Riva: **1.157 milioni €** per bonifiche e risanamento [2]. Almeno **400 milioni** sono andati ad Acciaierie d'Italia per far funzionare la fabbrica, nel 2024 e nel 2025 [53][40], e probabilmente altri 150 [60][54]. Per le bonifiche, nella fabbrica e nelle aree di Ilva, sono andati al massimo circa **444 milioni**, contro i 1.007 previsti (calcolo nostro). A fine 2025 ne restavano **80,6 milioni** [41].
 
 Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 report** (calcolo nostro). Sono soldi pagati, impegnati o divisi oltre quelli previsti, soldi usati per altro, gli stessi soldi in più report e fonti con cifre diverse (calcolo nostro).
 
@@ -185,17 +185,17 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **Atto:** decreto-legge 1/2015, art. 3, comma 1 [2].
 - **Importo:** 1.157 milioni € [2]. Il decreto-legge 21/2022 ne ha spostati 150 milioni alla decarbonizzazione della fabbrica [2]. In base al decreto-legge 3/2025, il 29 gennaio e il 13 febbraio 2025 ne sono stati pagati 250 milioni ad Acciaierie d'Italia in AS "per assicurare la continuità operativa degli impianti ex Ilva" [40].
 - **Per cosa:** le bonifiche e il risanamento del sito dell'ex Ilva. Ilva li divideva così a giugno 2022 (figura 6 della Commissione parlamentare) [2]:
-  - 467 milioni € li gestisce Ilva in AS per la bonifica delle "Aree escluse", cioè le aree che non sono passate in affitto ad Acciaierie d'Italia; gli importi li ha fissati la Commissione europea con il Governo (lettera del 4 maggio 2016) [2];
-  - 503 milioni € per la decontaminazione nella fabbrica, gestiti da Acciaierie d'Italia: 352 previsti dal contratto d'affitto più 151 spostati dalle bonifiche del sottosuolo dopo i piani di caratterizzazione [2];
-  - 37 milioni € per le bonifiche del sottosuolo nella fabbrica, gestiti da Acciaierie d'Italia [2];
-  - 150 milioni € per la decarbonizzazione della fabbrica, spostati dal decreto-legge 21/2022 [2].
+  - 467 milioni € · Aree escluse di Ilva · certo: li gestisce Ilva in AS per la bonifica delle "Aree escluse", cioè le aree che non sono passate in affitto ad Acciaierie d'Italia; gli importi li ha fissati la Commissione europea con il Governo (lettera del 4 maggio 2016) [2];
+  - 503 milioni € · decontaminazione della fabbrica · certo: per la decontaminazione nella fabbrica, gestiti da Acciaierie d'Italia: 352 previsti dal contratto d'affitto più 151 spostati dalle bonifiche del sottosuolo dopo i piani di caratterizzazione [2];
+  - 37 milioni € · sottosuolo della fabbrica · certo: per le bonifiche del sottosuolo nella fabbrica, gestiti da Acciaierie d'Italia [2];
+  - 150 milioni € · decarbonizzazione della fabbrica · certo: per la decarbonizzazione della fabbrica, spostati dal decreto-legge 21/2022 [2].
   - Le ultime tre cifre fanno i 690 milioni "a disposizione di Acciaierie d'Italia per attività di bonifica, di decontaminazione e di decarbonizzazione dello stabilimento", pagati comunque da Ilva in AS [2]. Per bonificare la fabbrica restavano quindi 540 milioni, e per le bonifiche in tutto 1.007 (calcolo nostro).
 - **Usati per altro:** soldi usciti dal Patrimonio Destinato che non sono bonifiche:
-  - 150 milioni € ad Acciaierie d'Italia in AS "per assicurare la continuità operativa degli impianti ex Ilva", nel primo trimestre 2024, in base all'art. 39 del decreto-legge 19/2024 [53];
-  - probabilmente altri 150 milioni € ad Acciaierie d'Italia in AS nel secondo trimestre 2024, in base al decreto-legge 63/2024, che ha aggiunto all'art. 39 un secondo periodo: le risorse "possono essere incrementate fino a 150 milioni di euro" [60]. Nel trimestre il Patrimonio Destinato scende di 133,5 milioni [53][54], ma la tabella dei movimenti è coperta da "(OMISSIS)" [54]; il Servizio Bilancio del Senato chiedeva al Governo di chiarirlo [59] e il Governo ha risposto che il saldo di fine 2024 "tiene già conto" anche di questi 150 milioni, secondo il Corriere di Taranto [62]; anche AGI li dà per versati [61];
-  - 250 milioni € ad Acciaierie d'Italia in AS, 110 il 29 gennaio e 140 il 13 febbraio 2025, dopo che il decreto-legge 3/2025 ha alzato il secondo periodo dell'art. 39 da 150 a 400 milioni [40][60];
-  - 23,59 milioni € ad Acciaierie d'Italia in AS "per costituzione garanzia finanziaria per il rinnovo dell'Autorizzazione integrata ambientale (AIA)", nel secondo semestre 2024 [58];
-  - un "Anticipo di 188 milioni di euro del 26 marzo 2019 concesso alla gestione ordinaria di Ilva S.p.A. in A.S." [57]: ne sono tornati 17 milioni a maggio 2023 [57] e 112,22 milioni più 6,45 di interessi nel secondo semestre 2024 [58], con i soldi rimasti dell'accordo per l'esodo incentivato dei dipendenti [32]. Ne mancano circa 58,8 milioni (calcolo nostro).
+  - 150 milioni € · Acciaierie d'Italia, gennaio–marzo 2024 · certo · sulla linea marzo 2024: ad Acciaierie d'Italia in AS "per assicurare la continuità operativa degli impianti ex Ilva", nel primo trimestre 2024, in base all'art. 39 del decreto-legge 19/2024 [53];
+  - 150 milioni € · Acciaierie d'Italia, aprile–giugno 2024 · probabile · sulla linea giugno 2024: probabilmente altri 150 milioni € ad Acciaierie d'Italia in AS nel secondo trimestre 2024, in base al decreto-legge 63/2024, che ha aggiunto all'art. 39 un secondo periodo: le risorse "possono essere incrementate fino a 150 milioni di euro" [60]. Nel trimestre il Patrimonio Destinato scende di 133,5 milioni [53][54], ma la tabella dei movimenti è coperta da "(OMISSIS)" [54]; il Servizio Bilancio del Senato chiedeva al Governo di chiarirlo [59] e il Governo ha risposto che il saldo di fine 2024 "tiene già conto" anche di questi 150 milioni, secondo il Corriere di Taranto [62]; anche AGI li dà per versati [61];
+  - 250 milioni € · Acciaierie d'Italia, gennaio–febbraio 2025 · certo · sulla linea febbraio 2025: ad Acciaierie d'Italia in AS, 110 il 29 gennaio e 140 il 13 febbraio 2025, dopo che il decreto-legge 3/2025 ha alzato il secondo periodo dell'art. 39 da 150 a 400 milioni [40][60];
+  - 23,59 milioni € · garanzia per l'AIA · certo: ad Acciaierie d'Italia in AS "per costituzione garanzia finanziaria per il rinnovo dell'Autorizzazione integrata ambientale (AIA)", nel secondo semestre 2024 [58];
+  - circa 58,8 milioni € · anticipo a Ilva non restituito · calcolo nostro: un "Anticipo di 188 milioni di euro del 26 marzo 2019 concesso alla gestione ordinaria di Ilva S.p.A. in A.S." [57]: ne sono tornati 17 milioni a maggio 2023 [57] e 112,22 milioni più 6,45 di interessi nel secondo semestre 2024 [58], con i soldi rimasti dell'accordo per l'esodo incentivato dei dipendenti [32]. Ne mancano circa 58,8 milioni (calcolo nostro).
 - **Quanto resta:** quanto c'è nel Patrimonio Destinato, secondo le relazioni trimestrali di Ilva in AS e, per il 2025, le relazioni semestrali dei commissari di Ilva al Parlamento ("disponibilità del Patrimonio Destinato"):
   - 1.064 milioni € · fine dicembre 2018 [28]
   - 878,0 milioni € · fine marzo 2021 [46]
@@ -214,6 +214,7 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
   - 387,5 milioni € · fine dicembre 2024 [32]
   - 133,4 milioni € · fine giugno 2025 [40]
   - 80,6 milioni € · fine dicembre 2025 [41]
+  - Nota: Alla fine del 2024 il Patrimonio Destinato risale perché nel secondo semestre Ilva ha restituito 112,22 milioni dell'anticipo del 2019, più 6,45 milioni di interessi [58].
 - **Report** (soldi "allocati" nella tabella di Ilva con i dati al 28 febbraio 2023 [39]; la cifra di ogni area è nella sua scheda):
   - [area-verde-nord] 18.400.000 €
   - [area-verde-ovest] 4.880.000 €
@@ -233,12 +234,12 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
   - [pozzo-25] circa 390.000 €
   - [stoccaggio-fanghi] 75.030.000 €
 - **Speso:** per area, solo fino a febbraio 2023 (vedi le schede) [39]; prima c'era la tabella del luglio 2022 [34]. Per semestre, le relazioni dei commissari al Parlamento sul conto n. 6055 danno i "Rimborsi ad Arcelor Mittal Italia [poi Acciaierie d'Italia] per attività di Decontaminazione come da procedura ex art. 20.4 del contratto di affitto" (la fabbrica) e i "Pagamenti per attività di Decontaminazione" di Ilva, senza dire per quale area:
-  - secondo semestre 2022: 47,18 milioni di rimborsi ad Acciaierie d'Italia e 22,34 milioni di pagamenti di Ilva [56]
-  - primo semestre 2023: 38,00 milioni ad Acciaierie d'Italia e 32,73 milioni di Ilva [57]
-  - secondo semestre 2023 e primo semestre 2024: relazioni non trovate
-  - secondo semestre 2024: 33,00 milioni ad Acciaierie d'Italia e 5,24 milioni di Ilva [58]
-  - primo semestre 2025: nessun rimborso ad Acciaierie d'Italia e 3,97 milioni di Ilva [40]
-  - secondo semestre 2025: 49,17 milioni ad Acciaierie d'Italia e 3,58 milioni di Ilva [41]
+  - secondo semestre 2022 · 47,18 milioni di rimborsi ad Acciaierie d'Italia · 22,34 milioni di pagamenti di Ilva [56]
+  - primo semestre 2023 · 38,00 milioni ad Acciaierie d'Italia · 32,73 milioni di Ilva [57]
+  - secondo semestre 2023 e primo semestre 2024 · relazioni non trovate
+  - secondo semestre 2024 · 33,00 milioni ad Acciaierie d'Italia · 5,24 milioni di Ilva [58]
+  - primo semestre 2025 · nessun rimborso ad Acciaierie d'Italia · 3,97 milioni di Ilva [40]
+  - secondo semestre 2025 · 49,17 milioni ad Acciaierie d'Italia · 3,58 milioni di Ilva [41]
   - In questi 5 semestri fanno 167,37 milioni per la fabbrica e 67,86 milioni di Ilva (calcolo nostro).
 - **Da sapere:**
   - Il conto in breve (calcolo nostro): dai 1.157 milioni agli 80,6 di fine 2025 sono usciti circa 1.076 milioni. Di questi, circa 632 sono stati usati per altro (550 ad Acciaierie d'Italia, contando i 150 probabili, 23,6 per la garanzia dell'AIA, 58,8 di anticipo non restituito); per le bonifiche, nella fabbrica e nelle Aree escluse, restano al massimo circa 444 milioni in 8 anni, contro i 1.007 previsti.
