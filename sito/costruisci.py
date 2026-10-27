@@ -874,7 +874,7 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
                  ("altro", ("per altro",), "c-altro", "Usati per altro", "dati per una cosa e usati per altre"),
                  ("fermi", ("impegnati", "senza impegni"), "c-fermi", "Non ancora pagati", "impegnati, o ancora senza impegni"),
                  ("arrivo", ("da arrivare",), "c-max", "Devono ancora arrivare", "assegnati, arrivano a rate negli anni prossimi"),
-                 ("persi", ("revocati", "non usati"), "c-persi", "Revocati o non usati", "tolti dopo essere stati dati, o avanzati a lavoro finito"),
+                 ("persi", ("revocati", "non usati"), "c-persi", "Revocati o non usati", "tolti dopo essere stati assegnati, o avanzati a lavoro finito"),
                  ("nonsi", ("non si sa",), "c-nonsi", "Non si sa", "le fonti non dicono se e come sono stati spesi")]
     gr_di = {s: g for g in GRUPPI_ST for s in g[1]}
     g_tot = {g[0]: sum(p["v"] for p in pz_pub if gr_di[p["stato"]] is g) for g in GRUPPI_ST}
@@ -946,10 +946,11 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
                     f'<td><b>pagati {pct_q(pag, r["q"]).replace("circa il ", "").replace("tutto", "100%")}</b>{f"<small>{resto}</small>" if resto else ""}</td></tr>')
         parte3 = ('<table class="resta-tab fp-tab"><thead><tr><th>Quota</th><th>Dal</th><th>Anni</th><th>A che punto</th></tr></thead><tbody>'
                   + "".join(map(riga_t, righe_t)) + "</tbody></table>")
-        risposta = (f'Per le aree del sito sono stati dati <b>circa {num_it(tot_pub / 1e6, 0)} milioni €</b> di fondi pubblici, e ne risultano pagati '
+        risposta = (f'Per le aree del sito sono stati assegnati <b>circa {num_it(tot_pub / 1e6, 0)} milioni €</b> di fondi pubblici, e ne risultano pagati '
                     f'<b>{m2(g_tot["pagati"])} milioni</b>, {pct_q(g_tot["pagati"], tot_pub)} (calcolo nostro). '
                     f'Circa {num_it(g_tot["altro"] / 1e6, 0)} milioni sono stati usati per altro, {num_it(g_tot["fermi"] / 1e6, 0)} aspettano ancora di essere pagati '
-                    f'e di {num_it(g_tot["nonsi"] / 1e6, 0)} non si sa cosa ne è stato; altri {num_it(g_tot["arrivo"] / 1e6, 0)} devono ancora arrivare (calcolo nostro).')
+                    f'e di {num_it(g_tot["nonsi"] / 1e6, 0)} non si sa cosa ne è stato; altri {num_it(g_tot["arrivo"] / 1e6, 0)} devono ancora arrivare'
+                    + (f' e {num_it(g_tot["persi"] / 1e6, 0)} sono stati revocati o non usati' if g_tot["persi"] else '') + ' (calcolo nostro).')
         diff = tot_pub - stat[False]["d"]
         fondi_pub = ('<section class="card chart sz" id="fondi-pubblici"><h2>Dove sono finiti i fondi pubblici?</h2>'
                      f'<p class="risposta">{risposta}</p>'
@@ -1148,7 +1149,7 @@ if (!matchMedia("(min-width:900px)").matches) document.querySelectorAll(".fp-tab
     casella = lambda nome, n, u, sotto: {"nome": nome, "n": n, "u": u, "sotto": sotto}
     return {"riva": [casella("Nel fondo", num_it(tot, 0), "mln €", "lasciati dai Riva per bonifiche e risanamento"),
                      casella("Usati per altro", f"circa {num_it(n_usati, 0)}", "mln €", "soprattutto per far funzionare la fabbrica (calcolo nostro)")] if pd else [],
-            "pub": [casella("Dati per i report", f"circa {num_it(tot_pub / 1e6, 0)}", "mln €", "quote dei fondi per i report del sito (calcolo nostro)"),
+            "pub": [casella("Assegnati ai report", f"circa {num_it(tot_pub / 1e6, 0)}", "mln €", "quote dei fondi per i report del sito (calcolo nostro)"),
                     casella("Pagati", m2(g_tot["pagati"]), "mln €", f"{pct_q(g_tot['pagati'], tot_pub)} (calcolo nostro)")] if pz_pub else []}
 
 

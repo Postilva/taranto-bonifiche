@@ -1,5 +1,5 @@
 # B10 – Zona PIP di Statte: messa in sicurezza dei rifiuti industriali e della falda profonda
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 27 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -85,7 +85,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 - Su OpenCoesione il nuovo intervento risulta **"non avviato"** (dati al 30 giugno 2026) [17].
 
 **Chi ha inquinato**
-- **Nessun documento ufficiale che ho trovato dice chi ha portato i rifiuti nella cava** [1][4][10]. I documenti parlano di "scarti provenienti da lavorazioni di tipo industriale, essenzialmente loppe di altoforno" e dicono che l'area confina con l'ex Ilva [10], ma non nominano un responsabile.
+- **Nessun documento ufficiale trovato dice chi ha portato i rifiuti nella cava** [1][4][10]. I documenti parlano di "scarti provenienti da lavorazioni di tipo industriale, essenzialmente loppe di altoforno" e dicono che l'area confina con l'ex Ilva [10], ma non nominano un responsabile.
 - I lavori sono pagati interamente con soldi pubblici (Regione, poi Stato) [2][4]. Non ho trovato documenti su un'azione per far pagare chi ha inquinato. Non verificato.
 
 ## Perché i primi lavori sono "conclusi ma non finanziariamente"
@@ -100,7 +100,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 
 - [costo] 124.073.987,94 € · Accordo per la Coesione · novembre 2025 [2] costo del nuovo intervento
 - [disponibili] 89.900.000 € · Delibera CIPESS 51/2025 · dicembre 2025 [15] assegnati dal Fondo sviluppo e coesione 2021-2027, a rate dal 2026 al 2033
-- [spesi] non si sa · sul nuovo intervento 0 € al 30 giugno 2026 [17]; dei 37 milioni del 2012, 1.180.649,40 € spesi al 30 settembre 2018 [4], poi non si sa
+- [spesi] non si sa · sul nuovo intervento 0 € al 30 giugno 2026 [17]; dei 37 milioni del 2012, 1.180.649,40 € spesi al 30 settembre 2018 [4] e 375.252,04 € girati al Comune a settembre 2022 per l'intervento d'emergenza [6][23], poi non si sa
 - [stranezza · più del previsto] Nel 2018 il Commissario divideva i soldi della Regione in tre voci (analisi, messa in sicurezza definitiva, intervento d'emergenza) che sommano 41,3 milioni €, più dei 37 milioni disponibili [5]
 - [stranezza · più report] I 37 milioni della Regione fanno parte dei 75,17 milioni della delibera CIPE 87/2012, che paga anche i sedimenti del Mar Piccolo (21 milioni) e il dragaggio al molo polisettoriale (17,17 milioni) [27]
 - [stranezza · fonti non concordano] I fondi della Regione sono 37 milioni € [4], ma nel 2015 al Comune ne sono stati assegnati 36.445.000 [6]. L'intervento d'emergenza vale 9,9 milioni nel 2018 [5], 932.202,35 € nel 2019 [6] e 1.379.000 € nel 2026 [1]
@@ -123,7 +123,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 - Analisi e analisi di rischio: 394.000 €.
 - Intervento d'emergenza sull'olio: 1.379.000 €.
 - Il decreto del gennaio 2019 aveva assegnato "in via definitiva" al Comune 932.202,35 € per l'intervento d'emergenza [6]. Il perché della differenza con 1.379.000 € non è spiegato.
-- Trasferiti davvero al Comune per l'intervento d'emergenza, nei decreti che ho trovato (settembre 2022): 364.469,12 € per l'impresa e 10.782,92 € per il direttore dei lavori, in tutto 375.252,04 € (somma fatta da me) [6][23]. Non ho trovato i trasferimenti successivi, per il resto dei lavori.
+- Trasferiti davvero al Comune per l'intervento d'emergenza, nei decreti trovati (settembre 2022): 364.469,12 € per l'impresa e 10.782,92 € per il direttore dei lavori, in tutto 375.252,04 € (calcolo nostro) [6][23]. Non abbiamo trovato i trasferimenti successivi, per il resto dei lavori.
 
 **Nuovo finanziamento: Accordo per la Coesione del Ministero dell'Ambiente (novembre 2025)** [2]
 | Voce | Importo |

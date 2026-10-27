@@ -38,7 +38,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 - Nel 2018 il Commissario scriveva di aver completato le indagini geofisiche (cioè con strumenti, senza prelievi) sul fondale, compresa l'Area 170 ha [18].
 - ARPA Puglia e ISPRA scrivono (2015) che una delle possibili fonti "secondarie" di inquinamento nel 1° seno è la risospensione dei sedimenti dell'Area 170 ha, cioè i fanghi vecchi che si rimescolano e rilasciano inquinanti [6]. Non hanno scritto chi li ha inquinati.
 - La Commissione parlamentare (2022) scrive che i problemi del Mar Piccolo sono dovuti in larga misura all'intensa attività industriale dell'area, che comprende cantieristica e l'Arsenale Militare, e che sopra si è sovrapposta l'attività siderurgica [14]. Il documento parla dell'area in generale, non dice quanta parte spetti a ciascuno.
-- Le **concentrazioni misurate** (milligrammi per chilo) dei fanghi dell'Area 170 ha non sono in nessun documento pubblico che ho trovato. Non verificato.
+- Le **concentrazioni misurate** (milligrammi per chilo) dei fanghi dell'Area 170 ha non sono in nessun documento pubblico trovato. Non verificato.
 
 **L'accordo con la Marina Militare (2015)**
 - Il Commissario (allora Vera Corbelli) e il Capo di Stato Maggiore della Marina (Ammiraglio Giuseppe De Giorgi) hanno firmato un accordo di collaborazione per "bonifica, riqualificazione e rigenerazione" del Mar Piccolo; la notizia sul sito del Commissario è del 15 luglio 2015 [4].
@@ -58,7 +58,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 - Nel 2021–2022 il Commissario Martino aveva già proposto di usare i vecchi soldi della gara del 2018 per tre progetti, tra cui un "Sistema Ecodragaggio" (non spiega dove); il Tavolo che doveva decidere non è mai stato convocato (dato al settembre 2023) [7]. Vedi la scheda B13.
 
 ## Cosa vuol dire "ecodragaggio"
-- **Nessun documento ufficiale che ho trovato spiega il progetto tecnico.** La Regione Puglia lo definisce "tecnica a basso impatto ambientale", con due obiettivi: togliere "significative aliquote di contaminante" dal fondale e proteggere l'ecosistema durante e dopo l'operazione [3]. L'opuscolo parla di "dragaggi tecnici e ambientali" [1].
+- **Nessun documento ufficiale trovato spiega il progetto tecnico.** La Regione Puglia lo definisce "tecnica a basso impatto ambientale", con due obiettivi: togliere "significative aliquote di contaminante" dal fondale e proteggere l'ecosistema durante e dopo l'operazione [3]. L'opuscolo parla di "dragaggi tecnici e ambientali" [1].
 - Un'idea del problema, dallo studio ARPA/ISPRA del 2015: dragare un fondale inquinato rimescola i fanghi. Lo studio ha simulato il dragaggio di 10 ettari dell'Area 170 ha: i primi 50 cm di sedimento, 50.000 m³, circa 15 giorni di lavoro. Ha confrontato una draga idraulica (risospensione stimata 2,5%) con una draga meccanica "ambientale" (1,5%) [6]. È una simulazione di studio, non il progetto attuale: non so quale tecnica sarà usata. Non verificato.
 - **Dove finirebbero i fanghi: non verificato.** Nessuna fonte ufficiale trovata dice dove saranno portati, trattati o smaltiti i sedimenti dell'Area 170 ha.
 
@@ -78,7 +78,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 - L'Intervento A riguarda la **Stazione Navale in Mar Grande**, non il Mar Piccolo [9][10][11]. La Difesa ha affidato la progettazione nel 2021 (gara da 5.820.435,29 € IVA esclusa; contratto del 29 luglio 2021) [9][10]. A maggio 2021 ha messo a gara anche la **verifica** del progetto (1.252.825,29 € a base di gara, offerte entro il 5 luglio 2021) [15].
 - Su OpenCoesione l'Intervento A ha un costo pubblico di 191.400.000 €, tutti del Fondo sviluppo e coesione 2014-2020 ("Piano stralcio Taranto"), 5.598.450,23 € pagati al 30 giugno 2026, inizio previsto 1 aprile 2026 (inizio effettivo non disponibile), fine prevista 30 dicembre 2029; beneficiario l'Arsenale Militare Marittimo di Taranto [11].
 - La cifra di 512 milioni (Difesa) e quella di 191,4 milioni (OpenCoesione) sono due dati diversi e non si sa come si raccordino. Non verificato.
-- **Base Sommergibili:** l'opuscolo parla di "ammodernamento della Base Sommergibili" nel Mar Piccolo [1]. Nei documenti ufficiali della Difesa che ho trovato non compare né la Base Sommergibili né il Mar Piccolo: solo la Stazione Navale in Mar Grande [8][9][10]. Una notizia di giornale parla di un progetto da 17 milioni € per una nuova caserma nella base sommergibili: non verificato, non ho una fonte ufficiale.
+- **Base Sommergibili:** l'opuscolo parla di "ammodernamento della Base Sommergibili" nel Mar Piccolo [1]. Nei documenti ufficiali della Difesa trovati non compare né la Base Sommergibili né il Mar Piccolo: solo la Stazione Navale in Mar Grande [8][9][10]. Una notizia di giornale parla di un progetto da 17 milioni € per una nuova caserma nella base sommergibili: non verificato, non ho una fonte ufficiale.
 
 **Chi paga cosa, in sintesi:** i lavori delle basi li paga la Difesa (con fondi propri e/o fondi di coesione, vedi sopra) [8][11]. Per la bonifica dei fanghi, nessuna fonte ufficiale assegna soldi. Se la Marina contribuisce al costo della bonifica non è scritto da nessuna parte. Non verificato.
 
