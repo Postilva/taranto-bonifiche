@@ -3,14 +3,16 @@
 
 Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in quali report è finito e quanto è stato speso. Un fondo è un atto (una delibera, un decreto, un accordo): se lo stesso atto paga più interventi, le quote stanno dentro la stessa sezione, così nessun fondo si conta due volte. Ogni frase finisce con la sua fonte, elencata in fondo; le somme e le percentuali fatte da noi sono scritte "(calcolo nostro)". Le righe `- [<scheda>]` sotto **Report** usano il nome del file in `interventi/`.
 
-## In breve
-Sommando le cifre dei report, per la bonifica ci sono **155,41 milioni €** di fondi pubblici e ne risultano già spesi **7,17 milioni** (calcolo nostro). Le due somme però non si possono confrontare: vengono da report diversi, a date diverse, e in quasi tutti i report manca una delle due cifre (calcolo nostro). Solo per le nuove analisi delle aree agricole di Statte si può dire quanto è stato speso: a fine giugno 2026 sui 750.000 € non c'era **nessun pagamento** registrato [42].
+## Due tipi di soldi
+### I soldi dei Riva (Patrimonio Destinato di Ilva)
+- **Da dove vengono:** soprattutto da un accordo con la famiglia Riva, a cui lo stabilimento era stato ceduto nel 1995 [2].
+- **Chi li spende:** Ilva in amministrazione straordinaria, per bonificare le sue Aree escluse; una parte la usa Acciaierie d'Italia nella fabbrica [2].
+- **Chi dà le cifre:** Ilva stessa, nelle sue tabelle e nelle relazioni dei suoi commissari al Parlamento [39][41].
 
-Per le aree di Ilva le cifre le dà Ilva stessa [39]. Secondo la sua tabella di febbraio 2023 [39], per le 17 aree c'erano **412,46 milioni €** e ne erano stati spesi **48,57**, circa il **12%** (calcolo nostro). In 9 aree su 17 era stato speso meno del 5%; in quella con più soldi, la Gravina di Leucaspide con 226,60 milioni, circa lo 0,1% (calcolo nostro). Quanto abbia speso Ilva dopo, area per area, non lo sappiamo: le cifre vengono tutte da quella tabella [39].
-
-I soldi di Ilva vengono dal Patrimonio Destinato, lasciati soprattutto dalla famiglia Riva: **1.157 milioni €** per bonifiche e risanamento [2]. Almeno **400 milioni** sono andati ad Acciaierie d'Italia per far funzionare la fabbrica, nel 2024 e nel 2025 [53][40], e probabilmente altri 150 [60][54]. Per le bonifiche, nella fabbrica e nelle aree di Ilva, sono andati al massimo circa **444 milioni**, contro i 1.007 previsti (calcolo nostro). A fine 2025 ne restavano **80,6 milioni** [41].
-
-Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 report** (calcolo nostro). Sono soldi pagati, impegnati o divisi oltre quelli previsti, soldi usati per altro, gli stessi soldi in più report e fonti con cifre diverse (calcolo nostro).
+### I fondi pubblici
+- **Da dove vengono:** dallo Stato (soprattutto dal Ministero dell'Ambiente), dalla Regione Puglia e dall'Unione europea [1][43].
+- **Chi li spende:** molti passano dal Commissario straordinario per la bonifica di Taranto, che li gira ai Comuni o paga i lavori; altri vanno direttamente ai Comuni di Taranto e di Statte [1][10][23][43].
+- **Chi dà le cifre:** gli enti pubblici, nei loro atti, e le banche dati pubbliche dei progetti come OpenCoesione [1][42].
 
 ---
 
@@ -27,6 +29,12 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
   - [mar-piccolo-gara-2018] 21.000.000 € per i sedimenti del Mar Piccolo [1][5]
   - [pip-statte] 37.000.000 € per la zona PIP: 400.000 € per le analisi e 36.600.000 € per la messa in sicurezza della falda [17]
   - il dragaggio al molo polisettoriale non è nel censimento (vedi in fondo)
+- **A che punto:** Regione Puglia
+  - 15.775.151,44 € · [mar-piccolo-gara-2018] · dal 2012 · per altro: secondo il decreto n. 56 del 2026 usati per i rifiuti sul fondale, il mercato ittico affondato, una causa, studi e indagini, la convenzione con Sogesid e la quota del Commissario, e non per togliere i fanghi (calcolo nostro: 21.000.000 − 5.224.848,56) [5]
+  - 5.224.848,56 € · [mar-piccolo-gara-2018] · dal 2012 · senza impegni: ancora senza impegni, destinati al 2° lotto di rimozione dei rifiuti dal fondale [5]
+  - 1.180.649,40 € · [pip-statte] · dal 2012 · pagati: spesi al 30 settembre 2018 [9]
+  - 375.252,04 € · [pip-statte] · dal 2012 · pagati: girati al Comune di Statte nel settembre 2022 per l'intervento d'emergenza sull'olio (calcolo nostro: 364.469,12 + 10.782,92) [10][11]
+  - 35.444.098,56 € · [pip-statte] · dal 2012 · impegnati: il resto; su OpenCoesione i 37 milioni sono impegnati dal 2013, senza pagamenti registrati al 30 giugno 2026 (calcolo nostro) [15][16]
 - **Speso:**
   - Mar Piccolo: secondo il decreto n. 56 del 21 ottobre 2026 i 21 milioni sono stati usati per i rifiuti sul fondale (1.695.190,75 € e 4.041.717,03 €), il mercato ittico affondato (3.084.294,08 €), una causa con l'impresa del mercato ittico (1.200.000 € accantonati), accordi di studio (4.104.231,31 €), indagini sui sedimenti (204.900,01 €), la convenzione con Sogesid (1.129.818,26 €) e la quota dell'1,5% del Commissario (555.000 €); restano 5.224.848,56 € senza impegni, destinati al 2° lotto di rimozione dei rifiuti [5]. Nessuna voce è una rimozione dei fanghi [5]. Su OpenCoesione il progetto da 21 milioni ha 21 milioni € di impegni, registrati a fine 2015, e nessun pagamento al 30 giugno 2026 [7].
   - PIP Statte: 1.180.649,40 € spesi al 30 settembre 2018, il 3,19% [9]. Nel settembre 2022 il Commissario ha trasferito al Comune 375.252,04 € per l'intervento d'emergenza sull'olio (calcolo nostro: 364.469,12 + 10.782,92) [10][11]. Su OpenCoesione i due progetti hanno tutti i 37 milioni impegnati dal 2013 e nessun pagamento al 30 giugno 2026 [15][16].
@@ -46,6 +54,9 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **Report:**
   - [mar-piccolo-gara-2018] 34.000.000 € per il Mar Piccolo [1][3]
   - [cimitero-san-brunone] 3.250.000 € secondo OpenCoesione e il Protocollo del 2018 [19][21]; 3.201.250 € secondo il decreto del Commissario n. 18 del 2026 [18]
+- **A che punto:** Ministero dell'Ambiente
+  - 34.000.000 € · [mar-piccolo-gara-2018] · dal 2016 · non si sa: 3,4 milioni sono stati versati al Commissario (dato 2023) [3]; il progetto OpenCoesione da 55 milioni, che somma questi 34 e i 21 della Regione, ha 5.585.794,01 € di pagamenti, ma non dice con quale dei due fondi [6]
+  - 3.250.000 € · [cimitero-san-brunone] · dal 2016 · non si sa: il progetto su OpenCoesione, che somma anche altri fondi, ha 21.417,72 € di pagamenti del febbraio 2023, poi nessuno [19]
 - **Speso:**
   - Mar Piccolo: 3,4 milioni € versati al Commissario (dato 2023) [3]. Il progetto OpenCoesione "bacino del Mar Piccolo – I e II stralcio" ha 55 milioni € di costo pubblico, 7.133.497,35 € di impegni e 5.585.794,01 € di pagamenti, al 30 giugno 2026: 16 pagamenti dal 6 aprile 2021 al 24 gennaio 2023, poi nessuno [6]. Il progetto è fra quelli salvati dal taglio di fine 2024 perché fa parte del CIS Taranto (delibera CIPESS n. 78 del 29/11/2024) [8].
   - Cimitero: 3 pagamenti per 21.417,72 € fra il 6 e il 21 febbraio 2023 sul progetto OpenCoesione, che somma anche altri fondi, poi nessuno fino al 30 giugno 2026 [19].
@@ -63,6 +74,9 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **Report:**
   - [scuole-tamburi-aree-verdi] 106.240,30 € impegnati per le analisi delle aree verdi delle scuole Deledda, De Carolis e D'Aquino (dicembre 2018 e maggio 2022) [1][2]
   - [cimitero-san-brunone] una parte delle analisi, senza cifra [1]
+- **A che punto:** Ministero dell'Ambiente
+  - 75.751,33 € · [scuole-tamburi-aree-verdi] · dal 2012 · pagati: spesi per le analisi a maggio 2022 [2]
+  - 30.488,97 € · [scuole-tamburi-aree-verdi] · dal 2012 · impegnati: il resto dei 106.240,30 € impegnati (calcolo nostro) [1][2]
 - **Speso:** per le scuole, 49.709,97 € a dicembre 2018 [1] e 75.751,33 € a maggio 2022 [2].
 - **Da sapere:**
   - La tabella della Commissione parlamentare scrive il decreto come "398/TRI/DU/G/SP del 17/12/2021" [2]; la relazione del Commissario del 2018 come "n.3984/TRI/DI/G/SP" del 17/12/2012 [1].
@@ -76,6 +90,8 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **CUP:** J57D17000280001 ("Riqualificazione delle aree esterne alle scuole del quartiere Tamburi", da cui vengono i soldi avanzati) [22].
 - **Report:**
   - [atleti-azzurri-tamburi] 86.876,20 € per le analisi, presi dai 242.873,13 € avanzati dalla riqualificazione delle aree esterne alle scuole del Tamburi (decreto n. 23 del 3 ottobre 2025) [22]
+- **A che punto:** Ministero dell'Ambiente
+  - 86.876,20 € · [atleti-azzurri-tamburi] · dal 2025 · non si sa: dati con il decreto n. 23 del 3 ottobre 2025; se siano stati pagati non si sa [22]
 - **Speso:** per Atleti Azzurri non si sa (vedi la scheda).
 - **Da sapere:** per il Cimitero il decreto n. 18 del 2026 scrive 6.175.862,58 € "a valere sulle risorse del bilancio proprio e.f. 2012" del Ministero, passati con le determine della Regione n. 234/2017 e n. 307/2018 [18]. Non dice se vengono da questo decreto o da quello del 17 dicembre 2012 (sezione sopra). Per questo i 6,18 milioni stanno in una sezione a parte, qui sotto.
 
@@ -86,6 +102,9 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **CUP:** J54G16000010001 [18].
 - **Report:**
   - [cimitero-san-brunone] 6.175.862,58 € [18]
+- **A che punto:** Ministero dell'Ambiente
+  - 66.238,83 € · [cimitero-san-brunone] · dal 2017 · impegnati: impegnati nel 2026 per Sogesid, che aggiorna il progetto [18]
+  - 6.109.623,75 € · [cimitero-san-brunone] · dal 2017 · non si sa: già versati al Commissario; quanto è costato il lavoro fermato nel 2020 non è pubblicato (calcolo nostro) [18]
 - **Speso:** non si sa: l'importo dei lavori fermati nel 2020 non è pubblicato [18]. Nel 2026 ne sono stati impegnati 66.238,83 € per Sogesid, che aggiorna il progetto [18].
 
 ## Accordo per la Coesione del Ministero dell'Ambiente, Fondo sviluppo e coesione 2021-2027 (delibera CIPESS 51/2025)
@@ -96,6 +115,8 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **CUP:** J72B25002080003 [14].
 - **Report:**
   - [pip-statte] 89.900.000 € [12][13]
+- **A che punto:** Ministero dell'Ambiente
+  - 89.900.000 € · [pip-statte] · dal 2025 · da arrivare: arrivano a rate dal 2026 al 2033 [13]; 0 € di impegni e di pagamenti al 30 giugno 2026 [14]
 - **Speso:** 0 € di impegni e 0 € di pagamenti al 30 giugno 2026 [14].
 - **Da sapere:** le "altre risorse" da 34,17 milioni non sono spiegate [12]. Il cimitero San Brunone non è nell'Accordo [12]; a dicembre 2025 la Regione chiedeva ancora i soldi al Governo [20].
 
@@ -106,6 +127,8 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **Per cosa:** "Progetto di bonifica dei suoli per annullare il rischio sanitario – aree sottoprogetti 1, 2 e 3 Quartiere Tamburi" [23].
 - **Report:**
   - [tamburi-risanamento-suoli] 1.504.034,76 € [23]
+- **A che punto:** Ministero delle Infrastrutture
+  - 1.504.034,76 € · [tamburi-risanamento-suoli] · dal 2018 fino al 2018 · pagati: versati al Comune di Taranto il 28 settembre 2018; come li abbia spesi non si sa [23]
 - **Speso:** versati al Comune il 28 settembre 2018 come "domanda di rimborso n. 1", con la disposizione di pagamento n. 2018100428 del 21/09/2018 sulla contabilità speciale del Ministero n. 5838 [23]; come il Comune li abbia spesi non si sa.
 - **Da sapere:** la pagina del Ministero cita una "Convenzione MIT comune di Catania prot. 3093/RU del 17/04/2014", anche se il beneficiario è il Comune di Taranto [23].
 
@@ -115,6 +138,8 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **Per cosa:** la bonifica delle aree non pavimentate del cimitero San Brunone [1].
 - **Report:**
   - [cimitero-san-brunone] 3.929.293,74 €, "poi revocati per incompatibilità con i tempi di attuazione" [20]
+- **A che punto:** Regione Puglia
+  - 3.929.293,74 € · [cimitero-san-brunone] · revocati: "revocati per incompatibilità con i tempi di attuazione" [20]; a dicembre 2018 non erano arrivati al Commissario [1]
 - **Speso:** nulla: a dicembre 2018 risultavano 0 € trasferiti al Commissario [1].
 
 ## Fondo di rotazione sul progetto del Cimitero (solo OpenCoesione)
@@ -123,6 +148,7 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **CUP:** J54G16000010001 [19].
 - **Report:**
   - [cimitero-san-brunone] 9.262.450,45 € su OpenCoesione, insieme ai 3.250.000 € del Fondo sviluppo e coesione, per un costo pubblico di 12.512.450,45 € [19]
+- **A che punto:** non contato: c'è solo su OpenCoesione, che non dice chi lo dà e ha dati fermi al 2020, e il decreto del Commissario del 2026 non lo nomina [18][19].
 - **Speso:** il progetto ha 21.417,72 € di pagamenti al 30 giugno 2026, senza dire con quale fondo [19].
 - **Da sapere:** i dati di OpenCoesione sono fermi al 2020; il decreto del Commissario del 2026 non nomina questo fondo [18][19].
 
@@ -134,6 +160,8 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **CUP:** J76J17000370002 [42].
 - **Report:**
   - [area-vasta-statte] 750.000 € [24]
+- **A che punto:** Regione Puglia
+  - 750.000 € · [area-vasta-statte] · dal 2017 · impegnati: impegnati il 13 aprile 2021, progetto "non avviato", nessun pagamento al 30 giugno 2026 [42]
 - **Speso:** nessun pagamento al 30 giugno 2026: su OpenCoesione i 750.000 € risultano impegnati il 13 aprile 2021 e il progetto è "non avviato" [42].
 - **Da sapere:** su OpenCoesione i 750.000 € sono del Fondo sviluppo e coesione, nel Piano sviluppo e coesione della Regione Puglia [42].
 
@@ -144,6 +172,8 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **CUP:** J72D09000290002 [43].
 - **Report:**
   - [area-vasta-statte] 1.135.213,57 € per le analisi di tutto il territorio fuori dal SIN [43]
+- **A che punto:** Regione Puglia
+  - 1.135.213,57 € · [area-vasta-statte] · dal 2012 fino al 2015 · pagati: 22 pagamenti, dal 19 ottobre 2012 al 29 dicembre 2015 [43]
 - **Speso:** tutto: 22 pagamenti, dal 19 ottobre 2012 al 29 dicembre 2015 [43].
 - **Da sapere:** i dati di questo progetto su OpenCoesione sono fermi al 31 agosto 2022 [43].
 
@@ -155,6 +185,9 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **CUP:** J76J20001130001 [25].
 - **Report:**
   - [gravina-leucaspide] 300.000 €: 191.575,16 € di costo e 108.424,84 € non usati [25]
+- **A che punto:** Commissario (CIS Taranto)
+  - 191.575,16 € · [gravina-leucaspide] · dal 2017 fino al 2026 · pagati: pagati al Comune di Statte dal 2019 al saldo del 2 ottobre 2026 [26]
+  - 108.424,84 € · [gravina-leucaspide] · dal 2017 · non usati: non usati dal progetto [25]
 - **Speso:** 191.575,16 € [25][26]. Il Commissario ha pagato al Comune 30.000 € di anticipo nel 2019, 114.915,80 € a marzo 2023 e il saldo di 46.659,32 € con il decreto n. 53 del 2 ottobre 2026 [26]. OpenCoesione registra 7 pagamenti, dal 22 luglio 2020 al 5 aprile 2023, e il progetto come "liquidato" [25].
 - **Da sapere:** su OpenCUP il costo previsto del progetto è 275.192 € [44], né 300.000 né 191.575,16 €.
 
@@ -165,6 +198,7 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **Per cosa:** analisi (500.000 €), progettazione e sperimentazione (1.550.000 €) e bonifica (23.950.000 €) dell'Area 170 ha [27].
 - **Report:**
   - [mar-piccolo-area-170] 26.000.000 €, poi 37.244.000 € [27]
+- **A che punto:** non contato: l'Accordo del 2004 prevedeva questi soldi, ma non abbiamo trovato un atto che li abbia poi dati davvero all'Area 170 ha [27].
 - **Speso:** non si sa.
 
 ## Piattaforma per l'area vasta (decreto del Ministero 171/STA del 2016)
@@ -174,6 +208,7 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **Per cosa:** studiare tutta l'area vasta di Taranto (analisi, aree campione con tecniche nuove, fonti dell'inquinamento, rete di controllo di acque e suolo) [1].
 - **Report:**
   - [mar-piccolo-studi] una parte degli accordi con enti pubblici, senza cifra per il Mar Piccolo [2]
+- **A che punto:** non contato: per i nostri report non c'è una cifra [2].
 - **Speso:** nel 2022 il Commissario ha detto alla Commissione parlamentare che ne erano stati spesi circa 5,7 milioni: 1.599.073 € per accordi a pagamento con enti pubblici, 2.575.984 € per il progetto "Verde amico" e 1.530.191 € per 51 consulenti [2].
 
 ---
@@ -260,6 +295,13 @@ Nei soldi ci sono anche cose che non tornano: **le stranezze sono 12, in 7 repor
 - **Molo polisettoriale del porto:** 17.167.413 € della delibera CIPE 87/2012 per il dragaggio e 35 milioni € della delibera CIPE 92/2012 per la banchina [1]. È nella stessa delibera del Mar Piccolo e del PIP, ma non è nel censimento.
 - **Difesa, Stazione Navale Mar Grande, Intervento A:** 512 milioni € di lavori stimati [35]; 191,4 milioni € su OpenCoesione, di cui 5,6 milioni pagati al 30 giugno 2026 [36]. Citato nella scheda dell'Area 170 ha.
 - **Impianti sportivi del Tamburi (CIS Taranto):** Lotto 1, 3.359.060,32 € di fondi FSC; Lotto 2, 1.640.939,68 € [37][38]. È la riqualificazione dell'impianto Atleti Azzurri, non la bonifica.
+
+## Parole
+- **Patrimonio Destinato**: il fondo di Ilva in amministrazione straordinaria per le bonifiche e il risanamento dell'ex Ilva, con soldi venuti soprattutto dall'accordo con la famiglia Riva e una contabilità separata [2][28].
+- **Aree escluse**: le aree di Ilva che non sono passate in affitto ad Acciaierie d'Italia; per bonificarle Ilva in amministrazione straordinaria ha 467 milioni del Patrimonio Destinato [2].
+- **Acciaierie d'Italia**: la società che ha in affitto la fabbrica; nel 2024 e nel 2025 ha ricevuto soldi del Patrimonio Destinato "per assicurare la continuità operativa degli impianti ex Ilva" [2][53][40].
+- **Decontaminazione**: nei conti del Patrimonio Destinato, i lavori dentro la fabbrica diversi dalle bonifiche del sottosuolo, gestiti da Acciaierie d'Italia: 503 milioni previsti [2].
+- **Amministrazione straordinaria**: Ilva è in amministrazione straordinaria (Ilva in AS): la guidano commissari, che riferiscono al Parlamento sul conto del Patrimonio Destinato [41].
 
 ## Cosa non sappiamo
 1. [fonti] **Il decreto per i suoli del Tamburi è il n. 398 o il n. 3984, ed è del 2012 o del 2021?** La relazione del Commissario del 2018 scrive "n.3984/TRI/DI/G/SP del 17/12/2012" [1], la tabella della Commissione parlamentare "398/TRI/DU/G/SP del 17/12/2021" [2]. La scheda delle scuole spiega già che "2021" è un errore.
