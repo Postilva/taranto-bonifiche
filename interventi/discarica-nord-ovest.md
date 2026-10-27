@@ -1,5 +1,5 @@
 # A2 – Discarica Nord-Ovest (con area ex Fintecna e aree vicine)
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 27 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -59,7 +59,7 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 - Il decreto chiedeva di **iniziare i lavori entro 4 mesi** dalla notifica, cioè entro metà aprile 2026 [2][3][5].
 - Febbraio 2026: il Ministero ha corretto il decreto su un punto formale (chi è responsabile di eventuali danni: Ilva, rappresentata dai commissari, e non i commissari come persone) [4].
 - Marzo 2026: Ilva ha chiesto più tempo [5]. Motivi: alla gara si era presentata **una sola impresa**, quindi Ilva ha deciso di dividere i lavori in più gare separate; e aspettava chiarimenti dal Ministero sulla garanzia economica [5].
-- 16 giugno 2026: il Ministero ha spostato la scadenza per l'inizio dei lavori al **15 giugno 2026** [5]. Nella richiesta, Ilva indicava il 15 giugno come data di inizio della **progettazione esecutiva e delle indagini preliminari**, non del cantiere vero e proprio [5].
+- 16 giugno 2026: il Ministero ha spostato la scadenza per l'inizio dei lavori al **15 giugno 2026**, cioè al giorno prima del decreto: quando la proroga è arrivata, la nuova scadenza era già passata [5]. Nella richiesta, Ilva indicava il 15 giugno come data di inizio della **progettazione esecutiva e delle indagini preliminari**, non del cantiere vero e proprio [5].
 - Prima di togliere gli alberi serve ancora un'altra autorizzazione della Regione ("trasformazione boschiva"), che si può chiedere solo con il progetto esecutivo e che la Regione ha 180 giorni per rilasciare [2].
 
 **Ci sono stati lavori sul posto?** Sì, ma solo preparatori, non la messa in sicurezza: sondaggi e analisi, il controllo dei pozzi della falda e la sistemazione dei piezometri chiesta da Procura, Ministero, ARPA e ISPRA [1][17].

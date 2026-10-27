@@ -64,6 +64,7 @@ Le richieste che abbiamo inviato agli enti per le aree del censimento, con solo 
 | 64 | D8 | alla Provincia di Taranto | l'atto del 2018 che ha chiuso la ricerca di chi ha inquinato l'area vasta di Statte e i verbali delle riunioni tecniche | 21/10/2026 | 20/11/2026 |
 | 64 | D1, D2, D3, D4, D5 | alla Provincia di Taranto | i certificati di avvenuta bonifica dei sottoperimetri SP1, SP2, SP3 e SP4 | 21/10/2026 | 20/11/2026 |
 | 65 | D8 | al Comune di Statte | l'analisi di rischio approvata nel 2017, le ordinanze successive e le indagini integrative da 750.000 € sulle aree agricole | 21/10/2026 | 20/11/2026 |
+| 68 | B13 | alla Regione Puglia | gli atti con cui sono stati versati, usati o spostati i 21 milioni della delibera CIPE 87/2012 per il Mar Piccolo e i resoconti del Commissario | 23/10/2026 | 22/11/2026 |
 | 69 | B10 | al Ministero dell'Ambiente (MASE) | da dove vengono i 34,17 milioni di "altre risorse" previsti per il nuovo intervento | 26/10/2026 | 25/11/2026 |
 | 69 | B12 | al Ministero dell'Ambiente (MASE) | l'accordo del 2004 per l'Area 170 ha, l'ultimo rapporto sul suo stato e gli atti che hanno spostato o tolto i suoi 37,2 milioni | 26/10/2026 | 25/11/2026 |
 | 70 | D1, D2, D3, D4, D5 | al Ministero delle Infrastrutture | la convenzione con il Comune di Taranto per la bonifica dei suoli dei sottoprogetti 1, 2 e 3 e le spese presentate dal Comune per avere il rimborso di 1,50 milioni | 26/10/2026 | 25/11/2026 |

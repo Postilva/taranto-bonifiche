@@ -1,5 +1,5 @@
 # Da dove vengono i soldi
-*Stato: bozza — aggiornata al 26/10/2026*
+*Stato: bozza — aggiornata al 27/10/2026*
 
 Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in quali report è finito e quanto è stato speso. Un fondo è un atto (una delibera, un decreto, un accordo): se lo stesso atto paga più interventi, le quote stanno dentro la stessa sezione, così nessun fondo si conta due volte. Ogni frase finisce con la sua fonte, elencata in fondo; le somme e le percentuali fatte da noi sono scritte "(calcolo nostro)". Le righe `- [<scheda>]` sotto **Report** usano il nome del file in `interventi/`.
 
@@ -188,8 +188,10 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **A che punto:** Commissario (CIS Taranto)
   - 191.575,16 € · [gravina-leucaspide] · dal 2017 fino al 2026 · pagati: pagati al Comune di Statte dal 2019 al saldo del 2 ottobre 2026 [26]
   - 108.424,84 € · [gravina-leucaspide] · dal 2017 · non usati: non usati dal progetto [25]
-- **Speso:** 191.575,16 € [25][26]. Il Commissario ha pagato al Comune 30.000 € di anticipo nel 2019, 114.915,80 € a marzo 2023 e il saldo di 46.659,32 € con il decreto n. 53 del 2 ottobre 2026 [26]. OpenCoesione registra 7 pagamenti, dal 22 luglio 2020 al 5 aprile 2023, e il progetto come "liquidato" [25].
-- **Da sapere:** su OpenCUP il costo previsto del progetto è 275.192 € [44], né 300.000 né 191.575,16 €.
+- **Speso:** 191.575,16 € [25][26]. Il Commissario ha pagato al Comune 30.000 € di anticipo nel 2019, 114.915,84 € a marzo 2023 e il saldo di 46.659,32 € con il decreto n. 53 del 2 ottobre 2026 [26]. OpenCoesione registra 7 pagamenti, dal 22 luglio 2020 al 5 aprile 2023, e il progetto come "liquidato" [25].
+- **Da sapere:**
+  - Su OpenCUP il costo previsto del progetto è 275.192 € [44], né 300.000 né 191.575,16 €.
+  - Il decreto n. 53 scrive 114.915,80 € nelle premesse e 114.915,84 € più avanti, dove fa i conti [26]; anche la relazione del Commissario del 2023 dice 114.915,84 € [63]. Con 114.915,84 € i tre pagamenti fanno 191.575,16 €, il costo del progetto (calcolo nostro).
 
 ## Accordo di programma quadro del 2004 per il Mar Piccolo
 - **Chi lo dà:** Ministero dell'Ambiente, Ministero dell'Economia, Commissario delegato per l'emergenza ambientale e Regione Puglia [27].
@@ -327,7 +329,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 
 [5] Commissario straordinario per la bonifica di Taranto, *Decreto n. 56 del 21 ottobre 2026*, "CIS Taranto. PSC Regione Puglia - Delibera CIPE 87/2012. Intervento di "Rimozione del materiale di natura antropica dai fondali del I Seno del Mar Piccolo - II lotto". Nomina del Responsabile Unico del Progetto e del Responsabile del Procedimento", CUP J56J14000460001, pagine 3–6, https://commissari.gov.it/media/lnsjudnp/20261021_d_56_nomina_rup_marine-litter-ii-lotto_signed_signed.pdf — copia in `fonti/2026-10_commissario-taranto_decreto-56-rup-rimozione-rifiuti-fondale-lotto2.pdf`
 
-[6] OpenCoesione (Presidenza del Consiglio – Dipartimento per le politiche di coesione), progetto *Interventi di bonifica, ambientalizzazione e riqualificazione del bacino del Mar Piccolo di Taranto – I e II Stralcio*, CUP J56J14000460001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1mattmdgsta_23_0014/ — copia in `fonti/2026-06_opencoesione_mar-piccolo-bonifica-55mln.pdf`
+[6] OpenCoesione (Presidenza del Consiglio – Dipartimento per le politiche di coesione), progetto *Interventi di bonifica, ambientalizzazione e riqualificazione del bacino del Mar Piccolo di Taranto – I e II Stralcio*, CUP J56J14000460001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1mattmdgsta_23_0014/ — copia in `fonti/2026-06_opencoesione_mar-piccolo-bonifica-55mln.pdf` e, per gli impegni (7.133.497,35 €, del 14 maggio 2019 e del 21 luglio 2020), i dati dello stesso progetto scaricati dall'API di OpenCoesione il 27 ottobre 2026, https://opencoesione.gov.it/it/api/progetti/1mattmdgsta_23_0014/ — copia in `fonti/2026-06_opencoesione_mar-piccolo-bonifica-55mln.json`
 
 [7] OpenCoesione, progetto *Interventi di bonifica e/o MISE dei sedimenti contaminati del Mar Piccolo di Taranto*, CUP J56J14000460001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/7pufc2600003/ — copia in `fonti/2026-06_opencoesione_mar-piccolo-sedimenti-21mln-regione.pdf`
 
@@ -440,5 +442,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 [61] AGI, *Acciaio: ex Ilva, da Governo altri 250 milioni*, 24 gennaio 2025 ("una prima tranche di 150 e una seconda di 150, quest'ultima ampliata ora di altri 250 per un totale di 400. Che aggiunti ai primi 150 fanno appunto 550"), https://www.agi.it/economia/news/2025-01-24/acciaio-ex-ilva-da-governo-250-milioni-euro-29715253/ — copia in `fonti/2025-01_agi_ex-ilva-250-milioni.html`
 
 [62] Corriere di Taranto, *Bonifiche ex Ilva, ci sono 155 milioni (per ora)*, 24 marzo 2025 (il Governo "ha fatto presente" al Senato che il saldo di 405.179.121 € al 31 dicembre 2024 "tiene già conto del prelievo dei 150 milioni effettuato in attuazione dell'articolo 39 comma 1 del decreto-legge n. 19 del 2024 e del prelievo degli ulteriori 150 milioni effettuato in attuazione dell'articolo 13, comma 1, del decreto-legge n. 63"; al 30 luglio 2024 il saldo del conto era di 345.799.301,90 €), https://www.corriereditaranto.it/2025/03/24/bonifiche-ex-ilva-ci-sono-155-milioni-per-ora/ — copia in `fonti/2025-03_corriere-di-taranto_bonifiche-ex-ilva-155-milioni.html`
+
+[63] Commissario straordinario per la bonifica di Taranto (Prefetto Martino), *Relazione attività commissariali – periodo 30/03/2022–1/10/2023*, prot. n. 56411 del 29 settembre 2023, pagina 11 del PDF (114.915,84 € al Comune di Statte per la progettazione della Gravina Leucaspide), https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Progettodilegge/leg19.com05.Progettodilegge.Altro.PUBBLICO.ideGes.26863.16-01-2024-10-27-10.315.pdf — copia in `fonti/2023-09_commissario-taranto_relazione-fine-mandato-martino.pdf`
 
 Ultimo controllo dei fondi pubblici: 25 ottobre 2026, su OpenCoesione (dati al 30 giugno 2026, gli ultimi pubblicati), OpenCUP, portale trasparenza del Comune di Taranto e decreti 2026 del Commissario (fino al n. 57 del 21 ottobre 2026).
