@@ -299,19 +299,15 @@ function mappaFabbrica(d){
   $("#scala-why").textContent = `Le aree sono ${TOTAL}, i blocchi ${S.length}, i report ${SCHEDE.length}` + (perche.length ? ": " + perche.join("; ") : "") + ".";
 })();
 
-/* ---------- soldi: i totali delle cifre dei report ---------- */
-// si sommano solo "Soldi disponibili" e "Già spesi"; le cifre dette da Ilva (chi lo dice: Ilva) a parte, perché nessun ente le ha controllate.
-// Ogni scheda ha le sue cifre (A5+A6 e le parti del Tamburi una sola), quindi nessun fondo è contato due volte.
-// Il resto (report senza cifre, dove i soldi sono fermi, stranezze) è in soldi.html, che costruisci.py scrive con gli stessi totali.
+/* ---------- soldi: le stesse cifre dei due riquadri di "In breve" in soldi.html ---------- */
+// I soldi dei Riva (Patrimonio Destinato di Ilva) e i fondi pubblici sono due conti separati e non si sommano. Le cifre le
+// calcola costruisci.py insieme alla pagina dei soldi (DATA.soldi), già scritte, così home e pagina coincidono sempre.
 (function(){
-  const righe = SCHEDE.flatMap(s => s.soldi.map(r => ({s, k: r.k, v: r.v, ilva: /^Ilva\b/.test(r.chi)})));
-  const conValore = r => r.filter(x => x.v != null);
-  const tot = (k, ilva) => { const r = conValore(righe.filter(x => x.k === k && x.ilva === ilva)); return {v: r.reduce((a, x) => a + x.v, 0), n: new Set(r.map(x => x.s.id)).size}; };
-  const casella = (k, ilva) => { const t = tot(k, ilva), [n, u] = fmtSoldi(t.v); return `<div><small>${NOMI_SOLDI[k]}</small><b>${n}</b><span class="small muted">${u}</span><span class="small">in ${t.n} report</span></div>`; };
-  const blocco = (titolo, sotto, ilva) => `<div><h4>${titolo}<small>${sotto}</small></h4><div class="soldi" style="--n:2">${casella("disponibili", ilva)}${casella("spesi", ilva)}</div></div>`;
-  $("#soldi-tot").innerHTML = `<h3>Soldi ${soldiInfo("soldi-info")}</h3>${soldiInfoBox("soldi-info")}
-    <p class="chart-intro">Quanti soldi sono disponibili e quanti sono già stati spesi, sommando le cifre dei report (somme fatte da noi). Le cifre di Ilva sono a parte: le ha dichiarate Ilva e nessun ente pubblico le ha controllate.</p>
-    <div class="tot">${blocco("Fondi pubblici", "A date diverse: ogni report dice quando e da dove vengono", false)}${blocco("Secondo Ilva", "Tabella di Ilva in amministrazione straordinaria, febbraio 2023", true)}</div>
+  const casella = c => `<div><small>${esc(c.nome)}</small><b>${esc(c.n)}</b><span class="small muted">${esc(c.u)}</span><span class="small">${esc(c.sotto)}</span></div>`;
+  const blocco = (titolo, sotto, cc) => cc.length ? `<div><h4>${titolo}<small>${sotto}</small></h4><div class="soldi" style="--n:${cc.length}">${cc.map(casella).join("")}</div></div>` : "";
+  $("#soldi-tot").innerHTML = `<h3>Soldi</h3>
+    <p class="chart-intro">Per la bonifica ci sono due tipi di soldi, in conti separati: non li sommiamo mai.</p>
+    <div class="tot">${blocco("I soldi dei Riva", "Patrimonio Destinato di Ilva: cifre di Ilva e dei suoi commissari", DATA.soldi.riva)}${blocco("I fondi pubblici", "Stato, Regione Puglia e Unione europea", DATA.soldi.pub)}</div>
     <p class="chart-intro"><a href="soldi.html">Analisi dei soldi →</a></p>`;
 })();
 </script>

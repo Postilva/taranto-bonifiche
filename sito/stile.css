@@ -109,24 +109,9 @@ body.mappa .topbar .in{max-width:none}
 .soldi-tot .aree{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 @media (min-width:900px){.soldi-tot .tot{grid-template-columns:1fr 1fr;gap:16px}}
 /* dove i soldi sono fermi: una barra per report, nome sopra, percentuale a destra, cifre sotto */
-.ferme{display:grid;gap:10px;margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
-.ferme>h4{font-size:1rem}
-.ferme .tot{align-items:start}
-.fr-c{display:grid;gap:8px;align-content:start}
-@media (min-width:900px){.ferme .tot{grid-template-rows:auto auto}.ferme .tot>div{grid-row:span 2;grid-template-rows:subgrid;align-content:start}.ferme .tot h4{align-self:end}}
-.ferme h5{margin:6px 0 0;font:700 .7rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
-.fr,.fr-no{margin:0;padding:0;list-style:none;display:grid;gap:6px}
-.fr a{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:6px 10px;padding:10px 12px;border-radius:12px;background:var(--surface-2);color:var(--ink);text-decoration:none}
-.fr a:hover,.fr a:focus-visible{box-shadow:inset 0 0 0 1px var(--ink-3)}
 .fr-n{display:flex;align-items:center;gap:8px;min-width:0;font-size:.85rem;line-height:1.25}
 .fr-n b{flex:none;font:700 11px/1 var(--f-mono);padding:5px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
 .fr-n b.gB{background:var(--gB)}
-.fr-p{font:800 .95rem/1.2 var(--f-body);white-space:nowrap}
-.fr .bar{grid-column:1/-1}
-.fr small{grid-column:1/-1;font-size:.72rem;line-height:1.35;color:var(--ink-2)}
-.fr-m{color:var(--ink-3)}
-.fr-vuoto{font-size:.85rem;line-height:1.4;color:var(--ink-2);padding:10px 12px;border-radius:12px;box-shadow:inset 0 0 0 1px var(--line)}
-.fr-no li{display:grid;gap:4px;justify-items:start;font-size:.78rem;line-height:1.4;color:var(--ink-2)}
 .chart-intro{font-size:.9rem;line-height:1.5;color:var(--ink-2)}.chart-intro b{color:var(--ink)}.chart-intro a{color:var(--gA);white-space:nowrap}
 /* computer: una colonna per fase, fatta di un quadratino per area; l'altezza dice quante sono */
 .colonne,.solo-pc{display:none}
@@ -543,9 +528,9 @@ body.pv-on .paneltoggle{display:none}
 .soldi .spesa{grid-column:1/-1;gap:8px;padding:12px}
 .soldi .spesa p{font-size:.85rem;line-height:1.35}.soldi .spesa p b{font:700 .95rem/1.35 var(--f-body)}
 .soldi .spesa small{font:500 .72rem/1.35 var(--f-body);text-transform:none;letter-spacing:0;color:var(--ink-2)}
-.soldi .bar,.ferme .bar{position:relative;display:block;height:12px;border-radius:999px;background:var(--bg);box-shadow:inset 0 0 0 1px var(--line)}
-.soldi .bar span,.ferme .bar span{display:block;height:100%;min-width:3px;border-radius:999px;background:var(--m-pay)}
-.soldi .bar i,.ferme .bar i{position:absolute;top:-3px;bottom:-3px;width:2px;margin-left:-1px;background:var(--ink)}
+.soldi .bar{position:relative;display:block;height:12px;border-radius:999px;background:var(--bg);box-shadow:inset 0 0 0 1px var(--line)}
+.soldi .bar span{display:block;height:100%;min-width:3px;border-radius:999px;background:var(--m-pay)}
+.soldi .bar i{position:absolute;top:-3px;bottom:-3px;width:2px;margin-left:-1px;background:var(--ink)}
 .soldi .spesa-no{grid-column:1/-1;font-size:.78rem;line-height:1.4;color:var(--ink-2);padding:10px 12px;border-radius:12px;box-shadow:inset 0 0 0 1px var(--line)}
 .soldi .spesa-no b{font:700 .78rem/1.4 var(--f-body);color:var(--ink)}
 /* report: le stranezze dei soldi, un'etichetta in giallo e una frase con la fonte */
@@ -629,51 +614,58 @@ body.pv-on .paneltoggle{display:none}
 /* menu con tre voci: sui telefoni stretti le voci si stringono */
 @media (max-width:420px){.topbar .in{gap:6px}.topbar nav{gap:0}.topbar nav a{padding:10px 10px}}
 /* pagina "I soldi della bonifica" (soldi.html, scritta da costruisci.py leggendo fondi.md e le schede): in cima le sezioni
-   dell'analisi (In breve, i totali, dove i soldi sono fermi, le stranezze, quanto resta), poi report per report e un
-   riquadro a fisarmonica per fondo; dentro, il percorso dei soldi in tre tappe (dato → finito in → speso) su una linea verticale */
+   dell'analisi (In breve, i soldi dei Riva, quanto ha speso Ilva, i fondi pubblici, cosa non torna), poi "Per controllare":
+   report per report e un riquadro a fisarmonica per fondo; dentro, il percorso dei soldi in tre tappe (dato → finito in → speso) su una linea verticale */
 .sd>.wrap{gap:20px;max-width:1080px}   /* larga come la home */
 .sd-head{display:grid;gap:10px}
 .sd-head h1{font-size:clamp(1.6rem,6.4vw,2.4rem);font-weight:800}
 .sd .sz{margin:0}
 .sd .sz>h2,.sz-fondi>h2{font-size:1.15rem;font-weight:800}
-.sd .sz.ferme{border-top:0;padding-top:16px}
 .sz-fondi{display:grid;gap:12px}
 .breve p{margin:0 0 10px;font-size:.95rem;line-height:1.55;color:var(--ink)}.breve p:last-child{margin-bottom:0}.breve strong{font-weight:800}
-/* le stranezze per tipo: l'etichetta in giallo con il numero, la spiegazione del tipo, poi report e frase */
-.st-g{display:grid;gap:8px}
-.st-g+.st-g{border-top:1px solid var(--line);padding-top:14px}
-.st-g h3{display:flex;align-items:center;gap:8px;font:700 .75rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--s-part)}
-.st-g h3 small{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:var(--surface-2);color:var(--ink);font:700 .75rem/1 var(--f-body);letter-spacing:0}
-.st-g ul.strane{margin:0;padding:0;list-style:none;display:grid;gap:8px}
-.st-g .strane li{display:grid;gap:8px;justify-items:start;background:var(--surface-2);border-radius:12px;border-left:3px solid var(--s-part);padding:10px 12px;font-size:.88rem;line-height:1.45;color:var(--ink-2)}
+/* il titolo di ogni sezione è una domanda, la risposta subito sotto (calcolata da costruisci.py), poi i dettagli */
+.risposta{margin:0;padding:12px 14px;border-radius:12px;background:var(--gA-soft);font-size:1rem;line-height:1.5;color:var(--ink)}.risposta b{font-weight:800}
+/* l'indice: sotto la barra del sito, scorre di lato sul telefono; segnata la parte in cui si è */
+html:has(.sd-nav){scroll-padding-top:calc(var(--bar-h) + 64px)}
+.sd-nav{position:sticky;top:var(--bar-h);z-index:1300;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 -16px;padding:8px 16px;background:var(--bg);border-bottom:1px solid var(--line)}
+.sd-nav::-webkit-scrollbar{display:none}
+.sd-nav a{flex:none;display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border-radius:999px;background:var(--surface-2);color:var(--ink-2);font:600 .82rem/1 var(--f-body);text-decoration:none;white-space:nowrap}
+.sd-nav a.on{background:var(--gA);color:var(--on-g)}
+/* in breve: prima i due tipi di soldi, un riquadro ciascuno (arancione i soldi dei Riva, blu i fondi pubblici, come i
+   codici A e B), con le cifre principali che portano alla loro parte */
+.due-i{margin:0 0 12px;font-size:1rem;line-height:1.5;color:var(--ink)}.due-i b{font-weight:800}
+.due{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
+.due-c{display:grid;gap:10px;align-content:start;padding:14px;border-radius:14px;background:var(--surface-2);border-top:4px solid var(--gA)}
+.due-pub{border-top-color:var(--gB)}
+.due-c h3{font-size:1.02rem;font-weight:800;line-height:1.3}
+.due-n{margin:0;font-size:.8rem;color:var(--ink-3)}.due-n b{display:block;font:800 1.5rem/1.15 var(--f-body);color:var(--ink)}
+.due-c dl{margin:0;display:grid;gap:8px}
+.due-c dt{font:700 .68rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.due-c dd{margin:2px 0 0;font-size:.88rem;line-height:1.45;color:var(--ink-2)}
+.due-e{display:grid;gap:6px}
+.due-l{display:block;padding:10px 12px;border-radius:10px;background:var(--surface);color:var(--ink-2);text-decoration:none;font-size:.86rem;line-height:1.4}
+.due-l b{color:var(--ink);font-weight:800}
+.due-pd .due-l:first-child b{color:var(--s-part)}
+.due-l:hover,.due-l:focus-visible{box-shadow:inset 0 0 0 1px var(--ink-3)}
+.gl-pop[hidden]{display:none}
+@media (min-width:900px){.due{grid-template-columns:1fr 1fr}}
+/* le parole difficili: sottolineate a puntini, al tocco una finestrella con la spiegazione */
+a.parola{color:inherit;text-decoration:underline dotted var(--ink-3);text-underline-offset:3px;text-decoration-thickness:1.5px;cursor:help}
+.gl-pop{position:absolute;z-index:1500;display:grid;gap:8px;padding:12px 14px;border-radius:12px;background:var(--surface);box-shadow:var(--shadow),0 0 0 1px var(--line);font-size:.88rem;line-height:1.5;color:var(--ink-2)}
+.gl-pop p{margin:0}.gl-pop b{color:var(--ink)}.gl-pop>a{font-weight:600;text-decoration:none;font-size:.82rem}
+.parole{display:grid;gap:10px;margin:0}.parole dt{font-weight:800;color:var(--ink)}.parole dd{margin:2px 0 0}
+.parole>div.flash{background:var(--gB-soft);border-radius:8px}
+/* "Per controllare": la parte di consultazione, separata da una riga */
+.sz-fondi{border-top:2px solid var(--line);padding-top:20px}
 .strane .area{display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.8rem;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
 .strane .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
 .strane .area.gB b{background:var(--gB)}
-/* quanto resta del Patrimonio Destinato: griglia, fascia e linea in un SVG che si allunga con il riquadro; scritte e punti
-   in HTML sopra, posizionati in percentuale (non si deformano); su schermo grande il grafico è alto quanto la colonna accanto */
-.resta{position:relative;margin:0;aspect-ratio:360/214}
-.resta svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
-.resta .gl{stroke:var(--line);stroke-width:1;vector-effect:non-scaling-stroke}
-.resta .buco{fill:var(--surface-2)}
-.resta .ev{stroke:var(--ink-3);stroke-width:1;vector-effect:non-scaling-stroke}
-.resta .ln{fill:none;stroke:var(--gA);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}
-.resta .lb{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;font:500 11.5px/1.25 var(--f-body);color:var(--ink-3);text-align:center;pointer-events:none}
-.resta .lb.r{transform:translate(-100%,-50%);text-align:right}
-.resta .lb.l{transform:translate(0,-50%);text-align:left}
-.resta .lb.ev-t{color:var(--ink-2);font-weight:700}
-.resta .lb.val{color:var(--ink);font:700 12.5px/1 var(--f-body)}
-.resta .pt{position:absolute;width:28px;height:28px;margin:-14px 0 0 -14px;display:grid;place-items:center;border-radius:50%;cursor:pointer;outline:none}
-.resta .dot{width:9px;height:9px;border-radius:50%;background:var(--gA);box-shadow:0 0 0 2px var(--surface)}
-.resta .pt.on .dot,.resta .pt:focus-visible .dot{box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
-.resta-tip{position:absolute;z-index:2;pointer-events:none;white-space:nowrap;padding:6px 9px;border-radius:8px;background:var(--ink);color:var(--bg);font:600 .78rem/1.3 var(--f-body)}
+/* le tabelle della pagina dei soldi (spese di Ilva per area, fondi pubblici) e le domande aperte */
 .resta-tab{width:100%;margin-top:8px;border-collapse:collapse;font-size:.85rem;color:var(--ink-2)}
 .resta-tab th,.resta-tab td{text-align:left;padding:6px 8px 6px 0;border-bottom:1px solid var(--line)}
 .resta-tab td:last-child{font-variant-numeric:tabular-nums;color:var(--ink)}
 .aperta{background:var(--gA-soft);border-radius:12px;padding:10px 12px;font-size:.92rem;line-height:1.45;color:var(--ink)}
 .aperta a{white-space:nowrap;font-weight:600;text-decoration:none}
-.resta-g,.resta-dx{display:grid;gap:12px;align-items:start}
-.resta .ev{stroke:var(--s-part)}
-.resta .lb.ev-t{color:var(--s-part);background:var(--surface);padding:0 2px;border-radius:3px}
 .resta-tab tr.tot td{font-weight:700;color:var(--ink);border-bottom:0}
 .resta-tab td.na{color:var(--ink-3)}
 /* dove sono finiti i soldi dei Riva: due barre in pila con la stessa scala (il totale del fondo), sotto ognuna i pezzi con
@@ -691,17 +683,59 @@ body.pv-on .paneltoggle{display:none}
 .c-altro{background:var(--s-part)}
 .c-altro.prob{background:repeating-linear-gradient(135deg,var(--s-part) 0 3px,transparent 3px 6px);box-shadow:inset 0 0 0 1.5px var(--s-part);color:var(--ink);text-shadow:0 0 3px var(--bg),0 0 3px var(--bg)}
 .c-max{background:var(--surface-2);border:1.5px dashed var(--ink-2);color:var(--ink)}
+/* dove sono finiti i fondi pubblici: chi li dà (blu, poi grigi) e a che punto sono (azzurro chiaro pagati, come i "già
+   spesi"; giallo usati per altro; blu non ancora pagati; tratteggiato da arrivare; grigio revocati; a righe grigie non si sa) */
+.c-chi1{background:var(--gB)}.c-chi2{background:var(--m-st)}
+.c-pag{background:var(--m-pay)}
+.c-fermi{background:var(--m-st)}
+.c-persi{background:var(--s-no);color:var(--ink)}
+.c-nonsi{background:repeating-linear-gradient(135deg,var(--ink-3) 0 2px,transparent 2px 6px);box-shadow:inset 0 0 0 1.5px var(--ink-3);color:var(--ink);text-shadow:0 0 3px var(--bg),0 0 3px var(--bg)}
+.pzb.sottile{height:8px;gap:1px}
+.fp-f{display:block;margin-top:2px;font-size:.78rem;color:var(--ink-3)}.fp-f a{color:var(--ink-2)}
+.fp-leg{display:grid;gap:4px}
+.fp-st>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:12px max-content 1fr 10px;gap:4px 10px;align-items:baseline;min-height:40px;padding:6px 0;font-size:.88rem;line-height:1.4;color:var(--ink-2)}
+.fp-st>summary::-webkit-details-marker{display:none}
+.fp-st>summary b{color:var(--ink);text-align:right;font-variant-numeric:tabular-nums}
+.fp-st>summary small{display:block;font-size:.78rem;color:var(--ink-3)}
+.fp-st>summary::after{content:"";width:7px;height:7px;border:solid var(--ink-3);border-width:0 2px 2px 0;transform:translateY(-2px) rotate(45deg);transition:transform .15s;align-self:center}
+.fp-st[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
+.fp-st ul.strane{margin:4px 0 10px;padding:0;list-style:none;display:grid;gap:8px}
+.fp-st .strane li{display:grid;gap:6px;justify-items:start;background:var(--surface-2);border-radius:12px;padding:10px 12px;font-size:.85rem;line-height:1.45;color:var(--ink-2)}
+.fp-st .strane p{margin:0}.fp-st .strane b{color:var(--ink)}
+/* da quanto tempo aspettano: una tabella, una riga per quota */
+.fp-tab{font-size:.8rem}
+.fp-tab th{font:700 .68rem/1.3 var(--f-body);letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3)}
+.fp-tab td{vertical-align:middle;padding:8px 8px 8px 0}
+.fp-tab td:first-child{width:44%}.fp-tab td:last-child{width:32%;padding-right:0;color:var(--ink)}
+.fp-tab td:nth-child(2),.fp-tab td:nth-child(3){white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--ink)}
+.fp-tab td.ok{color:var(--s-done);font-weight:700}
+.fp-tab .fr-n{color:var(--ink);text-decoration:none;font-size:.8rem}
+.fp-tab small{display:block;margin-top:3px;font-size:.72rem;color:var(--ink-3)}
+.fp-tab td:last-child b{white-space:nowrap;font-weight:700}
+.fp-st .aree{display:flex;flex-wrap:wrap;gap:6px}
+.fp-st .strane .area{display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.8rem;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
+.fp-st .strane .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
+.fp-st .strane .area.gB b{background:var(--gB)}
+@media (min-width:900px){.fp-tab td:first-child{width:40%}.fp-tab td:last-child{width:40%}}
+/* la freccia sotto le tabelle lunghe (sul telefono): la tabella chiusa mostra le prime 6 righe */
+.tab-piu{display:grid;place-items:center;width:100%;min-height:44px;border:0;border-radius:12px;background:transparent;cursor:pointer}
+.tab-piu::after{content:"";width:10px;height:10px;border:solid var(--ink-2);border-width:0 2.5px 2.5px 0;transform:translateY(-3px) rotate(45deg);transition:transform .15s}
+.tab-piu[aria-expanded="true"]::after{transform:translateY(3px) rotate(-135deg)}
+.tab-piu:hover{background:var(--surface-2)}
+/* le spese di Ilva per area (parte 3 dei soldi dei Riva): le cifre possono andare a capo, l'ultima colonna è stretta */
+.ilva-tab td:nth-child(2),.ilva-tab td:nth-child(3){white-space:normal;color:var(--ink-2)}
+.ilva-tab{table-layout:fixed}.ilva-tab th:first-child{width:42%}.ilva-tab th:nth-child(2),.ilva-tab th:nth-child(3){width:20%}
+.ilva-tab td:last-child{white-space:nowrap;font-weight:700}.ilva-tab td:nth-child(2),.ilva-tab td:nth-child(3){overflow-wrap:anywhere}
+.ilva-tab tr.tot td{color:var(--ink)}
+.ilva-tab .fr-n{flex-wrap:wrap;gap:4px 8px}   /* il nome va sotto il codice se accanto non ci sta */
+@media (min-width:900px){.ilva-tab th:first-child{width:40%}.ilva-tab th:nth-child(2),.ilva-tab th:nth-child(3){width:24%}}
 .c-g1{background:#a1a1aa}.c-g2{background:#71717a;color:var(--ink)}.c-g3{background:#52525b;color:var(--ink)}
 .pz-leg{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:12px max-content 1fr;gap:7px 10px;align-items:baseline;font-size:.88rem;line-height:1.4;color:var(--ink-2)}
 .pz-leg li{display:contents}
 .pz-leg b{color:var(--ink);text-align:right;font-variant-numeric:tabular-nums}
 .sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px}
 .cert{display:inline-block;font:600 .64rem/1 var(--f-body);letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);border:1px solid var(--line);border-radius:999px;padding:3px 6px;white-space:nowrap;vertical-align:1px}
-#rimborsi{margin-top:14px}
 @media (min-width:900px){
-  .resta-g{grid-template-columns:minmax(0,440px) minmax(0,1fr);gap:28px}
-  .resta-g>.resta{align-self:stretch;aspect-ratio:auto;min-height:280px}
-  .st-g ul.strane{grid-template-columns:1fr 1fr}
   .pz-g{grid-template-columns:1fr 1fr;gap:32px}
 }
 .gruppo{display:grid;gap:10px}
