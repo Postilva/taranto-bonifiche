@@ -10,7 +10,7 @@ const ELENCO = {
     subs: subs(DATA.gruppiA)
   },
   B: {
-    title: "Ricadute fuori dalla fabbrica",
+    title: "Ricadute dell'Ilva",
     who: "Quartiere Tamburi, Statte, Mar Piccolo: aree per cui una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva.",
     subs: subs(DATA.gruppiB)
   }

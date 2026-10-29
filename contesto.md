@@ -1,7 +1,16 @@
 # Contesto — l'Ilva e il suo inquinamento
 *Stato: approvata — aggiornata al 29 ottobre 2026*
 
-Testi della homepage: la storia dello stabilimento, come inquina, com'è fatto, le parole degli inquinanti. Stesse regole delle schede: ogni frase ha la sua fonte [n], elencata in fondo. Il sito legge questo file con `sito/costruisci.py`.
+Testi della homepage: cosa c'è da bonificare, la storia dello stabilimento, come inquina, com'è fatto, le parole degli inquinanti. Stesse regole delle schede: ogni frase ha la sua fonte [n], elencata in fondo. Il sito legge questo file con `sito/costruisci.py`.
+
+## Cosa c'è da bonificare
+
+Bonificare vuol dire togliere l'inquinamento, o ridurlo finché non è più un rischio [17]. Chiuderlo sotto una copertura, isolato per sempre, è un'altra cosa, la "messa in sicurezza permanente": l'inquinamento resta lì [17].
+
+- **I rifiuti** · scorie, polveri e fanghi: In decenni di produzione la fabbrica ha ammucchiato i suoi rifiuti, come scorie, polveri dei filtri e fanghi oleosi, dentro e intorno allo stabilimento [1].
+- **I terreni** · le polveri dei camini: I camini di una fabbrica come questa emettono polveri con metalli pesanti, IPA, PCB e diossine [4]. Si sono depositate anche fuori, sul quartiere Tamburi, tanto che il Sindaco ha dovuto fare ordinanze sui giardini delle scuole [1].
+- **L'acqua sotto terra** · la falda: Dai rifiuti e dai terreni inquinati le sostanze possono scendere fino all'acqua sotto terra, la falda [1].
+- **Il fondo del mare** · il Mar Piccolo: Secondo il processo "Ambiente Svenduto", diossine e PCB dell'Ilva sono arrivati con il canale di scarico nel primo seno del Mar Piccolo [1].
 
 ## Storia
 
@@ -41,7 +50,7 @@ Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
-L'inquinamento nasce in alcuni reparti della fabbrica, viaggia per tre strade (l'aria, gli scarichi in mare, il terreno e l'acqua sotterranea) e arriva dentro e fuori lo stabilimento [1][4]. Per questo il censimento ha due gruppi: le aree di Ilva e le ricadute fuori dalla fabbrica.
+L'inquinamento nasce in alcuni reparti della fabbrica, viaggia per tre strade (l'aria, gli scarichi in mare, il terreno e l'acqua sotterranea) e arriva dentro e fuori lo stabilimento [1][4]. Per questo il censimento ha due gruppi: le aree di Ilva e le ricadute dell'Ilva.
 
 ### Dove nasce
 
@@ -156,3 +165,5 @@ Sostanze fatte solo di carbonio e idrogeno: dalle più semplici, come il metano,
 [15] Decreto legislativo 3 aprile 2006, n. 152, Parte IV, Titolo V, Allegato 5, Tabella 1 (limiti per i terreni: colonna A verde e residenziale, colonna B industriale e commerciale), https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152
 
 [16] Corte di Cassazione, Sezioni Unite civili, *sentenza n. 28087/2026* (R.G. 19310/2026), pubblicata il 29 ottobre 2026, pag. 8–10 (decreto della Corte d'Appello del 27/7/2026, condizioni per ripartire, ordinanze del 9/9 e del 5/10/2026, art. 4 del decreto legge 185/2026), 56–57 (amianto: scadenza del 23/8/2023, AIA 2025, 6.780 tonnellate smaltite) e 70 (decisione) — al 29/10/2026 il testo non è ancora pubblicato online; la copia non è in `fonti/` perché contiene i dati personali dei cittadini ricorrenti
+
+[17] Decreto legislativo 3 aprile 2006, n. 152 (Codice dell'ambiente), articolo 240, comma 1, lettere o) (messa in sicurezza permanente: isolare in modo definitivo le fonti inquinanti) e p) (bonifica: eliminare le fonti di inquinamento e le sostanze inquinanti o ridurne le concentrazioni sotto le soglie di rischio), testo vigente su Normattiva, https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152~art240 — copia in `fonti/2026-09_normattiva_dlgs-152-2006-art-240-definizioni.pdf`

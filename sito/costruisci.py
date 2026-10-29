@@ -442,6 +442,20 @@ def leggi_contesto():
     testo = lambda lines: [l for l in lines if not l.strip().startswith("**Immagine:**")]
     out = {}
 
+    # cosa c'è da bonificare: in cima alla home un riquadro per tipo di inquinamento (nome e riga breve), nel pannello
+    # la spiegazione di ognuno e cosa vuol dire bonificare. Voci: "- **nome** · riga breve: testo [n]"
+    cb, voci = secs["cosa c'è da bonificare"], []
+    for kind, val in blocks(cb):
+        if kind == "ul":
+            for it in val:
+                m = re.match(r"\*\*(.+?)\*\*\s*·\s*([^:]+):\s*(.*)", " ".join(x.strip() for x in it))
+                if not m:
+                    sys.exit(f"contesto.md, Cosa c'è da bonificare: la voce \"{it[0][:40]}\" non è scritta \"- **nome** · riga breve: testo [n]\"")
+                if not re.search(r"\[\d+\]\.?\s*$", m.group(3)):
+                    sys.exit(f"contesto.md, Cosa c'è da bonificare: la voce \"{m.group(1)}\" non finisce con la fonte")
+                voci.append({"nome": m.group(1), "breve": m.group(2).strip(), "html": inline(m.group(3))})
+    out["cosa"] = {"intro": "".join(f"<p>{inline(v)}</p>" for k, v in blocks(cb) if k == "p"), "voci": voci}
+
     st = secs["storia"]
     eventi = []
     for kind, val in blocks(testo(st)):
