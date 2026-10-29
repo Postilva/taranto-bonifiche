@@ -94,3 +94,20 @@ File principali: `sito/report.html` (pagina dell'area), `sito/mappa.html`, `sito
 ### [ ] 13. Il perimetro delle aree sulla mappa
 - Il pallino su una foto satellitare allo zoom 18 non fa capire quanto è grande un'area di 10–100 ettari. Disegnare il perimetro solo dove c'è una planimetria ufficiale (piani di caratterizzazione Ilva, decreti MASE, anagrafe regionale), ridisegnato a mano su OpenStreetMap e marcato "perimetro indicativo da <documento> [n]".
 - Una scheda alla volta, partendo dalle più grandi o più visitate; il report si apre allo zoom che contiene il perimetro.
+
+## Quinta parte: dentro la fabbrica (dal 29/10/2026)
+
+Il sito racconta poco lo stabilimento: suolo (C1, circa 1.050 ettari) e falda (C2) sono due schede su 36 e nel grafico pesano come Land I; gli impianti e l'amianto non hanno una scheda. Ordine deciso con l'utente: 14, poi 15 (il più importante), poi 16.
+
+### [x] 14. Due riquadri in più in "Cosa c'è da bonificare" (fatto il 29/10/2026: "Gli impianti" e "L'amianto" prima dei quattro di prima, sei riquadri 2×3 sul telefono e 3 colonne sul computer)
+- "Gli impianti" (parchi minerali, cokerie, altoforni) e "L'amianto" (negli impianti della fabbrica), prima dei quattro che ci sono già: si va da dentro a fuori. Sei riquadri, 2×3 sul telefono, 3 colonne sul computer. Testi generali, senza esempi di singole aree, con fonti già in `contesto.md`.
+
+### [ ] 15. Lo stabilimento reparto per reparto (ricerca)
+- Domande: (1) cosa comprende la "decontaminazione" dello stabilimento (allegato 8 del contratto d'affitto, "interventi di decontaminazione" del Piano ambientale di competenza di Acciaierie d'Italia, pagati dal Patrimonio Destinato: relazione del Parlamento del 2022, pag. 54–55 e note 64 e 67), quali lavori, in quali reparti e quanto è stato speso (relazioni dei commissari al Parlamento, art. 20.4 del contratto); (2) se suolo e falda dello stabilimento sono divisi per zona o per reparto nei documenti di Acciaierie d'Italia (piano di caratterizzazione 2021, modello del sottosuolo 2022, analisi di rischio 2016–2017) e nei pareri di ARPA e ISPRA.
+- Regola: le parti le decide un documento ufficiale, non noi. Se la divisione c'è, C1 e C2 diventano parti (come Tamburi D1–D5, `PARTI` in `sito/comune.js`) e lo stabilimento si racconta reparto per reparto: impianti, amianto, suolo, falda. Se non c'è, lo stabilimento resta intero ma in home con i suoi ettari, ed eventualmente una richiesta di accesso agli atti su come sono organizzati i dati.
+- Prima ricerca online e archivio del Ministero, poi le richieste di accesso agli atti (regola in `LEGGIMI.md`).
+
+### [ ] 16. Scheda dell'amianto dello stabilimento (C3)
+- Dov'è, quanto ne resta (oltre 2.000 tonnellate per la Corte d'Appello di Milano) e quanto ne è stato tolto (6.780 tonnellate per la Cassazione), scadenze (AIA 2017: 23/08/2023; AIA 2025: di fatto 2037), chi deve toglierlo, sentenze, soldi; costruita su quello che trova il task 15.
+- Verificare sul testo che la legge 257/1992 e il decreto del 6/9/1994 chiamino "bonifica" la rimozione dell'amianto.
+- *Da decidere:* i cinque passaggi del sito non si adattano all'amianto (censimento, rimozione o incapsulamento, controllo finale). Raccomandato: tenerla fuori dal grafico "A che punto sono", spiegando perché.

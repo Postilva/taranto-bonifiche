@@ -85,7 +85,7 @@ body.mappa .topbar .in{max-width:none}
 .hero .btn{margin-top:8px}
 .hero .credit{font:500 .64rem/1.35 var(--f-mono);color:var(--ink-3)}
 .hero .credit a{color:inherit}
-/* cosa c'è da bonificare: quattro riquadri 2×2 (simbolo, nome, riga breve); il tocco apre il pannello */
+/* cosa c'è da bonificare: sei riquadri, 2 colonne sul telefono e 3 sul computer (simbolo, nome, riga breve); il tocco apre il pannello */
 .col-l>.sec-label:first-child{margin-top:6px}   /* il primo titoletto sotto la foto: vicino ai crediti */
 .cb-tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .cb{display:grid;align-content:start;gap:4px;min-height:112px;padding:14px;border-radius:var(--r);background:var(--surface);box-shadow:var(--shadow);text-decoration:none;color:inherit}
@@ -93,7 +93,7 @@ body.mappa .topbar .in{max-width:none}
 .cb svg{width:34px;height:34px;padding:7px;margin-bottom:6px;border-radius:10px;background:var(--gA-soft);fill:none;stroke:var(--gA);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .cb b{font-size:1rem;line-height:1.2}
 .cb small{font-size:.82rem;line-height:1.35;color:var(--ink-3)}
-@media (min-width:760px){.cb-tiles{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (min-width:760px){.cb-tiles{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .tile{display:flex;flex-direction:column;justify-content:space-between;gap:16px;min-height:150px;padding:16px;border-radius:var(--r);text-decoration:none;color:var(--on-g)}
 .tile.gA{background:linear-gradient(160deg,#ff6a2b,#b33a0e)}
