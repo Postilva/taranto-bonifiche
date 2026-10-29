@@ -268,6 +268,21 @@ const faseCode = code => { const s = verified[code]; return s ? faseDi(s, code)[
 const NO_STEPS = {
   "mar-piccolo-studi":"Sono studi e analisi: nessuna bonifica, nessuna messa in sicurezza.",
 };
+// le fasi di FASI raccolte in quattro, le stesse nel grafico della home e sulla mappa (deciso il 29/10/2026):
+// [chiave, nome, fasi, nome corto (filtri della mappa), cosa vuol dire]
+const TAPPE = [
+  ["dafare",  "Analisi da fare",             ["dafare"],                       "Da analizzare",          "il terreno non è ancora stato analizzato del tutto"],
+  ["analisi", "Analizzata, non bonificata",  ["analisi", "rischio", "mis"],    "Analizzata",             "si sa cosa c'è, ma l'inquinamento non è stato tolto"],
+  ["fatto",   "Bonificata o non necessaria", ["nonserve", "bonifica", "cert"], "Bonificata o non serve", ""],
+  ["nessuna", "Nessuna bonifica",            ["nessuna"],                      "Nessuna bonifica",       "studi o lavori che non sono una bonifica"]
+];
+const tappaDi = c => TAPPE.find(t => t[2].includes(faseCode(c)))?.[0] || "";
+// sotto "Bonificata o non necessaria" quante hanno il certificato visto da noi, perché "2" non si legga "2 bonificate"
+const tappaSub = t => {
+  if (t[0] !== "fatto") return t[4];
+  const n = ALL.filter(i => faseCode(i[0]) === "cert").length;
+  return n ? `${n} con il certificato visto da noi` : "nessuna con il certificato visto da noi";
+};
 // le cifre del riquadro "Soldi": il blocco con le etichette in cima a "## Soldi" della scheda (letto da costruisci.py)
 // {k: costo|disponibili|spesi, p: precisazione, v: euro (null = nessuna cifra), pre: "circa"|"meno di", lbl, chi, qb: quando in breve, t: [anno, mese], src: "[n]", note}
 // una cifra è "vecchia" se ha più di due anni (deciso il 24/10/2026); senza mese conta dicembre

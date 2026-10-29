@@ -70,10 +70,9 @@
         <h2 class="sec-label">A che punto sono</h2>
         <div class="card chart">
           <h3>Fin dove è arrivata ogni area</h3>
-          <p class="chart-intro">Una bonifica ha cinque passaggi. Si può dire <b>"bonificato"</b> solo alla fine, quando un ente pubblico lo certifica. Ogni area è contata una volta, nell'ultimo passaggio che ha fatto. <a href="#passaggi">I cinque passaggi ›</a></p>
+          <p class="chart-intro">Ogni area è contata una volta, nella fase a cui è arrivata: le stesse quattro fasi della mappa. Si può dire <b>"bonificato"</b> solo alla fine dei cinque passaggi, quando un ente pubblico lo certifica. <a href="#passaggi">I cinque passaggi ›</a></p>
           <div class="colonne" id="colonne" aria-hidden="true"></div>
           <div class="righe" id="righe"></div>
-          <p class="legend scala-lg"><span><i class="sw" style="background:var(--gA)"></i>Aree di Ilva</span><span><i class="sw" style="background:var(--gB)"></i>Ricadute dell'Ilva</span></p>
           <p class="note"><span class="solo-tel">Tocca una riga per vedere le aree, poi un nome per aprire il report.</span><span class="solo-pc">Passa il mouse su un blocco per vedere il nome dell'area; un clic apre il report.</span> <span id="scala-why"></span></p>
         </div>
         <div class="card chart soldi-tot" id="soldi-tot"></div>
@@ -271,53 +270,52 @@ function mappaFabbrica(d){
 }
 
 /* ---------- grafico: fin dove è arrivata ogni area ---------- */
-// ogni scheda (o parte di scheda) va nella fase dell'ultimo passaggio fatto, letto dagli stati dei 5 passaggi (STEPS);
-// conta solo "done", che vale già lo scenario peggiore (vedi STEPS in comune.js): "part" non porta avanti
-// FASI e fase() sono in comune.js
+// un blocco per area dell'elenco, nella sua fase tra le quattro della mappa (TAPPE in comune.js, deciso il 29/10/2026).
+// La fase viene dai 5 passaggi (STEPS, o la parte di PARTI) e conta solo "done", che vale già lo scenario peggiore:
+// "part" non porta avanti. Nella riga aperta e al passaggio del mouse ogni area dice anche la sua fase precisa (FASI)
 (function(){
-  // le "unità" del grafico: una per scheda, o una per parte se la scheda ne ha più d'una (PARTI)
-  const S = SCHEDE.filter(s => STEPS[s.id]).flatMap(s => PARTI[s.id]
-    ? PARTI[s.id].map(([code, short, steps]) => ({id: s.id, code, codes: [code], short, steps}))
-    : [{...s, steps: STEPS[s.id]}]);
-  const cod = c => c.length > 2 ? `${c[0]}–${c[c.length - 1]}` : c.join("+");
-  // computer: una colonna per fase, fatta di un quadratino per area (codice, colore del gruppo, nome al passaggio del mouse);
+  const S = ALL.filter(i => verified[i[0]]).map(i => {
+    const s = verified[i[0]], f = FASI.find(x => x[0] === faseCode(i[0]));
+    // nome breve: della parte, del report, o dell'elenco se più aree hanno un report solo (A5 e A6)
+    const short = parteDi(s, i[0])?.[1] || (s.codes.length > 1 ? i[1].replace(/\s*\([^)]*\)/g, "") : s.short);
+    return {code: i[0], short, tappa: tappaDi(i[0]), precisa: f ? f[1].toLowerCase() : ""};
+  });
+  // la fase precisa serve solo dove la casella ne raccoglie più d'una
+  const precisa = (s, t) => t[2].length > 1 && s.precisa ? s.precisa : "";
+  // computer: una colonna per fase, fatta di un quadratino per area (codice, colore della fase come sulla mappa, nome al passaggio del mouse);
   // tutte sulla stessa scala, quindi l'altezza dice quante aree ci sono
-  $("#colonne").style.setProperty("--n", FASI.length);
-  $("#colonne").innerHTML = FASI.map(([k, nome, sub]) => {
-    const chi = S.filter(s => fase(s.steps) === k);
-    const pila = chi.map(s => `<a class="u g${GRUPPO[s.code] || "A"}" href="${reportHref(s.code)}" data-nome="${esc(s.short)}" tabindex="-1">${cod(s.codes)}</a>`).join("");
-    return `<div class="col f-${k}"><div class="bar"><span class="n">${chi.length}</span><div class="pila">${pila || `<span class="vuota"></span>`}</div></div><span class="nome">${nome}<small>${sub}</small></span></div>`;
+  $("#colonne").style.setProperty("--n", TAPPE.length);
+  $("#colonne").innerHTML = TAPPE.map(t => {
+    const chi = S.filter(s => s.tappa === t[0]);
+    const pila = chi.map(s => `<a class="u" href="${reportHref(s.code)}" data-nome="${esc(s.short)}" data-fase="${esc(precisa(s, t))}" tabindex="-1">${s.code}</a>`).join("");
+    return `<div class="col f-${t[2][0]}"><div class="bar"><span class="n">${chi.length}</span><div class="pila">${pila || `<span class="vuota"></span>`}</div></div><span class="nome"><i class="sw f-${t[2][0]}"></i> ${esc(t[1])}<small>${esc(tappaSub(t))}</small></span></div>`;
   }).join("");
   // telefono: lo stesso grafico ruotato, una riga per fase con la barra dei quadratini (stessa scala);
   // toccando la riga si apre l'elenco delle sue aree con i nomi
-  const max = Math.max(...FASI.map(([k]) => S.filter(s => fase(s.steps) === k).length), 1);
+  const max = Math.max(...TAPPE.map(t => S.filter(s => s.tappa === t[0]).length), 1);
   $("#righe").style.setProperty("--max", max);
-  $("#righe").innerHTML = FASI.map(([k, nome, sub]) => {
-    const chi = S.filter(s => fase(s.steps) === k);
-    const barra = chi.map(s => `<i class="g${GRUPPO[s.code] || "A"}"></i>`).join("") || `<i class="vuota"></i>`;
-    const voci = chi.map(s => `<a class="area g${GRUPPO[s.code] || "A"}" href="${reportHref(s.code)}"><b>${cod(s.codes)}</b>${esc(s.short)}</a>`).join("");
-    return `<details class="riga f-${k}"><summary><span class="nome">${nome}</span><span class="barra">${barra}<b class="n">${chi.length}</b></span></summary><p class="sub">${sub}</p>${chi.length ? `<div class="aree">${voci}</div>` : `<p class="sub"><b>Nessuna area.</b></p>`}</details>`;
+  $("#righe").innerHTML = TAPPE.map(t => {
+    const chi = S.filter(s => s.tappa === t[0]);
+    const barra = chi.map(s => `<i></i>`).join("") || `<i class="vuota"></i>`;
+    const voci = chi.map(s => `<a class="area" href="${reportHref(s.code)}"><b>${s.code}</b>${esc(s.short)}${precisa(s, t) ? `<small> · ${esc(precisa(s, t))}</small>` : ""}</a>`).join("");
+    return `<details class="riga f-${t[2][0]}"><summary><span class="nome"><i class="sw f-${t[2][0]}"></i> ${esc(t[1])}</span><span class="barra">${barra}<b class="n">${chi.length}</b></span></summary><p class="sub">${esc(tappaSub(t))}</p>${chi.length ? `<div class="aree">${voci}</div>` : `<p class="sub"><b>Nessuna area.</b></p>`}</details>`;
   }).join("");
   // passando il mouse su un blocco compare subito il nome dell'area, sopra il blocco
   const tip = document.body.appendChild(Object.assign(document.createElement("div"), {className: "tip", role: "tooltip"}));
   $("#colonne").addEventListener("mouseover", e => {
     const u = e.target.closest(".u"); if (!u) return;
-    tip.innerHTML = `<b>${esc(u.textContent)}</b> · ${esc(u.dataset.nome)}`; tip.classList.add("on");
+    tip.innerHTML = `<b>${esc(u.textContent)}</b> · ${esc(u.dataset.nome)}${u.dataset.fase ? ` · ${esc(u.dataset.fase)}` : ""}`; tip.classList.add("on");
     const r = u.getBoundingClientRect();
     tip.style.left = Math.max(8, Math.min(r.left + r.width / 2 - tip.offsetWidth / 2, innerWidth - tip.offsetWidth - 8)) + "px";
     tip.style.top = (r.top - tip.offsetHeight - 6) + "px";
   });
   $("#colonne").addEventListener("mouseout", e => { if (!e.relatedTarget?.closest?.(".u")) tip.classList.remove("on"); });
   addEventListener("scroll", () => tip.classList.remove("on"), {passive: true});
-  // perché aree, blocchi e report non sono lo stesso numero: tutto contato dai dati
+  // perché aree e report non sono lo stesso numero: tutto contato dai dati
   const nome = s => s.short.replace(/ \(.*\)$/, "");
-  const senza = SCHEDE.filter(s => !STEPS[s.id]);
-  const perche = [
-    ...SCHEDE.filter(s => STEPS[s.id] && !PARTI[s.id] && s.codes.length > 1).map(s => `${elencoCodici(s.codes)} (${nome(s)}) hanno un solo report e qui sono un blocco solo`),
-    ...SCHEDE.filter(s => PARTI[s.id]).map(s => `${elencoCodici(s.codes)} (${nome(s)}) hanno un solo report, ma qui contano una per una`),
-    ...(senza.length ? [senza.map(s => `${s.code} (${nome(s)})`).join(", ") + (senza.length > 1 ? " non sono qui perché non sono interventi" : " non è qui perché non è un intervento") + " sul terreno"] : [])
-  ];
-  $("#scala-why").textContent = `Le aree sono ${TOTAL}, i blocchi ${S.length}, i report ${SCHEDE.length}` + (perche.length ? ": " + perche.join("; ") : "") + ".";
+  const insieme = SCHEDE.filter(s => s.codes.length > 1).map(s => `${elencoCodici(s.codes)} (${nome(s)})`);
+  $("#scala-why").textContent = `Le aree sono ${S.length}, i report ${SCHEDE.length}` + (insieme.length ? `: ${insieme.join(", ")} hanno un report in comune` : "")
+    + (S.length < TOTAL ? `; ${TOTAL - S.length} aree non hanno ancora il report e non sono nel grafico` : "") + ".";
 })();
 
 /* ---------- soldi: le stesse cifre dei due riquadri di "In breve" in soldi.html ---------- */

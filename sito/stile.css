@@ -130,15 +130,15 @@ body.mappa .topbar .in{max-width:none}
 .riga>summary::-webkit-details-marker{display:none}
 .riga[open]>summary{background:var(--surface-2)}
 .riga .nome{font-weight:700;font-size:.78rem;line-height:1.2}
+.righe .riga .area b{background:var(--fc);color:var(--fc-ink)}   /* il codice nel colore della fase */
+.righe .area small{font-size:.74rem;color:var(--ink-3)}   /* la fase precisa, dove la casella raccoglie più fasi */
 .riga .barra{display:flex;align-items:center;gap:2px;min-width:0}
-.riga .barra i{flex:none;width:calc((100% - 2rem - (var(--max) - 1) * 2px) / var(--max));height:20px;background:var(--gA)}
-.riga .barra i.gB{background:var(--gB)}
+.riga .barra i{flex:none;width:calc((100% - 2rem - (var(--max) - 1) * 2px) / var(--max));height:12px;background:var(--fc)}   /* colore della fase, come sulla mappa */
 .riga .barra i:first-child{border-radius:4px 0 0 4px}.riga .barra i:nth-last-child(2){border-radius:0 4px 4px 0}.riga .barra i:only-of-type{border-radius:4px}
 .riga .barra i.vuota{background:none;border:1px dashed var(--ink-3);border-radius:4px}
 .riga .barra .n{margin-left:8px;font:700 .95rem/1 var(--f-body)}
 .riga .sub{font-size:.78rem;line-height:1.4;color:var(--ink-3);margin:8px 6px 0}.riga .sub b{color:var(--ink)}
 .riga .aree{display:flex;flex-wrap:wrap;gap:6px;margin:10px 6px 12px}
-.riga.f-cert .nome,.riga.f-cert .n{color:var(--gA)}
 .righe .area,.soldi-tot .area,.dove .area{display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.8rem;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
 .righe .area b,.soldi-tot .area b,.dove .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
 .righe .area.gB b,.soldi-tot .area.gB b,.dove .area.gB b{background:var(--gB)}
@@ -146,18 +146,16 @@ body.mappa .topbar .in{max-width:none}
   /* due righe comuni a tutte le colonne: le barre (in basso, sulla stessa linea di base) e le scritte (in alto) */
   .colonne{display:grid;grid-template-columns:repeat(var(--n,6),minmax(0,1fr));grid-template-rows:auto auto;column-gap:12px;margin-top:8px}
   .colonne .col{display:grid;grid-row:span 2;grid-template-rows:subgrid;row-gap:10px}
-  .colonne .bar{align-self:end;display:grid;gap:8px}
+  .colonne .bar{align-self:end;justify-self:center;width:min(100%,104px);display:grid;gap:8px}   /* colonne strette, centrate sotto il nome */
   .colonne .col>.nome{align-self:start}
   .colonne .n{font:700 1.6rem/1 var(--f-body);text-align:center}
   .colonne .pila{display:flex;flex-direction:column-reverse;gap:2px;border-bottom:2px solid var(--ink-3);padding-bottom:2px}
-  .colonne .u{display:grid;place-items:center;height:26px;font:700 11px/1 var(--f-mono);color:var(--on-g);background:var(--gA);text-decoration:none;white-space:nowrap;overflow:hidden}
-  .colonne .u.gB{background:var(--gB)}
+  .colonne .u{display:grid;place-items:center;height:18px;font:700 10px/1 var(--f-mono);color:var(--fc-ink);background:var(--fc);text-decoration:none;white-space:nowrap;overflow:hidden}
   .colonne .u:last-child{border-radius:6px 6px 0 0}
   .colonne .u:hover{filter:brightness(1.15);outline:2px solid var(--ink);outline-offset:-2px}
-  .colonne .vuota{height:26px;border:1px dashed var(--ink-3);border-bottom:0;border-radius:6px 6px 0 0}
+  .colonne .vuota{height:18px;border:1px dashed var(--ink-3);border-bottom:0;border-radius:6px 6px 0 0}
   .colonne .nome{font-weight:700;font-size:.88rem;line-height:1.25;text-align:center}
   .colonne .nome small{display:block;font-weight:400;font-size:.76rem;color:var(--ink-3);margin-top:3px}
-  .colonne .f-cert .n,.colonne .f-cert .nome{color:var(--gA)}
   /* sul computer le colonne, sul telefono le righe */
   .righe,.solo-tel{display:none}.solo-pc{display:inline}
   .scala-lg{display:flex}
@@ -406,6 +404,7 @@ body.panel-off .paneltoggle{display:inline-flex;align-items:center}
 .sw.gA{background:var(--gA)}.sw.gB{background:var(--gB)}.sw.todo{background:none;box-shadow:inset 0 0 0 1.5px var(--ink-3)}
 .sw.bordo{background:none;box-shadow:inset 0 0 0 2px var(--ink)}
 .chip .sw{width:10px;height:10px}
+.lg-voci small{display:block;font-size:.72rem;line-height:1.3;color:var(--ink-3)}   /* riga sotto "Bonificata o non necessaria" */
 .lg-voci .n{margin-left:auto;padding-left:8px;font:500 .75rem/1 var(--f-mono);color:var(--ink-3)}
 .lg-x{display:flex;align-items:center;gap:8px;border-top:1px solid var(--line);padding-top:7px}
 .lg-x+.lg-x{border-top:0;padding-top:0}
