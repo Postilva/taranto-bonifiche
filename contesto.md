@@ -1,5 +1,5 @@
 # Contesto — l'Ilva e il suo inquinamento
-*Stato: approvata — aggiornata al 21 ottobre 2026*
+*Stato: approvata — aggiornata al 29 ottobre 2026*
 
 Testi della homepage: la storia dello stabilimento, come inquina, com'è fatto, le parole degli inquinanti. Stesse regole delle schede: ogni frase ha la sua fonte [n], elencata in fondo. Il sito legge questo file con `sito/costruisci.py`.
 
@@ -10,7 +10,7 @@ Testi della homepage: la storia dello stabilimento, come inquina, com'è fatto, 
 
 L'Ilva è l'acciaieria di Taranto. Dal 2018 lo stabilimento in funzione è passato ad ArcelorMittal, poi Acciaierie d'Italia, mentre le aree escluse dall'affitto sono rimaste a Ilva in amministrazione straordinaria [1]; dal 2024 anche Acciaierie d'Italia è in amministrazione straordinaria [3]. Oggi lo stabilimento è ancora di Ilva ed è gestito da Acciaierie d'Italia [11], tutte e due guidate da commissari nominati dal Ministero, che da luglio 2024 cercano un compratore [10].
 
-Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995 e dal 2012 è al centro di sequestri, decreti e processi [1]. Nel 2026 un giudice di Milano ha ordinato di fermare l'area a caldo, la parte che produce ghisa e acciaio [11].
+Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995 e dal 2012 è al centro di sequestri, decreti e processi [1]. Nel 2026 i giudici di Milano hanno ordinato di fermare l'area a caldo, la parte che produce ghisa e acciaio [11]. Il 29 ottobre 2026 la Cassazione ha confermato lo stop: la produzione potrà ripartire solo quando sarà tolto tutto l'amianto rimasto negli impianti e le polveri sottili saranno entro limiti sicuri [16].
 
 | Quando | Cosa | Fonte |
 |---|---|---|
@@ -33,7 +33,9 @@ Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995
 | 25 luglio 2025 | Nuova **AIA** per 12 anni ad Acciaierie d'Italia in amministrazione straordinaria (decreto 436/2025) | [10] |
 | 26 febbraio 2026 | Su ricorso di un gruppo di cittadini, il **Tribunale di Milano** ordina di fermare l'area a caldo dal 24 agosto 2026, a meno che l'AIA non fissi tempi certi per le opere | [11] |
 | 9 luglio 2026 | La **Corte d'Appello di Milano** ordina di fermare l'area a caldo entro 90 giorni, per l'amianto ancora presente (oltre 2.000 tonnellate) e per le polveri sottili; il decreto è pubblicato il 27 luglio | [11][12] |
-| 9 settembre 2026 | La Corte d'Appello respinge la richiesta di Ilva e Acciaierie d'Italia di sospendere l'ordine; le società hanno fatto ricorso in Cassazione | [11] |
+| 9 settembre 2026 | La Corte d'Appello respinge la richiesta di Ilva e Acciaierie d'Italia di sospendere l'ordine, e di nuovo il 5 ottobre; le società hanno fatto ricorso in Cassazione | [11][16] |
+| 16 ottobre 2026 | Il decreto legge 185/2026 permette ai commissari di tenere gli impianti dell'area a caldo **"in riscaldo"**, caldi ma senza produrre, fino alla sentenza della Cassazione e comunque non oltre il 15 dicembre 2026 | [16] |
+| 29 ottobre 2026 | La **Corte di Cassazione** respinge i ricorsi di Ilva e Acciaierie d'Italia: lo stop resta. Per ripartire bisogna togliere tutto l'amianto rimasto e riportare le polveri sottili entro limiti sicuri. La Corte ricorda che l'AIA del 2017 chiedeva di togliere l'amianto entro il 23 agosto 2023, e che l'AIA del 2025, non dicendo niente, ha di fatto spostato la scadenza al 2037 | [16] |
 
 ## Come inquina
 
@@ -113,7 +115,7 @@ La loppa è la scoria dell'altoforno: si separa dalla ghisa liquida e si raccogl
 
 *Parole: amianto, asbesto*
 
-Un insieme di minerali naturali fatti di fibre [13]. Resiste al fuoco, al calore e alle sostanze chimiche, per questo è stato usato in più di 3.000 prodotti: coperture e pavimenti in cemento-amianto (l'eternit), isolanti, rivestimenti di forni, tubature [13]. Le fibre respirate arrivano in fondo ai polmoni e ci restano: causano una fibrosi chiamata asbestosi e sono legate a tumori del polmone e al mesotelioma, un tumore della pleura e del peritoneo, che può comparire anche molti anni dopo [13]. In Italia la legge 257 del 1992 ne vieta dal 1994 estrazione, importazione, vendita e produzione [13]. Nello stabilimento di Taranto, secondo la Corte d'Appello di Milano, ce ne sono ancora oltre 2.000 tonnellate [11].
+Un insieme di minerali naturali fatti di fibre [13]. Resiste al fuoco, al calore e alle sostanze chimiche, per questo è stato usato in più di 3.000 prodotti: coperture e pavimenti in cemento-amianto (l'eternit), isolanti, rivestimenti di forni, tubature [13]. Le fibre respirate arrivano in fondo ai polmoni e ci restano: causano una fibrosi chiamata asbestosi e sono legate a tumori del polmone e al mesotelioma, un tumore della pleura e del peritoneo, che può comparire anche molti anni dopo [13]. In Italia la legge 257 del 1992 ne vieta dal 1994 estrazione, importazione, vendita e produzione [13]. Nello stabilimento di Taranto, secondo la Corte d'Appello di Milano, ce ne sono ancora oltre 2.000 tonnellate [11]; altre 6.780 tonnellate sono già state smaltite [16].
 
 ### Idrocarburi
 
@@ -152,3 +154,5 @@ Sostanze fatte solo di carbonio e idrogeno: dalle più semplici, come il metano,
 [14] F. Aulenta, *Biodegradazioni & biotrasformazioni*, materiale di un corso pubblicato sul sito dell'ISPRA, 2005, slide 41 (definizione di idrocarburi), https://www.isprambiente.gov.it/contentfiles/00000200/235-tc-aulenta2.pdf — copia in `fonti/2005_ispra_biodegradazione-idrocarburi.pdf`
 
 [15] Decreto legislativo 3 aprile 2006, n. 152, Parte IV, Titolo V, Allegato 5, Tabella 1 (limiti per i terreni: colonna A verde e residenziale, colonna B industriale e commerciale), https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152
+
+[16] Corte di Cassazione, Sezioni Unite civili, *sentenza n. 28087/2026* (R.G. 19310/2026), pubblicata il 29 ottobre 2026, pag. 8–10 (decreto della Corte d'Appello del 27/7/2026, condizioni per ripartire, ordinanze del 9/9 e del 5/10/2026, art. 4 del decreto legge 185/2026), 56–57 (amianto: scadenza del 23/8/2023, AIA 2025, 6.780 tonnellate smaltite) e 70 (decisione) — al 29/10/2026 il testo non è ancora pubblicato online; la copia non è in `fonti/` perché contiene i dati personali dei cittadini ricorrenti
