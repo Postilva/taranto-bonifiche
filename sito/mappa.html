@@ -87,21 +87,14 @@ if (isNarrow()) setPanel(false);   // telefono: si parte dalla mappa, l'elenco s
 let map, markers = {}, selected = null, pv, pvLL = null;
 const pinOf = c => markers[c]?.getElement()?.querySelector(".pin");
 /* colori e filtri: per fase (gli stessi colori della barra delle tappe) o per gruppo (arancione e azzurro). Si ricorda la scelta. */
-// le fasi di FASI in quattro colori: [chiave, nome (legenda), fasi, nome corto (filtri)]
-const TAPPE = [
-  ["dafare",  "Analisi da fare",             ["dafare"],                      "Da analizzare"],
-  ["analisi", "Analizzata, non bonificata",  ["analisi", "rischio", "mis"],   "Analizzata"],
-  ["fatto",   "Bonificata o non necessaria", ["nonserve", "bonifica", "cert"], "Bonificata o non serve"],
-  ["nessuna", "Nessuna bonifica",            ["nessuna"],                     "Nessuna bonifica"]
-];
-const tappaDi = c => TAPPE.find(t => t[2].includes(faseCode(c)))?.[0] || "";
+// le quattro fasi (TAPPE, tappaDi, tappaSub) sono in comune.js, uguali al grafico della home
 const F = {g:"", t:"", v:"", q:""};   // filtri: gruppo, fase, solo verificati, ricerca
 let colore = "fase", listaPronta = false;
 try { if (localStorage.getItem("mappa-colore") === "gruppo") colore = "gruppo"; } catch {}
 function legenda(){
   const voci = colore === "gruppo"
     ? [["A", `<i class="sw gA"></i>${ELENCO.A.title}`], ["B", `<i class="sw gB"></i>${ELENCO.B.title}`]].map(([g, h]) => [h, PTS.filter(p => p.ok && GRUPPO[p.code] === g).length])
-    : TAPPE.map(t => [`<i class="sw f-${t[2][0]}"></i>${esc(t[1])}`, PTS.filter(p => p.ok && tappaDi(p.code) === t[0]).length]);
+    : TAPPE.map(t => [`<i class="sw f-${t[2][0]}"></i><span>${esc(t[1])}${t[0] === "fatto" ? `<small>${esc(tappaSub(t))}</small>` : ""}</span>`, PTS.filter(p => p.ok && tappaDi(p.code) === t[0]).length]);
   const todo = PTS.filter(p => !p.ok).length;
   if (todo) voci.push([`<i class="sw todo"></i>Da verificare`, todo]);
   $("#lg-voci").innerHTML = voci.filter(v => v[1]).map(([h, n]) => `<li>${h}<span class="n">${n}</span></li>`).join("");
