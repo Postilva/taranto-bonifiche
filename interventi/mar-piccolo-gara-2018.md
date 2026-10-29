@@ -1,5 +1,5 @@
 # B13 – Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018)
-*Stato scheda: approvata — aggiornata al 27 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -11,7 +11,7 @@ Il fondale del 1° seno è stato studiato molte volte: Sviluppo Italia e ICRAM (
 Il 21 agosto 2020 la gara si è fermata, perché scadeva il mandato della Commissaria, e non è mai stata aggiudicata: nessun lavoro in mare è stato fatto [1][7]. Il Commissario successivo ha giudicato troppo cara una spesa così per circa 14 ettari di prova [7]. Non abbiamo trovato un atto che annulli la gara [1]. Per il 1° seno non c'è un progetto approvato e finanziato [1][11][14].
 
 ### Adesso
-Il Commissario lavora con la Marina Militare su una sola zona, l'«Area 170 ettari» davanti all'Arsenale (scheda B12), ma fondi e tempi non sono decisi [1][11][14]. Nel 2026 sono partiti solo lavori più piccoli: dal 7 agosto la rimozione dei rifiuti dalle coste, 250.000 € per il primo stralcio [19][20]. Il 21 ottobre 2026 il Commissario ha deciso di usare gli ultimi 5,2 milioni dei 21 della Regione, nati per togliere i fanghi con PCB, per togliere rifiuti dal fondale davanti al nuovo lungomare del Comune: ha nominato il responsabile, ma non c'è ancora un progetto né una gara [27].
+Il Commissario lavora con la Marina Militare su una sola zona, l'«Area 170 ettari» davanti all'Arsenale (scheda B12), ma fondi e tempi non sono decisi [1][11][14]. Nel 2026 sono partiti solo lavori più piccoli: dal 7 agosto la rimozione dei rifiuti dalle coste, 250.000 € per il primo stralcio [19][20]. Il 21 ottobre 2026 il Commissario ha deciso di usare gli ultimi 5,2 milioni dei 21 della Regione, nati per togliere i fanghi con PCB, per togliere rifiuti dal fondale davanti al nuovo lungomare del Comune: ha nominato il responsabile, ma non c'è ancora un progetto né una gara [27]. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 15 gennaio 2027 la nota del 21 agosto 2020 che ha sospeso la gara e l'eventuale atto successivo [28].
 
 ## Che posto è
 I fanghi inquinati sul fondo del 1° seno del Mar Piccolo, dove la gara del 2018 doveva provare tre tecniche di pulizia dei fanghi [2][3].
@@ -224,6 +224,8 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 [26] Regione Puglia, comunicato *Mitilicoltura Taranto, prorogate le misure sanitarie straordinarie di controllo del rischio per diossina e policlorobifenili*, 5 settembre 2024 (ordinanza n. 379 del 5 settembre 2024), https://press.regione.puglia.it/-/mitilicoltura-taranto-prorogate-le-misure-sanitarie-straordinarie-di-controllo-del-rischio-per-diossina-e-policlorobifenili — copia in `fonti/2024-09_regione-puglia_comunicato-ordinanza-379-2024-mitili.html`
 
 [27] Commissario straordinario per la bonifica di Taranto, *Decreto n. 56 del 21 ottobre 2026*, "CIS Taranto. PSC Regione Puglia - Delibera CIPE 87/2012. Intervento di "Rimozione del materiale di natura antropica dai fondali del I Seno del Mar Piccolo - II lotto". Nomina del Responsabile Unico del Progetto e del Responsabile del Procedimento", CUP J56J14000460001, pagine 3–6, https://commissari.gov.it/media/lnsjudnp/20261021_d_56_nomina_rup_marine-litter-ii-lotto_signed_signed.pdf — copia in `fonti/2026-10_commissario-taranto_decreto-56-rup-rimozione-rifiuti-fondale-lotto2.pdf`
+
+[28] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Che cosa prevede l'accordo con la Marina Militare?** Oggi il Commissario lavora con la Marina su una sola zona, l'«Area 170 ettari» (scheda B12), ma fondi e tempi non sono decisi [1][11][14]. Non abbiamo trovato l'atto firmato tra Commissario e Marina, né il piano di indagini, né quanto costerà, né chi pagherà [1][14]. Non verificato.

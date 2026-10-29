@@ -1,15 +1,15 @@
 # A7 – Discarica Nuove Vasche
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 ## A che punto è
 ### Finora
 La discarica è chiusa e coperta, ed è in «post-gestione»: Ilva deve sorvegliarla per 30 anni, fino al 2048 [1][2]. Due volte l'anno controlla l'acqua sotterranea, il percolato, le polveri e le fibre di amianto nell'aria [1][2].
 
 ### Cosa manca
-I risultati dei controlli non sono pubblici [1][8]. ISPRA ha fatto verificare la rete che raccoglie l'acqua piovana, ed è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1]. Non sappiamo quali rifiuti ci siano nelle tre vasche: le fonti dicono solo che è una discarica per rifiuti pericolosi [3][4].
+I risultati dei controlli non sono pubblici [1][8], e la Provincia dice di non aver ricevuto da Ilva i rapporti dei controlli dal 2018 [13]. ISPRA ha fatto verificare la rete che raccoglie l'acqua piovana, ed è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1] e alla Provincia il progetto non è arrivato [13]. Non sappiamo quali rifiuti ci siano nelle tre vasche: le fonti dicono solo che è una discarica per rifiuti pericolosi [3][4].
 
 ### Adesso
-Da dicembre 2025 ci sono 5 nuovi pozzi per controllare l'acqua sotterranea ogni tre mesi, insieme all'area dei fanghi, per almeno due anni [1][9]. Nessuna fonte dice quando partiranno i lavori per l'acqua piovana [1]. Non è una bonifica e non lo sarà: in una discarica i rifiuti restano dove sono.
+Da dicembre 2025 ci sono 5 nuovi pozzi per controllare l'acqua sotterranea ogni tre mesi, insieme all'area dei fanghi, per almeno due anni [1][9]. Nessuna fonte dice quando partiranno i lavori per l'acqua piovana [1]. Il 27 ottobre 2026, rispondendo a una nostra richiesta, la Provincia ha elencato i documenti che ha sulla discarica e ha chiesto a Ilva se si oppone a darceli [13]. Non è una bonifica e non lo sarà: in una discarica i rifiuti restano dove sono.
 
 ## Che posto è
 Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal SIN, divisa in tre vasche chiamate V1, V2 e V3 [2][4][1].
@@ -32,7 +32,7 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 - È formata da tre vasche, V1, V2 e V3 [1][5]. In un documento del febbraio 2007 per l'autorizzazione ambientale (AIA) dello stabilimento, Ilva scriveva che le tre vasche sono costruite "fuori terra" e contengono rispettivamente 7.600, 18.000 e 26.000 m³; che la discarica sta in un'area recintata a **sud-est della cava Mater Gratiae**; e che allora era in uso solo la vasca V2, mentre V1 e V3 erano già piene e coperte [11]. Il documento di Ilva per l'Osservatorio (2022) indica 3,6 ettari e conferma che non è nel SIN [2].
 - Vicino ci sono l'area di stoccaggio dei fanghi (schede A5+A6) e, nella stessa zona della cava, un'altra discarica "di tipo B speciale" per rifiuti non pericolosi [4][1].
 
-**Cosa c'è dentro?** Non verificato. Nessuna fonte ufficiale trovata dice quali rifiuti siano stati messi nelle tre vasche, né in che quantità. Sappiamo solo che è una discarica per rifiuti pericolosi [3][4] e che nel piano di controllo c'è la misura delle **fibre di amianto** nell'aria, due volte l'anno, "per verificarne l'eventuale presenza" [2]. Questo non prova che dentro ci sia amianto: dice solo che viene controllato.
+**Cosa c'è dentro?** Non verificato. Nessuna fonte ufficiale trovata dice quali rifiuti siano stati messi nelle tre vasche, né in che quantità. Sappiamo solo che è una discarica per rifiuti pericolosi [3][4] e che nel piano di controllo c'è la misura delle **fibre di amianto** nell'aria, due volte l'anno, "per verificarne l'eventuale presenza" [2]. Questo non prova che dentro ci sia amianto: dice solo che viene controllato. Sui rifiuti messi nella discarica la Provincia ha il decreto del Commissario delegato n. 47 del 2001 e le relazioni annuali della discarica dal 2008 al 2017, che non abbiamo ancora letto [13].
 
 **La post-gestione** (cioè cosa si fa su una discarica chiusa), secondo il documento di Ilva del 2022 [2]:
 - controllo dell'acqua sotterranea due volte l'anno, da tre pozzi (P6 a monte, P7 e MF3 a valle della discarica) [2][10];
@@ -46,7 +46,7 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 - Durata: **30 anni** dall'inizio della post-gestione, cioè fino al **2048** (Ilva indica come termine il 31 luglio 2048) [2].
 
 **Cosa risulta fatto negli ultimi anni:**
-- Controlli eseguiti secondo il piano, per esempio nel 2025: acqua sotterranea il 27 agosto, percolato il 25 agosto, polveri e fibre il 25 agosto (secondo semestre) [1]. I **risultati** dei controlli non sono pubblicati nelle relazioni [1][8].
+- Controlli eseguiti secondo il piano, per esempio nel 2025: acqua sotterranea il 27 agosto, percolato il 25 agosto, polveri e fibre il 25 agosto (secondo semestre) [1]. I **risultati** dei controlli non sono pubblicati nelle relazioni [1][8]. Alla Provincia i rapporti dei controlli dal 2018 in poi **non sono arrivati** [13].
 - Il rilievo della forma del terreno è passato da due volte l'anno a una volta l'anno [1][8].
 - Il percolato viene estratto dalle vasche V1, V2 e V3 con gli impianti già presenti [1].
 - Manutenzione del verde da parte del personale Ilva (lavoratori in cassa integrazione) e di una ditta esterna (Levangarden) [1].
@@ -56,7 +56,7 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 - ISPRA, per l'avvio della post-gestione, ha chiesto di verificare la stabilità dei fianchi artificiali della discarica e la rete che raccoglie l'acqua piovana che scorre su di essi [1].
 - La verifica ha mostrato che la rete è **sottodimensionata**, cioè troppo piccola, e va potenziata [1].
 - Ilva ha dato l'incarico per il progetto il 24 febbraio 2022 [6]. Il progetto è arrivato il 10 ottobre 2022, ma doveva essere modificato per tenere conto del vicino deposito impermeabilizzato dei fanghi [6]. Poi è stato allargato al recupero del percolato, all'impianto elettrico, alla messa a terra e alla risistemazione del terreno di copertura [7].
-- A fine 2025 il progetto risultava **redatto**, e la sua esecuzione era ancora "in agenda" [1]. Nessuna fonte dice quando inizieranno i lavori.
+- A fine 2025 il progetto risultava **redatto**, e la sua esecuzione era ancora "in agenda" [1]. Nessuna fonte dice quando inizieranno i lavori. A ottobre 2026 la Provincia non l'aveva ricevuto [13].
 
 **Controllo della falda di tutta la zona.** Nel piano di controllo dell'acqua sotterranea mandato da Ilva al Ministero il 19 giugno 2024, la discarica è controllata insieme all'area fanghi: 7 pozzi (5 nuovi), con prelievi ogni tre mesi per almeno due anni; i 5 pozzi nuovi sono stati completati a dicembre 2025 [1][9].
 
@@ -72,15 +72,18 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 - **Al 28 febbraio 2023**, secondo Ilva: 3,00 milioni € stanziati, 2,79 milioni impegnati in ordini, 1,69 milioni pagati, 2,08 milioni fatturati [12]. Dopo febbraio 2023 le fonti non danno cifre.
 - A fine 2018 Ilva non indicava spese per questa voce [5].
 - **Costo dei lavori sulla rete dell'acqua piovana**: non verificato.
-- **Garanzia economica per la post-gestione**: non verificato.
+- **Garanzia economica per la post-gestione**: non verificato. Sulla garanzia la Provincia indica una sua nota del 18 luglio 2018 (prot. 22775), che non abbiamo ancora letto [13].
 
 ## Date principali
 | Data | Cosa succede | Fonte |
 |---|---|---|
+| 2001 | Decreto n. 47 del Commissario delegato, citato dalla Provincia tra i documenti sui rifiuti della discarica (non ancora letto) | [13] |
 | febbraio 2007 | Secondo Ilva è in uso solo la vasca V2; V1 e V3 sono già piene e coperte | [11] |
 | 6 marzo 2008 | La Provincia approva il Piano di sorveglianza e controllo | [2][3] |
 | 27 marzo 2014 | Nota di Ilva (DIR 123) con il "piano di adeguamento" della discarica e la richiesta di chiusura | [3] |
 | 18 giugno 2018 | Verbale ISPRA con le prescrizioni per l'avvio della post-gestione | [2] |
+| 6 luglio 2018 | Nota del Ministero dell'Ambiente (DVA 15585) sulla chiusura, citata dalla Provincia (non ancora letta) | [13] |
+| 18 luglio 2018 | Nota della Provincia (prot. 22775) sulla garanzia e sull'acqua piovana (non ancora letta) | [13] |
 | fine 2018 | La discarica risulta in "gestione post-operativa" | [5] |
 | 24 febbraio 2022 | Ilva affida il progetto per potenziare la rete dell'acqua piovana | [6] |
 | giugno 2022 | Il Ministero segna la prescrizione UP8 come "attuata" | [3] |
@@ -115,12 +118,14 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 
 [12] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 11 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
+[13] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44941 del 27 ottobre 2026, con l'elenco dei documenti della Provincia su rifiuti, chiusura, controlli e garanzia della discarica (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-nuove-vasche.pdf`
+
 ## Cosa non sappiamo
-1. [blocca] **Quando partono i lavori per l'acqua piovana?** ISPRA ha fatto verificare la rete che raccoglie l'acqua piovana, ed è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1]. Non sappiamo quando inizieranno, quanto costano, né se nel frattempo l'acqua che scorre sui fianchi abbia causato danni. Non verificato.
+1. [blocca] **Quando partono i lavori per l'acqua piovana?** ISPRA ha fatto verificare la rete che raccoglie l'acqua piovana, ed è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1]. A ottobre 2026 il progetto non era arrivato alla Provincia [13]. Non sappiamo quando inizieranno, quanto costano, né se nel frattempo l'acqua che scorre sui fianchi abbia causato danni. Non verificato.
 2. [altra] **Che cosa c'è dentro la discarica, e c'è amianto?** Si sa solo che è una discarica per rifiuti pericolosi e che si misurano le fibre di amianto nell'aria [2][3][4]. Alcuni giornali hanno scritto negli anni di amianto nelle discariche dell'Ilva (non verificato, e non è chiaro se si riferiscano a questa).
-3. [altra] **Che cosa dicono i controlli?** Le relazioni di Ilva dicono quando sono stati fatti i prelievi, ma non i risultati: non sappiamo se l'acqua sotterranea, le polveri o le fibre abbiano mai superato i limiti [1][8].
-4. [altra] **Quando è stata chiusa davvero, e da chi?** Nel 2007 era ancora in uso la vasca V2 [11] e un documento del Ministero la indicava ancora "in esercizio" [4]; dal 2018 risulta in post-gestione [2][5]. Non abbiamo trovato l'atto della Provincia che ne certifica la chiusura definitiva. Ilva collega l'avvio della post-gestione alle prescrizioni di ISPRA del verbale del 18 giugno 2018 [10][1], che non abbiamo trovato.
-5. [altra] **Chi pagherà la post-gestione fino al 2048, e c'è una garanzia per la Provincia?** Nessuna delle fonti trovate lo dice. Non verificato.
+3. [altra] **Che cosa dicono i controlli?** Le relazioni di Ilva dicono quando sono stati fatti i prelievi, ma non i risultati: non sappiamo se l'acqua sotterranea, le polveri o le fibre abbiano mai superato i limiti [1][8]. La Provincia dice di non aver ricevuto i rapporti dei controlli dal 2018 [13]: non sappiamo se Ilva li mandi ad ARPA o a un altro ente.
+4. [altra] **Quando è stata chiusa davvero, e da chi?** Nel 2007 era ancora in uso la vasca V2 [11] e un documento del Ministero la indicava ancora "in esercizio" [4]; dal 2018 risulta in post-gestione [2][5]. Non abbiamo trovato l'atto della Provincia che ne certifica la chiusura definitiva: sulla chiusura la Provincia indica la determinazione del 2008, la nota di Ilva del 2014 e una nota del Ministero del 6 luglio 2018, nessun atto suo successivo [13]. Ilva collega l'avvio della post-gestione alle prescrizioni di ISPRA del verbale del 18 giugno 2018 [10][1], che non abbiamo trovato.
+5. [altra] **Chi pagherà la post-gestione fino al 2048, e c'è una garanzia per la Provincia?** Sulla garanzia la Provincia indica una sua nota del 18 luglio 2018, che non abbiamo ancora letto [13]. Non verificato.
 6. [altra] **Dove si trova esattamente?** Le fonti dicono solo "area cava Mater Gratiae" [4], a sud-est della cava secondo Ilva [11]. Comune (Taranto o Statte) e particelle catastali: non verificato.
 7. [altra] **Che cosa contiene la "vasca di accumulo" dell'acqua piovana, e dove finisce il percolato estratto?** Le fonti non lo dicono.
 8. [fonti] **Una data che non torna.** Il verbale del Ministero scrive che il "piano di adeguamento" della nota Ilva del 27 marzo 2014 è stato approvato dalla Provincia con una determinazione del 6 marzo 2008, cioè sei anni prima [3]. Probabilmente si confondono due atti diversi: non verificato.

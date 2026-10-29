@@ -1,5 +1,5 @@
 # B2 – Aree verdi delle scuole Deledda, De Carolis e D'Aquino (quartiere Tamburi): analisi del terreno e analisi di rischio
-*Stato scheda: approvata — aggiornata al 26 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -11,7 +11,7 @@ Il terreno delle aree verdi delle tre scuole è stato analizzato e ARPA ha appro
 Nessuna bonifica, quindi nessun certificato [2][3][8]. La Regione ha rimandato gli obiettivi di bonifica per la falda a un'unica analisi di rischio dell'acqua sotterranea di tutto il quartiere, che il Comune prevedeva di finire a novembre 2016 (scheda D6) [15]; dopo la determina, per questo sito, la Regione non ha adottato nessun altro atto [11]. Le sostanze trovate e i valori misurati non sono pubblici [2][3]. Nell'anagrafe del 2020 la Regione mette il sito tra quelli «non contaminati – rischio accettabile», anche se la sua determina parla di rischio non accettabile per la falda [8][15].
 
 ### Adesso
-Per il Commissario l'intervento è «concluso» [1]. Il 26 ottobre 2026 la Regione ci ha mandato la determina n. 145/2016 [15]; il 19 ottobre aveva scritto che dopo la determina non c'è nessun altro atto [11]. Il 20 ottobre 2026 abbiamo chiesto ad ARPA i risultati delle analisi con una richiesta di accesso civico.
+Per il Commissario l'intervento è «concluso» [1]. Il 26 ottobre 2026 la Regione ci ha mandato la determina n. 145/2016 [15]; il 19 ottobre aveva scritto che dopo la determina non c'è nessun altro atto [11]. Il 20 ottobre 2026 abbiamo chiesto ad ARPA i risultati delle analisi con una richiesta di accesso civico. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 30 novembre 2026 l'analisi di rischio dell'agosto 2015, con i risultati delle analisi [16].
 
 ## Che posto è
 I cortili e le aree verdi, circa 23.650 m², di tre scuole del quartiere Tamburi: la scuola elementare Deledda, la scuola media De Carolis e l'ex scuola media D'Aquino [3][4].
@@ -126,6 +126,8 @@ Nelle scuole Deledda e De Carolis, e in altre tre scuole del quartiere (Vico, Ga
 [14] OpenCoesione (Presidenza del Consiglio – Dipartimento per le politiche di coesione), progetto *Ventilazione meccanica controllata (VMC) delle scuole E. Giusti, G. B. Vico, A. Gabelli, G. Deledda, U. De Carolis*, CUP J54G17000030001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1mattmdgsta_23_0002/ — copia in `fonti/2026-06_opencoesione_vmc-scuole-tamburi.pdf`
 
 [15] Regione Puglia, Sezione Ciclo dei rifiuti e bonifica, *Determinazione dirigenziale n. 145 del 24 giugno 2016* (codice CIFRA 090/DIR/2016/00145), "Approvazione dell'Analisi di Rischio sito specifico per la matrice suolo riferita al sito Quartiere Tamburi – Scuole Deledda, de Carolis e D'Aquino", 5 pagine, pag. 2–4 (avuta dalla Regione il 26 ottobre 2026 con la nota prot. n. 0633644/2026, dopo una nostra richiesta e il pagamento di 5 €; non pubblicata online) — copia in `fonti/2016-06_regione-puglia_determina-145-analisi-rischio-scuole-deledda.pdf`
+
+[16] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 ## Cosa non sappiamo
 1. [altra] **Che cosa c'è nel terreno?** Non abbiamo trovato le sostanze cercate né i valori misurati. I documenti dicono solo che i risultati sono stati approvati da ARPA, che "non c'è rischio sanitario per i suoli" [2][3] e che nel terreno superficiale ci sono idrocarburi (C19–C36 alifatici) [15]. Non è la stessa cosa che dire "il terreno è pulito": l'analisi di rischio dice se le sostanze presenti sono pericolose per chi usa l'area, non se ci sono. La Regione non ha agli atti il parere di validazione di ARPA e rimanda ad ARPA; non ci ha dato i dati, perché secondo lei raccoglierli richiederebbe una rielaborazione sproporzionata [11]. Non verificato.

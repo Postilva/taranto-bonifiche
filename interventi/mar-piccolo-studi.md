@@ -1,5 +1,5 @@
 # B6 – Mar Piccolo: studi, indagini, sorvolo lidar (conclusi)
-*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -11,7 +11,7 @@ Dal 2014 il Commissario ha firmato accordi con università, enti di ricerca e Fo
 Sono studi, non una bonifica: nessun inquinante è stato tolto o trattato [1][2]. I risultati misurati, per esempio quanti PCB ci sono nei fanghi, non sono nei documenti pubblici che abbiamo letto, e nel 2022 la banca dati costruita con questi soldi non era stata consegnata al Commissario [9]. Non sappiamo quanto sia costato ogni accordo [9].
 
 ### Adesso
-Restano conti da chiudere: il pagamento alla Sogesid per lo studio delle falde (fattura del 2018, 147.550,25 €) nel 2023 era ancora da verificare [3][5], e le analisi dell'IRSA-CNR sono state pagate solo l'8 luglio 2026 [6].
+Restano conti da chiudere: il pagamento alla Sogesid per lo studio delle falde (fattura del 2018, 147.550,25 €) nel 2023 era ancora da verificare [3][5], e le analisi dell'IRSA-CNR sono state pagate solo l'8 luglio 2026 [6]. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 15 gennaio 2027 il rapporto finale delle indagini sui sedimenti del primo seno, con le concentrazioni misurate [10].
 
 ## Che posto è
 Il Mar Piccolo, dove il Commissario ha fatto studi e indagini con università, CNR e Forze dell'ordine, e una campagna di sondaggi e analisi del fondale [1][2].
@@ -103,6 +103,8 @@ Gli studi riguardano i fanghi inquinati del fondale; tra gli studi precedenti ci
 [8] Commissario straordinario per la bonifica di Taranto, sito ufficiale, Amministrazione trasparente, *Decreti 2026* (elenco n. 1–54, controllato il 7/10/2026), https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-10_commissario-taranto_sito-web-elenco-decreti-2026.html`
 
 [9] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), 15 settembre 2022, pag. 18 (nota 18, studi sul Mar Piccolo) e pag. 34–35 (audizione del Commissario Martino: spesa della "piattaforma" dell'area vasta e banca dati) della numerazione della Camera, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
+
+[10] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 ## Cosa non sappiamo
 1. [altra] **Che cosa hanno scoperto, in numeri?** Sono studi, non una bonifica [1][2]. Le quantità di inquinanti misurate nei fanghi, per esempio quanti PCB ci sono, non sono pubbliche in nessun documento che abbiamo trovato. Non verificato.

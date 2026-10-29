@@ -1,5 +1,5 @@
 # C1 – Acciaierie d'Italia: suoli dello stabilimento
-*Stato scheda: approvata — aggiornata al 17 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 **Immagine:** acciaieria-2024.jpg
 
@@ -47,7 +47,7 @@ Il terreno è stato riempito e livellato con "materiali di riporto" (scorie, lop
 
 ## Soldi
 - **Nessuna cifra pubblica** su quanto ADI o Ilva abbiano speso per le analisi dei suoli, né su quanto costerebbe una bonifica. Non verificato.
-- **Garanzia finanziaria.** Il decreto del Presidente del Consiglio del 29 settembre 2017 (il "Piano ambientale") obbligava il gestore a dare una **garanzia finanziaria a favore della Provincia di Taranto** entro 12 mesi, legata alla "Relazione di riferimento" sullo stato del suolo e della falda [7]. Importo e versamento: non verificato (vedi la richiesta FOIA).
+- **Garanzia finanziaria.** Il decreto del Presidente del Consiglio del 29 settembre 2017 (il "Piano ambientale") obbligava il gestore a dare una **garanzia finanziaria a favore della Provincia di Taranto** entro 12 mesi, legata alla "Relazione di riferimento" sullo stato del suolo e della falda [7]. Il 28 ottobre 2026, rispondendo a una nostra richiesta, la Provincia ha indicato i documenti che ha: sulla garanzia e su com'è oggi, una sua determinazione n. 1053 dell'11 settembre 2024 e una nota del Ministero dell'Economia (RTS-BA n. 75046); sull'importo, due decreti del Ministero dell'Ambiente, DVA n. 358 del 12 settembre 2018 e n. 134 del 18 aprile 2019 [17]. Non li abbiamo ancora letti: la Provincia ha chiesto ad Acciaierie d'Italia se si oppone a darceli [17]. Importo e garante: non verificati.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -60,7 +60,9 @@ Il terreno è stato riempito e livellato con "materiali di riporto" (scorie, lop
 | 2016–2017 | Analisi integrative e analisi di rischio, mai istruita per i riporti | [10][11] |
 | giugno 2017 | Ministero e ARPA chiedono il test di cessione sui riporti; Ilva fa ricorso | [8] |
 | 29 settembre 2017 | Piano ambientale (DPCM): garanzia finanziaria a favore della Provincia | [7] |
+| 12 settembre 2018 | Decreto del Ministero dell'Ambiente DVA n. 358, sull'importo della garanzia secondo la Provincia (non ancora letto) | [17] |
 | 1° novembre 2018 | ArcelorMittal Italia (poi ADI) subentra nella gestione | [10] |
+| 18 aprile 2019 | Decreto del Ministero dell'Ambiente DVA n. 134, sull'importo della garanzia secondo la Provincia (non ancora letto) | [17] |
 | 16 gennaio 2020 | TAR Lazio, sentenza n. 526: ricorso di Ilva respinto | [8][9] |
 | 16 giugno 2021 | ADI presenta il Documento programmatico | [1] |
 | 7 settembre 2021 | Primo piano di nuove analisi | [1] |
@@ -74,6 +76,7 @@ Il terreno è stato riempito e livellato con "materiali di riporto" (scorie, lop
 | 5 ottobre 2023 | ISPRA: piano non conforme alle linee guida, serve un incontro | [4] |
 | 24 ottobre 2023 | Il Ministero chiede ad ADI di adeguare il piano | [5] |
 | 20 febbraio 2024 | ADI in amministrazione straordinaria | [12] |
+| 11 settembre 2024 | Determinazione della Provincia n. 1053 sulla garanzia finanziaria (non ancora letta) | [17] |
 | 26 febbraio 2025 | ADI: nuovo modello del flusso della falda ancora da emettere | [15] |
 | 14 ottobre 2026 | Nell'archivio nessun atto sui suoli dopo ottobre 2023 | [13] |
 
@@ -112,12 +115,16 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [16] Commissione parlamentare d'inchiesta sul ciclo dei rifiuti, *Resoconto stenografico dell'audizione dei direttori generali di ISPRA e ARPA Puglia*, seduta n. 168 del 29 giugno 2022, pag. 7–9 (autocontrollo, contenzioso 2007–2016), 11–12 (caratterizzazione non conclusa, ricorso di ADI), 14–15 (oltre 2.000 sondaggi, pavimentazioni), 16–18 (TAR 526/2020), 21 (costo non stimabile), 35 (contratto d'affitto) — copia in `fonti/2022-06_parlamento_commissione-rifiuti-audizione-ispra-arpa-ilva.pdf`
 
+[17] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 45290 del 29 ottobre 2026 (firmata il 28 ottobre), con l'elenco dei documenti della Provincia sulla garanzia finanziaria prevista dal Piano ambientale del 2017 (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-garanzia-acciaierie.pdf`
+
+[18] Commissari straordinari di ILVA S.p.A. in A.S., *Relazione concernente il conto di contabilità speciale n. 6055 (Secondo semestre 2024)*, Doc. XXVII n. 20 (XIX legislatura), trasmessa alla Presidenza il 7 gennaio 2025, pagina 3 (sintesi dei movimenti, scansione), https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/027/020_RS/INTERO_COM.pdf — copia in `fonti/2025-01_ilva-as_relazione-contabilita-speciale-6055-II-sem-2024.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Acciaierie d'Italia ha mai mandato il piano corretto delle analisi?** Nel 2023 ARPA e ISPRA hanno bocciato il piano delle nuove analisi, e il 24 ottobre 2023 il Ministero ha chiesto all'azienda di rifarlo [3][4][5]. Dopo, l'archivio non contiene nulla sui suoli [13]. Non sappiamo se ADI abbia risposto, se l'incontro con ISPRA ci sia stato o se le 109 perforazioni siano state fatte. Non verificato: vedi la FOIA al Ministero.
 2. [blocca] **Come sono finiti i ricorsi?** Sul test di cessione dei riporti prima Ilva e poi Acciaierie d'Italia hanno fatto ricorso, e la pratica si è bloccata per anni [8][10][16]. Non sappiamo come sia finito l'appello al Consiglio di Stato contro la sentenza del TAR n. 526/2020, né il ricorso di ADI contro le richieste di ISPRA e ARPA del 2021 [16]. Le ricerche online del 16 e 17 ottobre 2026 non hanno dato risultati (la sentenza del Consiglio di Stato n. 4802/2021 riguarda un'altra causa, l'ordinanza del sindaco sull'area a caldo). Nel 2022 ISPRA e ARPA avevano promesso alla Commissione la tabella completa dei ricorsi con gli esiti [16]: non è pubblica. Non verificato.
 3. [blocca] **Chi deve pagare la bonifica?** ADI dice di non essere responsabile e di non accettare "in modo incondizionato" gli obblighi [1]; Ilva, che ha gestito lo stabilimento prima del 2018, è in amministrazione straordinaria. Nessun atto pubblico dice chi pagherà né quanto. Non verificato.
 4. [altra] **Quali siti deve decontaminare ADI per contratto?** Il contratto d'affitto tra Ilva e ADI ha un allegato ("sub 8", il "Capitolato decontaminazioni") con circa 30 siti di decontaminazione a carico di ADI; ARPA non ne ha copia e nessuna mappa è pubblica [16]. La Commissione parlamentare l'ha acquisito nel 2022 [10]. Non verificato.
-5. [altra] **La garanzia finanziaria per la Provincia è stata data?** La prevede il Piano ambientale del 2017 [7]: non sappiamo se sia stata data e per quanto.
+5. [altra] **La garanzia finanziaria per la Provincia è stata data, e per quanto?** La prevede il Piano ambientale del 2017 [7]. La Provincia ha una determinazione dell'11 settembre 2024 e due decreti del Ministero sull'importo, che non abbiamo ancora letto [17]. Nel secondo semestre 2024 i soldi lasciati dai Riva hanno pagato ad Acciaierie d'Italia 23,59 milioni € «per costituzione garanzia finanziaria per il rinnovo dell'Autorizzazione integrata ambientale» [18]: potrebbe essere la stessa garanzia, ma non verificato.
 6. [altra] **Quanto sono grandi e dove sono le aree dell'azienda fuori dal SIN?** Secondo ARPA non sono mai state analizzate [3]. Non verificato.
 7. [altra] **Dove sono i risultati delle analisi dal 2005 al 2021?** Non sono nell'archivio online del Ministero, che parte dal 2022 [13]; le cifre sui 25 ettari oltre i limiti sono di ADI [1].
 8. [altra] **Cosa cambia con la vendita dello stabilimento?** La vendita è in corso nel 2026, e nessun atto pubblico dice se gli obblighi sui suoli passeranno al compratore. Non verificato.

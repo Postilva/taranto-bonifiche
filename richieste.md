@@ -13,16 +13,16 @@ Le richieste che abbiamo inviato agli enti per le aree del censimento, con solo 
 
 | N. | Aree | A chi | Cosa abbiamo chiesto | Inviata il | Risposta entro |
 |---|---|---|---|---|---|
-| 01 | B10 | al Commissario straordinario per la bonifica di Taranto | quanto è stato speso per i primi interventi, se la messa in sicurezza d'emergenza è finita, chi attua il nuovo intervento, da dove vengono i fondi e con quali tempi, e chi ha inquinato | 15/10/2026 | 14/11/2026 |
+| 01 | B10 | al Commissario straordinario per la bonifica di Taranto | quanto è stato speso per i primi interventi, se la messa in sicurezza d'emergenza è finita, chi attua il nuovo intervento, da dove vengono i fondi e con quali tempi, e chi ha inquinato | 15/10/2026 | 30/11/2026 |
 | 02 | B10 | al Comune di Statte | se la messa in sicurezza d'emergenza è finita, il programma dei lavori, la nuova progettazione e le misure dell'aria e dei gas del sottosuolo dopo il 2020 | 15/10/2026 | 14/11/2026 |
 | 03 | A15 | alla Regione Puglia | il piano delle analisi approvato e i documenti che lo accompagnano, quando partono le indagini, i controlli della falda dal 2024 e la richiesta di far entrare le collinette nel SIN | 15/10/2026 | 14/11/2026 |
 | 04 | A15 | ad ARPA Puglia | le analisi del 2018–2019, il suo parere sull'analisi di rischio del 2021, i controlli della falda, l'inizio delle analisi complete e le misure dell'aria nelle scuole vicine e dopo l'incendio del 2024 | 08/10/2026 | 07/11/2026 |
-| 05 | B2 | al Commissario straordinario per la bonifica di Taranto | i risultati delle analisi, l'analisi di rischio e i pagamenti e la chiusura dei lavori | 15/10/2026 | 14/11/2026 |
+| 05 | B2 | al Commissario straordinario per la bonifica di Taranto | i risultati delle analisi, l'analisi di rischio e i pagamenti e la chiusura dei lavori | 15/10/2026 | 30/11/2026 |
 | 06 | B2 | alla Regione Puglia | la determinazione n. 145 del 2016, i dati delle analisi e lo stato della pratica | 15/10/2026 | 14/11/2026 |
 | 58 | B2 | ad ARPA Puglia | la validazione e i risultati delle analisi dei terreni, il suo parere sull'analisi di rischio e i controlli dopo il 2016 | 20/10/2026 | 19/11/2026 |
 | 07 | B9 | al Comune di Taranto | le prime analisi, le analisi complete, l'atto che ha chiuso l'impianto e il progetto dei lavori | 15/10/2026 | 14/11/2026 |
-| 08 | B9 | al Commissario straordinario per la bonifica di Taranto | i pagamenti, l'inizio e i risultati dei lavori e gli atti che li hanno preparati | 15/10/2026 | 14/11/2026 |
-| 09 | B8 | al Commissario straordinario per la bonifica di Taranto | quanto è inquinato il terreno, la messa in sicurezza d'emergenza, dove è finita la terra scavata, le spese, il progetto aggiornato e i fondi | 15/10/2026 | 14/11/2026 |
+| 08 | B9 | al Commissario straordinario per la bonifica di Taranto | i pagamenti, l'inizio e i risultati dei lavori e gli atti che li hanno preparati | 15/10/2026 | 30/11/2026 |
+| 09 | B8 | al Commissario straordinario per la bonifica di Taranto | quanto è inquinato il terreno, la messa in sicurezza d'emergenza, dove è finita la terra scavata, le spese, il progetto aggiornato e i fondi | 15/10/2026 | 30/11/2026 |
 | 10 | B8 | al Comune di Taranto | i divieti di accesso, le analisi, le analisi complete del 2013 e le misure per proteggere chi lavora nel cimitero e chi lo visita | 15/10/2026 | 14/11/2026 |
 | 11 | A8 | al Comune di Statte | l'ordinanza sui rifiuti, i rifiuti ancora presenti, di chi è il terreno vicino, la recinzione e i controlli | 15/10/2026 | 14/11/2026 |
 | 12 | A8 | ad ARPA Puglia | la validazione delle analisi del 2022, i nuovi pozzi di controllo, l'acqua sotterranea, le nuove indagini, i rifiuti e gli accessi | 08/10/2026 | 07/11/2026 |
@@ -49,10 +49,10 @@ Le richieste che abbiamo inviato agli enti per le aree del censimento, con solo 
 | 43 | A17 | alla Provincia di Taranto | la concessione del pozzo, quanta acqua si preleva e com'è, e l'impianto che dovrebbe depurarla | 13/10/2026 | 12/11/2026 |
 | 44 | A17 | ad ARPA Puglia | i controlli dopo il decreto del Ministero, la validazione del 2023 e gli accessi | 13/10/2026 | 12/11/2026 |
 | 45 | A18 | al Ministero delle Imprese (MIMIT) | dove si trova l'area, le verifiche ambientali, la cessione e perché è stata esclusa dalle aree date al gestore della fabbrica | 13/10/2026 | 12/11/2026 |
-| 21 | B13 | al Commissario straordinario per la bonifica di Taranto | a che punto è la gara, le imprese ammesse, le spese, i fondi e i sedimenti | 15/10/2026 | 14/11/2026 |
+| 21 | B13 | al Commissario straordinario per la bonifica di Taranto | a che punto è la gara, le imprese ammesse, le spese, i fondi e i sedimenti | 15/10/2026 | 15/01/2027 |
 | 22 | B13 | alla Regione Puglia | quanto è stato speso e se i fondi sono ancora validi, e i controlli | 15/10/2026 | 14/11/2026 |
-| 23 | B12 | al Commissario straordinario per la bonifica di Taranto | gli accordi con la Marina Militare, il nulla osta di ISPRA, la bonifica dagli ordigni bellici, le indagini e il progetto, i soldi e i tempi, e i sedimenti | 15/10/2026 | 14/11/2026 |
-| 27 | B6 | al Commissario straordinario per la bonifica di Taranto | gli accordi di collaborazione, le indagini sui sedimenti del primo seno, i risultati, la convenzione con Sogesid del 2016 e dove sono conservati i dati | 15/10/2026 | 14/11/2026 |
+| 23 | B12 | al Commissario straordinario per la bonifica di Taranto | gli accordi con la Marina Militare, il nulla osta di ISPRA, la bonifica dagli ordigni bellici, le indagini e il progetto, i soldi e i tempi, e i sedimenti | 15/10/2026 | 15/01/2027 |
+| 27 | B6 | al Commissario straordinario per la bonifica di Taranto | gli accordi di collaborazione, le indagini sui sedimenti del primo seno, i risultati, la convenzione con Sogesid del 2016 e dove sono conservati i dati | 15/10/2026 | 15/01/2027 |
 | 53 | D1, D2, D3, D4, D5, D6 | ad ARPA Puglia | a che punto sono, nell'anagrafe regionale dei siti da bonificare, i terreni e la falda del quartiere Tamburi | 14/10/2026 | 13/11/2026 |
 | 53 | D8, D16, D17 | ad ARPA Puglia | a che punto sono, nell'anagrafe regionale dei siti da bonificare, l'area vasta di Statte e le aree di deposito UA26 e UA27 | 14/10/2026 | 13/11/2026 |
 | 55 | C1, C2 | al Ministero dell'Ambiente (MASE) | le analisi dei suoli, dei materiali di riporto e della falda, la barriera che pompa l'acqua dei Parchi primari, i documenti citati ma non pubblicati, le cause in tribunale e chi deve fare la bonifica | 17/10/2026 | 16/11/2026 |
