@@ -139,10 +139,16 @@ const elencoCodici = cs => {
 const fuoriLettera = () => { const d = g => ELENCO[g].items.map(r => r[0]).filter(c => c[0] === "D");
   return `${elencoCodici(d("A"))} sono aree di Ilva, ${elencoCodici(d("B"))} sono ricadute`; };
 const codice = k => { const s = verified[k]; return s ? `<a class="cod g${GRUPPO[k] || "A"}" href="${reportHref(k)}" title="${esc(s.short)}">${k}</a>` : `<a class="cod todo" href="mappa.html#${k}" title="${esc(ROW[k] ? ROW[k][1] : k)}">${k}</a>`; };
-// cosa c'è da bonificare: un riquadro per tipo di inquinamento (simbolo, nome, riga breve); il tocco apre il pannello sulla sua voce
-const ICONE_COSA = ['<path d="M3 19h18l-7-12-3 5-2-3z"/>', '<path d="M3 8h18M3 13h18M3 18h18"/>',
-  '<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>', '<path d="M3 9c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/>'];
-$("#cosa").innerHTML = C.cosa.voci.map((v, i) => `<a class="cb" href="#cb-${i + 1}"><svg viewBox="0 0 24 24" aria-hidden="true">${ICONE_COSA[i] || ""}</svg><b>${esc(v.nome)}</b><small>${esc(v.breve)}</small></a>`).join("");
+// cosa c'è da bonificare: un riquadro per tipo di inquinamento (simbolo, nome, riga breve); il tocco apre il pannello sulla sua voce.
+// Il simbolo va con il nome della voce in contesto.md
+const ICONE_COSA = {
+  "Gli impianti": '<path d="M3 20h18M4 20v-8l5 3v-3l5 3V5h4v15"/>',
+  "L'amianto": '<path d="M5 19 19 5M4 13l9-9M11 20l9-9"/>',
+  "I rifiuti": '<path d="M3 19h18l-7-12-3 5-2-3z"/>',
+  "I terreni": '<path d="M3 8h18M3 13h18M3 18h18"/>',
+  "L'acqua sotto terra": '<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>',
+  "Il fondo del mare": '<path d="M3 9c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/>'};
+$("#cosa").innerHTML = C.cosa.voci.map((v, i) => `<a class="cb" href="#cb-${i + 1}"><svg viewBox="0 0 24 24" aria-hidden="true">${ICONE_COSA[v.nome] || ""}</svg><b>${esc(v.nome)}</b><small>${esc(v.breve)}</small></a>`).join("");
 const PANNELLI = {
   cosa: ["Cosa c'è da bonificare", () => {
     const c = h => cite(h, "cosa");
