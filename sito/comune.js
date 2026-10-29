@@ -19,7 +19,7 @@ const GRUPPO = {};   // codice → "A" | "B"
 for (const g of ["A","B"]) {
   ELENCO[g].items = ELENCO[g].subs.flatMap(s => s[1]);
   ELENCO[g].items.forEach(r => GRUPPO[r[0]] = g);
-  ELENCO[g].count = ELENCO[g].items.length + " interventi";
+  ELENCO[g].count = ELENCO[g].items.length + " aree";
 }
 // ricadute per cui la fonte che lega l'inquinamento all'Ilva non è ancora stata trovata
 const DA_VERIFICARE = new Set(ELENCO.B.subs.filter(s => s[0].startsWith("Da verificare")).flatMap(s => s[1].map(r => r[0])));

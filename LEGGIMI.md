@@ -6,6 +6,8 @@
 - **aree di Ilva**: aree di Ilva in A.S. e dello stabilimento di Acciaierie d'Italia, anche fuori dal SIN;
 - **ricadute fuori dalla fabbrica** (sul sito "Ricadute" o "Ricadute dell'Ilva", non "fuori dalla fabbrica": anche molte aree di Ilva sono fuori dallo stabilimento, deciso il 29/10/2026): di regola solo se una fonte ufficiale dice che l'inquinamento viene (anche) dall'Ilva. Il 20/10/2026 l'utente ha messo dentro anche le 9 aree che erano "da verificare" (Tamburi B9 e D1–D6, Statte B10 e D8): dove la fonte è generale o manca, lo dice il paragrafo "Perché sono qui" in `elenco.md` e la scheda.
 
+Sul sito le voci dell'elenco si chiamano sempre **aree**, anche nella mappa (deciso il 29/10/2026): "interventi" resta solo per i lavori veri (del Commissario, del SIN), perché per molte aree nessuno sta facendo niente.
+
 Tutto il resto (aree inquinate da altri, voci del Commissario che non riguardano l'inquinamento dell'Ilva) sta in `fuori-perimetro.md` e le sue schede in `interventi/fuori-perimetro/`: il sito non le legge. Prima di aprire una scheda nuova, controllare che l'area sia nel censimento.
 
 **Regola d'oro: non complicare.** Pochi file, passi piccoli, e un riepilogo di 2–3 righe alla fine di ogni passo.
