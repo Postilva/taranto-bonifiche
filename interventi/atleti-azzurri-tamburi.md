@@ -1,5 +1,5 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -9,7 +9,7 @@ Nel maggio 2024 il Comune ha comunicato di aver trovato piombo e IPA nel terreno
 Le analisi non sono finite: a gennaio 2026 erano annunciate per marzo, ma a fine giugno il Commissario le descriveva ancora «in via di completamento» [9][10]. Nessun risultato è pubblico. Il campo non è messo in sicurezza né bonificato.
 
 ### Adesso
-Dopo le analisi servono l'analisi di rischio e poi la messa in sicurezza o la bonifica [2][9]. Alcuni giornali scrivono che la Regione ha chiesto agli enti un parere sull'analisi di rischio entro il 28 ottobre 2026, ma l'atto ufficiale non l'abbiamo trovato: non verificato.
+Dopo le analisi servono l'analisi di rischio e poi la messa in sicurezza o la bonifica [2][9]. Alcuni giornali scrivono che la Regione ha chiesto agli enti un parere sull'analisi di rischio entro il 28 ottobre 2026, ma l'atto ufficiale non l'abbiamo trovato: non verificato. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 30 novembre 2026 i risultati delle analisi ricevuti dal Comune, se sono già arrivati [16].
 
 ## Che posto è
 L'impianto sportivo comunale "Atleti Azzurri d'Italia", nel quartiere Tamburi, che il Comune di Taranto vuole rifare con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3].
@@ -135,6 +135,8 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 [14] Comune di Taranto, portale trasparenza degli atti (https://taranto.trasparenza-valutazione-merito.it), ricerche "Atleti Azzurri", "B814D04423" e "E53B19000020001" del 21 ottobre 2026: titoli degli atti sulla recinzione di somma urgenza del campo (CIG B1FAAF75E0: presa d'atto del verbale del 20/05/2024 e liquidazione della fattura n. 06/2024 del 09/08/2024, 55.000 € IVA compresa), sulle indagini preliminari (CIG ZE13843B09, aggiudicazione ad Apogeo S.r.l.) e sul prelievo e analisi dei campioni di terreno (CIG B814D04423, CUP E59D25000260001: affidamento diretto ad Apogeo S.r.l., impegno e accertamento dopo il decreto commissariale n. 23/2025). Dal portale si leggono solo i titoli.
 
 [15] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, foglio 203, particella 502; centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
+
+[16] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **A che punto sono le analisi?** Il cantiere per i prelievi doveva essere consegnato il 20 ottobre 2025 ad Apogeo S.r.l. [13][14]. Le analisi dovevano finire entro marzo 2026 [9], a fine giugno erano "in via di completamento" [10], e non c'è ancora nessun risultato pubblico. L'anticipo, al 2 ottobre 2026, non risulta pagato [8]. Secondo il Corriere di Taranto (11/10/2026) e altri giornali locali, ARPA ha validato l'esecuzione del piano delle analisi, il Comune ha mandato l'analisi di rischio e la Regione ha convocato una conferenza di servizi "semplificata e asincrona" (pareri scritti, senza riunione) con termine il 28 ottobre 2026. La convocazione della Regione e la validazione di ARPA non sono pubblicate e non le abbiamo trovate: **non verificato**. Dopo le analisi, la Regione dovrà approvare l'analisi di rischio con una determinazione, che di solito compare nel registro dei provvedimenti dei dirigenti (come la n. 146/2025 [3]).

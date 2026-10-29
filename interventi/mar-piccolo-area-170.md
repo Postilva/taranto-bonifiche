@@ -1,5 +1,5 @@
 # B12 – Mar Piccolo: bonifica dell'"Area 170 ha" con ecodragaggio (con la Marina Militare)
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -11,7 +11,7 @@ Il fondale davanti all'Arsenale è stato analizzato nel 2005: contaminazione est
 Nessun lavoro sui fanghi è partito e i soldi non sono assegnati: la Regione ha solo indicato circa 33,5 milioni di euro (dicembre 2025) [1][3]. Non abbiamo trovato il piano delle indagini, il nulla osta di ISPRA né l'atto sulla bonifica da ordigni [1][16]. I valori misurati nei fanghi non sono pubblici. L'area non è né bonificata né messa in sicurezza [1].
 
 ### Adesso
-Secondo il Commissario seguirà la programmazione dei dragaggi e delle indagini lungo le banchine [16], ma non ci sono date [1]. Il collegamento con i lavori della Marina sulla Base Sommergibili è dichiarato dal Commissario ma non spiegato in nessun atto che abbiamo trovato [1].
+Secondo il Commissario seguirà la programmazione dei dragaggi e delle indagini lungo le banchine [16], ma non ci sono date [1]. Il collegamento con i lavori della Marina sulla Base Sommergibili è dichiarato dal Commissario ma non spiegato in nessun atto che abbiamo trovato [1]. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 15 gennaio 2027 il nulla osta tecnico di ISPRA del 24 novembre 2025 [22].
 
 ## Che posto è
 La zona del 1° seno del Mar Piccolo davanti all'Arsenale della Marina Militare [6].
@@ -164,6 +164,8 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 [20] Regione Puglia, *Ordinanza del Presidente della Giunta regionale n. 323 del 16 settembre 2021*, "Misure sanitarie straordinarie di controllo del rischio per diossina e PCB nelle produzioni di mitili di Taranto. Proroga termini", Bollettino ufficiale della Regione Puglia n. 119 suppl. del 16 settembre 2021 (cita la proroga n. 532 del 13 settembre 2018), https://burp.regione.puglia.it/documents/20135/1552603/ORD_323_2021.pdf/4537c6d7-16bb-6d1b-c6da-dfa3c6576a92?t=1631883384854 — copia in `fonti/2021-09_regione-puglia_ordinanza-323-2021-proroga-mitili.pdf`
 
 [21] Regione Puglia, comunicato *Mitilicoltura Taranto, prorogate le misure sanitarie straordinarie di controllo del rischio per diossina e policlorobifenili*, 5 settembre 2024 (ordinanza n. 379 del 5 settembre 2024), https://press.regione.puglia.it/-/mitilicoltura-taranto-prorogate-le-misure-sanitarie-straordinarie-di-controllo-del-rischio-per-diossina-e-policlorobifenili — copia in `fonti/2024-09_regione-puglia_comunicato-ordinanza-379-2024-mitili.html`
+
+[22] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Che cosa prevede l'accordo con la Marina del 2025–2026?** Non abbiamo trovato nessun atto firmato sull'Area 170 ha: né l'accordo, né il piano di indagini, né chi lo paga, né il costo [1][2]. L'opuscolo dice che i ruoli sono ancora da "formalizzare" [1]. Non abbiamo trovato nemmeno il "nulla osta tecnico" di ISPRA del 24 novembre 2025 né gli atti della bonifica da ordigni bellici iniziata a gennaio 2026 [16]. Il 9 ottobre 2026 due ricerche sul web non hanno trovato altro. Non verificato.

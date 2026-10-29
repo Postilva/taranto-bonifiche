@@ -1,5 +1,5 @@
 # B10 – Zona PIP di Statte: messa in sicurezza dei rifiuti industriali e della falda profonda
-*Stato scheda: approvata — aggiornata al 27 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 ## A che punto è
 ### Finora
@@ -9,7 +9,7 @@ Le analisi di terreno e falda sono finite nel 2013 e l'analisi di rischio, rifat
 La messa in sicurezza definitiva è ferma dal 2020: il Ministero ha sollevato «notevoli obiezioni» al progetto che chiudeva i rifiuti dentro barriere di cemento, e nel 2021 ha indicato di toglierli [7][22]. ARPA e ISPRA hanno trovato molte carenze nello studio del Comune del 2022, a partire dalla mancanza di analisi dei rifiuti [13][14]. Nella vecchia cava ci sono circa 640.000 m³ di rifiuti industriali, e non si sa ancora se sarà bonifica o messa in sicurezza [10]. Nessun documento dice chi li ha portati lì [1][4][10].
 
 ### Adesso
-Al 30 giugno 2026 il nuovo intervento risultava «non avviato», con 0 € spesi [17]. Secondo il Commissario si dovranno aggiornare le analisi e affidare il progetto, e «a breve» si ripartirà [1]. Anche i conti dei primi lavori non sono ancora chiusi [1].
+Al 30 giugno 2026 il nuovo intervento risultava «non avviato», con 0 € spesi [17]. Secondo il Commissario si dovranno aggiornare le analisi e affidare il progetto, e «a breve» si ripartirà [1]. Anche i conti dei primi lavori non sono ancora chiusi [1]. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 30 novembre 2026 i certificati di fine lavori e di regolare esecuzione della prima messa in sicurezza d'emergenza [29].
 
 ## Che posto è
 Un'area per le imprese di circa 9 ettari a Statte, costruita sopra una vecchia cava [4][10].
@@ -258,6 +258,8 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 [27] Commissario straordinario per la bonifica di Taranto, *Decreto n. 1 del 13 gennaio 2025* (completamento del I lotto di rimozione dei rifiuti dal fondale del Mar Piccolo), pagine 2–3: la delibera CIPE 87/2012 assegna alla Regione Puglia 75.167.413 € per il molo polisettoriale (17.167.413 €), l'area PIP di Statte (37.000.000 €) e il Mar Piccolo (21.000.000 €), https://commissari.gov.it/media/44hpmemr/20250113_d_1_lp_4-5-sf_rti-serveco_compl_i_lotto.pdf — copia in `fonti/2025-01_commissario-taranto_decreto-1-2025-stato-finale-completamento-lotto1.pdf`
 
 [28] OpenCUP (Dipartimento per la programmazione e il coordinamento della politica economica), progetto CUP J76J14000840001, *Intervento di MISE del surnatante oleoso falda profonda area PIP* ("Intervento di MISE da avviare preliminarmente all'intervento di MISP"), soggetto titolare Comune di Statte, anno di decisione 2014, delibera CIPE 87, consultato il 25 ottobre 2026, https://www.opencup.gov.it/portale/web/opencup/progetto/-/cup/J76J14000840001 — copia in `fonti/2026-10_opencup_J76J14000840001-mise-surnatante-pip-statte.html`
+
+[29] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Quale sarà il progetto?** La messa in sicurezza definitiva è ferma dal 2020, e nel 2021 il Ministero ha indicato di togliere i rifiuti [7][22]. La soluzione del 2022 lascerebbe sul posto circa 535.000 m³ di rifiuti chiusi in una cava impermeabilizzata [10], e ISPRA e ARPA hanno trovato molte lacune [13][14]. Al 30 giugno 2026 il nuovo intervento risultava «non avviato», con 0 € spesi [17]. Non si sa se il nuovo progetto toglierà tutti i rifiuti o no, quindi non si sa se alla fine sarà una "bonifica" o una "messa in sicurezza". Diversi giornali (per esempio NoiNotizie del 20/06/2026) riportano un comunicato del Comune di Statte su un sopralluogo del 19 giugno 2026 dell'Unità tecnico-amministrativa della Presidenza del Consiglio, del Commissario Uricchio e del sindaco per una "soluzione progettuale radicalmente nuova"; il comunicato non è sul sito del Commissario, e la pagina "Bonifica Area PIP" del Comune contiene solo documenti del 2013 (ricontrollato il 1/10/2026): è solo un giornale, quindi non verificato.

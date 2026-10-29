@@ -1,5 +1,5 @@
 # B8 – Cimitero San Brunone (Taranto): bonifica delle aree non pavimentate
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -11,7 +11,7 @@ La terra dei campi e delle aiuole è stata analizzata e ARPA ha convalidato i ri
 I lavori si sono fermati dopo tre mesi e il 6 maggio 2021 il Commissario ha annullato la gara, per errori nei conti del progetto [3][10]. Sul posto restano recinzioni e teloni sulla terra scavata [3][10][11]. Il Commissario scrive che la messa in sicurezza d'emergenza è «completata» [14], ma nessun atto la descrive: non è verificata [3][15].
 
 ### Adesso
-Dal 2026 Sogesid sta rifacendo il progetto [3]. Costa circa 17,5 milioni di euro e ce ne sono circa 9,4 [1][3]; nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha avuto nulla [12].
+Dal 2026 Sogesid sta rifacendo il progetto [3]. Costa circa 17,5 milioni di euro e ce ne sono circa 9,4 [1][3]; nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha avuto nulla [12]. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 30 novembre 2026 i risultati delle analisi e l'analisi di rischio arrivati dal Comune nel febbraio 2026 e l'atto che chiude la messa in sicurezza d'emergenza [20].
 
 ## Che posto è
 Il cimitero storico di Taranto, nel quartiere Tamburi, vicino all'ex Ilva: la contaminazione riguarda il terreno dei campi dove si seppelliscono i morti e delle aiuole [1][2][4].
@@ -191,6 +191,8 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 [18] Commissario straordinario per la bonifica di Taranto, sito ufficiale (non più online), pagina *Comune di Taranto – Quartiere Tamburi* (stato avanzamento lavori, punto a.2), copia di Internet Archive del 19/09/2020: http://web.archive.org/web/20200919032356/http://www.commissariobonificataranto.it/attivita/avanzamento-fisico-dei-progetti/comune-taranto-quartiere-tamburi-progetti/ — copia in `fonti/2020-09_commissario-taranto_sito-web-avanzamento-progetti-tamburi.pdf`
 
 [19] Commissario straordinario per la bonifica di Taranto, *Decreto n. 30 del 12 maggio 2026* (premesse: Protocollo d'intesa del 28 febbraio 2018 sui fondi FSC 2014-2020 della delibera CIPE 55/2016, pag. 4 del PDF), elenco dei decreti 2026: https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-05_commissario-taranto_decreto-30-vmc-scuole-tamburi.pdf`
+
+[20] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Sogesid ha consegnato il progetto aggiornato?** Doveva consegnarlo in 50 giorni, cioè intorno all'inizio di giugno 2026 [3]. Non abbiamo trovato nessun documento che dica se sia stato consegnato, né quando partiranno le gare dei lotti. Di sicuro non è stato approvato con un decreto pubblicato: dopo il n. 18 non c'è nessun altro decreto sul cimitero fino al n. 54 del 2 ottobre 2026 [13]. Non verificato.
