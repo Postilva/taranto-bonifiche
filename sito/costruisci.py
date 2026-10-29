@@ -478,17 +478,29 @@ def leggi_contesto():
         colonne.append({"titolo": titolo, "voci": voci})
     out["inquina"] = {"img": immagini_di(ci), "intro": section_html(testo(prima(ci))), "colonne": colonne}
 
+    # la fabbrica: intro, i reparti (lista numerata), chiusura; poi parti "### titolo" con testo e, se c'è, una tabella
+    # "| voce | Milioni € |" che il sito mostra come tabella: l'ultima riga è il Totale e la somma delle altre deve tornare
     fa = secs["la fabbrica"]
-    reparti, dopo, visto = [], [], False
+    reparti, dopo, visto, parti = [], [], False, []
     for kind, val in blocks(testo(fa)):
-        if kind == "ol":
+        if kind == "h":
+            parti.append({"titolo": val, "html": "", "righe": []})
+        elif parti and kind == "p":
+            parti[-1]["html"] += f"<p>{inline(val)}</p>"
+        elif parti and kind == "table":
+            *righe, tot = [(r[0], float(r[1].replace(".", "").replace(",", "."))) for r in val[1:]]
+            if tot[0] != "Totale" or abs(sum(v for _, v in righe) - tot[1]) > 0.05 * len(righe):   # cifre arrotondate a 0,1
+                sys.exit(f"contesto.md, La fabbrica, {parti[-1]['titolo']}: l'ultima riga della tabella deve essere il Totale, uguale alla somma delle altre")
+            parti[-1]["testa"], parti[-1]["righe"], parti[-1]["tot"] = val[0], [{"nome": n, "v": v} for n, v in righe], tot[1]
+            parti[-1]["html"] += "<!--tabella-->"
+        elif kind == "ol":
             visto = True
             for it in val:
                 m = re.match(r"\*\*(.+?)\*\*:?\s*(.*)", " ".join(x.strip() for x in it))
                 reparti.append({"nome": m.group(1), "html": inline(m.group(2))})
         elif kind == "p":
             (dopo if visto else out.setdefault("_fa_intro", [])).append(f"<p>{inline(val)}</p>")
-    out["fabbrica"] = {"img": immagini_di(fa), "intro": "".join(out.pop("_fa_intro", [])), "reparti": reparti, "chiusura": "".join(dopo)}
+    out["fabbrica"] = {"img": immagini_di(fa), "intro": "".join(out.pop("_fa_intro", [])), "reparti": reparti, "chiusura": "".join(dopo), "parti": parti}
 
     gl = []
     for titolo, righe in sotto(secs["glossario"]):
@@ -870,7 +882,7 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
                  '<div class="pz-g">'
                  f'<div class="pz-p"><h3>1. Come erano divisi<small>milioni €, secondo Ilva, giugno 2022</small></h3>{barra(previsti, "Come erano divisi")}</div>'
                  f'<div class="pz-p"><h3>2. Dove sono andati<small>milioni €, fino a fine 2025</small></h3>{barra(andati, "Dove sono andati")}'
-                 f'<p class="note">Usati per altro, in giallo: circa <b>{num_it(n_usati, 0)} milioni</b>. Ad Acciaierie d\'Italia, per far funzionare la fabbrica, ne sono andati {num_it(adi["certo"], 0)} certi, {num_it(adi["certo"] + adi["probabile"], 0)} contando i probabili. '
+                 f'<p class="note">Usati per altro, in giallo: circa <b>{num_it(n_usati, 0)} milioni</b>. Ad Acciaierie d\'Italia, per far funzionare la fabbrica, ne sono andati {num_it(adi["certo"], 0) + (" certi, " + num_it(adi["certo"] + adi["probabile"], 0) + " contando i probabili" if adi["probabile"] else "")}. '
                  f'Il resto, al massimo circa {num_it(resto, 0)} milioni, comprende le bonifiche nella fabbrica e nelle aree di Ilva e le altre spese del fondo, contro i {num_it(bonifiche, 0)} milioni previsti per le bonifiche (calcolo nostro).</p></div></div>'
                  + ilva_tab
                  + "".join(f'<p class="aperta"><b>{cita(d["q"])}</b> <a href="#domande">Cosa non sappiamo →</a></p>' for d in domande_pd)

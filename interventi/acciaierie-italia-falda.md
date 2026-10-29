@@ -1,5 +1,5 @@
 # C2 – Acciaierie d'Italia: falda sotto lo stabilimento
-*Stato scheda: approvata — aggiornata al 17 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
 
 **Immagine:** acciaieria-2024.jpg
 
@@ -61,7 +61,7 @@ Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 92
   - ADI contesta i PCB trovati da ARPA: nelle sue analisi sugli stessi campioni non ci sono superamenti [11].
 
 ## Soldi
-- **Nessuna cifra pubblica** sul costo della barriera dei Parchi, del test pilota o dei controlli. Non verificato.
+- **Quanto è stato speso.** Secondo i dati che Acciaierie d'Italia passa a Ilva per il contratto d'affitto, al 31 marzo 2025 la "realizzazione e gestione impianti trattamento acque di falda del sito di Taranto" era costata circa 3,99 milioni €, e il recupero degli idrocarburi 552.000 € al TUL2, 147.000 al CCO5 e 34.000 al TNA2; tutte voci "in corso" [16]. Fino al 31 dicembre 2025, per terreno e falda dello stabilimento insieme, circa 5,6 milioni [17]. Non si sa quanto sia costata la sola barriera dei Parchi, né con quali soldi siano stati pagati questi lavori [16][17].
 
 ## Date principali
 | Data | Cosa succede | Fonte |
@@ -118,6 +118,10 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [14] Acciaierie d'Italia / Eni Rewind, *Piano di indagine…*, 14 giugno 2023, Annesso 1, "Superamenti CSC acque falda superficiale – dati PMC 2020-2022" (in realtà dal 2018), pag. 1 e 4, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=10844_Taranto_23-99506.zip — copia in `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-1-superamenti-falda.pdf`
 
 [15] Commissione parlamentare d'inchiesta sul ciclo dei rifiuti, *Resoconto stenografico dell'audizione dei direttori generali di ISPRA e ARPA Puglia*, seduta n. 168 del 29 giugno 2022, pag. 12 (controlli della falda), 13 (idrocarburi trovati nel 2017), 19 (falda profonda) — copia in `fonti/2022-06_parlamento_commissione-rifiuti-audizione-ispra-arpa-ilva.pdf`
+
+[16] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, cap. 2, Tabella B "Interventi nelle aree produttive", righe "Addendum - Art 3.7", dati comunicati dall'affittuaria "ai sensi del Contratto di Affitto", aggiornamento al 31 marzo 2025, pag. 24 del PDF, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
+[17] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, cap. 2, Tabella A, aggiornamento al 31 dicembre 2025, pag. 16 (scansione), riga "Misure di prevenzione e bonifica di suolo, sottosuolo ed acque sotterranee", https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **La barriera dei Parchi minerali ferma l'inquinamento della falda?** È l'unica misura che dal 2018 pompa e depura l'acqua sotto i Parchi [2][9], ma nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili non si può valutare se funzioni [2][3]. A valle della barriera, nel 2022, ARPA ha trovato PCB e arsenico oltre i limiti [2]. Non sappiamo quanta acqua venga pompata ogni anno, per quanti giorni l'impianto sia stato fermo, né cosa contenga l'acqua che finisce nella fogna dello stabilimento. Non verificato.

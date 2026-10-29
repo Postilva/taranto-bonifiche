@@ -209,6 +209,11 @@ dialog.sheet::backdrop{background:rgba(5,8,12,.5)}
 .step-h{display:flex;align-items:center;gap:10px;margin:6px 0 2px}
 .step-h span{width:28px;height:28px;border-radius:50%;background:var(--gA);color:var(--on-g);display:grid;place-items:center;font:800 .85rem/1 var(--f-body);flex:none}
 .step-h h3{font-size:1.1rem}
+.parte-h{font-size:1.1rem;margin:10px 0 0}
+.intro .tbl{margin:4px 0}   /* tabella delle spese nel pannello "La fabbrica", anche sul telefono con due colonne */
+.spese th:last-child,.spese td:last-child{text-align:right;white-space:nowrap}
+.spese td:last-child{font-family:var(--f-mono)}
+.spese .tot td{font-weight:700;border-top:1px solid var(--line)}
 .flow-arrow{text-align:center;color:var(--ink-3);font-size:1.2rem;line-height:1}
 .voci{display:grid;gap:8px}
 .voce{background:var(--surface);border-radius:14px;padding:12px 14px;display:grid;gap:6px;box-shadow:var(--shadow)}

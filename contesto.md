@@ -90,6 +90,34 @@ Quello di Taranto è uno stabilimento siderurgico "a ciclo integrato": il ferro 
 
 La capacità dello stabilimento è di oltre 11 milioni di tonnellate di acciaio l'anno; il Piano ambientale ha fissato un limite di 6 milioni fino al termine delle opere [1].
 
+### Quanto è stato speso, reparto per reparto
+
+Per inquinare meno, il Piano ambientale ordina lavori reparto per reparto, come coprire i parchi minerali [2]. Secondo i dati che Acciaierie d'Italia passa a Ilva per il contratto d'affitto, fino al 31 dicembre 2025 per questi lavori sono stati spesi circa 1.355 milioni €: 314 da Ilva fino a ottobre 2018, 1.043 dopo da ArcelorMittal e Acciaierie d'Italia [18]. Sono soprattutto lavori contro le emissioni, non bonifiche: per il terreno e la falda sotto lo stabilimento sono stati spesi 5,6 milioni [18]. La tabella non dice con quali soldi, se dell'azienda o del Patrimonio Destinato [18].
+
+| Reparto o lavoro | Milioni € |
+|---|---|
+| Parchi minerali e fossili | 305,1 |
+| Cokerie | 212,0 |
+| Rifiuti (Piano rifiuti) | 174,2 |
+| Centrali di Taranto Energia: meno ossidi di azoto | 159,3 |
+| Nastri trasportatori, torri ed edifici | 133,0 |
+| Acqua piovana | 115,8 |
+| Altre prescrizioni, tra cui amianto e antincendio | 102,9 |
+| Agglomerazione | 83,3 |
+| Acciaierie e rottami | 35,9 |
+| Acque di lavorazione | 14,4 |
+| Altoforni | 13,9 |
+| Terreno e falda | 5,6 |
+| Totale | 1.355,2 |
+
+Nelle "altre prescrizioni" c'è la rimozione dell'amianto, area per area: al 31 marzo 2025 circa 20 milioni (calcolo nostro), più di un terzo nell'ex Agglomerato 1 [19].
+
+Con i soldi dei Riva, il Patrimonio Destinato, dal 2018 al 2024 sono andati alla fabbrica 206 milioni per lavori ambientali, secondo i commissari di Ilva [22]. Per il 2025 ne prevedevano altri 75, per togliere i fanghi di acciaieria e d'altoforno, raccogliere e depurare l'acqua piovana dell'area a caldo e degli sporgenti, togliere l'amianto e le fibre artificiali vetrose, anche demolendo impianti, e bonificare la collinetta A5-20 e l'area ex BRA2 [22].
+
+### Il terreno e la falda
+
+Lo stabilimento è grande circa 1.500 ettari, di cui circa 1.050 dentro il Sito di interesse nazionale (SIN) [20]. Il terreno è stato analizzato in tre zone, in anni diversi: lo stabilimento con la vicina Sanac (dal 2005), gli sporgenti del porto con il Parco coils (2014), i Parchi minerali con il Parco loppa (2014–2015) [20]. Nel 2023 ARPA ha chiesto di cercare i materiali di riporto, come scorie e loppa, in tutto lo stabilimento insieme, sporgenti compresi [21]. Nessun documento ufficiale divide il terreno e la falda per reparto: per questo sul sito sono due aree intere, il terreno (C1) e la falda (C2).
+
 ## Glossario
 
 ### PCB (policlorobifenili)
@@ -169,3 +197,13 @@ Sostanze fatte solo di carbonio e idrogeno: dalle più semplici, come il metano,
 [16] Corte di Cassazione, Sezioni Unite civili, *sentenza n. 28087/2026* (R.G. 19310/2026), pubblicata il 29 ottobre 2026, pag. 8–10 (decreto della Corte d'Appello del 27/7/2026, condizioni per ripartire, ordinanze del 9/9 e del 5/10/2026, art. 4 del decreto legge 185/2026), 56–57 (amianto: scadenza del 23/8/2023, AIA 2025, 6.780 tonnellate smaltite) e 70 (decisione) — al 29/10/2026 il testo non è ancora pubblicato online; la copia non è in `fonti/` perché contiene i dati personali dei cittadini ricorrenti
 
 [17] Decreto legislativo 3 aprile 2006, n. 152 (Codice dell'ambiente), articolo 240, comma 1, lettere o) (messa in sicurezza permanente: isolare in modo definitivo le fonti inquinanti) e p) (bonifica: eliminare le fonti di inquinamento e le sostanze inquinanti o ridurne le concentrazioni sotto le soglie di rischio), testo vigente su Normattiva, https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152~art240 — copia in `fonti/2026-09_normattiva_dlgs-152-2006-art-240-definizioni.pdf`
+
+[18] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, cap. 2 "Principali azioni e misure implementate in relazione alle prescrizioni AIA", Tabella A "Interventi nelle aree produttive (dal 01 novembre 2018 in gestione ad Arcelor Mittal ora Acciaierie d'Italia in AS)", aggiornamento al 31 dicembre 2025, dati comunicati dall'affittuaria "ai sensi del Contratto di Affitto" (pag. 16, scansione), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
+
+[19] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, Tabella B, "Altre prescrizioni in aree produttive", righe del "Programma organico di rimozione amianto" (pag. 25 del PDF): 29 righe, 20,2 milioni € spesi al 31 marzo 2025, di cui 7,5 per l'ex Agglomerato 1 (somma nostra), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
+
+[20] ARPA Puglia, *Indicatori ambientali – Siti contaminati*, novembre 2022, pag. 21 (scheda "Arcelor Mittal Italia (ex ILVA SPA)": circa 1.500 ettari, circa 1.050 nel SIN; piano di caratterizzazione delle aree Ilva e Sanac approvato il 17/12/2003 e analisi del 2005; sporgenti II–V e Parco coils nel 2014; Parco loppa e Parchi primari nel 2014–2015) — copia in `fonti/2022-11_arpa-puglia_indicatori-ambientali-siti-contaminati.pdf`
+
+[21] ARPA Puglia, *Parere prot. 60393 del 12 settembre 2023* sul piano di indagine di Acciaierie d'Italia (ID 7/3054-3095), pag. 2 (estendere le indagini "a tutte le aree dello stabilimento compresi gli sporgenti"), https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=11521_2023_144633.7z — copia in `fonti/2023-09_arpa-puglia_parere-piano-indagine-riporti-adi.pdf`
+
+[22] Commissari straordinari di ILVA S.p.A. in A.S., *Audizione 9ª Commissione Senato su ddl 1359 (d-l 3/2025 – Continuità produttiva e occupazionale ex ILVA)*, 4 febbraio 2025, documento depositato, slide 5–6 (206 milioni del Patrimonio Destinato per attività ambientali nel perimetro di Acciaierie d'Italia, dal 2018 al 2024) e 7 (75 milioni previsti nel 2025 e principali attività) — copia in `fonti/2025-02_ilva-as_audizione-senato-commissari-dl-3-2025.pdf`
