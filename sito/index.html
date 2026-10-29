@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610291800">
+<link rel="stylesheet" href="stile.css?v=202610291630">
 
 <header class="topbar">
   <div class="in">
@@ -48,10 +48,13 @@
   <div class="wrap">
     <div class="home-grid">
       <div class="col-l">
+        <h2 class="sec-label">Cosa c'è da bonificare</h2>
+        <div class="cb-tiles" id="cosa"></div>
+
         <h2 class="sec-label">Le aree</h2>
         <div class="tiles">
           <a class="tile gA" href="mappa.html?g=A"><b id="n-a">22</b><span>Aree di Ilva<small>dentro e intorno alla fabbrica</small></span></a>
-          <a class="tile gB" href="mappa.html?g=B"><b id="n-b">14</b><span>Ricadute<small>Tamburi, Statte e Mar Piccolo</small></span></a>
+          <a class="tile gB" href="mappa.html?g=B"><b id="n-b">14</b><span>Ricadute<small>dove è arrivato l'inquinamento: Tamburi, Statte e Mar Piccolo</small></span></a>
         </div>
 
         <h2 class="sec-label">Capire</h2>
@@ -70,7 +73,7 @@
           <p class="chart-intro">Una bonifica ha cinque passaggi. Si può dire <b>"bonificato"</b> solo alla fine, quando un ente pubblico lo certifica. Ogni area è contata una volta, nell'ultimo passaggio che ha fatto. <a href="#passaggi">I cinque passaggi ›</a></p>
           <div class="colonne" id="colonne" aria-hidden="true"></div>
           <div class="righe" id="righe"></div>
-          <p class="legend scala-lg"><span><i class="sw" style="background:var(--gA)"></i>Aree di Ilva</span><span><i class="sw" style="background:var(--gB)"></i>Ricadute fuori dalla fabbrica</span></p>
+          <p class="legend scala-lg"><span><i class="sw" style="background:var(--gA)"></i>Aree di Ilva</span><span><i class="sw" style="background:var(--gB)"></i>Ricadute dell'Ilva</span></p>
           <p class="note"><span class="solo-tel">Tocca una riga per vedere le aree, poi un nome per aprire il report.</span><span class="solo-pc">Passa il mouse su un blocco per vedere il nome dell'area; un clic apre il report.</span> <span id="scala-why"></span></p>
         </div>
         <div class="card chart soldi-tot" id="soldi-tot"></div>
@@ -98,8 +101,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610291800"></script>
-<script src="comune.js?v=202610291800"></script>
+<script src="dati.js?v=202610291630"></script>
+<script src="comune.js?v=202610291630"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -136,7 +139,18 @@ const elencoCodici = cs => {
 const fuoriLettera = () => { const d = g => ELENCO[g].items.map(r => r[0]).filter(c => c[0] === "D");
   return `${elencoCodici(d("A"))} sono aree di Ilva, ${elencoCodici(d("B"))} sono ricadute`; };
 const codice = k => { const s = verified[k]; return s ? `<a class="cod g${GRUPPO[k] || "A"}" href="${reportHref(k)}" title="${esc(s.short)}">${k}</a>` : `<a class="cod todo" href="mappa.html#${k}" title="${esc(ROW[k] ? ROW[k][1] : k)}">${k}</a>`; };
+// cosa c'è da bonificare: un riquadro per tipo di inquinamento (simbolo, nome, riga breve); il tocco apre il pannello sulla sua voce
+const ICONE_COSA = ['<path d="M3 19h18l-7-12-3 5-2-3z"/>', '<path d="M3 8h18M3 13h18M3 18h18"/>',
+  '<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>', '<path d="M3 9c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/>'];
+$("#cosa").innerHTML = C.cosa.voci.map((v, i) => `<a class="cb" href="#cb-${i + 1}"><svg viewBox="0 0 24 24" aria-hidden="true">${ICONE_COSA[i] || ""}</svg><b>${esc(v.nome)}</b><small>${esc(v.breve)}</small></a>`).join("");
 const PANNELLI = {
+  cosa: ["Cosa c'è da bonificare", () => {
+    const c = h => cite(h, "cosa");
+    const corpo = `<div class="voci">${C.cosa.voci.map((v, i) => `<div class="voce" id="cb-${i + 1}"><b>${esc(v.nome)}</b><p>${c(v.html)}</p></div>`).join("")}
+      <div class="voce"><b>Cosa vuol dire bonificare</b>${c(C.cosa.intro)}</div>
+      <p><a href="#come-inquina">Come arriva l'inquinamento ›</a></p></div>`;
+    return corpo + fontiDi("cosa", corpo);
+  }],
   storia: ["La storia", () => {
     const c = h => cite(h, "storia");
     const corpo = `<div class="intro">${c(C.storia.intro)}</div>
@@ -181,7 +195,7 @@ const PANNELLI = {
       <div class="voce"><b>Chi cura il sito</b><p>Antonio De Pace. Se trovi un errore, hai un documento che non abbiamo o vuoi segnalare un'area, scrivici: leggiamo tutto e, se serve, correggiamo il report indicando la fonte.</p><p><a class="btn contatto" href="#" target="_blank" rel="noopener">Scrivici →</a></p></div>
     </div>`],
   perche: ["Chi è nel censimento", () => `<div class="voci">
-      <div class="voce"><b>Il criterio</b><p>Contiamo le aree di Ilva (${ELENCO.A.items.length}) e le ricadute fuori dalla fabbrica (${ELENCO.B.items.length}): di regola queste entrano solo se una fonte ufficiale dice che l'inquinamento viene, anche, dall'Ilva. Le aree inquinate da altri (raffineria, altre industrie, porto, Marina) non fanno parte di questo censimento.</p></div>
+      <div class="voce"><b>Il criterio</b><p>Contiamo le aree di Ilva (${ELENCO.A.items.length}) e le ricadute dell'Ilva (${ELENCO.B.items.length}): di regola queste entrano solo se una fonte ufficiale dice che l'inquinamento viene, anche, dall'Ilva. Le aree inquinate da altri (raffineria, altre industrie, porto, Marina) non fanno parte di questo censimento.</p></div>
       <div class="voce"><b>Cosa vogliono dire i codici</b><p>Il codice di un'area (A1, B8, C1, D5…) dice in quale documento l'abbiamo trovata: <b>A</b> le 18 aree di Ilva in amministrazione straordinaria (relazione di Ilva in A.S.), <b>C</b> lo stabilimento di Acciaierie d'Italia (archivio del Ministero dell'Ambiente), <b>B</b> gli interventi dell'opuscolo del Commissario per la bonifica, <b>D</b> le altre aree, dall'anagrafe dei siti da bonificare della Regione Puglia. Per questo la lettera non dice se un'area è di Ilva o una ricaduta: ${fuoriLettera()}. I codici non cambiano, perché sono già nelle richieste di accesso agli atti inviate.</p></div>
       <div class="voce"><b>Perché il Mar Piccolo è nel censimento</b><p>La Commissione parlamentare sui rifiuti (relazione su Ilva-Taranto, settembre 2022) riporta che il processo "Ambiente Svenduto" ha dimostrato che l'inquinamento del primo seno del Mar Piccolo è dovuto all'attività dell'Ilva, attraverso il canale di scarico; la stessa relazione aggiunge che ci sono anche altre fonti, l'Arsenale militare e i cantieri. Contiamo solo gli interventi sui fondali inquinati.</p></div>
       <div class="voce"><b>Perché il Tamburi e Statte sono nel censimento</b><p>Per il Tamburi la Commissione parlamentare sui rifiuti (settembre 2022) scrive che le polveri dello stabilimento hanno reso necessarie le ordinanze del Sindaco sui giardini delle scuole e poi le bonifiche, e che il quartiere è la parte della città "più esposta alle ricadute dei fumi dell'ILVA". Per i terreni di Statte fuori dal SIN la Provincia ha individuato nel 2018 il responsabile, e secondo ARPA Puglia è l'Ilva, per diossine e furani. Per alcune aree, per esempio la zona PIP di Statte, nessuna fonte ufficiale nomina un responsabile: lo diciamo nel report.</p></div>
@@ -221,6 +235,7 @@ function chiudi(){ if (daClick) history.back(); else { history.replaceState(null
 function route(){
   let h = decodeURIComponent(location.hash.slice(1)), voce = null;
   if (h.startsWith("g-")) { voce = h; h = "glossario"; }
+  if (/^cb-\d/.test(h)) { voce = h; h = "cosa"; }
   h = ALIAS[h] || h;
   if (aperto && aperto !== h) { cache[aperto].close(); aperto = null; document.body.style.overflow = ""; }
   if (!PANNELLI[h]) return;
@@ -229,7 +244,7 @@ function route(){
   aperto = h; document.body.style.overflow = "hidden";
   if (voce) { const v = d.querySelector("#" + CSS.escape(voce)); if (v) { v.open = true; v.classList.add("flash"); setTimeout(() => v.scrollIntoView({block:"start"}), 60); } }
 }
-document.addEventListener("click", e => { const a = e.target.closest('.tlist a[href^="#"], .cods a[href^="#"]'); if (a) daClick = true; });
+document.addEventListener("click", e => { const a = e.target.closest('.tlist a[href^="#"], .cods a[href^="#"], .cb-tiles a[href^="#"]'); if (a) daClick = true; });
 addEventListener("hashchange", route);
 route();
 
