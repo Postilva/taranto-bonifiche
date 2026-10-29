@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610292100">
+<link rel="stylesheet" href="stile.css?v=202610292330">
 
 <header class="topbar">
   <div class="in">
@@ -100,8 +100,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610292100"></script>
-<script src="comune.js?v=202610292100"></script>
+<script src="dati.js?v=202610292330"></script>
+<script src="comune.js?v=202610292330"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -279,7 +279,8 @@ function mappaFabbrica(d){
 // La fase viene dai 5 passaggi (STEPS, o la parte di PARTI) e conta solo "done", che vale già lo scenario peggiore:
 // "part" non porta avanti. Nella riga aperta e al passaggio del mouse ogni area dice anche la sua fase precisa (FASI)
 (function(){
-  const S = ALL.filter(i => verified[i[0]]).map(i => {
+  // le aree con passaggi diversi (PASSI_SUOI in comune.js, l'amianto) non sono in nessuna fase: fuori dal grafico, con una riga sotto
+  const S = ALL.filter(i => verified[i[0]] && faseCode(i[0]) !== "suoi").map(i => {
     const s = verified[i[0]], f = FASI.find(x => x[0] === faseCode(i[0]));
     // nome breve: della parte, del report, o dell'elenco se più aree hanno un report solo (A5 e A6)
     const short = parteDi(s, i[0])?.[1] || (s.codes.length > 1 ? i[1].replace(/\s*\([^)]*\)/g, "") : s.short);
@@ -318,10 +319,12 @@ function mappaFabbrica(d){
   addEventListener("scroll", () => tip.classList.remove("on"), {passive: true});
   // perché aree e report non sono lo stesso numero: tutto contato dai dati
   const nome = s => s.short.replace(/ \(.*\)$/, "");
+  const suoi = ALL.filter(i => verified[i[0]] && faseCode(i[0]) === "suoi");
   const insieme = SCHEDE.filter(s => s.codes.length > 1).map(s => `${elencoCodici(s.codes)} (${nome(s)})`);
-  $("#scala-why").textContent = `Le aree sono ${S.length}, i report ${SCHEDE.length}` + (insieme.length ? `: ${insieme.join(", ")} hanno un report in comune` : "")
-    + (S.length < TOTAL ? `; ${TOTAL - S.length} aree non hanno ancora il report e non sono nel grafico` : "") + ". "
+  $("#scala-why").textContent = `Le aree sono ${S.length}, i report ${SCHEDE.filter(s => !PASSI_SUOI[s.id]).length}` + (insieme.length ? `: ${insieme.join(", ")} hanno un report in comune` : "")
+    + (S.length + suoi.length < TOTAL ? `; ${TOTAL - S.length - suoi.length} aree non hanno ancora il report e non sono nel grafico` : "") + ". "
     + "Ogni area è un blocco, piccola o grande che sia: il terreno e la falda dello stabilimento (C1 e C2) sono da soli circa 1.050 ettari dentro il SIN.";
+  if (suoi.length) $("#scala-why").insertAdjacentHTML("beforeend", " " + suoi.map(i => `<a href="${reportHref(i[0])}">${i[0]} · ${esc(verified[i[0]].short)}</a>`).join(", ") + ` non è nel grafico: ${esc(PASSI_SUOI[verified[suoi[0][0]].id].replace(/^./, x => x.toLowerCase()).replace(/ Per questo.*$/, ""))}`);
 })();
 
 /* ---------- soldi: le stesse cifre dei due riquadri di "In breve" in soldi.html ---------- */
