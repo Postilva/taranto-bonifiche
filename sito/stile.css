@@ -318,6 +318,7 @@ td.num{text-align:right;font-family:var(--f-mono);font-size:.85rem;white-space:n
 .f-analisi,.f-rischio,.f-mis{--fc:var(--s-part);--fc-ink:var(--on-g)}
 .f-nonserve,.f-bonifica,.f-cert{--fc:var(--s-done);--fc-ink:var(--on-g)}
 .f-nessuna{--fc:var(--s-no);--fc-ink:var(--on-g)}
+.f-suoi{--fc:var(--s-no);--fc-ink:var(--on-g)}
 .cf .pin.ok{background:var(--fc);color:var(--fc-ink)}
 .cf .pin.ok.sel{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 

@@ -25,7 +25,7 @@ for (const g of ["A","B"]) {
 const DA_VERIFICARE = new Set(ELENCO.B.subs.filter(s => s[0].startsWith("Da verificare")).flatMap(s => s[1].map(r => r[0])));
 
 // nome breve per lista, grafici e cronologia (se manca si usa il titolo fino alla parentesi)
-const SHORT = {"tamburi-risanamento-suoli":"Tamburi, risanamento dei suoli (SP1–SP4)","area-pneumatici-ua26":"Area pneumatici (UA26)","area-traversine-ua27":"Area traversine (UA27)","area-vasta-statte":"Area vasta di Statte","tamburi-falda":"Tamburi, falda","discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","acciaierie-italia-suoli":"Acciaieria, suoli","acciaierie-italia-falda":"Acciaieria, falda"};
+const SHORT = {"tamburi-risanamento-suoli":"Tamburi, risanamento dei suoli (SP1–SP4)","area-pneumatici-ua26":"Area pneumatici (UA26)","area-traversine-ua27":"Area traversine (UA27)","area-vasta-statte":"Area vasta di Statte","tamburi-falda":"Tamburi, falda","discarica-nord-ovest":"Discarica Nord-Ovest","mar-piccolo-gara-2018":"Mar Piccolo, gara 2018","pip-statte":"PIP Statte","stoccaggio-fanghi":"Stoccaggio fanghi","land-l-amastuola":"Land L (Amastuola)","gravina-leucaspide":"Gravina di Leucaspide","cimitero-san-brunone":"Cimitero San Brunone","mar-piccolo-studi":"Mar Piccolo, studi","mar-piccolo-area-170":"Mar Piccolo, Area 170 ha","scuole-tamburi-aree-verdi":"Aree verdi delle scuole Tamburi","atleti-azzurri-tamburi":"Impianto Atleti Azzurri","acciaierie-italia-suoli":"Acciaieria, suoli","acciaierie-italia-falda":"Acciaieria, falda","amianto-stabilimento":"Acciaieria, amianto"};
 // note sulla posizione che la scheda stessa segnala
 const COORD_NOTE = {};
 // cartella del sito vista dalla pagina: "" per home e mappa, "../" per i report in r/ (si ricava da come è caricato questo file)
@@ -106,7 +106,7 @@ const ZONES = {
   mp170:   {ll:[40.4825,17.2540], r:0, label:"Mar Piccolo, 1° seno, nello specchio d'acqua davanti all'Arsenale della Marina Militare, dove ISPRA e ARPA collocano l'\"Area 170 ha\" (2015). Punto messo da noi con OpenStreetMap: l'area è grande circa 1,7 km², il punto indica solo la zona"},
   cementir:{ll:[40.4910,17.2065], r:0, label:"Dentro la cava del cementificio, tra la raffineria ENI e lo stabilimento (punto messo da noi: la discarica indicata nella mappa delle aree di Ilva del luglio 2022 si riconosce sulla foto satellitare; errore stimato sotto i 100 m). Il punto cade nella particella 258 del foglio 198 di Taranto indicata da ARPA, che però è tutto il cementificio (circa 25 ettari): verificato da noi sul catasto"},
 };
-const PLACE = {A1:"gravina",A3:"duemari",A4:"cementir",A7:"nuovevasche",A12:"d1",A14:"amastuola",A18:"ospnord",B6:"mp1",B10:"statte",B12:"mp170",B13:"mp1",C1:"acciaieria",C2:"acciaieria",D1:"tamburi",D2:"tamburi",D3:"tamburi",D4:"tamburi",D5:"tamburi",D6:"tamburi",D8:"statte",D16:"statte",D17:"statte"};
+const PLACE = {A1:"gravina",A3:"duemari",A4:"cementir",A7:"nuovevasche",A12:"d1",A14:"amastuola",A18:"ospnord",B6:"mp1",B10:"statte",B12:"mp170",B13:"mp1",C1:"acciaieria",C2:"acciaieria",C35:"acciaieria",D1:"tamburi",D2:"tamburi",D3:"tamburi",D4:"tamburi",D5:"tamburi",D6:"tamburi",D8:"statte",D16:"statte",D17:"statte"};
 function pointsFor(){
   const all = ALL;
   const byZone = {};
@@ -181,6 +181,7 @@ function fase(steps){
 }
 // riquadro "fin dove è arrivata", barra delle 5 tappe e legenda: nel report e nell'anteprima della mappa
 function faseHtml(steps, sid){
+  if (!steps && PASSI_SUOI[sid]) return `<p class="fase"><b>Passaggi diversi</b><span>${esc(PASSI_SUOI[sid])}</span></p>`;
   if (!steps) return `<p class="fase"><b>Nessuna bonifica</b><span>${esc(NO_STEPS[sid] || "Le fonti non permettono di dire a che punto sono i 5 passaggi.")}</span></p>`;
   const [, nome, sub] = FASI.find(f => f[0] === fase(steps));
   // tappe "a metà" dopo l'ultima fatta: senza questa riga la fase sembra smentita dalla barra
@@ -261,12 +262,16 @@ const reportHref = code => { const s = verified[code]; return reportUrl(s, parte
 // barra delle 5 tappe in piccolo, solo da guardare (per "Parte per parte")
 const mini5Html = steps => `<span class="mini5" aria-label="${esc(steps.map(([k],i) => `${PASSI[i][2]}: ${STATO[k].label.toLowerCase()}`).join(", "))}">${steps.map(([k]) => `<i class="${k}" style="--c:var(${STATO[k].color})"></i>`).join("")}</span>`;
 // fin dove è arrivato un codice: [id, nome, cosa vuol dire] di FASI
-const faseDi = (s, code) => { const st = stepsDi(s, code); return st ? FASI.find(f => f[0] === fase(st)) : [null, "Nessuna bonifica", NO_STEPS[s.id] || ""]; };
+const faseDi = (s, code) => { const st = stepsDi(s, code); return st ? FASI.find(f => f[0] === fase(st)) : PASSI_SUOI[s.id] ? [null, "Passaggi diversi", PASSI_SUOI[s.id]] : [null, "Nessuna bonifica", NO_STEPS[s.id] || ""]; };
 // la stessa fase come chiave per i colori della mappa: "nessuna" se i 5 passaggi non si applicano, "" se non c'è il report
-const faseCode = code => { const s = verified[code]; return s ? faseDi(s, code)[0] || "nessuna" : ""; };
+const faseCode = code => { const s = verified[code]; return s ? faseDi(s, code)[0] || (PASSI_SUOI[s.id] ? "suoi" : "nessuna") : ""; };
 // schede che non descrivono un intervento di bonifica: i 5 passaggi non si applicano
 const NO_STEPS = {
   "mar-piccolo-studi":"Sono studi e analisi: nessuna bonifica, nessuna messa in sicurezza.",
+};
+// schede con passaggi loro, diversi dai 5 di terreni e acque: fuori dal grafico della home e dalle quattro fasi (deciso il 29/10/2026)
+const PASSI_SUOI = {
+  "amianto-stabilimento":"L'amianto degli impianti non segue i passaggi di terreni e acque: si toglie, si riveste o si chiude dentro una barriera, i tre metodi di bonifica previsti per l'amianto. Per questo non è nel grafico delle aree.",
 };
 // le fasi di FASI raccolte in quattro, le stesse nel grafico della home e sulla mappa (deciso il 29/10/2026):
 // [chiave, nome, fasi, nome corto (filtri della mappa), cosa vuol dire]
