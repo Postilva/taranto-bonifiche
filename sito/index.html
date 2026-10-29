@@ -147,11 +147,13 @@ const ICONE_COSA = {
   "I terreni": '<path d="M3 8h18M3 13h18M3 18h18"/>',
   "L'acqua sotto terra": '<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>',
   "Il fondo del mare": '<path d="M3 9c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/>'};
+// voci con un report tutto loro: sotto il testo il link al report (il codice è quello di elenco.md)
+const REPORT_COSA = {"L'amianto": "C35"};
 $("#cosa").innerHTML = C.cosa.voci.map((v, i) => `<a class="cb" href="#cb-${i + 1}"><svg viewBox="0 0 24 24" aria-hidden="true">${ICONE_COSA[v.nome] || ""}</svg><b>${esc(v.nome)}</b><small>${esc(v.breve)}</small></a>`).join("");
 const PANNELLI = {
   cosa: ["Cosa c'è da bonificare", () => {
     const c = h => cite(h, "cosa");
-    const corpo = `<div class="voci">${C.cosa.voci.map((v, i) => `<div class="voce" id="cb-${i + 1}"><b>${esc(v.nome)}</b><p>${c(v.html)}</p></div>`).join("")}
+    const corpo = `<div class="voci">${C.cosa.voci.map((v, i) => `<div class="voce" id="cb-${i + 1}"><b>${esc(v.nome)}</b><p>${c(v.html)}</p>${verified[REPORT_COSA[v.nome]] ? `<p><a href="${reportHref(REPORT_COSA[v.nome])}">Il report: ${esc(verified[REPORT_COSA[v.nome]].short)} (${REPORT_COSA[v.nome]}) →</a></p>` : ""}</div>`).join("")}
       <div class="voce"><b>Cosa vuol dire bonificare</b>${c(C.cosa.intro)}</div>
       <p><a href="#come-inquina">Come arriva l'inquinamento ›</a></p></div>`;
     return corpo + fontiDi("cosa", corpo);
