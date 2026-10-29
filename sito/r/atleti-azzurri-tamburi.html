@@ -148,7 +148,7 @@ function mappaHtml(p, s){
   const pos = p.official
     ? `<strong>${p.catasto ? "Posizione dal catasto indicato da un documento ufficiale" : "Posizione da documento ufficiale"}</strong> <a href="#${s.id}-f${p.src.n}">[${p.src.n}]</a>${p.src.note ? ` ${esc(p.src.note)}` : ""}`
     : `<strong>Posizione indicativa.</strong> ${esc(p.zone)}.`;
-  return `<section class="card minimap-card"><div id="minimap" role="region" aria-label="Posizione dell'intervento"></div><p>${pos}</p></section>`;
+  return `<section class="card minimap-card"><div id="minimap" role="region" aria-label="Posizione dell'area"></div><p>${pos}</p></section>`;
 }
 
 function storyHtml(s){
@@ -245,7 +245,7 @@ function route(){
   if (s && s.id !== PAGINA) { location.replace(reportUrl(s, h === s.id ? "" : h)); return; }
   if (!s) {
     cur = null;
-    $("#rp").innerHTML = `<div class="notfound"><h1>Report non trovato</h1><p>Scegli un intervento sulla mappa.</p><a class="btn" href="${RADICE}mappa.html">Apri la mappa →</a></div>`;
+    $("#rp").innerHTML = `<div class="notfound"><h1>Report non trovato</h1><p>Scegli un'area sulla mappa.</p><a class="btn" href="${RADICE}mappa.html">Apri la mappa →</a></div>`;
     return;
   }
   const sel = vh && parteDi(s, h) ? h : null;

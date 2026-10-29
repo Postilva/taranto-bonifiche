@@ -37,11 +37,11 @@
 </header>
 
 <div class="mapwrap">
-  <div id="map" role="region" aria-label="Mappa di Taranto con gli interventi"></div>
+  <div id="map" role="region" aria-label="Mappa di Taranto con le aree"></div>
 
   <aside class="panel" id="panel" aria-label="Elenco e filtri">
     <div class="ph">
-      <h1><span class="n-tot">35</span> interventi</h1>
+      <h1><span class="n-tot">37</span> aree</h1>
       <button type="button" class="close" id="panel-close" aria-label="Chiudi l'elenco">✕</button>
       <p id="intro">Tocca un punto per leggere il report; avvicinati per leggere i codici.</p>
       <div class="seg" role="radiogroup" aria-label="Colori e filtri per">
@@ -49,7 +49,7 @@
         <button type="button" role="radio" data-c="gruppo" aria-checked="false">Gruppo</button>
       </div>
       <div class="filters" id="filters" role="group" aria-label="Filtri"></div>
-      <input id="q" class="search" type="search" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un intervento">
+      <input id="q" class="search" type="search" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un'area">
       <p class="lcount"><span id="lcount"></span> · <button type="button" class="linkbtn" id="fuori-open" aria-haspopup="dialog">Cosa non è sulla mappa?</button></p>
     </div>
     <ul class="list" id="list"></ul>
@@ -192,7 +192,7 @@ function deselect(){
 }
 
 (function initMap(){
-  if (!window.L) { $("#map").innerHTML = '<p style="padding:16px">La mappa non si è caricata. Gli interventi sono nell\'elenco.</p>'; return; }
+  if (!window.L) { $("#map").innerHTML = '<p style="padding:16px">La mappa non si è caricata. Le aree sono nell\'elenco.</p>'; return; }
   map = L.map("map", {minZoom:11, maxZoom:16, zoomSnap:.25, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, zoomControl:false});
   L.control.zoom({position:"topright"}).addTo(map);
   addTiles(map);
@@ -236,7 +236,7 @@ function deselect(){
   });
 
   pv = document.createElement("div"); pv.className = "pv"; pv.hidden = true;
-  pv.setAttribute("role", "region"); pv.setAttribute("aria-label", "Anteprima dell'intervento");
+  pv.setAttribute("role", "region"); pv.setAttribute("aria-label", "Anteprima dell'area");
   $(".mapwrap").appendChild(pv);
   pv.addEventListener("click", e => { if (e.target.closest(".x")) deselect(); });
   // cassetto del telefono: segue il dito verso il basso e, tirato giù, si chiude
@@ -268,8 +268,8 @@ function renderList(){
   let h = "";
   if (ok.length) h += `<li class="sub">Con report · ${ok.length}</li>` + ok.map(itemHtml).join("");
   if (todo.length) h += `<li class="sub">Da verificare · ${todo.length}</li>` + todo.map(itemHtml).join("");
-  $("#list").innerHTML = h || `<li class="empty">Nessun intervento corrisponde ai filtri.</li>`;
-  $("#lcount").textContent = `${shown.length} interventi mostrati`;
+  $("#list").innerHTML = h || `<li class="empty">Nessuna area corrisponde ai filtri.</li>`;
+  $("#lcount").textContent = `${shown.length} ${shown.length === 1 ? "area mostrata" : "aree mostrate"}`;
   PTS.forEach(p => pinOf(p.code)?.classList.toggle("off", !matches(p)));
   if (selected && !matches(PT[selected])) deselect();
   else if (selected) document.querySelector(`.list li[data-code="${selected}"]`)?.classList.add("sel");
