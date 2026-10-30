@@ -181,7 +181,7 @@ function fase(steps){
   if (s[0] === "done") return "analisi";
   return "dafare";
 }
-// riquadro "fin dove è arrivata", barra delle 5 tappe e legenda: nel report e nell'anteprima della mappa
+// riquadro "fin dove è arrivata", barra delle 5 tappe e legenda: nel report
 function faseHtml(steps, sid){
   if (!steps && PASSI_SUOI[sid]) return `<p class="fase"><b>Passaggi diversi</b><span>${esc(PASSI_SUOI[sid])}</span></p>`;
   if (!steps) return `<p class="fase"><b>Nessuna bonifica</b><span>${esc(NO_STEPS[sid] || "Le fonti non permettono di dire a che punto sono i 5 passaggi.")}</span></p>`;
@@ -275,15 +275,20 @@ const NO_STEPS = {
 const PASSI_SUOI = {
   "amianto-stabilimento":"L'amianto degli impianti non segue i passaggi di terreni e acque: si toglie, si riveste o si chiude dentro una barriera, i tre metodi di bonifica previsti per l'amianto. Per questo non è nel grafico delle aree.",
 };
-// le fasi di FASI raccolte in quattro, le stesse nel grafico della home e sulla mappa (deciso il 29/10/2026):
-// [chiave, nome, fasi, nome corto (filtri della mappa), cosa vuol dire]
+// il percorso delle 5 tappe, lo stesso nel grafico della home, nella legenda e nei filtri della mappa e nell'anteprima di un punto
+// (deciso il 30/10/2026): ogni area sta nella tappa che ha davanti, la prima non ancora fatta secondo FASI. In fondo una stazione
+// sola per bonificate e non necessarie, senza distinguere la tappa 5 (certificato). I pallini della mappa restano di tre colori.
+// [chiave, nome, fasi, nome corto (filtri della mappa), cosa vuol dire, segno nel cerchio]
 const TAPPE = [
-  ["dafare",  "Analisi da fare",             ["dafare"],                       "Da analizzare",          "il terreno non è ancora stato analizzato del tutto"],
-  ["analisi", "Analizzata, non bonificata",  ["analisi", "rischio", "mis"],    "Analizzata",             "si sa cosa c'è, ma l'inquinamento non è stato tolto"],
-  ["fatto",   "Bonificata o non necessaria", ["nonserve", "bonifica", "cert"], "Bonificata o non serve", ""],
-  ["nessuna", "Nessuna bonifica",            ["nessuna"],                      "Nessuna bonifica",       "studi o lavori che non sono una bonifica"]
+  ["1",     "Analisi",                     ["dafare"],                       "Analisi",                "il terreno non è ancora stato analizzato del tutto",  "1"],
+  ["2",     "Analisi di rischio",          ["analisi"],                      "Rischio",                "si sa cosa c'è, non ancora se è pericoloso",           "2"],
+  ["3",     "Messa in sicurezza",          ["rischio"],                      "Sicurezza",              "si sa se è pericoloso, nessun lavoro finito",          "3"],
+  ["4",     "Bonifica",                    ["mis"],                          "Bonifica",               "l'inquinamento è chiuso dentro, ma resta lì",          "4"],
+  ["fatto", "Bonificata o non necessaria", ["nonserve", "bonifica", "cert"], "Bonificata o non serve", "",                                                     "✓"]
 ];
-const tappaDi = c => TAPPE.find(t => t[2].includes(faseCode(c)))?.[0] || "";
+// fuori dal percorso: le schede che non sono una bonifica (NO_STEPS) e quelle con passaggi loro (PASSI_SUOI, l'amianto)
+const FUORI = ["nessuna", "suoi"];
+const tappaDi = c => { const f = faseCode(c); return TAPPE.find(t => t[2].includes(f))?.[0] || (FUORI.includes(f) ? "fuori" : ""); };
 // sotto "Bonificata o non necessaria" quante hanno il certificato visto da noi, perché "2" non si legga "2 bonificate"
 const tappaSub = t => {
   if (t[0] !== "fatto") return t[4];

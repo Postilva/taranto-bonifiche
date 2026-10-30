@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610301300">
+<link rel="stylesheet" href="stile.css?v=202610301900">
 <body class="mappa">
 
 <header class="topbar">
@@ -45,7 +45,7 @@
       <button type="button" class="close" id="panel-close" aria-label="Chiudi l'elenco">✕</button>
       <p id="intro">Tocca un punto per leggere il report; avvicinati per leggere i codici.</p>
       <div class="seg" role="radiogroup" aria-label="Colori e filtri per">
-        <button type="button" role="radio" data-c="fase" aria-checked="true">Fase</button>
+        <button type="button" role="radio" data-c="fase" aria-checked="true">Tappa</button>
         <button type="button" role="radio" data-c="gruppo" aria-checked="false">Gruppo</button>
       </div>
       <div class="filters" id="filters" role="group" aria-label="Filtri"></div>
@@ -57,8 +57,10 @@
   <button type="button" class="paneltoggle" id="panel-open">☰ Elenco e filtri</button>
 
   <details class="legend-map" id="legenda">
-    <summary><span>Colori: <span id="lg-modo">fase</span></span></summary>
+    <summary><span>Legenda</span></summary>
     <div class="lg-in">
+      <p class="lg-t" id="lg-t">Tappa da fare</p>
+      <ol class="lg-tappe" id="lg-tappe"></ol>
       <ul class="lg-voci" id="lg-voci"></ul>
       <p class="lg-x"><i class="sw bordo"></i>bordo pieno: posizione da documento ufficiale</p>
     </div>
@@ -72,8 +74,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610301300"></script>
-<script src="comune.js?v=202610301300"></script>
+<script src="dati.js?v=202610301900"></script>
+<script src="comune.js?v=202610301900"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -86,26 +88,33 @@ if (isNarrow()) setPanel(false);   // telefono: si parte dalla mappa, l'elenco s
 
 let map, markers = {}, selected = null, pv, pvLL = null;
 const pinOf = c => markers[c]?.getElement()?.querySelector(".pin");
-/* colori e filtri: per fase (gli stessi colori della barra delle tappe) o per gruppo (arancione e azzurro). Si ricorda la scelta. */
-// le quattro fasi (TAPPE, tappaDi, tappaSub) sono in comune.js, uguali al grafico della home
-const F = {g:"", t:"", v:"", q:""};   // filtri: gruppo, fase, solo verificati, ricerca
+/* colori e filtri: per tappa (tre colori: arancione la 1, giallo dalla 2 alla 4, verde in fondo) o per gruppo. Si ricorda la scelta. */
+// le tappe del percorso (TAPPE, tappaDi, tappaSub) sono in comune.js, uguali al grafico della home
+const F = {g:"", t:"", v:"", q:""};   // filtri: gruppo, tappa, solo verificati, ricerca
 let colore = "fase", listaPronta = false;
 try { if (localStorage.getItem("mappa-colore") === "gruppo") colore = "gruppo"; } catch {}
+// cerchio con il segno della tappa (1-4 o ✓) nel colore dei suoi pallini, vuoto se nessuna area è lì
+const nTappa = (t, n = 1) => `<i class="nt f-${t[2][0]}${n ? "" : " zero"}" aria-hidden="true">${t[5]}</i>`;
 function legenda(){
+  // per tappa: il percorso intero, anche le tappe senza aree (la 4 vuota dice che nessuna area si trova in quella fase), unite da una linea
+  const quante = t => PTS.filter(p => p.ok && tappaDi(p.code) === t[0]).length;
+  $("#lg-tappe").innerHTML = colore === "fase" ? TAPPE.map(t => `<li class="${quante(t) ? "" : "zero"}">${nTappa(t, quante(t))}<span>${esc(t[1])}${t[0] === "fatto" ? `<small>${esc(tappaSub(t))}</small>` : ""}</span><span class="n">${quante(t)}</span></li>`).join("") : "";
+  $("#lg-tappe").hidden = $("#lg-t").hidden = colore !== "fase";
   const voci = colore === "gruppo"
     ? [["A", `<i class="sw gA"></i>${ELENCO.A.title}`], ["B", `<i class="sw gB"></i>${ELENCO.B.title}`]].map(([g, h]) => [h, PTS.filter(p => p.ok && GRUPPO[p.code] === g).length])
-    : TAPPE.map(t => [`<i class="sw f-${t[2][0]}"></i><span>${esc(t[1])}${t[0] === "fatto" ? `<small>${esc(tappaSub(t))}</small>` : ""}</span>`, PTS.filter(p => p.ok && tappaDi(p.code) === t[0]).length]);
-  // le aree con passaggi diversi (PASSI_SUOI in comune.js, l'amianto) non sono in nessuna delle quattro fasi
-  if (colore === "fase") voci.push([`<i class="sw f-suoi"></i><span>Passaggi diversi<small>l'amianto degli impianti</small></span>`, PTS.filter(p => p.ok && faseCode(p.code) === "suoi").length]);
+    // fuori dal percorso, sotto una riga: le schede che non sono una bonifica (NO_STEPS) e l'amianto (PASSI_SUOI)
+    : [[`<i class="sw f-nessuna"></i>Nessuna bonifica`, PTS.filter(p => p.ok && faseCode(p.code) === "nessuna").length],
+       [`<i class="sw f-suoi"></i><span>Passaggi diversi<small>l'amianto degli impianti</small></span>`, PTS.filter(p => p.ok && faseCode(p.code) === "suoi").length]];
   const todo = PTS.filter(p => !p.ok).length;
   if (todo) voci.push([`<i class="sw todo"></i>Da verificare`, todo]);
   $("#lg-voci").innerHTML = voci.filter(v => v[1]).map(([h, n]) => `<li>${h}<span class="n">${n}</span></li>`).join("");
 }
-// i filtri dell'elenco seguono la scelta: le fasi (solo quelle con almeno un'area) o i due gruppi
+// i filtri dell'elenco seguono la scelta: le tappe (solo quelle con almeno un'area) e "Fuori dal percorso", o i due gruppi
 function filtri(){
   const ch = (k, v, txt, sw = "", tit = "") => `<button type="button" class="chip" data-k="${k}" data-val="${v}"${tit ? ` title="${tit}"` : ""} aria-pressed="${F[k] === v && (k !== "v" || v !== "")}">${sw}${txt}</button>`;
   $("#filters").innerHTML = (colore === "fase"
-    ? ch("t", "", "Tutte") + TAPPE.filter(t => PTS.some(p => p.ok && tappaDi(p.code) === t[0])).map(t => ch("t", t[0], esc(t[3]), `<i class="sw f-${t[2][0]}"></i>`, esc(t[1]))).join("")
+    ? ch("t", "", "Tutte") + TAPPE.filter(t => PTS.some(p => p.ok && tappaDi(p.code) === t[0])).map(t => ch("t", t[0], esc(t[3]), nTappa(t), esc(t[1]))).join("")
+      + (PTS.some(p => p.ok && tappaDi(p.code) === "fuori") ? ch("t", "fuori", "Fuori dal percorso", `<i class="sw f-nessuna"></i>`, "Nessuna bonifica o passaggi diversi") : "")
     : ch("g", "", "Tutti") + ch("g", "A", "Aree di Ilva", `<i class="sw gA"></i>`) + ch("g", "B", "Ricadute", `<i class="sw gB"></i>`))
     + (PTS.every(p => p.ok) ? "" : ch("v", "ok", "✔ Solo verificati"));   // tutti verificati: il filtro non serve
 }
@@ -113,7 +122,6 @@ function setColore(c, ricorda = true){
   colore = c; F.g = F.t = "";
   document.body.classList.toggle("cf", c === "fase");
   document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-checked", String(b.dataset.c === c)));
-  $("#lg-modo").textContent = c === "fase" ? "fase" : "gruppo";
   legenda(); filtri();
   if (listaPronta) renderList();
   if (ricorda) try { localStorage.setItem("mappa-colore", c); } catch {}
@@ -123,28 +131,28 @@ setColore(colore, false);
 // computer: legenda sempre aperta (senza titolo); telefono: chiusa, si apre col tocco
 { const pc = matchMedia("(min-width:900px)"), apri = () => { if (pc.matches) $("#legenda").open = true; }; pc.addEventListener("change", apri); apri(); }
 
-// anteprima di un punto: nome, fin dove è arrivata, barra delle 5 tappe, che posto è e link al report.
-// Telefono: cassetto in basso, già aperto a metà (tirato giù si chiude). Computer: riquadro accanto al punto.
+// anteprima di un punto: in alto la fascia nel colore della fase (a che tappa è, la fase, le 5 tappe), sotto codice, nome,
+// la riga in grassetto della scheda e il link al report. Il resto (soldi, che posto è, il perché di ogni tappa) è nel report.
+// Telefono: cassetto in basso (tirato giù si chiude). Computer: riquadro accanto al punto.
 function pvHtml(p){
   const s = verified[p.code];
-  if (!s) return `<div class="top"><span class="grip" aria-hidden="true"></span><button type="button" class="x" aria-label="Chiudi">✕</button>
-    <span class="grp"><b>${p.code}</b>${grpLabel(p.code, true)}</span><span class="nm">${esc(p.name)}</span><span class="fs">Report in arrivo</span></div>`;
-  const steps = stepsDi(s, p.code), [, f, sub] = faseDi(s, p.code);
-  const posto = senzaNote((s.posto || "").replace(/<[^>]+>/g, ""));
-  return `<div class="top">
+  const fascia = (kick, big, steps) => `<div class="band">
       <span class="grip" aria-hidden="true"></span>
       <button type="button" class="x" aria-label="Chiudi">✕</button>
+      ${kick ? `<span class="k">${kick}</span>` : ""}<span class="big">${esc(big)}</span>
+      ${steps ? `<span class="dots" role="img" aria-label="${esc(steps.map(([k],i) => `${PASSI[i][2]}: ${STATO[k].label.toLowerCase()}`).join(", "))}">${steps.map(([k]) => `<i class="${k}"></i>`).join("")}</span>` : ""}
+    </div>`;
+  if (!s) return fascia("", "Report in arrivo") + `<div class="body"><span class="grp"><b>${p.code}</b>${grpLabel(p.code, true)}</span><span class="nm">${esc(p.name)}</span></div>`;
+  // sopra la fase, la tappa da fare (TAPPE in comune.js); in fondo al percorso "Fine del percorso", fuori niente
+  const steps = stepsDi(s, p.code), [, f] = faseDi(s, p.code), t = tappaDi(p.code);
+  const kick = t === "fatto" ? "Fine del percorso" : TAPPE.some(x => x[0] === t) ? `Tappa ${t} di 5` : "";
+  const vd = verdictDi(s, p.code);
+  return fascia(kick, f, steps) + `<div class="body">
       <span class="grp"><b>${p.code}</b>${grpLabel(p.code, true)}</span>
       <span class="nm">${esc(p.name)}</span>
-      <span class="fs">${esc(f)}</span>
-    </div>
-    <div class="more"><div class="in">
-      ${sub ? `<p class="sub">${esc(sub)}</p>` : ""}${steps ? barraHtml(steps) + leg5Html() : ""}
-      ${verdictDi(s, p.code) ? `<div class="posto"><span class="k">Cosa è stato fatto</span><p>${esc(senzaNote(verdictDi(s, p.code)))}</p></div>` : ""}
-      ${s.soldiFrase ? `<div class="posto"><span class="k">Soldi</span><p>${esc(senzaNote(s.soldiFrase))}</p></div>` : ""}
-      ${posto ? `<div class="posto"><span class="k">Che posto è</span><p>${esc(posto)}</p></div>` : ""}
+      ${vd ? `<p class="vd">${esc(senzaNote(vd))}</p>` : ""}
       <a class="go" href="${reportHref(p.code)}">Leggi il report →</a>
-    </div></div>`;
+    </div>`;
 }
 // computer: il riquadro sta accanto al punto, dal lato con più spazio
 function placePv(){
@@ -241,7 +249,7 @@ function deselect(){
   pv.addEventListener("click", e => { if (e.target.closest(".x")) deselect(); });
   // cassetto del telefono: segue il dito verso il basso e, tirato giù, si chiude
   let y0 = null, dy = 0;
-  pv.addEventListener("pointerdown", e => { if (isNarrow() && e.target.closest(".top") && !e.target.closest("button")) { y0 = e.clientY; dy = 0; pv.setPointerCapture(e.pointerId); } });
+  pv.addEventListener("pointerdown", e => { if (isNarrow() && e.target.closest(".band") && !e.target.closest("button")) { y0 = e.clientY; dy = 0; pv.setPointerCapture(e.pointerId); } });
   pv.addEventListener("pointermove", e => { if (y0 === null) return; dy = Math.max(0, e.clientY - y0); pv.style.transform = dy ? `translateY(${dy}px)` : ""; });
   const lascia = () => { if (y0 === null) return; y0 = null; pv.style.transform = ""; if (dy > 60) deselect(); };
   pv.addEventListener("pointerup", lascia); pv.addEventListener("pointercancel", lascia);
