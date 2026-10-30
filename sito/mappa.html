@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610301900">
+<link rel="stylesheet" href="stile.css?v=202610302000">
 <body class="mappa">
 
 <header class="topbar">
@@ -74,8 +74,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610301900"></script>
-<script src="comune.js?v=202610301900"></script>
+<script src="dati.js?v=202610302000"></script>
+<script src="comune.js?v=202610302000"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -104,7 +104,7 @@ function legenda(){
     ? [["A", `<i class="sw gA"></i>${ELENCO.A.title}`], ["B", `<i class="sw gB"></i>${ELENCO.B.title}`]].map(([g, h]) => [h, PTS.filter(p => p.ok && GRUPPO[p.code] === g).length])
     // fuori dal percorso, sotto una riga: le schede che non sono una bonifica (NO_STEPS) e l'amianto (PASSI_SUOI)
     : [[`<i class="sw f-nessuna"></i>Nessuna bonifica`, PTS.filter(p => p.ok && faseCode(p.code) === "nessuna").length],
-       [`<i class="sw f-suoi"></i><span>Passaggi diversi<small>l'amianto degli impianti</small></span>`, PTS.filter(p => p.ok && faseCode(p.code) === "suoi").length]];
+       [`<i class="sw f-suoi"></i><span>Tappe diverse<small>l'amianto degli impianti</small></span>`, PTS.filter(p => p.ok && faseCode(p.code) === "suoi").length]];
   const todo = PTS.filter(p => !p.ok).length;
   if (todo) voci.push([`<i class="sw todo"></i>Da verificare`, todo]);
   $("#lg-voci").innerHTML = voci.filter(v => v[1]).map(([h, n]) => `<li>${h}<span class="n">${n}</span></li>`).join("");
@@ -114,7 +114,7 @@ function filtri(){
   const ch = (k, v, txt, sw = "", tit = "") => `<button type="button" class="chip" data-k="${k}" data-val="${v}"${tit ? ` title="${tit}"` : ""} aria-pressed="${F[k] === v && (k !== "v" || v !== "")}">${sw}${txt}</button>`;
   $("#filters").innerHTML = (colore === "fase"
     ? ch("t", "", "Tutte") + TAPPE.filter(t => PTS.some(p => p.ok && tappaDi(p.code) === t[0])).map(t => ch("t", t[0], esc(t[3]), nTappa(t), esc(t[1]))).join("")
-      + (PTS.some(p => p.ok && tappaDi(p.code) === "fuori") ? ch("t", "fuori", "Fuori dal percorso", `<i class="sw f-nessuna"></i>`, "Nessuna bonifica o passaggi diversi") : "")
+      + (PTS.some(p => p.ok && tappaDi(p.code) === "fuori") ? ch("t", "fuori", "Fuori dal percorso", `<i class="sw f-nessuna"></i>`, "Nessuna bonifica o tappe diverse") : "")
     : ch("g", "", "Tutti") + ch("g", "A", "Aree di Ilva", `<i class="sw gA"></i>`) + ch("g", "B", "Ricadute", `<i class="sw gB"></i>`))
     + (PTS.every(p => p.ok) ? "" : ch("v", "ok", "✔ Solo verificati"));   // tutti verificati: il filtro non serve
 }

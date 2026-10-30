@@ -240,9 +240,9 @@ details.acc>.body{padding:0 16px 16px;font-size:.95rem;line-height:1.6;color:var
 details.acc.flash,.fonti li.flash{background:var(--gB-soft)}
 .passi5{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 .passi5 li{display:grid;grid-template-columns:36px minmax(0,1fr);gap:12px;align-items:start;background:var(--surface);border-radius:14px;padding:12px 14px;box-shadow:var(--shadow)}
-.passi5 .n{width:36px;height:36px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;font:800 1rem/1 var(--f-body)}
-.passi5 li:last-child .n{background:var(--gA);color:var(--on-g)}
+.passi5 .n{width:36px;height:36px;border-radius:50%;background:var(--fc,var(--surface-2));color:var(--fc-ink,var(--ink));display:grid;place-items:center;font:800 1rem/1 var(--f-body)}   /* i colori del percorso della home */
 .passi5 b{display:block}
+.passi5 small{display:block;font-size:.8rem;color:var(--ink-3);margin-bottom:2px}
 .passi5 p{font-size:.9rem;color:var(--ink-2);line-height:1.45}
 
 /* ---------- liste di dati ---------- */
