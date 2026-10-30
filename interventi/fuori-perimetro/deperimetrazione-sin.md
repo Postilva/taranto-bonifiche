@@ -49,6 +49,8 @@ Per queste ultime due voci, "bonificate" è una dichiarazione dell'Autorità por
 - Il file Excel allegato alla proposta ("Catastali Out") elenca **95 particelle** nei fogli catastali 41 (Statte), 168, 169, 170, 175, 177, 189, 197, 231 e 232 del Comune di Taranto [4] (conteggio nostro sul file). Il file contiene anche una riga con la dicitura "Syndial discarica località Capraro", senza spiegazioni [4].
 - Il Ministero ha anche "riportato a terra" aree nate dopo il 2000 (vasche di colmata, banchine), che prima ricadevano nel mare, perché ci sono state o ci sono pratiche aperte [4].
 
+**La mappa SmartEcoGIS del Ministero non è aggiornata.** Il 30 ottobre 2026 mostrava ancora 137 aree per il SIN Taranto, ognuna con un punto e un codice [14]. Messi sul confine del decreto n. 449 [12], 24 punti cadono fuori dal SIN, a terra e a mare (calcolo nostro). Tra questi ci sono Colabeton (3037), Miccolis (3094) e Tecnomec (3096), che sono nell'elenco ISPRA dei siti con la pratica chiusa [5][14]. Il punto è uno solo per area, quindi un'area con il punto fuori può essere ancora in parte dentro: per esempio lo stoccaggio dei fanghi di Ilva (3920), di cui nel SIN c'è solo una striscia lungo il confine sud (scheda A5).
+
 **Non so dire se l'elenco finale coincida con le 95 particelle.** I fogli del decreto n. 249 (per esempio 202, 205, 207, 193_Z) non compaiono nel file Excel, e viceversa (per esempio 177, 189, 231, 232) [2][4]. Il decreto n. 249 dice di approvare la proposta, con la condizione sulle sette aree [2]. La mappa allegata al decreto n. 449 fa fede, ma è una cartina senza elenco di particelle [3]. Non verificato.
 
 ### Quali aree sono rimaste dentro e perché
@@ -152,6 +154,8 @@ Altri esempi dal lavoro di ISPRA [5]:
 [12] MASE, *Decreto n. 449 del 20/12/2024 e documentazione tecnica* (testo del decreto e shapefile "Perimetrazione_terra" e "Perimetrazione_mare", sistema WGS84 UTM 33N), https://bonifichesiticontaminati.mite.gov.it/wp-content/uploads/2025/01/24-449_Dec-Ministro-Taranto.zip — copia in `fonti/2024-12_mase_decreto-449-shapefile-nuovo-perimetro-sin-taranto.zip`. Superfici calcolate da noi sui poligoni del file.
 
 [13] Commissario straordinario per la bonifica di Taranto, *Comunicato stampa: Siglata l'Intesa Istituzionale tra il Commissario Straordinario e l'AdSP del Mar Ionio*, 25 marzo 2026, https://commissari.gov.it/media/z05dkfnz/comunicato-stampa-accordo-commissario-autorita-portuale.pdf — copia in `fonti/2026-03_commissario-taranto_comunicato-accordo-adsp-deperimetrazione-mar-grande.pdf`
+
+[14] Ministero dell'Ambiente e della Sicurezza energetica, *SmartEcoGIS*, mappa delle aree dei SIN, livello "Aree - SIN", SIN "Taranto" (consultata il 30 ottobre 2026), https://smartecogis.mase.gov.it/ — copia dei punti di tutte le aree in `fonti/2026-10_mase_smartecogis-aree-sin-taranto.json`
 
 ## Cosa non sappiamo
 1. **Da dove vengono i numeri dell'opuscolo.** 64 km² a terra e 7,3 km² a mare [1] non tornano con gli ettari del Ministero [6] e l'opuscolo non cita la fonte. Non verificato.

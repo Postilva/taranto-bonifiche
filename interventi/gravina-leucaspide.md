@@ -67,6 +67,9 @@ Ai tempi dell'Italsider lungo la gravina sono stati ammucchiati circa 5 milioni 
 - Secondo la Commissione parlamentare (2022) i reati contestati sono disastro ambientale, deturpamento di bellezze naturali, deviazione del corso delle acque e danneggiamento; nel 2022 il processo era in fase di dibattimento [10]. La Commissione scrive che il caso è emerso dopo una frana di materiali su un terreno privato, il cui proprietario ha fatto denuncia [10].
 - La Commissione riporta che, secondo il pubblico ministero sentito in audizione, uno studio fatto fare dal gruppo Riva quando comprò l'azienda nel 1995 indicava già la gravina come un problema da bonificare [10]. Questa è la ricostruzione della Commissione, non una sentenza.
 
+## Dove si trova e quanto è grande
+- **Coordinate** del punto con cui il Ministero indica l'area 3917 sulla sua mappa SmartEcoGIS: 40,542458° N – 17,192013° E (WGS84) [21]; in metri sono 685627,7 m E – 4490276,3 m N nel sistema UTM fuso 33 Nord (conversione nostra). È un solo punto per tutta l'area: non ne indica i confini.
+
 ## Soldi
 **Ilva ha messo da parte 226,6 milioni €, ma fino a febbraio 2023 ne aveva spesi circa 230.000 €, circa lo 0,1% (calcolo nostro). Il Comune di Statte ha avuto 300.000 € per il progetto e ne ha usati circa 192.000; per i lavori non c'è ancora un costo.** [1][20][11]
 
@@ -154,6 +157,8 @@ Tutti i documenti del Ministero su questa procedura sono nell'archivio https://b
 [19] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 1° trimestre 2025*, pagine 34–35, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/ilva_innse_sanac_Relazione_Trimestrale_I_trim_2025.pdf — copia in `fonti/2025-03_ilva-as_relazione-trimestrale-I-2025.pdf`
 
 [20] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 11 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
+[21] Ministero dell'Ambiente e della Sicurezza energetica, *SmartEcoGIS*, mappa delle aree dei SIN, livello "Aree - SIN", punto dell'area 3917 del SIN "Taranto" (consultata il 30 ottobre 2026), https://smartecogis.mase.gov.it/ — copia dei punti di tutte le aree del SIN Taranto in `fonti/2026-10_mase_smartecogis-aree-sin-taranto.json`
 
 ## Cosa non sappiamo
 1. [blocca] **Le analisi complete sono partite?** L'area è sotto sequestro e il permesso del giudice per entrarci è arrivato solo a febbraio 2024 [1][19]. L'ultima notizia è un sopralluogo con ARPA a settembre 2025 [1]. Le relazioni di Ilva del 2026 non sono ancora pubblicate e nell'archivio del Ministero non ci sono documenti su quest'area dopo il 2022 (controllato il 12 ottobre 2026); una ricerca sul web non ha trovato notizie del 2026.

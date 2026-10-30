@@ -121,6 +121,8 @@ function pointsFor(){
         src:{sid:s.id, n:k.fonte, url:f && f.url, note:(k.nota || COORD_NOTE[s.id] || ""),
           text: k.metodo === "catasto"
             ? `centro delle particelle (${k.cat}), calcolato da noi sulla cartografia catastale dell'Agenzia delle Entrate: ${k.e} m E – ${k.n} m N (${k.sistema}), cioè ${gradi}.`
+            : k.metodo === "gradi"
+            ? `punto con cui il Ministero indica l'area sulla sua mappa SmartEcoGIS: ${k.gradi} (WGS84); in metri, con la nostra conversione: ${k.e} m E – ${k.n} m N (${k.sistema}).`
             : `${k.e} m E – ${k.n} m N (${k.sistema}); in gradi, con la nostra conversione: ${gradi}.`}});
       return;
     }

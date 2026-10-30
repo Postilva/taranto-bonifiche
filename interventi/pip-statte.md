@@ -201,6 +201,8 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 | 30 giugno 2026 | OpenCoesione: nuovo intervento "non avviato", 0 € spesi | [17] |
 
 ## Fonti
+Tutti i documenti del Ministero su questa pratica sono nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ — SIN "Taranto", Aree 3010, 3011, 3012, 3013, 3014, 3019, 3020, 3021 e 3022: è una sola pratica con nove codici [12].
+
 [1] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 16–17 (pagine 17–18 del PDF), https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
 
 [2] Commissario straordinario per la bonifica di Taranto, comunicato *Il Governo sigla l'Accordo per la Coesione 2021-2027*, 10 novembre 2025, https://commissari.gov.it/media/y2jhp10m/comunicato-accordo-per-la-coesione-taranto.pdf — copia in `fonti/2025-11_commissario-taranto_comunicato-accordo-coesione-fsc.pdf`; con l'allegato *Accordo per la Coesione Ministero dell'Ambiente – Allegato B1, programma di interventi (bonifiche)*, https://commissari.gov.it/media/zqmjvoct/allegati-accordo-mase_ripartizione-regionale-bonifiche.pdf — copia in `fonti/2025-11_mase_accordo-coesione-allegato-b1-bonifiche.pdf`

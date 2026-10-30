@@ -180,7 +180,7 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 
 [28] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 4 e 11 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
-Tutti i documenti del Ministero si trovano anche nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ scegliendo SIN "Taranto" e Area "3000".
+Tutti i documenti del Ministero si trovano anche nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ scegliendo SIN "Taranto" e Area "3000". Alcuni pareri del 2023–2024, per esempio [6], [7] e [8], sono archiviati sotto "3000, 3004": è la stessa pratica, quindi cercando l'area 3004 si trovano anche quelli (controllato il 30 ottobre 2026).
 
 ## Cosa non sappiamo
 1. [blocca] **I lavori sono partiti?** Nessuna fonte, né del Ministero né di Ilva, lo dice. L'ultimo documento del Ministero su quest'area è del 19 giugno 2026 (archivio controllato il 9 ottobre 2026). Le relazioni di Ilva del 2026 non sono ancora pubblicate. Abbiamo cercato anche nelle banche dati pubbliche su progetti e gare, senza risultati. Questo però non prova che non ci sia nulla, perché Ilva potrebbe non usare quei sistemi. Anche la Regione non ha trovato comunicazioni di inizio lavori nella sua piattaforma informatica, ma precisa che non è lei a controllare i cantieri del SIN [26].

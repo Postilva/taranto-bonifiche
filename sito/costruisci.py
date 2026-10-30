@@ -322,6 +322,11 @@ def coordinate_per_codice(text):
                     nota = re.search(r"Nota:\s*(.+?)\s*$", ln)
                     c.update(metodo="catasto", sistema="UTM fuso 33 Nord, ETRS89", cat=cat.group(1) if cat else "",
                              nota=(lambda x: x[:1].upper() + x[1:])(re.sub(r"\s*\[\d+\]", "", nota.group(1))) if nota else "")
+                elif "SmartEcoGIS" in ln:
+                    # punto del Ministero in gradi: il pallino usa quelli, i metri sono la nostra conversione
+                    g = re.search(r"(\d{2}[,.]\d+)°\s*N\s*[–-]\s*(\d{2}[,.]\d+)°\s*E", ln)
+                    if g:
+                        c.update(metodo="gradi", ll=[num(g.group(1)), num(g.group(2))], gradi=f"{g.group(1)}° N – {g.group(2)}° E")
                 for cod in re.findall(r"\b[ABCD]\d+\b", ln[:m.start()]) or ["*"]:
                     out.setdefault(cod, c)
     return out
