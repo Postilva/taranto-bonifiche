@@ -96,6 +96,9 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 
 **Cosa sosteneva Ilva:** che la messa in sicurezza era "sostanzialmente conclusa" e che banche e assicurazioni non danno garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
+## Dove si trova e quanto è grande
+- **Coordinate** del punto con cui il Ministero indica l'area 3060 sulla sua mappa SmartEcoGIS: 40,490837° N – 17,206237° E (WGS84) [32]; in metri sono 686975,7 m E – 4484575,7 m N nel sistema UTM fuso 33 Nord (conversione nostra). È un solo punto per tutta l'area: non ne indica i confini.
+
 ## Soldi
 **Secondo Ilva, a febbraio 2023 per questa discarica erano previsti 16,75 milioni € e ne erano stati pagati 13,58, circa l'81% (calcolo nostro); gli impegni, 17,61 milioni, superavano i fondi previsti. Il costo finale dei lavori non si sa.** [31]
 
@@ -207,6 +210,8 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 [30] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44123 del 23 ottobre 2026, con l'elenco dei documenti della Provincia su garanzie, post-gestione e certificazione delle discariche Cementir e Due Mari (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-garanzie-cementir-due-mari.pdf`
 
 [31] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 10 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
+[32] Ministero dell'Ambiente e della Sicurezza energetica, *SmartEcoGIS*, mappa delle aree dei SIN, livello "Aree - SIN", punto dell'area 3060 del SIN "Taranto" (consultata il 30 ottobre 2026), https://smartecogis.mase.gov.it/ — copia dei punti di tutte le aree del SIN Taranto in `fonti/2026-10_mase_smartecogis-aree-sin-taranto.json`
 
 Nota: questa discarica non segue la normale procedura di bonifica del SIN. I suoi progetti sono stati approvati con le conferenze speciali previste dalle leggi sull'Ilva, pubblicate sul portale del Ministero per le autorizzazioni (va.mite.gov.it), e solo in piccola parte nell'archivio delle bonifiche (https://bonifichesiticontaminati.mite.gov.it/ricerca/), dove per quest'area (codice 7/3060) c'è un solo documento, il [28] (controllato il 9 ottobre 2026) [10][13].
 

@@ -47,7 +47,8 @@ Lungo il suo confine sud passa, sotto terra, il primo canale di scarico dello st
 
 ### 1. Dove si trova e quanto è grande?
 - **Dove:** appena fuori dal perimetro della fabbrica, sul lato sud-ovest, accanto a Land D2 (mappa di Ilva) [5]. È un'"area a verde esterna al perimetro dello stabilimento", mai usata per produrre [5]. Il primo canale di scarico della fabbrica corre lungo il confine sud, sotto terra [8]. Land D2, che è lì accanto, è lungo la Statale 7 Appia (vedi la [scheda Land D2](land-d2.md)).
-- **Coordinate e catasto: non verificati.** Il piano delle analisi, che dovrebbe contenerli, è nell'elenco dell'archivio del Ministero ma il file non si scarica ("File not found", prova del 2 ottobre 2026) [9].
+- **Coordinate** del punto con cui il Ministero indica l'area 3882 sulla sua mappa SmartEcoGIS: 40,503744° N – 17,196257° E (WGS84) [16]; in metri sono 686094,2 m E – 4485987,5 m N nel sistema UTM fuso 33 Nord (conversione nostra). È un solo punto per tutta l'area: non ne indica i confini.
+- **Catasto: non verificato.** Il piano delle analisi, che dovrebbe contenere le particelle, è nell'elenco dell'archivio del Ministero ma il file non si scarica ("File not found", prova del 2 ottobre 2026) [9].
 - **Quanto è grande:** circa **3,1 ettari** (31.000 m²), secondo Ilva [5].
 
 ### 2. Cosa è stato trovato?
@@ -139,12 +140,14 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [15] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 13 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
+[16] Ministero dell'Ambiente e della Sicurezza energetica, *SmartEcoGIS*, mappa delle aree dei SIN, livello "Aree - SIN", punto dell'area 3882 del SIN "Taranto" (consultata il 30 ottobre 2026), https://smartecogis.mase.gov.it/ — copia dei punti di tutte le aree del SIN Taranto in `fonti/2026-10_mase_smartecogis-aree-sin-taranto.json`
+
 ## Cosa non sappiamo
 1. [blocca] **Che cosa dicono i controlli dell'acqua sotterranea?** Ilva manderà l'analisi di rischio solo dopo questi controlli [1]. Nel 2006 e nel 2016 Ilva aveva trovato acqua inquinata nei vecchi pozzetti [7]; nel 2021–2023 i nuovi pozzetti erano asciutti [8]. I risultati dei controlli del 2025 non sono pubblici [1]. Non verificato.
 2. [altra] **Che rifiuti sono sepolti, quanti, e dove vanno?** Durante le analisi sono stati trovati rifiuti sepolti sopra il vecchio canale di scarico, e a fine 2025 la rimozione era «in corso di ultimazione» secondo Ilva [1][2]. Nessuna fonte dice che rifiuti siano, quanti, né dove vadano. Non verificato. Vedi la bozza FOIA qui sotto.
 3. [altra] **Di chi è la condotta sotto la strada, e chi deve riparare la cavità?** Le analisi hanno trovato una cavità sotto una strada, e Ilva ha dato l'incarico di progettarne la messa in sicurezza [1][3]. Di chi sia la condotta: non verificato.
 4. [altra] **Alcuni valori superano anche i limiti per le aree industriali?** ARPA confronta i valori solo con i limiti per le zone abitate [8]; nessun documento ufficiale dice se alcuni valori (per esempio gli IPA nel punto TS12) superano anche quelli per le aree industriali. Dipende anche dall'uso dell'area, su cui i Comuni dovevano esprimersi [7]. Non verificato.
-5. [altra] **Dove si trova esattamente?** Coordinate, particelle catastali e strada sono nel piano delle analisi, che non si scarica [9]. Non verificato.
+5. [altra] **Quali sono i confini esatti?** Il Ministero indica l'area con un solo punto sulla sua mappa [16]; particelle catastali e strada sono nel piano delle analisi, che non si scarica [9]. Non verificato.
 6. [altra] **Quanto è stato speso dopo febbraio 2023?** Le ultime cifre di Ilva sono di quel mese [15]; nessuna fonte trovata dà cifre successive (vedi "Soldi"). Non verificato.
 7. [fonti] **I rifiuti sono a 10 metri?** La relazione di Ilva dice che il canale passa a circa 10 m; non dice a che profondità siano i rifiuti [1][5].
 8. [fonti] **Chi ha chiesto i controlli sull'acqua?** Dal 2024 Ilva scrive che li ha chiesti il Ministero "in funzione dei pareri espressi da ARPA, ISPRA e ASL" [1][2]. Ma l'unico documento nell'archivio è la validazione di ARPA, che propone i controlli [8], e la relazione di Ilva del 2023 scrive che li ha prescritti ARPA [3]. Non abbiamo trovato pareri di ISPRA o ASL né una nota del Ministero su Land D1. La stessa frase compare, quasi identica, nella pagina di Land C, dove si riferisce a una richiesta del Ministero del 20 marzo 2023 [1]: probabilmente è stata copiata da lì.
