@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610301900">
+<link rel="stylesheet" href="stile.css?v=202610302000">
 
 <header class="topbar">
   <div class="in">
@@ -102,8 +102,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610301900"></script>
-<script src="comune.js?v=202610301900"></script>
+<script src="dati.js?v=202610302000"></script>
+<script src="comune.js?v=202610302000"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -197,9 +197,14 @@ const PANNELLI = {
       <div class="accs">${C.glossario.map(g => `<details class="acc" id="${g.id}"><summary>${esc(g.titolo)}</summary><div class="body">${c(g.html)}</div></details>`).join("")}</div>`;
     return corpo + fontiDi("glossario", corpo);
   }],
-  passaggi: ["Quando si può dire \"bonificato\"", () => `<div class="intro"><p>Una bonifica ha cinque passaggi. Solo dopo l'ultimo si può dire "bonificato".</p></div>
-    <ol class="passi5">${[["Caratterizzazione","Si fanno le analisi per capire cosa c'è nel terreno e nell'acqua."],["Analisi di rischio","Si valuta se quello che c'è è pericoloso per le persone."],["Messa in sicurezza","Si \"chiude\" il problema perché non si allarghi, per esempio coprendolo. Il problema però resta lì."],["Bonifica","Si elimina l'inquinamento."],["Certificazione","Un ente pubblico attesta che il lavoro è finito. Solo a quel punto si può dire \"bonificato\"."]]
-      .map(([t, d], i) => `<li><span class="n">${i + 1}</span><div><b>${t}</b><p>${d}</p></div></li>`).join("")}</ol>`],
+  // le cinque tappe con i nomi del percorso (TAPPE in comune.js) e i colori dei suoi cerchi; il nome tecnico in piccolo, dove è diverso
+  passaggi: ["Quando si può dire \"bonificato\"", () => `<div class="intro"><p>Una bonifica ha cinque tappe. Solo dopo l'ultima si può dire "bonificato".</p></div>
+    <ol class="passi5">${[["Analisi","caratterizzazione","Si fanno le analisi per capire cosa c'è nel terreno e nell'acqua.","dafare"],["Analisi di rischio","","Si valuta se quello che c'è è pericoloso per le persone.","analisi"],["Messa in sicurezza","","Si \"chiude\" il problema perché non si allarghi, per esempio coprendolo. Il problema però resta lì.","analisi"],["Bonifica","","Si elimina l'inquinamento.","analisi"],["Certificato","certificazione","Un ente pubblico attesta che il lavoro è finito. Solo a quel punto si può dire \"bonificato\".","cert"]]
+      .map(([t, tec, d, f], i) => `<li class="f-${f}"><span class="n">${i + 1}</span><div><b>${t}</b>${tec ? `<small>si chiama ${tec}</small>` : ""}<p>${d}</p></div></li>`).join("")}</ol>
+    <div class="voci">
+      <div class="voce"><b>A che tappa è un'area</b><p>Ogni area sta nella tappa che ha davanti, la prima non ancora fatta. Una tappa conta come fatta solo se lo conferma un ente di controllo (Ministero, Regione, Provincia, ARPA, ISPRA) e per tutta l'area; se lo dice solo chi fa i lavori, o se una parte resta aperta, la tappa è ancora da fare.</p></div>
+      <div class="voce"><b>✓ Bonificata o non necessaria</b><p>Se l'analisi di rischio dice che il rischio è accettabile, la bonifica non serve e il percorso finisce lì. Per questo nel grafico e sulla mappa le aree arrivate in fondo stanno insieme, in una sola stazione.</p></div>
+    </div>`],
   metodo: ["Come lavoriamo", () => `<div class="voci">
       <div class="voce"><b>Solo fonti ufficiali</b><p>Ministero, Commissari, ARPA, ISPRA, Regione, Provincia, tribunali, Parlamento. I giornali servono solo a trovare le fonti, non come fonte.</p></div>
       <div class="voce"><b>"Bonificato" solo con il certificato</b><p>Altrimenti scriviamo cosa è stato fatto davvero, per esempio "messo in sicurezza".</p></div>
@@ -317,7 +322,7 @@ function mappaFabbrica(d){
   addEventListener("scroll", () => tip.classList.remove("on"), {passive: true});
   // fuori dal percorso: una riga con i codici e il perché
   const fuori = ALL.filter(i => verified[i[0]] && tappaDi(i[0]) === "fuori");
-  const perche = c => faseCode(c) === "suoi" ? "l'amianto ha passaggi suoi" : "studi, nessuna bonifica";
+  const perche = c => faseCode(c) === "suoi" ? "l'amianto ha tappe sue" : "studi, nessuna bonifica";
   $("#perc-fuori").innerHTML = fuori.length ? "Fuori dal percorso: " + fuori.map(i => `<a href="${reportHref(i[0])}">${i[0]}</a> (${perche(i[0])})`).join(", ") + "." : "";
   // perché aree e report non sono lo stesso numero: tutto contato dai dati
   const nome = s => s.short.replace(/ \(.*\)$/, "");

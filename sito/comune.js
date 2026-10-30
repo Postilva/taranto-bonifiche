@@ -183,8 +183,8 @@ function fase(steps){
 }
 // riquadro "fin dove è arrivata", barra delle 5 tappe e legenda: nel report
 function faseHtml(steps, sid){
-  if (!steps && PASSI_SUOI[sid]) return `<p class="fase"><b>Passaggi diversi</b><span>${esc(PASSI_SUOI[sid])}</span></p>`;
-  if (!steps) return `<p class="fase"><b>Nessuna bonifica</b><span>${esc(NO_STEPS[sid] || "Le fonti non permettono di dire a che punto sono i 5 passaggi.")}</span></p>`;
+  if (!steps && PASSI_SUOI[sid]) return `<p class="fase"><b>Tappe diverse</b><span>${esc(PASSI_SUOI[sid])}</span></p>`;
+  if (!steps) return `<p class="fase"><b>Nessuna bonifica</b><span>${esc(NO_STEPS[sid] || "Le fonti non permettono di dire a che punto sono le 5 tappe.")}</span></p>`;
   const [, nome, sub] = FASI.find(f => f[0] === fase(steps));
   // tappe "a metà" dopo l'ultima fatta: senza questa riga la fase sembra smentita dalla barra
   const da = Math.max(0, steps.map(x => x[0]).lastIndexOf("done"));
@@ -264,7 +264,7 @@ const reportHref = code => { const s = verified[code]; return reportUrl(s, parte
 // barra delle 5 tappe in piccolo, solo da guardare (per "Parte per parte")
 const mini5Html = steps => `<span class="mini5" aria-label="${esc(steps.map(([k],i) => `${PASSI[i][2]}: ${STATO[k].label.toLowerCase()}`).join(", "))}">${steps.map(([k]) => `<i class="${k}" style="--c:var(${STATO[k].color})"></i>`).join("")}</span>`;
 // fin dove è arrivato un codice: [id, nome, cosa vuol dire] di FASI
-const faseDi = (s, code) => { const st = stepsDi(s, code); return st ? FASI.find(f => f[0] === fase(st)) : PASSI_SUOI[s.id] ? [null, "Passaggi diversi", PASSI_SUOI[s.id]] : [null, "Nessuna bonifica", NO_STEPS[s.id] || ""]; };
+const faseDi = (s, code) => { const st = stepsDi(s, code); return st ? FASI.find(f => f[0] === fase(st)) : PASSI_SUOI[s.id] ? [null, "Tappe diverse", PASSI_SUOI[s.id]] : [null, "Nessuna bonifica", NO_STEPS[s.id] || ""]; };
 // la stessa fase come chiave per i colori della mappa: "nessuna" se i 5 passaggi non si applicano, "" se non c'è il report
 const faseCode = code => { const s = verified[code]; return s ? faseDi(s, code)[0] || (PASSI_SUOI[s.id] ? "suoi" : "nessuna") : ""; };
 // schede che non descrivono un intervento di bonifica: i 5 passaggi non si applicano
@@ -273,7 +273,7 @@ const NO_STEPS = {
 };
 // schede con passaggi loro, diversi dai 5 di terreni e acque: fuori dal grafico della home e dalle quattro fasi (deciso il 29/10/2026)
 const PASSI_SUOI = {
-  "amianto-stabilimento":"L'amianto degli impianti non segue i passaggi di terreni e acque: si toglie, si riveste o si chiude dentro una barriera, i tre metodi di bonifica previsti per l'amianto. Per questo non è nel grafico delle aree.",
+  "amianto-stabilimento":"L'amianto degli impianti non segue le tappe di terreni e acque: si toglie, si riveste o si chiude dentro una barriera, i tre metodi di bonifica previsti per l'amianto. Per questo non è nel grafico delle aree.",
 };
 // il percorso delle 5 tappe, lo stesso nel grafico della home, nella legenda e nei filtri della mappa e nell'anteprima di un punto
 // (deciso il 30/10/2026): ogni area sta nella tappa che ha davanti, la prima non ancora fatta secondo FASI. In fondo una stazione
