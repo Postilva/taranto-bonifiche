@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610301300">
+<link rel="stylesheet" href="stile.css?v=202610301900">
 
 <header class="topbar">
   <div class="in">
@@ -69,11 +69,13 @@
       <div class="col-r">
         <h2 class="sec-label">A che punto sono</h2>
         <div class="card chart">
-          <h3>Fin dove è arrivata ogni area</h3>
-          <p class="chart-intro">Ogni area è contata una volta, nella fase a cui è arrivata: le stesse quattro fasi della mappa. Si può dire <b>"bonificato"</b> solo alla fine dei cinque passaggi, quando un ente pubblico lo certifica. <a href="#passaggi">I cinque passaggi ›</a></p>
-          <div class="colonne" id="colonne" aria-hidden="true"></div>
-          <div class="righe" id="righe"></div>
-          <p class="note"><span class="solo-tel">Tocca una riga per vedere le aree, poi un nome per aprire il report.</span><span class="solo-pc">Passa il mouse su un blocco per vedere il nome dell'area; un clic apre il report.</span> <span id="scala-why"></span></p>
+          <div class="perc-top">
+            <p class="perc-big" id="perc-big"></p>
+            <p class="chart-intro">Ogni bonifica passa per 5 tappe, le stesse della mappa: ogni area è contata una volta, nella tappa che ha davanti. Si può dire <b>"bonificato"</b> solo alla fine, quando un ente pubblico lo certifica. <a href="#passaggi">Le cinque tappe ›</a></p>
+          </div>
+          <ol class="perc" id="percorso"></ol>
+          <p class="perc-fuori" id="perc-fuori"></p>
+          <p class="note"><span class="solo-tel">Tocca un codice per aprire il report.</span><span class="solo-pc">Passa il mouse su un codice per vedere il nome dell'area; un clic apre il report.</span> <span id="scala-why"></span></p>
         </div>
         <div class="card chart soldi-tot" id="soldi-tot"></div>
       </div>
@@ -100,8 +102,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610301300"></script>
-<script src="comune.js?v=202610301300"></script>
+<script src="dati.js?v=202610301900"></script>
+<script src="comune.js?v=202610301900"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -276,57 +278,53 @@ function mappaFabbrica(d){
   fm.fitBounds(poly.getBounds().pad(.15));
 }
 
-/* ---------- grafico: fin dove è arrivata ogni area ---------- */
-// un blocco per area dell'elenco, nella sua fase tra le quattro della mappa (TAPPE in comune.js, deciso il 29/10/2026).
-// La fase viene dai 5 passaggi (STEPS, o la parte di PARTI) e conta solo "done", che vale già lo scenario peggiore:
-// "part" non porta avanti. Nella riga aperta e al passaggio del mouse ogni area dice anche la sua fase precisa (FASI)
+/* ---------- grafico: a che tappa è ogni area ---------- */
+// il percorso delle 5 tappe (TAPPE in comune.js, lo stesso della mappa, deciso il 30/10/2026): una stazione per tappa, con il numero
+// delle aree e i loro codici, e in fondo "Bonificata o non necessaria". Sul telefono in verticale, sul computer in orizzontale.
+// La tappa viene dai 5 passaggi (STEPS, o la parte di PARTI) e conta solo "done", che vale già lo scenario peggiore:
+// "part" non porta avanti. Al passaggio del mouse ogni codice dice il nome e, in fondo, la fase precisa (FASI)
 (function(){
-  // le aree con passaggi diversi (PASSI_SUOI in comune.js, l'amianto) non sono in nessuna fase: fuori dal grafico, con una riga sotto
-  const S = ALL.filter(i => verified[i[0]] && faseCode(i[0]) !== "suoi").map(i => {
+  // fuori dal percorso (FUORI in comune.js): le schede che non sono una bonifica e l'amianto, con una riga sotto
+  const S = ALL.filter(i => verified[i[0]] && tappaDi(i[0]) !== "fuori").map(i => {
     const s = verified[i[0]], f = FASI.find(x => x[0] === faseCode(i[0]));
     // nome breve: della parte, del report, o dell'elenco se più aree hanno un report solo (A5 e A6)
     const short = parteDi(s, i[0])?.[1] || (s.codes.length > 1 ? i[1].replace(/\s*\([^)]*\)/g, "") : s.short);
     return {code: i[0], short, tappa: tappaDi(i[0]), precisa: f ? f[1].toLowerCase() : ""};
   });
-  // la fase precisa serve solo dove la casella ne raccoglie più d'una
+  // la fase precisa serve solo dove la stazione ne raccoglie più d'una (in fondo)
   const precisa = (s, t) => t[2].length > 1 && s.precisa ? s.precisa : "";
-  // computer: una colonna per fase, fatta di un quadratino per area (codice, colore della fase come sulla mappa, nome al passaggio del mouse);
-  // tutte sulla stessa scala, quindi l'altezza dice quante aree ci sono
-  $("#colonne").style.setProperty("--n", TAPPE.length);
-  $("#colonne").innerHTML = TAPPE.map(t => {
+  // la frase in cima: quante sono ferme prima della tappa 4 (bonifica), sulle aree del percorso (calcolo nostro, dai dati)
+  const prima = S.filter(s => ["1", "2", "3"].includes(s.tappa)).length;
+  $("#perc-big").innerHTML = `<b>${prima} ${prima === 1 ? "area" : "aree"} su ${S.length}</b> ${prima === 1 ? "è ferma" : "sono ferme"} prima della bonifica.`;
+  $("#percorso").innerHTML = TAPPE.map(t => {
     const chi = S.filter(s => s.tappa === t[0]);
-    const pila = chi.map(s => `<a class="u" href="${reportHref(s.code)}" data-nome="${esc(s.short)}" data-fase="${esc(precisa(s, t))}" tabindex="-1">${s.code}</a>`).join("");
-    return `<div class="col f-${t[2][0]}"><div class="bar"><span class="n">${chi.length}</span><div class="pila">${pila || `<span class="vuota"></span>`}</div></div><span class="nome"><i class="sw f-${t[2][0]}"></i> ${esc(t[1])}<small>${esc(tappaSub(t))}</small></span></div>`;
+    const sub = t[0] === "fatto" ? tappaSub(t) : chi.length ? t[4] : "nessuna area si trova in questa fase";
+    const codici = chi.map(s => `<a class="u" href="${reportHref(s.code)}" data-nome="${esc(s.short)}" data-fase="${esc(precisa(s, t))}" aria-label="${s.code} · ${esc(s.short)}">${s.code}</a>`).join("");
+    return `<li class="st f-${t[2][0]}${chi.length ? "" : " zero"}"><span class="nt" aria-hidden="true">${t[5]}</span>
+      <span class="q">${chi.length}</span><b>${t[0] === "fatto" ? "" : `<span class="vh">Tappa ${t[0]}: </span>`}${esc(t[1])}</b><small>${esc(sub)}</small>
+      ${codici ? `<span class="ar">${codici}</span>` : ""}</li>`;
   }).join("");
-  // telefono: lo stesso grafico ruotato, una riga per fase con la barra dei quadratini (stessa scala);
-  // toccando la riga si apre l'elenco delle sue aree con i nomi
-  const max = Math.max(...TAPPE.map(t => S.filter(s => s.tappa === t[0]).length), 1);
-  $("#righe").style.setProperty("--max", max);
-  $("#righe").innerHTML = TAPPE.map(t => {
-    const chi = S.filter(s => s.tappa === t[0]);
-    const barra = chi.map(s => `<i></i>`).join("") || `<i class="vuota"></i>`;
-    const voci = chi.map(s => `<a class="area" href="${reportHref(s.code)}"><b>${s.code}</b>${esc(s.short)}${precisa(s, t) ? `<small> · ${esc(precisa(s, t))}</small>` : ""}</a>`).join("");
-    return `<details class="riga f-${t[2][0]}"><summary><span class="nome"><i class="sw f-${t[2][0]}"></i> ${esc(t[1])}</span><span class="barra">${barra}<b class="n">${chi.length}</b></span></summary><p class="sub">${esc(tappaSub(t))}</p>${chi.length ? `<div class="aree">${voci}</div>` : `<p class="sub"><b>Nessuna area.</b></p>`}</details>`;
-  }).join("");
-  // passando il mouse su un blocco compare subito il nome dell'area, sopra il blocco
+  // passando il mouse su un codice compare subito il nome dell'area, sopra il codice
   const tip = document.body.appendChild(Object.assign(document.createElement("div"), {className: "tip", role: "tooltip"}));
-  $("#colonne").addEventListener("mouseover", e => {
+  $("#percorso").addEventListener("mouseover", e => {
     const u = e.target.closest(".u"); if (!u) return;
     tip.innerHTML = `<b>${esc(u.textContent)}</b> · ${esc(u.dataset.nome)}${u.dataset.fase ? ` · ${esc(u.dataset.fase)}` : ""}`; tip.classList.add("on");
     const r = u.getBoundingClientRect();
     tip.style.left = Math.max(8, Math.min(r.left + r.width / 2 - tip.offsetWidth / 2, innerWidth - tip.offsetWidth - 8)) + "px";
     tip.style.top = (r.top - tip.offsetHeight - 6) + "px";
   });
-  $("#colonne").addEventListener("mouseout", e => { if (!e.relatedTarget?.closest?.(".u")) tip.classList.remove("on"); });
+  $("#percorso").addEventListener("mouseout", e => { if (!e.relatedTarget?.closest?.(".u")) tip.classList.remove("on"); });
   addEventListener("scroll", () => tip.classList.remove("on"), {passive: true});
+  // fuori dal percorso: una riga con i codici e il perché
+  const fuori = ALL.filter(i => verified[i[0]] && tappaDi(i[0]) === "fuori");
+  const perche = c => faseCode(c) === "suoi" ? "l'amianto ha passaggi suoi" : "studi, nessuna bonifica";
+  $("#perc-fuori").innerHTML = fuori.length ? "Fuori dal percorso: " + fuori.map(i => `<a href="${reportHref(i[0])}">${i[0]}</a> (${perche(i[0])})`).join(", ") + "." : "";
   // perché aree e report non sono lo stesso numero: tutto contato dai dati
   const nome = s => s.short.replace(/ \(.*\)$/, "");
-  const suoi = ALL.filter(i => verified[i[0]] && faseCode(i[0]) === "suoi");
   const insieme = SCHEDE.filter(s => s.codes.length > 1).map(s => `${elencoCodici(s.codes)} (${nome(s)})`);
-  $("#scala-why").textContent = `Le aree sono ${S.length}, i report ${SCHEDE.filter(s => !PASSI_SUOI[s.id]).length}` + (insieme.length ? `: ${insieme.join(", ")} hanno un report in comune` : "")
-    + (S.length + suoi.length < TOTAL ? `; ${TOTAL - S.length - suoi.length} aree non hanno ancora il report e non sono nel grafico` : "") + ". "
-    + "Ogni area è un blocco, piccola o grande che sia: il terreno e la falda dello stabilimento (C1 e C2) sono da soli circa 1.050 ettari dentro il SIN.";
-  if (suoi.length) $("#scala-why").insertAdjacentHTML("beforeend", " " + suoi.map(i => `<a href="${reportHref(i[0])}">${i[0]} · ${esc(verified[i[0]].short)}</a>`).join(", ") + ` non è nel grafico: ${esc(PASSI_SUOI[verified[suoi[0][0]].id].replace(/^./, x => x.toLowerCase()).replace(/ Per questo.*$/, ""))}`);
+  $("#scala-why").textContent = `Nel percorso le aree sono ${S.length}, i report ${SCHEDE.filter(s => !s.codes.every(c => tappaDi(c) === "fuori")).length}` + (insieme.length ? `: ${insieme.join(", ")} hanno un report in comune` : "")
+    + (S.length + fuori.length < TOTAL ? `; ${TOTAL - S.length - fuori.length} aree non hanno ancora il report e non sono nel grafico` : "") + ". "
+    + "Ogni area conta uno, piccola o grande che sia: il terreno e la falda dello stabilimento (C1 e C2) sono da soli circa 1.050 ettari dentro il SIN.";
 })();
 
 /* ---------- soldi: le stesse cifre dei due riquadri di "In breve" in soldi.html ---------- */
