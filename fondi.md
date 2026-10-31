@@ -116,7 +116,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **Report:**
   - [pip-statte] 89.900.000 € [12][13]
 - **A che punto:** Ministero dell'Ambiente
-  - 89.900.000 € · [pip-statte] · dal 2025 · da arrivare: arrivano a rate dal 2026 al 2033 [13]; 0 € di impegni e di pagamenti al 30 giugno 2026 [14]
+  - 89.900.000 € · [pip-statte] · dal 2025 · da arrivare: arrivano a rate dal 2026 al 2033 [12][13]; 0 € di impegni e di pagamenti al 30 giugno 2026 [14]
 - **Speso:** 0 € di impegni e 0 € di pagamenti al 30 giugno 2026 [14].
 - **Da sapere:** le "altre risorse" da 34,17 milioni non sono spiegate [12]. Il cimitero San Brunone non è nell'Accordo [12]; a dicembre 2025 la Regione chiedeva ancora i soldi al Governo [20].
 
@@ -317,7 +317,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 8. [altra] **Quanto resta dei 540 milioni per decontaminare la fabbrica?** Secondo i commissari di Ilva, fino alla fine del 2024 Acciaierie d'Italia ne ha avuti 206 per i lavori ambientali [64]; nel secondo semestre 2025 le relazioni sul conto danno altri 49,17 milioni di rimborsi [41]. Nessun documento dice quanto resta, né per quali lavori nel dettaglio.
 9. [fonti] **Quanto ha avuto la fabbrica nel 2024?** Per la relazione sul conto, nel secondo semestre 2024 i rimborsi ad Acciaierie d'Italia "per attività di Decontaminazione" sono 33 milioni [58]; per i commissari di Ilva, in tutto il 2024 le spese per le attività ambientali nella fabbrica sono 11 milioni [64]. Forse una cifra conta i pagamenti e l'altra i lavori fatti nell'anno.
 10. [altra] **I 150 milioni della decarbonizzazione sono stati spesi, e per cosa?** Il decreto-legge 21/2022 li ha spostati [2], ma nessuna relazione trovata ne registra il pagamento. Nel conto dei commissari di Ilva dei soldi usati al 31 gennaio 2025 non compaiono [64].
-11. [altra] **Con quali soldi si finiranno le bonifiche delle Aree escluse?** Per Ilva servivano 467 milioni e ne aveva spesi 48,57 a febbraio 2023 [39]; a fine 2025 nel Patrimonio Destinato restavano 80,6 milioni per tutto [41]. Il Comitato di sorveglianza l'ha chiesto ai commissari l'11 novembre 2024 [32].
+11. [altra] **Con quali soldi si finiranno le bonifiche delle Aree escluse?** Per Ilva servivano 467 milioni e ne aveva spesi 48,57 a febbraio 2023 (calcolo nostro: somma delle sue 17 aree) [39]; a fine 2025 nel Patrimonio Destinato restavano 80,6 milioni per tutto [41]. Il Comitato di sorveglianza l'ha chiesto ai commissari l'11 novembre 2024 [32].
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Relazione sintetica – Aggiornamento dello stato di attuazione delle attività*, dicembre 2018, pag. 9–15 (fondi del Commissario e "Quadro generale impegni/liquidazioni"; la tabella è a pagina 15 del PDF) (acquisita dalla Camera dei deputati), https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/000/520/RELAZIONE_dicembre_2018.pdf — copia in `fonti/2018-12_commissario-taranto_relazione-stato-attuazione.pdf`
@@ -356,7 +356,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 
 [18] Commissario straordinario per la bonifica di Taranto, *Decreto n. 18 del 17 aprile 2026* (Accordo quadro con Sogesid e atto di attivazione per l'aggiornamento del progetto esecutivo, CUP J54G16000010001; oggetto e premesse sulle risorse disponibili), https://commissari.gov.it/media/f0qjniio/20260417_d_18_aq_commta_sogesid_aad_bonifica_cimitero_signed_signed.pdf — copia in `fonti/2026-04_commissario-taranto_decreto-18-sogesid-cimitero.pdf`
 
-[19] OpenCoesione, progetto *Bonifica aree non pavimentate Cimitero San Brunone*, CUP J54G16000010001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1mattmdgsta_23_0001/ — copia in `fonti/2026-06_opencoesione_bonifica-cimitero-san-brunone.pdf`
+[19] OpenCoesione, progetto *Bonifica aree non pavimentate Cimitero San Brunone*, CUP J54G16000010001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1mattmdgsta_23_0001/ — copie in `fonti/2026-06_opencoesione_bonifica-cimitero-san-brunone.pdf` e, per impegni e pagamenti, nei dati del progetto `fonti/2026-06_opencoesione_bonifica-cimitero-san-brunone.json`
 
 [20] Regione Puglia, *Compensazioni territoriali per Taranto e l'area ionica – Riflessioni e proposte per un confronto con il Governo*, 9 dicembre 2025, pag. 6, punto 2.1 (allegato all'audizione del Presidente della Regione al Senato), https://www.senato.it/application/xmanager/projects/leg19/attachments/documento_evento_procedura_commissione/files/000/435/047/2025_12_9_Presidente_Regione_Puglia_-_Allegato.pdf — copia in `fonti/2025-12_regione-puglia_compensazioni-territoriali-taranto-senato.pdf`
 

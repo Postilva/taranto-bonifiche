@@ -47,7 +47,7 @@ Le analisi del 2021–2022 hanno trovato berillio quasi ovunque e, in alcuni pun
 - **Verifica sul catasto** (23 ottobre 2026): il punto di Ilva cade nella particella 27, e il centro delle particelle 26, 27, 38, 773 e 1121 (271.317 m² in tutto) è a circa 11 m dal punto; la particella 1157 non compare sulla mappa catastale di oggi, forse perché ha cambiato numero [19].
 - **Quanto è grande:** circa **267.000 m² (26,7 ettari)** [4][6][2].
 - **Cosa c'è sopra:** vegetazione spontanea (macchia mediterranea), nessun impianto, tubo o deposito, secondo Ilva [4].
-- **Vincoli:** è dentro il sito Natura 2000 (SIC/ZPS) "Area delle Gravine" e il Parco naturale regionale "Terra delle Gravine" [3][4]. Nel piano urbanistico di Statte è soprattutto "contesto rurale a prevalente valore ambientale e paesaggistico", con parti per infrastrutture e "percorsi verdi lungo le strade", e risulta tra le aree "percorse da incendi 2001-2012" [4]. Per questo i terreni sono stati confrontati con i limiti delle **aree verdi e residenziali** [4].
+- **Vincoli:** è dentro il sito Natura 2000 (SIC/ZPS) "Area delle Gravine" e il Parco naturale regionale "Terra delle Gravine" [3][4]. Nel piano urbanistico di Statte ricade soprattutto nei "contesti rurali a prevalente valore ambientale e paesaggistico", con parti per infrastrutture e "percorsi verdi lungo le strade", e risulta tra le aree "percorse da incendi 2001-2012" [4]. Per questo i terreni sono stati confrontati con i limiti delle **aree verdi e residenziali** [4].
 
 ### 2. Cosa è stato trovato?
 Valori confrontati con i limiti per le aree verdi e residenziali, in mg/kg [4][7]:
@@ -57,7 +57,7 @@ Valori confrontati con i limiti per le aree verdi e residenziali, in mg/kg [4][7
 - Nella parte sud, verso le case, **solventi clorurati**: clorometano, diclorometano e 1,2-dibromoetano, poco sopra i limiti [4][7].
 - **Acqua sotterranea** (falda profonda, a oltre 100 m): in regola, tranne **ferro e manganese** oltre i limiti, confermati da ARPA; secondo Ilva non sono legati all'inquinamento del terreno [4][7].
 - **Conclusione dell'analisi di Ilva**: terreno **contaminato** solo in due zone: attorno al sondaggio S4 per l'**arsenico** (rischio per chi tocca o ingerisce il terreno) e attorno al sondaggio S17 per l'**1,2-dibromoetano** (rischio che arrivi all'acqua) [4]. Ilva proponeva un progetto di bonifica per l'arsenico e il controllo dell'acqua [4]. ARPA e ISPRA ritengono che, con ipotesi più prudenti, i rischi sarebbero di più, "sia in termini di sorgenti che di analiti" [7][8].
-- **Da dove viene l'inquinamento:** nessun documento lo dice. Il piano iniziale ipotizzava "fonti esterne, ricadute o valori di fondo" [4]. Non verificato.
+- **Da dove viene l'inquinamento:** nessun documento lo dice. Il piano iniziale ipotizzava inquinanti "da fonti esterne, da ricadute o da valori di fondo" [4]. Non verificato.
 
 ### 3. Chi lo frequenta?
 - **Secondo INAIL** l'area è "inutilizzata e non frequentata da lavoratori" e non sono previsti altri usi [6].

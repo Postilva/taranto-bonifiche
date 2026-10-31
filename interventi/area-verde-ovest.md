@@ -52,13 +52,13 @@ Le analisi del 2021 hanno trovato nella metà ovest del terreno PCB, metalli (ta
 Il terreno è stato confrontato con due limiti diversi: quelli per le **aree verdi e residenziali** nella parte ovest, e quelli (più alti) per le **aree industriali** nella parte est [5].
 - **Parte est**: nessun superamento [5].
 - **Parte ovest** (sondaggi S1–S4 e due punti di top soil), valori più alti trovati, in mg/kg, contro il limite per le aree verdi [5][8]:
-  - **PCB**: nel punto di superficie TS5, ARPA ha misurato 7 mg/kg di PCB totali, contro un limite di 0,06 (oltre 100 volte); il laboratorio di Ilva, che conta meno tipi di PCB, aveva trovato 0,613, cioè 10 volte il limite [5][8];
+  - **PCB**: nel punto di superficie TS5, ARPA ha misurato 7 mg/kg di PCB totali, contro un limite di 0,06 (oltre 100 volte); il laboratorio di Ilva, che conta meno tipi di PCB, aveva scritto 613 contro un limite di 60, ma secondo ARPA il limite giusto è 0,06 mg/kg: con la stessa unità sono 0,613 mg/kg, cioè 10 volte il limite (conversione nostra) [5][8];
   - **tallio** fino a 15 (limite 1); **cadmio** fino a 11 (limite 2); **zinco** fino a 931 (limite 150); **piombo** 267 (limite 100); **vanadio** fino a 240 (limite 90); **antimonio** 17 (limite 10); anche berillio e rame poco sopra il limite [5];
   - **idrocarburi pesanti** fino a 388 (limite 50); idrocarburi policiclici aromatici (IPA, come il benzo(a)pirene, fino a 11 volte il limite); **diossine** più di 3 volte il limite; **solventi clorurati** (clorometano, diclorometano, triclorometano) fino a circa 13 volte il limite [5].
 - **Materiale di riporto**: su tutta l'area c'è uno strato di terra mescolata a materiali portati dall'uomo, in media di 3–4 m nel 2021 [5]; nel 2025 in un punto è arrivato a 21 m [18]. Messo in acqua rilascia fluoruri (confermati anche da ARPA), alluminio, ferro e solfati oltre i limiti [5].
 - **Acqua sotterranea** (falda profonda, a circa 40 m): il laboratorio di Ilva ha trovato piombo poco sopra il limite in un pozzo (16 µg/l contro 10); ARPA, nello stesso pozzo, no [5].
 - **Conclusione dell'analisi di Ilva**: terreno **contaminato** (PCB, tallio, IPA, idrocarburi, solventi, diossine oltre i valori accettabili anche per un lavoratore), acqua **non contaminata** [5]. Ilva scriveva che avrebbe preparato un progetto di bonifica [5]: nessuna fonte dice che esista.
-- **Da dove viene l'inquinamento:** nessun documento lo dice. Il piano del 2020 ipotizzava "fonti esterne, ricadute o valori di fondo" [4]. Non verificato.
+- **Da dove viene l'inquinamento:** nessun documento lo dice. Il piano del 2020 ipotizzava inquinanti "da fonti esterne, da ricadute o da valori di fondo" [4]. Non verificato.
 
 ### 3. Chi lo frequenta?
 - **Secondo INAIL** l'area "non è frequentata, eccetto che per rari interventi di manutenzione" [7]. Non ci sono case né edifici vicini [5].

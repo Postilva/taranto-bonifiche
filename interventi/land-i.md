@@ -25,7 +25,7 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 **Niente analisi, niente messa in sicurezza, niente bonifica. Ilva dice che non servono.** [2]
 
 - Nel luglio 2022 Ilva scriveva, per quest'area: "nessuna attività evidenziata", "nessuna criticità evidenziata" [2], e "possibile cessione dell'area vista l'assenza di criticità ambientali" [4].
-- Dal 2022 al 2025 le relazioni di Ilva ripetono sempre la stessa frase: area verde "non utilizzata a scopi produttivi e lontana dalla zona industriale", che Ilva "ipotizza di cedere nell'attuale stato di fatto" [5][1].
+- Dal 2022 al 2025 le relazioni di Ilva ripetono sempre la stessa frase: area verde "non utilizzata a scopi produttivi e lontana dalla zona industriale", che Ilva "ipotizza di cederla nell'attuale stato di fatto" [5][1].
 - Dalla fine del 2024 Ilva divide le sue 18 aree in 3 gruppi invece di 4; Land I resta l'unica nel gruppo "aree cedibili e prive di pendenze" [8].
 - Nessuna di queste relazioni cita analisi del terreno o dell'acqua [2][5][1].
 
@@ -36,7 +36,7 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 - L'unica fonte del giudizio è Ilva stessa [1][2][4].
 - Nell'archivio del Ministero dell'Ambiente non c'è nessun procedimento con questo nome; del resto il Ministero segue solo le aree dentro il SIN.
 - Nell'elenco della Regione Puglia dei siti da bonificare o da controllare (aggiornato ad aprile 2020) non abbiamo trovato nessuna voce che corrisponda a Land I: nessuna voce cita un ospedale [6]. Questo però vuol dire solo che nessuno ha segnalato l'area come potenzialmente inquinata, non che sia stata analizzata.
-- Ilva scrive che l'area "non è utilizzata a scopi produttivi" [1]. Non abbiamo trovato documenti sulla sua storia passata. Non verificato.
+- Ilva scrive che è un'area "non utilizzata a scopi produttivi" [1]. Non abbiamo trovato documenti sulla sua storia passata. Non verificato.
 
 ### 2. È nel SIN?
 **Secondo Ilva no.** [2][3]
@@ -45,7 +45,7 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 - Non abbiamo potuto controllarlo da soli sulla mappa del SIN, perché non conosciamo la posizione esatta dell'area (vedi sotto).
 
 ## Dove si trova e quanto è grande
-- **Dove:** "vicino a Ospedale Nord" secondo Ilva [1]; nel 2022 Ilva e la Commissione scrivevano "adiacente ad Ospedale Nord" [7][3]. Non è disegnata nella mappa delle aree di Ilva perché "non adiacente allo stabilimento" [7]. Nessuna fonte trovata indica il Comune, il catasto, le coordinate o quale ospedale sia esattamente l'"Ospedale Nord". Non verificato.
+- **Dove:** "vicino a Ospedale Nord" secondo Ilva [1]; nel 2022 Ilva e la Commissione scrivevano "adiacente ad Ospedale Nord" [7][3]. Non è disegnata nella mappa delle aree di Ilva perché è tra le aree "non adiacenti allo stabilimento produttivo" [7]. Nessuna fonte trovata indica il Comune, il catasto, le coordinate o quale ospedale sia esattamente l'"Ospedale Nord". Non verificato.
 - **Quanto è grande:** **0,2 ettari** [2].
 
 ## Soldi

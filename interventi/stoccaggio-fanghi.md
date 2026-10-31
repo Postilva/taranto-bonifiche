@@ -52,7 +52,7 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
   - finita la rimozione, Ilva deve fare le analisi del terreno liberato [2].
 - Lo spostamento dei fanghi nel deposito è iniziato il 6 giugno 2023; al 30 giugno ne erano state spostate 49.487,86 t [19].
 - **12 agosto 2023**: Ilva comunica di aver finito [1][12]. Il conto della relazione di Ilva è [1]:
-  - 95.348 t di fanghi d'altoforno e 237.469 t di fanghi d'acciaieria portati via (in tutto **332.817 t**);
+  - 95.348 t di fanghi d'altoforno e 237.469 t di fanghi d'acciaieria portati via (in tutto **332.817 t**, calcolo nostro);
   - **113.107 t di fanghi d'altoforno** spostati nel deposito impermeabilizzato (nessun fango d'acciaieria è finito nel deposito).
   - Dai numeri della relazione di fine 2023 risulta che le 95.348 t sono quelle portate via direttamente dall'area, quindi le 113.107 t del deposito si aggiungono (in tutto circa 446.000 t) [9] (calcolo nostro, da verificare).
 - **Svuotamento del deposito** (dati inviati da Ilva a Provincia e ARPA):

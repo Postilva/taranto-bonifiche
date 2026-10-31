@@ -18,7 +18,7 @@ Un'area per le imprese di circa 9 ettari a Statte, costruita sopra una vecchia c
 Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattutto scorie d'altoforno, insieme a fanghi oleosi che contengono PCB, e da lì l'inquinamento scende nella falda profonda [4][10]. Le fonti trovate finora non nominano un responsabile: la Commissione parlamentare sui rifiuti scrive che "non è chiara la responsabilità dell'apporto dei rifiuti" [26]. L'area è nel censimento perché i rifiuti sono soprattutto scorie d'altoforno, uno scarto della siderurgia, e la cava confina con lo stabilimento ex Ilva [4][10]. Nessuna fonte però dice che vengano dall'Ilva.
 
 ## Chi se ne occupa
-- Il **Commissario straordinario per la bonifica di Taranto** è il responsabile dell'intervento dal 2013: il 30 luglio 2013 il Comune ha firmato un protocollo d'intesa con il primo Commissario, Alfio Pini, nominato dalla Presidenza del Consiglio l'11 gennaio 2013 [20]. Accordo rivisto nel 2015 [5][6]. Commissari successivi: Vera Corbelli (nominata nel 2014), il Prefetto Demetrio Martino dal novembre 2020 al 2023, Vito Felice Uricchio oggi [7][8][16].
+- Il **Commissario straordinario per la bonifica di Taranto** è il responsabile dell'intervento dal 2013: il 30 luglio 2013 il Comune ha firmato un protocollo d'intesa con il primo Commissario, Alfio Pini, nominato dalla Presidenza del Consiglio l'11 gennaio 2013 [20][26]. Accordo rivisto nel 2015 [5][6]. Commissari successivi: Vera Corbelli (nominata nel 2014), il Prefetto Demetrio Martino dal novembre 2020 al 2023, Vito Felice Uricchio oggi [7][8][16].
 - Il **Comune di Statte** ha avuto un ruolo che è cambiato più volte:
   - dal 2013 al 2017 è stato la "stazione appaltante", cioè l'ente che fa le gare, per le analisi, il progetto di messa in sicurezza e l'intervento d'emergenza [4][5][6];
   - l'8 maggio 2017 il Commissario Corbelli gli ha tolto la gara per la messa in sicurezza definitiva (decreto n. 158), ma gli ha lasciato quella per l'intervento d'emergenza [5][6];
@@ -99,9 +99,9 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 **Il nuovo intervento costa 124,1 milioni €: 89,9 sono stati assegnati a dicembre 2025 e arrivano a rate, ma a giugno 2026 non era stato speso nulla. Dei 37 milioni dati dalla Regione nel 2012, a settembre 2018 ne erano stati spesi 1,18.** [2][4][15][17]
 
 - [costo] 124.073.987,94 € · Accordo per la Coesione · novembre 2025 [2] costo del nuovo intervento
-- [disponibili] 89.900.000 € · Delibera CIPESS 51/2025 · dicembre 2025 [15] assegnati dal Fondo sviluppo e coesione 2021-2027, a rate dal 2026 al 2033
-- [spesi] non si sa · sul nuovo intervento 0 € al 30 giugno 2026 [17]; dei 37 milioni del 2012, 1.180.649,40 € spesi al 30 settembre 2018 [4] e 375.252,04 € girati al Comune a settembre 2022 per l'intervento d'emergenza [6][23], poi non si sa
-- [stranezza · più del previsto] Nel 2018 il Commissario divideva i soldi della Regione in tre voci (analisi, messa in sicurezza definitiva, intervento d'emergenza) che sommano 41,3 milioni €, più dei 37 milioni disponibili [5]
+- [disponibili] 89.900.000 € · Delibera CIPESS 51/2025 · dicembre 2025 [2][15] assegnati dal Fondo sviluppo e coesione 2021-2027, a rate dal 2026 al 2033
+- [spesi] non si sa · sul nuovo intervento 0 € al 30 giugno 2026 [17]; dei 37 milioni del 2012, 1.180.649,40 € spesi al 30 settembre 2018 [4] e 375.252,04 € girati al Comune a settembre 2022 per l'intervento d'emergenza (calcolo nostro: 364.469,12 + 10.782,92) [6][23], poi non si sa
+- [stranezza · più del previsto] Nel 2018 il Commissario divideva i soldi della Regione in tre voci (analisi, messa in sicurezza definitiva, intervento d'emergenza) che sommano 41,3 milioni € (calcolo nostro), più dei 37 milioni disponibili [5]
 - [stranezza · più report] I 37 milioni della Regione fanno parte dei 75,17 milioni della delibera CIPE 87/2012, che paga anche i sedimenti del Mar Piccolo (21 milioni) e il dragaggio al molo polisettoriale (17,17 milioni) [27]
 - [stranezza · fonti non concordano] I fondi della Regione sono 37 milioni € [4], ma nel 2015 al Comune ne sono stati assegnati 36.445.000 [6]. L'intervento d'emergenza vale 9,9 milioni nel 2018 [5], 932.202,35 € nel 2019 [6] e 1.379.000 € nel 2026 [1]
 
@@ -116,7 +116,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
   | Messa in sicurezza definitiva | 31.000.000 € |
   | Intervento d'emergenza | 9.900.000 € ("in parte" finanziato con questi fondi) |
 
-  I tre importi sommano 41,3 milioni, più dei 37 disponibili [5].
+  I tre importi sommano 41,3 milioni (calcolo nostro), più dei 37 disponibili [5].
 - Speso al 30 settembre 2018: 1.180.649,40 €, cioè il 3,19% [4].
 
 **Cosa dice l'opuscolo (maggio 2026)** [1]
@@ -161,7 +161,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 |---|---|---|
 | 1972–1995 | La cava viene riempita di rifiuti industriali, soprattutto loppa d'altoforno | [10] |
 | 26 luglio 2012 | Protocollo d'intesa per Taranto: ci sono anche le analisi e la messa in sicurezza del PIP | [6] |
-| 11 gennaio 2013 | La Presidenza del Consiglio nomina il primo Commissario, Alfio Pini | [20] |
+| 11 gennaio 2013 | La Presidenza del Consiglio nomina il primo Commissario, Alfio Pini | [26] |
 | 30 aprile 2013 | Il Ministero approva il piano delle analisi | [22] |
 | 30 luglio 2013 | Protocollo d'intesa tra Comune di Statte e Commissario | [20] |
 | 3 settembre 2013 | La Giunta di Statte approva il primo documento di progetto (36,6 milioni €, lavori previsti dal 7 maggio 2014) | [20] |
