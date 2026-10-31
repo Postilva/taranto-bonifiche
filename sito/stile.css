@@ -143,6 +143,9 @@ body.mappa .topbar .in{max-width:none}
 .perc .ar{grid-column:2/4;display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
 .perc .u{display:inline-grid;place-items:center;min-width:38px;height:30px;padding:0 6px;border-radius:7px;background:var(--fc);color:var(--fc-ink);font:700 11px/1 var(--f-mono);text-decoration:none}
 .st.zero b,.st.zero .q{color:var(--ink-3)}
+/* le tappe 1-4 sono ancora da fare: "Da fare" sopra il nome, perché il nome da solo non si legga come tappa fatta */
+.perc .df{display:block;margin-bottom:2px;font:700 .68rem/1.2 var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--fc)}
+.st.zero .df{color:var(--ink-3)}
 .perc-fuori{border-top:1px solid var(--line);padding-top:12px;font-size:.85rem;line-height:1.45;color:var(--ink-3)}
 .perc-fuori:empty{display:none}
 .soldi-tot .area,.dove .area{display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.8rem;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}

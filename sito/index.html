@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202610311420">
+<link rel="stylesheet" href="stile.css?v=202610311530">
 
 <header class="topbar">
   <div class="in">
@@ -102,8 +102,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202610311420"></script>
-<script src="comune.js?v=202610311420"></script>
+<script src="dati.js?v=202610311530"></script>
+<script src="comune.js?v=202610311530"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -306,7 +306,7 @@ function mappaFabbrica(d){
     const sub = t[0] === "fatto" ? tappaSub(t) : chi.length ? t[4] : "nessuna area si trova in questa fase";
     const codici = chi.map(s => `<a class="u" href="${reportHref(s.code)}" data-nome="${esc(s.short)}" data-fase="${esc(precisa(s, t))}" aria-label="${s.code} · ${esc(s.short)}">${s.code}</a>`).join("");
     return `<li class="st f-${t[2][0]}${chi.length ? "" : " zero"}"><span class="nt" aria-hidden="true">${t[5]}</span>
-      <span class="q">${chi.length}</span><b>${t[0] === "fatto" ? "" : `<span class="vh">Tappa ${t[0]}: </span>`}${esc(t[1])}</b><small>${esc(sub)}</small>
+      <span class="q">${chi.length}</span><b>${t[0] === "fatto" ? "" : `<span class="df">Da fare<span class="vh">, tappa ${t[0]}:</span></span> `}${esc(t[1])}</b><small>${esc(sub)}</small>
       ${codici ? `<span class="ar">${codici}</span>` : ""}</li>`;
   }).join("");
   // passando il mouse su un codice compare subito il nome dell'area, sopra il codice
