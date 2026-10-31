@@ -30,7 +30,7 @@ Per anni ci sono stati accumulati pneumatici fuori uso: la Regione lo classifica
 
 - **La regola.** Il "Piano rifiuti" approvato con la legge 20/2015 contiene la prescrizione UA26, per l'"area sequestrata di deposito Pneumatici fuori uso": togliere i rifiuti entro 18 mesi e poi fare le analisi del terreno con le regole delle bonifiche [3].
 - **La rimozione (2016–2018).** Il progetto è stato rivisto da Invitalia; nel 2016 Ilva ha dato l'incarico a due ditte, per la rimozione e per l'area di lavorazione [3]. La Guardia di Finanza ha tolto i sigilli il 20 ottobre 2016 e la rimozione è iniziata il 16 novembre 2016; a febbraio 2017 era ancora in corso [3].
-- **La comunicazione alla Regione (2017).** Nell'elenco della Regione l'area entra nel 2017 con una "comunicazione di potenziale contaminazione" (art. 242 del Codice dell'ambiente) [1].
+- **La comunicazione alla Regione (2017).** Nell'elenco della Regione l'area entra nel 2017 con una "comunicazione potenziale contaminazione" (art. 242 del Codice dell'ambiente) [1].
 - **"Attuata al 31.12.2018".** Ilva scrive che sia la rimozione sia le analisi del terreno sono state completate entro il 31 dicembre 2018, e ISPRA nel 2022 segna la prescrizione come "attuata" [4][5].
 - **Ma ad aprile 2020** la Regione indica ancora l'area come "sito potenzialmente contaminato", con il procedimento fermo alla comunicazione iniziale [1]. Non abbiamo trovato risultati delle analisi, pareri di ARPA o atti della Regione successivi.
 
@@ -74,7 +74,7 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 2. [altra] **Chi deve occuparsene oggi?** La Regione indica Ilva in A.S., ma dal 2018 l'area la gestisce Acciaierie d'Italia [1][5]. Non verificato.
 3. [altra] **Quando e perché l'area è stata sequestrata?** Sappiamo solo che i sigilli sono stati tolti il 20 ottobre 2016 [3]. Non verificato.
 4. [altra] **Quanti pneumatici sono stati portati via, dove, e quanto è costato?** Le fonti dicono solo che la rimozione è iniziata nel novembre 2016 [3]. Non verificato.
-5. [fonti] **Le analisi sono finite o l'area è ferma al 2017?** Per Ilva le analisi erano finite nel 2018 [4][5], ma ad aprile 2020 la Regione la tiene ancora ferma alla "comunicazione di potenziale contaminazione" del 2017 [1]. Le due fonti non tornano.
+5. [fonti] **Le analisi sono finite o l'area è ferma al 2017?** Per Ilva le analisi erano finite nel 2018 [4][5], ma ad aprile 2020 la Regione la tiene ancora ferma alla "comunicazione potenziale contaminazione" del 2017 [1]. Le due fonti non tornano.
 
 Ricerca online del 20 ottobre 2026 (UA26, "area PFU", pneumatici fuori uso Ilva Statte, anagrafe regionale, portale delle valutazioni ambientali del Ministero): trovati solo i documenti elencati sopra. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 

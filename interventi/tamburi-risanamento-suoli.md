@@ -36,7 +36,7 @@ La Regione indica come causa, per tutte le aree, la "deposizione inquinanti su s
 | D1 | SP1 – suolo | 164.770 m² | Certificazione chiesta dal Comune, non rilasciata: "sito contaminato" [1] |
 | D4 | SP3 – suolo | 34.371 m² | Certificazione chiesta dal Comune, non rilasciata: "sito contaminato" [1] |
 | D2 | SP2 – suolo | 3.249 m² | Certificazione chiesta dal Comune, non rilasciata: "sito contaminato" [1] |
-| D3 | SP2 – aree private | 45.622 m² | Solo "comunicazione di potenziale contaminazione"; "fase di accertamento", nessun soggetto indicato [1] |
+| D3 | SP2 – aree private | 45.622 m² | Solo "comunicazione potenziale contaminazione"; "fase di accertamento", nessun soggetto indicato [1] |
 
 - **2005.** Iniziano i procedimenti, con le regole di allora (decreto ministeriale 471/1999); per le aree private di SP2 c'è la comunicazione di potenziale contaminazione (la Regione scrive "D.M. 471/09", probabilmente per 471/1999) [1].
 - **2013.** Alla cabina di regia per Taranto il Comune conferma "l'impegno a trasmettere i progetti di bonifica delle aree dei Tamburi, il cui accesso era interdetto per motivi sanitari da ordinanze sindacali" [5].

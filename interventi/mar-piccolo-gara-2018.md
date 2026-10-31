@@ -52,7 +52,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
   | 6 | Lavori: bioremediation | 2.090.000 € |
   | | **Totale** | **32.276.250 €** |
 - Le domande scadevano il 2 luglio 2018 [2].
-- **Quanto era grande l'area:** "poco più di 14 ettari" in tutto, secondo il Prefetto Martino, scelti non tra le zone più inquinate ma tra quelle più adatte alle prove [7]. Il 1° seno misura oltre 8 km², cioè più di 800 ettari [8].
+- **Quanto era grande l'area:** "poco più di 14 ha" (ettari) in tutto, secondo il Prefetto Martino, scelti non tra le zone più inquinate ma tra quelle più adatte alle prove [7]. Il 1° seno misura oltre 8 km², cioè più di 800 ettari [8].
 
 **Come è andata la gara (2018–2020)**
 - A novembre 2018, **9 operatori** hanno superato la prima selezione [3].

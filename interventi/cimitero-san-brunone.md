@@ -160,7 +160,7 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 
 [3] Commissario straordinario per la bonifica di Taranto, Decreto n. 18 del 17 aprile 2026 (Accordo quadro con Sogesid e atto di attivazione per l'aggiornamento del progetto esecutivo, CUP J54G16000010001), https://commissari.gov.it/media/f0qjniio/20260417_d_18_aq_commta_sogesid_aad_bonifica_cimitero_signed_signed.pdf — copia in `fonti/2026-04_commissario-taranto_decreto-18-sogesid-cimitero.pdf`
 
-[4] OpenCoesione (Presidenza del Consiglio – Dipartimento per le politiche di coesione), progetto *Bonifica aree non pavimentate Cimitero San Brunone*, CUP J54G16000010001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1mattmdgsta_23_0001/ — copia in `fonti/2026-06_opencoesione_bonifica-cimitero-san-brunone.pdf`
+[4] OpenCoesione (Presidenza del Consiglio – Dipartimento per le politiche di coesione), progetto *Bonifica aree non pavimentate Cimitero San Brunone*, CUP J54G16000010001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1mattmdgsta_23_0001/ — copie in `fonti/2026-06_opencoesione_bonifica-cimitero-san-brunone.pdf` e, per gli impegni, nei dati del progetto `fonti/2026-06_opencoesione_bonifica-cimitero-san-brunone.json`
 
 [5] Commissario straordinario per la bonifica di Taranto, *Relazione sintetica – Aggiornamento dello stato di attuazione delle attività*, dicembre 2018, pag. 15 e 30–31 (acquisita dalla Camera dei deputati), https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/000/520/RELAZIONE_dicembre_2018.pdf — copia in `fonti/2018-12_commissario-taranto_relazione-stato-attuazione.pdf`
 

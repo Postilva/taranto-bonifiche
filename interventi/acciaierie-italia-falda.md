@@ -17,7 +17,7 @@ A febbraio 2025 Acciaierie d'Italia ha annunciato controlli su altri 17 pozzetti
 L'acqua sotterranea sotto lo stabilimento siderurgico, nei 1.050 ettari dentro il SIN [1].
 
 ## Perché è inquinata
-Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 925 di quei 1.050 ettari [1]. In alcuni punti sull'acqua galleggia uno strato di idrocarburi, fino a 3 metri in un pozzetto di controllo nel 2023 [2][10].
+Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 925 di quei 1.050 ettari (calcolo nostro: 904 + 21 ettari, le due classi di aree con la falda oltre i limiti nella tabella dell'azienda) [1]. In alcuni punti sull'acqua galleggia uno strato di idrocarburi, fino a 3 metri in un pozzetto di controllo nel 2023 [2][10].
 
 ## Chi se ne occupa
 - **Acciaierie d'Italia S.p.A.** (ADI), in amministrazione straordinaria dal 20 febbraio 2024: gestisce lo stabilimento e le misure sulla falda [11][12]. Si dichiara "gestore non responsabile della contaminazione" [1].
@@ -54,7 +54,7 @@ Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 92
 - **Falda superficiale:** oltre i limiti soprattutto alluminio, arsenico, selenio, nitriti, ferro, manganese, boro, solfati e fluoruri [1][7]. La tabella dei controlli 2018–2022 di ADI copre **115 pozzetti** [14]. Alcuni dei valori più alti:
   - **nitriti 60.000 µg/l**, 120 volte il limite di 500, nel pozzetto 25/601/I/FS a dicembre 2020; nello stesso pozzetto **cianuri 450 µg/l** (limite 50) nel 2019 [14];
   - **cromo esavalente 287 µg/l** (limite 5) e cromo totale 315 µg/l (limite 50) nel pozzetto 50/1572/I/FS, area Sidercomit, a settembre 2020 [14]. Vicino al TUL2 e al CCO5 ARPA ha trovato anche **PCB** oltre i limiti (ottobre 2022) [2]. Nell'area Sidercomit, cromo totale e cromo esavalente oltre i limiti in modo continuo, che ADI attribuisce alla Sanac, a monte (scheda C5) [1].
-- **Falda profonda** (l'acquifero nella roccia calcarea): secondo ISPRA (2022) è "potenzialmente contaminata dai composti alifatici clorurati" [15]. Triclorometano (cloroformio) oltre il limite di 0,15 µg/l in alcuni pozzetti nel 2023, fino a **0,9 µg/l** a dicembre 2023 nei risultati allegati, anche se il testo di ADI scrive "max 0,6" [7]. Secondo ADI l'acqua profonda scorre in prevalenza **verso l'esterno dello stabilimento**, in direzione sud-sud-est [7].
+- **Falda profonda** (l'acquifero nella roccia calcarea): secondo ISPRA (2022) l'acquifero profondo è "potenzialmente contaminato dai composti alifatici clorurati" [15]. Triclorometano (cloroformio) oltre il limite di 0,15 µg/l in alcuni pozzetti nel 2023, fino a **0,9 µg/l** a dicembre 2023 nei risultati allegati, anche se il testo di ADI scrive "max 0,6" [7]. Secondo ADI l'acqua profonda scorre in prevalenza **verso l'esterno dello stabilimento**, in direzione sud-sud-est [7].
 - **Da dove viene l'inquinamento: chi dice cosa.**
   - ADI: boro, solfati e fluoruri vengono dal mare; ferro, manganese e arsenico dalla degradazione naturale dei sedimenti [2][7].
   - ARPA e ISPRA: non si può escludere che vengano dalle **scorie, loppe e fanghi d'acciaieria** usati per riempimenti, argini e colmate, anche nell'area dell'ex Yard Belleli [2][3].
@@ -70,7 +70,7 @@ Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 92
 | 18 dicembre 2013 | La conferenza di servizi chiede di cominciare a pompare dai pozzi esistenti | [2] |
 | 29 settembre 2017 | Il Piano ambientale autorizza il "pump & treat" entro il 31/12/2018 | [4] |
 | 2018 | Installato l'impianto: 11 pozzi e depuratore | [9] |
-| 21 dicembre 2018 | ArcelorMittal manda i primi risultati: "non necessari ulteriori interventi" | [2] |
+| 21 dicembre 2018 | ArcelorMittal manda i primi risultati: "non si ritengono necessari ulteriori interventi" | [2] |
 | 29 luglio 2019 | Rapporto ISPRA: prescrizione "attuata" | [6] |
 | 5 maggio 2020 | Comunicata la presenza di idrocarburi galleggianti | [2] |
 | 25 novembre 2020 | Studio di fattibilità delle misure di prevenzione | [2] |
