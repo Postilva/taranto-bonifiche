@@ -233,6 +233,9 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
   - 250 milioni € · Acciaierie d'Italia, gennaio–febbraio 2025 · certo · sulla linea febbraio 2025: ad Acciaierie d'Italia in AS, 110 il 29 gennaio e 140 il 13 febbraio 2025, dopo che il decreto-legge 3/2025 ha alzato il secondo periodo dell'art. 39 da 150 a 400 milioni [40][60];
   - 23,59 milioni € · garanzia per l'AIA · certo: ad Acciaierie d'Italia in AS "per costituzione garanzia finanziaria per il rinnovo dell'Autorizzazione integrata ambientale (AIA)", nel secondo semestre 2024 [58];
   - circa 58,8 milioni € · anticipo a Ilva non restituito · calcolo nostro: un "Anticipo di 188 milioni di euro del 26 marzo 2019 concesso alla gestione ordinaria di Ilva S.p.A. in A.S." [57]: ne sono tornati 17 milioni a maggio 2023 [57] e 112,22 milioni più 6,45 di interessi nel secondo semestre 2024 [58], con i soldi rimasti dell'accordo per l'esodo incentivato dei dipendenti [32]. Ne mancano circa 58,8 milioni (calcolo nostro).
+- **Pagati per le bonifiche:** "Spese per attività di tutela ambientale e sanitaria" pagate dal Patrimonio Destinato dal 2018 a fine 2024, 325 milioni in tutto secondo i commissari di Ilva al Senato il 4 febbraio 2025 [64]; stanno dentro le "bonifiche e altre spese" di "Dove sono andati":
+  - 206 milioni € · nella fabbrica di Acciaierie d'Italia · certo: nella fabbrica di Acciaierie d'Italia ("Di cui ADI") [64];
+  - 119 milioni € · nelle aree di Ilva · certo: nelle aree di Ilva in AS ("Di cui ILVA"), tutte insieme e non divise area per area [64].
 - **Quanto resta:** quanto c'è nel Patrimonio Destinato, secondo le relazioni trimestrali di Ilva in AS e, per il 2025, le relazioni semestrali dei commissari di Ilva al Parlamento ("disponibilità del Patrimonio Destinato"):
   - 1.064 milioni € · fine dicembre 2018 [28]
   - 878,0 milioni € · fine marzo 2021 [46]
