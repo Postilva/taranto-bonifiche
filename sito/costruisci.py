@@ -691,6 +691,9 @@ def leggi_fondi(schede):
             if not f["resta"]:
                 sys.exit(f"fondi.md, {titolo}: **Quanto resta** non ha righe \"cifra milioni € · mese anno [n]\"")
             f["pezzi"] = {k: pezzi_fondo(f, k, titolo) for k in ("Per cosa", "Usati per altro")}
+            # dove sono andati i soldi delle bonifiche (deciso il 31/10/2026): fabbrica e aree di Ilva, dentro il "al massimo"
+            if "Pagati per le bonifiche" in f["voci"]:
+                f["pezzi"]["Pagati per le bonifiche"] = pezzi_fondo(f, "Pagati per le bonifiche", titolo)
             prev = sum(p["v"] for p in f["pezzi"]["Per cosa"])
             if not f["importo"] or abs(prev - f["importo"] / 1e6) > .5:
                 sys.exit(f"fondi.md, {titolo}: i pezzi di **Per cosa** fanno {num_it(prev, 2)} milioni, non l'importo")
@@ -762,9 +765,11 @@ def elenco_codici(cs, gruppo_di):
 
 
 def scrivi_soldi(fondi, schede, gruppo_di, short):
-    """sito/soldi.html, "I soldi della bonifica": In breve, dove sono finiti i soldi dei Riva, quanto ha speso Ilva, quanto è
-    stato speso dei fondi pubblici, cosa non torna; poi "Per controllare": i fondi report per report, un riquadro per fondo con il percorso dei soldi (dato → finito
-    in quali report → speso), poi i fondi non per la bonifica, i report senza fondo, cosa non sappiamo e le fonti.
+    """sito/soldi.html, "I soldi della bonifica" (rifatta il 31/10/2026): in cima i quattro numeri della home, ognuno con
+    "Dettagli" che apre il suo dettaglio in una finestra (i soldi dei Riva: come erano divisi e la tabella di Ilva; dove sono
+    andati e i pagati per le bonifiche. I fondi pubblici: da dove vengono; a che punto sono e da quanto aspettano); poi che
+    differenza c'è fra i due tipi di soldi e, chiusi, "Per controllare" (un riquadro per fondo con il percorso dei soldi:
+    dato → finito in quali report → speso), cosa non sappiamo, le parole e le fonti.
     Pagina statica: si legge anche senza JavaScript (il codice in fondo apre la fonte o il fondo indicati dal link e
     mostra le cifre della linea al tocco)."""
     schede = sorted(schede, key=lambda s: ordine_codice(s["code"], gruppo_di))   # nell'ordine della home
@@ -824,13 +829,21 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
     stat = {}   # per tipo di soldi (True: secondo Ilva): totali, report e righe, per In breve e la tabella delle aree di Ilva
     for di_ilva in (True, False):
         barre, altri = ferme(di_ilva)
-        stat[di_ilva] = {"d": somma("disponibili", di_ilva), "sp": somma("spesi", di_ilva), "barre": barre, "altri": altri,
+        con_cifre = len(barre) + len(altri)
+        sp = somma("spesi", di_ilva)
+        if di_ilva:
+            # la tabella di Ilva di febbraio 2023: solo i report con la cifra stanziata, e i pagati solo di quei report (deciso
+            # il 31/10/2026: prima c'erano anche i 20,2 milioni dell'amianto, C35, che sono di marzo 2025)
+            con_d = {s["id"] for s in schede if cifre_di(s, "disponibili", True)}
+            altri = [a for a in altri if a[0]["id"] in con_d]
+            sp = sum(r["v"] for s, r in righe if r["k"] == "spesi" and ilva(r) and s["id"] in con_d)
+        stat[di_ilva] = {"d": somma("disponibili", di_ilva), "sp": sp, "barre": barre, "altri": altri,
                          "n_rep": len({s["id"] for s, r in righe if r["k"] == "disponibili" and ilva(r) == di_ilva}),
-                         "con_cifre": len(barre) + len(altri), "sotto5": sum(1 for b in barre if b[1]["pct"] < 5)}
+                         "con_cifre": con_cifre, "sotto5": sum(1 for b in barre if b[1]["pct"] < 5)}
 
     # ---- dove sono finiti i soldi dei Riva: come erano divisi, dove sono andati, quanto resta (Patrimonio Destinato di Ilva)
     dom = [domanda(it, "fondi.md") for kind, val in blocks(fondi["altre"].get("Cosa non sappiamo", [])) if kind == "ol" for it in val]
-    resta = ""
+    riva_p = []   # i pannelli dei due numeri dei soldi dei Riva: (id, html)
     pd = next((f for _, ff in fondi["gruppi"] for f in ff if f.get("resta")), None)
     if pd:
         previsti, usati, ultimo = pd["pezzi"]["Per cosa"], pd["pezzi"]["Usati per altro"], pd["resta"][-1]
@@ -871,27 +884,40 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
         def riga_nd(s, d, sp, motivo):
             return (f'<tr><td><a class="fr-n" href="r/{s["id"]}.html"><b class="g{gruppo_di.get(s["code"], "A")}">{elenco_codici(s["codes"], gruppo_di)}</b>{html.escape(nome_breve(s))}</a>'
                     f'<small>{html.escape(motivo, quote=False)}</small></td><td>{fra(d) if d else "?"}</td><td>{fra(sp) if sp else "?"}</td><td>?</td></tr>')
-        ilva_tab = (f'<h3 class="pz-h" id="ilva">3. Quanto ha speso Ilva nelle sue aree {info[0]}<small>secondo Ilva, febbraio 2023</small></h3>{info[1]}'
-                    f'<p class="chart-intro">Secondo la tabella di Ilva di febbraio 2023, per le sue {si["n_rep"]} aree c\'erano <b>{num_it(si["d"] / 1e6, 2)} milioni €</b> e ne erano stati spesi '
-                    f'<b>{num_it(si["sp"] / 1e6, 2)}</b>, circa il {num_it(si["sp"] / si["d"] * 100, 0)}% (calcolo nostro). In {si["sotto5"]} aree su {len(si["barre"])} era stato speso meno del 5% (calcolo nostro). '
+        # nella finestra "Nel fondo" (deciso il 31/10/2026), accanto ai soldi previsti per le aree di Ilva: le cifre di Ilva
+        # sono stanziamenti, non spese; dentro i soldi usciti ("al massimo") c'è solo la parte spesa
+        aree_p = next(p for p in previsti if "Aree escluse" in p["nome"])
+        ilva_tab = (f'<h3 class="pz-h" id="ilva">Quanto aveva speso Ilva nelle sue aree {info[0]}<small>secondo Ilva, febbraio 2023</small></h3>{info[1]}'
+                    f'<p class="chart-intro">Dei {aree_p["lbl"]} milioni € per le aree di Ilva{cita(aree_p["fonti"])}, nella tabella di febbraio 2023 Ilva ne aveva stanziati <b>{num_it(si["d"] / 1e6, 2)}</b> per le {si["n_rep"]} aree del sito '
+                    f'e ne aveva spesi <b>{num_it(si["sp"] / 1e6, 2)}</b>, circa il {num_it(si["sp"] / si["d"] * 100, 0)}% (calcolo nostro). In {si["sotto5"]} aree su {len(si["barre"])} era stato speso meno del 5% (calcolo nostro). '
                     'Sono le cifre dichiarate da Ilva: nessun ente pubblico le ha controllate, e dopo febbraio 2023 non ci sono cifre area per area.</p>'
-                    '<table class="resta-tab fp-tab ilva-tab"><thead><tr><th>Area</th><th>Disponibili</th><th>Già spesi</th><th>Spesi</th></tr></thead><tbody>'
+                    '<table class="resta-tab fp-tab ilva-tab"><thead><tr><th>Area</th><th>Stanziati</th><th>Già spesi</th><th>%</th></tr></thead><tbody>'
                     + "".join(riga_i(*b) for b in si["barre"]) + "".join(riga_nd(*a) for a in si["altri"])
                     + f'<tr class="tot"><td>{si["n_rep"]} aree (calcolo nostro)</td><td>{num_it(si["d"] / 1e6, 2)} mln €</td><td>{num_it(si["sp"] / 1e6, 2)} mln €</td><td>circa {num_it(si["sp"] / si["d"] * 100, 0)}%</td></tr>'
                     '</tbody></table>')
-        resta = ('<section class="card chart sz" id="resta"><h2>Dove sono finiti i soldi dei Riva?</h2>'
-                 f'<p class="risposta">Dei {num_it(tot, 0)} milioni € per bonifiche e risanamento{cita(fonte_imp)}, circa <b>{num_it(n_usati, 0)} milioni</b> sono stati usati per altro, soprattutto per far funzionare la fabbrica (calcolo nostro). '
-                 f'Per le bonifiche ne sono andati <b>al massimo circa {num_it(resto, 0)}</b> (calcolo nostro). A {ultimo["quando"]} ne restavano <b>{ultimo["lbl"]} milioni</b>{cita(ultimo["src"])}.</p>'
-                 f'<p class="chart-intro">Il Patrimonio Destinato è il fondo di Ilva per le bonifiche e il risanamento, nato soprattutto dall\'accordo con la famiglia Riva. '
-                 f'Qui come erano divisi, dove sono andati e quanto ne ha speso Ilva nelle sue aree. Accanto a ogni cifra: {tag("certo")} è scritta in una relazione, {tag("probabile")} lo dicono più fonti ma nessuna relazione, {tag("calcolo nostro")} l\'abbiamo calcolata noi.</p>'
-                 '<div class="pz-g">'
-                 f'<div class="pz-p"><h3>1. Come erano divisi<small>milioni €, secondo Ilva, giugno 2022</small></h3>{barra(previsti, "Come erano divisi")}</div>'
-                 f'<div class="pz-p"><h3>2. Dove sono andati<small>milioni €, fino a fine 2025</small></h3>{barra(andati, "Dove sono andati")}'
-                 f'<p class="note">Usati per altro, in giallo: circa <b>{num_it(n_usati, 0)} milioni</b>. Ad Acciaierie d\'Italia, per far funzionare la fabbrica, ne sono andati {num_it(adi["certo"], 0) + (" certi, " + num_it(adi["certo"] + adi["probabile"], 0) + " contando i probabili" if adi["probabile"] else "")}. '
-                 f'Il resto, al massimo circa {num_it(resto, 0)} milioni, comprende le bonifiche nella fabbrica e nelle aree di Ilva e le altre spese del fondo, contro i {num_it(bonifiche, 0)} milioni previsti per le bonifiche (calcolo nostro).</p></div></div>'
-                 + ilva_tab
-                 + "".join(f'<p class="aperta"><b>{cita(d["q"])}</b> <a href="#domande">Cosa non sappiamo →</a></p>' for d in domande_pd)
-                 + f'<p class="note"><a href="#{pd["id"]}">Il Patrimonio Destinato, da dove viene e per cosa →</a></p></section>')
+        # dentro le "bonifiche e altre spese" (**Pagati per le bonifiche** di fondi.md, deciso il 31/10/2026): quanto è andato
+        # alla fabbrica e quanto alle aree di Ilva, con il tratteggio del pezzo "al massimo"
+        pagati_b = pd["pezzi"].get("Pagati per le bonifiche", [])
+        dentro = (f'<div class="pz-p"><h3>Dentro le bonifiche e altre spese<small>milioni €, secondo i commissari di Ilva, dal 2018 a fine 2024</small></h3><ul class="pz-leg">'
+                  + "".join(f'<li><i class="sw c-max"></i><b>{p["lbl"]}</b><span>{html.escape(p["nome"])}{", " + p["pre"] if p["pre"] else ""} {tag(p["cert"])}{cita(p["fonti"])}</span></li>' for p in pagati_b)
+                  + '</ul><p class="note">Le aree di Ilva sono contate tutte insieme. Area per area ci sono solo le cifre di Ilva di febbraio 2023: '
+                  '<a href="#ilva">quanto aveva speso Ilva nelle sue aree →</a></p></div>') if pagati_b else ""
+        # i due numeri della home si aprono (deciso il 31/10/2026): "Nel fondo" su come erano divisi e quanto aveva speso Ilva
+        # nelle sue aree, "Usati per altro" su dove sono andati e cosa c'è dentro le bonifiche
+        certezza = (f'<p class="note">Accanto a ogni cifra: {tag("certo")} è scritta in una relazione, {tag("probabile")} lo dicono più fonti ma nessuna relazione, '
+                    f'{tag("calcolo nostro")} l\'abbiamo calcolata noi.</p>')
+        riva_p = [
+            ("p-fondo", f'<p class="chart-intro">Il Patrimonio Destinato è il fondo di Ilva per le bonifiche e il risanamento, nato soprattutto dall\'accordo con la famiglia Riva{cita(fonte_imp)}.</p>'
+                        f'<div class="pz-p"><h3>Come erano divisi<small>milioni €, secondo Ilva, giugno 2022</small></h3>{barra(previsti, "Come erano divisi")}</div>'
+                        + certezza + ilva_tab
+                        + "".join(f'<p class="aperta"><b>{cita(d["q"])}</b> <a href="#domande">Cosa non sappiamo →</a></p>' for d in domande_pd)
+                        + f'<p class="note"><a href="#{pd["id"]}">Il Patrimonio Destinato, da dove viene e per cosa →</a></p>'),
+            ("resta", f'<p class="risposta">Dei {num_it(tot, 0)} milioni € per bonifiche e risanamento{cita(fonte_imp)}, circa <b>{num_it(n_usati, 0)} milioni</b> sono stati usati per altro, soprattutto per far funzionare la fabbrica (calcolo nostro). '
+                      f'Per le bonifiche ne sono andati <b>al massimo circa {num_it(resto, 0)}</b> (calcolo nostro). A {ultimo["quando"]} ne restavano <b>{ultimo["lbl"]} milioni</b>{cita(ultimo["src"])}.</p>'
+                      f'<div class="pz-p"><h3>Dove sono andati<small>milioni €, fino a fine 2025</small></h3>{barra(andati, "Dove sono andati")}'
+                      f'<p class="note">Usati per altro, in giallo: circa <b>{num_it(n_usati, 0)} milioni</b>. Ad Acciaierie d\'Italia, per far funzionare la fabbrica, ne sono andati {num_it(adi["certo"], 0) + (" certi, " + num_it(adi["certo"] + adi["probabile"], 0) + " contando i probabili" if adi["probabile"] else "")}. '
+                      f'Il resto, al massimo circa {num_it(resto, 0)} milioni, comprende le bonifiche nella fabbrica e nelle aree di Ilva e le altre spese del fondo, contro i {num_it(bonifiche, 0)} milioni previsti per le bonifiche (calcolo nostro).</p></div>'
+                      + dentro + certezza)]
 
 
     # ---- dove sono finiti i fondi pubblici (deciso il 27/10/2026), come per i soldi dei Riva: 1. da dove vengono (per chi li
@@ -921,7 +947,7 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
         return (f'<div class="pzb{"" if alta else " sottile"}" role="img" aria-label="{titolo}, in milioni di euro: ' + "; ".join(f"{html.escape(n)} {m2(v)}" for _, v, n in segs) + '">'
                 + "".join(f'<span class="pz {c}" style="flex-grow:{num_js(round(v / tot * 100, 3))}" title="{html.escape(n)}: {m2(v)} milioni €">{m2(v) if alta and v / tot >= .12 else ""}</span>' for c, v, n in segs) + "</div>")
 
-    fondi_pub = ""
+    pub_p = []   # i pannelli dei due numeri dei fondi pubblici: (id, html)
     if pz_pub:
         # 1. da dove vengono: per chi dà i soldi, dal più grande; sotto ognuno i suoi fondi
         per_chi = {}
@@ -982,48 +1008,57 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
                     f'Circa {num_it(g_tot["altro"] / 1e6, 0)} milioni sono stati usati per altro, {num_it(g_tot["fermi"] / 1e6, 0)} aspettano ancora di essere pagati '
                     f'e di {num_it(g_tot["nonsi"] / 1e6, 0)} non si sa cosa ne è stato; altri {num_it(g_tot["arrivo"] / 1e6, 0)} devono ancora arrivare'
                     + (f' e {num_it(g_tot["persi"] / 1e6, 0)} sono stati revocati o non usati' if g_tot["persi"] else '') + ' (calcolo nostro).')
-        diff = tot_pub - stat[False]["d"]
-        fondi_pub = ('<section class="card chart sz" id="fondi-pubblici"><h2>Dove sono finiti i fondi pubblici?</h2>'
-                     f'<p class="risposta">{risposta}</p>'
-                     '<p class="chart-intro">Le quote dei fondi pubblici che vanno ai report del sito, atto per atto: non contiamo la parte dei fondi che va ad altri interventi. '
-                     'Qui da dove vengono, a che punto sono e da quanto tempo aspettano. '
-                     + '</p><div class="pz-g">'
-                     f'<div class="pz-p"><h3>1. Da dove vengono<small>milioni €, per chi li dà</small></h3>{parte1}</div>'
-                     f'<div class="pz-p"><h3>2. A che punto sono<small>milioni €, con le ultime cifre trovate</small></h3>{parte2}</div></div>'
-                     '<h3 class="pz-h">3. Da quanto tempo aspettano</h3>'
-                     '<p class="chart-intro">Una riga per ogni quota, dalla più vecchia. <b>Anni</b>: da quanti anni ci sono i soldi; con ✓ sono stati spesi tutti, e il numero dice in quanti anni. Le percentuali sono calcolo nostro.</p>'
-                     + parte3
-                     + (f'<p class="note">Non contiamo: ' + "; ".join(f'<a href="#{f["id"]}">{html.escape(nome_f(f))}</a>, perché {testo(f["punto"]["escluso"])[:-1] if testo(f["punto"]["escluso"]).endswith(".") else testo(f["punto"]["escluso"])}' for f in esclusi) + ".</p>" if esclusi else "")
-                     + "</section>")
+        # i due numeri della home si aprono (deciso il 31/10/2026): "Assegnati ai report" su da dove vengono, "Pagati" su a
+        # che punto sono e da quanto tempo aspettano
+        pub_p = [
+            ("p-assegnati", '<p class="chart-intro">Le quote dei fondi pubblici che vanno ai report del sito, atto per atto: non contiamo la parte dei fondi che va ad altri interventi.</p>'
+                            f'<div class="pz-p"><h3>Da dove vengono<small>milioni €, per chi li dà</small></h3>{parte1}</div>'
+                            + (f'<p class="note">Non contiamo: ' + "; ".join(f'<a href="#{f["id"]}">{html.escape(nome_f(f))}</a>, perché {testo(f["punto"]["escluso"])[:-1] if testo(f["punto"]["escluso"]).endswith(".") else testo(f["punto"]["escluso"])}' for f in esclusi) + ".</p>" if esclusi else "")),
+            ("fondi-pubblici", f'<p class="risposta">{risposta}</p>'
+                               f'<div class="pz-p"><h3>A che punto sono<small>milioni €, con le ultime cifre trovate</small></h3>{parte2}</div>'
+                               '<h3 class="pz-h">Da quanto tempo aspettano</h3>'
+                               '<p class="chart-intro">Una riga per ogni quota, dalla più vecchia. <b>Anni</b>: da quanti anni ci sono i soldi; con ✓ sono stati spesi tutti, e il numero dice in quanti anni. Le percentuali sono calcolo nostro.</p>'
+                               + parte3)]
 
-    # ---- in breve, in cima (deciso il 27/10/2026): prima di tutto i due tipi di soldi (## Due tipi di soldi di fondi.md),
-    # un riquadro ciascuno con da dove vengono, chi li spende, chi dà le cifre, quanti sono, in quanti report e le cifre
-    # principali, che portano alla loro sezione
+    # ---- i quattro numeri della home in cima (deciso il 31/10/2026, al posto di "In breve"): le stesse caselle del riquadro
+    # "Soldi" della home (DATA.soldi), due per tipo di soldi; ogni casella è un bottone "Dettagli" che apre il suo dettaglio
+    # in una finestra sopra la pagina (dialog). Senza JavaScript i dettagli si vedono tutti, sotto le caselle
+    casella = lambda nome, n, u, sotto: {"nome": nome, "n": n, "u": u, "sotto": sotto}
+    caselle = {"riva": [casella("Nel fondo", num_it(tot, 0), "mln €", "lasciati dai Riva per bonifiche e risanamento"),
+                        casella("Usati per altro", f"circa {num_it(n_usati, 0)}", "mln €", "soprattutto per far funzionare la fabbrica (calcolo nostro)")] if pd else [],
+               "pub": [casella("Assegnati ai report", f"circa {num_it(tot_pub / 1e6, 0)}", "mln €", "quote dei fondi per i report del sito (calcolo nostro)"),
+                       casella("Pagati", m2(g_tot["pagati"]), "mln €", f"{pct_q(g_tot['pagati'], tot_pub)} (calcolo nostro)")] if pz_pub else []}
+
+    def sezione(sid, cls, titolo, sotto, cc, pannelli):
+        if not cc:
+            return ""
+        bott = "".join(f'<button type="button" class="nb" aria-haspopup="dialog" aria-controls="{pid}"><small>{html.escape(c["nome"])}</small><b>{html.escape(c["n"])}</b>'
+                       f'<span class="u">{c["u"]}</span><span class="s">{html.escape(c["sotto"])}</span><span class="ap" aria-hidden="true">Dettagli</span></button>'
+                       for c, (pid, _) in zip(cc, pannelli))
+        pan = "".join(f'<dialog class="nb-d {cls}" id="{pid}" open aria-labelledby="{pid}-t"><header class="nb-dh"><div><small>{html.escape(titolo)}</small>'
+                      f'<b id="{pid}-t">{html.escape(c["nome"])}: {html.escape(c["n"])} {c["u"]}</b></div>'
+                      f'<button type="button" class="nb-x" aria-label="Chiudi">×</button></header><div class="nb-p">{segna(h)}</div></dialog>'
+                      for c, (pid, h) in zip(cc, pannelli))
+        return (f'<section class="card chart sz nb-s {cls}" id="{sid}"><h2>{titolo}<small>{sotto}</small></h2>'
+                f'<div class="nb-g">{bott}</div>{pan}</section>')
+
+    # ---- che differenza c'è fra i due tipi di soldi (## Due tipi di soldi di fondi.md): una tabellina a due colonne, con
+    # da dove vengono, chi li spende, chi dà le cifre e in quanti report
     revocato = lambda f: "revocat" in f["nome"]
     rep_pub = {r for t, ff in fondi["gruppi"] if "pubblic" in t.lower() for f in ff if not revocato(f) for r in f["report"]}
     rep_pd = set(pd["report"]) if pd else set()
-    si, sp_ = stat[True], stat[False]
-    link = lambda h, t: f'<a class="due-l" href="#{h}">{t} →</a>'
-    def riquadro(titolo, righe):
-        if "Patrimonio" in titolo:
-            cls, cifra, sotto, n = "due-pd", f"{num_it(tot, 0)} milioni €" if pd else "", cita(fonte_imp) if pd else "", len(rep_pd)
-            esiti = ((link("resta", f"Circa <b>{num_it(n_usati, 0)} milioni</b> usati per altro, soprattutto per far funzionare la fabbrica (calcolo nostro)") if pd else "")
-                     + link("ilva", f"Nelle sue aree Ilva aveva speso <b>circa il {num_it(si['sp'] / si['d'] * 100, 0)}%</b> dei soldi previsti, a febbraio 2023 (calcolo nostro)"))
-        else:
-            cls, cifra, sotto, n = "due-pub", f"circa {num_it(tot_pub / 1e6, 0)} milioni €", " per i report del sito, sommando le quote dei fondi (calcolo nostro)", len(rep_pub)
-            esiti = (link("fondi-pubblici", f"Ne risultano pagati <b>{m2(g_tot['pagati'])} milioni</b>, {pct_q(g_tot['pagati'], tot_pub)} (calcolo nostro)") if pz_pub else "")
-        c = (si if "Patrimonio" in titolo else sp_)["con_cifre"]   # i report con almeno una cifra di quel tipo
-        nc = ", tutti con le cifre" if c >= n else f", {c} con le cifre"
-        dl = "".join(f'<div><dt>{html.escape(k)}</dt><dd>{testo(v)}</dd></div>' for k, v in righe)
-        return (f'<div class="due-c {cls}"><h3>{html.escape(titolo)}</h3><p class="due-n"><b>{cifra}</b>{sotto}</p>'
-                f'<dl>{dl}<div><dt>Quanti report</dt><dd>{n} report del sito{nc}</dd></div></dl><div class="due-e">{esiti}</div></div>')
-    due = ""
+    def quanti(di_ilva):
+        n, c = (len(rep_pd), stat[True]["con_cifre"]) if di_ilva else (len(rep_pub), stat[False]["con_cifre"])
+        return f"{n} report del sito" + (", tutti con le cifre" if c >= n else f", {c} con le cifre")
+    diff = ""
     if fondi["due"]:
-        due = ('<p class="due-i">Per la bonifica ci sono <b>due tipi di soldi</b>: vengono da posti diversi, li spendono enti diversi e le cifre le danno fonti diverse. '
-               'Sono due conti separati: sul sito li teniamo divisi e non li sommiamo mai.</p>'
-               '<div class="due">' + "".join(riquadro(t, rr) for t, rr in fondi["due"]) + "</div>")
-    breve = ('<section class="card chart sz breve" id="in-breve"><h2>In breve</h2>' + due
-             + "</section>")
+        col = sorted(fondi["due"], key=lambda tr: "Patrimonio" not in tr[0])   # prima i soldi dei Riva
+        voci = list(dict.fromkeys(k for _, rr in col for k, _ in rr))
+        val = lambda rr, k: next((testo(v) for kk, v in rr if kk == k), "")
+        diff = ('<section class="card chart sz" id="differenza"><h2>Che differenza c\'è</h2>'
+                '<div class="dt"><span></span><b class="dt-h dt-pd">I soldi dei Riva</b><b class="dt-h dt-pub">I fondi pubblici</b>'
+                + "".join(f'<span class="dt-k">{html.escape(k)}</span>' + "".join(f'<div>{val(rr, k)}</div>' for _, rr in col) for k in voci)
+                + f'<span class="dt-k">Quanti report</span><div>{quanti(True)}</div><div>{quanti(False)}</div></div></section>')
 
     # ---- le parole difficili (## Parole di fondi.md): in ogni sezione, la prima volta che compare una parola, un link che
     # la spiega al tocco (la spiegazione è nel riquadro "Le parole" in fondo, che funziona anche senza JavaScript)
@@ -1046,11 +1081,6 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
         return "".join(out)
     parole = (f'<details class="acc" id="parole"><summary><span>Le parole<small>Cosa vogliono dire {len(glos)} parole che tornano spesso</small></span></summary><div class="body"><dl class="parole">'
               + "".join(f'<div id="{g["id"]}"><dt>{html.escape(g["k"])}</dt><dd>{cita(inline(g["h"]))}</dd></div>' for g in glos) + "</dl></div></details>") if glos else ""
-
-    # ---- l'indice: resta in alto sotto la barra del sito, con la sezione in cui si è
-    voci_nav = [("in-breve", "In breve"), ("resta", "I soldi dei Riva") if pd else None, ("fondi-pubblici", "Fondi pubblici") if fondi_pub else None,
-                ("fondi", "Per controllare")]
-    nav = '<nav class="sd-nav" aria-label="Le parti della pagina">' + "".join(f'<a href="#{h}">{t}</a>' for h, t in filter(None, voci_nav)) + "</nav>"
 
     def voce_report(r):   # "[scheda] cifra e per cosa" → il report e la sua quota; le altre righe come testo
         m = re.match(r"\[([a-z0-9-]+)\]\s*(.*)", r)
@@ -1083,11 +1113,21 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
     altre = fondi["altre"]
     lista = lambda righe: "".join(voce_report(" ".join(x.strip() for x in it)) for kind, val in blocks(righe) if kind == "ul" for it in val)
     altro = lambda righe: "".join(f"<li><span>{testo(' '.join(x.strip() for x in it))}</span></li>" for kind, val in blocks(righe) if kind == "ul" for it in val)
-    dopo = []
+    # "Per controllare" (deciso il 31/10/2026): una riga sola che si apre sui fondi, uno per riquadro, e sui soldi citati
+    # nelle schede che non pagano una bonifica; sotto, sempre in vista, cosa non sappiamo, le parole e le fonti
+    extra = []
     if altre.get("Report senza un fondo conosciuto"):
-        dopo.append(f'<details class="acc"><summary><span>Report senza un fondo conosciuto</span></summary><div class="body"><ul class="dove">{lista(altre["Report senza un fondo conosciuto"])}</ul></div></details>')
+        extra.append(f'<details class="acc"><summary><span>Report senza un fondo conosciuto</span></summary><div class="body"><ul class="dove">{lista(altre["Report senza un fondo conosciuto"])}</ul></div></details>')
     if altre.get("Citati nelle schede ma non per la bonifica"):
-        dopo.append(f'<details class="acc"><summary><span>Citati nelle schede ma non per la bonifica<small>Soldi che non pagano una bonifica del censimento</small></span></summary><div class="body"><ul class="dove">{altro(altre["Citati nelle schede ma non per la bonifica"])}</ul></div></details>')
+        extra.append(f'<details class="acc"><summary><span>Citati nelle schede ma non per la bonifica<small>Soldi che non pagano una bonifica del censimento</small></span></summary><div class="body"><ul class="dove">{altro(altre["Citati nelle schede ma non per la bonifica"])}</ul></div></details>')
+    n_f = {("pub" if "pubblic" in t.lower() else "ilva"): len(ff) for t, ff in fondi["gruppi"]}
+    conta = " e ".join(x for x in (f'{n_f["pub"]} {"fondo pubblico" if n_f["pub"] == 1 else "fondi pubblici"}' if n_f.get("pub") else "",
+                                   f'{n_f["ilva"]} di Ilva' if n_f.get("ilva") else "") if x)
+    dopo = [f'<details class="acc" id="fondi"><summary><span>Per controllare<small>Fondo per fondo, con le fonti: {conta}</small></span></summary><div class="body">'
+            '<p class="chart-intro">Ogni riquadro è un fondo: un atto (una delibera, un decreto, un accordo) che ha messo soldi per la bonifica. '
+            'Dentro c\'è il percorso dei soldi: chi li ha dati, in quali report sono finiti e quanto è stato speso. '
+            'Se lo stesso atto paga più interventi, le quote stanno nello stesso riquadro, così nessun fondo si conta due volte.</p>'
+            f'{gruppi}' + (f'<div class="gruppo"><h3>Altro</h3><div class="accs">{"".join(extra)}</div></div>' if extra else "") + '</div></details>']
     if dom:
         ol = lambda xs, k="": f'<ol class="unk {k}">' + "".join(f'<li><span><b>{cita(d["q"])}</b>{cita(d["h"])}</span></li>' for d in xs) + "</ol>"
         al, fo = [d for d in dom if d["t"] != "fonti"], [d for d in dom if d["t"] == "fonti"]
@@ -1103,16 +1143,15 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
     corpo = ('<header class="sd-head"><h1>I soldi della bonifica</h1>'
              '<p class="lead">Quanti soldi ci sono per la bonifica delle aree dell\'Ilva, quanti ne sono stati spesi e da dove vengono. '
              'Solo cifre di documenti ufficiali; le somme e le percentuali fatte da noi sono scritte "calcolo nostro".</p>'
-             f'<p class="note">{html.escape(fondi["controllo"])}</p></header>'
-             # in ordine di storia (deciso il 27/10/2026): i soldi dei Riva (con le spese di Ilva per area), dove sono finiti i fondi
-             # pubblici; in fondo, per chi vuole controllare, un riquadro per fondo. Tolte il 27/10/2026 "Quanto è stato speso dei
-             # fondi pubblici?", "Cosa non torna?" e "Report per report": le dicono già le schede dei singoli interventi
-             + nav + breve + "".join(map(segna, (resta, fondi_pub)))
-             + '<section class="sz-fondi" id="fondi"><h2>Per controllare</h2>'
-             '<p class="chart-intro">Da dove vengono i soldi, fondo per fondo, con le fonti. Ogni riquadro è un fondo: un atto (una delibera, un decreto, un accordo) che ha messo soldi per la bonifica. '
-             'Dentro c\'è il percorso dei soldi: chi li ha dati, in quali report sono finiti e quanto è stato speso. '
-             'Se lo stesso atto paga più interventi, le quote stanno nello stesso riquadro, così nessun fondo si conta due volte.</p>'
-             + f'{gruppi}<div class="gruppo"><h3>Altro</h3><div class="accs">{"".join(dopo)}</div></div></section>')
+             f'<p class="note">{html.escape(fondi["controllo"])}</p>'
+             '<p class="due-i">Per la bonifica ci sono <b>due tipi di soldi</b>, in conti separati: sul sito li teniamo divisi e non li sommiamo mai.</p></header>'
+             # come la home (deciso il 31/10/2026): i quattro numeri del riquadro "Soldi", ognuno si apre sul suo dettaglio;
+             # poi che differenza c'è fra i due tipi di soldi e, chiusi, i fondi uno per uno, cosa non sappiamo, parole e fonti
+             + '<div class="nb-due">'
+             + sezione("riva", "nb-pd", "I soldi dei Riva", "Patrimonio Destinato di Ilva: cifre di Ilva e dei suoi commissari", caselle["riva"], riva_p)
+             + sezione("pubblici", "nb-pub", "I fondi pubblici", "Stato, Regione Puglia e Unione europea", caselle["pub"], pub_p)
+             + '</div>' + diff
+             + f'<div class="accs sd-fine">{"".join(dopo)}</div>')
     tpl = (ROOT / "sito" / "report.html").read_text(encoding="utf-8")
     testa = tpl.split("<main")[0]   # stessa testata dei report (meta, caratteri, menu), con titolo e descrizione della pagina
     desc = "I soldi per la bonifica delle aree dell'Ilva: quanti ce ne sono, quanti ne sono stati spesi e da dove vengono, solo con documenti ufficiali."
@@ -1125,12 +1164,23 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
     contatto = re.search(r'^const CONTATTO = "([^"]*)";', js, re.M).group(1)
     js = ("<script>\n/* Apre il fondo (#f-...) o la fonte (#fondi-f3, #fondi-f3-6) indicati dal link e li evidenzia per un attimo. */\n"
           f'document.querySelectorAll(".contatto").forEach(a => {{ const u = "{contatto}"; if (u) a.href = u; else a.hidden = true; }});\n'
+          "// i quattro numeri in cima: \"Dettagli\" apre il dettaglio in una finestra sopra la pagina; si chiude con la ×, toccando fuori o con Esc.\n"
+          "// Senza JavaScript i dettagli restano aperti sotto le caselle\n"
+          "const finestre = [...document.querySelectorAll(\".nb-d\")]; finestre.forEach(d => d.close());\n"
+          "const apriFin = d => { if (!d.open) { d.showModal(); d.scrollTop = 0; } };\n"
+          "document.addEventListener(\"click\", e => {\n"
+          "  const b = e.target.closest(\".nb\"); if (b) return apriFin(document.getElementById(b.getAttribute(\"aria-controls\")));\n"
+          "  if (e.target.closest(\".nb-x\") || finestre.includes(e.target)) e.target.closest(\"dialog\").close(); });\n"
+          "// apre tutto quello che contiene el (i riquadri a fisarmonica e la finestra di un numero) e chiude le finestre in cui non è\n"
+          "function mostra(el){\n"
+          "  finestre.forEach(d => { if (d.open && !d.contains(el)) d.close(); });\n"
+          "  for (let x = el; x; x = x.parentElement) { if (x.tagName === \"DETAILS\") x.open = true; if (x.tagName === \"DIALOG\") apriFin(x); } }\n"
           "function apri(){\n"
           "  const h = decodeURIComponent(location.hash.slice(1)), m = h.match(/^fondi-f(\\d+)(?:-(\\d+))?$/);\n"
           "  const els = m ? Array.from({length: +(m[2] || m[1]) - +m[1] + 1}, (_, k) => document.getElementById(\"fondi-f\" + (+m[1] + k))).filter(Boolean)\n"
-          "    : [document.getElementById(h)].filter(x => x && x.tagName === \"DETAILS\");\n"
+          "    : [document.getElementById(h)].filter(x => x && (x.tagName === \"DETAILS\" || x.tagName === \"DIALOG\" || x.closest(\"dialog\")));\n"
           "  if (!els.length) return;\n"
-          "  els.forEach(el => { const d = el.closest(\"details\"); if (d) d.open = true; });\n"
+          "  els.forEach(mostra);\n"
           "  els[0].scrollIntoView({block: m ? \"center\" : \"start\"});\n"
           "  els.forEach(el => { el.classList.add(\"flash\"); setTimeout(() => el.classList.remove(\"flash\"), 1800); });\n"
           "}\n"
@@ -1148,18 +1198,14 @@ document.addEventListener("click", e => {
   const d = document.getElementById(a.getAttribute("href").slice(1)); if (!d) return;
   e.preventDefault();
   pop.innerHTML = `<p><b>${d.querySelector("dt").textContent}</b>: ${d.querySelector("dd").innerHTML}</p><a href="#parole">Tutte le parole →</a>`;
+  // dentro una finestra la spiegazione va nella finestra, altrimenti resterebbe sotto
+  const fin = a.closest("dialog"), host = fin || document.body; if (pop.parentElement !== host) host.append(pop);
   pop.hidden = false;
-  const r = a.getBoundingClientRect(), w = Math.min(340, innerWidth - 32);
-  pop.style.width = w + "px"; pop.style.left = (Math.min(Math.max(r.left, 16), innerWidth - w - 16) + scrollX) + "px"; pop.style.top = (r.bottom + scrollY + 8) + "px";
+  const r = a.getBoundingClientRect(), w = Math.min(340, innerWidth - 32), o = fin ? fin.getBoundingClientRect() : {left: -scrollX, top: -scrollY};
+  pop.style.width = w + "px"; pop.style.left = (Math.min(Math.max(r.left, 16), innerWidth - w - 16) - o.left) + "px"; pop.style.top = (r.bottom - o.top + (fin ? fin.scrollTop : 0) + 8) + "px";
 });
 addEventListener("keydown", e => { if (e.key === "Escape") pop.hidden = true; });
 addEventListener("hashchange", () => pop.hidden = true);
-// l'indice: segna la parte della pagina in cui si è e la tiene in vista
-const nav = document.querySelector(".sd-nav"), voci = nav ? [...nav.querySelectorAll("a")] : [];
-const io = new IntersectionObserver(es => es.forEach(e => { if (!e.isIntersecting) return;
-  voci.forEach(a => a.classList.toggle("on", a.hash === "#" + e.target.id));
-  const on = voci.find(a => a.classList.contains("on")); if (on) nav.scrollTo({left: on.offsetLeft - 16, behavior: "smooth"}); }), {rootMargin: "-35% 0px -60% 0px"});
-voci.forEach(a => { const s = document.getElementById(a.hash.slice(1)); if (s) io.observe(s); });
 // le tabelle lunghe: sul telefono le prime 6 righe (e il totale), la freccia sotto mostra tutte e di nuovo meno;
 // senza JavaScript e su schermo grande si vedono intere
 if (!matchMedia("(min-width:900px)").matches) document.querySelectorAll(".fp-tab").forEach(t => {
@@ -1175,13 +1221,9 @@ if (!matchMedia("(min-width:900px)").matches) document.querySelectorAll(".fp-tab
     pg = ("<!doctype html>\n<!-- Scritta da sito/costruisci.py leggendo fondi.md e le schede: non modificare a mano. -->\n" + testa.replace("<!doctype html>\n", "", 1)
           + f'<main class="rp sd">\n  <div class="wrap">{corpo}</div>\n</main>' + piede + js)
     (ROOT / "sito" / "soldi.html").write_text(pg, encoding="utf-8")
-    # le cifre per il riquadro "Soldi" della home (deciso il 27/10/2026): le stesse dei due riquadri di In breve, già scritte,
-    # così home e pagina dei soldi dicono sempre la stessa cosa
-    casella = lambda nome, n, u, sotto: {"nome": nome, "n": n, "u": u, "sotto": sotto}
-    return {"riva": [casella("Nel fondo", num_it(tot, 0), "mln €", "lasciati dai Riva per bonifiche e risanamento"),
-                     casella("Usati per altro", f"circa {num_it(n_usati, 0)}", "mln €", "soprattutto per far funzionare la fabbrica (calcolo nostro)")] if pd else [],
-            "pub": [casella("Assegnati ai report", f"circa {num_it(tot_pub / 1e6, 0)}", "mln €", "quote dei fondi per i report del sito (calcolo nostro)"),
-                    casella("Pagati", m2(g_tot["pagati"]), "mln €", f"{pct_q(g_tot['pagati'], tot_pub)} (calcolo nostro)")] if pz_pub else []}
+    # le cifre per il riquadro "Soldi" della home (deciso il 27/10/2026): le stesse caselle in cima alla pagina dei soldi, già
+    # scritte, così home e pagina dicono sempre la stessa cosa
+    return caselle
 
 
 # ---------- schede ----------

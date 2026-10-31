@@ -646,50 +646,79 @@ body.pv-on .paneltoggle{display:none}
 .mini5 .no,.mini5 .na{border-style:dashed}
 /* menu con tre voci: sui telefoni stretti le voci si stringono */
 @media (max-width:420px){.topbar .in{gap:6px}.topbar nav{gap:0}.topbar nav a{padding:10px 10px}}
-/* pagina "I soldi della bonifica" (soldi.html, scritta da costruisci.py leggendo fondi.md e le schede): in cima le sezioni
-   dell'analisi (In breve, i soldi dei Riva, quanto ha speso Ilva, i fondi pubblici, cosa non torna), poi "Per controllare":
-   report per report e un riquadro a fisarmonica per fondo; dentro, il percorso dei soldi in tre tappe (dato → finito in → speso) su una linea verticale */
+/* pagina "I soldi della bonifica" (soldi.html, scritta da costruisci.py leggendo fondi.md e le schede): in cima i quattro
+   numeri della home, ognuno apre il suo dettaglio in una finestra; poi che differenza c'è e, chiusi, "Per controllare"
+   (un riquadro a fisarmonica per fondo), cosa non sappiamo, parole e fonti; dentro, il percorso dei soldi in tre tappe (dato → finito in → speso) su una linea verticale */
 .sd>.wrap{gap:20px;max-width:1080px}   /* larga come la home */
 .sd-head{display:grid;gap:10px}
 .sd-head h1{font-size:clamp(1.6rem,6.4vw,2.4rem);font-weight:800}
 .sd .sz{margin:0}
-.sd .sz>h2,.sz-fondi>h2{font-size:1.15rem;font-weight:800}
-.sz-fondi{display:grid;gap:12px}
-.breve p{margin:0 0 10px;font-size:.95rem;line-height:1.55;color:var(--ink)}.breve p:last-child{margin-bottom:0}.breve strong{font-weight:800}
 /* il titolo di ogni sezione è una domanda, la risposta subito sotto (calcolata da costruisci.py), poi i dettagli */
 .risposta{margin:0;padding:12px 14px;border-radius:12px;background:var(--gA-soft);font-size:1rem;line-height:1.5;color:var(--ink)}.risposta b{font-weight:800}
-/* l'indice: sotto la barra del sito, scorre di lato sul telefono; segnata la parte in cui si è */
-html:has(.sd-nav){scroll-padding-top:calc(var(--bar-h) + 64px)}
-.sd-nav{position:sticky;top:var(--bar-h);z-index:1300;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 -16px;padding:8px 16px;background:var(--bg);border-bottom:1px solid var(--line)}
-.sd-nav::-webkit-scrollbar{display:none}
-.sd-nav a{flex:none;display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border-radius:999px;background:var(--surface-2);color:var(--ink-2);font:600 .82rem/1 var(--f-body);text-decoration:none;white-space:nowrap}
-.sd-nav a.on{background:var(--gA);color:var(--on-g)}
 /* in breve: prima i due tipi di soldi, un riquadro ciascuno (arancione i soldi dei Riva, blu i fondi pubblici, come i
    codici A e B), con le cifre principali che portano alla loro parte */
-.due-i{margin:0 0 12px;font-size:1rem;line-height:1.5;color:var(--ink)}.due-i b{font-weight:800}
+.due-i{margin:0;font-size:1rem;line-height:1.5;color:var(--ink)}.due-i b{font-weight:800}
 .due{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
-.due-c{display:grid;gap:10px;align-content:start;padding:14px;border-radius:14px;background:var(--surface-2);border-top:4px solid var(--gA)}
-.due-pub{border-top-color:var(--gB)}
-.due-c h3{font-size:1.02rem;font-weight:800;line-height:1.3}
-.due-n{margin:0;font-size:.8rem;color:var(--ink-3)}.due-n b{display:block;font:800 1.5rem/1.15 var(--f-body);color:var(--ink)}
-.due-c dl{margin:0;display:grid;gap:8px}
-.due-c dt{font:700 .68rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
-.due-c dd{margin:2px 0 0;font-size:.88rem;line-height:1.45;color:var(--ink-2)}
-.due-e{display:grid;gap:6px}
-.due-l{display:block;padding:10px 12px;border-radius:10px;background:var(--surface);color:var(--ink-2);text-decoration:none;font-size:.86rem;line-height:1.4}
-.due-l b{color:var(--ink);font-weight:800}
-.due-pd .due-l:first-child b{color:var(--s-part)}
-.due-l:hover,.due-l:focus-visible{box-shadow:inset 0 0 0 1px var(--ink-3)}
+.sd .sz>h2{font-size:1.15rem;font-weight:800}
+/* in cima i quattro numeri della home (deciso il 31/10/2026), due per tipo di soldi (arancione i Riva, blu i fondi
+   pubblici, come i codici A e B): ogni casella è un bottone "Dettagli" che apre il dettaglio in una finestra (dialog):
+   sul telefono sale dal basso e prende quasi tutto lo schermo, sul computer sta al centro. Senza JavaScript i dettagli
+   restano aperti sotto le caselle. Sul computer i due tipi di soldi uno accanto all'altro */
+.nb-due{display:grid;gap:20px;align-items:start}
+.nb-pd{--sc:var(--gA)}.nb-pub{--sc:var(--gB)}
+.nb-s{border-top:4px solid var(--sc)}
+.nb-s>h2 small{display:block;margin-top:2px;font:500 .8rem/1.35 var(--f-body);color:var(--ink-3)}
+.nb-g{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+.nb{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:12px 12px 38px;border:0;border-radius:12px;background:var(--surface-2);color:var(--ink);font:inherit;text-align:left;cursor:pointer}
+.nb small{font:700 .68rem/1.3 var(--f-body);letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3)}
+.nb b{margin-top:6px;font:800 1.45rem/1.1 var(--f-body)}
+.nb .u{font-size:.8rem;color:var(--ink-3)}
+.nb .s{margin-top:6px;font-size:.84rem;line-height:1.4;color:var(--ink-2)}
+.nb .ap{position:absolute;left:12px;bottom:12px;display:flex;align-items:center;gap:6px;font:700 .78rem/1 var(--f-body);color:var(--sc)}
+.nb .ap::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-top:2px solid currentColor;transform:rotate(45deg)}
+.nb:hover{background:color-mix(in srgb,var(--surface-2) 85%,var(--ink) 15%)}
+.nb:focus-visible{outline:2px solid var(--sc);outline-offset:2px}
+/* la finestra: in alto il nome del numero e la ×, fermi mentre il dettaglio scorre */
+.nb-d{padding:0;border:0;color:var(--ink-2);background:var(--surface)}
+.nb-d[open]:not(:modal){position:static;display:block;width:auto;margin:14px 0 0;border-top:1px solid var(--line)}
+.nb-d:not(:modal) .nb-x{display:none}
+.nb-d:modal{width:100%;max-width:100%;max-height:92dvh;margin:auto 0 0;border-radius:18px 18px 0 0;box-shadow:var(--shadow);overflow:auto;overscroll-behavior:contain}
+.nb-d::backdrop{background:rgb(0 0 0 / .6)}
+.nb-d.flash{background:var(--surface)}
+:root:has(.nb-d:modal){overflow:hidden}
+.nb-dh{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px 12px;border-top:4px solid var(--sc)}
+.nb-d:modal .nb-dh{position:sticky;top:0;z-index:2;background:var(--surface);border-bottom:1px solid var(--line)}
+.nb-d:not(:modal) .nb-dh{display:none}
+.nb-dh small{display:block;font:700 .68rem/1.3 var(--f-body);letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3)}
+.nb-dh b{display:block;margin-top:2px;font:800 1.05rem/1.25 var(--f-body);color:var(--ink)}
+.nb-x{flex:none;display:grid;place-items:center;width:40px;height:40px;border:0;border-radius:50%;background:var(--surface-2);color:var(--ink);font:400 1.5rem/1 var(--f-body);cursor:pointer}
+.nb-x:hover{background:var(--line)}
+.nb-p{display:grid;gap:12px;padding:14px 16px 24px;min-width:0}
+.nb-d:not(:modal) .nb-p{padding:14px 0 0}
+.nb-p .pz-h{margin-top:12px}
+/* che differenza c'è fra i due tipi di soldi: due colonne; sul telefono il nome della riga sopra, sul computer a sinistra */
+.dt{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 14px;margin-top:12px;font-size:.86rem;line-height:1.45;color:var(--ink-2)}
+.dt>span:first-child{display:none}
+.dt-h{padding-top:8px;border-top:3px solid var(--gA);font-size:.9rem;color:var(--ink)}.dt-h.dt-pub{border-top-color:var(--gB)}
+.dt-k{grid-column:1/-1;margin-top:10px;font:700 .68rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.dt>div{min-width:0}
+.sd-fine{display:grid;gap:10px}
+@media (min-width:900px){
+  .nb-due{grid-template-columns:1fr 1fr}
+  .nb-d:modal{width:min(780px,calc(100vw - 48px));max-height:86vh;margin:auto;border-radius:18px}
+  .dt{grid-template-columns:180px 1fr 1fr;gap:0 20px}
+  .dt>span:first-child{display:block}
+  .dt-k{grid-column:auto;margin-top:0}
+  .dt-k,.dt>div{padding:10px 0;border-bottom:1px solid var(--line)}
+  .dt-h{margin-bottom:4px}
+}
 .gl-pop[hidden]{display:none}
-@media (min-width:900px){.due{grid-template-columns:1fr 1fr}}
 /* le parole difficili: sottolineate a puntini, al tocco una finestrella con la spiegazione */
 a.parola{color:inherit;text-decoration:underline dotted var(--ink-3);text-underline-offset:3px;text-decoration-thickness:1.5px;cursor:help}
 .gl-pop{position:absolute;z-index:1500;display:grid;gap:8px;padding:12px 14px;border-radius:12px;background:var(--surface);box-shadow:var(--shadow),0 0 0 1px var(--line);font-size:.88rem;line-height:1.5;color:var(--ink-2)}
 .gl-pop p{margin:0}.gl-pop b{color:var(--ink)}.gl-pop>a{font-weight:600;text-decoration:none;font-size:.82rem}
 .parole{display:grid;gap:10px;margin:0}.parole dt{font-weight:800;color:var(--ink)}.parole dd{margin:2px 0 0}
 .parole>div.flash{background:var(--gB-soft);border-radius:8px}
-/* "Per controllare": la parte di consultazione, separata da una riga */
-.sz-fondi{border-top:2px solid var(--line);padding-top:20px}
 .strane .area{display:inline-flex;align-items:center;gap:7px;min-height:32px;padding:4px 11px 4px 4px;border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:.8rem;line-height:1.2;box-shadow:inset 0 0 0 1px var(--line)}
 .strane .area b{white-space:nowrap;font:700 11px/1 var(--f-mono);padding:6px 7px;border-radius:999px;background:var(--gA);color:var(--on-g)}
 .strane .area.gB b{background:var(--gB)}
