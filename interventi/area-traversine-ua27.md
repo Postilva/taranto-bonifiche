@@ -1,15 +1,15 @@
 # D17 – Area di deposito traversine ferroviarie "UA27" (Statte)
-*Stato scheda: approvata — aggiornata al 20 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 2 novembre 2026*
 
 ## A che punto è
 ### Finora
-Tra il luglio 2016 e l'agosto 2017 sono state portate via 7.823 tonnellate di traversine [2]. Nel dicembre 2017 Ilva ha presentato il piano delle analisi del terreno, con 34 sondaggi, e scrive di averle fatte entro il 31 dicembre 2018; ISPRA nel 2022 segna la prescrizione come «attuata» [2][4][5].
+Tra il luglio 2016 e l'agosto 2017 sono state portate via 7.823 tonnellate di traversine [2]. Nel dicembre 2017 Ilva ha presentato il piano delle analisi del terreno, con 34 sondaggi, e scrive di averle fatte entro il 31 dicembre 2018; ISPRA nel 2022 segna la prescrizione come «attuata» [2][4][5]. Nell'anagrafe dei siti da bonificare aggiornata da ARPA a settembre 2026 l'area è un «sito non contaminato dopo MISE»: Ilva ha mandato il rapporto delle indagini e del ripristino con un'«autocertificazione» [11].
 
 ### Cosa manca
-I risultati delle analisi non sono pubblici e nessun ente ha detto che l'area sia pulita. Nel 2009 ARPA aveva trovato IPA nel terreno sotto una catasta di traversine [2]. Ad aprile 2020 la Regione indica ancora l'area come «potenzialmente contaminata» [1]. Non è bonificata.
+I risultati delle analisi non sono pubblici. Nel 2009 ARPA aveva trovato IPA nel terreno sotto una catasta di traversine [2]. Il «non contaminato» di oggi si basa sull'autocertificazione di Ilva: per il Codice dell'ambiente chiude il procedimento, salvo i controlli dell'autorità nei 15 giorni dopo [12]. Nessun ente ha detto pubblicamente di aver controllato, e tra i procedimenti chiusi con un atto dopo aprile 2020 ARPA non elenca quest'area [13]. Nessun certificato.
 
 ### Adesso
-Dopo il 2020 non abbiamo trovato atti: né risultati, né pareri di ARPA, né decisioni della Regione. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Regione con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
+Non sappiamo quando Ilva abbia mandato l'autocertificazione: ad aprile 2020 la Regione indicava ancora l'area come «potenzialmente contaminata» [1]. Non abbiamo trovato risultati, pareri di ARPA o decisioni della Regione. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Regione con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
 
 ## Che posto è
 Un terreno di circa 8 ettari dentro lo stabilimento ex Ilva, nella parte che sta nel Comune di Statte, fuori dal SIN [1][2]. In parte era un deposito di traversine ferroviarie usate, in parte un deposito e una zona di lavorazione del legname, con un impianto per triturarlo [2].
@@ -26,7 +26,7 @@ Le vecchie traversine di legno sono trattate con olio di creosoto, che contiene 
 - **Guardia di Finanza** e magistratura: l'area è sotto sequestro dal 2009 [2].
 
 ## Cosa è stato fatto
-**Traversine rimosse; analisi del terreno fatte secondo Ilva, ma risultati non pubblici. Non bonificata, nessun certificato.** [1][2][5]
+**Traversine rimosse; per l'anagrafe di ARPA (2026) «non contaminato dopo MISE», sulla base dell'autocertificazione di Ilva. Risultati non pubblici, nessun controllo pubblico, nessun certificato.** [2][11][12]
 
 - **Il sequestro (2009).** Il 10 febbraio 2009 la Guardia di Finanza sequestra l'area, i mezzi e i rifiuti; il giorno dopo ARPA preleva terreno e pezzi di legno [2]. Nel luglio 2012 il sequestro diventa "preventivo" [2].
 - **Cosa ha trovato ARPA (2009).** IPA nel "terreno di colore scuro rinvenuto al di sotto di una catasta di traversine" e nei frammenti di legno; nessun IPA rilevabile in un altro punto dell'area e in un terreno a circa 300 m [2]. Ilva contesta il confronto con i limiti di legge, perché secondo lei i campioni non sono stati analizzati con il metodo previsto [2].
@@ -36,9 +36,10 @@ Le vecchie traversine di legno sono trattate con olio di creosoto, che contiene 
 - **Il piano delle analisi (dicembre 2017).** Ilva prevede 34 sondaggi fino a 5 m di profondità, su una griglia di 50 × 50 m, per cercare IPA, idrocarburi, metalli e fenoli; l'acqua sotterranea, a 36–37 m, non viene analizzata perché i pozzi vicini erano nei limiti nel 2016 [2]. Il piano porta la data del 1° dicembre 2017 e arriva al Ministero il 7 dicembre [2].
 - **"Attuata al 31.12.2018".** Ilva scrive che sia la rimozione sia le analisi del terreno sono state completate entro il 31 dicembre 2018, e ISPRA nel 2022 segna la prescrizione come "attuata", rimandando a un suo rapporto del 29 luglio 2019 [4][5].
 - **Ma ad aprile 2020** la Regione indica ancora l'area come "sito potenzialmente contaminato", con il procedimento fermo alla "comunicazione potenziale contaminazione e di avvio" delle misure di messa in sicurezza, aperto nel 2009 [1]. Non abbiamo trovato i risultati delle analisi, pareri di ARPA o atti della Regione successivi.
+- **"Non contaminato" con l'autocertificazione (anagrafe di settembre 2026).** Nell'estratto mandato da ARPA il procedimento è alla "trasmissione Report di MP/MISE, indagini preliminari, ripristino ambientale e autocertificazione" e lo stato è "Sito non contaminato dopo MISE", con soggetto "ILVA" e la stessa superficie, 74.708 m² [11]. È la strada dell'art. 242, comma 2, del Codice dell'ambiente: se l'indagine preliminare non trova valori oltre i limiti, chi ha inquinato ripristina la zona e lo autocertifica; questo chiude il procedimento, «ferme restando le attività di verifica e di controllo» dell'autorità nei 15 giorni successivi [12]. Quest'area non è tra quelle che ARPA elenca come chiuse con un atto dopo aprile 2020 [13].
 
 ## Dove si trova e quanto è grande
-- **Coordinate** indicate dalla Regione: 685816,2487 m E – 4488580,315 m N, nel sistema UTM-WGS84 fuso 33 Nord [7]; è il punto centrale dell'area ("centroide del poligono") [9]. In gradi sono circa **40,527° N – 17,194° E** (conversione nostra).
+- **Coordinate** indicate dalla Regione: 685816,2487 m E – 4488580,315 m N, nel sistema UTM-WGS84 fuso 33 Nord [7], le stesse nell'estratto di ARPA del 2026 [11]; è il punto centrale dell'area ("centroide del poligono") [9]. In gradi sono circa **40,527° N – 17,194° E** (conversione nostra).
 - **Catasto:** Comune di Statte, foglio 116, particelle 11, 479 e 378 (in parte) [2].
 - **Verifica sul catasto** (23 ottobre 2026): il punto della Regione cade sul confine tra le particelle 11 e 479, che insieme misurano circa 101.000 m², più dell'area; la parte della particella 378 non è stata misurata [10].
 - **Quanto è grande:** circa 83.500 m², di cui circa 4.000 pavimentati, secondo il piano di Ilva [2]; **74.708 m²** secondo la Regione [1]. Le due cifre non coincidono.
@@ -60,6 +61,7 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 | 1° dicembre 2017 | Piano delle analisi del terreno (34 sondaggi) | [2] |
 | 31 dicembre 2018 | Secondo Ilva rimozione e analisi sono completate | [5] |
 | aprile 2020 | Per la Regione l'area è ancora "potenzialmente contaminata" | [1] |
+| settembre 2026 | Nell'anagrafe di ARPA "sito non contaminato dopo MISE", con l'autocertificazione di Ilva | [11] |
 
 ## Fonti
 [1] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020), tabella 2.2 "Siti potenzialmente contaminati", sito n. 137, pag. 21, https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
@@ -82,13 +84,19 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 
 [10] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 116; numeri delle particelle letti sulla mappa, centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
+[11] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, con l'Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera), sito TA033 — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
+
+[12] D.Lgs. 3 aprile 2006, n. 152 (Codice dell'ambiente), articolo 242, commi 2 (indagine preliminare e autocertificazione) e 3 (piano di caratterizzazione se i limiti sono superati), testo vigente su Normattiva, https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152~art242 — copia (pagina web scaricata il 2 ottobre 2026) in `fonti/2026-10_normattiva_dlgs-152-2006-art-242.html`
+
+[13] Stessa risposta del [11], Allegato 2 (siti di Taranto e Statte chiusi dopo aprile 2020, con gli atti; il periodo è detto nella lettera, punto 2) — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-2.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-2.csv`)
+
 ## Cosa non sappiamo
-1. [blocca] **Che cosa hanno trovato le analisi del terreno del 2018?** Ilva le dà per fatte e ISPRA nel 2022 segna la prescrizione come «attuata» [4][5], ma non abbiamo trovato né i risultati né un parere di ARPA. Nel 2009 ARPA aveva trovato IPA nel terreno sotto una catasta di traversine [2]. Non verificato.
+1. [blocca] **Che cosa hanno trovato le analisi del terreno, e qualcuno le ha controllate?** Ilva le dà per fatte e ISPRA nel 2022 segna la prescrizione come «attuata» [4][5]; per l'anagrafe di ARPA (2026) l'area è «non contaminata dopo MISE» con l'autocertificazione di Ilva [11]. Non abbiamo trovato né i risultati né un controllo dell'autorità, che il Codice prevede nei 15 giorni successivi [12]. Nel 2009 ARPA aveva trovato IPA nel terreno sotto una catasta di traversine [2]. Non verificato.
 2. [altra] **Chi ha approvato il piano delle analisi?** Ilva lo ha mandato al Ministero e chiedeva una conferenza di servizi [2], ma fuori dal SIN decide la Regione [6]. Non abbiamo trovato atti di approvazione. Non verificato.
 3. [altra] **Chi deve occuparsene oggi?** La Regione indica Ilva in A.S., ma dal 2018 l'area la gestisce Acciaierie d'Italia [1][5]. Non verificato.
 4. [altra] **Come è finito il sequestro del 2009?** Non sappiamo nemmeno se c'è stato un processo. Non verificato.
-5. [fonti] **Le analisi sono finite o l'area è ferma al 2017?** Per Ilva le analisi erano finite nel 2018 [4][5], ma ad aprile 2020 la Regione la tiene ancora ferma alla comunicazione iniziale [1]. Le due fonti non tornano.
-6. [fonti] **Quanto è grande?** 83.500 m² per Ilva, 74.708 per la Regione [1][2].
+5. [fonti] **Piano delle analisi o indagine preliminare?** Nel 2017 Ilva ha presentato un piano di caratterizzazione, che il Codice prevede quando i limiti sono superati [2][12]; l'anagrafe di ARPA del 2026 parla invece di "indagini preliminari" e autocertificazione, la strada di quando non lo sono [11][12]. Ad aprile 2020 la Regione teneva l'area ancora ferma alla comunicazione iniziale [1]. Non sappiamo come si sia passati dall'una all'altra, né in che data.
+6. [fonti] **Quanto è grande?** 83.500 m² per Ilva, 74.708 per la Regione e per ARPA [1][2][11].
 
 Ricerca online del 20 ottobre 2026 (UA27, "area traversine", creosoto Ilva Statte, anagrafe regionale, portale delle valutazioni ambientali del Ministero): trovati solo i documenti elencati sopra. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 

@@ -1,5 +1,5 @@
 # B8 – Cimitero San Brunone (Taranto): bonifica delle aree non pavimentate
-*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 2 novembre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -37,7 +37,7 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 **Messo in sicurezza? Le fonti non tornano.** La pagina del Commissario sul CIS Taranto (aggiornata ad agosto 2026) dice: "completata la fase di Messa in Sicurezza d'Emergenza (MISE) sui suoli non pavimentati finanziata da risorse MASE e CIPE 55/2016" [14]. Ma il decreto n. 18 di aprile 2026 scrive che l'intervento "risulta interrotto" e parla di "messa in sicurezza" solo per i cumuli di terra coperti con teloni nel 2022 [3]; la Commissione parlamentare sui rifiuti, dopo il sopralluogo del 12 luglio 2022, scrive che la bonifica "deve essere ancora completata" [15]. Non ho trovato nessun atto che approvi o descriva una messa in sicurezza d'emergenza dei campi. Non verificato.
 
 **Le analisi (cosa c'è nel terreno e perché)**
-- Per l'anagrafe dei siti da bonificare della Regione il procedimento è iniziato nel **2012**, per "deposizione inquinanti su suolo"; ad aprile 2020 il cimitero era tra i "siti contaminati", con il piano di bonifica approvato [17].
+- Per l'anagrafe dei siti da bonificare della Regione il procedimento è iniziato nel **2012**, per "deposizione inquinanti su suolo"; ad aprile 2020 il cimitero era tra i "siti contaminati", con il piano di bonifica approvato [17]. Nell'anagrafe aggiornata da ARPA a settembre 2026 è ancora "sito contaminato", con il procedimento alla "comunicazione di avvio lavori di bonifica" e il Commissario come soggetto [21]: l'anagrafe non registra che i lavori si sono fermati e che la gara è stata annullata nel 2021 [3][10].
 - Il terreno è stato analizzato (caratterizzazione) e, secondo il Commissario, ARPA Puglia ha convalidato i risultati [5]. Le carte oggi le ha il Comune, che le ha mandate al Commissario a febbraio 2026 [3]. Non è scritto chiaramente chi abbia fatto le analisi, né quando. L'analisi di rischio è stata completata ad agosto 2015, esaminata in Conferenza di servizi l'11/12/2015 e approvata dalla Regione il 12/02/2016 [5][18].
 - La Regione scrive che il sito è stato "dichiarato contaminato" secondo il Codice dell'ambiente [2].
 - La superficie contaminata è di circa 1,2 ettari (12.000 m²), su un cimitero di circa 181.000 m² [4][8].
@@ -193,6 +193,8 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 [19] Commissario straordinario per la bonifica di Taranto, *Decreto n. 30 del 12 maggio 2026* (premesse: Protocollo d'intesa del 28 febbraio 2018 sui fondi FSC 2014-2020 della delibera CIPE 55/2016, pag. 4 del PDF), elenco dei decreti 2026: https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-05_commissario-taranto_decreto-30-vmc-scuole-tamburi.pdf`
 
 [20] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
+
+[21] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera), sito TA063 "Cimitero S. Brunone Q.re Tamburi - Matrice suolo" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
 
 ## Cosa non sappiamo
 1. [blocca] **Sogesid ha consegnato il progetto aggiornato?** Doveva consegnarlo in 50 giorni, cioè intorno all'inizio di giugno 2026 [3]. Non abbiamo trovato nessun documento che dica se sia stato consegnato, né quando partiranno le gare dei lotti. Di sicuro non è stato approvato con un decreto pubblicato: dopo il n. 18 non c'è nessun altro decreto sul cimitero fino al n. 54 del 2 ottobre 2026 [13]. Non verificato.

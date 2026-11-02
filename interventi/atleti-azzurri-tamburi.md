@@ -1,15 +1,15 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
-*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 2 novembre 2026*
 
 ## A che punto è
 ### Finora
 Nel maggio 2024 il Comune ha comunicato di aver trovato piombo e IPA nel terreno del campo, e lo ha fatto recintare con lavori di somma urgenza [3][14]. La Regione ha approvato il piano delle analisi il 7 luglio 2025 e il Commissario ha dato al Comune 86.876,20 € per farle [2][3]. Il Commissario ha annunciato la consegna del cantiere per i prelievi per il 20 ottobre 2025, e a maggio 2026 i campionamenti erano iniziati [1][13].
 
 ### Cosa manca
-Le analisi non sono finite: a gennaio 2026 erano annunciate per marzo, ma a fine giugno il Commissario le descriveva ancora «in via di completamento» [9][10]. Nessun risultato è pubblico. Il campo non è messo in sicurezza né bonificato.
+Nessun risultato delle analisi è pubblico: a gennaio 2026 erano annunciate per marzo, a fine giugno il Commissario le descriveva ancora «in via di completamento» [9][10]. Nell'anagrafe aggiornata da ARPA a settembre 2026 il campo è un «sito contaminato», con l'analisi di rischio «trasmessa» [17], ma nessun atto dice che le analisi siano finite e approvate. Il campo non è messo in sicurezza né bonificato.
 
 ### Adesso
-Dopo le analisi servono l'analisi di rischio e poi la messa in sicurezza o la bonifica [2][9]. Alcuni giornali scrivono che la Regione ha chiesto agli enti un parere sull'analisi di rischio entro il 28 ottobre 2026, ma l'atto ufficiale non l'abbiamo trovato: non verificato. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 30 novembre 2026 i risultati delle analisi ricevuti dal Comune, se sono già arrivati [16].
+L'analisi di rischio va approvata dalla Regione; poi servono la messa in sicurezza o la bonifica [2][3][9]. Che l'analisi di rischio sia stata mandata lo conferma l'anagrafe di ARPA [17]; che la Regione abbia chiesto agli enti un parere entro il 28 ottobre 2026 lo scrivono solo i giornali: l'atto non l'abbiamo trovato, non verificato. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 30 novembre 2026 i risultati delle analisi ricevuti dal Comune, se sono già arrivati [16].
 
 ## Che posto è
 L'impianto sportivo comunale "Atleti Azzurri d'Italia", nel quartiere Tamburi, che il Comune di Taranto vuole rifare con fondi del Contratto istituzionale di sviluppo (CIS) [1][2][3].
@@ -71,6 +71,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 
 ## Dove si trova e quanto è grande
 - **Posizione sulla mappa**: centro della particella indicata dalla Regione [3] — Comune di Taranto, foglio 203, particella 502 — calcolato da noi sulla cartografia catastale dell'Agenzia delle Entrate [15]: 689296,5 m E – 4485280,6 m N (UTM fuso 33 Nord, ETRS89), cioè circa 40,4967° N – 17,2338° E. Nota: la particella è il campo sportivo, circa 20.100 m²; l'area delle analisi del Commissario è più grande, circa 70.000 m².
+- **Nell'anagrafe dei siti da bonificare** (ARPA, settembre 2026) il campo è un sito a parte dentro il sottoperimetro SP4 del quartiere (scheda D1–D5), «Risanamento Q.re Tamburi SP4 – Foglio 203 particella 502 – campo sportivo»: 25.499 m², punto centrale 689302,8 m E – 4485245,6 m N, circa 36 m dal nostro (calcolo nostro) [17].
 
 ## Soldi
 **Nell'ottobre 2025 il Commissario ha messo a disposizione 86.876,20 € per le analisi, ma a ottobre 2026 nessun decreto pubblicato ne paga una parte. Il costo di una bonifica non c'è ancora: prima servono le analisi.** [2][3][7][8]
@@ -104,6 +105,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 | maggio 2026 | L'opuscolo dice che i campionamenti sono iniziati | [1] |
 | fine giugno 2026 | Il Commissario scrive che le analisi sono "in via di completamento" | [10] |
 | 30 giugno 2026 | Dati OpenCoesione: Lotto 1 ancora in progettazione definitiva | [4] |
+| settembre 2026 | Nell'anagrafe di ARPA il campo è «sito contaminato», con l'analisi di rischio trasmessa | [17] |
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Opuscolo sullo stato di attuazione*, maggio 2026, pag. 15 (pagina 16 del PDF; letta come immagine), https://commissari.gov.it/media/z3gdiju1/opuscolo_commta_web_2026.pdf — copia in `fonti/2026_commissario_opuscolo-stato-attuazione.pdf`
@@ -138,8 +140,10 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 
 [16] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
+[17] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera) e Allegato 3, sito TA088 "Risanamento Q.re Tamburi SP4 - Foglio 203 particella 502-campo sportivo" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
+
 ## Cosa non sappiamo
-1. [blocca] **A che punto sono le analisi?** Il cantiere per i prelievi doveva essere consegnato il 20 ottobre 2025 ad Apogeo S.r.l. [13][14]. Le analisi dovevano finire entro marzo 2026 [9], a fine giugno erano "in via di completamento" [10], e non c'è ancora nessun risultato pubblico. L'anticipo, al 2 ottobre 2026, non risulta pagato [8]. Secondo il Corriere di Taranto (11/10/2026) e altri giornali locali, ARPA ha validato l'esecuzione del piano delle analisi, il Comune ha mandato l'analisi di rischio e la Regione ha convocato una conferenza di servizi "semplificata e asincrona" (pareri scritti, senza riunione) con termine il 28 ottobre 2026. La convocazione della Regione e la validazione di ARPA non sono pubblicate e non le abbiamo trovate: **non verificato**. Dopo le analisi, la Regione dovrà approvare l'analisi di rischio con una determinazione, che di solito compare nel registro dei provvedimenti dei dirigenti (come la n. 146/2025 [3]).
+1. [blocca] **A che punto sono le analisi?** Il cantiere per i prelievi doveva essere consegnato il 20 ottobre 2025 ad Apogeo S.r.l. [13][14]. Le analisi dovevano finire entro marzo 2026 [9], a fine giugno erano "in via di completamento" [10], e non c'è ancora nessun risultato pubblico. L'anticipo, al 2 ottobre 2026, non risulta pagato [8]. Secondo il Corriere di Taranto (11/10/2026) e altri giornali locali, ARPA ha validato l'esecuzione del piano delle analisi, il Comune ha mandato l'analisi di rischio e la Regione ha convocato una conferenza di servizi "semplificata e asincrona" (pareri scritti, senza riunione) con termine il 28 ottobre 2026. Che l'analisi di rischio sia stata trasmessa ora lo conferma l'anagrafe di ARPA [17]; la convocazione della Regione e la validazione di ARPA non sono pubblicate e non le abbiamo trovate: **non verificato**. Dopo le analisi, la Regione dovrà approvare l'analisi di rischio con una determinazione, che di solito compare nel registro dei provvedimenti dei dirigenti (come la n. 146/2025 [3]).
 2. [blocca] **Che cosa succederà dopo le analisi?** Il Responsabile del CIS ha parlato di "messa in sicurezza permanente" subito dopo le analisi [9], ma nessun atto lo prevede: se serviranno bonifica o messa in sicurezza, quanto costeranno e chi pagherà, non lo dice nessun atto [2][3].
 3. [altra] **Che cosa c'è esattamente nel terreno?** Sappiamo solo che piombo e IPA superano i limiti [3]. Non abbiamo né i valori, né le profondità, né la data delle analisi di maggio 2024 o prima [3]. Non verificato.
 4. [altra] **Da quanto tempo si sa?** La prima data certa è il 13 maggio 2024 [3]. Non sappiamo se ci fossero analisi più vecchie. Non verificato.
@@ -147,8 +151,9 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 6. [altra] **Dove sono gli atti del Comune sul progetto di demolizione e ricostruzione?** Non abbiamo trovato le delibere o le determine sul sito del Comune; quello che sappiamo del progetto viene dagli atti del Commissario e della Regione [1][2][3]. Sulle notizie dei giornali (approvazione del progetto definitivo, costi): non verificato.
 7. [altra] **L'impianto c'entra con i Giochi del Mediterraneo 2026?** Nessun atto ufficiale che abbiamo letto collega questo impianto ai Giochi [1][2][3]. L'impianto non compare nell'elenco dei progetti sul sito del Commissario dei Giochi, ma quell'elenco potrebbe non essere completo [6]. Non verificato.
 8. [fonti] **Date che non tornano.** L'opuscolo e la pagina sul CIS datano il decreto commissariale al 2 ottobre 2025 [1][11], ma il decreto e l'elenco ufficiale dicono 3 ottobre 2025 [2][7]. Nella determinazione regionale la conferenza dei servizi risulta convocata una volta il 9 giugno 2025 e una volta il 24 marzo 2025 [3]. Sono probabilmente errori di scrittura, ma non lo sappiamo con certezza.
-9. [fonti] **Quanto è grande?** Il Commissario scrive circa 70.000 m² per le analisi e 150.200 m² per il progetto di demolizione e ricostruzione [1][11]. Nessun atto (decreto, determinazione) indica la superficie della particella 502: il dato viene solo dalle pagine informative del Commissario.
+9. [fonti] **Quanto è grande?** Il Commissario scrive circa 70.000 m² per le analisi e 150.200 m² per il progetto di demolizione e ricostruzione [1][11]; l'anagrafe di ARPA dà 25.499 m² [17], la particella sulla mappa del catasto circa 20.100 m² [15]. Nessun atto (decreto, determinazione) indica la superficie della particella 502: il dato viene solo dalle pagine informative del Commissario.
 10. [fonti] **I conti della riqualificazione tornano?** Su OpenCoesione i due lotti hanno lo stesso numero di progetto (CUP) [4][5]. L'intervento risulta ancora in progettazione dopo la data di fine lavori prevista (31/12/2025) [4]. Non sappiamo se e come i tempi siano stati cambiati. Non verificato.
+11. [fonti] **Un campo contaminato dentro un'area «bonificata»?** Per l'anagrafe il campo sta dentro SP4, che dal 2020 risulta «sito bonificato» con la certificazione [17]. Nessuna fonte dice se il campo fosse compreso nell'area certificata: vedi la scheda D1–D5. Non verificato.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
 **A:** Comune di Taranto — email ordinaria dell'Ufficio relazioni con il pubblico comunicazione.urp@comune.taranto.it, in copia la Direzione Ambiente ambiente@comune.taranto.it (indirizzi verificati l'8 ottobre 2026 sul sito ufficiale comune.taranto.it: piè di pagina e [pagina della Direzione Ambiente](https://www.comune.taranto.it/it/unita_organizzative/18598); l'art. 5 c. 3 D.Lgs. 33/2013 ammette la richiesta all'URP). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.

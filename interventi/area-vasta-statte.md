@@ -1,15 +1,15 @@
 # D8 – Area vasta di Statte: terreni contaminati fuori dal SIN
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 2 novembre 2026*
 
 ## A che punto è
 ### Finora
 Nel 2014–2015 il Comune ha analizzato tutto il suo territorio fuori dal SIN, e i valori superavano i limiti [1]. Nel 2017 la Regione ha approvato l'analisi di rischio: in alcune zone il rischio per la salute è «inaccettabile» [1][2]. Così il Sindaco ha vietato, in 19 zone, di arare, scavare e produrre cibo (ordinanza n. 62/2017) [1]. Nel 2018 la Provincia ha chiuso la pratica per individuare il responsabile e ha avviato un'ordinanza contro di lui; Ilva ha fatto ricorso [3]. In Parlamento ARPA ha detto, a memoria, che per un'area di Statte il responsabile è l'Ilva «per alcuni parametri come diossine e furani» [4].
 
 ### Cosa manca
-Non è stato bonificato né messo in sicurezza nulla: ci sono stati solo i divieti, e l'ordinanza valeva fino alla fine del 2018 [1]. Nel 2021 la Regione scriveva che i confini delle zone inquinate erano ancora «in fase di definizione» [6]. Non si sa come siano andate le nuove analisi delle aree agricole, finanziate dalla Regione con 750.000 € [6]: a fine giugno 2026 il progetto risultava «non avviato», senza nessun pagamento [10].
+Non è stato bonificato né messo in sicurezza nulla: ci sono stati solo i divieti, e l'ordinanza valeva fino alla fine del 2018 [1]. Nel 2021 la Regione scriveva che i confini delle zone inquinate erano ancora «in fase di definizione» [6]. Non si sa come siano andate le nuove analisi delle aree agricole, finanziate dalla Regione con 750.000 € [6]: a fine giugno 2026 il progetto risultava «non avviato», senza nessun pagamento [10]. Nell'anagrafe aggiornata da ARPA a settembre 2026 il sito è ancora «contaminato», fermo all'approvazione delle analisi e dell'analisi di rischio, ma la sua superficie è scesa a circa 3,3 km², contro i 58 del 2020 [5][12]: ARPA non dice perché.
 
 ### Adesso
-Ilva ha detto di non avere più interesse al suo ricorso contro la Provincia, e nel dicembre 2022 il TAR ha chiuso la causa senza decidere [3]. Dopo non abbiamo trovato atti pubblici. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Provincia e al Comune di Statte con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
+Ilva ha detto di non avere più interesse al suo ricorso contro la Provincia, e nel dicembre 2022 il TAR ha chiuso la causa senza decidere [3]. Dopo non abbiamo trovato atti pubblici. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Provincia e al Comune di Statte con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre. Il 2 novembre ARPA ci ha mandato l'anagrafe aggiornata [12].
 
 ## Che posto è
 Quasi tutto il territorio del Comune di Statte che sta fuori dal SIN: circa 58 km², con campi, zone rurali e il paese [1][5][6]. Il SIN, che comprende lo stabilimento, è escluso [1].
@@ -39,10 +39,11 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 - **Il ricorso di Ilva (2018–2022).** Ilva in A.S. impugna questi atti al TAR di Lecce (ricorso n. 724/2018). Il 19 ottobre 2022 dichiara che non ha più interesse e il 15 dicembre 2022 il TAR chiude la causa senza decidere nel merito ("improcedibile") [3].
 - **Nuove analisi finanziate.** Con l'avviso regionale del 2017 (DD 202/2017) il Comune ottiene 750.000 € per "indagini integrative di caratterizzazione ai fini della valutazione del rischio sanitario per le aree agricole" [6]. Su OpenCoesione i soldi risultano impegnati il 13 aprile 2021, ma al 30 giugno 2026 il progetto è «non avviato» e non ha nessun pagamento [10].
 - **Lo stato nel 2020–2021.** Ad aprile 2020 il sito è "contaminato", con il procedimento fermo all'"approvazione esiti PdC e AdR" [5]. Nel 2021 la Regione scrive che i perimetri delle zone contaminate sono "in fase di definizione" [6].
+- **Lo stato a settembre 2026.** Nell'anagrafe aggiornata da ARPA il procedimento è ancora all'"approvazione esiti PdC e AdR" e il sito è "contaminato", con soggetto il Comune di Statte [12]. Tra le norme compare anche il decreto ministeriale n. 46 del 2019, quello sulle bonifiche delle aree agricole [12]. La superficie è **3.261.530 m²** e il punto centrale è 687796,3683 m E – 4490347,756 m N, circa 1,5 km più a sud-ovest di quello del 2020 (calcolo nostro) [5][12]. ARPA non spiega il cambiamento: può darsi che l'area sia stata ridotta alle zone contaminate, ma nessuna fonte lo dice.
 
 ## Dove si trova e quanto è grande
 - **Coordinate** indicate dalla Regione: 688542,7385 m E – 4491592,88 m N, nel sistema UTM-WGS84 fuso 33 Nord [8]. È il punto centrale ("centroide") di un'area di quasi 60 km², quindi indica solo la zona [9]. In gradi sono circa **40,554° N – 17,227° E** (conversione nostra, da ricontrollare sulla mappa).
-- **Quanto è grande:** 58.450.318 m² secondo l'elenco della Regione del 2020 [5]; 58.695.536 m² secondo il Piano regionale del 2021 [6]. Le zone dove valgono i divieti sono molto più piccole [1].
+- **Quanto è grande:** 58.450.318 m² secondo l'elenco della Regione del 2020 [5]; 58.695.536 m² secondo il Piano regionale del 2021 [6]; **3.261.530 m²** nell'estratto di ARPA del 2026, con un altro punto centrale, 687796,3683 m E – 4490347,756 m N [12]. Le zone dove valgono i divieti sono molto più piccole del territorio comunale [1].
 - **Mappa dei divieti:** allegato A all'ordinanza n. 62/2017 [1].
 
 ## Soldi
@@ -73,6 +74,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 | giugno 2021 | Piano regionale: perimetri delle zone contaminate "in fase di definizione" | [6] |
 | 29 giugno 2022 | ARPA in Parlamento: responsabile Ilva "per alcuni parametri come diossine e furani" | [4] |
 | 15 dicembre 2022 | Il TAR chiude il ricorso di Ilva: "improcedibile" | [3] |
+| settembre 2026 | Per ARPA il sito è ancora "contaminato", ma di 3.261.530 m² invece di 58.450.318 | [5][12] |
 
 ## Fonti
 [1] Comune di Statte, *Ordinanza sindacale n. 62 del 24 ottobre 2017*, "Ordinanza finalizzata all'imposizione di alcuni limiti all'utilizzo del territorio comunale di Statte in aree esterne al SIN", pag. 1 (premesse), 2–3 (divieti) e 4 (allegato A, mappa); copia pubblicata da PeaceLink, https://www.peacelink.it/ecologia/docs/5220.pdf — copia in `fonti/2017-10_comune-statte_ordinanza-62-2017-area-vasta.pdf`
@@ -97,9 +99,11 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 
 [11] OpenCoesione, progetto *Caratterizzazione area vasta aree esterne al SIN di Taranto_STATTE (TA)*, CUP J72D09000290002, attuatore Comune di Statte, POR FESR Puglia 2007-2013, dati al 31 agosto 2022, https://opencoesione.gov.it/it/dati/progetti/1pufe2500032/ — copia in `fonti/2022-08_opencoesione_caratterizzazione-area-vasta-statte-2014-2015.json`
 
+[12] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera), sito TA037 "Area Vasta di Statte-matrice suolo" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
+
 ## Cosa non sappiamo
 1. [blocca] **La Provincia ha ordinato a Ilva di bonificare?** Nel 2018 la Provincia ha chiuso la pratica per individuare il responsabile e ha avviato un'ordinanza contro di lui; Ilva ha fatto ricorso [3]. In Parlamento ARPA ha detto, a memoria, che per un'area di Statte il responsabile è l'Ilva «per alcuni parametri come diossine e furani» [4]. La sentenza del TAR del 2022 parla solo dell'avvio dell'ordinanza [3]. Non sappiamo se sia stata emessa, che cosa ordini e se Ilva l'abbia eseguita o impugnata. Non verificato.
-2. [blocca] **Dove sono, oggi, le zone inquinate?** Nel 2021 la Regione scriveva che i confini erano ancora «in fase di definizione» e finanziava con 750.000 € nuove analisi delle aree agricole [6]; a fine giugno 2026 quelle analisi risultavano «non avviate» [10]. Non sappiamo come siano andate né se le zone siano state ridisegnate. Non verificato.
+2. [blocca] **Dove sono, oggi, le zone inquinate?** Nel 2021 la Regione scriveva che i confini erano ancora «in fase di definizione» e finanziava con 750.000 € nuove analisi delle aree agricole [6]; a fine giugno 2026 quelle analisi risultavano «non avviate» [10]. Nell'anagrafe aggiornata da ARPA a settembre 2026 l'area è di circa 3,3 km², contro i 58 del 2020, con un altro punto centrale [5][12]: forse le zone sono state ridisegnate, ma nessuna fonte lo dice, e non sappiamo come siano andate le nuove analisi. Non verificato.
 3. [altra] **I divieti valgono ancora?** L'ordinanza n. 62 del 2017 vietava in 19 zone di arare, scavare e produrre cibo fino al 31 dicembre 2018 [1]. Non abbiamo trovato proroghe né nuove ordinanze. Non verificato.
 4. [altra] **Quali sostanze ci sono, zona per zona?** ARPA parla di diossine e furani [4]; l'ordinanza non elenca le sostanze [1]. Non abbiamo i risultati delle analisi né l'analisi di rischio. Non verificato.
 5. [altra] **L'Ilva è responsabile anche di altre sostanze o di altre zone?** ARPA parla di "un'area di Statte" e di "alcuni parametri" [4]. Non verificato.

@@ -1,15 +1,15 @@
 # D6 – Quartiere Tamburi: acque sotterranee (Comune di Taranto)
-*Stato scheda: approvata — aggiornata al 26 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 2 novembre 2026*
 
 ## A che punto è
 ### Finora
 Il procedimento è iniziato nel 2015 [1]. Entro aprile 2020 sono state approvate le analisi e l'analisi di rischio, e la falda sotto circa 133 ettari del quartiere è risultata un «sito contaminato» [1].
 
 ### Cosa manca
-Ad aprile 2020 non c'erano né un progetto di messa in sicurezza né una bonifica [1]. Non abbiamo trovato i risultati delle analisi né atti più recenti.
+Ad aprile 2020 non c'erano né un progetto di messa in sicurezza né una bonifica [1]. A settembre 2026, nell'anagrafe aggiornata da ARPA, il procedimento è ancora fermo allo stesso punto: analisi e analisi di rischio approvate, «sito contaminato» [7]. Non abbiamo trovato i risultati delle analisi né atti più recenti.
 
 ### Adesso
-Il 21 ottobre 2026 abbiamo chiesto i documenti alla Regione con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
+Il 21 ottobre 2026 abbiamo chiesto i documenti alla Regione con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre. Il 2 novembre ARPA ci ha mandato l'anagrafe aggiornata, che non indica nessun passo dopo il 2020 [7].
 
 ## Che posto è
 L'acqua sotterranea sotto una zona di circa 133 ettari (1.327.917 m²) del quartiere Tamburi, il quartiere di Taranto attaccato allo stabilimento [1][3]. Il punto centrale indicato dalla Regione è a circa 600 m da quello del cimitero San Brunone (distanza calcolata da noi) [1].
@@ -27,10 +27,12 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 - **2015.** Inizia il procedimento, con le regole del Codice dell'ambiente (D.Lgs. 152/2006) [1]. Il 2 luglio 2015 la Conferenza di servizi stabilisce che per l'acqua sotterranea del Tamburi si farà un'unica analisi di rischio per tutto il quartiere, perché sotto c'è un solo corpo d'acqua [6].
 - **2016.** Approvando l'analisi di rischio delle aree verdi delle scuole Deledda, De Carolis e D'Aquino (scheda B2), la Regione approva un'analisi che trova un rischio non accettabile per la falda, e rimanda gli obiettivi di bonifica a questa analisi di tutto il quartiere [6]. Il 16 giugno 2016 il Comune aveva scritto che l'avrebbe completata a novembre 2016 [6].
 - **Entro aprile 2020.** Vengono approvati i risultati delle analisi (piano di caratterizzazione) e l'analisi di rischio; il sito è "contaminato" [1].
+- **Settembre 2026.** Nell'anagrafe aggiornata da ARPA lo stato è lo stesso: "approvazione esiti PdC e AdR", "sito contaminato" [7].
 
 ## Dove si trova e quanto è grande
 - **Coordinate** indicate dalla Regione: 688766,819 m E – 4484771,527 m N, nel sistema UTM-WGS84 fuso 33 Nord [4]; è il punto centrale dell'area ("centroide del poligono") [2]. In gradi sono circa **40,492° N – 17,227° E** (conversione nostra, da ricontrollare sulla mappa).
 - **Quanto è grande:** 1.327.917 m² [1].
+- **Nell'estratto di ARPA del 2026** il punto centrale è 688754,9942 m E – 4484761,07 m N, circa 16 m più in là (calcolo nostro), e la superficie è 1.299.218 m² [7]. ARPA non dice perché i numeri sono cambiati.
 
 ## Soldi
 Nessuna cifra trovata. Non verificato.
@@ -42,6 +44,7 @@ Nessuna cifra trovata. Non verificato.
 | 2 luglio 2015 | Conferenza di servizi: un'unica analisi di rischio della falda per tutto il quartiere | [6] |
 | 16 giugno 2016 | Il Comune: l'analisi di rischio della falda sarà pronta a novembre 2016 | [6] |
 | aprile 2020 | Sito "contaminato": analisi e analisi di rischio approvate | [1] |
+| settembre 2026 | Per ARPA lo stato è lo stesso del 2020 | [7] |
 
 ## Fonti
 [1] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020), tabella 4 "Siti contaminati", sito n. 148 "Risanamento Q.re Tamburi – Matrice acqua sotterranea", pag. 53, https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
@@ -55,6 +58,8 @@ Nessuna cifra trovata. Non verificato.
 [5] Comune di Taranto e Sogesid S.p.A., *Progetto definitivo per la messa in sicurezza operativa della falda superficiale soggiacente l'area del SIN di Taranto – Comparto orientale/bacino drenante Galeso. Relazione tecnica illustrativa* (elaborato PDED02, rev. 1 ottobre 2025), paragrafo 3.2 (pagina 10 del PDF) — copia in `fonti/2025-06_comune-taranto-sogesid_progetto-miso-falda-galeso-relazione-tecnica.pdf`
 
 [6] Regione Puglia, Sezione Ciclo dei rifiuti e bonifica, *Determinazione dirigenziale n. 145 del 24 giugno 2016*, approvazione dell'analisi di rischio delle aree verdi delle scuole Deledda, De Carolis e D'Aquino del quartiere Tamburi, pag. 3–4 (avuta dalla Regione il 26 ottobre 2026 dopo una nostra richiesta; non pubblicata online) — copia in `fonti/2016-06_regione-puglia_determina-145-analisi-rischio-scuole-deledda.pdf`
+
+[7] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera) e Allegato 3, sito TA045 "Risanamento Q.re Tamburi - Matrice acqua sotterranea" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
 
 ## Cosa non sappiamo
 1. [blocca] **Dopo il 2020 è stato deciso qualche intervento?** Entro aprile 2020 erano state approvate le analisi e l'analisi di rischio, e il sito risultava "contaminato" [1]. Ma non c'erano né un progetto di messa in sicurezza né una bonifica [1], e non abbiamo trovato atti più recenti. Non verificato.
