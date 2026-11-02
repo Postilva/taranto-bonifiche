@@ -1,12 +1,12 @@
 # B10 – Zona PIP di Statte: messa in sicurezza dei rifiuti industriali e della falda profonda
-*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 2 novembre 2026*
 
 ## A che punto è
 ### Finora
-Le analisi di terreno e falda sono finite nel 2013 e l'analisi di rischio, rifatta, è stata approvata dal Ministero nel 2018 [5][22]. Tra il 2021 e il 2022 un primo intervento d'emergenza ha pompato via l'olio che galleggia sulla falda profonda, e l'opuscolo del 2026 lo dice «completato» [1][6]. Nel novembre 2025 sono arrivati 89,9 milioni di euro dal Fondo sviluppo e coesione, 124 milioni in tutto con altri fondi [2][15].
+Le analisi di terreno e falda sono finite nel 2013 e l'analisi di rischio, rifatta, è stata approvata dal Ministero nel 2018 [5][22]. Tra il 2021 e il 2022 un primo intervento d'emergenza ha pompato via l'olio che galleggia sulla falda profonda, e l'opuscolo del 2026 lo dice «completato» [1][6]. Nel novembre 2025 l'Accordo per la Coesione ha previsto 124 milioni di euro, di cui 89,9 dal Fondo sviluppo e coesione, assegnati a dicembre 2025 e in arrivo a rate [2][15].
 
 ### Cosa manca
-La messa in sicurezza definitiva è ferma dal 2020: il Ministero ha sollevato «notevoli obiezioni» al progetto che chiudeva i rifiuti dentro barriere di cemento, e nel 2021 ha indicato di toglierli [7][22]. ARPA e ISPRA hanno trovato molte carenze nello studio del Comune del 2022, a partire dalla mancanza di analisi dei rifiuti [13][14]. Nella vecchia cava ci sono circa 640.000 m³ di rifiuti industriali, e non si sa ancora se sarà bonifica o messa in sicurezza [10]. Nessun documento dice chi li ha portati lì [1][4][10].
+La messa in sicurezza definitiva è ferma dal 2020: il Ministero ha sollevato «notevoli obiezioni» al progetto che chiudeva i rifiuti dentro barriere di cemento, e nel 2021 ha indicato di toglierli [7][22]. ARPA e ISPRA hanno trovato molte carenze nello studio del Comune del 2022, a partire dalla mancanza di analisi dei rifiuti [13][14]. Lo studio stima circa 640.000 m³ di rifiuti industriali da scavare (calcolo nostro: 220.000 + 420.000); per la Commissione parlamentare sui rifiuti nella vecchia cava ce ne sono più di un milione di m³ [10][26]. Non si sa ancora se sarà bonifica o messa in sicurezza [10]. Nessun documento dice chi li ha portati lì [1][4][10].
 
 ### Adesso
 Al 30 giugno 2026 il nuovo intervento risultava «non avviato», con 0 € spesi [17]. Secondo il Commissario si dovranno aggiornare le analisi e affidare il progetto, e «a breve» si ripartirà [1]. Anche i conti dei primi lavori non sono ancora chiusi [1]. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 30 novembre 2026 i certificati di fine lavori e di regolare esecuzione della prima messa in sicurezza d'emergenza [29].
@@ -28,7 +28,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 - La **Presidenza del Consiglio dei ministri** compare in più modi:
   - nomina i Commissari con un decreto (DPCM) [7][8];
   - guida il **Contratto istituzionale di sviluppo (CIS) per Taranto**, in cui il PIP è inserito dal 2015 con 37 milioni € [3][4][16]. Il responsabile del CIS (On. Dario Iaia) ha parlato del PIP al vertice in Prefettura del 30 gennaio 2026 [16];
-  - nel gennaio 2021 è stata la seduta del CIS, chiesta dal Commissario Martino, a sbloccare lo stallo con il Ministero sul progetto [7];
+  - nel gennaio 2021 il Commissario Martino le ha chiesto una seduta del CIS per superare lo stallo con il Ministero sul progetto; in quella seduta il Ministero ha indicato di togliere i rifiuti [7];
   - su OpenCoesione è indicata come "programmatore" dei nuovi fondi FSC 2021-2027 [17];
   - secondo l'opuscolo del maggio 2026, il nuovo intervento sarà gestito insieme all'**Unità tecnica amministrativa della Presidenza del Consiglio** [1].
 - Il **Ministero dell'Ambiente** esamina i progetti nelle Conferenze di servizi, perché l'area è nel SIN di Taranto [8][12]. Dal 2025 è anche il "beneficiario" dei 124 milioni secondo OpenCoesione [17].
@@ -36,13 +36,13 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 - **ARPA Puglia** e **ISPRA** hanno dato i pareri tecnici sul progetto [13][14].
 
 ## Cosa è stato fatto
-**Né bonificato né messo in sicurezza in modo permanente: nella vecchia cava restano circa 640.000 m³ di rifiuti industriali, e finora c'è stato solo il pompaggio d'emergenza dell'olio sulla falda.** [1][6][10] Il pompaggio è un intervento d'emergenza (MISE), che serve a limitare i danni intanto che si progetta quello definitivo [1][6].
+**Né bonificato né messo in sicurezza in modo permanente: i rifiuti industriali sono ancora nella vecchia cava (lo studio del Comune ne stima circa 640.000 m³ da scavare, calcolo nostro), e finora c'è stato solo il pompaggio d'emergenza dell'olio sulla falda.** [1][6][10] Il pompaggio è un intervento d'emergenza (MISE), che serve a limitare i danni intanto che si progetta quello definitivo [1][6].
 
 **Cos'è il sito e cosa c'è dentro**
 - Il PIP (Piano per gli insediamenti produttivi) è un'area per le attività produttive lungo la strada provinciale 48 Taranto–Statte, a circa 4 km dalla costa. È grande circa 90.000 m² ed è divisa in lotti di proprietari diversi; su alcuni lotti ci sono attività in funzione [10].
 - È dentro il SIN di Taranto, e a sud e a ovest confina con lo stabilimento siderurgico ex Ilva [10].
 - La zona era una cava di tufo e di calcare. Tra il 1972 e il 1995 la cava è stata riempita con terra e scarti industriali, "essenzialmente loppe di altoforno" (le scorie degli altiforni), e in mezzo ai rifiuti sono stati trovati strati di materiale fangoso e maleodorante [10]. Gli strati di rifiuti sono spessi da 3 a 26 metri [10].
-- **Quanti rifiuti:** lo studio del Comune stima circa 640.000 m³ di rifiuti da scavare: 220.000 m³ soprattutto di loppa e 420.000 m³ di rifiuti industriali con strati fangosi oleosi [10][13]. Tra il 20% e il 50% dei rifiuti più critici potrebbero essere pericolosi, con PCB e idrocarburi ad alte concentrazioni [10][13]. ARPA ha osservato che queste quantità sono stime: nessuno ha ancora fatto analisi dei rifiuti che permettano di dire quanti sono pericolosi [13].
+- **Quanti rifiuti:** lo studio del Comune stima i rifiuti da scavare in 220.000 m³ soprattutto di loppa e 420.000 m³ di rifiuti industriali con strati fangosi oleosi, circa 640.000 m³ in tutto (calcolo nostro) [10][13]. Tra il 20% e il 50% dei rifiuti più critici potrebbero essere pericolosi, con PCB e idrocarburi ad alte concentrazioni [10][13]. ARPA ha osservato che queste quantità sono stime: nessuno ha ancora fatto analisi dei rifiuti che permettano di dire quanti sono pericolosi [13].
 - **Cosa c'è nel terreno:** soprattutto idrocarburi pesanti, fino a 85.140 mg/kg contro un limite di 750 per le aree industriali [10].
 - **Cosa c'è nella falda profonda** (analisi del 2008, 2009, 2013, 2018 e 2020) [10]:
   - metalli: antimonio, cadmio, cromo, piombo, rame, selenio, zinco, ferro, manganese;
@@ -55,7 +55,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 **Le analisi (2013–2019)**
 - Il piano delle analisi (caratterizzazione) è stato approvato dal Ministero il 30 aprile 2013, dopo una Conferenza di servizi del 23 aprile 2013 [22]. Il progetto delle analisi, da 400.000 €, è stato approvato dal Comune il 12 agosto 2013 [22].
 - La caratterizzazione di terreni e falda profonda è stata finita il 30 novembre 2013, con 11 pozzi profondi 50–60 m [5][10].
-- Nel 2014 è stata fatta l'analisi di rischio [10]. Nel 2017–2018 però sono emerse "incoerenze" nelle analisi e nell'analisi di rischio, e il Ministero ha chiesto di rifarla per la falda [5]. La nuova analisi di rischio è stata approvata dal Ministero con il decreto n. 313 del 1° agosto 2018 [22].
+- Nel 2014 è stata fatta l'analisi di rischio [10]. Nel 2017–2018 però, secondo il Commissario, sono emerse "incoerenze" nelle analisi e nell'analisi di rischio; il Commissario le ha segnalate al Ministero, che ha disposto una nuova analisi di rischio per la falda [5][22]. La nuova analisi di rischio è stata approvata dal Ministero con il decreto n. 313 del 1° agosto 2018 [22].
 - Dopo sono state fatte altre indagini: nel 2018, con una ditta scelta dal Commissario (decreto n. 322/2017), e nel 2019–2020 [10][22]. Le indagini del 2018 hanno mostrato che la soluzione del progetto preliminare era difficile da realizzare, perché il terreno ha una struttura geologica complessa (tavolo tecnico al Ministero del 19 luglio 2019) [22].
 
 **L'intervento d'emergenza: pompare via l'olio dalla falda (2015–2022)**
@@ -67,9 +67,9 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 **La messa in sicurezza definitiva: un progetto fermo dal 2020**
 - **Il piano del 2013.** Il 3 settembre 2013 la Giunta di Statte ha approvato il primo documento di progetto: 36,6 milioni €, di cui 29,75 milioni di lavori [20]. Lo scopo era bloccare il passaggio degli inquinanti dal terreno alla falda profonda, "immobilizzando" la fonte dell'inquinamento [20]. Il calendario prevedeva l'inizio dei lavori il **7 maggio 2014** e la spesa entro il 2016 (10 milioni nel 2014, 12 nel 2015, 14,6 nel 2016) [20]. Lo stesso calendario avvertiva che i tempi potevano cambiare per motivi non dipendenti dal Comune [20].
 - I tempi erano così stretti perché la delibera CIPE 87/2012 chiedeva di firmare impegni vincolanti entro il **31 dicembre 2013**. Per questo il Comune dava ai concorrenti della gara per il progetto solo 10 giorni per presentare le offerte, e due di loro hanno protestato [21].
-- Il 25 giugno 2014 il Comune ha approvato un progetto preliminare da 31 milioni € [22]. Nelle Conferenze di servizi del 9 e del 30 luglio 2014 il Ministero ha chiesto prima un "campo prove", cioè una prova pratica su un'area piccola [22]. La prova è finita il 9 ottobre 2015 [5]. Il 16 marzo 2016 la Conferenza di servizi ha dato prescrizioni sul progetto [5][22].
+- Il 25 giugno 2014 il Comune ha approvato un progetto preliminare da 31 milioni € [22]. Nelle Conferenze di servizi al Ministero del 9 e del 30 luglio 2014 è emersa la necessità di un "campo prove", cioè una prova pratica su un'area piccola, per scegliere meglio la soluzione [22]. La prova è finita il 9 ottobre 2015 [5]. Il 16 marzo 2016 la Conferenza di servizi ha dato prescrizioni sul progetto [5][22].
 - Nell'agosto 2019 il Commissario Corbelli ha affidato nuove indagini (decreto n. 227) e un supporto tecnico per il progetto definitivo alla società A.G.S. (decreto n. 228, 37.500 € più oneri e IVA) [22][24].
-- Il 24 aprile 2020 il Commissario Corbelli ha mandato al Ministero il progetto definitivo, che voleva **chiudere i rifiuti dentro barriere di cemento iniettato nel terreno** ("jet grouting") [7][8]. Nelle Conferenze di servizi del 18 giugno e del 28 luglio 2020 il Ministero ha sollevato "notevoli obiezioni". Ha chiesto perché non si toglievano i rifiuti e se le barriere avrebbero retto nel tempo, e non ha ricevuto risposte esaurienti [7].
+- Il 24 aprile 2020 il Commissario Corbelli ha mandato al Ministero il progetto definitivo, che voleva **chiudere i rifiuti dentro barriere di cemento iniettato nel terreno** ("jet grouting") [7][8]. Nelle Conferenze di servizi del 18 giugno e del 28 luglio 2020 il progetto ha incontrato "notevoli obiezioni". Il Ministero ha chiesto di valutare se si potessero togliere tutti i rifiuti, di dimostrare che le barriere avrebbero retto nel tempo e di fare prima un campo prove; secondo il Commissario Martino non ha ricevuto risposte esaurienti [7][22].
 - Il 22 gennaio 2021, nella seduta del CIS, il Ministero ha indicato di procedere con la **rimozione dei rifiuti** [7][22]. Il 7 aprile 2021 c'è stata una riunione con Ministero, ARPA, ISPRA, Sogesid e Comune [22].
 - A marzo 2022 il Comune ha presentato uno **studio di fattibilità da 89,9 milioni €** [9][11]. Lo studio prevede di:
   - pompare via l'olio e costruire un impianto per trattare l'acqua;
@@ -78,9 +78,9 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
   - rimettere i 535.000 m³ di rifiuti non pericolosi in una cava vicina impermeabilizzata;
   - coprire tutto con uno strato isolante (il "capping") [10].
 
-  Quindi **gran parte dei rifiuti resterebbe sul posto**, chiusa in modo isolato: sarebbe più una messa in sicurezza che una bonifica [10]. Lo studio ha scartato l'idea di portare via tutti i rifiuti, che costerebbe tra 151 e 294 milioni € [10].
-- ARPA (20 aprile 2022) ha condiviso l'impostazione, ma ha segnalato "carenze progettuali". Per esempio, mancano le analisi dei rifiuti, e la barriera per l'acqua sarebbe nel posto sbagliato rispetto a dove scorre la falda [13]. ISPRA (14 aprile 2022) ha scritto che i dati non bastano per dire se il progetto si può fare ("numerose carenze") e ha consigliato di affidare il progetto a tecnici esperti di siti contaminati [14].
-- Il 1° febbraio 2023 si è deciso che servivano nuove analisi e un nuovo progetto. Il Commissario ha chiesto il supporto di Invitalia, ma la richiesta è rimasta senza risposta. A settembre 2023 il "Programma operativo" del Comune era "in corso di definizione", e il Comune si era detto disponibile a fare una gara per il nuovo progetto [7].
+  Quindi **gran parte dei rifiuti resterebbe sul posto**, chiusa in modo isolato: sarebbe più una messa in sicurezza che una bonifica [10]. Anche ISPRA lo chiama un intervento di messa in sicurezza permanente con scavi [14]. Lo studio ha scartato l'idea di portare via tutti i rifiuti, che costerebbe tra 151 e 294 milioni € [10].
+- ARPA (20 aprile 2022) ha condiviso l'impostazione, ma ha segnalato "carenze progettuali". Per esempio, mancano le analisi dei rifiuti, e ARPA dubita che la barriera per l'acqua sia messa nel posto giusto rispetto a dove scorre la falda [13]. ISPRA (14 aprile 2022) ritiene percorribile l'idea, ma ha scritto che i dati non bastano per dire se il progetto si può fare ("numerose carenze") e ha consigliato di affidare il progetto a tecnici esperti di siti contaminati [14].
+- In un incontro tecnico con il Comune, il 1° febbraio 2023, è emerso che servivano analisi integrative e controlli per aggiornare il progetto di fattibilità, con il supporto di Invitalia. Secondo il Commissario la richiesta a Invitalia è rimasta senza risposta. A settembre 2023 il "Programma operativo" del Comune era "in corso di definizione", e il Comune si era detto disponibile a fare una gara per il nuovo progetto [7].
 - **Maggio 2026:** l'opuscolo dice che si dovranno aggiornare le analisi e affidare la progettazione, e che "a breve" si ripartirà ricostruendo i dati raccolti [1].
 - Su OpenCoesione il nuovo intervento risulta **"non avviato"** (dati al 30 giugno 2026) [17].
 
@@ -191,7 +191,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 | aprile 2022 | Pareri di ISPRA (14/4) e ARPA (20/4): mancano dati | [13][14] |
 | 6 maggio 2022 | Intervento d'emergenza fatto per circa il 58% | [23] |
 | 30 settembre 2022 | Ultima scadenza nota per finire l'intervento d'emergenza | [6] |
-| 1 febbraio 2023 | Incontro tecnico: servono nuove analisi e un nuovo progetto | [7] |
+| 1 febbraio 2023 | Incontro tecnico: servono analisi integrative per aggiornare il progetto | [7] |
 | 8 luglio 2024 | La Regione mette il PIP al primo posto tra le priorità del SIN | [3] |
 | 10 novembre 2025 | Accordo per la Coesione: 89,9 milioni € dal Fondo 2021-2027 (124 milioni in tutto) | [2] |
 | 10 dicembre 2025 | Delibera CIPESS n. 51 che assegna i fondi al Ministero | [15] |
@@ -281,6 +281,7 @@ Tutti i documenti del Ministero su questa pratica sono nell'archivio https://bon
    OpenCoesione registra 0 € di pagamenti [18][19]. Non verificato.
 8. [fonti] **Quanto costerà: 89,9 o 124 milioni?** Il costo era di 89,9 milioni nello studio del 2022 [11] e anche nella delibera della Regione del 2024 [3], ma è diventato di 124 milioni nell'Accordo del 2025 [2]. Inoltre non si sa da dove vengano i 34,17 milioni di "altre risorse" [2][17], né se il governo abbia confermato che ci sono, come chiedeva la delibera CIPESS [15]. Non verificato.
 9. [fonti] **Qual è il codice del progetto (CUP)?** La Regione indica il CUP J76J14000840001 [3], che su OpenCoesione non esiste e che su OpenCUP è dell'intervento d'emergenza sull'olio [28]. L'Accordo non indica nessun CUP [2], mentre OpenCoesione usa J72B25002080003 [17].
+10. [fonti] **Quanti rifiuti ci sono, e fino a quando sono stati portati?** Lo studio del Comune scrive che la cava è stata riempita tra il 1972 e il 1995, con strati di rifiuti spessi da 3 a 26 metri, e stima circa 640.000 m³ di rifiuti da scavare (calcolo nostro: 220.000 + 420.000) [10]. La Commissione parlamentare sui rifiuti scrive che il riempimento è durato fino al 1992 e parla di oltre 1 milione di m³, fino a più di 40 metri sotto il piano campagna [26].
 
 ### Richieste FOIA (pronte, da inviare con email ordinaria)
 Testi completi in `.tmp/foia/` (non pubblicati); canali verificati il 7/10/2026 in `.tmp/foia/canali.md`.
