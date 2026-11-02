@@ -1,5 +1,5 @@
 # A1 – Gravina di Leucaspide e "Vecchie Vasche" (sotto sequestro)
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 2 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -57,7 +57,8 @@ Ai tempi dell'Italsider lungo la gravina sono stati ammucchiati circa 5 milioni 
 ## Il progetto del Comune di Statte
 - Il Comune di Statte ha fatto fare la "Progettazione della bonifica ambientale con misura di sicurezza della Gravina Leucaspide in area SIN": costo 191.575,16 €, pagati con il Fondo sviluppo e coesione (Contratto istituzionale di sviluppo per Taranto), con il Commissario per la bonifica come ente che finanzia [11]. Il lavoro risulta svolto tra il 29 marzo e il 26 luglio 2022 [11].
 - Nei documenti del Commissario il progetto si chiama "Bonifica ambientale gravina di Leucaspide – **Tratto sud**" [12]. A settembre 2023 il Commissario aveva versato al Comune 114.915,84 € (oltre all'anticipo), e stava esaminando la richiesta di altri 46.659,32 €; il certificato di regolare esecuzione del lavoro è del 1° febbraio 2023 [12]. A maggio 2026 l'intervento era ancora "in corso di rendicontazione e liquidazione" [13]. Con il **decreto n. 53 del 2 ottobre 2026** il Commissario ha liquidato e autorizzato il pagamento al Comune del **saldo di 46.659,32 €**, chiesto il 22 maggio 2026, e il decreto dice che l'intervento è "concluso": in tutto il Comune riceve 191.575,16 € (30.000 € di anticipo, 114.915,84 € nel 2023 e il saldo) [14]. Il decreto aggiunge che i soldi sono serviti per **indagini integrative** sull'acqua sotterranea e sui suoli, per preparare il progetto definitivo della bonifica del tratto sud, e che il 4 marzo 2020 il Comune aveva già mandato al Ministero dell'Ambiente un progetto di fattibilità, senza ricevere risposta [14].
-- Il progetto fa parte dell'**Accordo di programma del 20 settembre 2021** tra Ministero, Regione, Commissario e Comuni di Taranto e Statte, che per Statte prevede due interventi sulla gravina: "bonifica con misure di sicurezza del **tratto sud**" (indagini integrative e bonifica) e, per il **tratto nord**, la progettazione e l'esecuzione di indagini integrative e un'analisi di rischio [18]. Per il tratto nord non abbiamo trovato altri atti.
+- Il progetto fa parte dell'**Accordo di programma del 20 settembre 2021** tra Ministero, Regione, Commissario e Comuni di Taranto e Statte, che per Statte prevede due interventi sulla gravina: "bonifica con misure di sicurezza del **tratto sud**" (indagini integrative e bonifica) e, per il **tratto nord**, la progettazione e l'esecuzione di indagini integrative e un'analisi di rischio [18].
+- **Il tratto nord nell'anagrafe dei siti da bonificare.** Nell'estratto mandato da ARPA (settembre 2026) c'è un sito del Comune di Statte, aggiornato il 21 luglio 2025, chiamato "progetto di fattibilità tecnica ed economica del piano di caratterizzazione del Tratto Nord della Gravina di Leucaspide": 488.945 m², "contaminazione storica", procedura dell'art. 242 del Codice dell'ambiente [22]. Lo stato del procedimento è "approvazione esiti PdC e AdR con conclusione positiva del procedimento", cioè analisi e analisi di rischio approvate con esito positivo, ma lo stato della contaminazione è "sito contaminato" [22]: le due voci non si accordano. Il punto centrale, 685330,8 m E – 4494183,3 m N, è circa 3,9 km a nord di quello con cui il Ministero indica l'area 3917 (calcolo nostro) [21][22]. Non sappiamo se il tratto nord abbia rifiuti dell'Ilva: gli atti di approvazione non li abbiamo trovati.
 - Si tratta di un **progetto**, non di lavori: nessuna fonte dice che siano stati fatti lavori di bonifica da parte del Comune.
 - **Nessuna fonte ufficiale spiega se il "tratto sud" progettato dal Comune coincide con l'area di Ilva**, né se Ilva o il Ministero abbiano usato quel progetto.
 
@@ -114,6 +115,7 @@ Ai tempi dell'Italsider lungo la gravina sono stati ammucchiati circa 5 milioni 
 | maggio 2026 | Il progetto del Comune risulta ancora "in corso di rendicontazione e liquidazione" | [13] |
 | 22 maggio 2026 | Il Comune chiede il saldo (46.659,32 €) | [14] |
 | 2 ottobre 2026 | Decreto n. 53 del Commissario: pagamento del saldo, intervento "concluso" | [14] |
+| settembre 2026 | Nell'anagrafe di ARPA il tratto nord (sito del Comune di Statte, dal 21/07/2025) ha analisi e analisi di rischio approvate, ma è "sito contaminato" | [22] |
 
 ## Fonti
 Tutti i documenti del Ministero su questa procedura sono nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ — SIN "Taranto", Area **3917**. Al 2 ottobre 2026 l'ultimo documento in archivio per quest'area è il decreto n. 225 del 2022.
@@ -160,6 +162,8 @@ Tutti i documenti del Ministero su questa procedura sono nell'archivio https://b
 
 [21] Ministero dell'Ambiente e della Sicurezza energetica, *SmartEcoGIS*, mappa delle aree dei SIN, livello "Aree - SIN", punto dell'area 3917 del SIN "Taranto" (consultata il 30 ottobre 2026), https://smartecogis.mase.gov.it/ — copia dei punti di tutte le aree del SIN Taranto in `fonti/2026-10_mase_smartecogis-aree-sin-taranto.json`
 
+[22] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera), sito TA102 "progetto di fattibilità tecnica ed economica del piano di caratterizzazione del Tratto Nord della Gravina di Leucaspide" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
+
 ## Cosa non sappiamo
 1. [blocca] **Le analisi complete sono partite?** L'area è sotto sequestro e il permesso del giudice per entrarci è arrivato solo a febbraio 2024 [1][19]. L'ultima notizia è un sopralluogo con ARPA a settembre 2025 [1]. Le relazioni di Ilva del 2026 non sono ancora pubblicate e nell'archivio del Ministero non ci sono documenti su quest'area dopo il 2022 (controllato il 12 ottobre 2026); una ricerca sul web non ha trovato notizie del 2026.
 2. [blocca] **Le analisi guarderanno proprio i rifiuti?** Secondo ISPRA il piano approvato non comprende la zona delle colline e delle vasche, dove stanno i rifiuti [5]. Ilva scrive invece che i risultati delle indagini già fatte lì confluiranno nelle analisi [1]. Non è chiaro chi e quando valuterà nel complesso le colline come fonte di inquinamento.
@@ -174,6 +178,7 @@ Tutti i documenti del Ministero su questa procedura sono nell'archivio https://b
 11. [fonti] **Piccoli errori nelle fonti.**
     - le relazioni di Ilva del 2024 e del 2025 scrivono che i 13 sondaggi geotecnici sono stati fatti "dal 13.12.2023 al 18.03.2023", cioè con la fine prima dell'inizio [1][9]; la relazione del 2022 mostra che sono iniziati il 13 dicembre **2022** [8];
     - il decreto n. 225 cita una nota Ilva con il protocollo "896340", ma negli altri punti dello stesso decreto il numero è 89634 [2].
+12. [fonti] **Tratto nord: conclusione positiva o sito contaminato?** Nell'anagrafe aggiornata da ARPA il tratto nord ha analisi e analisi di rischio approvate «con conclusione positiva del procedimento», ma è anche «sito contaminato» [22]. Negli altri siti dello stesso elenco con la «conclusione positiva» lo stato è «rischio accettabile» [22]. Non sappiamo quale delle due voci sia giusta, chi abbia approvato e quando. Non verificato.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
 **A:** Comune di Statte, Servizio Ecologia e ambiente — email ordinaria ambiente@comune.statte.ta.it, in copia la Segreteria generale segreteria@comune.statte.ta.it (indirizzi verificati il 7 ottobre 2026 sulla [pagina Contatti](https://www.comune.statte.ta.it/contatti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.

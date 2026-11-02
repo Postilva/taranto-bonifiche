@@ -1,15 +1,15 @@
 # D1 + D2 + D3 + D4 + D5 – Quartiere Tamburi: risanamento dei suoli (sottoperimetri SP1–SP4)
-*Stato scheda: approvata — aggiornata al 23 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 2 novembre 2026*
 
 ## A che punto è
 ### Finora
-Il programma del Comune per risanare i terreni del quartiere è iniziato nel 2005, diviso in quattro sottoperimetri, da SP1 a SP4 [1]. Ad aprile 2020 la Regione indicava SP4 come «sito bonificato», con la certificazione di avvenuta bonifica; per SP1, SP2 e SP3 il Comune aveva chiesto la certificazione [1]. Nel 2018 il Ministero delle Infrastrutture ha versato al Comune 1,5 milioni di euro per la bonifica dei suoli dei sottoprogetti 1–3 [3].
+Il programma del Comune per risanare i terreni del quartiere è iniziato nel 2005, diviso in quattro sottoperimetri, da SP1 a SP4 [1]. Ad aprile 2020 la Regione indicava SP4 come «sito bonificato», con la certificazione di avvenuta bonifica; per SP1, SP2 e SP3 il Comune aveva chiesto la certificazione [1]. Secondo ARPA la certificazione di SP4 è il «D.D.P. n. 167 del 28/02/2020» [10]. Nel 2018 il Ministero delle Infrastrutture ha versato al Comune 1,5 milioni di euro per la bonifica dei suoli dei sottoprogetti 1–3 [3].
 
 ### Cosa manca
-Il certificato di SP4 non l'abbiamo visto [1]. Per SP1, SP2 e SP3 ad aprile 2020 la certificazione non era stata rilasciata, e per la Regione erano ancora «siti contaminati» [1]. Le aree private di SP2 erano «in fase di accertamento», con solo una comunicazione di potenziale contaminazione del 2005 [1].
+Il certificato di SP4 non l'abbiamo visto: ARPA ne dà solo numero e data [10]. Dentro SP4, dal 2024 il campo sportivo «Atleti Azzurri d'Italia» (scheda B9) è un sito a parte, «contaminato» [10]. Per SP1, SP2 e SP3 a settembre 2026 la certificazione non è ancora stata rilasciata: per ARPA sono ancora «siti contaminati», come nel 2020 [1][10]. Le aree private di SP2 sono ancora «in fase di accertamento», con solo una comunicazione di potenziale contaminazione del 2005 [1][10].
 
 ### Adesso
-Dal 2021 il Comune fa lavori di riqualificazione urbana nel quartiere, che non sono una bonifica [7]. Il 21 ottobre 2026 abbiamo chiesto le certificazioni alla Provincia e lo stato delle aree private alla Regione con richieste di accesso civico; le risposte sono attese entro il 20 novembre.
+Dal 2021 il Comune fa lavori di riqualificazione urbana nel quartiere, che non sono una bonifica [7]. Il 21 ottobre 2026 abbiamo chiesto le certificazioni alla Provincia e lo stato delle aree private alla Regione con richieste di accesso civico; le risposte sono attese entro il 20 novembre. Il 2 novembre ARPA ci ha mandato l'anagrafe aggiornata [10].
 
 ## Che posto è
 Il quartiere Tamburi, il quartiere di Taranto attaccato allo stabilimento [4]. Le cinque aree vanno da 0,3 a 81 ettari e in tutto fanno circa 106 ettari [1].
@@ -28,11 +28,11 @@ La Regione indica come causa, per tutte le aree, la "deposizione inquinanti su s
 - La **Regione Puglia** tiene l'elenco dei siti da bonificare [1].
 
 ## Cosa è stato fatto
-**Lavori fatti secondo il Comune nelle aree pubbliche; certificazione solo per SP4 secondo la Regione, ma non l'abbiamo vista. Aree private mai analizzate, per quanto sappiamo.** [1]
+**Lavori fatti secondo il Comune nelle aree pubbliche; certificazione solo per SP4 (D.D.P. n. 167/2020 secondo ARPA), ma non l'abbiamo vista. SP1–SP3 ancora senza certificazione nel 2026. Aree private mai analizzate, per quanto sappiamo.** [1][10]
 
-| Codice | Sottoperimetro | Superficie | Stato ad aprile 2020 secondo la Regione |
+| Codice | Sottoperimetro | Superficie | Stato secondo la Regione (aprile 2020), uguale per ARPA a settembre 2026 [10] |
 |---|---|---|---|
-| D5 | SP4 – suolo | 808.572 m² | "Certificazione di avvenuta bonifica", "sito bonificato" (certificato non visto da noi) [1] |
+| D5 | SP4 – suolo | 808.572 m² (778.119 per ARPA nel 2026) | "Certificazione di avvenuta bonifica", "sito bonificato": D.D.P. n. 167 del 28/02/2020 secondo ARPA (certificato non visto da noi) [1][10] |
 | D1 | SP1 – suolo | 164.770 m² | Certificazione chiesta dal Comune, non rilasciata: "sito contaminato" [1] |
 | D4 | SP3 – suolo | 34.371 m² | Certificazione chiesta dal Comune, non rilasciata: "sito contaminato" [1] |
 | D2 | SP2 – suolo | 3.249 m² | Certificazione chiesta dal Comune, non rilasciata: "sito contaminato" [1] |
@@ -41,17 +41,21 @@ La Regione indica come causa, per tutte le aree, la "deposizione inquinanti su s
 - **2005.** Iniziano i procedimenti, con le regole di allora (decreto ministeriale 471/1999); per le aree private di SP2 c'è la comunicazione di potenziale contaminazione (la Regione scrive "D.M. 471/09", probabilmente per 471/1999) [1].
 - **2013.** Alla cabina di regia per Taranto il Comune conferma "l'impegno a trasmettere i progetti di bonifica delle aree dei Tamburi, il cui accesso era interdetto per motivi sanitari da ordinanze sindacali" [5].
 - **28 settembre 2018.** Il Ministero delle Infrastrutture versa al Comune **1.504.034,76 €** per il "Progetto di bonifica dei suoli per annullare il rischio sanitario – aree sottoprogetti 1, 2 e 3 Quartiere Tamburi" [3]. "Annullare il rischio sanitario" fa pensare a una bonifica basata sull'analisi di rischio, ma il progetto non l'abbiamo visto.
+- **28 febbraio 2020.** Secondo ARPA, con il "D.D.P. n. 167" viene certificata la bonifica di SP4 [10]. L'atto non l'abbiamo visto, e ARPA non dice chi l'ha firmato.
 - **Aprile 2020.** Lo stato delle cinque aree è quello della tabella [1].
+- **Il campo sportivo dentro SP4 (dal 2024).** Nell'anagrafe c'è un sito nuovo, "Risanamento Q.re Tamburi SP4 – Foglio 203 particella 502 – campo sportivo", 25.499 m², con aggiornamento del 13 maggio 2024: "sito contaminato", con l'analisi di rischio trasmessa [10]. È il campo "Atleti Azzurri d'Italia" della scheda B9. Nello stesso elenco SP4 passa da 808.572 a 778.119 m², e il suo punto centrale si sposta di circa 22 m (calcolo nostro) [1][10]; ARPA non dice perché.
+- **Settembre 2026.** Nell'anagrafe aggiornata da ARPA lo stato delle cinque aree è lo stesso del 2020 [10].
 - **I lavori di riqualificazione (dal 2021).** Il Comune bandisce in due lotti, A e B, i lavori del "Progetto coordinato per il risanamento del quartiere Tamburi – Sottoprogetto n. 4 – Riqualificazione urbana delle aree 1, 2, 3, 4, 5", pagati con i fondi del Contratto istituzionale di sviluppo (CIS) per Taranto; i due lotti vengono aggiudicati e sono iniziati i collaudi in corso d'opera [7]. Nello stesso programma il sottoprogetto 2 riguarda gli impianti sportivi, tra cui il campo "Atleti Azzurri d'Italia" (scheda B9) [7].
 - **Un intervento vicino: il "rilevato" di via San Brunone.** Il Comune ha un progetto da 1,9 milioni € per bonificare un'area di via San Brunone, nel quartiere, "su cui insiste un rilevato costituito da materiale di riporto" [8]. Con fondi europei della Regione (POR Puglia 2014–2020, azione 6.2) il Comune ha affidato il progetto di bonifica, lo ha approvato e ha bandito la gara per i lavori [9]. Non sappiamo in quale sottoperimetro sia.
 
 ## Dove si trova e quanto è grande
 Per ogni area la Regione indica il punto centrale ("centroide del poligono"), nel sistema UTM-WGS84 fuso 33 Nord [2]. Le conversioni in gradi sono nostre, da ricontrollare sulla mappa.
-- **Coordinate** di D5 (SP4): 688906,4914 m E – 4484844,689 m N [1], circa 40,493° N – 17,229° E.
+- **Coordinate** di D5 (SP4): 688906,4914 m E – 4484844,689 m N [1], circa 40,493° N – 17,229° E. Nell'estratto di ARPA del 2026 il punto è 688890,8409 m E – 4484828,994 m N [10].
 - **Coordinate** di D1 (SP1): 688569,3876 m E – 4484590,303 m N [1], circa 40,491° N – 17,225° E.
 - **Coordinate** di D4 (SP3): 688935,5404 m E – 4484231,381 m N [1], circa 40,487° N – 17,229° E.
 - **Coordinate** di D2 (SP2, suolo): 688479,576 m E – 4483977,027 m N [1], circa 40,485° N – 17,224° E.
 - **Coordinate** di D3 (SP2, aree private): 688439,7346 m E – 4484138,474 m N [1], circa 40,487° N – 17,223° E.
+- Le coordinate delle altre quattro aree sono le stesse nell'estratto di ARPA del 2026 [10].
 - **Superfici:** in tutto 1.056.584 m² (somma nostra delle cinque righe) [1].
 
 ## Soldi
@@ -70,8 +74,11 @@ Per ogni area la Regione indica il punto centrale ("centroide del poligono"), ne
 | 2005 | Inizio dei procedimenti; comunicazione di potenziale contaminazione per le aree private di SP2 | [1] |
 | aprile 2013 | Il Comune si impegna a mandare i progetti di bonifica delle aree chiuse dalle ordinanze | [5] |
 | 28 settembre 2018 | Il Ministero delle Infrastrutture versa 1,5 milioni € per la bonifica dei suoli dei sottoprogetti 1–3 | [3] |
+| 28 febbraio 2020 | Certificazione della bonifica di SP4 (D.D.P. n. 167) secondo ARPA | [10] |
 | aprile 2020 | SP4 "bonificato" per la Regione; SP1–SP3 certificazione chiesta; aree private di SP2 in accertamento | [1] |
 | 2021 | Gare per la riqualificazione urbana del sottoprogetto 4 (lotti A e B) | [7] |
+| 13 maggio 2024 | Il campo sportivo del foglio 203, particella 502, entra nell'anagrafe come sito a parte dentro SP4, "contaminato" | [10] |
+| settembre 2026 | Per ARPA lo stato delle cinque aree è lo stesso del 2020 | [10] |
 
 ## Fonti
 [1] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020): tabella 1, sito n. 13 "Risanamento Q.re Tamburi SP4 – Matrice suolo" (pag. 8); tabella 4, siti n. 152 "SP1" e n. 151 "SP2" (pag. 54) e n. 147 "SP3" (pag. 53), "Matrice suolo"; tabella 2.1, sito n. 23 "Risanamento quartiere Tamburi – SP2 – aree private" (pag. 10); colonne "centro X" e "centro Y", https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
@@ -92,16 +99,19 @@ Per ogni area la Regione indica il punto centrale ("centroide del poligono"), ne
 
 [9] Comune di Taranto, portale trasparenza degli atti (https://taranto.trasparenza-valutazione-merito.it), ricerca "rilevato" del 20 ottobre 2026: titoli degli atti sulla "Bonifica di un rilevato costituito da materiali di riporto ubicato nel quartiere Tamburi" (CUP E54F10000030005): affidamento del progetto operativo di bonifica, sua approvazione, gara per i lavori (CIG 9446586161). Dal portale si leggono solo i titoli.
 
+[10] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026: Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera), siti TA058 (SP4), TA065 (SP1), TA066 (SP2), TA067 (SP3), TA050 (SP2, aree private) e TA088 (SP4, foglio 203 particella 502, campo sportivo); Allegato 3 (siti del quartiere Tamburi, con gli atti di chiusura) — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf`, `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods`, `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-3.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-3.csv`)
+
 ## Cosa non sappiamo
-1. [blocca] **Perché SP1, SP2 e SP3 non hanno la certificazione?** Ad aprile 2020 il Comune l'aveva chiesta, ma per la Regione le tre aree pubbliche erano ancora «siti contaminati» [1]. Non sappiamo se la certificazione sia arrivata dopo né che cosa manchi per averla. Non verificato.
-2. [blocca] **Chi deve analizzare le aree private di SP2?** Sono 4,6 ettari «in fase di accertamento» dal 2005, con una sola comunicazione di potenziale contaminazione, e la Regione non indica nessun soggetto che se ne occupi [1]. Non sappiamo se sono inquinate, che cosa sono né di chi sono. Non verificato.
-3. [altra] **Chi ha certificato la bonifica di SP4, e quando?** Ad aprile 2020 la Regione indicava SP4, l'area più grande con 81 ettari, come «sito bonificato» con la certificazione di avvenuta bonifica, senza dire chi l'ha rilasciata né con quale atto [1]. Per il Codice dell'ambiente la rilascia la Provincia [6]. Finché non vediamo il certificato, sul sito SP4 resta «certificato non visto». Non verificato.
+1. [blocca] **Perché SP1, SP2 e SP3 non hanno la certificazione?** Ad aprile 2020 il Comune l'aveva chiesta, ma per la Regione le tre aree pubbliche erano ancora «siti contaminati» [1]; a settembre 2026, per ARPA, è ancora così [10]. Non sappiamo che cosa manchi per averla. Non verificato.
+2. [blocca] **Chi deve analizzare le aree private di SP2?** Sono 4,6 ettari «in fase di accertamento» dal 2005, con una sola comunicazione di potenziale contaminazione, e né la Regione nel 2020 né ARPA nel 2026 indicano un soggetto che se ne occupi [1][10]. Non sappiamo se sono inquinate, che cosa sono né di chi sono. Non verificato.
+3. [altra] **Chi ha certificato la bonifica di SP4?** Ad aprile 2020 la Regione indicava SP4, l'area più grande con 81 ettari, come «sito bonificato», senza dire con quale atto [1]. ARPA ora dà gli estremi, «D.D.P. n. 167 del 28/02/2020», ma non dice chi l'ha firmato [10]. Per il Codice dell'ambiente la certificazione la rilascia la Provincia [6]. Finché non vediamo l'atto, sul sito SP4 resta «certificato non visto». Non verificato.
 4. [altra] **Che cosa è stato fatto nelle aree pubbliche?** Nel 2018 il Ministero delle Infrastrutture ha dato al Comune 1,5 milioni di euro per il progetto di bonifica dei suoli dei sottoprogetti 1, 2 e 3, «per annullare il rischio sanitario» [3], ma il progetto non l'abbiamo visto. Non sappiamo se è stato tolto terreno, quanto, fino a quali limiti, né quali sostanze c'erano. Non verificato.
 5. [altra] **Le aree sono dentro il SIN di Taranto?** Nessuna delle fonti trovate lo dice. Non verificato.
 6. [altra] **Le scuole Deledda, De Carolis e D'Aquino sono dentro SP4?** Hanno una pratica a parte (scheda B2), e nessuna delle fonti trovate dice se stanno dentro SP4. Non verificato.
 7. [altra] **Dov'è il rilevato di via San Brunone, e che cosa contiene?** Il Comune ha un progetto da 1,9 milioni di euro per bonificarlo [8], lo ha approvato e ha bandito la gara per i lavori [9]. Non sappiamo in quale sottoperimetro sia, che cosa contenga né se i lavori siano stati fatti. Non verificato.
 8. [fonti] **"SP" vuol dire "sottoprogetto"?** I nomi fanno pensare che SP1–SP4 siano le aree dei sottoprogetti 1–4 del "Progetto coordinato per il risanamento del quartiere Tamburi" [1][3], ma nessuna fonte lo dice, e non sappiamo quali strade comprenda ciascuna. Nel programma del Comune il sottoprogetto 4 è la riqualificazione urbana [7], mentre per la Regione SP4 è un'area di suolo bonificata [1]. Non verificato.
 9. [altra] **Quali ordinanze hanno chiuso le aree del quartiere, e valgono ancora?** La Regione nel 2013 parla di aree con accesso «interdetto per motivi sanitari da ordinanze sindacali» [5], ma nessuna fonte ufficiale trovata dà numeri, date o aree. Un giornale cita un'ordinanza n. 45 del 23 giugno 2010 sulle aree verdi del quartiere, che non abbiamo trovato negli atti del Comune.
+10. [fonti] **SP4 è bonificato, ma dentro c'è un campo contaminato?** Nell'anagrafe aggiornata da ARPA SP4 resta «sito bonificato», e dal 2024 c'è un sito a parte, il campo sportivo del foglio 203, particella 502, «contaminato» [10]: è il campo «Atleti Azzurri d'Italia» (scheda B9). Nessuna fonte spiega se il campo fosse dentro l'area certificata nel 2020, né perché SP4 sia passato da 808.572 a 778.119 m² [1][10]. Non verificato.
 
 Ricerca online del 20 ottobre 2026 ("Tamburi" con SP1–SP4, sottoprogetti, certificazione di avvenuta bonifica, Provincia di Taranto, aree private; portale trasparenza del Comune e del Ministero delle Infrastrutture; OpenCUP; archivio del Ministero dell'Ambiente): trovate solo le fonti elencate sopra. Un giornale del 2010 (AmbienteAmbienti, 13 giugno 2010) parla di un'analisi di rischio su 75 ettari, di berillio sopra i limiti e di 30 cm di terreno da togliere: dati utili per le richieste, ma senza fonte ufficiale. Non verificati. La pagina ufficiale del CIS Taranto sul programma per il Tamburi (cistaranto.coesionemezzogiorno.it) non era raggiungibile il 20 ottobre 2026.
 
