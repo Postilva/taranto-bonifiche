@@ -3,7 +3,7 @@
 
 ## A che punto è
 ### Finora
-Niente: nessuna analisi e nessun lavoro [2]. Dal 2022 Ilva scrive che nell'area non c'è «nessuna criticità» e la mette tra le aree «cedibili e prive di pendenze» [1][2][8].
+Niente, per quanto risulta: nessuna analisi e nessun lavoro (Ilva scrive «nessuna attività evidenziata») [2]. Dal 2022 Ilva scrive che nell'area non c'è «nessuna criticità» e la mette tra le aree «cedibili e prive di pendenze» [1][2][8].
 
 ### Cosa manca
 Non abbiamo trovato nessuna analisi del terreno o dell'acqua, né un atto pubblico che dica che l'area è pulita: il giudizio è solo di Ilva [1][2][5]. Secondo Ilva l'area è fuori dal SIN [2].

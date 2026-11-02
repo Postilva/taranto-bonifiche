@@ -31,7 +31,7 @@ Per anni ci sono stati accumulati pneumatici fuori uso: la Regione lo classifica
 - **La regola.** Il "Piano rifiuti" approvato con la legge 20/2015 contiene la prescrizione UA26, per l'"area sequestrata di deposito Pneumatici fuori uso": togliere i rifiuti entro 18 mesi e poi fare le analisi del terreno con le regole delle bonifiche [3].
 - **La rimozione (2016–2018).** Il progetto è stato rivisto da Invitalia; nel 2016 Ilva ha dato l'incarico a due ditte, per la rimozione e per l'area di lavorazione [3]. La Guardia di Finanza ha tolto i sigilli il 20 ottobre 2016 e la rimozione è iniziata il 16 novembre 2016; a febbraio 2017 era ancora in corso [3].
 - **La comunicazione alla Regione (2017).** Nell'elenco della Regione l'area entra nel 2017 con una "comunicazione potenziale contaminazione" (art. 242 del Codice dell'ambiente) [1].
-- **"Attuata al 31.12.2018".** Ilva scrive che sia la rimozione sia le analisi del terreno sono state completate entro il 31 dicembre 2018, e ISPRA nel 2022 segna la prescrizione come "attuata" [4][5].
+- **"Attuata al 31.12.2018".** Ilva scrive che sia la rimozione sia le analisi del terreno sono state completate entro il 31 dicembre 2018, e ISPRA nel 2022 segna la prescrizione come "attuata", rimandando a un suo rapporto del 29 luglio 2019 [4][5].
 - **Ma ad aprile 2020** la Regione indica ancora l'area come "sito potenzialmente contaminato", con il procedimento fermo alla comunicazione iniziale [1]. Non abbiamo trovato risultati delle analisi, pareri di ARPA o atti della Regione successivi.
 
 ## Dove si trova e quanto è grande

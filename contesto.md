@@ -8,11 +8,11 @@ Testi della homepage: cosa c'è da bonificare, la storia dello stabilimento, com
 Bonificare vuol dire togliere l'inquinamento, o ridurlo finché non è più un rischio [17]. Chiuderlo sotto una copertura, isolato per sempre, è un'altra cosa, la "messa in sicurezza permanente": l'inquinamento resta lì [17].
 
 - **Gli impianti** · parchi minerali, cokerie, altoforni: L'inquinamento parte dagli impianti: dai parchi minerali, i cumuli all'aperto delle materie prime, vengono le polveri più grosse, e i vecchi trasformatori elettrici contenevano PCB [1]. Per inquinare meno il Piano ambientale del 2017 ha ordinato, per esempio, di coprire i parchi [2]. Dentro lo stabilimento sono previsti anche "interventi di decontaminazione", pagati con il Patrimonio Destinato, i soldi arrivati dall'accordo con la famiglia Riva [1].
-- **L'amianto** · negli impianti della fabbrica: È un minerale fatto di fibre, usato per coperture, isolanti e rivestimenti dei forni; le fibre respirate sono legate a tumori che possono comparire anche molti anni dopo [13]. Nello stabilimento ce ne sono ancora oltre 2.000 tonnellate [11], altre 6.780 sono già state smaltite [16]. Per far ripartire l'area a caldo va tolto tutto l'amianto rimasto negli impianti [16].
+- **L'amianto** · negli impianti della fabbrica: È un minerale fatto di fibre, usato per coperture, isolanti e rivestimenti dei forni; le fibre respirate sono legate a tumori che possono comparire anche molti anni dopo [13]. Secondo la Corte d'Appello di Milano nello stabilimento ce ne sono ancora oltre 2.000 tonnellate, e altre 6.780 sono già state smaltite [11][16]. La Corte d'Appello ha deciso che per far ripartire l'area a caldo va tolto tutto l'amianto rimasto negli impianti, e la Cassazione ha confermato lo stop [16].
 - **I rifiuti** · scorie, polveri e fanghi: In decenni di produzione la fabbrica ha ammucchiato i suoi rifiuti, come scorie, polveri dei filtri e fanghi oleosi, dentro e intorno allo stabilimento [1].
 - **I terreni** · le polveri dei camini: I camini di una fabbrica come questa emettono polveri con metalli pesanti, IPA, PCB e diossine [4]. Si sono depositate anche fuori, sul quartiere Tamburi, tanto che il Sindaco ha dovuto fare ordinanze sui giardini delle scuole [1].
 - **L'acqua sotto terra** · la falda: Dai rifiuti e dai terreni inquinati le sostanze possono scendere fino all'acqua sotto terra, la falda [1].
-- **Il fondo del mare** · il Mar Piccolo: Secondo il processo "Ambiente Svenduto", diossine e PCB dell'Ilva sono arrivati con il canale di scarico nel primo seno del Mar Piccolo [1].
+- **Il fondo del mare** · il Mar Piccolo: Secondo il pubblico ministero del processo "Ambiente Svenduto", sentito dalla Commissione parlamentare, diossine e PCB dell'Ilva sono arrivati con il canale di scarico nel primo seno del Mar Piccolo [1]; la sentenza di quel processo è stata poi annullata [9].
 
 ## Storia
 
@@ -21,7 +21,7 @@ Bonificare vuol dire togliere l'inquinamento, o ridurlo finché non è più un r
 
 L'Ilva è l'acciaieria di Taranto. Dal 2018 lo stabilimento in funzione è passato ad ArcelorMittal, poi Acciaierie d'Italia, mentre le aree escluse dall'affitto sono rimaste a Ilva in amministrazione straordinaria [1]; dal 2024 anche Acciaierie d'Italia è in amministrazione straordinaria [3]. Oggi lo stabilimento è ancora di Ilva ed è gestito da Acciaierie d'Italia [11], tutte e due guidate da commissari nominati dal Ministero, che da luglio 2024 cercano un compratore [10].
 
-Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995 e dal 2012 è al centro di sequestri, decreti e processi [1]. Nel 2026 i giudici di Milano hanno ordinato di fermare l'area a caldo, la parte che produce ghisa e acciaio [11]. Il 29 ottobre 2026 la Cassazione ha confermato lo stop: la produzione potrà ripartire solo quando sarà tolto tutto l'amianto rimasto negli impianti e le polveri sottili saranno entro limiti sicuri [16].
+Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995 e dal 2012 è al centro di sequestri, decreti e processi [1]. Nel 2026 i giudici di Milano hanno ordinato di fermare l'area a caldo, la parte che produce ghisa e acciaio [11]. Il 29 ottobre 2026 la Cassazione ha respinto i ricorsi e lo stop resta: come ha deciso la Corte d'Appello, la produzione potrà ripartire solo quando sarà tolto tutto l'amianto rimasto negli impianti e le polveri sottili saranno entro limiti sicuri [16].
 
 | Quando | Cosa | Fonte |
 |---|---|---|
@@ -46,7 +46,7 @@ Lo stabilimento siderurgico di Taranto nasce pubblico, passa ai privati nel 1995
 | 9 luglio 2026 | La **Corte d'Appello di Milano** ordina di fermare l'area a caldo entro 90 giorni, per l'amianto ancora presente (oltre 2.000 tonnellate) e per le polveri sottili; il decreto è pubblicato il 27 luglio | [11][12] |
 | 9 settembre 2026 | La Corte d'Appello respinge la richiesta di Ilva e Acciaierie d'Italia di sospendere l'ordine, e di nuovo il 5 ottobre; le società hanno fatto ricorso in Cassazione | [11][16] |
 | 16 ottobre 2026 | Il decreto legge 185/2026 permette ai commissari di tenere gli impianti dell'area a caldo **"in riscaldo"**, caldi ma senza produrre, fino alla sentenza della Cassazione e comunque non oltre il 15 dicembre 2026 | [16] |
-| 29 ottobre 2026 | La **Corte di Cassazione** respinge i ricorsi di Ilva e Acciaierie d'Italia: lo stop resta. Per ripartire bisogna togliere tutto l'amianto rimasto e riportare le polveri sottili entro limiti sicuri. La Corte ricorda che l'AIA del 2017 chiedeva di togliere l'amianto entro il 23 agosto 2023, e che l'AIA del 2025, non dicendo niente, ha di fatto spostato la scadenza al 2037 | [16] |
+| 29 ottobre 2026 | La **Corte di Cassazione** respinge i ricorsi di Ilva e Acciaierie d'Italia: lo stop resta. Per ripartire, come ha deciso la Corte d'Appello, bisogna togliere tutto l'amianto rimasto e riportare le polveri sottili entro limiti sicuri. La Cassazione ricorda che l'AIA del 2017 chiedeva di togliere l'amianto entro il 23 agosto 2023, e giudica "argomentata e ragionevole" la conclusione della Corte d'Appello: l'AIA del 2025, non dicendo niente, ha di fatto spostato la scadenza al 2037 | [16] |
 
 ## Come inquina
 
@@ -65,14 +65,14 @@ L'inquinamento nasce in alcuni reparti della fabbrica, viaggia per tre strade (l
 ### Per quali strade
 
 - **L'aria**: le polveri si depositano sul quartiere Tamburi, su strade, davanzali e terrazzi; il rischio è stato tale da richiedere ordinanze del Sindaco sui giardini delle scuole [1].
-- **Il canale di scarico**: secondo il processo "Ambiente Svenduto", diossine e PCB dell'Ilva finivano nel canale di scarico e le correnti li portavano nel primo seno del Mar Piccolo [1].
+- **Il canale di scarico**: secondo il pubblico ministero del processo "Ambiente Svenduto", sentito dalla Commissione parlamentare, diossine e PCB dell'Ilva finivano nel canale di scarico e le correnti li portavano nel primo seno del Mar Piccolo [1]; la sentenza è stata poi annullata [9].
 - **Il terreno e l'acqua sotterranea**: dalle vasche permeabili della Gravina di Leucaspide i liquidi con PCB sono probabilmente scesi per anni verso la falda [1].
 
 ### Dove arriva
 
 - **Dentro la fabbrica**: discariche, terreni e falde delle aree di Ilva, gruppo A di questo censimento.
 - **Quartiere Tamburi**: la parte della città più esposta alle ricadute dei fumi dell'Ilva [1].
-- **Mar Piccolo**: l'inquinamento del primo seno, secondo il processo "Ambiente Svenduto", è dovuto all'Ilva; ci sono anche altre fonti, l'Arsenale militare e i cantieri [1].
+- **Mar Piccolo**: l'inquinamento del primo seno, secondo il pubblico ministero del processo "Ambiente Svenduto", è dovuto all'Ilva; per la Commissione parlamentare ci sono anche altre fonti, l'Arsenale militare e i cantieri [1].
 - **La Gravina di Leucaspide**: le vasche dove sono state drenate le morchie oleose con PCB [1].
 
 ## La fabbrica

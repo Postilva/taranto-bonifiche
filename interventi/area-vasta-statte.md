@@ -3,7 +3,7 @@
 
 ## A che punto è
 ### Finora
-Nel 2014–2015 il Comune ha analizzato tutto il suo territorio fuori dal SIN, e i valori superavano i limiti [1]. Nel 2017 la Regione ha approvato l'analisi di rischio: in alcune zone il rischio per la salute è «inaccettabile» [1][2]. Così il Sindaco ha vietato, in 19 zone, di arare, scavare e produrre cibo (ordinanza n. 62/2017) [1]. Nel 2018 la Provincia ha individuato il responsabile, che secondo ARPA è l'Ilva «per alcuni parametri come diossine e furani» [3][4].
+Nel 2014–2015 il Comune ha analizzato tutto il suo territorio fuori dal SIN, e i valori superavano i limiti [1]. Nel 2017 la Regione ha approvato l'analisi di rischio: in alcune zone il rischio per la salute è «inaccettabile» [1][2]. Così il Sindaco ha vietato, in 19 zone, di arare, scavare e produrre cibo (ordinanza n. 62/2017) [1]. Nel 2018 la Provincia ha chiuso la pratica per individuare il responsabile e ha avviato un'ordinanza contro di lui; Ilva ha fatto ricorso [3]. In Parlamento ARPA ha detto, a memoria, che per un'area di Statte il responsabile è l'Ilva «per alcuni parametri come diossine e furani» [4].
 
 ### Cosa manca
 Non è stato bonificato né messo in sicurezza nulla: ci sono stati solo i divieti, e l'ordinanza valeva fino alla fine del 2018 [1]. Nel 2021 la Regione scriveva che i confini delle zone inquinate erano ancora «in fase di definizione» [6]. Non si sa come siano andate le nuove analisi delle aree agricole, finanziate dalla Regione con 750.000 € [6]: a fine giugno 2026 il progetto risultava «non avviato», senza nessun pagamento [10].
@@ -25,7 +25,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 - Il **Comune di Statte** ha fatto le analisi di tutto il territorio e l'analisi di rischio, e ha emesso le ordinanze con i divieti [1]. Nell'elenco della Regione è indicato come soggetto del procedimento [5].
 - La **Regione Puglia** (Sezione Ciclo rifiuti e bonifiche) decide perché l'area è fuori dal SIN [7]: ha approvato l'analisi di rischio nel 2017 e ha finanziato nuove analisi [1][6].
 - La **Provincia di Taranto** individua chi ha inquinato (art. 244 del Codice dell'ambiente): nel 2018 ha chiuso questa pratica e ha avviato l'ordinanza contro il responsabile [3].
-- **Ilva in amministrazione straordinaria** è, secondo ARPA, il responsabile individuato per diossine e furani [4]. Ha impugnato l'atto della Provincia nel 2018, poi nel 2022 ha detto al TAR di non avere più interesse alla causa [3].
+- **Ilva in amministrazione straordinaria** è, secondo ARPA in un'audizione in Parlamento (risposta data a memoria), il responsabile individuato per diossine e furani [4]. Ha impugnato l'atto della Provincia nel 2018, poi nel 2022 ha detto al TAR di non avere più interesse alla causa [3].
 - **ARPA Puglia** controlla le analisi e dà i pareri; la **ASL di Taranto** ha preparato con il Comune i divieti sul cibo e ne controlla il rispetto [1][4].
 
 ## Cosa è stato fatto
@@ -98,7 +98,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 [11] OpenCoesione, progetto *Caratterizzazione area vasta aree esterne al SIN di Taranto_STATTE (TA)*, CUP J72D09000290002, attuatore Comune di Statte, POR FESR Puglia 2007-2013, dati al 31 agosto 2022, https://opencoesione.gov.it/it/dati/progetti/1pufe2500032/ — copia in `fonti/2022-08_opencoesione_caratterizzazione-area-vasta-statte-2014-2015.json`
 
 ## Cosa non sappiamo
-1. [blocca] **La Provincia ha ordinato a Ilva di bonificare?** Nel 2018 la Provincia ha individuato il responsabile, che secondo ARPA è l'Ilva «per alcuni parametri come diossine e furani» [3][4]. La sentenza del TAR del 2022 parla solo dell'avvio dell'ordinanza [3]. Non sappiamo se sia stata emessa, che cosa ordini e se Ilva l'abbia eseguita o impugnata. Non verificato.
+1. [blocca] **La Provincia ha ordinato a Ilva di bonificare?** Nel 2018 la Provincia ha chiuso la pratica per individuare il responsabile e ha avviato un'ordinanza contro di lui; Ilva ha fatto ricorso [3]. In Parlamento ARPA ha detto, a memoria, che per un'area di Statte il responsabile è l'Ilva «per alcuni parametri come diossine e furani» [4]. La sentenza del TAR del 2022 parla solo dell'avvio dell'ordinanza [3]. Non sappiamo se sia stata emessa, che cosa ordini e se Ilva l'abbia eseguita o impugnata. Non verificato.
 2. [blocca] **Dove sono, oggi, le zone inquinate?** Nel 2021 la Regione scriveva che i confini erano ancora «in fase di definizione» e finanziava con 750.000 € nuove analisi delle aree agricole [6]; a fine giugno 2026 quelle analisi risultavano «non avviate» [10]. Non sappiamo come siano andate né se le zone siano state ridisegnate. Non verificato.
 3. [altra] **I divieti valgono ancora?** L'ordinanza n. 62 del 2017 vietava in 19 zone di arare, scavare e produrre cibo fino al 31 dicembre 2018 [1]. Non abbiamo trovato proroghe né nuove ordinanze. Non verificato.
 4. [altra] **Quali sostanze ci sono, zona per zona?** ARPA parla di diossine e furani [4]; l'ordinanza non elenca le sostanze [1]. Non abbiamo i risultati delle analisi né l'analisi di rischio. Non verificato.

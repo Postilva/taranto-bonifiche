@@ -68,7 +68,7 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 **Cos'è la garanzia.** Chi gestisce una discarica deve dare all'ente pubblico una polizza o fideiussione: se non fa i controlli e la manutenzione dopo la chiusura, l'ente incassa i soldi e fa i lavori al suo posto. Per la fase dopo la chiusura la garanzia deve valere **30 anni** [4].
 
 **La storia, passo per passo:**
-- 2015: Ilva dà una prima garanzia, che la Provincia accetta [4].
+- 2015: Ilva dà una prima garanzia, sulla quale la Provincia non aveva sollevato rilievi [4].
 - 2018: un gruppo di lavoro al Ministero dell'Ambiente stabilisce che le polizze devono coprire 30 anni dalla chiusura, ma si possono dividere in periodi di 5 anni [3].
 - 12 maggio 2020: Ilva fa emettere da Generali Italia una nuova polizza, valida dal 12 maggio 2020 al 12 maggio 2025, e la manda alla Provincia il 1° giugno 2020 [3][4]. La polizza dice che, se Ilva non la rinnova dopo i 5 anni, la Provincia **non** può incassarla [4].
 - 22 giugno 2020: la Provincia comunica a Ilva i motivi per cui vuole respingerla [3].
@@ -105,7 +105,7 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 |---|---|---|
 | 14 marzo 2001 | Decreto del Ministro dell'Ambiente che autorizza la discarica (GAB/DEC/054/01) | [20] |
 | 11 dicembre 2014 | Il sub-commissario Ilva fissa le regole su rifiuti, discariche e garanzie (poi rese legge nel 2015) | [4] |
-| 2015 | Prima garanzia di Ilva, accettata dalla Provincia | [4] |
+| 2015 | Prima garanzia di Ilva, senza rilievi della Provincia | [4] |
 | 29 settembre 2017 | Il Piano ambientale lascia la chiusura della discarica (UA5) ai commissari di Ilva | [2] |
 | fine 2020 | Copertura fatta all'80% circa, argine nord da iniziare | [9] |
 | 15 luglio 2020 | La Provincia non accetta la garanzia (determina n. 583) | [3] |

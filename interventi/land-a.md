@@ -6,7 +6,7 @@
 Dal 2021 Ilva ha tolto i cumuli di rifiuti abbandonati in superficie, tra cui materiali con amianto [4][11]. Nel 2023 ha analizzato terreno, materiale di riporto e acqua sotterranea, e ARPA ha validato i risultati nel maggio 2024 [3][12]. Il materiale di riporto, messo in acqua, rilascia alluminio, ferro, manganese e fluoruri oltre i limiti [12].
 
 ### Cosa manca
-Uno strato di rifiuti compattati, in parte sepolto, è ancora sul posto [1][12]. L'analisi di rischio non è stata presentata al Ministero [1]. L'area non è recintata: la recinzione è approvata, ma Ilva la farà dopo le analisi [1][3].
+Uno strato di rifiuti compattati, in parte sepolto, è ancora sul posto [1][12]. L'analisi di rischio non è stata presentata al Ministero [1]. L'area non è recintata: secondo Ilva la recinzione ha il via libera del Comune, ma la farà dopo le analisi [1][3].
 
 ### Adesso
 Dal novembre 2025 Ilva controlla l'acqua profonda ogni tre mesi, per almeno due anni, e dopo un anno di controlli preparerà l'analisi di rischio [1]: quindi non prima della fine del 2026 (stima nostra).
@@ -22,7 +22,7 @@ Senza recinzione, per anni è stato usato come discarica abusiva di macerie, anc
 - **Ministero dell'Ambiente** (allora MATTM, poi MiTE, oggi MASE): guida la procedura; ha approvato il piano delle analisi con il decreto n. 21 del 27 gennaio 2021, firmato dal direttore generale Giuseppe Lo Presti [10].
 - **ARPA Puglia** (Dipartimento di Taranto) e **ISPRA**: hanno dato i pareri sul piano; ARPA ha controllato le analisi sul posto e le ha validate [10][12].
 - **Comuni di Taranto e Statte**: secondo il decreto devono dire quale uso del terreno considerare (industriale o verde/residenziale), da cui dipendono i limiti da rispettare [10][12]. Non abbiamo trovato la loro risposta (vedi "Cosa non sappiamo").
-- **Provincia di Taranto**: ha autorizzato la costruzione della recinzione dopo una garanzia economica (polizza) di Ilva [4].
+- **Provincia di Taranto**: secondo Ilva, ha chiesto una garanzia economica (polizza), che Ilva ha dato il 24 marzo 2022, prima di autorizzare l'avvio dei lavori [4].
 
 ## Cosa è stato fatto
 **Non bonificato, non messo in sicurezza. Sono stati tolti i rifiuti in superficie e sono state fatte le analisi; manca ancora l'analisi di rischio.** [1][3][12]
@@ -40,7 +40,7 @@ Senza recinzione, per anni è stato usato come discarica abusiva di macerie, anc
 - **Analisi del piano**, maggio–settembre 2023, con ARPA presente: 3 campioni di terreno, 12 di strato superficiale ("top soil"), 15 di materiale di riporto, 6 di acqua sotterranea, 1 di rifiuto [12][3]. I campioni di terreno sono pochi perché sotto il riporto la roccia è quasi in superficie [12].
 - **Validazione di ARPA**: il rapporto è firmato il 9 maggio 2024 [12]. Ilva scrive invece che la validazione è del 22 maggio 2024 [1].
 - **Dopo la validazione**: Ilva ha controllato se gli inquinanti passano nell'acqua (4–5 settembre 2025) e ha iniziato i controlli dell'acqua profonda (10–11 novembre 2025), da ripetere ogni 3 mesi per almeno 2 anni [1]. Solo dopo un anno di controlli Ilva preparerà l'analisi di rischio da mandare al Ministero [1].
-- **Recinzione**: approvata dal Comune (SCIA), ma ferma; Ilva la costruirà dopo la fine delle analisi [3][1].
+- **Recinzione**: secondo Ilva il Comune di Taranto ha approvato la segnalazione di inizio lavori (SCIA), ma i lavori sono fermi; Ilva la costruirà dopo la fine delle analisi [3][1].
 - **Oggi**: secondo Ilva sull'area si tagliano solo le fasce antincendio (ditta Levangarden, 2025) e i rifiuti abbandonati vengono "prontamente rimossi" [1].
 
 ## Le domande principali

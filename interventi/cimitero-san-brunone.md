@@ -5,7 +5,7 @@
 
 ## A che punto è
 ### Finora
-La terra dei campi e delle aiuole è stata analizzata e ARPA ha convalidato i risultati [5]. Nel 2016 la Regione ha approvato l'analisi di rischio e nel 2017–2018 il progetto: togliere la terra inquinata e sostituirla con materiale di cava [3][4][5][8]. I lavori sono partiti nel maggio 2020 [3].
+La terra dei campi e delle aiuole è stata analizzata e, secondo il Commissario, ARPA ha convalidato i risultati [5]. Nel 2016 la Regione ha approvato l'analisi di rischio e nel 2017–2018 il progetto: togliere la terra inquinata e sostituirla con materiale di cava [3][4][5][8]. I lavori sono partiti nel maggio 2020 [3].
 
 ### Cosa manca
 I lavori si sono fermati dopo tre mesi e il 6 maggio 2021 il Commissario ha annullato la gara, per errori nei conti del progetto [3][10]. Sul posto restano recinzioni e teloni sulla terra scavata [3][10][11]. Il Commissario scrive che la messa in sicurezza d'emergenza è «completata» [14], ma nessun atto la descrive: non è verificata [3][15].
@@ -27,7 +27,7 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 - Il **Commissario straordinario per la bonifica di Taranto**, che è anche la stazione appaltante [3][7]. Negli anni sono cambiati i commissari: Vera Corbelli fino ad agosto 2020, il Prefetto Demetrio Martino dal 2020 al 2023, Vito Felice Uricchio dal 1° marzo 2024 (incarico prorogato fino al 31/12/2026) [3].
 - Il **Comune di Taranto**, che gestisce il cimitero: ha firmato accordi con il Commissario (2015 e 2016), conserva i risultati delle analisi e deve mettere a disposizione i campi per i lavori [3][5].
 - La **Regione Puglia** ha approvato l'analisi di rischio (2016) e il progetto operativo di bonifica (2017 e 2018) [3][5].
-- **ARPA Puglia** ha convalidato i risultati delle analisi [5].
+- **ARPA Puglia** ha convalidato i risultati delle analisi, secondo il Commissario [5].
 - **Sogesid** (società pubblica del Ministero dell'Economia, al servizio del Ministero dell'Ambiente) dal 2026 aggiorna il progetto esecutivo [3].
 - **Attenzione:** il cimitero è **fuori dal perimetro del SIN** di Taranto (il "Sito di interesse nazionale" da bonificare), anche se gli sta accanto. È però **nell'elenco degli interventi del SIN di Taranto** [2], ed è per questo che se ne occupa il Commissario per la bonifica di Taranto.
 
@@ -38,7 +38,7 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 
 **Le analisi (cosa c'è nel terreno e perché)**
 - Per l'anagrafe dei siti da bonificare della Regione il procedimento è iniziato nel **2012**, per "deposizione inquinanti su suolo"; ad aprile 2020 il cimitero era tra i "siti contaminati", con il piano di bonifica approvato [17].
-- Il terreno è stato analizzato (caratterizzazione) e ARPA Puglia ha convalidato i risultati [5]. Le carte oggi le ha il Comune, che le ha mandate al Commissario a febbraio 2026 [3]. Non è scritto chiaramente chi abbia fatto le analisi, né quando. L'analisi di rischio è stata completata ad agosto 2015, esaminata in Conferenza di servizi l'11/12/2015 e approvata dalla Regione il 12/02/2016 [5][18].
+- Il terreno è stato analizzato (caratterizzazione) e, secondo il Commissario, ARPA Puglia ha convalidato i risultati [5]. Le carte oggi le ha il Comune, che le ha mandate al Commissario a febbraio 2026 [3]. Non è scritto chiaramente chi abbia fatto le analisi, né quando. L'analisi di rischio è stata completata ad agosto 2015, esaminata in Conferenza di servizi l'11/12/2015 e approvata dalla Regione il 12/02/2016 [5][18].
 - La Regione scrive che il sito è stato "dichiarato contaminato" secondo il Codice dell'ambiente [2].
 - La superficie contaminata è di circa 1,2 ettari (12.000 m²), su un cimitero di circa 181.000 m² [4][8].
 - **Perché:** l'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vicinanza all'ex Ilva [1]; la Regione, nel 2025, indica "in particolare" le cokerie [16]. Nel sopralluogo del 2022 la Commissione parlamentare ha visto "la colorazione rossastra delle tombe e dei manufatti", effetto delle emissioni dell'acciaieria [15]. Inoltre le sepolture, rimuovendo di continuo il terreno, hanno portato lo strato inquinato della superficie fino a due metri di profondità [8].

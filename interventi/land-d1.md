@@ -3,7 +3,7 @@
 
 ## A che punto è
 ### Finora
-Tra il 2021 e il 2023 Ilva ha analizzato il terreno e il materiale di riporto, e ARPA ha validato i risultati il 27 novembre 2023 [3][8]. I pozzetti per l'acqua sotterranea sono rimasti asciutti; secondo Ilva i controlli chiesti da ARPA sono stati fatti da gennaio a ottobre 2025 [1][8].
+Tra il 2021 e il 2023 Ilva ha analizzato il terreno e il materiale di riporto, e ARPA ha validato i risultati il 27 novembre 2023 [3][8]. I pozzetti per l'acqua sotterranea sono rimasti asciutti; secondo Ilva le misure chieste per vedere se c'è acqua sono state fatte da gennaio a ottobre 2025 [1][8].
 
 ### Cosa manca
 Durante le analisi sono stati trovati rifiuti sepolti sopra il vecchio canale di scarico della fabbrica: a fine 2025 la loro rimozione era «in corso di ultimazione» secondo Ilva [1][2]. L'analisi di rischio non è stata presentata: al 13 ottobre 2026 non è nell'archivio del Ministero [1][8]. I risultati dei controlli sull'acqua non sono pubblici [1].
@@ -36,7 +36,7 @@ Lungo il suo confine sud passa, sotto terra, il primo canale di scarico dello st
   - 2022–2023: scavi e campioni aggiuntivi sui cumuli di rifiuti, chiesti da ARPA il 16 giugno 2022 [8];
   - 23 maggio – 8 giugno 2023: le analisi si concludono [3] (un'altra relazione di Ilva scrive 7 giugno [14]).
   In totale: 12 sondaggi fino a 18,6 m di profondità, 35 campioni di terreno, 5 scavi, 12 campioni di materiale di riporto (terra mescolata a materiali portati dall'uomo) e 13 dello strato superficiale ("top soil") [8].
-- **Acqua sotterranea**: i 3 pozzetti costruiti sono rimasti **asciutti**, quindi non è stato possibile prelevare acqua [8]. ARPA ha chiesto un anno di controlli, ogni 3 mesi, come per Land D2 [8]. Secondo Ilva i controlli sono stati fatti da gennaio a ottobre 2025 [1]. I risultati non sono pubblicati: non verificato.
+- **Acqua sotterranea**: i 3 pozzetti costruiti sono rimasti **asciutti**, quindi non è stato possibile prelevare acqua [8]. ARPA ha ritenuto opportuno misurare il livello dell'acqua nei pozzetti ogni 3 mesi per un anno, come Ilva aveva proposto per Land D2 [8]. Secondo Ilva le misure sono state fatte da gennaio a ottobre 2025 [1]. I risultati non sono pubblicati: non verificato.
 - **Validazione di ARPA**: 27 novembre 2023 [8]. ARPA chiede anche di rivedere la ricostruzione geologica: ci sono una zona di probabile ex cava con circa 5 m di materiale di riporto, una zona con poco terreno sopra la roccia vicino a una masseria e una zona "profondamente perturbata" accanto al canale di scarico, dove in uno scavo è stata trovata una soletta di cemento [8].
 - **Rifiuti in superficie**: cumuli abbandonati, che secondo Ilva sono stati "prontamente rimossi" [1].
 - **Rifiuti sepolti**: durante le analisi sono stati trovati "rifiuti tombati" nel materiale usato per riempire lo scavo sopra il primo canale di scarico della fabbrica [1][2]. Nel 2024 Ilva scriveva che toglierli era "molto complesso" per gli alberi e la cavità, e che serviva uno studio di fattibilità [2]. A fine 2025 Ilva ha dato l'incarico per toglierli, trasportarli e smaltirli: lavoro "in corso di ultimazione" [1].

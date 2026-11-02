@@ -34,11 +34,11 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 ### Cosa c'è dentro?
 - **All'epoca** i rifiuti erano classificati come rifiuti speciali "non tossico-nocivi" [9].
 - **Oggi**: durante i lavori, scavando i pozzi per il percolato (il liquido che cola dai rifiuti), sono stati trovati rifiuti classificati **pericolosi** perché "ecotossici", cioè dannosi per l'ambiente (codice 17 05 03*, terre e rocce con sostanze pericolose) [8]. Per questo la discarica oggi è considerata **discarica per rifiuti speciali pericolosi** [9].
-- Durante la costruzione della nuova barriera sono stati trovati **rifiuti fuori dal perimetro previsto**; per questo la barriera è stata allargata [7][12].
-- Nel 2022 la procuratrice della Repubblica di Taranto ha riferito al Parlamento che l'Italsider vi depositava anche **morchie oleose** (fanghi oleosi) con molti **PCB**, rifiuti pericolosi [14]. È quanto riportato dalla Commissione parlamentare, non un dato di analisi.
+- Durante la costruzione della nuova barriera sono stati trovati **rifiuti fuori dal perimetro previsto**, secondo Ilva; per questo la barriera è stata allargata [7][12].
+- Nell'audizione del 13 luglio 2022 la procuratrice della Repubblica di Taranto ha riferito alla Commissione parlamentare che l'Italsider vi depositava anche **morchie oleose** (fanghi oleosi) con molti **PCB**, rifiuti pericolosi [14]. È quanto riportato dalla Commissione parlamentare, non un dato di analisi.
 - Il percolato è risultato **pericoloso** (per il pH) nel 2022 e da allora viene smaltito come rifiuto pericoloso [16][15].
 
-**Precedenti.** Secondo quanto riferito al Parlamento, nel 2012 la magistratura ha accertato che la vecchia barriera aveva ceduto e il percolato usciva dalla discarica, formando "una sorta di lago" e finendo in parte in mare attraverso canali di scolo; nel 2012 l'area è stata sequestrata [14]. È stata dissequestrata a fine 2018 [14][15]. Intorno alla discarica c'era già una barriera di circa 3 metri di profondità, la "Cintura Cotecchia", degli anni '90 [14][11].
+**Precedenti.** Secondo quanto la procuratrice ha riferito alla Commissione parlamentare, nel 2012 la magistratura ha accertato che la vecchia barriera aveva ceduto e il percolato usciva dalla discarica, formando "una sorta di lago" e finendo in parte in mare attraverso canali di scolo; nel 2012 l'area è stata sequestrata [14]. È stata dissequestrata a fine 2018 [14][15]. Intorno alla discarica c'era già una barriera di circa 3 metri di profondità, la "Cintura Cotecchia", degli anni '90 [14][11].
 
 ### I lavori di messa in sicurezza
 - **Prima dei lavori** (situazione a fine 2020): erano stati tolti materiali contenenti amianto dalla superficie della discarica e il percolato di 4 pozzi veniva portato via con autobotti [22].
@@ -50,7 +50,7 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
   - ISPRA chiedeva se alcuni rifiuti trovati a nord-ovest (verso la raffineria ENI) fossero davvero dentro la nuova barriera [10];
   - ARPA scriveva che **non si può escludere** che tra la vecchia e la nuova barriera ci siano altri rifiuti, perché lì non sono state fatte indagini [11];
   - ARPA chiedeva un piano di controllo della falda più fitto, anche fuori dalla discarica [8][11].
-- **Luglio 2022**: durante una visita della Commissione parlamentare, ARPA ha osservato che la nuova barriera sembrava **più corta** del progetto originario, lasciando fuori una piccola parte della discarica [14]. Ilva ha fatto 20 sondaggi tra novembre 2022 e gennaio 2023: verso ENI odori di idrocarburi; a sud resti di materiale "antropico" (probabilmente carpenteria) [16][17]. Il 10 febbraio 2023 Ilva ha mandato i risultati agli enti; a fine 2023 non aveva ancora ricevuto risposta [17][18].
+- **Luglio 2022**: durante una visita della Commissione parlamentare, i funzionari di ARPA hanno osservato che, a loro giudizio, la nuova barriera sembrava **più corta** del progetto originario, lasciando fuori una piccola parte della discarica; la Commissione ha chiesto ad ARPA di approfondire [14]. Ilva ha fatto 20 sondaggi tra novembre 2022 e gennaio 2023: verso ENI odori di idrocarburi; a sud resti di materiale "antropico" (probabilmente carpenteria) [16][17]. Il 10 febbraio 2023 Ilva ha mandato i risultati agli enti; a fine 2023 non aveva ancora ricevuto risposta [17][18].
 - **Calendario**: il 31 gennaio 2023 Ilva ha confermato al Ministero la fine della messa in sicurezza per l'8 febbraio 2023, spostando solo alcune opere accessorie: impianto del percolato al 31 marzo, inerbimento della copertura al 21 aprile, chiusura del cantiere all'8 maggio 2023 [25][26].
 - **Avanzamento**: 78% a dicembre 2022 [16]; 100% al 30 giugno 2023, con il collegamento al canale ASI finito e il collaudo previsto entro 60 giorni dalla chiusura dei lavori [27]; lavori chiusi nel 2023 [18]. Nessuna fonte trovata dice se il collaudo sia stato fatto. Il direttore dei lavori ha chiuso i lavori con **contestazioni** all'impresa; i lavori mancanti sono stati poi fatti [18][19][1].
 - **Cosa è stato fatto in tutto** [1]: barriera laterale in plastica ("diaframma"), argilla sulla copertura, strato drenante, terra vegetale, telo HDPE, canalette, terre rinforzate, biostuoia.
@@ -79,7 +79,7 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 
 **La storia, passo per passo:**
 - L'obbligo per Ilva viene da un documento del sub-commissario Ilva dell'11 dicembre 2014, reso legge nel 2015, che parla di "chiusura, bonifica e gestione post-operativa" della discarica (prescrizione **UA25**) [4]. Il Piano ambientale del 2017 lascia questo intervento ai commissari di Ilva [2].
-- 2015: Ilva dà una prima garanzia, accettata dalla Provincia [4].
+- 2015: Ilva dà una prima garanzia, sulla quale la Provincia non aveva sollevato rilievi [4].
 - 2018: un gruppo di lavoro al Ministero dell'Ambiente stabilisce che le polizze devono coprire 30 anni dalla chiusura, divisibili in periodi di 5 anni [3].
 - 12 maggio 2020: Ilva fa emettere da Generali Italia una nuova polizza di 5 anni (fino al 12 maggio 2025), che la Provincia **non** può incassare se Ilva non la rinnova [4].
 - 22 giugno 2020: la Provincia comunica i motivi per respingerla; 15 luglio 2020: con la determina n. 580 **non accetta** la garanzia (per Due Mari è la determina n. 583) [3].
