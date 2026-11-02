@@ -82,7 +82,7 @@ Le fonti indicano quattro motivi:
 2. **Sequestro penale, febbraio 2019 – ottobre 2022.** In quei tre anni e mezzo le indagini sono state fatte per la Procura (piano ARPA, analisi di rischio depositata in Procura), non nella procedura ordinaria di bonifica [3][4]. Ilva ha presentato il piano di caratterizzazione il 4 novembre 2022, pochi giorni dopo il dissequestro [1][3].
 3. **Sono fuori dal SIN.** Per questo segue la procedura "ordinaria" della Regione, non quella del Ministero [1][5]. Nel 2024 la Regione ha chiesto di includerle nel SIN. Il Ministero ha risposto che quella procedura poteva solo togliere aree dal SIN, non aggiungerne [7].
 4. **Due anni di istruttoria in Regione.** I passaggi:
-   - 4 novembre 2022: Ilva presenta il piano;
+   - 4 novembre 2022: Ilva presenta il piano [1][2];
    - 29 febbraio 2024: la Regione manda gli esiti della conferenza di servizi; per Ilva è un esito positivo, con la richiesta di un documento finale che accolga le prescrizioni di ARPA [2][6];
    - 29 marzo 2024: Ilva manda la nuova versione del piano [6];
    - 14 maggio 2024: la Regione convoca una nuova conferenza di servizi [6];

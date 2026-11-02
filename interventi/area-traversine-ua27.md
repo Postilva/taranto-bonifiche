@@ -18,7 +18,7 @@ Un terreno di circa 8 ettari dentro lo stabilimento ex Ilva, nella parte che sta
 Le vecchie traversine di legno sono trattate con olio di creosoto, che contiene IPA (idrocarburi policiclici aromatici) [2][3]. Nel 2009 ARPA ha trovato IPA nel terreno scuro sotto una catasta di traversine; in altri due campioni di terreno non ne ha trovati [2].
 
 ## Chi se ne occupa
-- **Ilva** ha creato il deposito ed è indicata dalla Regione come soggetto del procedimento [1]. Fino al 31 ottobre 2018 gestiva lo stabilimento: ha tolto le traversine e scritto il piano delle analisi [2].
+- **Ilva** ha creato il deposito ed è indicata dalla Regione come soggetto del procedimento [1]. Fino al 31 ottobre 2018 gestiva lo stabilimento [5]: ha tolto le traversine e scritto il piano delle analisi [2].
 - **ArcelorMittal Italia, poi Acciaierie d'Italia** (ADI): dal 1° novembre 2018 gestisce le "aree produttive" dello stabilimento, tra cui questa secondo la tabella di Ilva [5]. ADI è in amministrazione straordinaria dal 20 febbraio 2024 [8].
 - **Regione Puglia** (Sezione Ciclo rifiuti e bonifiche): fuori dal SIN è l'autorità che decide sulle bonifiche [6]; tiene l'elenco dei siti da bonificare [1].
 - **ARPA Puglia**: ha fatto i prelievi del 2009 e dà i pareri tecnici nei procedimenti della Regione [2][6].
@@ -54,7 +54,7 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 | 11 febbraio 2009 | Prelievi di ARPA: IPA sotto una catasta di traversine | [2] |
 | luglio 2012 | Il sequestro diventa preventivo | [2] |
 | 5 marzo 2014 | Ilva manda il progetto di rimozione | [2] |
-| 4 marzo 2015 | La legge 20/2015 approva il Piano rifiuti con la prescrizione UA27 | [2] |
+| 4 marzo 2015 | La legge 20/2015 approva il Piano rifiuti con la prescrizione UA27 | [2][5] |
 | settembre 2015 | Dissequestro dei soli rifiuti, per portarli via | [2] |
 | 19 luglio 2016 – 22 agosto 2017 | Rimozione: 7.823 t di traversine | [2] |
 | 1° dicembre 2017 | Piano delle analisi del terreno (34 sondaggi) | [2] |

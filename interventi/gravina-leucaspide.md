@@ -80,7 +80,7 @@ Ai tempi dell'Italsider lungo la gravina sono stati ammucchiati circa 5 milioni 
 - [confronto · Ilva] sì · le due cifre vengono dalla stessa tabella di Ilva del febbraio 2023 [20]
 
 - **Ilva:** a luglio 2022 Ilva indicava per quest'area **226,6 milioni € "allocati"** (cioè messi in conto), ma solo **0,31 milioni impegnati** in contratti e **0,12 milioni pagati** [7]. A febbraio 2023: 1,21 milioni impegnati, 0,31 fatturati e **0,23 milioni pagati** [20]. Dopo febbraio 2023 le fonti non danno cifre. Non verificato quanto sia stato speso dopo.
-- **Comune di Statte (progetto):** 191.575,16 € di fondi pubblici di coesione per la progettazione [11]. Il finanziamento era di 300.000 €: 191.575,16 € di costo più 108.424,84 € di "economie" (soldi non usati) [11] (somma fatta da noi).
+- **Comune di Statte (progetto):** 191.575,16 € di fondi pubblici di coesione per la progettazione [11]. Il finanziamento era di 300.000 €: 191.575,16 € di costo più 108.424,84 € di "economie" (soldi non usati) [11][14].
 - **Lavori di messa in sicurezza o bonifica:** nessun costo stimato, perché non c'è ancora un progetto [1].
 
 ## Date principali
@@ -138,7 +138,7 @@ Tutti i documenti del Ministero su questa procedura sono nell'archivio https://b
 
 [10] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), approvata il 15 settembre 2022, capitolo 4.3, pagine 70–72, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
 
-[11] OpenCoesione, progetto *Progettazione della bonifica ambientale con misura di sicurezza della Gravina Leucaspide in area SIN*, CUP J76J20001130001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1misel900031270730201900011/ — copia in `fonti/2026-06_opencoesione_progettazione-bonifica-gravina-leucaspide.pdf`
+[11] OpenCoesione, progetto *Progettazione della bonifica ambientale con misura di sicurezza della Gravina Leucaspide in area SIN*, CUP J76J20001130001, dati al 30 giugno 2026, https://opencoesione.gov.it/it/dati/progetti/1misel900031270730201900011/ — copia in `fonti/2026-06_opencoesione_progettazione-bonifica-gravina-leucaspide.pdf` e dati del progetto (finanziamento, 7 pagamenti) in `fonti/2026-06_opencoesione_progettazione-bonifica-gravina-leucaspide.json`
 
 [12] Commissario straordinario per la bonifica di Taranto (Prefetto Martino), *Relazione attività commissariali – periodo 30/03/2022–1/10/2023*, prot. n. 56411 del 29 settembre 2023, pagine 3 e 11 del PDF (qui il CUP è scritto "J76J2001130001", con uno zero in meno), https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Progettodilegge/leg19.com05.Progettodilegge.Altro.PUBBLICO.ideGes.26863.16-01-2024-10-27-10.315.pdf — copia in `fonti/2023-09_commissario-taranto_relazione-fine-mandato-martino.pdf`
 
