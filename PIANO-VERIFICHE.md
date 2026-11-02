@@ -12,7 +12,7 @@ Un task per chat. In una chat nuova basta scrivere: **"Leggi PIANO-VERIFICHE.md 
 - Se il task contiene **"Da decidere"**, chiederlo all'utente all'inizio, con la raccomandazione.
 
 **Gli strumenti** sono in `.tmp/lavoro/` (cartella non versionata) e si lanciano con `py -P` (non `-I`, che non vede pymupdf, playwright e l'OCR):
-- `controlla_cifre.py . [scheda ...] [contesto.md fondi.md]`: cifre e date di ogni frase cercate nelle fonti citate → `.tmp/controllo/cifre.md`; poi `dividi_cifre.py .` (la cifra è in un'altra fonte della scheda o in nessuna) → `.tmp/controllo/divisi.md`.
+- `controlla_cifre.py . [scheda ...] [contesto.md fondi.md]`: cifre e date di ogni frase cercate nelle fonti citate → `.tmp/controllo/cifre.md`; poi `dividi_cifre.py .` (la cifra è in un'altra fonte della scheda o in nessuna) → `.tmp/controllo/divisi.md`; poi `filtra_altra.py .` (toglie anni, scansioni e voci già viste; `--segna` segna come viste quelle rimaste) → `.tmp/controllo/altra.md`, e `contesto_altra.py .` per i pezzi di testo delle fonti.
 - `controlla_virgolette.py .`: citazioni tra virgolette cercate parola per parola → `.tmp/controllo/virgolette.md`; `vicine_virgolette.py .` dice quanto combaciano.
 - `cerca_fonte.py . <scheda> <n|*> <regex>`: cercare a mano nel testo di una fonte.
 - `controlla_sito.py . [larghezza]`, `controlla_link.py .`, `controlla.py . -v` (struttura delle schede).
@@ -77,11 +77,9 @@ Fatto: gli 89,9 milioni non sono "arrivati" nel 2025, sono previsti dall'Accordo
 
 ## Terza parte: rifiniture e controlli periodici
 
-### [ ] 11. Note che rimandano alla fonte sbagliata
-`dividi_cifre.py` segnala circa 140 cifre che non stanno nella fonte citata ma in un'altra fonte della stessa scheda. Quasi tutte sono rumore. Fare:
-- restringere l'elenco in automatico: togliere gli anni da soli, le date con intervalli ("16–18 aprile"), le fonti scansionate (OCR) e le cifre presenti anche nella fonte citata scritte in altro modo;
-- per quelle rimaste, aprire le due fonti e aggiungere o cambiare la nota (di solito aggiungere la fonte giusta accanto a quella citata);
-- *Da decidere:* correggere tutte le schede in un task solo, oppure solo quelle dei task 5–10 (raccomandato: tutte, sono correzioni piccole).
+### [x] 11. Note che rimandano alla fonte sbagliata (fatto il 2/11/2026)
+Su tutte le schede, la home e la pagina dei soldi (scelta dell'utente). Rifatto il controllo delle cifre dopo i task 5–10: 135 cifre stanno in un'altra fonte della scheda. `filtra_altra.py` toglie gli anni da soli e le fonti citate scansionate (83); delle 56 rimaste, 14 erano note da sistemare, le altre 42 falsi allarmi (data nel titolo della fonte o nel protocollo, OCR come "22.1.2.2023", numero della sentenza solo nel titolo, cifre in una figura come lo schema del Patrimonio Destinato a pag. 55 della Commissione, domande di "Cosa non sappiamo", arrotondamenti), segnati in `.tmp/controllo/altra-viste.txt` perché non tornino.
+Fatto: aggiunta la fonte giusta in UA27 (31 ottobre 2018 e legge 20/2015 [5]), Collinette (4 novembre 2022 [1][2]), Land C (arsenico 43,5 e campioni del 29/11/2021 [7]), stoccaggio fanghi (95.348 t [1]), Cementir e Due Mari (numeri delle due sentenze [5]), PIP Statte (34,17 milioni [2]), Gravina (300.000 € anche dal decreto n. 53 [14]); salvati in `fonti/` i dati OpenCoesione della Gravina (finanziamento di 300.000 € e 7 pagamenti dal 22/7/2020 al 5/4/2023, ora anche in [11] della scheda e [25] di `fondi.md`); PIP Statte: 1.180.649,40 € spesi "a settembre 2018" come dice la scheda del CIS, non "al 30 settembre" (scheda e `fondi.md`). Le 57 cifre "in nessuna fonte" erano già state viste nel task 1.
 
 ### [ ] 12. Controllo mensile (prossimo: fine novembre 2026)
 - L'utente salva la ricerca dell'archivio del Ministero: https://bonifichesiticontaminati.mite.gov.it/ricerca/, SIN **Taranto**, **Cerca**, Ctrl+S ("Pagina web, solo HTML"; tutte le righe sono nel file anche se lo schermo ne mostra 10). Copiarla in una cartella nuova `.tmp/mase-AAAA-MM-GG/` e lanciare `confronta_archivio.py` contro la copia precedente.

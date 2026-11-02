@@ -100,7 +100,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 
 - [costo] 124.073.987,94 € · Accordo per la Coesione · novembre 2025 [2] costo del nuovo intervento
 - [disponibili] 89.900.000 € · Delibera CIPESS 51/2025 · dicembre 2025 [2][15] assegnati dal Fondo sviluppo e coesione 2021-2027, a rate dal 2026 al 2033
-- [spesi] non si sa · sul nuovo intervento 0 € al 30 giugno 2026 [17]; dei 37 milioni del 2012, 1.180.649,40 € spesi al 30 settembre 2018 [4] e 375.252,04 € girati al Comune a settembre 2022 per l'intervento d'emergenza (calcolo nostro: 364.469,12 + 10.782,92) [6][23], poi non si sa
+- [spesi] non si sa · sul nuovo intervento 0 € al 30 giugno 2026 [17]; dei 37 milioni del 2012, 1.180.649,40 € spesi a settembre 2018 [4] e 375.252,04 € girati al Comune a settembre 2022 per l'intervento d'emergenza (calcolo nostro: 364.469,12 + 10.782,92) [6][23], poi non si sa
 - [stranezza · più del previsto] Nel 2018 il Commissario divideva i soldi della Regione in tre voci (analisi, messa in sicurezza definitiva, intervento d'emergenza) che sommano 41,3 milioni € (calcolo nostro), più dei 37 milioni disponibili [5]
 - [stranezza · più report] I 37 milioni della Regione fanno parte dei 75,17 milioni della delibera CIPE 87/2012, che paga anche i sedimenti del Mar Piccolo (21 milioni) e il dragaggio al molo polisettoriale (17,17 milioni) [27]
 - [stranezza · fonti non concordano] I fondi della Regione sono 37 milioni € [4], ma nel 2015 al Comune ne sono stati assegnati 36.445.000 [6]. L'intervento d'emergenza vale 9,9 milioni nel 2018 [5], 932.202,35 € nel 2019 [6] e 1.379.000 € nel 2026 [1]
@@ -117,7 +117,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
   | Intervento d'emergenza | 9.900.000 € ("in parte" finanziato con questi fondi) |
 
   I tre importi sommano 41,3 milioni (calcolo nostro), più dei 37 disponibili [5].
-- Speso al 30 settembre 2018: 1.180.649,40 €, cioè il 3,19% [4].
+- Speso a settembre 2018: 1.180.649,40 €, cioè il 3,19% [4].
 
 **Cosa dice l'opuscolo (maggio 2026)** [1]
 - Analisi e analisi di rischio: 394.000 €.
@@ -138,7 +138,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 **Gli 89,9 milioni sono davvero disponibili?** In parte sì: sono assegnati con un atto ufficiale, ma non sono ancora arrivati e non sono ancora spesi.
 - **Sì, sono assegnati.** Il CIPESS (il comitato del governo che assegna questi fondi) li ha assegnati al Ministero dell'Ambiente con la **delibera n. 51 del 10 dicembre 2025**, insieme agli altri interventi dell'Accordo (1,16 miliardi € in tutto) [15]. La delibera è stata registrata dalla Corte dei conti il 7 aprile 2026 e pubblicata in Gazzetta Ufficiale il 17 aprile 2026; da quel momento il Ministero può avviare le attività [15].
 - **Ma arrivano a rate.** I soldi vengono trasferiti un po' alla volta, a seconda di quanto c'è ogni anno nel bilancio dello Stato: per tutto l'Accordo, le rate vanno dal 2026 al 2033 [15]. Non ho trovato una divisione per anno del solo PIP.
-- **La delibera chiedeva una conferma.** Entro tre mesi dalla pubblicazione (cioè entro metà luglio 2026) il governo doveva confermare che gli altri finanziamenti, come i 34,17 milioni del PIP, ci sono davvero [15]. Non ho trovato questa conferma.
+- **La delibera chiedeva una conferma.** Entro tre mesi dalla pubblicazione (cioè entro metà luglio 2026) il governo doveva confermare che gli altri finanziamenti, come i 34,17 milioni del PIP [2], ci sono davvero [15]. Non ho trovato questa conferma.
 - **Al 30 giugno 2026 non è stato speso nulla:** OpenCoesione indica 0 € di impegni e 0 € di pagamenti [17].
 - **Una contraddizione:** l'opuscolo di maggio 2026, uscito dopo la pubblicazione in Gazzetta Ufficiale, scrive ancora "Si è in attesa di risorse" dal Fondo 2021-2027 [1]. Forse i soldi sono assegnati al Ministero ma non ancora passati al Commissario. Nei decreti del Commissario del 2026 (fino al n. 54 del 2 ottobre) non c'è nessun atto su questi fondi: i due decreti che nominano una "zona PIP" (n. 7 e n. 44) riguardano la rete per l'acqua piovana del PIP di un altro Comune, Montemesola, pagata con altri fondi (delibera CIPE 93/2017) [25]. Non verificato.
 
@@ -177,7 +177,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 | 8 maggio 2017 | Il Commissario toglie al Comune la gara per la messa in sicurezza definitiva | [5][6] |
 | 1 agosto 2018 | Il Ministero approva la nuova analisi di rischio (decreto n. 313) | [22] |
 | 24 agosto 2018 | Gara dell'intervento d'emergenza vinta da Cisa, Ambienthesis ed Econova | [6] |
-| 30 settembre 2018 | Spesi 1.180.649,40 € (3,19%) | [4] |
+| settembre 2018 | Spesi 1.180.649,40 € (3,19%) | [4] |
 | 22 gennaio 2019 | Assegnati al Comune 932.202,35 € per l'intervento d'emergenza | [6] |
 | 26 giugno 2019 | Firmato il contratto dell'intervento d'emergenza | [6] |
 | 19 luglio 2019 | Tavolo tecnico al Ministero: la soluzione del progetto preliminare è difficile da realizzare | [22] |
