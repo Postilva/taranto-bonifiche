@@ -25,7 +25,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 **Analisi e analisi di rischio approvate. Nessuna messa in sicurezza, nessuna bonifica.** [1]
 
 - **2015.** Inizia il procedimento, con le regole del Codice dell'ambiente (D.Lgs. 152/2006) [1]. Il 2 luglio 2015 la Conferenza di servizi stabilisce che per l'acqua sotterranea del Tamburi si farà un'unica analisi di rischio per tutto il quartiere, perché sotto c'è un solo corpo d'acqua [6].
-- **2016.** Approvando l'analisi di rischio delle aree verdi delle scuole Deledda, De Carolis e D'Aquino (scheda B2), la Regione trova un rischio non accettabile per la falda e rimanda gli obiettivi di bonifica a questa analisi di tutto il quartiere [6]. Il 16 giugno 2016 il Comune aveva scritto che l'avrebbe completata a novembre 2016 [6].
+- **2016.** Approvando l'analisi di rischio delle aree verdi delle scuole Deledda, De Carolis e D'Aquino (scheda B2), la Regione approva un'analisi che trova un rischio non accettabile per la falda, e rimanda gli obiettivi di bonifica a questa analisi di tutto il quartiere [6]. Il 16 giugno 2016 il Comune aveva scritto che l'avrebbe completata a novembre 2016 [6].
 - **Entro aprile 2020.** Vengono approvati i risultati delle analisi (piano di caratterizzazione) e l'analisi di rischio; il sito è "contaminato" [1].
 
 ## Dove si trova e quanto è grande

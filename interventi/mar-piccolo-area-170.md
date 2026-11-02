@@ -26,7 +26,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 - Il **Commissario straordinario per la bonifica di Taranto** (Vito Felice Uricchio): ha promosso la collaborazione con la Marina e con MASE, ISPRA, ARPA Puglia, Regione e Comune [1].
 - La **Marina Militare**: partner del Commissario fin dal 2015 (accordo di collaborazione, vedi sotto) [4][5]. A gennaio 2026 al vertice in Prefettura c'era l'Ammiraglio Petroni per la Marina [2].
 - Il **responsabile del CIS Taranto** (il "Contratto istituzionale di sviluppo", dove Governo ed enti locali decidono come usare i fondi): ha detto che darà il suo "assenso formale" alla collaborazione con la Marina [2].
-- Il **Ministero dell'Ambiente (MASE)**: con il Commissario ha velocizzato il piano di indagini [1]. Per i dragaggi dentro un'area inquinata di interesse nazionale (SIN) il MASE chiede un "progetto di dragaggio" apposito [10].
+- Il **Ministero dell'Ambiente (MASE)**: secondo il Commissario, insieme hanno velocizzato l'iter del piano di indagini [1]. Per i dragaggi dentro un'area inquinata di interesse nazionale (SIN) il MASE chiede un "progetto di dragaggio" apposito [10].
 - Il **Ministero della Difesa** (Direzione dei lavori e del demanio, "Ufficio di Programma Basi Blu"): si occupa dei lavori delle basi navali, che sono un'altra cosa rispetto alla bonifica (vedi "Cosa paga la Difesa e cosa paga il Commissario") [8][10][11].
 
 ## Cosa è stato fatto

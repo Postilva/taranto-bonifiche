@@ -23,7 +23,7 @@ Gli studi riguardano i fanghi inquinati del fondale; tra gli studi precedenti ci
 - Il **Commissario straordinario per la bonifica di Taranto**: gli studi sono stati fatti dalle gestioni precedenti, oggi il Commissario è Vito Felice Uricchio [1].
 - Gli accordi del 2014–2017 sono con università, CNR e Forze dell'ordine (vedi sotto) [2].
 - **Sogesid** (società pubblica del Ministero dell'Ambiente) per la convenzione sulle acque sotterranee [3].
-- Il piano delle indagini sui fanghi è stato condiviso con il Ministero dell'Ambiente, ISPRA e ARPA Puglia [2].
+- Secondo il Commissario, il piano delle indagini sui fanghi è stato condiviso, in vari tavoli tecnici, con il Ministero dell'Ambiente, ISPRA e ARPA Puglia [2].
 
 ## Cosa è stato fatto
 **Solo studi e indagini sul fondale e sull'acqua sotterranea, finiti nel 2018: nessun inquinante è stato tolto o trattato.** [1][2]

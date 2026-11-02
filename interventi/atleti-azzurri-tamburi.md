@@ -3,7 +3,7 @@
 
 ## A che punto è
 ### Finora
-Nel maggio 2024 il Comune ha comunicato di aver trovato piombo e IPA nel terreno del campo, e lo ha fatto recintare con lavori di somma urgenza [3][14]. La Regione ha approvato il piano delle analisi il 7 luglio 2025 e il Commissario ha dato al Comune 86.876,20 € per farle [2][3]. Il cantiere per i prelievi è stato consegnato il 20 ottobre 2025, e a maggio 2026 i campionamenti erano iniziati [1][13].
+Nel maggio 2024 il Comune ha comunicato di aver trovato piombo e IPA nel terreno del campo, e lo ha fatto recintare con lavori di somma urgenza [3][14]. La Regione ha approvato il piano delle analisi il 7 luglio 2025 e il Commissario ha dato al Comune 86.876,20 € per farle [2][3]. Il Commissario ha annunciato la consegna del cantiere per i prelievi per il 20 ottobre 2025, e a maggio 2026 i campionamenti erano iniziati [1][13].
 
 ### Cosa manca
 Le analisi non sono finite: a gennaio 2026 erano annunciate per marzo, ma a fine giugno il Commissario le descriveva ancora «in via di completamento» [9][10]. Nessun risultato è pubblico. Il campo non è messo in sicurezza né bonificato.

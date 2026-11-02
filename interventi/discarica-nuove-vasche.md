@@ -6,7 +6,7 @@
 La discarica è chiusa e coperta, ed è in «post-gestione»: Ilva deve sorvegliarla per 30 anni, fino al 2048 [1][2]. Due volte l'anno controlla l'acqua sotterranea, il percolato, le polveri e le fibre di amianto nell'aria [1][2].
 
 ### Cosa manca
-I risultati dei controlli non sono pubblici [1][8], e la Provincia dice di non aver ricevuto da Ilva i rapporti dei controlli dal 2018 [13]. ISPRA ha fatto verificare la rete che raccoglie l'acqua piovana, ed è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1] e alla Provincia il progetto non è arrivato [13]. Non sappiamo quali rifiuti ci siano nelle tre vasche: le fonti dicono solo che è una discarica per rifiuti pericolosi [3][4].
+I risultati dei controlli non sono pubblici [1][8], e la Provincia dice di non aver ricevuto da Ilva i rapporti dei controlli dal 2018 [13]. ISPRA ha chiesto di verificare la rete che raccoglie l'acqua piovana, e secondo Ilva è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1] e alla Provincia il progetto non è arrivato [13]. Non sappiamo quali rifiuti ci siano nelle tre vasche: le fonti dicono solo che è una discarica per rifiuti pericolosi [3][4].
 
 ### Adesso
 Da dicembre 2025 ci sono 5 nuovi pozzi per controllare l'acqua sotterranea ogni tre mesi, insieme all'area dei fanghi, per almeno due anni [1][9]. Nessuna fonte dice quando partiranno i lavori per l'acqua piovana [1]. Il 27 ottobre 2026, rispondendo a una nostra richiesta, la Provincia ha elencato i documenti che ha sulla discarica e ha chiesto a Ilva se si oppone a darceli [13]. Non è una bonifica e non lo sarà: in una discarica i rifiuti restano dove sono.
@@ -50,11 +50,11 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 - Il rilievo della forma del terreno è passato da due volte l'anno a una volta l'anno [1][8].
 - Il percolato viene estratto dalle vasche V1, V2 e V3 con gli impianti già presenti [1].
 - Manutenzione del verde da parte del personale Ilva (lavoratori in cassa integrazione) e di una ditta esterna (Levangarden) [1].
-- Il Ministero, nel verbale dell'Osservatorio del giugno 2022, segna la prescrizione UP8 come "ATTUATA" [3].
+- Il Ministero, nel verbale dell'Osservatorio del giugno 2022, segna la prescrizione UP8 come "ATTUATA", con il rimando a un rapporto del 19 giugno 2018 [3].
 
 **Il problema dell'acqua piovana.**
 - ISPRA, per l'avvio della post-gestione, ha chiesto di verificare la stabilità dei fianchi artificiali della discarica e la rete che raccoglie l'acqua piovana che scorre su di essi [1].
-- La verifica ha mostrato che la rete è **sottodimensionata**, cioè troppo piccola, e va potenziata [1].
+- Secondo Ilva, la verifica ha mostrato che la rete è **sottodimensionata**, cioè troppo piccola, e va potenziata [1].
 - Ilva ha dato l'incarico per il progetto il 24 febbraio 2022 [6]. Il progetto è arrivato il 10 ottobre 2022, ma doveva essere modificato per tenere conto del vicino deposito impermeabilizzato dei fanghi [6]. Poi è stato allargato al recupero del percolato, all'impianto elettrico, alla messa a terra e alla risistemazione del terreno di copertura [7].
 - A fine 2025 il progetto risultava **redatto**, e la sua esecuzione era ancora "in agenda" [1]. Nessuna fonte dice quando inizieranno i lavori. A ottobre 2026 la Provincia non l'aveva ricevuto [13].
 
@@ -121,7 +121,7 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 [13] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44941 del 27 ottobre 2026, con l'elenco dei documenti della Provincia su rifiuti, chiusura, controlli e garanzia della discarica (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-nuove-vasche.pdf`
 
 ## Cosa non sappiamo
-1. [blocca] **Quando partono i lavori per l'acqua piovana?** ISPRA ha fatto verificare la rete che raccoglie l'acqua piovana, ed è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1]. A ottobre 2026 il progetto non era arrivato alla Provincia [13]. Non sappiamo quando inizieranno, quanto costano, né se nel frattempo l'acqua che scorre sui fianchi abbia causato danni. Non verificato.
+1. [blocca] **Quando partono i lavori per l'acqua piovana?** ISPRA ha chiesto di verificare la rete che raccoglie l'acqua piovana, e secondo Ilva è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1]. A ottobre 2026 il progetto non era arrivato alla Provincia [13]. Non sappiamo quando inizieranno, quanto costano, né se nel frattempo l'acqua che scorre sui fianchi abbia causato danni. Non verificato.
 2. [altra] **Che cosa c'è dentro la discarica, e c'è amianto?** Si sa solo che è una discarica per rifiuti pericolosi e che si misurano le fibre di amianto nell'aria [2][3][4]. Alcuni giornali hanno scritto negli anni di amianto nelle discariche dell'Ilva (non verificato, e non è chiaro se si riferiscano a questa).
 3. [altra] **Che cosa dicono i controlli?** Le relazioni di Ilva dicono quando sono stati fatti i prelievi, ma non i risultati: non sappiamo se l'acqua sotterranea, le polveri o le fibre abbiano mai superato i limiti [1][8]. La Provincia dice di non aver ricevuto i rapporti dei controlli dal 2018 [13]: non sappiamo se Ilva li mandi ad ARPA o a un altro ente.
 4. [altra] **Quando è stata chiusa davvero, e da chi?** Nel 2007 era ancora in uso la vasca V2 [11] e un documento del Ministero la indicava ancora "in esercizio" [4]; dal 2018 risulta in post-gestione [2][5]. Non abbiamo trovato l'atto della Provincia che ne certifica la chiusura definitiva: sulla chiusura la Provincia indica la determinazione del 2008, la nota di Ilva del 2014 e una nota del Ministero del 6 luglio 2018, nessun atto suo successivo [13]. Ilva collega l'avvio della post-gestione alle prescrizioni di ISPRA del verbale del 18 giugno 2018 [10][1], che non abbiamo trovato.
