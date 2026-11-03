@@ -1,5 +1,5 @@
 # D6 – Quartiere Tamburi: acque sotterranee (Comune di Taranto)
-*Stato scheda: approvata — aggiornata al 2 novembre 2026*
+*Stato scheda: approvata — aggiornata al 3 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -26,6 +26,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 
 - **2015.** Inizia il procedimento, con le regole del Codice dell'ambiente (D.Lgs. 152/2006) [1]. Il 2 luglio 2015 la Conferenza di servizi stabilisce che per l'acqua sotterranea del Tamburi si farà un'unica analisi di rischio per tutto il quartiere, perché sotto c'è un solo corpo d'acqua [6].
 - **2016.** Approvando l'analisi di rischio delle aree verdi delle scuole Deledda, De Carolis e D'Aquino (scheda B2), la Regione approva un'analisi che trova un rischio non accettabile per la falda, e rimanda gli obiettivi di bonifica a questa analisi di tutto il quartiere [6]. Il 16 giugno 2016 il Comune aveva scritto che l'avrebbe completata a novembre 2016 [6].
+- **2017–2018.** Per il Comune, la società AmbienteSC scrive l'analisi di rischio della falda di tutto il quartiere. Secondo la società, la Conferenza di servizi del 9 marzo 2018 ha approvato la seconda versione dell'analisi, «in attesa di ratifica» da parte della Regione, e l'analisi mostra «la necessità di attuare misure di Bonifica» per proteggere la falda [8]. L'atto della Regione non l'abbiamo visto: potrebbe essere la «D.D.197 del 30lug2018» che ARPA cita nell'anagrafe, ma sulla riga delle aree verdi delle scuole (scheda B2) [9].
 - **Entro aprile 2020.** Vengono approvati i risultati delle analisi (piano di caratterizzazione) e l'analisi di rischio; il sito è "contaminato" [1].
 - **Settembre 2026.** Nell'anagrafe aggiornata da ARPA lo stato è lo stesso: "approvazione esiti PdC e AdR", "sito contaminato" [7].
 
@@ -43,6 +44,7 @@ Nessuna cifra trovata. Non verificato.
 | 2015 | Inizio del procedimento | [1] |
 | 2 luglio 2015 | Conferenza di servizi: un'unica analisi di rischio della falda per tutto il quartiere | [6] |
 | 16 giugno 2016 | Il Comune: l'analisi di rischio della falda sarà pronta a novembre 2016 | [6] |
+| 9 marzo 2018 | Conferenza di servizi: approvata l'analisi di rischio della falda, in attesa della ratifica della Regione (secondo la società che l'ha scritta) | [8] |
 | aprile 2020 | Sito "contaminato": analisi e analisi di rischio approvate | [1] |
 | settembre 2026 | Per ARPA lo stato è lo stesso del 2020 | [7] |
 
@@ -61,14 +63,18 @@ Nessuna cifra trovata. Non verificato.
 
 [7] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera) e Allegato 3, sito TA045 "Risanamento Q.re Tamburi - Matrice acqua sotterranea" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
 
+[8] AmbienteSC, sito web, scheda *Quartiere Tamburi – Analisi di rischio sanitario-ambientale sito specifica per le acque sotterranee del quartiere Tamburi*, committente Comune di Taranto, pubblicata il 1° giugno 2018 (società che ha scritto l'analisi, non un atto ufficiale), https://ambientesc.it/portfolio/quartiere-tamburi — copia in `fonti/2018-06_ambientesc_sito-web-analisi-rischio-falda-tamburi.html`
+
+[9] ARPA Puglia, stesso documento del [7], Allegato 3, sito TA064 "Risanamento Q.re Tamburi Comprensorio Scolastico Via Deledda 65", colonna delle note: «Rischio accettabile come da D.D.197 del 30lug2018» — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-3.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-3.csv`)
+
 ## Cosa non sappiamo
 1. [blocca] **Dopo il 2020 è stato deciso qualche intervento?** Entro aprile 2020 erano state approvate le analisi e l'analisi di rischio, e il sito risultava "contaminato" [1]. Ma non c'erano né un progetto di messa in sicurezza né una bonifica [1], e non abbiamo trovato atti più recenti. Non verificato.
 2. [altra] **Quali sostanze ci sono nella falda, e quanto superano i limiti?** La Regione indica solo la causa, la "deposizione inquinanti su suolo" [1]; non abbiamo trovato i risultati delle analisi. Non verificato.
 3. [altra] **L'analisi di rischio dice che c'è un pericolo per chi abita sopra?** Per esempio per i vapori o per l'acqua dei pozzi. L'analisi di rischio non è pubblica: la Regione dice solo che è stata approvata entro aprile 2020 [1]. Non verificato.
-4. [altra] **Chi ha approvato le analisi e l'analisi di rischio, e quando?** La Regione dice solo che sono state approvate entro aprile 2020 [1], e che il soggetto del procedimento è il Comune di Taranto [1]. Non verificato.
+4. [altra] **Chi ha approvato le analisi e l'analisi di rischio, e quando?** La Regione dice solo che sono state approvate entro aprile 2020 [1], e che il soggetto del procedimento è il Comune di Taranto [1]. Secondo la società che ha scritto l'analisi, la Conferenza di servizi l'ha approvata il 9 marzo 2018, in attesa della ratifica della Regione [8]. La ratifica potrebbe essere la «D.D.197 del 30lug2018» citata da ARPA [9]: il numero è vicino a quelli delle determine della Sezione bonifiche della Regione di quell'anno (ricerca nostra), ma l'atto non l'abbiamo visto, e lo abbiamo chiesto alla Regione con la richiesta del 21 ottobre 2026. Non verificato.
 5. [altra] **La falda è dentro il SIN di Taranto?** Il progetto del Comune per la falda del Galeso (2025) dice che l'area di quell'intervento è "all'esterno del perimetro del SIN di Taranto, sul lato ovest, nel quartiere Tamburi", ma non parla di questa falda [5]. Non verificato.
 
-Ricerca online del 20 ottobre 2026 ("quartiere Tamburi" con falda, acque sotterranee, caratterizzazione, analisi di rischio; portale trasparenza del Comune; archivio del Ministero dell'Ambiente): nessun documento su questa falda.
+Ricerca online del 20 ottobre 2026 ("quartiere Tamburi" con falda, acque sotterranee, caratterizzazione, analisi di rischio; portale trasparenza del Comune; archivio del Ministero dell'Ambiente): nessun documento su questa falda. Ricerca del 3 novembre 2026 sulla «D.D.197 del 30lug2018» (numero, data, codice della Regione 090/DIR/2018/00197, Tamburi, falda; sito della trasparenza della Regione; Piano regionale di bonifica 2018–2021; relazione del Commissario di dicembre 2018; portale trasparenza del Comune): l'atto non è online; trovata solo la scheda della società che ha scritto l'analisi [8].
 
 ### Bozza di richiesta di accesso civico (FOIA) — pronta come FOIA 63 alla Regione (PEC da inviare, `.tmp/foia/invio/pec-sesto-giro/`)
 Una sola richiesta alla Regione per la falda (D6) e per le aree private di SP2 (D3, nella scheda "Quartiere Tamburi: risanamento dei suoli").
