@@ -1,5 +1,5 @@
 # A4 – Discarica ex cava Cementir
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 4 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -38,7 +38,7 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 - Nell'audizione del 13 luglio 2022 la procuratrice della Repubblica di Taranto ha riferito alla Commissione parlamentare che l'Italsider vi depositava anche **morchie oleose** (fanghi oleosi) con molti **PCB**, rifiuti pericolosi [14]. È quanto riportato dalla Commissione parlamentare, non un dato di analisi.
 - Il percolato è risultato **pericoloso** (per il pH) nel 2022 e da allora viene smaltito come rifiuto pericoloso [16][15].
 
-**Precedenti.** Secondo quanto la procuratrice ha riferito alla Commissione parlamentare, nel 2012 la magistratura ha accertato che la vecchia barriera aveva ceduto e il percolato usciva dalla discarica, formando "una sorta di lago" e finendo in parte in mare attraverso canali di scolo; nel 2012 l'area è stata sequestrata [14]. È stata dissequestrata a fine 2018 [14][15]. Intorno alla discarica c'era già una barriera di circa 3 metri di profondità, la "Cintura Cotecchia", degli anni '90 [14][11].
+**Precedenti.** Secondo quanto la procuratrice ha riferito alla Commissione parlamentare, nel 2012 la magistratura ha accertato che la vecchia barriera aveva ceduto e il percolato usciva dalla discarica, formando "una sorta di lago" e finendo in parte in mare attraverso canali di scolo; nel 2012 l'area è stata sequestrata [14]. È stata dissequestrata a fine 2018 [14][15]. Intorno alla discarica c'era già una barriera di circa 3 metri di profondità, la "Cintura Cotecchia", degli anni '90 [14][11]. Nel 2016, su disposizione della Guardia di Finanza e per il procedimento penale n. 2878/2012, ARPA ha verificato con prove nei pozzi ("slug test") la tenuta del «diaframma plastico» della discarica; già l'11 luglio 2014 aveva dato un parere sul progetto di copertura definitiva [33]. Le due relazioni di ARPA (prot. 13554 del 1° marzo 2016 e nota 38659 dell'11 luglio 2014) non sono pubbliche: non sappiamo cosa dicono [33].
 
 ### I lavori di messa in sicurezza
 - **Prima dei lavori** (situazione a fine 2020): erano stati tolti materiali contenenti amianto dalla superficie della discarica e il percolato di 4 pozzi veniva portato via con autobotti [22].
@@ -120,7 +120,9 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 |---|---|---|
 | 2001 | La discarica viene chiusa | [9] |
 | 2012 | Sequestro: il percolato usciva dalla discarica | [14] |
+| 11 luglio 2014 | Parere di ARPA sul progetto di copertura definitiva (non pubblico) | [33] |
 | 11 dicembre 2014 | Il sub-commissario Ilva fissa le regole su discariche e garanzie (legge nel 2015) | [4] |
+| 1° marzo 2016 | ARPA manda la relazione sulla tenuta della barriera, chiesta dalla Guardia di Finanza (non pubblica) | [33] |
 | 29 settembre 2017 | Il Piano ambientale lascia la chiusura (UA25) ai commissari di Ilva | [2] |
 | 19 ottobre 2018 | Decreto n. 286: progetto di messa in sicurezza approvato | [6] |
 | fine 2018 | Area dissequestrata | [14][15] |
@@ -212,6 +214,8 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 [31] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 10 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 [32] Ministero dell'Ambiente e della Sicurezza energetica, *SmartEcoGIS*, mappa delle aree dei SIN, livello "Aree - SIN", punto dell'area 3060 del SIN "Taranto" (consultata il 30 ottobre 2026), https://smartecogis.mase.gov.it/ — copia dei punti di tutte le aree del SIN Taranto in `fonti/2026-10_mase_smartecogis-aree-sin-taranto.json`
+
+[33] ARPA Puglia, Dipartimento provinciale di Taranto, *Relazione sulle attività svolte da ARPA Puglia – DAP Taranto nell'ambito dei procedimenti di bonifica nel sito "Ilva"*, preparata per l'audizione parlamentare del 24 giugno 2016 (senza data né protocollo), pag. 3 (discarica di 2ª categoria "B speciale – ex cava Cementir": slug test, prot. ARPA 13554 del 1/3/2016; parere sul capping, nota ARPA 38659 dell'11/7/2014; le due relazioni sono gli allegati 5 e 6, non pubblicati), pubblicata da PeaceLink il 28 ottobre 2016, https://www.peacelink.it/ecologia/docs/5095.pdf — copia in `fonti/2016-06_arpa-puglia_relazione-audizione-bonifiche-ilva.pdf`
 
 Nota: questa discarica non segue la normale procedura di bonifica del SIN. I suoi progetti sono stati approvati con le conferenze speciali previste dalle leggi sull'Ilva, pubblicate sul portale del Ministero per le autorizzazioni (va.mite.gov.it), e solo in piccola parte nell'archivio delle bonifiche (https://bonifichesiticontaminati.mite.gov.it/ricerca/), dove per quest'area (codice 7/3060) c'è un solo documento, il [28] (controllato il 9 ottobre 2026) [10][13].
 

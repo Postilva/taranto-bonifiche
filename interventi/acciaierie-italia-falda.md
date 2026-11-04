@@ -1,5 +1,5 @@
 # C2 – Acciaierie d'Italia: falda sotto lo stabilimento
-*Stato scheda: approvata — aggiornata al 2 novembre 2026*
+*Stato scheda: approvata — aggiornata al 4 novembre 2026*
 
 **Immagine:** acciaieria-2024.jpg
 
@@ -55,6 +55,7 @@ Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 92
 - **Falda superficiale:** oltre i limiti soprattutto alluminio, arsenico, selenio, nitriti, ferro, manganese, boro, solfati e fluoruri [1][7]. La tabella dei controlli 2018–2022 di ADI copre **115 pozzetti** [14]. Alcuni dei valori più alti:
   - **nitriti 60.000 µg/l**, 120 volte il limite di 500, nel pozzetto 25/601/I/FS a dicembre 2020; nello stesso pozzetto **cianuri 450 µg/l** (limite 50) nel 2019 [14];
   - **cromo esavalente 287 µg/l** (limite 5) e cromo totale 315 µg/l (limite 50) nel pozzetto 50/1572/I/FS, area Sidercomit, a settembre 2020 [14]. Vicino al TUL2 e al CCO5 ARPA ha trovato anche **PCB** oltre i limiti (ottobre 2022) [2]. Nell'area Sidercomit, cromo totale e cromo esavalente oltre i limiti in modo continuo, che ADI attribuisce alla Sanac, a monte (scheda C5) [1].
+- **Sotto i Parchi minerali (2015–2016).** Nelle analisi integrative di Ilva nei Parchi primari e nel Parco loppa, riassunte da ARPA per il Parlamento nel 2016, la falda superficiale supera i limiti, tra l'altro, per **cromo esavalente** e benzo(k)fluorantene (10 campioni), benzo(g,h,i)perilene e indenopirene (8) e benzene (5); la falda profonda soprattutto per **piombo** (41 campioni), ferro e manganese (33), triclorometano e alluminio (16) e tetracloroetilene (14) [19]. Nei campioni presi da ARPA nel 2015 per la validazione: solfati fino a 1.160 mg/l (limite 250) e fluoruri fino a 1.930 µg/l (limite 1.500) [20]. Già il 16 marzo 2016 la conferenza di servizi aveva chiesto a Ilva «tutte le misure di prevenzione finalizzate a circoscrivere, limitare la diffusione della contaminazione» dei Parchi [21].
 - **Falda profonda** (l'acquifero nella roccia calcarea): secondo ISPRA (2022) l'acquifero profondo è "potenzialmente contaminato dai composti alifatici clorurati" [15]. Triclorometano (cloroformio) oltre il limite di 0,15 µg/l in alcuni pozzetti nel 2023, fino a **0,9 µg/l** a dicembre 2023 nei risultati allegati, anche se il testo di ADI scrive "max 0,6" [7]. Secondo ADI l'acqua profonda scorre in prevalenza **verso l'esterno dello stabilimento**, in direzione sud-sud-est [7].
 - **Da dove viene l'inquinamento: chi dice cosa.**
   - ADI: boro, solfati e fluoruri vengono dal mare; ferro, manganese e arsenico dalla degradazione della sostanza organica naturalmente presente nei sedimenti fini [2][7].
@@ -69,6 +70,9 @@ Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 92
 |---|---|---|
 | 26 novembre 2013 | Ilva presenta il progetto della barriera dei Parchi | [2] |
 | 18 dicembre 2013 | La conferenza di servizi chiede di cominciare a pompare dai pozzi esistenti | [2] |
+| 2015–2016 | Analisi integrative della falda sotto i Parchi primari e il Parco loppa: cromo esavalente nella falda superficiale, piombo in quella profonda | [19] |
+| 16 marzo 2016 | La conferenza di servizi chiede a Ilva misure di prevenzione per i Parchi primari e il Parco loppa | [21] |
+| 13 luglio 2016 | ARPA valida le analisi dei Parchi primari e del Parco loppa | [20] |
 | 13 luglio 2017 | Ilva in A.S. segnala gli idrocarburi galleggianti (nota prot. 420) | [2][3] |
 | 29 settembre 2017 | Il Piano ambientale autorizza il "pump & treat" entro il 31/12/2018 | [4] |
 | 2018 | Installato l'impianto: 11 pozzi e depuratore | [9] |
@@ -128,13 +132,19 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [18] Acciaierie d'Italia, *Relazione di aggiornamento delle attività di monitoraggio e recupero prodotto in fase separata TUL1 – TUL2 – SOT – CCO5 – ACC2 – TNA2* (gennaio–giugno 2023), 24 luglio 2023, trasmessa con la nota DIR 339 del 25 luglio 2023, pag. 14 (progettazione esecutiva del progetto "full scale" al TUL2), https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=11778_2023_121682.7z — copia in `fonti/2023-07_acciaierie-italia_relazione-fase-libera-dir-339.pdf`
 
+[19] ARPA Puglia, Dipartimento provinciale di Taranto, *Relazione sulle attività svolte da ARPA Puglia – DAP Taranto nell'ambito dei procedimenti di bonifica nel sito "Ilva"*, preparata per l'audizione parlamentare del 24 giugno 2016 (senza data né protocollo; l'anno si ricava dalle note del 2016 che cita), pag. 1–2 (superamenti nella falda superficiale e profonda dei Parchi primari e del Parco loppa), pubblicata da PeaceLink il 28 ottobre 2016, https://www.peacelink.it/ecologia/docs/5095.pdf — copia in `fonti/2016-06_arpa-puglia_relazione-audizione-bonifiche-ilva.pdf`
+
+[20] ARPA Puglia, Dipartimento provinciale di Taranto, *Piano di caratterizzazione integrativo ILVA area "Parchi Minerali" e "Parco Loppa"*, report di validazione, prot. 42586 del 13 luglio 2016, pag. 6 del PDF (tabella delle acque sotterranee) (scansione); pubblicato da PeaceLink tra i documenti dell'articolo del 28 ottobre 2016, https://www.peacelink.it/ecologia/a/43706.html — copia in `fonti/2016-07_arpa-puglia_report-validazione-42586-parchi-primari-loppa.pdf`
+
+[21] Ministero dell'Ambiente e della tutela del territorio e del mare, Direzione generale per la salvaguardia del territorio e delle acque, *Verbale della Conferenza di servizi istruttoria del SIN di Taranto del 16 marzo 2016* (convocata con nota prot. 3735/STA del 1° marzo 2016), punto 2 dell'ordine del giorno (Ilva, Parchi primari e Parco loppa: superamenti nella falda secondo Ilva, tra cui manganese, IPA e PCB; richieste della conferenza) (scansione); pubblicato da PeaceLink tra i documenti dell'articolo del 28 ottobre 2016, https://www.peacelink.it/ecologia/a/43706.html — copia in `fonti/2016-03_mattm_verbale-cds-16-03-2016-taranto.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **La barriera dei Parchi minerali ferma l'inquinamento della falda?** È l'unica misura che dal 2018 pompa e depura l'acqua sotto i Parchi [2][9], ma nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili non si può valutare se funzioni [2][3]. A valle della barriera, nel 2022, ARPA ha trovato PCB e arsenico oltre i limiti [2]. Non sappiamo quanta acqua venga pompata ogni anno, per quanti giorni l'impianto sia stato fermo, né cosa contenga l'acqua che finisce nella fogna dello stabilimento. Non verificato.
 2. [blocca] **Che cosa è successo dopo febbraio 2025?** L'ultimo documento nell'archivio del Ministero è la risposta di ADI del 26 febbraio 2025 [13]. Il progetto definitivo per togliere gli idrocarburi al TUL2, annunciato nel 2024, non c'è [8][13]. Non sappiamo se il Ministero abbia risposto né se i controlli aggiuntivi 2024–2025 siano stati consegnati. Non verificato: vedi le FOIA.
 3. [altra] **Le misure funzionano ancora oggi, con lo stabilimento in amministrazione straordinaria e parte degli impianti fermi nel 2026?** Nessun documento pubblico dopo febbraio 2025 ne parla [13]. Non verificato.
 4. [altra] **Chi paga, e cosa cambia con la vendita dello stabilimento?** Nessun atto pubblico lo dice. Non verificato.
 5. [fonti] **Da dove viene l'inquinamento della falda?** Per ADI dal mare e dai sedimenti naturali, per ARPA e ISPRA da scorie e riporti [2][3][7]. Per chiarirlo servono i test di cessione sui riporti, che non sono ancora stati fatti (scheda C1).
-6. [fonti] **Ci sono PCB oltre i limiti?** ARPA li ha trovati oltre i limiti, ADI no sugli stessi campioni [2][11]. ADI ha chiesto ad ARPA i suoi rapporti di prova [11].
+6. [fonti] **Ci sono PCB oltre i limiti?** ARPA li ha trovati oltre i limiti, ADI no sugli stessi campioni [2][11]. ADI ha chiesto ad ARPA i suoi rapporti di prova [11]. Già nel 2015, sotto i Parchi, i risultati sui PCB non coincidevano, ma al contrario: oltre i limiti per il laboratorio dell'azienda (0,044 e 0,013 µg/l, limite 0,01), non per ARPA (meno di 0,001) [20]. In quella tabella la colonna dell'azienda è intestata «Italcave», un'altra azienda della zona: probabilmente un errore di ARPA.
 7. [fonti] **Quanto triclorometano c'è nella falda profonda, e da dove viene?** Il testo di ADI dice "max 0,6 µg/l", la sua tabella riporta 0,9 [7]. Sull'origine ADI non si pronuncia: scrive solo che, senza dati da fuori dello stabilimento, non si può escludere "un contributo esterno al flusso delle acque sotterranee" [7].
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu

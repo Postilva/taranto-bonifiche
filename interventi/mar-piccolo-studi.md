@@ -1,5 +1,5 @@
 # B6 – Mar Piccolo: studi, indagini, sorvolo lidar (conclusi)
-*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 4 novembre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -50,6 +50,7 @@ Gli studi riguardano i fanghi inquinati del fondale; tra gli studi precedenti ci
   - assegnato il servizio per la campagna geognostica e le prove di laboratorio; completata la campagna di indagini e i prelievi dell'acqua sotterranea;
   - finite le analisi in laboratorio (geologiche, chimiche, ecotossicologiche, microbiologiche);
   - fatta la "zonazione delle criticità" dei fondali del 1° seno e definito un modello concettuale (una descrizione di come l'inquinamento si distribuisce e si muove).
+- Il 16 marzo 2016 la conferenza di servizi al Ministero ha giudicato «approvabile» il piano integrativo di indagini del Commissario, del 16 dicembre 2015: 44 sondaggi nel 1° seno (circa 30 metri di profondità), 6 nel 2° seno, 9 nelle aree umide e 15 a terra (circa 80 metri), con analisi nei laboratori del Politecnico di Bari, dell'Università di Bari e del CNR [11]. Ha chiesto di concordare con ARPA le sostanze da cercare, che il piano non indicava, e di presentare i risultati con l'analisi di rischio entro sei mesi [11].
 - Il Commissario Martino ha scritto nel 2023 che la documentazione cartacea dei precedenti commissari è conservata presso la Prefettura di Taranto, con due hard disk esterni [4].
 - **Analisi in più sull'acqua sotterranea (pagate nel 2026):** nel marzo 2019 il Commissario ha chiesto all'IRSA, l'istituto del CNR che studia le acque, analisi chimiche su 15 campioni di acqua sotterranea intorno al Mar Piccolo, nell'ambito dell'accordo del 29 gennaio 2015 con Università di Bari e CNR [6]. Il 28 aprile 2020 l'IRSA ha consegnato i risultati di **12 campioni**, prelevati a nord-ovest del 1° seno [6]. Il pagamento (16.000 €, dai fondi della delibera CIPE 87/2012 per i PCB del 1° seno) è arrivato solo con il **decreto n. 35 dell'8 luglio 2026**, dopo che l'IRSA aveva mandato i conti nel 2025–2026 [6]. Il decreto non riporta i risultati delle analisi.
 - Gli studi precedenti sui fanghi del Mar Piccolo che il Commissario ha mandato alla Commissione nel 2022 sono tre: ISPRA (2010), Politecnico di Bari (caratteristiche geotecniche dei sedimenti del 1° seno) e ARPA Puglia (2014, modello concettuale) [9]. La Commissione ha notato che le nuove indagini nel Mar Piccolo sono state fatte "con l'impiego non indifferente di risorse economiche, pur in presenza di studi e valutazioni svolte in precedenza da ARPA Puglia" [9].
@@ -75,6 +76,7 @@ Gli studi riguardano i fanghi inquinati del fondale; tra gli studi precedenti ci
 | 29 gennaio 2015 | Accordo con Università di Bari e CNR | [2] |
 | 1 aprile e 25 giugno 2015 | Accordi con Capitanerie di Porto e Marina Militare | [2] |
 | 15 gennaio 2016 | Accordo con la Guardia di Finanza | [2] |
+| 16 marzo 2016 | La conferenza di servizi giudica «approvabile» il piano integrativo di indagini | [11] |
 | 19 luglio 2016 | Convenzione con la Sogesid sulle falde | [3] |
 | 14 novembre e 16 dicembre 2016 | Accordi con Università delle Marche e Carabinieri | [2] |
 | 1 luglio 2018 | Fattura della Sogesid da 147.550,25 € | [3] |
@@ -105,6 +107,8 @@ Gli studi riguardano i fanghi inquinati del fondale; tra gli studi precedenti ci
 [9] Parlamento, Commissione parlamentare d'inchiesta sulle attività illecite connesse al ciclo dei rifiuti, *Relazione finale su Ilva-Taranto* (Doc. XXIII n. 33, XVIII legislatura), 15 settembre 2022, pag. 18 (nota 18, studi sul Mar Piccolo) e pag. 34–35 (audizione del Commissario Martino: spesa della "piattaforma" dell'area vasta e banca dati) della numerazione della Camera, https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/IndiceETesti/023/033/INTERO.pdf — copia in `fonti/2022-09_parlamento_commissione-rifiuti-relazione-ilva-taranto.pdf`
 
 [10] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
+
+[11] Ministero dell'Ambiente e della tutela del territorio e del mare, Direzione generale per la salvaguardia del territorio e delle acque, *Verbale della Conferenza di servizi istruttoria del SIN di Taranto del 16 marzo 2016* (convocata con nota prot. 3735/STA del 1° marzo 2016), punto 9 dell'ordine del giorno (Commissario straordinario, piano integrativo di indagini dell'area del Mar Piccolo, trasmesso con nota acquisita al prot. 20443/STA/DI del 16 dicembre 2015) (scansione); pubblicato da PeaceLink tra i documenti dell'articolo del 28 ottobre 2016, https://www.peacelink.it/ecologia/a/43706.html — copia in `fonti/2016-03_mattm_verbale-cds-16-03-2016-taranto.pdf`
 
 ## Cosa non sappiamo
 1. [altra] **Che cosa hanno scoperto, in numeri?** Sono studi, non una bonifica [1][2]. Le quantità di inquinanti misurate nei fanghi, per esempio quanti PCB ci sono, non sono pubbliche in nessun documento che abbiamo trovato. Non verificato.
