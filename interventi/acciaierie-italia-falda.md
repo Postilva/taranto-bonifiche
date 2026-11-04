@@ -52,7 +52,30 @@ Secondo l'azienda stessa la falda superficiale supera i limiti di legge sotto 92
 - Da marzo 2021, secondo l'azienda, il gestore fa controlli aggiuntivi della falda [1], previsti dallo studio del 2020 nelle "zone" 1 e 2: vicino al Canale 2 (confine nord-ovest) e a monte dell'**ex Yard Belleli** e del Parco coils; lo studio segnalava anche una zona 3, più piccola, al confine [2]. A febbraio 2025 annuncia che i controlli saranno estesi ad altri 12 pozzetti nell'area TUL2 e 5 nell'area CCO5 [7][11].
 
 ## Cosa c'è nell'acqua
-- **Falda superficiale:** oltre i limiti soprattutto alluminio, arsenico, selenio, nitriti, ferro, manganese, boro, solfati e fluoruri [1][7]. La tabella dei controlli 2018–2022 di ADI copre **115 pozzetti** [14]. Alcuni dei valori più alti:
+### Dove supera i limiti, pozzetto per pozzetto (2020–2022)
+Nei controlli dal 2020 al 2022, **69 pozzetti su 110** hanno superato almeno una volta il limite di una sostanza (calcolo nostro sulle mappe di ADI) [22]. Per ADI i superamenti sono "discontinui temporalmente e spazialmente sull'intero sito": non si concentrano in una zona sola [1].
+
+**Figura:** falda-stabilimento-2020-2022.svg — Pozzetti della falda superficiale nello stabilimento, controlli dal 2020 al 2022. Il disegno è nostro: mette insieme le mappe che ADI ha allegato al piano del 2023, una per sostanza e per anno, con il contorno dello stabilimento della stessa mappa; le posizioni sono indicative e i nomi dei reparti li abbiamo aggiunti noi, vicino alle scritte della mappa. Un pallino è pieno se il pozzetto ha superato almeno una volta il limite di una delle nove sostanze delle mappe: alluminio, arsenico, cianuri, cromo totale, cromo esavalente, nichel, nitriti, selenio, tallio. Sono i controlli che l'azienda fa da sé per l'autorizzazione ambientale, senza validazione di ARPA [15][22].
+
+Le altre cinque sostanze della tabella di ADI (antimonio, cadmio, cobalto, mercurio, piombo) non hanno superato i limiti in nessun pozzetto in quei tre anni [14].
+
+Quanti pozzetti hanno superato il limite, anno per anno, secondo il riepilogo di ADI [14]:
+
+| Sostanza | 2020 | 2021 | 2022 |
+|---|---|---|---|
+| Nitriti | 16 | 11 | 12 |
+| Alluminio | 15 | 17 | 9 |
+| Arsenico | 11 | 7 | 11 |
+| Selenio | 1 | 1 | 23 |
+| Nichel | 3 | 3 | 2 |
+| Cromo esavalente | 2 | 2 | 3 |
+| Cromo totale | 1 | 1 | 2 |
+| Cianuri | 1 | 2 | 1 |
+| Tallio | 0 | 0 | 1 |
+| **Pozzetti controllati** | **109** | **105** | **102** |
+
+### Le sostanze e i valori più alti
+- **Falda superficiale:** oltre i limiti soprattutto alluminio, arsenico, selenio, nitriti, ferro, manganese, boro, solfati e fluoruri [1][7]. La tabella dei controlli 2018–2022 di ADI copre **119 pozzetti** (calcolo nostro) [14]. Alcuni dei valori più alti:
   - **nitriti 60.000 µg/l**, 120 volte il limite di 500, nel pozzetto 25/601/I/FS a dicembre 2020; nello stesso pozzetto **cianuri 450 µg/l** (limite 50) nel 2019 [14];
   - **cromo esavalente 287 µg/l** (limite 5) e cromo totale 315 µg/l (limite 50) nel pozzetto 50/1572/I/FS, area Sidercomit, a settembre 2020 [14]. Vicino al TUL2 e al CCO5 ARPA ha trovato anche **PCB** oltre i limiti (ottobre 2022) [2]. Nell'area Sidercomit, cromo totale e cromo esavalente oltre i limiti in modo continuo, che ADI attribuisce alla Sanac, a monte (scheda C5) [1].
 - **Sotto i Parchi minerali (2015–2016).** Nelle analisi integrative di Ilva nei Parchi primari e nel Parco loppa, riassunte da ARPA per il Parlamento nel 2016, la falda superficiale supera i limiti, tra l'altro, per **cromo esavalente** e benzo(k)fluorantene (10 campioni), benzo(g,h,i)perilene e indenopirene (8) e benzene (5); la falda profonda soprattutto per **piombo** (41 campioni), ferro e manganese (33), triclorometano e alluminio (16) e tetracloroetilene (14) [19]. Nei campioni presi da ARPA nel 2015 per la validazione: solfati fino a 1.160 mg/l (limite 250) e fluoruri fino a 1.930 µg/l (limite 1.500) [20]. Già il 16 marzo 2016 la conferenza di servizi aveva chiesto a Ilva «tutte le misure di prevenzione finalizzate a circoscrivere, limitare la diffusione della contaminazione» dei Parchi [21].
@@ -122,7 +145,7 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 [13] MASE, archivio dei procedimenti di bonifica, SIN Taranto, aree 3054 e 3095: 10 documenti, dal 10 ottobre 2022 al 26 febbraio 2025 (consultato il 14 e il 16 ottobre 2026; uguale nella copia del 31 ottobre 2026), https://bonifichesiticontaminati.mite.gov.it/ricerca/
 
-[14] Acciaierie d'Italia / Eni Rewind, *Piano di indagine…*, 14 giugno 2023, Annesso 1, "Superamenti CSC acque falda superficiale – dati PMC 2020-2022" (in realtà dal 2018), pag. 1 e 4, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=10844_Taranto_23-99506.zip — copia in `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-1-superamenti-falda.pdf`
+[14] Acciaierie d'Italia / Eni Rewind, *Piano di indagine…*, 14 giugno 2023, Annesso 1, "Superamenti CSC acque falda superficiale – dati PMC 2020-2022" (in realtà dal 2018), pag. 1–8 (la tabella, pozzetto per pozzetto), pag. 9 (riepilogo: pozzetti controllati e pozzetti oltre il limite per sostanza e anno; nel PDF le colonne dei conteggi sono spostate di due righe rispetto ai nomi delle sostanze, le percentuali sono al loro posto), https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=10844_Taranto_23-99506.zip — copia in `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-1-superamenti-falda.pdf`
 
 [15] Commissione parlamentare d'inchiesta sul ciclo dei rifiuti, *Resoconto stenografico dell'audizione dei direttori generali di ISPRA e ARPA Puglia*, seduta n. 168 del 29 giugno 2022, pag. 12 (controlli della falda), 13 (idrocarburi trovati nel 2017), 19 (falda profonda) — copia in `fonti/2022-06_parlamento_commissione-rifiuti-audizione-ispra-arpa-ilva.pdf`
 
@@ -137,6 +160,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [20] ARPA Puglia, Dipartimento provinciale di Taranto, *Piano di caratterizzazione integrativo ILVA area "Parchi Minerali" e "Parco Loppa"*, report di validazione, prot. 42586 del 13 luglio 2016, pag. 6 del PDF (tabella delle acque sotterranee) (scansione); pubblicato da PeaceLink tra i documenti dell'articolo del 28 ottobre 2016, https://www.peacelink.it/ecologia/a/43706.html — copia in `fonti/2016-07_arpa-puglia_report-validazione-42586-parchi-primari-loppa.pdf`
 
 [21] Ministero dell'Ambiente e della tutela del territorio e del mare, Direzione generale per la salvaguardia del territorio e delle acque, *Verbale della Conferenza di servizi istruttoria del SIN di Taranto del 16 marzo 2016* (convocata con nota prot. 3735/STA del 1° marzo 2016), punto 2 dell'ordine del giorno (Ilva, Parchi primari e Parco loppa: superamenti nella falda secondo Ilva, tra cui manganese, IPA e PCB; richieste della conferenza) (scansione); pubblicato da PeaceLink tra i documenti dell'articolo del 28 ottobre 2016, https://www.peacelink.it/ecologia/a/43706.html — copia in `fonti/2016-03_mattm_verbale-cds-16-03-2016-taranto.pdf`
+
+[22] Acciaierie d'Italia / Eni Rewind, *Piano di indagine…*, 14 giugno 2023, Annesso 5, "Sinottico riporti": nove tavole "Superamenti CSC falda superficiale" (alluminio, arsenico, cianuri, cromo totale, cromo VI, nichel, nitriti, selenio per il 2020, 2021 e 2022; tallio solo 2022), una pagina per anno, con i pozzetti "con superamento" e "conforme alla CSC" e il perimetro dello stabilimento, https://bonifichesiticontaminati.mite.gov.it/wp-content/downloadfile.php?file=10844_Taranto_23-99506.zip — copie in `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-5-mappa-falda-alluminio.pdf`, `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-5-mappa-falda-arsenico.pdf`, `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-5-mappa-falda-cianuri.pdf`, `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-5-mappa-falda-cromo-tot.pdf`, `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-5-mappa-falda-cromo-vi.pdf`, `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-5-mappa-falda-nichel.pdf`, `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-5-mappa-falda-nitriti.pdf`, `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-5-mappa-falda-selenio.pdf`, `fonti/2023-06_acciaierie-italia_piano-indagine-annesso-5-mappa-falda-tallio.pdf`. Il disegno sul sito e il conteggio dei pozzetti sono nostri: `.tmp/lavoro/falda_mappa.py` sovrappone le 25 pagine (scarto sotto 1 punto); i pallini rossi di ogni pagina coincidono con i superamenti della tabella dell'Annesso 1 tranne il selenio 2022 (20 sulla mappa, 23 nella tabella)
 
 ## Cosa non sappiamo
 1. [blocca] **La barriera dei Parchi minerali ferma l'inquinamento della falda?** È l'unica misura che dal 2018 pompa e depura l'acqua sotto i Parchi [2][9], ma nel 2024 ARPA e ISPRA hanno scritto che con i dati disponibili non si può valutare se funzioni [2][3]. A valle della barriera, nel 2022, ARPA ha trovato PCB e arsenico oltre i limiti [2]. Non sappiamo quanta acqua venga pompata ogni anno, per quanti giorni l'impianto sia stato fermo, né cosa contenga l'acqua che finisce nella fogna dello stabilimento. Non verificato.
