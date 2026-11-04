@@ -212,6 +212,18 @@ dialog.sheet::backdrop{background:rgba(5,8,12,.5)}
 .photo figcaption{font-family:var(--f-mono);font-size:.68rem;line-height:1.4;color:var(--ink-3)}
 .photo figcaption a{color:inherit}
 .photo.bw img{filter:grayscale(1)}
+/* disegni nostri dentro i report ("**Figura:**" nelle schede): la mappa dei pozzetti della falda (C2) */
+.fig{margin:12px 0;display:grid;gap:8px}
+.fig figcaption{font-size:.82rem;line-height:1.45;color:var(--ink-2)}
+.fmap{display:block;width:100%;height:auto;background:var(--surface-2);border-radius:12px}
+.fm-per{fill:none;stroke:var(--ink-3);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.fm-si{fill:var(--alert);stroke:var(--surface-2);stroke-width:2.5}
+.fm-no{fill:none;stroke:var(--ink-2);stroke-width:3}
+.fm-lab{font:600 32px var(--f-body);fill:var(--ink);paint-order:stroke;stroke:var(--surface-2);stroke-width:9px;stroke-linejoin:round}
+.fm-out{fill:var(--ink-2);font-weight:500}
+.fm-sc{fill:none;stroke:var(--ink-2);stroke-width:3}
+.fm-sct{font-size:26px;font-weight:500;fill:var(--ink-2)}
+.fm-key{font-weight:500;font-size:28px}
 .step-h{display:flex;align-items:center;gap:10px;margin:6px 0 2px}
 .step-h span{width:28px;height:28px;border-radius:50%;background:var(--gA);color:var(--on-g);display:grid;place-items:center;font:800 .85rem/1 var(--f-body);flex:none}
 .step-h h3{font-size:1.1rem}
@@ -255,15 +267,16 @@ th,td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px soli
 th{font-weight:700;color:var(--ink-3);font-size:.75rem;letter-spacing:.04em;text-transform:uppercase;background:var(--surface-2)}
 tr:last-child td{border-bottom:0}
 @media (max-width:640px){
-  .tbl{overflow-x:visible;border:0}
-  table.rt thead{display:none}
-  table.rt,table.rt tbody,table.rt tr,table.rt td{display:block;width:100%}
-  table.rt tr{border-bottom:1px solid var(--line);padding:8px 0}
-  table.rt td{border:0;padding:2px 0}
-  table.rt td[data-l]::before{content:attr(data-l);display:block;font:700 .7rem/1.4 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+  .tbl:not(:has(table.fissa)){overflow-x:visible;border:0}
+  table.rt:not(.fissa) thead{display:none}
+  table.rt:not(.fissa),table.rt:not(.fissa) tbody,table.rt:not(.fissa) tr,table.rt:not(.fissa) td{display:block;width:100%}
+  table.rt:not(.fissa) tr{border-bottom:1px solid var(--line);padding:8px 0}
+  table.rt:not(.fissa) td{border:0;padding:2px 0}
+  table.rt:not(.fissa) td[data-l]::before{content:attr(data-l);display:block;font:700 .7rem/1.4 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
 }
 td.d{white-space:nowrap;font-family:var(--f-mono);font-size:.82rem;color:var(--ink-2)}
-td.num{text-align:right;font-family:var(--f-mono);font-size:.85rem;white-space:nowrap}
+th.num,td.num{text-align:right;font-family:var(--f-mono);font-size:.85rem;white-space:nowrap}
+th.num{white-space:normal;font-family:inherit;font-size:.75rem}
 .unk{list-style:none;padding:0;margin:0;counter-reset:u;display:grid;gap:8px}
 .unk li{counter-increment:u;display:grid;grid-template-columns:26px 1fr;gap:10px;background:var(--gA-soft);border-radius:12px;padding:10px 12px;color:var(--ink);line-height:1.45}
 .unk li::before{content:counter(u);font:800 1rem/1.4 var(--f-body);color:var(--gA)}

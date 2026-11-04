@@ -44,10 +44,23 @@ Il terreno è stato riempito e livellato con "materiali di riporto" (scorie, lop
 
 ## Cosa c'è nel terreno
 - **Materiali di riporto quasi ovunque**: trovati nel 95% circa dei sondaggi, con spessori diversi da zona a zona [1]. ARPA e ISPRA ricordano che scorie e loppa siderurgiche sono state usate per riempimenti, argini e colmate nel porto [3][14].
-- **Terreno oltre i limiti per le aree industriali** (i limiti di legge più alti, "colonna B"): secondo la classificazione di ADI riguarda **25 ettari** su 1.050, cioè 4 ettari dove il terreno supera i limiti ma la falda no e 21 dove superano tutti e due; le zone con terreno nei limiti ma falda oltre i limiti sono 904 ettari [1]. Sono dati di ADI, non validati da ARPA, che ha chiesto di dire con quali analisi sono stati calcolati [3].
+- **Terreno oltre i limiti per le aree industriali** (i limiti di legge più alti, "colonna B"): secondo la classificazione di ADI riguarda **25 ettari** su 1.050, cioè 4 ettari dove il terreno supera i limiti ma la falda no e 21 dove superano tutti e due; le zone con terreno nei limiti ma falda oltre i limiti sono 904 ettari [1]. Sono dati di ADI, non validati da ARPA, che ha chiesto di dire con quali analisi sono stati calcolati [3]. La divisione completa è qui sotto.
 - **Cosa è stato trovato**, nei punti scelti per l'analisi di rischio: mercurio, arsenico, zinco, vanadio, berillio, idrocarburi e altre sostanze organiche [3].
 - **Punti ancora inquinati nel porto.** Negli sporgenti e nel Parco coils solo alcuni "hot spot" sono stati scavati via; in **16 punti** il terreno contaminato **è ancora lì** (AT_004, AT_016, AT_020, AT_021, AT_028, ATV_005, ATV_013a, ATV_014, ATV_014B, ATV_015, ATV_015', ATV016, ATV022, ATV048, ATV060, SV033) [3]. Il punto ATV022 ha lo stesso nome di uno dei tre dove nel giugno 2023 ADI scriveva di aver tolto il terreno inquinato e di essere rientrata nei limiti [1].
 - **Il valore dei limiti.** La legge mette limiti diversi per le zone residenziali e per quelle industriali; qui si usano quelli industriali, più alti [1].
+
+### Come l'azienda divide lo stabilimento
+Nessun ente ha mai diviso lo stabilimento in zone contaminate e zone pulite: l'analisi di rischio del 2016–2017 non è stata esaminata [10] e nel 2022, per ISPRA, le analisi non erano ancora concluse [16]. L'unica divisione è quella di Acciaierie d'Italia nel piano del giugno 2023: quattro classi di aree, secondo che il terreno e la falda superficiale superino o no i limiti per le aree industriali [1]. Il piano dà gli ettari di ogni classe e quanta parte era pavimentata nel 2023, non una mappa [1].
+
+| Zone dove | Ettari | Pavimentate |
+|---|---|---|
+| terreno e falda sono nei limiti | 121 | 48% |
+| solo il terreno è oltre i limiti | 4 | 100% |
+| solo la falda è oltre i limiti | 904 | 62% |
+| terreno e falda sono oltre i limiti | 21 | 81% |
+| **Totale** | **1.050** | |
+
+Va presa con cautela. Sono dati dell'azienda, e ARPA ha chiesto con quali analisi sono stati calcolati [3]. Partono dalle analisi del terreno fatte dal 2004 [1], che per ARPA nel 2016 non potevano descrivere in modo completo il «reale stato di contaminazione dei suoli»: 16 superamenti su 5.421 campioni [21]. E "nei limiti" non dice niente dei riporti di scorie e loppa, trovati nel 95% circa dei sondaggi e mai sottoposti al test di cessione [1][10][16]. Per la falda il quadro è il contrario: oltre i limiti sotto 925 ettari su 1.050, l'88% (calcolo nostro) [1]. Dove, pozzetto per pozzetto, è nella scheda C2.
 
 ## Soldi
 - **Quanto è stato speso per terreno e falda.** Secondo i dati che Acciaierie d'Italia passa a Ilva per il contratto d'affitto, fino al 31 dicembre 2025 per le "misure di prevenzione e bonifica di suolo, sottosuolo ed acque sotterranee" dello stabilimento sono stati spesi circa 5,6 milioni €, tutti dopo ottobre 2018, contro circa 1.355 milioni per tutti i lavori del Piano ambientale e dei rifiuti [20]. Al 31 marzo 2025 la voce più grande erano gli impianti di trattamento dell'acqua di falda, circa 4 milioni (scheda C2) [19]. La tabella non dice con quali soldi, se dell'azienda o del Patrimonio Destinato [20].

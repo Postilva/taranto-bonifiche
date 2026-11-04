@@ -124,9 +124,26 @@ def table_html(rows):
     head, body = rows[0], [r for r in rows[1:] if not FILTRO.search(" ".join(r))]
     if not body:
         return ""
-    th = "".join(f"<th>{inline(c)}</th>" for c in head)
-    tr = "".join("<tr>" + "".join(f'<td data-l="{html.escape(re.sub(r"[*]", "", head[k]) if k < len(head) else "")}">{inline(c)}</td>' for k, c in enumerate(r)) + "</tr>" for r in body)
-    return f'<div class="tbl"><table class="rt"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table></div>'
+    # solo numeri dopo la prima colonna (deciso il 4/11/2026): la tabella resta tabella anche sul telefono, numeri a destra
+    numero = lambda c: re.fullmatch(r"\**[\d.,]*%?\**", c.strip()) is not None
+    fissa = all(numero(c) for r in body for c in r[1:])
+    th = "".join(f'<th{" class=num" if fissa and k else ""}>{inline(c)}</th>' for k, c in enumerate(head))
+    tr = "".join("<tr>" + "".join(f'<td{" class=num" if fissa and k else ""} data-l="{html.escape(re.sub(r"[*]", "", head[k]) if k < len(head) else "")}">{inline(c)}</td>' for k, c in enumerate(r)) + "</tr>" for r in body)
+    return f'<div class="tbl"><table class="rt{" fissa" if fissa else ""}"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table></div>'
+
+
+def figura_html(val):
+    """Riga "**Figura:** file.svg — didascalia [n]" (deciso il 4/11/2026): un disegno nostro in sito/img/, messo dentro la
+    pagina (non come <img>) perché usi i colori e il carattere del sito; la didascalia deve finire con la fonte."""
+    m = re.match(r"\*\*Figura:\*\*\s*(\S+\.svg)\s*—\s*(.+)", val)
+    if not m:
+        sys.exit(f"Figura scritta male (serve \"**Figura:** file.svg — didascalia [n]\"): {val[:60]}")
+    f = ROOT / "sito" / "img" / m.group(1)
+    if not f.exists():
+        sys.exit(f"Figura {m.group(1)}: manca in sito/img/")
+    if not re.search(r"\[\d+\]\.?\s*$", m.group(2)):
+        sys.exit(f"Figura {m.group(1)}: la didascalia non finisce con la fonte")
+    return f'<figure class="fig">{f.read_text(encoding="utf-8").strip()}<figcaption>{inline(m.group(2))}</figcaption></figure>'
 
 
 def section_html(lines):
@@ -134,6 +151,8 @@ def section_html(lines):
     for kind, val in blocks(lines):
         if kind == "h":
             out.append(f"<h5>{inline(val)}</h5>")
+        elif kind == "p" and val.startswith("**Figura:**"):
+            out.append(figura_html(val))
         elif kind == "p":
             if not FILTRO.search(val):
                 out.append(f"<p>{inline(val)}</p>")
