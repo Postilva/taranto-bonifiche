@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202611051554">
+<link rel="stylesheet" href="stile.css?v=202611051605">
 <body class="mappa">
 
 <header class="topbar">
@@ -74,8 +74,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202611051554"></script>
-<script src="comune.js?v=202611051554"></script>
+<script src="dati.js?v=202611051605"></script>
+<script src="comune.js?v=202611051605"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -236,6 +236,9 @@ function deselect(){
   // da lontano (sotto lo zoom 13) i pallini sono punti colorati senza codice, così non si coprono
   const zcls = () => { map.getContainer().classList.toggle("zlo", map.getZoom() < 13); map.getContainer().classList.toggle("zhi", map.getZoom() >= 15); };
   map.on("zoomend", zcls); zcls();
+  // pallini che si toccano, spostati di quel che basta (separaPallini in comune.js); i pallini si creano qui sotto
+  const separa = () => separaPallini(map, Object.values(markers));
+  map.on("zoomend", separa); window.separa = separa;
 
   PTS.forEach(p => {
     const m = L.marker(p.ll, {icon:pinIcon(p), keyboard:true, title:`${p.code} · ${p.name}`, zIndexOffset: p.official ? 800 : p.ok ? 500 : 0}).addTo(map);
@@ -281,6 +284,7 @@ function renderList(){
   $("#list").innerHTML = h || `<li class="empty">Nessuna area corrisponde ai filtri.</li>`;
   $("#lcount").textContent = `${shown.length} ${shown.length === 1 ? "area mostrata" : "aree mostrate"}`;
   PTS.forEach(p => pinOf(p.code)?.classList.toggle("off", !matches(p)));
+  window.separa?.();
   if (selected && !matches(PT[selected])) deselect();
   else if (selected) document.querySelector(`.list li[data-code="${selected}"]`)?.classList.add("sel");
 }

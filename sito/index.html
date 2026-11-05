@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202611051554">
+<link rel="stylesheet" href="stile.css?v=202611051605">
 
 <header class="topbar">
   <div class="in">
@@ -102,8 +102,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202611051554"></script>
-<script src="comune.js?v=202611051554"></script>
+<script src="dati.js?v=202611051605"></script>
+<script src="comune.js?v=202611051605"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -187,7 +187,7 @@ const PANNELLI = {
       <div class="intro">${c(C.fabbrica.chiusura)}</div>
       ${C.fabbrica.parti.map(p => `<h3 class="parte-h">${esc(p.titolo)}</h3><div class="intro">${p.righe.length ? c(p.html).replace("<!--tabella-->", tabellaSpese(p)) : c(p.html)}</div>`).join("")}
       <div id="fabmap" class="fabmap" role="region" aria-label="Mappa dello stabilimento con le aree di Ilva"></div>
-      <p class="note">Il perimetro dello stabilimento viene da OpenStreetMap; i pallini sono le aree di Ilva di questo censimento, con la posizione della mappa (spesso indicativa). Tocca un pallino per leggere il report.</p>
+      <p class="note">Il perimetro dello stabilimento viene da OpenStreetMap; i pallini sono le aree di Ilva di questo censimento, con la posizione della mappa (spesso indicativa). Avvicinati per leggere i codici; tocca un pallino per leggere il report.</p>
       ${C.fabbrica.img.map(f => fotoHtml(f)).join("")}`;
     return corpo + fontiDi("fabbrica", corpo);
   }],
@@ -276,11 +276,20 @@ function mappaFabbrica(d){
   addSat(fm);   // foto satellitare come nella mappa grande
   const poly = L.polygon(STABILIMENTO, {color:"#fb923c", weight:2, dashArray:"6 4", fill:false, interactive:false}).addTo(fm);
   const pts = PTS.filter(p => GRUPPO[p.code] === "A");
+  const mk = [];
   pts.forEach(p => {
     const m = L.marker(p.ll, {icon:pinIcon(p), keyboard:true, title:`${p.code} · ${p.name}`}).addTo(fm);
+    mk.push(m);
     m.on("click", () => { const s = verified[p.code]; location.href = s ? reportHref(p.code) : "mappa.html#" + p.code; });
+    // col mouse sopra (o col tasto Tab) il pallino mostra il codice anche da lontano
+    const pin = () => m.getElement()?.querySelector(".pin");
+    m.on("mouseover", () => pin()?.classList.add("hl")); m.on("mouseout", () => pin()?.classList.remove("hl"));
   });
+  // da lontano (sotto lo zoom 14) pallini senza codice, come nella mappa grande: i codici si coprivano
+  const zcls = () => fm.getContainer().classList.toggle("zlo", fm.getZoom() < 14);
+  fm.on("zoomend", () => { zcls(); separaPallini(fm, mk); });
   fm.fitBounds(poly.getBounds().pad(.15));
+  zcls(); separaPallini(fm, mk);
 }
 
 /* ---------- grafico: a che tappa è ogni area ---------- */

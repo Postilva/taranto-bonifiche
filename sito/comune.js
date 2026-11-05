@@ -395,6 +395,27 @@ function coverZoom(m, from){
   for (let z = Math.max(11, from); z < 14; z += .25) if (m.getBoundsZoom(tileBounds(z), true) <= z) return z;
   return 14;
 }
+// pallini che si toccano (A5-A7; C1, C2 e C35 al centro dello stabilimento): a ogni zoom si spostano sullo schermo di quanto
+// basta per non coprirsi, lungo l'asse dove serve meno spazio; il punto vero resta quello della scheda. Quelli spenti dai
+// filtri (.off) non contano. Va richiamata dopo ogni cambio di zoom o di filtri
+function separaPallini(m, markers){
+  const P = markers.map(k => { const e = k.getElement()?.querySelector(".pin"), q = m.latLngToLayerPoint(k.getLatLng());
+    if (e) e.style.margin = ""; return e && !e.classList.contains("off") && {e, x:q.x, y:q.y, w:e.offsetWidth, h:e.offsetHeight, dx:0, dy:0}; }).filter(Boolean);
+  for (let it = 0; it < 40; it++) {
+    let mosso = false;
+    P.forEach((a, i) => P.slice(i + 1).forEach((b, j) => {
+      let vx = (b.x + b.dx) - (a.x + a.dx), vy = (b.y + b.dy) - (a.y + a.dy);
+      if (!vx && !vy) { vx = Math.cos(i + j); vy = Math.sin(i + j); }   // stessa posizione: una direzione qualsiasi
+      const ox = (a.w + b.w) / 2 + 3 - Math.abs(vx), oy = (a.h + b.h) / 2 + 3 - Math.abs(vy);
+      if (ox <= 0 || oy <= 0) return;
+      mosso = true;
+      if (ox / (a.w + b.w) < oy / (a.h + b.h)) { const t = Math.sign(vx) * ox / 2; a.dx -= t; b.dx += t; }
+      else { const t = Math.sign(vy) * oy / 2; a.dy -= t; b.dy += t; }
+    }));
+    if (!mosso) break;
+  }
+  P.forEach(a => { if (a.dx || a.dy) a.e.style.margin = `${Math.round(a.dy)}px 0 0 ${Math.round(a.dx)}px`; });
+}
 const pinIcon = (p, extra="") => L.divIcon({className:"pinwrap", iconSize:[0,0], html:`<span class="pin g${GRUPPO[p.code]} f-${faseCode(p.code)} ${p.ok?"ok":""} ${p.official?"exact":""} ${extra}">${p.code}</span>`});
 // cifra in euro → [numero, unità]: sotto il milione euro interi (75.751 €), sopra milioni con due decimali (18,40 mln €)
 const fmtSoldi = v => v < 1e6 ? [Math.round(v).toLocaleString("it-IT"), "€"] : [(v / 1e6).toLocaleString("it-IT", {minimumFractionDigits:2, maximumFractionDigits:2}), "mln €"];
