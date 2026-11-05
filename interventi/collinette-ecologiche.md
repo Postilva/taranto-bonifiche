@@ -1,5 +1,5 @@
 # A15 – Collinette ecologiche (quartiere Tamburi)
-*Stato scheda: approvata — aggiornata al 2 novembre 2026*
+*Stato scheda: approvata — aggiornata al 5 novembre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -8,10 +8,10 @@
 Dopo il sequestro del febbraio 2019 il Sindaco ha chiuso due scuole vicine, riaperte a settembre [9][10][14][15]. Su una parte della Collinetta 3 è stata messa una rete in fibra di cocco contro la polvere [11][12]. Su richiesta della Procura, Ilva ha fatto indagini con il piano di ARPA e nel 2021 un'analisi di rischio che, secondo Ilva, non trova rischi; l'ha depositata in Procura e non abbiamo trovato atti di enti pubblici che la approvino [2][4]. Il 2 dicembre 2024 la Regione ha approvato il piano delle analisi complete [6].
 
 ### Cosa manca
-Le analisi complete a fine 2025 non erano ancora iniziate [1]. Non c'è nessuna messa in sicurezza definitiva né bonifica [4][11]. Per ARPA (2024) le collinette non servono più come barriera per la fabbrica, e la Regione chiede di valutarle anche con i limiti per verde pubblico e case [6].
+Le analisi complete a fine 2025 non erano ancora iniziate [1], e a marzo 2026 Ilva stava ancora mandando ad ARPA le ultime correzioni del piano operativo [22][23]. Non c'è nessuna messa in sicurezza definitiva né bonifica [4][11]. Per ARPA (2024) le collinette non servono più come barriera per la fabbrica, e la Regione chiede di valutarle anche con i limiti per verde pubblico e case [6].
 
 ### Adesso
-A fine 2025 Ilva aveva affidato i lavori e stava preparando il piano operativo da concordare con ARPA [1]. Intanto controlla l'acqua sotterranea ogni tre mesi, ma i risultati non sono pubblici [1].
+Il 12 marzo 2026 Ilva ha mandato ad ARPA la quarta versione del piano operativo, con i laboratori scelti e i preventivi di ARPA per i controlli firmati [22][23]. Come chiesto da ARPA, il piano confronta i risultati anche con i limiti per verde pubblico e case [22]. La data di inizio delle analisi non è nei documenti che abbiamo [22]. Intanto Ilva controlla l'acqua sotterranea ogni tre mesi, ma i risultati non sono pubblici [1].
 
 ## Che posto è
 Tre rilievi artificiali di circa 9–10 ettari tra l'acciaieria e il quartiere Tamburi, lungo la Statale 7 Appia; la Collinetta n. 3 è attaccata alla scuola Deledda [3][4][5][6][9][13].
@@ -50,6 +50,12 @@ Sono state costruite negli anni '70 per fare da barriera alle polveri dello stab
   - prima di cominciare Ilva deve mandare il **piano operativo**, con il metodo del laboratorio privato e un **cronoprogramma con la data di inizio**, e chiedere ad ARPA il preventivo per i controlli;
   - la determina non comporta spese per la Regione.
   - **Dopo:** a fine 2025 Ilva ha affidato i lavori e sta programmando le attività, legate all'invio ad ARPA del piano operativo per concordare i punti di campionamento [1].
+- **Piano operativo** (novembre 2025 – marzo 2026): Ilva lo scrive con la ditta Castiglia (prima versione del 3 novembre 2025, terza del 4 dicembre 2025, che sposta in avanti la data di avvio) e lo manda ad ARPA il 10 febbraio 2026 [22][23]. Il 9 marzo 2026 ARPA chiede correzioni: confrontare i risultati anche con i limiti per verde pubblico e case (tabella A), aggiungere nitriti e boro alle analisi dei materiali di riporto, prendere il terreno superficiale su un'area di 1 m × 1 m, chiarire i metodi del laboratorio [22]. Il 12 marzo 2026 Ilva manda la quarta versione (10 marzo 2026), che accoglie le richieste, e i preventivi di ARPA firmati [22][23]. Cosa prevede [22]:
+  - 12 sondaggi, di cui 2 trasformati in pozzi per controllare la falda (PZ6 e PZ7), e 12 campioni del terreno superficiale (0–10 cm);
+  - analisi dei terreni, dei materiali di riporto (anche con il "test di cessione", per vedere cosa passa nell'acqua) e una campagna sull'acqua di tutti i pozzi;
+  - analisi dei terreni del laboratorio Tecnolab di Altamura, dell'acqua del laboratorio S.C.A. di Mesagne [22][23];
+  - una relazione finale con i risultati, che servirà per la nuova analisi di rischio.
+  Nella copia che ci ha mandato la Regione, l'allegato con il cronoprogramma ha solo il titolo [22].
 - **Controllo dell'acqua sotterranea (falda)**: ogni tre mesi da gennaio 2024; la quarta campagna è del 10–11 novembre 2025 [1]. I risultati non sono pubblicati.
 - **Incendio** (20 giugno 2024): brucia circa il 75–80% della Collinetta 3. Un agronomo indica di abbattere diversi alberi pericolanti, soprattutto vicino alla scuola e alle case; i lavori iniziano il 31 marzo 2025 [1][2].
 - **Manutenzione**: taglio dell'erba, fasce antincendio, rimozione di rifiuti abbandonati da altri [1].
@@ -62,7 +68,7 @@ Sono state costruite negli anni '70 per fare da barriera alle polveri dello stab
   - "assenza di rischio sanitario ed ambientale" legato ai materiali delle collinette;
   - nessun rischio per la salute né per i lavoratori dentro l'area né per la popolazione che vive fuori, "adulti e bambini".
 - **Chi l'ha fatta.** L'ha fatta Ilva, cioè chi gestisce l'area, e l'ha consegnata alla Procura nel giugno 2021 [4]. Non abbiamo trovato **nessun atto di approvazione** da parte di Regione, ARPA, ASL o Ministero. La relazione di Ilva di fine 2025 dice che una nuova analisi di rischio verrà fatta solo **dopo** le nuove analisi [1].
-- **Su quali dati si basa.** Sulle indagini del 2020 [4]. Secondo Ilva, il terreno superficiale e quello più profondo erano in generale nei limiti **per le aree industriali** [4]. La legge prevede anche limiti per le aree a verde pubblico e residenziali [8]. Per un'area accanto a case e scuole non sappiamo come vada rispetto a quei limiti. Nel 2024 la Regione, su indicazione di ARPA, ha chiesto che le nuove analisi tengano conto anche di questi limiti più severi ("Scenario A") e che la futura analisi di rischio spieghi su quale configurazione dell'area applicarli [6].
+- **Su quali dati si basa.** Sulle indagini del 2020 [4]: 10 sondaggi, il più profondo fino a 36,5 metri, fatti tra il 19 giugno 2019 e il 10 aprile 2020; i campioni li ha analizzati Ilva, senza analisi in contraddittorio di ARPA [24]. Secondo Ilva, il terreno superficiale e quello più profondo erano in generale nei limiti **per le aree industriali** [4]. La legge prevede anche limiti per le aree a verde pubblico e residenziali [8]. Per un'area accanto a case e scuole non sappiamo come vada rispetto a quei limiti. Per ARPA i limiti giusti sono proprio quelli per verde pubblico e case: lo ha scritto con ISPRA nel maggio 2019, dopo che il 13 marzo 2019, a un tavolo tecnico in Provincia, il Comune aveva presentato il certificato di destinazione urbanistica delle aree e chiesto lo stesso; il Comune lo ha ripetuto nell'aprile 2023 [24]. Nell'ottobre 2023 Ilva ha risposto che vanno usati i limiti industriali e che il rischio per case e scuole va valutato solo con l'analisi di rischio; ARPA ha replicato che così l'analisi di rischio lascerebbe fuori le sostanze che superano solo i limiti per le case [24]. Nel 2024 la Regione, su indicazione di ARPA, ha chiesto che le nuove analisi tengano conto anche di questi limiti più severi ("Scenario A") e che la futura analisi di rischio spieghi su quale configurazione dell'area applicarli [6].
 - **Cosa è stato trovato** (dalle sintesi disponibili):
   - nel 2018–2019, ARPA ha trovato superamenti dei limiti (CSC) [9][14]. Il Sindaco parla di "metalli in particolare" [9]. Le relazioni di ARPA non sono pubbliche;
   - nel 2020, secondo Ilva: diverse non conformità nel "test di cessione" dei materiali di riporto (cioè gli inquinanti possono passare nell'acqua) e alcuni superamenti dei limiti nella falda [4];
@@ -91,11 +97,19 @@ Le fonti indicano quattro motivi:
    - 14 novembre 2024: parere di ARPA, che dà atto che le osservazioni sono state accolte [6];
    - 2 dicembre 2024: approvazione [1][2][6].
    
-   A fine 2025 Ilva stava ancora programmando i lavori con ARPA [1].
+   A fine 2025 Ilva stava ancora programmando i lavori con ARPA [1]. Il piano operativo è arrivato ad ARPA il 10 febbraio 2026, è stato corretto a marzo, e non sappiamo quando partono i lavori [22][23].
 - **Il confronto.** Nel 2019 Ilva stessa scriveva che la bonifica o messa in sicurezza definitiva richiedeva "tipicamente" 2–5 anni [11]. Dal sequestro sono passati più di sette anni, e a fine 2025 le analisi complete non erano ancora partite [1].
 
 ## Dove si trova e quanto è grande
 - **Coordinate** indicate dalla Regione: 688511,7869 m E – 4485224,975 m N, nel sistema UTM-WGS84 fuso 33 Nord [19]; per la Regione è il punto centrale ("centroide") del poligono dei "Rilevati cd. Collinette Ecologiche lungo SS7 Appia", che misura 97.701 m² [19]. Nell'anagrafe aggiornata da ARPA a settembre 2026 il punto è 688473,5241 m E – 4485197,948 m N e la superficie 89.502 m² [21]. Per ARPA il procedimento è ancora all'"approvazione PdC" e il sito "potenzialmente contaminato", come nel 2020 [19][21]. In gradi sono circa **40,496° N – 17,225° E** (conversione nostra). Il punto è nel mezzo delle tre collinette, non accanto alla scuola Deledda.
+- **Le tre collinette** secondo il piano operativo di Ilva del 2026 [22]:
+  | Collina | Superficie | Quota della cima |
+  |---|---|---|
+  | 1 | 49.000 m², di cui circa 39.000 in rilievo | 44 m sul mare |
+  | 2 | 9.500 m², tutti in rilievo | 34 m sul mare |
+  | 3 | 22.500 m², di cui circa 9.000 in rilievo | 32 m sul mare |
+
+  In tutto 81.000 m², cioè 8,1 ettari (calcolo nostro): meno dei 9–10 ettari delle altre fonti. La quota è l'altezza sul livello del mare, non l'altezza della collinetta.
 - **Catasto:** Comune di Taranto, foglio 201, particelle 6, 179, 201 e 263 (Collina 1), e foglio 202, particelle 5, 96, 145 e 146 (Collina 2 e Collina 3) [6].
 
 ## Soldi
@@ -129,6 +143,7 @@ Le fonti indicano quattro motivi:
 | 12 luglio 2022 | Sopralluogo della Commissione parlamentare | [5] |
 | 24 ottobre 2022 | Fine del sequestro (notificata il 7 novembre) | [3] |
 | 4 novembre 2022 | Piano di caratterizzazione presentato alla Regione | [1][3] |
+| 22 novembre 2023 | ARPA ribadisce: i risultati vanno confrontati con i limiti per verde pubblico e case | [24] |
 | gennaio 2024 | Inizio dei controlli della falda ogni tre mesi | [1] |
 | 15 maggio 2024 | La Regione chiede al Ministero di inserire le collinette nel SIN | [7] |
 | 20 giugno 2024 | Incendio sul 75–80% della Collinetta 3 | [1] |
@@ -137,6 +152,9 @@ Le fonti indicano quattro motivi:
 | 11 dicembre 2024 | Il Ministero: le collinette non possono entrare nel SIN con questa procedura | [7] |
 | 31 marzo 2025 | Iniziano i tagli degli alberi pericolanti | [1] |
 | fine 2025 | Lavori affidati, analisi non ancora iniziate | [1] |
+| 10 febbraio 2026 | Ilva manda ad ARPA il piano operativo delle analisi | [22] |
+| 9 marzo 2026 | ARPA chiede correzioni, tra cui il confronto con i limiti per verde e case | [22] |
+| 12 marzo 2026 | Ilva manda la quarta versione del piano operativo e i preventivi di ARPA firmati | [22][23] |
 
 ## Fonti
 [1] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pagine 22 e 44–45 (scansione), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
@@ -181,8 +199,14 @@ Le fonti indicano quattro motivi:
 
 [21] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera), sito TA049 "Rilevati cd. Collinette Ecologiche lungo SS7 Appia" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
 
+[22] Ilva S.p.A. in A.S. (consulenza tecnica Castiglia srl), *Realizzazione delle indagini ambientali previste nel "Piano di caratterizzazione ambientale" (PdCA) del sito "Collinette ecologiche" – Piano operativo di dettaglio*, rev. 04 del 10 marzo 2026, pagine 2, 6, 8–9, 13–14, 21, 26–28, 35 e, nell'allegato 11, il parere di ARPA Puglia prot. 15540 del 9 marzo 2026 (pagine 85–89). Ricevuto dalla Regione Puglia il 5 novembre 2026 con la nota prot. 0657551/2026, in risposta alla nostra richiesta di accesso civico n. 03 (non pubblicato online) — copia in `fonti/2026-03_ilva-as_piano-operativo-dettaglio-collinette-rev4.pdf`
+
+[23] Ilva S.p.A. in A.S., *Collinette Ecologiche (ID 16) – Indagini del Piano di caratterizzazione – Riscontro a nota prot. 15540 del 09/03/2026*, lettera ad ARPA Puglia del 12 marzo 2026, pagina 2 (ricevuta come la [22], non pubblicata online) — copia in `fonti/2026-03_ilva-as_riscontro-arpa-15540-piano-operativo-collinette.pdf`
+
+[24] ARPA Puglia, DAP Taranto, *Aree di competenza ILVA S.p.A. in A.S. – Collinette Ecologiche (ID 16) – Piano di caratterizzazione – controdeduzioni ARPA Puglia*, prot. 76769 del 22 novembre 2023, pagine 2–4 (ricevuta come la [22], non pubblicata online) — copia in `fonti/2023-11_arpa-puglia_controdeduzioni-76769-collinette-colonna-a.pdf`
+
 ## Cosa non sappiamo
-1. [blocca] **Quando partono le analisi complete delle collinette?** La Regione ha approvato il piano il 2 dicembre 2024, ma prima di iniziare Ilva deve mandare un piano operativo con la data presunta di inizio [6]. A fine 2025 Ilva stava ancora preparando quel piano con ARPA [1]: non sappiamo se l'abbia mandato né quale data indichi. Da queste analisi dipende la nuova analisi di rischio, che Ilva farà solo dopo [1]. Anche il piano approvato (revisione 02) non è pubblico. Vedi la bozza FOIA n. 1.
+1. [blocca] **Quando partono le analisi complete delle collinette?** La Regione ha approvato il piano il 2 dicembre 2024, ma prima di iniziare Ilva deve mandare un piano operativo con la data presunta di inizio [6]. A fine 2025 Ilva stava ancora preparando quel piano con ARPA [1]: non sappiamo se l'abbia mandato né quale data indichi. Da queste analisi dipende la nuova analisi di rischio, che Ilva farà solo dopo [1]. Il piano operativo è arrivato ad ARPA il 10 febbraio 2026 e la versione corretta il 12 marzo 2026 [22][23], ma nella copia avuta dalla Regione il cronoprogramma è vuoto [22]: la data di inizio non la sappiamo. Del piano approvato (revisione 02) la Regione ci ha mandato solo la lettera di Ilva e i file delle mappe; il resto l'abbiamo chiesto di nuovo.
 2. [altra] **Qualcuno ha controllato l'analisi di rischio del 2021?** È l'unico documento che dice che chi vive accanto alle collinette non corre rischi, ma l'ha scritto Ilva, che gestisce l'area, e l'ha depositato in Procura [4]. Non è pubblica e non abbiamo trovato nessun atto di approvazione di un ente pubblico. Secondo Ilva, nell'aprile 2021 ARPA aveva chiesto integrazioni ai documenti, mandate a giugno 2021 [4]: non sappiamo su quale documento né se ARPA le abbia ritenute sufficienti. Vedi la bozza FOIA n. 2.
 3. [altra] **Quanto è inquinata l'acqua sotto le collinette?** Davanti alla Commissione parlamentare sui rifiuti il pubblico ministero ha parlato di metalli, "soprattutto cromo esavalente" [5]. Ilva parla di "alcuni superamenti" senza legame con i materiali delle collinette [4]. Ilva controlla l'acqua ogni tre mesi da gennaio 2024, ma i risultati non sono pubblici [1].
 4. [altra] **Quanta polvere arriva nel quartiere dalle collinette?** Nessuna fonte ufficiale lo misura separatamente.
@@ -194,7 +218,7 @@ Le fonti indicano quattro motivi:
 6. [altra] **In che stato sono le reti frangivento sopra le collinette?** Sono di Acciaierie d'Italia, non di Ilva [8]. Nel 2022 un pannello era crollato sulla Collinetta 1 [4]. Non sappiamo in che stato siano oggi.
 7. [altra] **L'indagine penale è chiusa?** Le fonti ufficiali trovate parlano solo del dissequestro, valido dal 24 ottobre 2022 [3]. Che l'indagine sia stata archiviata lo dice solo la stampa: non verificato.
 8. [fonti] **Di cosa sono fatte esattamente?** L'ordinanza del Sindaco parla di "loppa, scorie d'altoforno" [9]. La Commissione parlamentare parla di "residui dell'attività produttiva", "presumibilmente scorie e polveri di abbattimento delle emissioni" [5]. Ilva scrive solo "materiali di riporto" [4]. Le relazioni di ARPA del 2018–2019 con i valori non sono pubbliche. Alcuni giornali citano diossine nel terreno superficiale fino a 45 ng/kg, contro un limite di 10: **non verificato** su fonti ufficiali.
-9. [fonti] **Quanto sono grandi?** Il Comune scrive nove ettari [9], Ilva 9,6 ettari [4], la Regione "circa 10 ha" [6]. La Commissione parla di "vari chilometri" di lunghezza [5]. Nessuna fonte dà la lunghezza esatta né l'altezza.
+9. [fonti] **Quanto sono grandi?** Il Comune scrive nove ettari [9], Ilva 9,6 ettari [4], la Regione "circa 10 ha" [6], mentre le superfici delle tre collinette nel piano operativo del 2026 sommano 8,1 ettari (calcolo nostro) [22]. La Commissione parla di "vari chilometri" di lunghezza [5]. Nessuna fonte dà la lunghezza esatta né l'altezza rispetto al terreno intorno; il piano operativo dà solo la quota sul mare della cima (32–44 m) [22].
 10. [fonti] **Due atti con lo stesso numero, 249.** Il 2 dicembre 2024 c'è la determina **regionale** n. 249, che approva il piano delle analisi delle collinette [6]. L'11 dicembre 2024 c'è il decreto **del Ministero** n. 249 (riduzione del SIN), che parla delle collinette solo per dire che non possono entrare nel SIN con quella procedura [7]. Sono due atti diversi.
 11. [fonti] **La "collinetta A5-20" delle tabelle di Ilva è un'altra cosa?** Nelle tabelle di Ilva compare una "collinetta A5-20" con lavori di "messa in sicurezza permanente": è un intervento AIA dentro lo stabilimento, a quanto pare diverso da questo [2][3]. Da verificare.
 
