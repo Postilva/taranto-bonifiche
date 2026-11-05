@@ -858,3 +858,16 @@ a.parola{color:inherit;text-decoration:underline dotted var(--ink-3);text-underl
 .pr .aree{display:flex;flex-wrap:wrap;gap:6px}
 .pr .aree .area{font-weight:500;font-size:.78rem}
 @media (min-width:900px){.prr{grid-template-columns:1fr 1fr}.pr.largo{grid-column:1/-1}}
+
+/* mappa grande: foto satellitare (addSat in comune.js) */
+.sat{background:#1a1d1a}
+.sat .leaflet-tile-pane{filter:brightness(.88)}   /* colori veri, appena scuriti per i pallini */
+.satl canvas.leaflet-tile{width:256.5px!important;height:256.5px!important}   /* quadretti disegnati (colori corretti fuori dal riquadro di Esri) */
+.satl.hd canvas.leaflet-tile{width:128.5px!important;height:128.5px!important}   /* telefoni: quadretti dello zoom successivo a metà grandezza */
+.sat .pin{box-shadow:0 0 0 1.5px rgba(255,255,255,.9),0 2px 8px rgba(0,0,0,.6)}
+.sat .pin:not(.ok){background:rgba(21,21,23,.92);color:#e4e4e7;border-color:#d4d4d8}
+.luogo-w{pointer-events:none}
+.luogo{position:absolute;transform:translate(-50%,-50%);white-space:pre;text-align:center;font:600 12px/1 var(--f-body);color:#fff;letter-spacing:.02em;text-shadow:0 0 3px #000,0 0 6px #000,0 1px 2px #000;opacity:.92}
+.luogo.big{font-size:11px;line-height:1.25;text-transform:uppercase;letter-spacing:.08em;color:#fed7aa}
+.luogo.acqua{font-style:italic;color:#bae6fd;font-weight:500}
+.zhi .luogo{display:none}

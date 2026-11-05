@@ -318,9 +318,10 @@ document.addEventListener("click", e => {
 
 /* ---------- mappa: tile locali (sito/tiles) e segnaposti ---------- */
 // tile scaricati per ogni zoom: [x min, x max, y min, y max]. Agli zoom lontani la zona è più ampia, così la vista d'insieme riempie lo schermo.
-const TILES = {11:[1119,1124,769,773], 12:[2239,2249,1538,1547], 13:[4481,4495,3081,3091], 14:[8969,8984,6166,6177]};
+// 15 e 16 (anche oltre, nella mappa grande): la zona dei pallini con un po' di margine, solo per limitare lo spostamento
+const TILES = {11:[1119,1124,769,773], 12:[2239,2249,1538,1547], 13:[4481,4495,3081,3091], 14:[8969,8984,6166,6177], 15:[17945,17957,12332,12348], 16:[35891,35915,24665,24697]};
 function tileBounds(z){
-  const zz = Math.max(11, Math.min(14, Math.round(z))), [x0,x1,y0,y1] = TILES[zz], n = 2 ** zz;
+  const zz = Math.max(11, Math.min(16, Math.round(z))), [x0,x1,y0,y1] = TILES[zz], n = 2 ** zz;
   const lon = x => x / n * 360 - 180, lat = y => Math.atan(Math.sinh(Math.PI * (1 - 2 * y / n))) * 180 / Math.PI;
   return L.latLngBounds([lat(y1 + 1), lon(x0)], [lat(y0), lon(x1 + 1)]);
 }
@@ -333,6 +334,61 @@ function addTiles(m){
   m.whenReady(lock);
   // oltre lo zoom 14 (solo la mappa grande) Leaflet ingrandisce i tile del 14: un po' sfocati, ma i pallini vicini si separano
   return L.tileLayer(RADICE + "tiles/{z}/{x}/{y}.png", {minZoom:11, maxZoom:16, maxNativeZoom:14, bounds:TILE_BOUNDS, attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(m);
+}
+// foto satellitare della mappa grande: Esri World Imagery, come la mappa piccola dei report. Sui telefoni (schermi ad alta
+// densità) quadretti dello zoom successivo a metà grandezza, così la vista d'insieme è più nitida
+function addSat(m){
+  const lock = () => m.setMaxBounds(tileBounds(m.getZoom()));
+  m.options.maxBoundsViscosity = 1;
+  m.on("zoomend", lock); m.whenReady(lock);
+  m.getContainer().classList.add("sat");
+  const hd = L.Browser.retina;
+  return new SatEsri("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {className: hd ? "satl hd" : "satl", minZoom:11, ...(hd ? {detectRetina:true, maxZoom:19, maxNativeZoom:17} : {maxZoom:18}), attribution:"Foto satellitare: Esri, Maxar, Earthstar Geographics"}).addTo(m);
+}
+// Esri usa attorno a Taranto foto più scure e grigie di quelle intorno: un rettangolo con i bordi qui sotto, uguale agli
+// zoom 12-14 (trovato da noi sui mosaici, script .tmp/lavoro/esri_bordi.py). Fuori dal rettangolo i colori si avvicinano
+// a quelli di dentro, canale per canale (nuovo = vecchio × guadagno + scarto, misurati nelle fasce di terra ai due lati
+// dei bordi); per l'acqua una correzione a parte, più leggera
+const ESRI_RIQ = {n:40.60001, s:40.35727, w:17.13301, e:17.33299};
+const ESRI_LUT = [[.663, 3.9], [.746, -2.5], [.758, 4.4]].map(([g, o]) => Uint8ClampedArray.from({length:256}, (_, v) => v * g + o));
+const SatEsri = window.L && L.TileLayer.extend({
+  createTile(coords, done){
+    const c = document.createElement("canvas"); c.width = c.height = 256;
+    const img = new Image(); img.crossOrigin = "anonymous";
+    img.onload = () => {
+      const ctx = c.getContext("2d"); ctx.drawImage(img, 0, 0);
+      const n = 256 * 2 ** this._getZoomForUrl();
+      const X = lo => (lo + 180) / 360 * n - coords.x * 256;
+      const Y = la => (1 - Math.asinh(Math.tan(la * Math.PI / 180)) / Math.PI) / 2 * n - coords.y * 256;
+      const x0 = X(ESRI_RIQ.w), x1 = X(ESRI_RIQ.e), y0 = Y(ESRI_RIQ.n), y1 = Y(ESRI_RIQ.s);
+      if (!(x0 <= 0 && x1 >= 256 && y0 <= 0 && y1 >= 256)) {   // quadretto non tutto dentro: si corregge la parte fuori
+        try {
+          const d = ctx.getImageData(0, 0, 256, 256), p = d.data, [R, G, B] = ESRI_LUT;
+          for (let y = 0; y < 256; y++) {
+            const fuoriRiga = y < y0 || y >= y1;
+            for (let x = 0; x < 256; x++) {
+              if (!fuoriRiga && x >= x0 && x < x1) continue;
+              // l'acqua (blu più del rosso, scura) ha una correzione sua, più leggera: rosso +7, blu +3 (differenza delle
+              // medie nelle fasce d'acqua ai due lati del bordo ovest); in mezzo, passaggio graduale
+              const i = (y * 256 + x) * 4, r = p[i], g = p[i + 1], b = p[i + 2];
+              const w = Math.min(1, Math.max(0, (b - r - 10) / 20)) * Math.min(1, Math.max(0, (60 - r) / 20));
+              p[i] = R[r] + (r + 7 - R[r]) * w; p[i + 1] = G[g] + (g - G[g]) * w; p[i + 2] = B[b] + (b + 3 - B[b]) * w;
+            }
+          }
+          ctx.putImageData(d, 0, 0);
+        } catch (e) {}   // senza permesso di leggere i pixel resta la foto originale
+      }
+      done(null, c);
+    };
+    img.onerror = e => done(e, c);
+    img.src = this.getTileUrl(coords);
+    return c;
+  }
+});
+// nomi dei luoghi sulla foto satellitare (posizioni messe da noi, solo per orientarsi; scelte perché non coprano i pallini)
+const LUOGHI = [["Stabilimento\nIlva",40.5170,17.1960,"big"],["Tamburi",40.4925,17.2455,""],["Paolo VI",40.5265,17.2375,""],["Statte",40.5640,17.2040,""],["Mar Piccolo",40.4990,17.2660,"acqua"],["Mar Grande",40.4560,17.2010,"acqua"],["Città vecchia",40.4745,17.2340,""],["Borgo",40.4680,17.2440,""]];
+function addLuoghi(m){
+  LUOGHI.forEach(([t, la, lo, c]) => L.marker([la, lo], {interactive:false, keyboard:false, zIndexOffset:-1000, icon:L.divIcon({className:"luogo-w", iconSize:[0,0], html:`<span class="luogo ${c}">${t}</span>`})}).addTo(m));
 }
 // zoom più lontano (tra minimo e 14, a passi di 0,25) al quale la finestra della mappa sta tutta dentro la zona coperta dai tile
 function coverZoom(m, from){

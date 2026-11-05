@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202611051313">
+<link rel="stylesheet" href="stile.css?v=202611051554">
 <body class="mappa">
 
 <header class="topbar">
@@ -74,8 +74,8 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202611051313"></script>
-<script src="comune.js?v=202611051313"></script>
+<script src="dati.js?v=202611051554"></script>
+<script src="comune.js?v=202611051554"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -201,9 +201,11 @@ function deselect(){
 
 (function initMap(){
   if (!window.L) { $("#map").innerHTML = '<p style="padding:16px">La mappa non si è caricata. Le aree sono nell\'elenco.</p>'; return; }
-  map = L.map("map", {minZoom:11, maxZoom:16, zoomSnap:.25, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, zoomControl:false});
+  map = L.map("map", {minZoom:11, maxZoom:18, zoomSnap:.25, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, zoomControl:false});
   L.control.zoom({position:"topright"}).addTo(map);
-  addTiles(map);
+  addSat(map);
+  L.polygon(STABILIMENTO, {color:"#fb923c", weight:2, dashArray:"6 4", fill:false, interactive:false}).addTo(map);
+  addLuoghi(map);
   // vista iniziale = tutti i punti (a destra del pannello, sopra il bottone dell'elenco sul telefono), con zoom a quarti
   // per stringerla il più possibile, ma mai così lontana da lasciare zone senza tile;
   // da lì non ci si può allontanare (lo zoom minimo diventa quello della vista iniziale)
@@ -232,7 +234,7 @@ function deselect(){
   ["mousedown","touchstart","wheel","keydown"].forEach(ev => $("#map").addEventListener(ev, () => touched = true, {passive:true}));
   if (window.ResizeObserver) new ResizeObserver(() => { map.invalidateSize(); if (!touched) fit(); placePv(); }).observe($("#map"));
   // da lontano (sotto lo zoom 13) i pallini sono punti colorati senza codice, così non si coprono
-  const zcls = () => map.getContainer().classList.toggle("zlo", map.getZoom() < 13);
+  const zcls = () => { map.getContainer().classList.toggle("zlo", map.getZoom() < 13); map.getContainer().classList.toggle("zhi", map.getZoom() >= 15); };
   map.on("zoomend", zcls); zcls();
 
   PTS.forEach(p => {
