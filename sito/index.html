@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202611051313">
+<link rel="stylesheet" href="stile.css?v=202611051554">
 
 <header class="topbar">
   <div class="in">
@@ -102,8 +102,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202611051313"></script>
-<script src="comune.js?v=202611051313"></script>
+<script src="dati.js?v=202611051554"></script>
+<script src="comune.js?v=202611051554"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -272,9 +272,9 @@ let fm = null;
 function mappaFabbrica(d){
   if (!d.open || !window.L) return;
   if (fm) { fm.invalidateSize(); return; }
-  fm = L.map(d.querySelector("#fabmap"), {minZoom:11, maxZoom:14, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false});
-  addTiles(fm);
-  const poly = L.polygon(STABILIMENTO, {color:"#c2410c", weight:2, fillColor:"#c2410c", fillOpacity:.08, interactive:false}).addTo(fm);
+  fm = L.map(d.querySelector("#fabmap"), {minZoom:11, maxZoom:17, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false});
+  addSat(fm);   // foto satellitare come nella mappa grande
+  const poly = L.polygon(STABILIMENTO, {color:"#fb923c", weight:2, dashArray:"6 4", fill:false, interactive:false}).addTo(fm);
   const pts = PTS.filter(p => GRUPPO[p.code] === "A");
   pts.forEach(p => {
     const m = L.marker(p.ll, {icon:pinIcon(p), keyboard:true, title:`${p.code} · ${p.name}`}).addTo(fm);
