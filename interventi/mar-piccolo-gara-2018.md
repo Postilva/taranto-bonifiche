@@ -1,5 +1,5 @@
 # B13 – Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018)
-*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 5 novembre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -227,6 +227,8 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 
 [28] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
+[29] Regione Puglia, Sezione Ciclo rifiuti e bonifica, Servizio Bonifiche e pianificazione, *Richiesta di accesso civico generalizzato – Risorse FSC 2007-2013 (delibera CIPE n. 87/2012) per gli "Interventi di bonifica e/o MISE dei sedimenti contaminati del Mar Piccolo" di Taranto (21.000.000 €, CUP J56J14000460001) – Riscontro*, prot. n. 0656758 del 5 novembre 2026 (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-11_regione-puglia_riscontro-foia-fsc-mar-piccolo-21mln.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Che cosa prevede l'accordo con la Marina Militare?** Oggi il Commissario lavora con la Marina su una sola zona, l'«Area 170 ettari» (scheda B12), ma fondi e tempi non sono decisi [1][11][14]. Non abbiamo trovato l'atto firmato tra Commissario e Marina, né il piano di indagini, né quanto costerà, né chi pagherà [1][14]. Non verificato.
 2. [blocca] **Restano soldi per togliere i fanghi?** Dei 21 milioni della Regione non resta niente per i fanghi: gli ultimi 5,2 milioni vanno alla rimozione dei rifiuti dal fondale (decreto n. 56 del 21 ottobre 2026) [27]. Restano i 34 milioni del Ministero (delibera CIPE 55/2016), salvati dal taglio con la delibera CIPESS n. 78/2024 [18], di cui 3,4 milioni versati al Commissario nel 2023 [7]: non abbiamo trovato un atto che dica quanti ne restano e a cosa saranno destinati. Non verificato.
@@ -238,6 +240,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 8. [fonti] **I numeri dei soldi non tornano tra le fonti.**
    - pagamenti: 4.588.677,56 € a dicembre 2018 secondo il Commissario [6], ma OpenCoesione registra il primo pagamento solo ad aprile 2021 [9];
    - i 21 milioni della Regione: 17,85 milioni versati al Commissario secondo le relazioni [6][7], praticamente tutto versato secondo il decreto del 2025 [23], 0 € pagati secondo OpenCoesione [10], mentre il Commissario nel 2026 elenca circa 16 milioni di lavori, studi e accantonamenti già fatti con questi soldi (calcolo mio: 21,24 − 5,22) [27];
+   - la Regione, il 5 novembre 2026, ci ha scritto di non avere rendicontazioni di spesa del Commissario, richieste di erogazione, atti di revoca o riprogrammazione né la scheda di monitoraggio di questo intervento, e ci ha mandato a chiederli al Commissario; ci manderà solo le tre determine di trasferimento del 2013, 2020 e 2021 [29];
    - le voci del decreto n. 56 sommano 21.240.000 €, non 21.000.000 (calcolo nostro) [27]. La differenza è nella quota dell'1,5%: il decreto scrive 555.000 €, che è l'1,5% di 37 milioni (un altro intervento della stessa delibera), mentre l'1,5% di 21 milioni è 315.000 €; con 315.000 € le voci darebbero esattamente 21 milioni (calcolo mio) [27];
    - risorse "finanziate" per la gara: 39.345.637,64 € nel 2021 [8], 32.276.250 € + IVA nel bando [2].
    Non verificato.
