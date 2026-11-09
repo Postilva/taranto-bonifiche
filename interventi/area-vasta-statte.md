@@ -1,5 +1,5 @@
 # D8 – Area vasta di Statte: terreni contaminati fuori dal SIN
-*Stato scheda: approvata — aggiornata al 2 novembre 2026*
+*Stato scheda: approvata — aggiornata al 9 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -9,7 +9,7 @@ Nel 2014–2015 il Comune ha analizzato tutto il suo territorio fuori dal SIN, e
 Non è stato bonificato né messo in sicurezza nulla: ci sono stati solo i divieti, e l'ordinanza valeva fino alla fine del 2018 [1]. Nel 2021 la Regione scriveva che i confini delle zone inquinate erano ancora «in fase di definizione» [6]. Non si sa come siano andate le nuove analisi delle aree agricole, finanziate dalla Regione con 750.000 € [6]: a fine giugno 2026 il progetto risultava «non avviato», senza nessun pagamento [10]. Nell'anagrafe aggiornata da ARPA a settembre 2026 il sito è ancora «contaminato», fermo all'approvazione delle analisi e dell'analisi di rischio, ma la sua superficie è scesa a circa 3,3 km², contro i 58 del 2020 [5][12]: ARPA non dice perché.
 
 ### Adesso
-Ilva ha detto di non avere più interesse al suo ricorso contro la Provincia, e nel dicembre 2022 il TAR ha chiuso la causa senza decidere [3]. Dopo non abbiamo trovato atti pubblici. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Provincia e al Comune di Statte con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre. Il 2 novembre ARPA ci ha mandato l'anagrafe aggiornata [12].
+Ilva ha detto di non avere più interesse al suo ricorso contro la Provincia, e nel dicembre 2022 il TAR ha chiuso la causa senza decidere [3]. Dopo non abbiamo trovato atti pubblici. Il 2 novembre 2026 ARPA ci ha mandato l'anagrafe aggiornata [12]. Il 9 novembre la Provincia, a cui avevamo chiesto i documenti con una richiesta di accesso civico, ci ha scritto che ha l'atto del 2018 e due note dei tavoli tecnici, ma che un'ordinanza contro il responsabile emessa dopo non c'è: «non presente» [13]. Prima di mandarci i documenti ha dato a Ilva dieci giorni per opporsi [13]. Il Comune di Statte non ha ancora risposto alla stessa richiesta.
 
 ## Che posto è
 Quasi tutto il territorio del Comune di Statte che sta fuori dal SIN: circa 58 km², con campi, zone rurali e il paese [1][5][6]. Il SIN, che comprende lo stabilimento, è escluso [1].
@@ -24,7 +24,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 ## Chi se ne occupa
 - Il **Comune di Statte** ha fatto le analisi di tutto il territorio e l'analisi di rischio, e ha emesso le ordinanze con i divieti [1]. Nell'elenco della Regione è indicato come soggetto del procedimento [5].
 - La **Regione Puglia** (Sezione Ciclo rifiuti e bonifiche) decide perché l'area è fuori dal SIN [7]: ha approvato l'analisi di rischio nel 2017 e ha finanziato nuove analisi [1][6].
-- La **Provincia di Taranto** individua chi ha inquinato (art. 244 del Codice dell'ambiente): nel 2018 ha chiuso questa pratica e ha avviato l'ordinanza contro il responsabile [3].
+- La **Provincia di Taranto** individua chi ha inquinato (art. 244 del Codice dell'ambiente): nel 2018 ha chiuso questa pratica e ha avviato l'ordinanza contro il responsabile [3]; tra i suoi atti non c'è un'ordinanza emessa dopo [13].
 - **Ilva in amministrazione straordinaria** è, secondo ARPA in un'audizione in Parlamento (risposta data a memoria), il responsabile individuato per diossine e furani [4]. Ha impugnato l'atto della Provincia nel 2018, poi nel 2022 ha detto al TAR di non avere più interesse alla causa [3].
 - **ARPA Puglia** controlla le analisi e dà i pareri; la **ASL di Taranto** ha preparato con il Comune i divieti sul cibo e ne controlla il rispetto [1][4].
 
@@ -35,7 +35,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 - **Le analisi di tutto il territorio (2014–2015).** Il Comune esegue il "Progetto di caratterizzazione di area vasta" dell'intero territorio comunale, senza le aree del SIN; i valori superano i limiti di legge e si passa all'analisi di rischio [1]. Le analisi, con fondi europei, regionali e statali, sono costate 1.135.213,57 €; i lavori sono durati dal 28 aprile 2014 al 20 gennaio 2015 [11].
 - **L'analisi di rischio (2017).** Approvata dalla conferenza di servizi il 28 marzo 2017 e con la determinazione della Regione n. 124 del 26 maggio 2017: in alcune aree c'è un rischio per la salute "inaccettabile" [1][2]. Il Comune stima che i tempi ordinari per trovare il responsabile e fare la bonifica siano di almeno 12 mesi, e per questo decide i divieti subito [2].
 - **I divieti del 2017.** Con l'ordinanza n. 62 del 24 ottobre 2017 il Sindaco vieta, nelle aree disegnate nell'allegato, di arare e scavare, di portare via terra, di usarle per svago, e di produrre alimenti e mangimi, pascolo compreso, salvo deroghe con analisi del prodotto [1]. Nella mappa allegata ci sono 19 zone con un codice, sparse in tutto il territorio (conteggio nostro) [1]. L'ordinanza vale fino al 31 dicembre 2018 [1].
-- **Il responsabile (2018).** La Provincia apre la pratica il 1° febbraio 2018 (suolo e acqua di falda), fa due tavoli tecnici l'8 e il 23 febbraio e la chiude il 19 aprile 2018 (prot. 12675), avviando insieme l'ordinanza contro il responsabile [3].
+- **Il responsabile (2018).** La Provincia apre la pratica il 1° febbraio 2018 (suolo e acqua di falda), fa due tavoli tecnici l'8 e il 23 febbraio e la chiude il 19 aprile 2018 (prot. 12675), avviando insieme l'ordinanza contro il responsabile [3]. Dei tavoli tecnici la Provincia ha due note, del 12 e del 27 febbraio 2018; un'ordinanza emessa dopo l'atto di aprile, con la sua notifica, tra i suoi atti è «non presente» [13].
 - **Il ricorso di Ilva (2018–2022).** Ilva in A.S. impugna questi atti al TAR di Lecce (ricorso n. 724/2018). Il 19 ottobre 2022 dichiara che non ha più interesse e il 15 dicembre 2022 il TAR chiude la causa senza decidere nel merito ("improcedibile") [3].
 - **Nuove analisi finanziate.** Con l'avviso regionale del 2017 (DD 202/2017) il Comune ottiene 750.000 € per "indagini integrative di caratterizzazione ai fini della valutazione del rischio sanitario per le aree agricole" [6]. Su OpenCoesione i soldi risultano impegnati il 13 aprile 2021, ma al 30 giugno 2026 il progetto è «non avviato» e non ha nessun pagamento [10].
 - **Lo stato nel 2020–2021.** Ad aprile 2020 il sito è "contaminato", con il procedimento fermo all'"approvazione esiti PdC e AdR" [5]. Nel 2021 la Regione scrive che i perimetri delle zone contaminate sono "in fase di definizione" [6].
@@ -68,6 +68,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 | 24 ottobre 2017 | Ordinanza n. 62: divieti nelle aree con rischio "inaccettabile" | [1] |
 | 1° febbraio 2018 | La Provincia apre la pratica sul responsabile | [3] |
 | 19 aprile 2018 | La Provincia chiude la pratica e avvia l'ordinanza contro il responsabile | [3] |
+| 9 novembre 2026 | La Provincia: tra i suoi atti nessuna ordinanza emessa dopo l'aprile 2018 | [13] |
 | 2018 | Ricorso di Ilva in A.S. al TAR di Lecce | [3] |
 | aprile 2020 | Per la Regione il sito è "contaminato" | [5] |
 | 13 aprile 2021 | Impegnati i 750.000 € per le nuove analisi delle aree agricole | [10] |
@@ -101,8 +102,10 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 
 [12] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera), sito TA037 "Area Vasta di Statte-matrice suolo" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
 
+[13] Provincia di Taranto, Settore Pianificazione e Ambiente, comunicazione ai controinteressati sulla nostra richiesta di accesso civico n. 64, mandata il 9 novembre 2026, elenco dei documenti trovati, punti 1–3 (1: nota prot. 12675 del 19/04/2018; 2, ordinanza ex art. 244 e atti successivi: «non presente»; 3: note prot. 4400 del 12/02/2018 e 6087 del 27/02/2018) — copia in `fonti/2026-11_provincia-taranto_controinteressati-foia-area-vasta-statte-tamburi.pdf`
+
 ## Cosa non sappiamo
-1. [blocca] **La Provincia ha ordinato a Ilva di bonificare?** Nel 2018 la Provincia ha chiuso la pratica per individuare il responsabile e ha avviato un'ordinanza contro di lui; Ilva ha fatto ricorso [3]. In Parlamento ARPA ha detto, a memoria, che per un'area di Statte il responsabile è l'Ilva «per alcuni parametri come diossine e furani» [4]. La sentenza del TAR del 2022 parla solo dell'avvio dell'ordinanza [3]. Non sappiamo se sia stata emessa, che cosa ordini e se Ilva l'abbia eseguita o impugnata. Non verificato.
+1. [blocca] **Perché dopo il 2018 non c'è un'ordinanza contro il responsabile?** Nel 2018 la Provincia ha chiuso la pratica per individuare il responsabile e ha avviato un'ordinanza contro di lui; Ilva ha fatto ricorso [3]. In Parlamento ARPA ha detto, a memoria, che per un'area di Statte il responsabile è l'Ilva «per alcuni parametri come diossine e furani» [4]. La sentenza del TAR del 2022 parla solo dell'avvio dell'ordinanza [3], e nel 2026 la Provincia ci ha scritto che un'ordinanza emessa dopo, tra i suoi atti, è «non presente» [13]. Non sappiamo perché non sia stata emessa, né chi debba oggi bonificare le zone inquinate.
 2. [blocca] **Dove sono, oggi, le zone inquinate?** Nel 2021 la Regione scriveva che i confini erano ancora «in fase di definizione» e finanziava con 750.000 € nuove analisi delle aree agricole [6]; a fine giugno 2026 quelle analisi risultavano «non avviate» [10]. Nell'anagrafe aggiornata da ARPA a settembre 2026 l'area è di circa 3,3 km², contro i 58 del 2020, con un altro punto centrale [5][12]: forse le zone sono state ridisegnate, ma nessuna fonte lo dice, e non sappiamo come siano andate le nuove analisi. Non verificato.
 3. [altra] **I divieti valgono ancora?** L'ordinanza n. 62 del 2017 vietava in 19 zone di arare, scavare e produrre cibo fino al 31 dicembre 2018 [1]. Non abbiamo trovato proroghe né nuove ordinanze. Non verificato.
 4. [altra] **Quali sostanze ci sono, zona per zona?** ARPA parla di diossine e furani [4]; l'ordinanza non elenca le sostanze [1]. Non abbiamo i risultati delle analisi né l'analisi di rischio. Non verificato.
@@ -110,7 +113,7 @@ La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanz
 
 Ricerca online del 20 ottobre 2026 ("area vasta di Statte", ordinanze del Comune di Statte, Provincia di Taranto e art. 244, TAR Lecce, determinazione regionale 124/2017, OpenCoesione): trovati i documenti elencati sopra. Un giornale locale (La Ringhiera, 20 ottobre 2017) riporta dalla conferenza stampa del Comune circa 400 carotaggi, 15 zone con rischio inaccettabile e arsenico, mercurio, IPA, diossine e PCB tra le sostanze trovate: dati utili per le richieste, ma senza fonte ufficiale. Non verificati. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 
-### Bozza di richiesta di accesso civico (FOIA) — pronte come FOIA 64 alla Provincia e FOIA 65 al Comune di Statte (PEC da inviare, `.tmp/foia/invio/pec-sesto-giro/`)
+### Richieste di accesso civico (FOIA) n. 64 alla Provincia e n. 65 al Comune di Statte — inviate il 21/10/2026; il 9/11/2026 la Provincia ha elencato i documenti e sentito Ilva; il Comune non ha ancora risposto
 Due richieste: una alla Provincia, che ha individuato il responsabile, e una al Comune, che ha fatto le analisi.
 
 **1. A:** Provincia di Taranto — PEC protocollo@pec.provincia.ta.it (la stessa usata per la richiesta 57).

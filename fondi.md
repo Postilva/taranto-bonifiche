@@ -123,14 +123,14 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 ## Contributo del Ministero delle Infrastrutture al Comune di Taranto (2018)
 - **Chi lo dà:** Ministero delle Infrastrutture e dei Trasporti (Direzione generale per lo sviluppo del territorio), al Comune di Taranto, con il Fondo di rotazione della legge 183/1987 per il Piano di Azione Coesione del Ministero [23].
 - **Atto:** atto di concessione del 28 settembre 2018; il finanziamento era stato rideterminato con il decreto n. 33 del 2015 (Gazzetta Ufficiale del 17/09/2015) [23].
-- **Importo:** 1.504.034,76 € [23].
-- **Per cosa:** "Progetto di bonifica dei suoli per annullare il rischio sanitario – aree sottoprogetti 1, 2 e 3 Quartiere Tamburi" [23].
+- **Importo:** 1.504.035,76 € versati, su 1.954.054,40 € di spesa ammessa [65][66]. La pagina della trasparenza del Ministero scrive 1.504.034,76 € [23].
+- **Per cosa:** "Progetto di bonifica dei suoli per annullare il rischio sanitario – aree sottoprogetti 1, 2 e 3 Quartiere Tamburi" [23], uno dei progetti della convenzione n. 3093 del 17 aprile 2014 tra Ministero e Comune (24 milioni di euro del "Piano città") [65].
 - **Report:**
-  - [tamburi-risanamento-suoli] 1.504.034,76 € [23]
+  - [tamburi-risanamento-suoli] 1.504.035,76 € [66]
 - **A che punto:** Ministero delle Infrastrutture
-  - 1.504.034,76 € · [tamburi-risanamento-suoli] · dal 2018 fino al 2018 · pagati: versati al Comune di Taranto il 28 settembre 2018; come li abbia spesi non si sa [23]
-- **Speso:** versati al Comune il 28 settembre 2018 come "domanda di rimborso n. 1", con la disposizione di pagamento n. 2018100428 del 21/09/2018 sulla contabilità speciale del Ministero n. 5838 [23]; come il Comune li abbia spesi non si sa.
-- **Da sapere:** la pagina del Ministero cita una "Convenzione MIT comune di Catania prot. 3093/RU del 17/04/2014", anche se il beneficiario è il Comune di Taranto [23].
+  - 1.504.035,76 € · [tamburi-risanamento-suoli] · dal 2018 fino al 2018 · pagati: rimborso dei lavori fatti nel 2016–2017, versato al Comune di Taranto il 28 settembre 2018; per il Ministero l'opera è conclusa e collaudata [65][66]
+- **Speso:** versati al Comune il 28 settembre 2018 come "domanda di rimborso n. 1", con la disposizione di pagamento n. 2018100428 del 21/09/2018 sulla contabilità speciale del Ministero n. 5838 [23][66]. È l'unica domanda di rimborso; dopo non ci sono stati altri pagamenti [65]. Nell'elenco delle spese del Comune, 1.421.971,38 € sono andati alle imprese che hanno fatto i lavori (calcolo nostro) [67].
+- **Da sapere:** la pagina del Ministero cita una "Convenzione MIT comune di Catania prot. 3093/RU del 17/04/2014", anche se il beneficiario è il Comune di Taranto [23]: la convenzione n. 3093 è quella con Taranto [65].
 
 ## Programma europeo FESR della Regione Puglia 2014-2020 (revocato)
 - **Chi lo dà:** Regione Puglia, POR Puglia 2014-2020, Azione 6.2 [1].
@@ -450,5 +450,11 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 [63] Commissario straordinario per la bonifica di Taranto (Prefetto Martino), *Relazione attività commissariali – periodo 30/03/2022–1/10/2023*, prot. n. 56411 del 29 settembre 2023, pagina 11 del PDF (114.915,84 € al Comune di Statte per la progettazione della Gravina Leucaspide), https://documenti.camera.it/leg19/documentiAcquisiti/COM05/Progettodilegge/leg19.com05.Progettodilegge.Altro.PUBBLICO.ideGes.26863.16-01-2024-10-27-10.315.pdf — copia in `fonti/2023-09_commissario-taranto_relazione-fine-mandato-martino.pdf`
 
 [64] Commissari straordinari di ILVA S.p.A. in A.S., *Audizione 9ª Commissione Senato su ddl 1359 (d-l 3/2025 – Continuità produttiva e occupazionale ex ILVA)*, 4 febbraio 2025, documento depositato (9 slide), slide 4–5 (soldi del Patrimonio Destinato usati al 31 gennaio 2025, voce per voce), 6 (325 milioni per attività ambientali e sanitarie dal 2018 al 2024, Ilva e Acciaierie d'Italia anno per anno) e 7 (118 milioni previsti nel 2025 e lavori principali) — copia in `fonti/2025-02_ilva-as_audizione-senato-commissari-dl-3-2025.pdf`
+
+[65] Ministero delle Infrastrutture e dei Trasporti, Direzione generale per lo sviluppo del territorio e i progetti internazionali, *Riscontro alla richiesta di accesso civico generalizzato* (la nostra richiesta n. 70), prot. U.0013650 del 6 novembre 2026, pag. 1–2: CUP E56J12000240001, finanziamento di 1.954.054,40 €, «un'unica domanda di rimborso» di 1.504.035,76 €, «l'opera è stata conclusa e collaudata»; allegata la convenzione prot. 3093 del 17 aprile 2014 — copie in `fonti/2026-11_mit_riscontro-foia-contributo-bonifica-suoli-tamburi.pdf` e `fonti/2014-04_mit-comune-taranto_convenzione-3093-piano-citta.pdf`
+
+[66] Ragioneria generale dello Stato, sistema IGRUE, *Disposizione di pagamento per beneficiario n. 2018100428* del 21 settembre 2018, Comune di Taranto, CUP E56J12000240001, 1.504.035,76 €, esitata il 28 settembre 2018 (allegata alla risposta del Ministero [65]) — copia in `fonti/2018-09_mit_disposizione-pagamento-2018100428-comune-taranto.pdf`
+
+[67] Comune di Taranto, Direzione Urbanistica, *Allegato 1 alla Domanda di Rimborso n. 01* (revisione 1 del 17 aprile 2018), CUP E56J12000240001: fatture e pagamenti, totale ammesso 1.504.035,81 €; scansione (allegata alla risposta del Ministero [65]) — copia in `fonti/2018-04_comune-taranto_elenco-spese-domanda-rimborso-1-bonifica-suoli-tamburi.pdf`
 
 Ultimo controllo dei fondi pubblici: 25 ottobre 2026, su OpenCoesione (dati al 30 giugno 2026, gli ultimi pubblicati), OpenCUP, portale trasparenza del Comune di Taranto e decreti 2026 del Commissario (fino al n. 57 del 21 ottobre 2026).
