@@ -1,5 +1,5 @@
 # D16 – Area di deposito pneumatici fuori uso "UA26" (Statte)
-*Stato scheda: approvata — aggiornata al 2 novembre 2026*
+*Stato scheda: approvata — aggiornata al 9 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -9,7 +9,7 @@ I pneumatici sono stati portati via a partire dal novembre 2016 [3]. Ilva scrive
 I risultati delle analisi non sono pubblici. Il «non contaminato» si basa sull'autocertificazione di Ilva: per il Codice dell'ambiente chiude il procedimento, salvo i controlli dell'autorità nei 15 giorni dopo [10]. Nessun ente ha detto pubblicamente di aver controllato, e tra i procedimenti chiusi con un atto dopo aprile 2020 ARPA non elenca quest'area [11]. Nessun certificato.
 
 ### Adesso
-Non sappiamo quando Ilva abbia mandato l'autocertificazione: ad aprile 2020 la Regione indicava ancora l'area come «potenzialmente contaminata» [1]. Non abbiamo trovato risultati, pareri di ARPA o decisioni della Regione. Il 21 ottobre 2026 abbiamo chiesto i documenti alla Regione con una richiesta di accesso civico; la risposta è attesa entro il 20 novembre.
+Il 9 novembre 2026 la Regione ci ha risposto che, secondo i dati della sua anagrafe, i rifiuti sono stati rimossi e il sito risulta non contaminato, e che presso di lei non c'è nessun procedimento di bonifica aperto. Non ci ha mandato documenti: la comunicazione del 2017 è «di non facile reperimento» per un trasloco degli uffici [12]. Non sappiamo quando Ilva abbia mandato l'autocertificazione: ad aprile 2020 la Regione indicava ancora l'area come «potenzialmente contaminata» [1].
 
 ## Che posto è
 Un terreno di circa 16.500 m² dentro lo stabilimento ex Ilva, nella parte che sta nel Comune di Statte, fuori dal SIN [1]. Era usato come deposito di pneumatici fuori uso [1][3].
@@ -34,6 +34,7 @@ Per anni ci sono stati accumulati pneumatici fuori uso: la Regione lo classifica
 - **"Attuata al 31.12.2018".** Ilva scrive che sia la rimozione sia le analisi del terreno sono state completate entro il 31 dicembre 2018, e ISPRA nel 2022 segna la prescrizione come "attuata", rimandando a un suo rapporto del 29 luglio 2019 [4][5].
 - **Ma ad aprile 2020** la Regione indica ancora l'area come "sito potenzialmente contaminato", con il procedimento fermo alla comunicazione iniziale [1]. Non abbiamo trovato risultati delle analisi, pareri di ARPA o atti della Regione successivi.
 - **"Non contaminato" con l'autocertificazione (anagrafe di settembre 2026).** Nell'estratto mandato da ARPA il procedimento è alla "trasmissione Report di MP/MISE, indagini preliminari, ripristino ambientale e autocertificazione" e lo stato è "Sito non contaminato dopo MISE", con soggetto "ILVA" e la stessa superficie, 16.527 m² [9]. È la strada dell'art. 242, comma 2, del Codice dell'ambiente: se l'indagine preliminare non trova valori oltre i limiti, chi ha inquinato ripristina la zona e lo autocertifica; questo chiude il procedimento, «ferme restando le attività di verifica e di controllo» dell'autorità nei 15 giorni successivi [10]. Quest'area non è tra quelle che ARPA elenca come chiuse con un atto dopo aprile 2020 [11].
+- **La Regione conferma, senza documenti (9 novembre 2026).** Alla nostra richiesta di accesso civico la Regione risponde che dai dati della sua anagrafe «i rifiuti rinvenuti risultano rimossi e il sito risulta non contaminato», e che presso il suo Servizio Bonifiche non c'è un procedimento dell'art. 242 attivo. La comunicazione del 2017 non l'ha trovata, per il trasloco degli uffici in un'altra sede; non cita risultati delle analisi, pareri di ARPA o controlli [12].
 
 ## Dove si trova e quanto è grande
 - **Coordinate** indicate dalla Regione: 685479,6771 m E – 4488807,498 m N, nel sistema UTM-WGS84 fuso 33 Nord [7], le stesse nell'estratto di ARPA del 2026 [9]; è il punto centrale dell'area ("centroide del poligono") [2]. In gradi sono circa **40,529° N – 17,190° E** (conversione nostra, da ricontrollare sulla mappa).
@@ -53,6 +54,7 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 | 31 dicembre 2018 | Secondo Ilva rimozione e analisi sono completate | [5] |
 | aprile 2020 | Per la Regione l'area è ancora "potenzialmente contaminata" | [1] |
 | settembre 2026 | Nell'anagrafe di ARPA "sito non contaminato dopo MISE", con l'autocertificazione di Ilva | [9] |
+| 9 novembre 2026 | La Regione: sito non contaminato secondo la sua anagrafe, nessun procedimento aperto, documenti del 2017 non trovati | [12] |
 
 ## Fonti
 [1] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020), tabella 2.2 "Siti potenzialmente contaminati", sito n. 135, pag. 21, https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
@@ -77,8 +79,10 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 
 [11] Stessa risposta del [9], Allegato 2 (siti di Taranto e Statte chiusi dopo aprile 2020, con gli atti; il periodo è detto nella lettera, punto 2) — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-2.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-2.csv`)
 
+[12] Regione Puglia, Sezione Ciclo rifiuti e bonifica, Servizio Bonifiche e Pianificazione, risposta alla nostra richiesta di accesso civico n. 63, prot. 0664786/2026 del 9 novembre 2026, punti 1 e 3 — copia in `fonti/2026-11_regione-puglia_riscontro-foia-ua26-ua27-tamburi.pdf`
+
 ## Cosa non sappiamo
-1. [blocca] **Che cosa hanno trovato le analisi del terreno, e qualcuno le ha controllate?** Ilva scrive di averle finite entro il 31 dicembre 2018 [4][5], e per l'anagrafe di ARPA (2026) l'area è «non contaminata dopo MISE» con l'autocertificazione di Ilva [9]. Non abbiamo trovato né i risultati né un controllo dell'autorità, che il Codice prevede nei 15 giorni successivi [10]. Non verificato.
+1. [blocca] **Che cosa hanno trovato le analisi del terreno, e qualcuno le ha controllate?** Ilva scrive di averle finite entro il 31 dicembre 2018 [4][5], e per l'anagrafe di ARPA (2026) l'area è «non contaminata dopo MISE» con l'autocertificazione di Ilva [9]. Non abbiamo trovato né i risultati né un controllo dell'autorità, che il Codice prevede nei 15 giorni successivi [10]. La Regione, a cui li abbiamo chiesti, non li cita e non ha trovato nemmeno la comunicazione del 2017 [12].
 2. [altra] **Chi deve occuparsene oggi?** La Regione indica Ilva in A.S., ma dal 2018 l'area la gestisce Acciaierie d'Italia [1][5]. Non verificato.
 3. [altra] **Quando e perché l'area è stata sequestrata?** Sappiamo solo che i sigilli sono stati tolti il 20 ottobre 2016 [3]. Non verificato.
 4. [altra] **Quanti pneumatici sono stati portati via, dove, e quanto è costato?** Le fonti dicono solo che la rimozione è iniziata nel novembre 2016 [3]. Non verificato.
@@ -86,7 +90,7 @@ Non abbiamo trovato cifre: né il costo della rimozione né quello delle analisi
 
 Ricerca online del 20 ottobre 2026 (UA26, "area PFU", pneumatici fuori uso Ilva Statte, anagrafe regionale, portale delle valutazioni ambientali del Ministero): trovati solo i documenti elencati sopra. L'area è fuori dal SIN, quindi non è nell'archivio delle bonifiche del Ministero.
 
-### Bozza di richiesta di accesso civico (FOIA) — pronta come FOIA 63 alla Regione (PEC da inviare, `.tmp/foia/invio/pec-sesto-giro/`)
+### Richiesta di accesso civico (FOIA) n. 63 alla Regione — inviata il 21/10/2026, risposta del 9/11/2026 (prot. 0664786/2026)
 Una sola richiesta per D16 e D17, che sono due aree vicine con la stessa storia (vedi anche la scheda D17).
 
 **A:** Regione Puglia, Sezione Ciclo rifiuti e bonifiche — PEC serv.rifiutiebonifica@pec.rupar.puglia.it (la stessa usata per la richiesta 06).
