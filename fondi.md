@@ -190,7 +190,8 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
   - 108.424,84 € · [gravina-leucaspide] · dal 2017 · non usati: non usati dal progetto [25]
 - **Speso:** 191.575,16 € [25][26]. Il Commissario ha pagato al Comune 30.000 € di anticipo nel 2019, 114.915,84 € a marzo 2023 e il saldo di 46.659,32 € con il decreto n. 53 del 2 ottobre 2026 [26]. OpenCoesione registra 7 pagamenti, dal 22 luglio 2020 al 5 aprile 2023, e il progetto come "liquidato" [25].
 - **Da sapere:**
-  - Su OpenCUP il costo previsto del progetto è 275.192 € [44], né 300.000 né 191.575,16 €.
+  - Su OpenCUP il costo previsto del progetto è 275.192 € [44], né 300.000 né 191.575,16 €. Sono i 275.191,79 € del "Piano di indagini integrative" approvato dalla Giunta di Statte il 31 agosto 2020 [68].
+  - Nonostante il nome, i soldi hanno pagato indagini (pozzi di controllo e analisi di acqua e suoli), non un progetto di bonifica: per il Comune ARPA non le ha validate e il progetto definitivo non è stato scritto [68]. Il secondo codice J74J18000120001 (3 milioni €, del 2018) era sbagliato ed è stato cancellato il 16 marzo 2026 [68].
   - Il decreto n. 53 scrive 114.915,80 € nelle premesse e 114.915,84 € più avanti, dove fa i conti [26]; anche la relazione del Commissario del 2023 dice 114.915,84 € [63]. Con 114.915,84 € i tre pagamenti fanno 191.575,16 €, il costo del progetto (calcolo nostro).
 
 ## Accordo di programma quadro del 2004 per il Mar Piccolo
@@ -456,5 +457,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 [66] Ragioneria generale dello Stato, sistema IGRUE, *Disposizione di pagamento per beneficiario n. 2018100428* del 21 settembre 2018, Comune di Taranto, CUP E56J12000240001, 1.504.035,76 €, esitata il 28 settembre 2018 (allegata alla risposta del Ministero [65]) — copia in `fonti/2018-09_mit_disposizione-pagamento-2018100428-comune-taranto.pdf`
 
 [67] Comune di Taranto, Direzione Urbanistica, *Allegato 1 alla Domanda di Rimborso n. 01* (revisione 1 del 17 aprile 2018), CUP E56J12000240001: fatture e pagamenti, totale ammesso 1.504.035,81 €; scansione (allegata alla risposta del Ministero [65]) — copia in `fonti/2018-04_comune-taranto_elenco-spese-domanda-rimborso-1-bonifica-suoli-tamburi.pdf`
+
+[68] Comune di Statte, Settore Assetto del territorio, Ambiente e SUAP, *Determinazione n. 33 del 18/05/2026, Reg. Gen. 315 del 21/05/2026* (approvazione delle risultanze contabili e omologa della spesa del Piano di indagini integrative del tratto sud della Gravina di Leucaspide, CUP J76J20001130001), Albo pretorio n. 620/2026, https://www.halleyweb.com/statte/mc/mc_p_dettaglio.php?id_pubbl=14469 — copia in `fonti/2026-05_comune-statte_determina-315-2026-gravina-leucaspide-omologa-spesa.pdf`
 
 Ultimo controllo dei fondi pubblici: 25 ottobre 2026, su OpenCoesione (dati al 30 giugno 2026, gli ultimi pubblicati), OpenCUP, portale trasparenza del Comune di Taranto e decreti 2026 del Commissario (fino al n. 57 del 21 ottobre 2026).

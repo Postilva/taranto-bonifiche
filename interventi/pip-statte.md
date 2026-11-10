@@ -1,9 +1,9 @@
 # B10 – Zona PIP di Statte: messa in sicurezza dei rifiuti industriali e della falda profonda
-*Stato scheda: approvata — aggiornata al 4 novembre 2026*
+*Stato scheda: approvata — aggiornata al 10 novembre 2026*
 
 ## A che punto è
 ### Finora
-Le analisi di terreno e falda sono finite nel 2013 e l'analisi di rischio, rifatta, è stata approvata dal Ministero nel 2018 [5][22]. Tra il 2021 e il 2022 un primo intervento d'emergenza ha pompato via l'olio che galleggia sulla falda profonda, e l'opuscolo del 2026 lo dice «completato» [1][6]. Nel novembre 2025 l'Accordo per la Coesione ha previsto 124 milioni di euro, di cui 89,9 dal Fondo sviluppo e coesione, assegnati a dicembre 2025 e in arrivo a rate [2][15].
+Le analisi di terreno e falda sono finite nel 2013 e l'analisi di rischio, rifatta, è stata approvata dal Ministero nel 2018 [5][22]. Tra il 2021 e il 2022 un primo intervento d'emergenza ha pompato via l'olio che galleggia sulla falda profonda: secondo il Comune è finito il 12 luglio 2022, dopo aver tolto 461,97 tonnellate di olio, e da allora non si pompa e non si controlla più la falda [1][6][31]. Nel novembre 2025 l'Accordo per la Coesione ha previsto 124 milioni di euro, di cui 89,9 dal Fondo sviluppo e coesione, assegnati a dicembre 2025 e in arrivo a rate [2][15].
 
 ### Cosa manca
 La messa in sicurezza definitiva è ferma dal 2020: il Ministero ha sollevato «notevoli obiezioni» al progetto che chiudeva i rifiuti dentro barriere di cemento, e nel 2021 ha indicato di toglierli [7][22]. ARPA e ISPRA hanno trovato molte carenze nello studio del Comune del 2022, a partire dalla mancanza di analisi dei rifiuti [13][14]. Lo studio stima circa 640.000 m³ di rifiuti industriali da scavare (calcolo nostro: 220.000 + 420.000); per la Commissione parlamentare sui rifiuti nella vecchia cava ce ne sono più di un milione di m³ [10][26]. Non si sa ancora se sarà bonifica o messa in sicurezza [10]. Nessun documento dice chi li ha portati lì [1][4][10].
@@ -63,6 +63,12 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 - I lavori sono stati consegnati il 1° febbraio 2021. Ci sono state due proroghe e una variante, e l'ultima scadenza nota per finire i lavori era il 30 settembre 2022 [6].
 - **Al 6 maggio 2022 i lavori erano fatti per circa il 58%** (primo stato di avanzamento) [23]. A settembre 2022 il Commissario ha trasferito al Comune 364.469,12 € per pagare l'impresa [23].
 - L'opuscolo del 2026 dice che è stata "completata" la messa in sicurezza d'emergenza del surnatante [1]. Si tratta della "Fase 1" [6]: non ho trovato documenti su altre fasi.
+- **Il Comune di Statte, il 10 novembre 2026, ci ha scritto che** [31]:
+  - sono state tolte **461,97 tonnellate di olio** (surnatante, codice rifiuto pericoloso 19 13 07*);
+  - l'intervento è finito il **12 luglio 2022**, quindi due mesi dopo lo stato di avanzamento al 58% [23];
+  - per questo oggi **non si pompa e non si controlla la falda**;
+  - dopo quelli del 2020 il Comune non ha altri controlli dell'aria e dei gas del sottosuolo, e non ci sono ordinanze sull'uso dei pozzi o sull'ingresso nei lotti.
+  Il Comune non ci ha mandato i documenti (fine lavori, collaudo, conto finale): per lui vanno chiesti come accesso agli atti, con una motivazione [31]. Il Commissario ha promesso i certificati entro il 30 novembre 2026 [29].
 
 **La messa in sicurezza definitiva: un progetto fermo dal 2020**
 - **Il piano del 2013.** Il 3 settembre 2013 la Giunta di Statte ha approvato il primo documento di progetto: 36,6 milioni €, di cui 29,75 milioni di lavori [20]. Lo scopo era bloccare il passaggio degli inquinanti dal terreno alla falda profonda, "immobilizzando" la fonte dell'inquinamento [20]. Il calendario prevedeva l'inizio dei lavori il **7 maggio 2014** e la spesa entro il 2016 (10 milioni nel 2014, 12 nel 2015, 14,6 nel 2016) [20]. Lo stesso calendario avvertiva che i tempi potevano cambiare per motivi non dipendenti dal Comune [20].
@@ -192,6 +198,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 | 14 marzo 2022 | Il Comune presenta lo studio di fattibilità da 89,9 milioni € | [9][11] |
 | aprile 2022 | Pareri di ISPRA (14/4) e ARPA (20/4): mancano dati | [13][14] |
 | 6 maggio 2022 | Intervento d'emergenza fatto per circa il 58% | [23] |
+| 12 luglio 2022 | Finito l'intervento d'emergenza, secondo il Comune: 461,97 t di olio tolte | [31] |
 | 30 settembre 2022 | Ultima scadenza nota per finire l'intervento d'emergenza | [6] |
 | 1 febbraio 2023 | Incontro tecnico: servono analisi integrative per aggiornare il progetto | [7] |
 | 8 luglio 2024 | La Regione mette il PIP al primo posto tra le priorità del SIN | [3] |
@@ -200,6 +207,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 | 30 gennaio 2026 | Vertice in Prefettura: il CIS dice che ora c'è la "copertura finanziaria" | [16] |
 | 7 e 17 aprile 2026 | Delibera CIPESS registrata dalla Corte dei conti e pubblicata in Gazzetta Ufficiale | [15] |
 | maggio 2026 | L'opuscolo: conti dei primi lavori da chiudere, progettazione da affidare | [1] |
+| 18 giugno 2026 | Incontro informale in municipio con Commissario e Unità tecnica della Presidenza del Consiglio, senza resoconto | [31] |
 | 30 giugno 2026 | OpenCoesione: nuovo intervento "non avviato", 0 € spesi | [17] |
 
 ## Fonti
@@ -267,12 +275,14 @@ Tutti i documenti del Ministero su questa pratica sono nell'archivio https://bon
 
 [30] Ministero dell'Ambiente e della tutela del territorio e del mare, Direzione generale per la salvaguardia del territorio e delle acque, *Verbale della Conferenza di servizi istruttoria del SIN di Taranto del 16 marzo 2016* (convocata con nota prot. 3735/STA del 1° marzo 2016), punto 4 dell'ordine del giorno (Comune di Statte, area PIP: progetto preliminare di bonifica/messa in sicurezza permanente trasmesso il 10 febbraio 2016; misure di prevenzione; indagini sul responsabile chieste alla Provincia e coordinamento chiesto alla Regione; osservazioni del tavolo tecnico del 14 marzo 2016) (scansione); pubblicato da PeaceLink tra i documenti dell'articolo del 28 ottobre 2016, https://www.peacelink.it/ecologia/a/43706.html — copia in `fonti/2016-03_mattm_verbale-cds-16-03-2016-taranto.pdf`
 
+[31] Comune di Statte, Settore Assetto del territorio, Ambiente e SUAP (arch. Daniele Biffino), *Richieste di accesso civico generalizzato e di accesso all'informazione ambientale. Primo riscontro*, prot. 21082 del 10/11/2026, paragrafo 3 (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-11_comune-statte_primo-riscontro-foia-pip-gravina-aree-verdi.pdf`
+
 ## Cosa non sappiamo
-1. [blocca] **Quale sarà il progetto?** La messa in sicurezza definitiva è ferma dal 2020, e nel 2021 il Ministero ha indicato di togliere i rifiuti [7][22]. La soluzione del 2022 lascerebbe sul posto circa 535.000 m³ di rifiuti chiusi in una cava impermeabilizzata [10], e ISPRA e ARPA hanno trovato molte lacune [13][14]. Al 30 giugno 2026 il nuovo intervento risultava «non avviato», con 0 € spesi [17]. Non si sa se il nuovo progetto toglierà tutti i rifiuti o no, quindi non si sa se alla fine sarà una "bonifica" o una "messa in sicurezza". Diversi giornali (per esempio NoiNotizie del 20/06/2026) riportano un comunicato del Comune di Statte su un sopralluogo del 19 giugno 2026 dell'Unità tecnico-amministrativa della Presidenza del Consiglio, del Commissario Uricchio e del sindaco per una "soluzione progettuale radicalmente nuova"; il comunicato non è sul sito del Commissario, e la pagina "Bonifica Area PIP" del Comune contiene solo documenti del 2013 (ricontrollato il 1/10/2026): è solo un giornale, quindi non verificato.
+1. [blocca] **Quale sarà il progetto?** La messa in sicurezza definitiva è ferma dal 2020, e nel 2021 il Ministero ha indicato di togliere i rifiuti [7][22]. La soluzione del 2022 lascerebbe sul posto circa 535.000 m³ di rifiuti chiusi in una cava impermeabilizzata [10], e ISPRA e ARPA hanno trovato molte lacune [13][14]. Al 30 giugno 2026 il nuovo intervento risultava «non avviato», con 0 € spesi [17]. Non si sa se il nuovo progetto toglierà tutti i rifiuti o no, quindi non si sa se alla fine sarà una "bonifica" o una "messa in sicurezza". Diversi giornali (per esempio NoiNotizie del 20/06/2026) riportano un comunicato del Comune di Statte su un sopralluogo del 19 giugno 2026 dell'Unità tecnico-amministrativa della Presidenza del Consiglio, del Commissario Uricchio e del sindaco per una "soluzione progettuale radicalmente nuova". Il Comune ci ha scritto che l'incontro c'è stato il **18 giugno 2026** in municipio, con un «veloce sopralluogo», ma era «meramente preliminare e informativo» e **non ne è stato scritto nessun resoconto** [31].
 2. [blocca] **Chi farà i lavori?** OpenCoesione indica come beneficiario il Ministero dell'Ambiente [17], l'opuscolo il Commissario insieme all'Unità tecnica amministrativa della Presidenza del Consiglio [1]. Non si sa se il Comune di Statte sia ancora soggetto attuatore, come dal decreto del 4 maggio 2021 [7], né se il Comune o il Commissario abbiano firmato nuovi accordi. Non verificato.
 3. [altra] **Chi ha inquinato?** Nessun documento ufficiale nomina chi ha riempito la cava di rifiuti tra il 1972 e il 1995, né spiega se qualcuno ha provato a farlo pagare [1][4][10]. Le scorie d'altoforno fanno pensare all'industria dell'acciaio vicina [10], ma è solo un'ipotesi. Nel 2016 la Conferenza di servizi aveva chiesto alla Provincia, coordinata dalla Regione, di cercare il responsabile dell'inquinamento della falda [30]: nelle fonti della scheda non ci sono atti successivi su queste indagini. **Non verificato.**
-4. [altra] **Quando è finito davvero l'intervento d'emergenza, quanto olio è stato tolto, e si continua a pomparlo?** A maggio 2022 i lavori erano al 58% [23] e l'ultima scadenza nota era il 30 settembre 2022 [6]. L'opuscolo dice solo "completata" [1]. Non verificato.
-5. [altra] **Ci sono rischi per chi lavora o vive vicino?** Non abbiamo trovato documenti su pozzi d'acqua usati vicino all'area, su controlli dell'aria per chi lavora nei lotti del PIP o su controlli sanitari. Lo studio del Comune cita solo un monitoraggio dell'aria e dei gas del sottosuolo fatto nel 2020 [10]. Non verificato.
+4. [altra] **L'olio sulla falda è stato tolto tutto?** Il Comune dice che l'intervento è finito il 12 luglio 2022, con 461,97 tonnellate tolte, e che da allora non si pompa e non si controlla la falda [31]. A maggio 2022 però i lavori erano al 58% [23], e non abbiamo ancora il certificato di fine lavori, il collaudo e il conto finale [29][31]. Nessun documento dice se nei pozzi c'è ancora olio. Non verificato.
+5. [altra] **Ci sono rischi per chi lavora o vive vicino?** Non abbiamo trovato documenti su pozzi d'acqua usati vicino all'area, su controlli dell'aria per chi lavora nei lotti del PIP o su controlli sanitari. Lo studio del Comune cita solo un monitoraggio dell'aria e dei gas del sottosuolo fatto nel 2020 [10], e il Comune conferma di non averne altri dopo, né ordinanze sui pozzi o sui lotti [31].
 6. [altra] **Dove sono i documenti che mancano online?**
     - i decreti del Commissario n. 16/2015, n. 158/2017, n. 12/2019 e n. 227 e 228/2019: sono dell'epoca Corbelli, e l'elenco della Prefettura parte dal 2020;
     - i verbali delle Conferenze di servizi del 2014, 2016 e 2020 (quelli del 2020 risultano "file not found" sul sito del Ministero [8]);
