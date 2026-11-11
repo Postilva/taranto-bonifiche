@@ -1,5 +1,5 @@
 # B13 – Mar Piccolo: "bonifica tramite dimostrazione tecnologica" (gara del 2018)
-*Stato scheda: approvata — aggiornata al 5 novembre 2026*
+*Stato scheda: approvata — aggiornata all'11 novembre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -240,7 +240,7 @@ Le fonti storiche dell'inquinamento citate sono l'ex Ilva, l'Arsenale militare e
 8. [fonti] **I numeri dei soldi non tornano tra le fonti.**
    - pagamenti: 4.588.677,56 € a dicembre 2018 secondo il Commissario [6], ma OpenCoesione registra il primo pagamento solo ad aprile 2021 [9];
    - i 21 milioni della Regione: 17,85 milioni versati al Commissario secondo le relazioni [6][7], praticamente tutto versato secondo il decreto del 2025 [23], 0 € pagati secondo OpenCoesione [10], mentre il Commissario nel 2026 elenca circa 16 milioni di lavori, studi e accantonamenti già fatti con questi soldi (calcolo mio: 21,24 − 5,22) [27];
-   - la Regione, il 5 novembre 2026, ci ha scritto di non avere rendicontazioni di spesa del Commissario, richieste di erogazione, atti di revoca o riprogrammazione né la scheda di monitoraggio di questo intervento, e ci ha mandato a chiederli al Commissario; ci manderà solo le tre determine di trasferimento del 2013, 2020 e 2021 [29];
+   - la Regione, il 5 novembre 2026, ci ha scritto di non avere rendicontazioni di spesa del Commissario, richieste di erogazione, atti di revoca o riprogrammazione né atti di monitoraggio di questo intervento, e ci ha mandato a chiederli al Commissario; ci manderà solo tre documenti sui trasferimenti, dopo il pagamento di 15 € [29], cioè con ogni probabilità le tre determine del 2013, 2020 e 2021 citate dal decreto del 2025 (deduzione nostra) [23];
    - le voci del decreto n. 56 sommano 21.240.000 €, non 21.000.000 (calcolo nostro) [27]. La differenza è nella quota dell'1,5%: il decreto scrive 555.000 €, che è l'1,5% di 37 milioni (un altro intervento della stessa delibera), mentre l'1,5% di 21 milioni è 315.000 €; con 315.000 € le voci darebbero esattamente 21 milioni (calcolo mio) [27];
    - risorse "finanziate" per la gara: 39.345.637,64 € nel 2021 [8], 32.276.250 € + IVA nel bando [2].
    Non verificato.

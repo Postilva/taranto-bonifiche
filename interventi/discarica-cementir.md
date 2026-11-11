@@ -1,5 +1,5 @@
 # A4 – Discarica ex cava Cementir
-*Stato scheda: approvata — aggiornata al 4 novembre 2026*
+*Stato scheda: approvata — aggiornata all'11 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -38,7 +38,7 @@ Circa 8 ettari dentro una cava del cementificio Cementir (oggi Cemitaly), vicino
 - Nell'audizione del 13 luglio 2022 la procuratrice della Repubblica di Taranto ha riferito alla Commissione parlamentare che l'Italsider vi depositava anche **morchie oleose** (fanghi oleosi) con molti **PCB**, rifiuti pericolosi [14]. È quanto riportato dalla Commissione parlamentare, non un dato di analisi.
 - Il percolato è risultato **pericoloso** (per il pH) nel 2022 e da allora viene smaltito come rifiuto pericoloso [16][15].
 
-**Precedenti.** Secondo quanto la procuratrice ha riferito alla Commissione parlamentare, nel 2012 la magistratura ha accertato che la vecchia barriera aveva ceduto e il percolato usciva dalla discarica, formando "una sorta di lago" e finendo in parte in mare attraverso canali di scolo; nel 2012 l'area è stata sequestrata [14]. È stata dissequestrata a fine 2018 [14][15]. Intorno alla discarica c'era già una barriera di circa 3 metri di profondità, la "Cintura Cotecchia", degli anni '90 [14][11]. Nel 2016, su disposizione della Guardia di Finanza e per il procedimento penale n. 2878/2012, ARPA ha verificato con prove nei pozzi ("slug test") la tenuta del «diaframma plastico» della discarica; già l'11 luglio 2014 aveva dato un parere sul progetto di copertura definitiva [33]. Le due relazioni di ARPA (prot. 13554 del 1° marzo 2016 e nota 38659 dell'11 luglio 2014) non sono pubbliche: non sappiamo cosa dicono [33].
+**Precedenti.** Secondo quanto la procuratrice ha riferito alla Commissione parlamentare, nel 2012 la magistratura ha accertato che la vecchia barriera aveva ceduto e il percolato usciva dalla discarica, formando "una sorta di lago" e finendo in parte in mare attraverso canali di scolo; nel 2012 l'area è stata sequestrata [14]. È stata dissequestrata a fine 2018 [14][15]. Intorno alla discarica c'era già una barriera di circa 3 metri di profondità, la "Cintura Cotecchia", degli anni '90 [14][11]. Con una relazione del 1° marzo 2016, ARPA ha riferito di aver verificato, su disposizione della Guardia di Finanza e per il procedimento penale n. 2878/2012, con prove chiamate "slug test" la tenuta del «diaframma plastico» della discarica; già l'11 luglio 2014 aveva dato un parere sul progetto di copertura definitiva [33]. Le due relazioni di ARPA (prot. 13554 del 1° marzo 2016 e nota 38659 dell'11 luglio 2014) non sono pubbliche: non sappiamo cosa dicono [33].
 
 ### I lavori di messa in sicurezza
 - **Prima dei lavori** (situazione a fine 2020): erano stati tolti materiali contenenti amianto dalla superficie della discarica e il percolato di 4 pozzi veniva portato via con autobotti [22].

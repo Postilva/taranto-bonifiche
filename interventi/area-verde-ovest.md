@@ -1,5 +1,5 @@
 # A8 – Area a verde ovest (lungo la strada provinciale per Statte)
-*Stato scheda: approvata — aggiornata al 10 novembre 2026*
+*Stato scheda: approvata — aggiornata all'11 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -67,7 +67,7 @@ Il terreno è stato confrontato con due limiti diversi: quelli per le **aree ver
 - **I rifiuti abbandonati**: nel 2020 erano "modesti" (pneumatici, inerti, legno vicino all'ingresso) [4]. Dal 2022 c'è un cumulo al confine nord, a cavallo con il terreno del vicino, che va tolto insieme al vicino per evitare crolli [1][20]. Come è andata, secondo Ilva [20][21][22][1]:
   - a fine 2022 Ilva scrive che il terreno vicino è **del Comune di Statte** [20]; nel 2023 parla invece di "proprietà di terzi" [21]. Il Comune ci ha scritto che il terreno a nord (foglio 51, particella 32) **non è suo** [25];
   - il 12 maggio 2023 Ilva ha dato l'ordine per togliere i rifiuti dalla sua parte (ordine n. 97/23, ditta Fratelli Semeraro), da fare insieme al vicino [21];
-  - dopo due solleciti di Ilva, il Comune di Statte ha emesso un'**ordinanza** di rimozione contro i proprietari del terreno vicino: è l'ordinanza del sindaco **n. 26 del 28 luglio 2023**, per «rifiuti speciali pericolosi e non pericolosi abbandonati», rivolta a una privata e a una società proprietarie della particella 32 [25][26]; il 20 dicembre 2023 il Comune ha chiuso la pratica dicendo che i rifiuti erano stati tolti, ma **quelli sul confine sono rimasti** [21]. Ilva annunciava una richiesta di riesame al Comune [21];
+  - dopo due solleciti di Ilva, il Comune di Statte ha emesso un'**ordinanza** di rimozione contro i proprietari del terreno vicino: secondo il Comune, per la particella 32 è stata emessa l'ordinanza del sindaco **n. 26 del 28 luglio 2023** [25][26]; il 20 dicembre 2023 il Comune ha chiuso la pratica dicendo che i rifiuti erano stati tolti, ma **quelli sul confine sono rimasti** [21]. Ilva annunciava una richiesta di riesame al Comune [21];
   - il 6 marzo 2024 c'è stato un sopralluogo con il Comune e i vicini; a fine 2024 il Comune aspettava il rilievo topografico dei vicini [22]. Nel 2025 i rifiuti sono ancora lì [1];
   - quantità e tipo dei rifiuti: non verificato.
 
@@ -103,7 +103,7 @@ Il terreno è stato confrontato con due limiti diversi: quelli per le **aree ver
 | 9 e 16 giugno 2023 | Ilva farà una nuova analisi di rischio; il Ministero annuncia l'archiviazione della pratica | [11][12] |
 | 7 e 13 novembre 2023 | ARPA d'accordo sui 5 nuovi pozzi; il Ministero chiede a Ilva di procedere | [13][17] |
 | 12 maggio 2023 | Ordine di Ilva per togliere i rifiuti dalla sua parte, da fare insieme al vicino | [21] |
-| 28 luglio 2023 | Ordinanza del sindaco n. 26: i proprietari della particella 32 devono togliere i rifiuti pericolosi e non pericolosi | [26] |
+| 28 luglio 2023 | Ordinanza del sindaco n. 26 sul terreno a nord (particella 32) | [25][26] |
 | 20 dicembre 2023 | Il Comune di Statte chiude la pratica dei rifiuti del vicino; quelli sul confine restano | [21] |
 | 6 marzo 2024 | Sopralluogo con il Comune di Statte per i rifiuti | [1][22] |
 | 19 marzo e 23 aprile 2024 | Il Comune approva la posizione dei nuovi pozzi; nulla osta di SNAM | [22] |
@@ -169,7 +169,7 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 
 ## Cosa non sappiamo
 1. [blocca] **Quali limiti valgono: quelli per le aree verdi o quelli per le aree industriali?** Da cinque anni non è chiaro. Il Comune di Statte ha risposto solo dopo una diffida di Ilva, e la sua proposta deve ancora essere valutata dagli enti [14][16]. ARPA, nel 2022, aveva validato i risultati confrontando tutta l'area con i limiti per le aree verdi [20]. ARPA e ISPRA fanno notare che, con i limiti industriali, quasi tutti i valori trovati sarebbero in regola, tranne il tallio e i PCB misurati da ARPA [8][9]. La scelta cambia molto il risultato.
-2. [altra] **Quanti rifiuti ci sono al confine nord, e di chi è il terreno?** Quanti sono e di che tipo, non lo dice nessuno. Nel 2022 Ilva scrive che il terreno vicino è del Comune di Statte, ma il Comune ci ha scritto che non è suo: è di privati, a cui il 28 luglio 2023 ha ordinato di togliere i rifiuti (ordinanza n. 26) [20][25][26]. Il Comune ha chiuso la pratica a dicembre 2023, ma i rifiuti sul confine sono ancora lì, e con loro resta ferma la recinzione [21][1]. Non verificato.
+2. [altra] **Quanti rifiuti ci sono al confine nord, e di chi è il terreno?** Quanti sono e di che tipo, non lo dice nessuno. Nel 2022 Ilva scrive che il terreno vicino è del Comune di Statte, ma il Comune ci ha scritto che non è suo e che per quel terreno il 28 luglio 2023 è stata emessa l'ordinanza n. 26 [20][25]. Il Comune non dice di chi è il terreno [25]. Il Comune ha chiuso la pratica a dicembre 2023, ma i rifiuti sul confine sono ancora lì, e con loro resta ferma la recinzione [21][1]. Non verificato.
 3. [altra] **Da dove vengono PCB, tallio e diossine, e il riporto profondo trovato nel 2025?** Nessuna fonte lo dice. Non verificato.
 4. [altra] **Che cosa dicono i nuovi pozzi del 2025 sull'acqua sotterranea?** I risultati non sono pubblici. Il decreto del 2021 voleva i pozzi coordinati con il progetto di messa in sicurezza della falda della zona PIP di Statte, che è fermo [3] (vedi scheda [PIP Statte](pip-statte.md)). Non verificato.
 5. [altra] **Quanto è stato speso dopo febbraio 2023?** Le ultime cifre di Ilva sono di quel mese [24]; nessuna fonte trovata dà cifre successive. Non verificato.
