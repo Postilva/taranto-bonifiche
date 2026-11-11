@@ -93,7 +93,7 @@ Quanti pozzetti hanno superato il limite, anno per anno, secondo il riepilogo di
 |---|---|---|
 | 26 novembre 2013 | Ilva presenta il progetto della barriera dei Parchi | [2] |
 | 18 dicembre 2013 | La conferenza di servizi chiede di cominciare a pompare dai pozzi esistenti | [2] |
-| 2015–2016 | Analisi integrative della falda sotto i Parchi primari e il Parco loppa: cromo esavalente nella falda superficiale, piombo in quella profonda | [19] |
+| 2015–2016 | Analisi integrative della falda sotto i Parchi primari e il Parco loppa: secondo il riassunto di ARPA, cromo esavalente nella falda superficiale e piombo in quella profonda | [19] |
 | 16 marzo 2016 | La conferenza di servizi chiede a Ilva misure di prevenzione per i Parchi primari e il Parco loppa | [21] |
 | 13 luglio 2016 | ARPA valida le analisi dei Parchi primari e del Parco loppa | [20] |
 | 13 luglio 2017 | Ilva in A.S. segnala gli idrocarburi galleggianti (nota prot. 420) | [2][3] |
