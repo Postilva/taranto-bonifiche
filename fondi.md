@@ -123,13 +123,13 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 ## Contributo del Ministero delle Infrastrutture al Comune di Taranto (2018)
 - **Chi lo dà:** Ministero delle Infrastrutture e dei Trasporti (Direzione generale per lo sviluppo del territorio), al Comune di Taranto, con il Fondo di rotazione della legge 183/1987 per il Piano di Azione Coesione del Ministero [23].
 - **Atto:** atto di concessione del 28 settembre 2018; il finanziamento era stato rideterminato con il decreto n. 33 del 2015 (Gazzetta Ufficiale del 17/09/2015) [23].
-- **Importo:** 1.504.035,76 € versati, su 1.954.054,40 € di spesa ammessa [65][66]. La pagina della trasparenza del Ministero scrive 1.504.034,76 € [23].
-- **Per cosa:** "Progetto di bonifica dei suoli per annullare il rischio sanitario – aree sottoprogetti 1, 2 e 3 Quartiere Tamburi" [23], uno dei progetti della convenzione n. 3093 del 17 aprile 2014 tra Ministero e Comune (24 milioni di euro del "Piano città") [65].
+- **Importo:** 1.504.035,76 € versati [65][66], su un finanziamento di 1.954.054,40 € [65], che nell'elenco delle spese del Comune è il «costo ammesso» [67]. La pagina della trasparenza del Ministero scrive 1.504.034,76 € [23].
+- **Per cosa:** "Progetto di bonifica dei suoli per annullare il rischio sanitario – aree sottoprogetti 1, 2 e 3 Quartiere Tamburi" [23]. Il pagamento è fatto sulla convenzione n. 3093 del 17 aprile 2014 tra Ministero e Comune [66], da 24 milioni di euro del "Piano città" [65]; ma nel testo della convenzione del 2014 sono nominati solo la "Foresta urbana zona nord" e 154 alloggi popolari, tutti e due con la bonifica delle aree come prima fase [65]. Il Ministero cita anche un addendum alla convenzione del 24 marzo 2017, che non è tra le nostre copie [65].
 - **Report:**
   - [tamburi-risanamento-suoli] 1.504.035,76 € [66]
 - **A che punto:** Ministero delle Infrastrutture
-  - 1.504.035,76 € · [tamburi-risanamento-suoli] · dal 2018 fino al 2018 · pagati: rimborso dei lavori fatti nel 2016–2017, versato al Comune di Taranto il 28 settembre 2018; per il Ministero l'opera è conclusa e collaudata [65][66]
-- **Speso:** versati al Comune il 28 settembre 2018 come "domanda di rimborso n. 1", con la disposizione di pagamento n. 2018100428 del 21/09/2018 sulla contabilità speciale del Ministero n. 5838 [23][66]. È l'unica domanda di rimborso; dopo non ci sono stati altri pagamenti [65]. Nell'elenco delle spese del Comune, 1.421.971,38 € sono andati alle imprese che hanno fatto i lavori (calcolo nostro) [67].
+  - 1.504.035,76 € · [tamburi-risanamento-suoli] · dal 2018 fino al 2018 · pagati: rimborso delle spese del progetto, compresi i lavori del 2016–2017, versato al Comune di Taranto il 28 settembre 2018; per il Ministero l'opera è conclusa e collaudata [65][66][67]
+- **Speso:** versati al Comune il 28 settembre 2018 come "domanda di rimborso n. 1", con la disposizione di pagamento n. 2018100428 del 21/09/2018 sulla contabilità speciale del Ministero n. 5838 [23][66]. È l'unica domanda di rimborso; dopo non ci sono stati altri pagamenti [65]. Prima il Ministero aveva dato anche un anticipo di 1.200.000 € per tre progetti insieme, tra cui questo [65]. Nell'elenco delle spese del Comune, 1.421.971,38 € sono andati alle imprese che hanno fatto i lavori (calcolo nostro) [67].
 - **Da sapere:** la pagina del Ministero cita una "Convenzione MIT comune di Catania prot. 3093/RU del 17/04/2014", anche se il beneficiario è il Comune di Taranto [23]: la convenzione n. 3093 è quella con Taranto [65].
 
 ## Programma europeo FESR della Regione Puglia 2014-2020 (revocato)
@@ -181,7 +181,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **Chi lo dà:** Fondo sviluppo e coesione 2014-2020, Contratto istituzionale di sviluppo per Taranto, con il Commissario come ente che finanzia [25][26].
 - **Atto:** delibera CIPE n. 93 del 22 dicembre 2017, che dà al Commissario 12 milioni € per interventi ambientali a Crispiano, Massafra, Montemesola e Statte, 3 milioni per Comune [26].
 - **Importo:** 300.000 € [25][26].
-- **Per cosa:** "Progettazione della bonifica ambientale con misura di sicurezza della Gravina Leucaspide in area SIN" [25].
+- **Per cosa:** "Progettazione della bonifica ambientale con misura di sicurezza della Gravina Leucaspide in area SIN" [25]; la maggior parte dei soldi è andata alle indagini integrative sul tratto sud [68].
 - **CUP:** J76J20001130001 [25].
 - **Report:**
   - [gravina-leucaspide] 300.000 €: 191.575,16 € di costo e 108.424,84 € non usati [25]
@@ -191,7 +191,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **Speso:** 191.575,16 € [25][26]. Il Commissario ha pagato al Comune 30.000 € di anticipo nel 2019, 114.915,84 € a marzo 2023 e il saldo di 46.659,32 € con il decreto n. 53 del 2 ottobre 2026 [26]. OpenCoesione registra 7 pagamenti, dal 22 luglio 2020 al 5 aprile 2023, e il progetto come "liquidato" [25].
 - **Da sapere:**
   - Su OpenCUP il costo previsto del progetto è 275.192 € [44], né 300.000 né 191.575,16 €. Sono i 275.191,79 € del "Piano di indagini integrative" approvato dalla Giunta di Statte il 31 agosto 2020 [68].
-  - Nonostante il nome, i soldi hanno pagato indagini (pozzi di controllo e analisi di acqua e suoli), non un progetto di bonifica: per il Comune ARPA non le ha validate e il progetto definitivo non è stato scritto [68]. Il secondo codice J74J18000120001 (3 milioni €, del 2018) era sbagliato ed è stato cancellato il 16 marzo 2026 [68].
+  - Delle 191.575,16 € spese, 157.719,32 € sono andati alla ditta delle indagini (pozzi di controllo e analisi di acqua e suoli), 24.808,21 € all'ingegnere che ha dato supporto al responsabile del procedimento e 9.047,63 € al direttore dei lavori [68]. Secondo il Comune non si è arrivati alla convalida di ARPA delle indagini, e il progetto definitivo non è stato scritto [68]. Il secondo codice J74J18000120001 (3 milioni €, del 2018) era sbagliato ed è stato cancellato il 16 marzo 2026 [68].
   - Il decreto n. 53 scrive 114.915,80 € nelle premesse e 114.915,84 € più avanti, dove fa i conti [26]; anche la relazione del Commissario del 2023 dice 114.915,84 € [63]. Con 114.915,84 € i tre pagamenti fanno 191.575,16 €, il costo del progetto (calcolo nostro).
 
 ## Accordo di programma quadro del 2004 per il Mar Piccolo
@@ -452,7 +452,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 
 [64] Commissari straordinari di ILVA S.p.A. in A.S., *Audizione 9ª Commissione Senato su ddl 1359 (d-l 3/2025 – Continuità produttiva e occupazionale ex ILVA)*, 4 febbraio 2025, documento depositato (9 slide), slide 4–5 (soldi del Patrimonio Destinato usati al 31 gennaio 2025, voce per voce), 6 (325 milioni per attività ambientali e sanitarie dal 2018 al 2024, Ilva e Acciaierie d'Italia anno per anno) e 7 (118 milioni previsti nel 2025 e lavori principali) — copia in `fonti/2025-02_ilva-as_audizione-senato-commissari-dl-3-2025.pdf`
 
-[65] Ministero delle Infrastrutture e dei Trasporti, Direzione generale per lo sviluppo del territorio e i progetti internazionali, *Riscontro alla richiesta di accesso civico generalizzato* (la nostra richiesta n. 70), prot. U.0013650 del 6 novembre 2026, pag. 1–2: CUP E56J12000240001, finanziamento di 1.954.054,40 €, «un'unica domanda di rimborso» di 1.504.035,76 €, «l'opera è stata conclusa e collaudata»; allegata la convenzione prot. 3093 del 17 aprile 2014 — copie in `fonti/2026-11_mit_riscontro-foia-contributo-bonifica-suoli-tamburi.pdf` e `fonti/2014-04_mit-comune-taranto_convenzione-3093-piano-citta.pdf`
+[65] Ministero delle Infrastrutture e dei Trasporti, Direzione generale per lo sviluppo del territorio e i progetti internazionali, *Riscontro alla richiesta di accesso civico generalizzato* (la nostra richiesta n. 70), prot. U.0013650 del 6 novembre 2026, pag. 1–2: CUP E56J12000240001, finanziamento di 1.954.054,40 €, «un'unica domanda di rimborso» di 1.504.035,76 €, «l'opera è stata conclusa e collaudata», anticipazione di 1.200.000 € «sull'intera strategia di finanziamento che ha interessato tre progetti»; allegata la convenzione prot. 3093 del 17 aprile 2014 (art. 2, interventi; art. 5, 24.000.000 €; l'addendum prot. 3064 del 24 marzo 2017, elencato tra gli allegati, non è tra le copie) — copie in `fonti/2026-11_mit_riscontro-foia-contributo-bonifica-suoli-tamburi.pdf` e `fonti/2014-04_mit-comune-taranto_convenzione-3093-piano-citta.pdf`
 
 [66] Ragioneria generale dello Stato, sistema IGRUE, *Disposizione di pagamento per beneficiario n. 2018100428* del 21 settembre 2018, Comune di Taranto, CUP E56J12000240001, 1.504.035,76 €, esitata il 28 settembre 2018 (allegata alla risposta del Ministero [65]) — copia in `fonti/2018-09_mit_disposizione-pagamento-2018100428-comune-taranto.pdf`
 

@@ -48,7 +48,7 @@ Nessuna cifra trovata. Non verificato.
 | 30 luglio 2018 | Determina 197: approvati i risultati delle analisi e l'analisi di rischio | [11] |
 | aprile 2020 | Sito "contaminato": analisi e analisi di rischio approvate | [1] |
 | settembre 2026 | Per ARPA lo stato è lo stesso del 2020 | [7] |
-| 9 novembre 2026 | La Regione indica la determina 197 del 2018, ma scrive che per la falda l'accesso «non può essere accolto» | [11] |
+| 9 novembre 2026 | La Regione indica la determina 197 del 2018, ma scrive che per la falda la richiesta «non può essere accolta» | [11] |
 
 ## Fonti
 [1] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020), tabella 4 "Siti contaminati", sito n. 148 "Risanamento Q.re Tamburi – Matrice acqua sotterranea", pag. 53, https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
