@@ -1,5 +1,5 @@
 # B10 – Zona PIP di Statte: messa in sicurezza dei rifiuti industriali e della falda profonda
-*Stato scheda: approvata — aggiornata all'11 novembre 2026*
+*Stato scheda: approvata — aggiornata al 12 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -140,7 +140,8 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 | **Costo totale** | **124.073.987,94 €** |
 
 - Gli 89,9 milioni corrispondono esattamente al totale del quadro economico dello studio di fattibilità del Comune del 2022 [11].
-- Le "altre risorse" non sono spiegate. Potrebbero essere ciò che resta dei 37 milioni regionali, ma nessuna fonte lo dice. Non verificato.
+- Le "altre risorse" sono **i fondi della Regione del 2012**, non soldi nuovi. Lo scrive la scheda dell'intervento che il Ministero ci ha mandato il 12 novembre 2026: il cofinanziamento di 34.173.987,94 € è «regionale» e viene dal Fondo sviluppo e coesione 2007-2013 della Regione Puglia (delibera CIPE 87/2012), con il Protocollo d'intesa del 26 luglio 2012 e il Contratto istituzionale di sviluppo di Taranto del 31 dicembre 2015 [32].
+- Con i pagamenti che abbiamo trovato, dei 37 milioni ne resterebbero 35.444.098,56 € (calcolo nostro: 37.000.000 − 1.180.649,40 − 375.252,04) [4][6][23], cioè 1.270.110,62 € più dei 34,17 milioni della scheda (calcolo nostro). La differenza non è spiegata: forse ci sono spese che non abbiamo trovato. Non verificato.
 
 **Gli 89,9 milioni sono davvero disponibili?** In parte sì: sono assegnati con un atto ufficiale, ma non sono ancora arrivati e non sono ancora spesi.
 - **Sì, sono assegnati.** Il CIPESS (il comitato del governo che assegna questi fondi) li ha assegnati al Ministero dell'Ambiente con la **delibera n. 51 del 10 dicembre 2025**, insieme agli altri interventi dell'Accordo (1,16 miliardi € in tutto) [15]. La delibera è stata registrata dalla Corte dei conti il 7 aprile 2026 e pubblicata in Gazzetta Ufficiale il 17 aprile 2026; da quel momento il Ministero può avviare le attività [15].
@@ -209,6 +210,7 @@ Tra il 1972 e il 1995 la cava è stata riempita di rifiuti industriali, soprattu
 | maggio 2026 | L'opuscolo: conti dei primi lavori da chiudere, progettazione da affidare | [1] |
 | 18 giugno 2026 | Incontro informale in municipio con Commissario e Unità tecnica della Presidenza del Consiglio, senza resoconto | [31] |
 | 30 giugno 2026 | OpenCoesione: nuovo intervento "non avviato", 0 € spesi | [17] |
+| 12 novembre 2026 | Il Ministero ci scrive che i 34,17 milioni del nuovo intervento sono fondi della Regione del 2012 | [32] |
 
 ## Fonti
 Tutti i documenti del Ministero su questa pratica sono nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ — SIN "Taranto", Aree 3010, 3011, 3012, 3013, 3014, 3019, 3020, 3021 e 3022: è una sola pratica con nove codici [12].
@@ -277,6 +279,8 @@ Tutti i documenti del Ministero su questa pratica sono nell'archivio https://bon
 
 [31] Comune di Statte, Settore Assetto del territorio, Ambiente e SUAP (arch. Daniele Biffino), *Richieste di accesso civico generalizzato e di accesso all'informazione ambientale. Primo riscontro*, prot. 21082 del 10/11/2026, paragrafo 3 (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-11_comune-statte_primo-riscontro-foia-pip-gravina-aree-verdi.pdf`
 
+[32] Ministero dell'Ambiente e della Sicurezza Energetica, Direzione generale Economia circolare e bonifiche, Divisione V, *ID 7 SIN Taranto – Richiesta di accesso civico generalizzato – SIN Taranto: copertura finanziaria dell'intervento "Messa in sicurezza/bonifica area PIP Statte" nell'Accordo per la Coesione del Ministero (CUP J72B25002080003) e risorse dell'Accordo di Programma Quadro dell'11 giugno 2004 per l'Area 170 ha del Mar Piccolo*, nota ECB-05-760_2026-0074, prot. 235228 del 12/11/2026 (firmata l'11/11/2026), punto 1, e la scheda allegata *Programmazione FSC 2021-2027 – Rilevazione interventi* dell'intervento "Messa in sicurezza/bonifica Area PIP Statte-SIN Taranto" (All. 1; codici fiscali e cellulare oscurati da noi) (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-11_mase_riscontro-foia-pip-statte-area-170-mar-piccolo.pdf` e `fonti/2026-11_mase_scheda-fsc-2021-2027-pip-statte.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Quale sarà il progetto?** La messa in sicurezza definitiva è ferma dal 2020, e nel 2021 il Ministero ha indicato di togliere i rifiuti [7][22]. La soluzione del 2022 lascerebbe sul posto circa 535.000 m³ di rifiuti chiusi in una cava impermeabilizzata [10], e ISPRA e ARPA hanno trovato molte lacune [13][14]. Al 30 giugno 2026 il nuovo intervento risultava «non avviato», con 0 € spesi [17]. Non si sa se il nuovo progetto toglierà tutti i rifiuti o no, quindi non si sa se alla fine sarà una "bonifica" o una "messa in sicurezza". Diversi giornali (per esempio NoiNotizie del 20/06/2026) riportano un comunicato del Comune di Statte su un sopralluogo del 19 giugno 2026 dell'Unità tecnico-amministrativa della Presidenza del Consiglio, del Commissario Uricchio e del sindaco per una "soluzione progettuale radicalmente nuova". Il Comune ci ha scritto che l'incontro c'è stato il **18 giugno 2026** in municipio, con un «veloce sopralluogo», ma era «meramente preliminare e informativo» e **non ne è stato scritto nessun resoconto** [31].
 2. [blocca] **Chi farà i lavori?** OpenCoesione indica come beneficiario il Ministero dell'Ambiente [17], l'opuscolo il Commissario insieme all'Unità tecnica amministrativa della Presidenza del Consiglio [1]. Non si sa se il Comune di Statte sia ancora soggetto attuatore, come dal decreto del 4 maggio 2021 [7], né se il Comune o il Commissario abbiano firmato nuovi accordi. Non verificato.
@@ -292,8 +296,8 @@ Tutti i documenti del Ministero su questa pratica sono nell'archivio https://bon
    - le analisi costano 394.000 € nell'opuscolo [1] e 400.000 € negli altri documenti [5][19];
    - l'intervento d'emergenza vale 9,9 milioni € (2018) [5], 932.202,35 € (2019) [6] o 1.379.000 € (2026) [1];
    - i fondi regionali sono 37 milioni € [4], cioè 36,6 + 0,4 milioni [18][19][20], ma nel 2015 al Comune ne sono stati assegnati 36,445 [6].
-   OpenCoesione registra 0 € di pagamenti [18][19]. Non verificato.
-8. [fonti] **Quanto costerà: 89,9 o 124 milioni?** Il costo era di 89,9 milioni nello studio del 2022 [11] e anche nella delibera della Regione del 2024 [3], ma è diventato di 124 milioni nell'Accordo del 2025 [2]. Inoltre non si sa da dove vengano i 34,17 milioni di "altre risorse" [2][17], né se il governo abbia confermato che ci sono, come chiedeva la delibera CIPESS [15]. Non verificato.
+   OpenCoesione registra 0 € di pagamenti [18][19]. Per il Ministero 34.173.987,94 € di questi fondi vanno nel nuovo intervento [32], ma nessun documento spiega come si arriva a quella cifra. Non verificato.
+8. [fonti] **Quanto costerà: 89,9 o 124 milioni?** Il costo era di 89,9 milioni nello studio del 2022 [11] e anche nella delibera della Regione del 2024 [3], ma è diventato di 124 milioni nell'Accordo del 2025 [2]. I 34,17 milioni in più sono i vecchi fondi della Regione [32], ma non si sa se il governo abbia confermato che ci sono, come chiedeva la delibera CIPESS [15]. Non verificato.
 9. [fonti] **Qual è il codice del progetto (CUP)?** La Regione indica il CUP J76J14000840001 [3], che su OpenCoesione non esiste e che su OpenCUP è dell'intervento d'emergenza sull'olio [28]. L'Accordo non indica nessun CUP [2], mentre OpenCoesione usa J72B25002080003 [17].
 10. [fonti] **Quanti rifiuti ci sono, e fino a quando sono stati portati?** Lo studio del Comune scrive che la cava è stata riempita tra il 1972 e il 1995, con strati di rifiuti spessi da 3 a 26 metri, e stima circa 640.000 m³ di rifiuti da scavare (calcolo nostro: 220.000 + 420.000) [10]. La Commissione parlamentare sui rifiuti scrive che il riempimento è durato fino al 1992 e parla di oltre 1 milione di m³, fino a più di 40 metri sotto il piano campagna [26].
 
