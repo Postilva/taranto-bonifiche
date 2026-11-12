@@ -1,5 +1,5 @@
 # B12 – Mar Piccolo: bonifica dell'"Area 170 ha" con ecodragaggio (con la Marina Militare)
-*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 12 novembre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -33,7 +33,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 **Né bonificato né messo in sicurezza: nessun lavoro sui fanghi è partito, e i circa 33,5 milioni indicati dalla Regione non sono ancora assegnati.** [1][3] Non c'è nessun certificato di bonifica [1].
 
 **Studi ufficiali sull'inquinamento**
-- Già l'Accordo di programma quadro dell'11 giugno 2004 (Ministero dell'Ambiente, Ministero dell'Economia, Commissario delegato per l'emergenza ambientale e Regione Puglia) prevedeva per l'Area 170 ha tre interventi: analisi (500.000 €), progettazione e sperimentazione (1.550.000 €) e bonifica (23.950.000 €), in tutto 26 milioni €, poi portati a 37.244.000 € con altri fondi del Programma nazionale di bonifica [17]. Le fonti trovate non dicono che fine abbiano fatto questi soldi, a parte le analisi del 2005.
+- Già l'Accordo di programma quadro dell'11 giugno 2004 (Ministero dell'Ambiente, Ministero dell'Economia, Commissario delegato per l'emergenza ambientale e Regione Puglia) prevedeva per l'Area 170 ha tre interventi: analisi (500.000 €), progettazione e sperimentazione (1.550.000 €) e bonifica (23.950.000 €), in tutto 26 milioni €, poi portati a 37.244.000 € con altri fondi del Programma nazionale di bonifica [17]. Secondo il Ministero l'accordo «non ha avuto ulteriore attuazione»: al Commissario delegato è arrivato solo un anticipo di 5,2 milioni, e i 20,8 milioni rimasti sono stati dati nel 2016 al Commissario straordinario per un altro progetto (vedi "Soldi") [23].
 - Nel 2005 la zona davanti all'Arsenale è stata analizzata dal Commissario delegato per l'emergenza rifiuti in Puglia; risultato: contaminazione estesa e rilevante da PCB e da metalli pesanti (arsenico e mercurio), rispetto ai limiti fissati da ICRAM-ISPRA e dal D.Lgs. 152/2006 [6].
 - Nel 2018 il Commissario scriveva di aver completato le indagini geofisiche (cioè con strumenti, senza prelievi) sul fondale, compresa l'Area 170 ha [18].
 - ARPA Puglia e ISPRA scrivono (2015) che una delle possibili fonti "secondarie" di inquinamento nel 1° seno è la risospensione dei sedimenti dell'Area 170 ha, cioè i fanghi vecchi che si rimescolano e rilasciano inquinanti [6]. Non hanno scritto chi li ha inquinati.
@@ -89,22 +89,32 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 - Per l'ecodragaggio dell'Area 170 ha non ho trovato nessuna procedura di VIA, di autorizzazione al dragaggio o di approvazione di un progetto. Non verificato.
 
 ## Soldi
-**In una proposta della Regione (dicembre 2025) la bonifica costa circa 33,5 milioni €, ma non abbiamo trovato nessun finanziamento approvato. Un accordo del 2004 prevedeva per quest'area 26 milioni €, poi 37,2: quanto ne sia stato speso non si sa.** [1][3][12][17]
+**In una proposta della Regione (dicembre 2025) la bonifica costa circa 33,5 milioni €, ma non abbiamo trovato nessun finanziamento approvato. Un accordo del 2004 prevedeva per quest'area 26 milioni €, ma sono andati quasi tutti altrove: 5,1 milioni alle discariche di Manfredonia e 20,8 milioni a un altro progetto del Commissario.** [1][3][12][23]
 
 - [costo] circa 33.500.000 € · Regione Puglia · dicembre 2025 [3] nel documento di proposta della Regione
 - [disponibili] nessuno · nessun finanziamento approvato trovato [1][12]
-- [spesi] non si sa
+- [spesi] non si sa · dei 26 milioni del 2004, 35.398,92 € per una gara sulla bonifica dei fondali poi revocata [23]; per i lavori di adesso non c'è ancora una spesa [1]
+- [stranezza · usati per altro] Dei 26 milioni dell'accordo del 2004 per l'Area 170 ha, 5.126.465,88 € sono andati alla bonifica delle discariche pubbliche di Manfredonia e 20.800.000 € alla "Piattaforma" per l'area vasta del Commissario [23]
 
 - Bonifica Area 170 ha: circa 33,5 milioni € indicati nel documento di proposta della Regione (dicembre 2025) [3]; nessun finanziamento approvato trovato [1][12].
 - Difesa, Intervento A (Mar Grande): 512 milioni € di lavori stimati [8]; 191,4 milioni € monitorati su OpenCoesione, di cui 5,6 milioni € pagati al 30 giugno 2026 [11].
-- Accordo di programma del 2004: 26 milioni € previsti per l'Area 170 ha (analisi, sperimentazione e bonifica), poi 37,244 milioni € [17]. Non si sa quanto sia stato speso né se i soldi rimasti siano stati spostati altrove. Non verificato.
-- Speso per l'Area 170 ha: non verificato.
+- Accordo di programma del 2004: 26 milioni € previsti per l'Area 170 ha (analisi, sperimentazione e bonifica), poi 37,244 milioni € secondo ARPA [17]. Il Ministero, rispondendo a una nostra richiesta, parla di 26 milioni (delibere CIPE 17/2003 e 83/2003) e spiega dove sono finiti [23]:
+  | Dove sono andati | Importo |
+  |---|---|
+  | Anticipo al Commissario delegato (20%) | 5.200.000,00 € |
+  | – gara per la bonifica dei fondali del Mar Piccolo, poi revocata | 35.398,92 € |
+  | – bonifica delle discariche pubbliche di Manfredonia (ordinanza 3793/2009) | 5.126.465,88 € |
+  | – avanzati, passati all'accordo di programma del 20 settembre 2021 | 38.135,20 € |
+  | Il resto, dato nel 2016 al Commissario straordinario per la "Piattaforma" per l'area vasta (decreto n. 171 dell'8 aprile 2016) | 20.800.000,00 € |
+- Per il Mar Piccolo il Ministero indica altri 55 milioni €: 34 milioni del Fondo sviluppo e coesione 2014-2020 del Ministero, di cui finora ne sono arrivati al Commissario 3,4, e 21 milioni della Regione (delibera CIPE 87/2012) [23]. Sono i soldi delle altre schede sul Mar Piccolo; per l'Area 170 ha non è indicata una cifra [23].
+- Speso per l'Area 170 ha dopo il 2016: non verificato.
 
 ## Date principali
 | Data | Cosa succede | Fonte |
 |---|---|---|
 | 11 giugno 2004 | Accordo di programma: 26 milioni € per analisi, sperimentazione e bonifica dell'Area 170 ha | [17] |
 | 2005 | Analisi dei sedimenti dell'Area 170 ha davanti all'Arsenale | [6] |
+| 8 aprile 2016 | Il Ministero dà i 20,8 milioni rimasti dell'accordo del 2004 alla "Piattaforma" per l'area vasta | [23] |
 | febbraio 2015 | Studio ARPA/ISPRA con simulazione di dragaggio nell'Area 170 ha | [6] |
 | 15 luglio 2015 | Il sito del Commissario annuncia l'accordo di collaborazione con la Marina Militare | [4] |
 | 30 luglio 2015 | Il sito del Commissario descrive le attività congiunte con la Marina | [5] |
@@ -167,6 +177,8 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 
 [22] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
+[23] Ministero dell'Ambiente e della Sicurezza Energetica, Direzione generale Economia circolare e bonifiche, Divisione V, *ID 7 SIN Taranto – Richiesta di accesso civico generalizzato – SIN Taranto: copertura finanziaria dell'intervento "Messa in sicurezza/bonifica area PIP Statte" nell'Accordo per la Coesione del Ministero (CUP J72B25002080003) e risorse dell'Accordo di Programma Quadro dell'11 giugno 2004 per l'Area 170 ha del Mar Piccolo*, nota ECB-05-760_2026-0074, prot. 235228 del 12/11/2026 (firmata l'11/11/2026), punto 2 (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-11_mase_riscontro-foia-pip-statte-area-170-mar-piccolo.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Che cosa prevede l'accordo con la Marina del 2025–2026?** Non abbiamo trovato nessun atto firmato sull'Area 170 ha: né l'accordo, né il piano di indagini, né chi lo paga, né il costo [1][2]. L'opuscolo dice che i ruoli sono ancora da "formalizzare" [1]. Non abbiamo trovato nemmeno il "nulla osta tecnico" di ISPRA del 24 novembre 2025 né gli atti della bonifica da ordigni bellici iniziata a gennaio 2026 [16]. Il 9 ottobre 2026 due ricerche sul web non hanno trovato altro. Non verificato.
 2. [blocca] **Quanto costerà, e chi pagherà la bonifica?** C'è solo "circa 33,5 milioni €" in un documento di proposta della Regione [3]; il Commissario non dà cifre [1]. Non si sa se useranno i vecchi soldi del Mar Piccolo [13]. Non verificato.
@@ -175,7 +187,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 5. [altra] **I lavori della base citati dal Commissario riguardano il Mar Piccolo?** Il Commissario collega l'Area 170 ha ai lavori sulla "Base Sommergibili" [1], ma i documenti ufficiali della Difesa che abbiamo trovato parlano della Stazione Navale in Mar Grande [8][9][10]. Come le due cose si colleghino non è chiaro. Non verificato.
 6. [altra] **A che punto è la valutazione d'impatto ambientale (VIA) dei lavori della base?** Nel 2023 era in fase iniziale [10]; non abbiamo trovato come sia andata. Non verificato.
 7. [altra] **Che cosa ha fatto la Marina sul fondale nel 2015?** L'accordo con la Marina è del 2015 [4], ma non abbiamo trovato una fonte ufficiale sui lavori fatti. Un articolo di giornale (Buonasera24, "La Marina completa la caratterizzazione") parla di una mappatura dell'Area 170 ha in 63 giorni e di oltre 550 oggetti trovati: è solo una pista, non verificato.
-8. [altra] **Dove sono finiti i 26 milioni dell'accordo del 2004?** L'accordo prevedeva 26 milioni (poi 37,2) per l'Area 170 ha [17]. Quanti siano stati spesi e dove siano finiti gli altri: non verificato.
+8. [fonti] **L'accordo del 2004 valeva 26 o 37,2 milioni?** ARPA scrive che i 26 milioni sono stati portati a 37.244.000 € con altri fondi del Programma nazionale di bonifica [17]; il Ministero parla solo dei 26 milioni [23].
 9. [fonti] **Quando è stato firmato l'accordo del 2015?** Il sito del Commissario dà il 15 luglio 2015, il file collegato porta nel nome "25.06.2016" [4]. Il testo dell'accordo: non verificato.
 10. [fonti] **È il "I" o il "II" lotto?** L'opuscolo dice II lotto [1], la Regione dice I lotto [3].
 11. [fonti] **Quali soldi della Difesa sono veri, e quando partono i lavori?** 512 milioni € di lavori stimati dalla Difesa [8], 191,4 milioni € su OpenCoesione [11]: non sappiamo come si raccordino. La gara dei lavori era "prevista 2026" [8]; non abbiamo trovato se sia stata bandita: l'unico altro bando trovato è quello del 2021 per la verifica del progetto [15]. Non verificato.

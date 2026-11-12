@@ -34,7 +34,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
   - 5.224.848,56 € · [mar-piccolo-gara-2018] · dal 2012 · senza impegni: ancora senza impegni, destinati al 2° lotto di rimozione dei rifiuti dal fondale [5]
   - 1.180.649,40 € · [pip-statte] · dal 2012 · pagati: spesi a settembre 2018 [9]
   - 375.252,04 € · [pip-statte] · dal 2012 · pagati: girati al Comune di Statte nel settembre 2022 per l'intervento d'emergenza sull'olio (calcolo nostro: 364.469,12 + 10.782,92) [10][11]
-  - 35.444.098,56 € · [pip-statte] · dal 2012 · impegnati: il resto; su OpenCoesione i 37 milioni sono impegnati dal 2013, senza pagamenti registrati al 30 giugno 2026 (calcolo nostro) [15][16]
+  - 35.444.098,56 € · [pip-statte] · dal 2012 · impegnati: il resto; su OpenCoesione i 37 milioni sono impegnati dal 2013, senza pagamenti registrati al 30 giugno 2026 (calcolo nostro) [15][16]; per il Ministero 34.173.987,94 € di questi fondi sono il cofinanziamento del nuovo intervento sul PIP [69]
 - **Speso:**
   - Mar Piccolo: secondo il decreto n. 56 del 21 ottobre 2026 i 21 milioni sono stati usati per i rifiuti sul fondale (1.695.190,75 € e 4.041.717,03 €), il mercato ittico affondato (3.084.294,08 €), una causa con l'impresa del mercato ittico (1.200.000 € accantonati), accordi di studio (4.104.231,31 €), indagini sui sedimenti (204.900,01 €), la convenzione con Sogesid (1.129.818,26 €) e la quota dell'1,5% del Commissario (555.000 €); restano 5.224.848,56 € senza impegni, destinati al 2° lotto di rimozione dei rifiuti [5]. Nessuna voce è una rimozione dei fanghi [5]. Su OpenCoesione il progetto da 21 milioni ha 21 milioni € di impegni, registrati a fine 2015, e nessun pagamento al 30 giugno 2026 [7].
   - PIP Statte: 1.180.649,40 € spesi a settembre 2018, il 3,19% [9]. Nel settembre 2022 il Commissario ha trasferito al Comune 375.252,04 € per l'intervento d'emergenza sull'olio (calcolo nostro: 364.469,12 + 10.782,92) [10][11]. Su OpenCoesione i due progetti hanno tutti i 37 milioni impegnati dal 2013 e nessun pagamento al 30 giugno 2026 [15][16].
@@ -110,7 +110,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 ## Accordo per la Coesione del Ministero dell'Ambiente, Fondo sviluppo e coesione 2021-2027 (delibera CIPESS 51/2025)
 - **Chi lo dà:** il CIPESS al Ministero dell'Ambiente, con l'Accordo per la Coesione firmato a novembre 2025 [12][13].
 - **Atto:** delibera CIPESS n. 51 del 10 dicembre 2025, registrata dalla Corte dei conti il 7 aprile 2026 e pubblicata in Gazzetta Ufficiale il 17 aprile 2026 [13].
-- **Importo:** 1,16 miliardi € per tutti gli interventi dell'Accordo, a rate dal 2026 al 2033 [13]. Per la zona PIP di Statte 89.900.000 €, più 34.173.987,94 € di "cofinanziamento con altre risorse", per un costo totale di 124.073.987,94 € [12].
+- **Importo:** 1,16 miliardi € per tutti gli interventi dell'Accordo, a rate dal 2026 al 2033 [13]. Per la zona PIP di Statte 89.900.000 €, più 34.173.987,94 € di "cofinanziamento con altre risorse", per un costo totale di 124.073.987,94 € [12]. Per il Ministero il cofinanziamento è della Regione: sono i fondi della delibera CIPE 87/2012 [69].
 - **Per cosa:** a Taranto, la messa in sicurezza e bonifica della zona PIP di Statte [12][14].
 - **CUP:** J72B25002080003 [14].
 - **Report:**
@@ -118,7 +118,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 - **A che punto:** Ministero dell'Ambiente
   - 89.900.000 € · [pip-statte] · dal 2025 · da arrivare: arrivano a rate dal 2026 al 2033 [12][13]; 0 € di impegni e di pagamenti al 30 giugno 2026 [14]
 - **Speso:** 0 € di impegni e 0 € di pagamenti al 30 giugno 2026 [14].
-- **Da sapere:** le "altre risorse" da 34,17 milioni non sono spiegate [12]. Il cimitero San Brunone non è nell'Accordo [12]; a dicembre 2025 la Regione chiedeva ancora i soldi al Governo [20].
+- **Da sapere:** le "altre risorse" da 34,17 milioni sono i fondi della Regione del 2012 (delibera CIPE 87/2012) [69]: sono già contati in quella sezione e qui non si sommano. Il cimitero San Brunone non è nell'Accordo [12]; a dicembre 2025 la Regione chiedeva ancora i soldi al Governo [20].
 
 ## Contributo del Ministero delle Infrastrutture al Comune di Taranto (2018)
 - **Chi lo dà:** Ministero delle Infrastrutture e dei Trasporti (Direzione generale per lo sviluppo del territorio), al Comune di Taranto, con il Fondo di rotazione della legge 183/1987 per il Piano di Azione Coesione del Ministero [23].
@@ -197,15 +197,15 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 ## Accordo di programma quadro del 2004 per il Mar Piccolo
 - **Chi lo dà:** Ministero dell'Ambiente, Ministero dell'Economia, Commissario delegato per l'emergenza ambientale e Regione Puglia [27].
 - **Atto:** Accordo di programma quadro dell'11 giugno 2004 [27].
-- **Importo:** 26.000.000 € per l'Area 170 ha, poi 37.244.000 € con altri fondi del Programma nazionale di bonifica [27].
+- **Importo:** 26.000.000 € per l'Area 170 ha, dalle delibere CIPE 17/2003 e 83/2003 [69]; poi 37.244.000 € con altri fondi del Programma nazionale di bonifica secondo ARPA [27].
 - **Per cosa:** analisi (500.000 €), progettazione e sperimentazione (1.550.000 €) e bonifica (23.950.000 €) dell'Area 170 ha [27].
 - **Report:**
   - [mar-piccolo-area-170] 26.000.000 €, poi 37.244.000 € [27]
-- **A che punto:** non contato: l'Accordo del 2004 prevedeva questi soldi, ma non abbiamo trovato un atto che li abbia poi dati davvero all'Area 170 ha [27].
-- **Speso:** non si sa.
+- **A che punto:** non contato: l'accordo «non ha avuto ulteriore attuazione» [69]. Al Commissario delegato è arrivato solo un anticipo di 5.200.000 €: 35.398,92 € per una gara sui fondali poi revocata, 5.126.465,88 € per la bonifica delle discariche pubbliche di Manfredonia e 38.135,20 € avanzati e passati all'accordo di programma del 2021 [69]. I 20.800.000 € rimasti sono quelli della Piattaforma per l'area vasta (sezione qui sotto) [69].
+- **Speso:** per l'Area 170 ha solo 35.398,92 €, per una gara poi revocata [69].
 
 ## Piattaforma per l'area vasta (decreto del Ministero 171/STA del 2016)
-- **Chi lo dà:** Ministero dell'Ambiente, con soldi rimasti di vecchie delibere (CIPE 17/2003, 83/2003 e 179/2006) [1].
+- **Chi lo dà:** Ministero dell'Ambiente, con soldi rimasti di vecchie delibere (CIPE 17/2003, 83/2003 e 179/2006) [1]. Per il Ministero sono i soldi rimasti dell'accordo del 2004 per l'Area 170 ha del Mar Piccolo [69].
 - **Atto:** decreto della Direzione generale per la salvaguardia del territorio e delle acque prot. 171/STA dell'8 aprile 2016 [1].
 - **Importo:** 20.800.000 €, tutti versati al Commissario [1].
 - **Per cosa:** studiare tutta l'area vasta di Taranto (analisi, aree campione con tecniche nuove, fonti dell'inquinamento, rete di controllo di acque e suolo) [1].
@@ -314,14 +314,13 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 1. [fonti] **Il decreto per i suoli del Tamburi è il n. 398 o il n. 3984, ed è del 2012 o del 2021?** La relazione del Commissario del 2018 scrive "n.3984/TRI/DI/G/SP del 17/12/2012" [1], la tabella della Commissione parlamentare "398/TRI/DU/G/SP del 17/12/2021" [2]. La scheda delle scuole spiega già che "2021" è un errore.
 2. [altra] **Da quale decreto vengono i 6,18 milioni del Cimitero?** Il decreto n. 18 del 2026 dice solo "bilancio proprio e.f. 2012" del Ministero [18]; il fondo di 8 milioni per i suoli del Tamburi paga in parte anche le analisi del Cimitero [1].
 3. [altra] **Quanto del Patrimonio Destinato è stato speso per ogni Area esclusa dopo febbraio 2023?** Le relazioni dei commissari al Parlamento danno i pagamenti di Ilva "per attività di Decontaminazione" tutti insieme [41]; le cifre per area si fermano a febbraio 2023 [39]. Intanto dal Patrimonio sono usciti almeno 400 milioni per far funzionare la fabbrica [53][40].
-4. [altra] **Cosa sono i 34,17 milioni di "altre risorse" del PIP di Statte?** L'Accordo per la Coesione non lo spiega [12].
-5. [altra] **Cos'è il "Fondo di rotazione" da 9,26 milioni del Cimitero?** Compare solo su OpenCoesione [19].
-6. [altra] **Dove sono finiti i 37,2 milioni dell'accordo del 2004 per l'Area 170 ha?** Nessuna fonte trovata lo dice [27].
-7. [fonti] **I 21 milioni della Regione per il Mar Piccolo sono stati versati?** 17,85 milioni secondo le relazioni del Commissario [1][3], quasi tutti secondo un decreto del 2025 [4], 0 € pagati secondo OpenCoesione [7].
-8. [altra] **Quanto resta dei 540 milioni per decontaminare la fabbrica?** Secondo i commissari di Ilva, fino alla fine del 2024 Acciaierie d'Italia ne ha avuti 206 per i lavori ambientali [64]; nel secondo semestre 2025 le relazioni sul conto danno altri 49,17 milioni di rimborsi [41]. Nessun documento dice quanto resta, né per quali lavori nel dettaglio.
-9. [fonti] **Quanto ha avuto la fabbrica nel 2024?** Per la relazione sul conto, nel secondo semestre 2024 i rimborsi ad Acciaierie d'Italia "per attività di Decontaminazione" sono 33 milioni [58]; per i commissari di Ilva, in tutto il 2024 le spese per le attività ambientali nella fabbrica sono 11 milioni [64]. Forse una cifra conta i pagamenti e l'altra i lavori fatti nell'anno.
-10. [altra] **I 150 milioni della decarbonizzazione sono stati spesi, e per cosa?** Il decreto-legge 21/2022 li ha spostati [2], ma nessuna relazione trovata ne registra il pagamento. Nel conto dei commissari di Ilva dei soldi usati al 31 gennaio 2025 non compaiono [64].
-11. [altra] **Con quali soldi si finiranno le bonifiche delle Aree escluse?** Per Ilva servivano 467 milioni e ne aveva spesi 48,57 a febbraio 2023 (calcolo nostro: somma delle sue 17 aree) [39]; a fine 2025 nel Patrimonio Destinato restavano 80,6 milioni per tutto [41]. Il Comitato di sorveglianza l'ha chiesto ai commissari l'11 novembre 2024 [32].
+4. [altra] **Cos'è il "Fondo di rotazione" da 9,26 milioni del Cimitero?** Compare solo su OpenCoesione [19].
+5. [fonti] **L'accordo del 2004 per l'Area 170 ha valeva 26 o 37,2 milioni?** ARPA scrive 37.244.000 € [27]; il Ministero parla solo di 26 milioni [69].
+6. [fonti] **I 21 milioni della Regione per il Mar Piccolo sono stati versati?** 17,85 milioni secondo le relazioni del Commissario [1][3], quasi tutti secondo un decreto del 2025 [4], 0 € pagati secondo OpenCoesione [7].
+7. [altra] **Quanto resta dei 540 milioni per decontaminare la fabbrica?** Secondo i commissari di Ilva, fino alla fine del 2024 Acciaierie d'Italia ne ha avuti 206 per i lavori ambientali [64]; nel secondo semestre 2025 le relazioni sul conto danno altri 49,17 milioni di rimborsi [41]. Nessun documento dice quanto resta, né per quali lavori nel dettaglio.
+8. [fonti] **Quanto ha avuto la fabbrica nel 2024?** Per la relazione sul conto, nel secondo semestre 2024 i rimborsi ad Acciaierie d'Italia "per attività di Decontaminazione" sono 33 milioni [58]; per i commissari di Ilva, in tutto il 2024 le spese per le attività ambientali nella fabbrica sono 11 milioni [64]. Forse una cifra conta i pagamenti e l'altra i lavori fatti nell'anno.
+9. [altra] **I 150 milioni della decarbonizzazione sono stati spesi, e per cosa?** Il decreto-legge 21/2022 li ha spostati [2], ma nessuna relazione trovata ne registra il pagamento. Nel conto dei commissari di Ilva dei soldi usati al 31 gennaio 2025 non compaiono [64].
+10. [altra] **Con quali soldi si finiranno le bonifiche delle Aree escluse?** Per Ilva servivano 467 milioni e ne aveva spesi 48,57 a febbraio 2023 (calcolo nostro: somma delle sue 17 aree) [39]; a fine 2025 nel Patrimonio Destinato restavano 80,6 milioni per tutto [41]. Il Comitato di sorveglianza l'ha chiesto ai commissari l'11 novembre 2024 [32].
 
 ## Fonti
 [1] Commissario straordinario per la bonifica di Taranto, *Relazione sintetica – Aggiornamento dello stato di attuazione delle attività*, dicembre 2018, pag. 9–15 (fondi del Commissario e "Quadro generale impegni/liquidazioni"; la tabella è a pagina 15 del PDF) (acquisita dalla Camera dei deputati), https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/000/520/RELAZIONE_dicembre_2018.pdf — copia in `fonti/2018-12_commissario-taranto_relazione-stato-attuazione.pdf`
@@ -455,5 +454,7 @@ Una sezione per ogni fondo: chi l'ha dato, con quale atto, quanto, per cosa, in 
 [67] Comune di Taranto, Direzione Urbanistica, *Allegato 1 alla Domanda di Rimborso n. 01* (revisione 1 del 17 aprile 2018), CUP E56J12000240001: fatture e pagamenti, totale ammesso 1.504.035,81 €; scansione (allegata alla risposta del Ministero [65]) — copia in `fonti/2018-04_comune-taranto_elenco-spese-domanda-rimborso-1-bonifica-suoli-tamburi.pdf`
 
 [68] Comune di Statte, Settore Assetto del territorio, Ambiente e SUAP, *Determinazione n. 33 del 18/05/2026, Reg. Gen. 315 del 21/05/2026* (approvazione delle risultanze contabili e omologa della spesa del Piano di indagini integrative del tratto sud della Gravina di Leucaspide, CUP J76J20001130001), Albo pretorio n. 620/2026, https://www.halleyweb.com/statte/mc/mc_p_dettaglio.php?id_pubbl=14469 — copia in `fonti/2026-05_comune-statte_determina-315-2026-gravina-leucaspide-omologa-spesa.pdf`
+
+[69] Ministero dell'Ambiente e della Sicurezza Energetica, Direzione generale Economia circolare e bonifiche, Divisione V, *ID 7 SIN Taranto – Richiesta di accesso civico generalizzato – SIN Taranto: copertura finanziaria dell'intervento "Messa in sicurezza/bonifica area PIP Statte" nell'Accordo per la Coesione del Ministero (CUP J72B25002080003) e risorse dell'Accordo di Programma Quadro dell'11 giugno 2004 per l'Area 170 ha del Mar Piccolo*, nota ECB-05-760_2026-0074, prot. 235228 del 12/11/2026 (firmata l'11/11/2026), punti 1 e 2, e la scheda allegata dell'intervento PIP Statte (All. 1; codici fiscali e cellulare oscurati da noi) (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-11_mase_riscontro-foia-pip-statte-area-170-mar-piccolo.pdf` e `fonti/2026-11_mase_scheda-fsc-2021-2027-pip-statte.pdf`
 
 Ultimo controllo dei fondi pubblici: 25 ottobre 2026, su OpenCoesione (dati al 30 giugno 2026, gli ultimi pubblicati), OpenCUP, portale trasparenza del Comune di Taranto e decreti 2026 del Commissario (fino al n. 57 del 21 ottobre 2026).
