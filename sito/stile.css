@@ -2,6 +2,13 @@
    telefono, gli schermi più larghi si aggiungono con min-width. Un solo tema, scuro. Arancione = aree di Ilva (gruppo A),
    azzurro = ricadute fuori dalla fabbrica (gruppo B); sui colori accesi il testo è scuro (--on-g) per il contrasto.
    Carattere Space Grotesk, IBM Plex Mono per codici e didascalie. Righe da toccare alte almeno 48 px. */
+/* caratteri sul nostro server (licenza SIL OFL 1.1, in font/): nessuna richiesta a Google */
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(font/ibm-plex-mono-latin-ext-500.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(font/ibm-plex-mono-latin-500.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:700;font-display:swap;src:url(font/ibm-plex-mono-latin-ext-700.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:700;font-display:swap;src:url(font/ibm-plex-mono-latin-700.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(font/space-grotesk-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(font/space-grotesk-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
 :root{
   --bg:#0b0b0c; --surface:#151517; --surface-2:#1f1f22; --line:#27272a;
   --ink:#f4f4f5; --ink-2:#a1a1aa; --ink-3:#71717a;
@@ -421,6 +428,8 @@ body.mappa{height:100svh;overflow:hidden;display:flex;flex-direction:column}
 .paneltoggle{position:absolute;z-index:1001;left:50%;transform:translateX(-50%);bottom:calc(18px + env(safe-area-inset-bottom,0px));font:700 .95rem/1 var(--f-body);min-height:48px;padding:0 20px;border-radius:999px;border:0;background:var(--ink);color:var(--bg);box-shadow:0 6px 18px rgba(0,0,0,.3);cursor:pointer;display:none}
 body.panel-off .panel{transform:translateY(calc(100% + 12px))}
 body.panel-off .paneltoggle{display:inline-flex;align-items:center}
+/* sul telefono i crediti della mappa (Esri, OpenStreetMap, privacy) stanno sopra il pulsante, non sotto */
+body.panel-off #map .leaflet-control-attribution{margin-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .panel .close{position:absolute;top:12px;right:12px;width:40px;height:40px;border-radius:50%;border:0;background:var(--surface-2);color:var(--ink);cursor:pointer;font:600 15px/40px var(--f-body)}
 /* legenda e interruttore dei colori: in alto a sinistra sul telefono (chiusa), in basso a destra sul computer (aperta) */
 .legend-map{position:absolute;z-index:999;left:10px;top:10px;max-width:calc(100% - 76px);background:var(--surface);color:var(--ink-2);border-radius:16px;box-shadow:var(--shadow),0 4px 14px rgba(0,0,0,.35);font-size:.8rem;line-height:1.35}
@@ -483,6 +492,7 @@ body.pv-on .paneltoggle{display:none}
   .panel .ph::before{display:none}
   body.panel-off .panel{transform:translateX(calc(-100% - 24px))}
   .paneltoggle{left:12px;top:12px;bottom:auto;transform:none}
+  body.panel-off #map .leaflet-control-attribution{margin-bottom:0}
   .legend-map{left:auto;top:auto;right:12px;bottom:28px;max-width:none;font-size:.74rem;border-radius:14px}
   .legend-map summary{display:none}
   .lg-tappe small{display:block}

@@ -12,3 +12,5 @@ Ogni immagine in `sito/img/` ha una riga qui: chi l'ha fatta, con che licenza, d
 | acciaieria-2024.jpg | Lo stabilimento siderurgico di Taranto nel 2024 | FalantoTaras | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:DSC0654_Taranto_steelworks.jpg |
 
 **Anteprima dei link** (`sito/anteprima.jpg`, 1200×630, quella che compare quando si condivide il sito su WhatsApp e simili): è un'elaborazione della foto `ilva-2007-mar-piccolo.jpg` (mafe de baggis, CC BY-SA 2.0) con il titolo del sito; autore e licenza sono scritti nell'immagine, e l'elaborazione resta sotto CC BY-SA 2.0. Per rifarla: `.tmp/lavoro/anteprima/og.html` (con la foto e `favicon.svg` nella stessa cartella) e `render.py`.
+
+Ultimo controllo su Wikimedia Commons di autore e licenza delle sei foto: 16/11/2026, tutte uguali alla tabella. Gli altri crediti del sito (caratteri, Leaflet, OpenStreetMap, Esri) sono in `sito/privacy.html`.
