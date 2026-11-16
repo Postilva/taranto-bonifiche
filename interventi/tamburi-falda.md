@@ -1,33 +1,33 @@
 # D6 – Quartiere Tamburi: acque sotterranee (Comune di Taranto)
-*Stato scheda: approvata — aggiornata all'11 novembre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## A che punto è
 ### Finora
-Il procedimento è iniziato nel 2015 [1]. Il 30 luglio 2018, con la determina n. 197 indicata dalla Regione, sono stati approvati i risultati delle analisi e l'analisi di rischio [11], e la falda sotto circa 133 ettari del quartiere è risultata un «sito contaminato» [1].
+Il procedimento è iniziato nel 2015 [1]. Il 30 luglio 2018, con la determina n. 197, la Regione ha approvato l'analisi di rischio dell'acqua sotterranea di tutto il quartiere, preparata dal Comune: in tutta l'area studiata la falda è contaminata [12]. Nell'elenco della Regione la falda sotto circa 133 ettari del quartiere è un «sito contaminato» [1].
 
 ### Cosa manca
 Ad aprile 2020 non c'erano né un progetto di messa in sicurezza né una bonifica [1]. A settembre 2026, nell'anagrafe aggiornata da ARPA, il procedimento è ancora fermo allo stesso punto: analisi e analisi di rischio approvate, «sito contaminato» [7]. Non abbiamo trovato i risultati delle analisi né atti più recenti.
 
 ### Adesso
-Il 2 novembre 2026 ARPA ci ha mandato l'anagrafe aggiornata, che non indica nessun passo dopo il 2020 [7]. Il 9 novembre la Regione, a cui avevamo chiesto i documenti con una richiesta di accesso civico, ci ha indicato la determina 197 del 30 luglio 2018, e per gli aggiornamenti ha scritto che «sono contenuti negli atti rinvenuti» [11]. Ma chiude la lettera scrivendo che per la falda (il punto 5 della richiesta) l'istanza «non può essere accolta da questo Servizio», senza spiegare il motivo [11]. Va chiarito con la Regione: potrebbe essere un errore della lettera, ma è un dubbio nostro [11].
+Il 2 novembre 2026 ARPA ci ha mandato l'anagrafe aggiornata, che non indica nessun passo dopo il 2020 [7]. Il 9 novembre la Regione, a cui avevamo chiesto i documenti con una richiesta di accesso civico, ci ha indicato la determina 197 del 30 luglio 2018, e per gli aggiornamenti ha scritto che «sono contenuti negli atti rinvenuti» [11]; il 16 novembre ci ha mandato la determina [12]. La determina fissa gli obiettivi della bonifica, ma non abbiamo trovato nessun atto che dica come e quando raggiungerli [12][7].
 
 ## Che posto è
 L'acqua sotterranea sotto una zona di circa 133 ettari (1.327.917 m²) del quartiere Tamburi, il quartiere di Taranto attaccato allo stabilimento [1][3]. Il punto centrale indicato dalla Regione è a circa 600 m da quello del cimitero San Brunone (distanza calcolata da noi) [1].
 
 ## Perché è inquinata
-La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanze ricadute dall'aria sul terreno e poi arrivate alla falda [1]. Per la Commissione parlamentare sui rifiuti il Tamburi è la parte della città "più esposta alle ricadute dei fumi dell'ILVA" [3]. Nella relazione sul 2018, il Ministero delle Infrastrutture scrive che il progetto di 154 alloggi popolari nel quartiere va cambiato «per la presenza di una falda acquifera inquinata dall'ILVA rilevata nell'area oggetto di intervento», e che nella nuova scheda approvata nel Contratto istituzionale di sviluppo gli alloggi sono 126; a fine 2018 il Ministero stava ancora valutando la modifica [10]. Il Ministero parla dell'area del cantiere degli alloggi: non dice se sia dentro i 133 ettari di questo sito [10]. Non abbiamo trovato quali sostanze siano state trovate nell'acqua.
+La Regione indica come causa la "deposizione inquinanti su suolo", cioè sostanze ricadute dall'aria sul terreno e poi arrivate alla falda [1]. L'analisi di rischio approvata nel 2018 trova un rischio che viene dalla falda stessa e, in alcune zone, un rischio per la falda che viene dal terreno, superficiale o profondo, attraverso l'acqua che lo attraversa [12]. Per la Commissione parlamentare sui rifiuti il Tamburi è la parte della città "più esposta alle ricadute dei fumi dell'ILVA" [3]. Nella relazione sul 2018, il Ministero delle Infrastrutture scrive che il progetto di 154 alloggi popolari nel quartiere va cambiato «per la presenza di una falda acquifera inquinata dall'ILVA rilevata nell'area oggetto di intervento», e che nella nuova scheda approvata nel Contratto istituzionale di sviluppo gli alloggi sono 126; a fine 2018 il Ministero stava ancora valutando la modifica [10]. Il Ministero parla dell'area del cantiere degli alloggi: non dice se sia dentro i 133 ettari di questo sito [10]. Non abbiamo trovato quali sostanze siano state trovate nell'acqua.
 
 ## Chi se ne occupa
 - Il **Comune di Taranto** è il soggetto del procedimento [1].
-- La **Regione Puglia** tiene l'elenco dei siti da bonificare [1]. Indica come atto di approvazione delle analisi e dell'analisi di rischio la determina n. 197 del 30 luglio 2018; la lettera non dice chi l'ha firmata [11].
+- La **Regione Puglia** tiene l'elenco dei siti da bonificare [1] e ha approvato l'analisi di rischio con la determina n. 197 del 30 luglio 2018, firmata dal dirigente del Servizio Bonifiche e Pianificazione [12].
 
 ## Cosa è stato fatto
-**Analisi e analisi di rischio approvate. Nessuna messa in sicurezza, nessuna bonifica.** [1]
+**Analisi di rischio approvata, con gli obiettivi della bonifica. Nessuna messa in sicurezza, nessuna bonifica.** [1][12]
 
 - **2015.** Inizia il procedimento, con le regole del Codice dell'ambiente (D.Lgs. 152/2006) [1]. Il 2 luglio 2015 la Conferenza di servizi stabilisce che per l'acqua sotterranea del Tamburi si farà un'unica analisi di rischio per tutto il quartiere, perché sotto c'è un solo corpo d'acqua [6].
 - **2016.** Approvando l'analisi di rischio delle aree verdi delle scuole Deledda, De Carolis e D'Aquino (scheda B2), la Regione approva un'analisi che trova un rischio non accettabile per la falda, e rimanda gli obiettivi di bonifica a questa analisi di tutto il quartiere [6]. Il 16 giugno 2016 il Comune aveva scritto che l'avrebbe completata a novembre 2016 [6].
-- **2017–2018.** Per il Comune, la società AmbienteSC scrive l'analisi di rischio della falda di tutto il quartiere. Secondo la società, la Conferenza di servizi del 9 marzo 2018 ha approvato la seconda versione dell'analisi, «in attesa di ratifica» da parte della Regione, e l'analisi mostra «la necessità di attuare misure di Bonifica» per proteggere la falda [8]. Nel 2026 la Regione ci ha indicato come atto di approvazione delle analisi e dell'analisi di rischio della falda la determina 197 del 30 luglio 2018, senza parlare della Conferenza di servizi né della ratifica [11]. Per numero e data dovrebbe essere la stessa «D.D.197 del 30lug2018» che ARPA cita nell'anagrafe sulla riga delle aree verdi delle scuole (scheda B2), e la ratifica di cui parla la società (deduzione nostra) [8][9]. La determina non l'abbiamo vista.
-- **30 luglio 2018.** Con la determina n. 197, indicata dalla Regione, vengono approvati i risultati delle analisi (piano di caratterizzazione) e l'analisi di rischio [11]. Nell'elenco della Regione di aprile 2020 il sito è "contaminato" [1].
+- **2017–2018.** Per il Comune, la società AmbienteSC scrive l'analisi di rischio della falda di tutto il quartiere [8]. Il Comune la manda alla Regione il 10 luglio 2017; la Conferenza di servizi ne discute il 21 settembre 2017, il 9 febbraio, il 9 marzo e il 30 maggio 2018 [12]. Il 9 marzo arriva una prima approvazione degli obiettivi di bonifica; l'analisi tiene conto di tutte le zone già studiate: sottoprogetti SP1–SP3 e SP4, scuole e cimitero San Brunone [12]. Ad aprile 2018 il Comune fa notare che i lavori sui terreni del quartiere tolgono per lo più solo i primi centimetri di terra, contro il rischio per la salute, mentre per la falda è un rischio anche il terreno fino a un metro di profondità [12]. Il 30 maggio 2018 la Conferenza approva la versione finale (rev. 2, maggio 2018) [12]. Secondo la società l'analisi mostra «la necessità di attuare misure di Bonifica» per proteggere la falda [8].
+- **30 luglio 2018.** Con la determina n. 197 la Regione fa suoi i risultati della Conferenza e approva l'analisi di rischio della falda [12]. Cosa dice: in tutta l'area studiata l'acqua sotterranea è contaminata e c'è un rischio che viene dalla falda stessa; nella zona 1 c'è rischio per la falda dal terreno superficiale, nelle zone 2 e 2a dal terreno superficiale e profondo, nella zona 2b dal terreno superficiale [12]. Per quasi tutte le sostanze gli obiettivi della bonifica sono i limiti di legge (le concentrazioni soglia di contaminazione), tranne ferro e manganese, che per i terreni non hanno un limite [12]. L'elenco delle sostanze è nelle tabelle 37–39 dell'analisi di rischio, che la determina non riporta [12]. Nell'elenco della Regione di aprile 2020 il sito è "contaminato" [1].
 - **Settembre 2026.** Nell'anagrafe aggiornata da ARPA lo stato è lo stesso: "approvazione esiti PdC e AdR", "sito contaminato" [7].
 
 ## Dove si trova e quanto è grande
@@ -44,11 +44,14 @@ Nessuna cifra trovata. Non verificato.
 | 2015 | Inizio del procedimento | [1] |
 | 2 luglio 2015 | Conferenza di servizi: un'unica analisi di rischio della falda per tutto il quartiere | [6] |
 | 16 giugno 2016 | Il Comune: l'analisi di rischio della falda sarà pronta a novembre 2016 | [6] |
-| 9 marzo 2018 | Conferenza di servizi: approvata l'analisi di rischio della falda, in attesa della ratifica della Regione (secondo la società che l'ha scritta) | [8] |
-| 30 luglio 2018 | Determina 197: approvati i risultati delle analisi e l'analisi di rischio | [11] |
+| 10 luglio 2017 | Il Comune manda alla Regione l'analisi di rischio della falda | [12] |
+| 9 marzo 2018 | Conferenza di servizi: prima approvazione degli obiettivi di bonifica | [8][12] |
+| 30 maggio 2018 | Conferenza di servizi: approvata l'analisi di rischio (rev. 2) | [12] |
+| 30 luglio 2018 | Determina 197: la Regione approva l'analisi di rischio; la falda è contaminata in tutta l'area studiata | [12] |
 | aprile 2020 | Sito "contaminato": analisi e analisi di rischio approvate | [1] |
 | settembre 2026 | Per ARPA lo stato è lo stesso del 2020 | [7] |
-| 9 novembre 2026 | La Regione indica la determina 197 del 2018, ma scrive che per la falda la richiesta «non può essere accolta» | [11] |
+| 9 novembre 2026 | La Regione indica la determina 197 del 2018 | [11] |
+| 16 novembre 2026 | La Regione ci manda la determina 197 | [12] |
 
 ## Fonti
 [1] Regione Puglia, Sezione Ciclo Rifiuti e Bonifiche, *Allegato 1 "Anagrafe dei siti da bonificare"* alla delibera di Giunta n. 988 del 25 giugno 2020 (dati aggiornati ad aprile 2020), tabella 4 "Siti contaminati", sito n. 148 "Risanamento Q.re Tamburi – Matrice acqua sotterranea", pag. 53, https://giac.consiglio.puglia.it/web/files/view/3651 — copia in `fonti/2020-06_regione-puglia_dgr-988-2020-anagrafe-siti-da-bonificare.pdf`
@@ -73,12 +76,14 @@ Nessuna cifra trovata. Non verificato.
 
 [11] Regione Puglia, Sezione Ciclo rifiuti e bonifica, Servizio Bonifiche e Pianificazione, risposta alla nostra richiesta di accesso civico n. 63, prot. 0664786/2026 del 9 novembre 2026, punti 5 e 6 («DD 197 del 30.07.2018 di approvazione degli esiti della caratterizzazione e analisi di rischio») e chiusura a pag. 2 («l'istanza di accesso non può essere accolta da questo Servizio per quanto riguarda il punto 5») — copia in `fonti/2026-11_regione-puglia_riscontro-foia-ua26-ua27-tamburi.pdf`
 
+[12] Regione Puglia, Sezione Ciclo rifiuti e bonifiche, Servizio Bonifiche e Pianificazione, *Determinazione dirigenziale n. 197 del 30 luglio 2018* (codice 090/DIR/2018/00197), «art. 242, co. 4 D.Lgs 152/2006 – Comune di Taranto, Quartiere Tamburi – approvazione dell'analisi di rischio condotta sulla sola matrice acque sotterranee», pagine 2–5 (scansione, mandata dalla Regione il 16 novembre 2026 dopo la nostra richiesta di accesso n. 63; non pubblicata online) — copia in `fonti/2018-07_regione-puglia_determina-197-2018-analisi-rischio-falda-tamburi.pdf`
+
 ## Cosa non sappiamo
-1. [blocca] **Dopo il 2020 è stato deciso qualche intervento?** Nel 2018 sono state approvate le analisi e l'analisi di rischio [11], e ad aprile 2020 il sito risultava "contaminato" [1]. Ma non c'erano né un progetto di messa in sicurezza né una bonifica [1], e la Regione nel 2026 non indica atti dopo il 2018 [11]. Per la falda, però, la Regione ha scritto che la nostra richiesta «non può essere accolta», senza spiegare perché [11].
-2. [altra] **Quali sostanze ci sono nella falda, e quanto superano i limiti?** La Regione indica solo la causa, la "deposizione inquinanti su suolo" [1]; non abbiamo trovato i risultati delle analisi. Non verificato.
-3. [altra] **L'analisi di rischio dice che c'è un pericolo per chi abita sopra?** Per esempio per i vapori o per l'acqua dei pozzi. L'analisi di rischio non è pubblica: la Regione dice solo che è stata approvata con la determina 197 del 30 luglio 2018 [11]. Non verificato.
+1. [blocca] **Dopo il 2018 è stato deciso qualche intervento?** Nel 2018 la Regione ha approvato l'analisi di rischio con gli obiettivi della bonifica [12], e ad aprile 2020 il sito risultava "contaminato" [1]. Ma non c'erano né un progetto di messa in sicurezza né una bonifica [1], e la Regione nel 2026 non indica atti dopo il 2018 [11].
+2. [altra] **Quali sostanze ci sono nella falda, e quanto superano i limiti?** La determina rimanda alle tabelle 37–39 dell'analisi di rischio (rev. 2, maggio 2018), che non abbiamo [12]. Non verificato.
+3. [altra] **L'analisi di rischio dice che c'è un pericolo per chi abita sopra?** Per esempio per i vapori o per l'acqua dei pozzi. La determina parla solo del rischio per la falda, non di quello per le persone [12]. Non verificato.
 4. [altra] **La falda è dentro il SIN di Taranto?** Il progetto del Comune per la falda del Galeso (2025) dice che l'area di quell'intervento è "all'esterno del perimetro del SIN di Taranto, sul lato ovest, nel quartiere Tamburi", ma non parla di questa falda [5]. Non verificato.
-5. [fonti] **La Regione ci darà la determina 197?** Nella risposta del 9 novembre 2026 la Regione indica la determina per la falda, ma chiude scrivendo che l'istanza «non può essere accolta da questo Servizio per quanto riguarda il punto 5», cioè proprio la falda, «per le motivazioni esposte», che nella lettera non ci sono [11]. Va chiesto un chiarimento: potrebbe essere un errore della lettera, ma è un dubbio nostro [11].
+5. [fonti] **La falda è contaminata o il rischio è accettabile?** La determina 197 dice che in tutta l'area studiata, scuole comprese, la falda è contaminata e c'è un rischio per la falda [12]. Nell'anagrafe di ARPA la riga delle aree verdi delle scuole Deledda (scheda B2) dice invece «rischio accettabile come da D.D.197 del 30lug2018» [9].
 
 Ricerca online del 20 ottobre 2026 ("quartiere Tamburi" con falda, acque sotterranee, caratterizzazione, analisi di rischio; portale trasparenza del Comune; archivio del Ministero dell'Ambiente): nessun documento su questa falda. Ricerca del 3 novembre 2026 sulla «D.D.197 del 30lug2018» (numero, data, codice della Regione 090/DIR/2018/00197, Tamburi, falda; sito della trasparenza della Regione; Piano regionale di bonifica 2018–2021; relazione del Commissario di dicembre 2018; portale trasparenza del Comune): l'atto non è online; trovata solo la scheda della società che ha scritto l'analisi [8].
 

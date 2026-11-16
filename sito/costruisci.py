@@ -405,20 +405,31 @@ def data_lunga(s):
     return f"{g} {list(MESI)[m - 1]} {a}"
 
 
+STATI_RICHIESTA = ("risposta arrivata", "risposta parziale", "respinta", "in corso", "in attesa", "in ritardo")
+
+
 def leggi_richieste(codici):
     righe = []
-    for ln in (ROOT / "richieste.md").read_text(encoding="utf-8").splitlines():
+    txt = (ROOT / "richieste.md").read_text(encoding="utf-8")
+    agg = re.search(r"^\*\*Esiti aggiornati al:\*\*\s*(\d+/\d+/\d+)", txt, re.M)
+    if not agg:
+        sys.exit("richieste.md: manca la riga **Esiti aggiornati al:** gg/mm/aaaa")
+    for ln in txt.splitlines():
         m = re.match(r"^\|\s*(\d+)\s*\|(.+)\|$", ln)
         if not m:
             continue
-        aree, a, cosa, inviata, entro = [x.strip() for x in m.group(2).split("|")]
+        aree, a, cosa, inviata, entro, esito = [x.strip() for x in m.group(2).split("|")]
+        stato, _, testo = esito.partition(":")
+        if stato.strip() not in STATI_RICHIESTA:
+            sys.exit(f"richieste.md, richiesta {m.group(1)}: esito «{esito[:40]}» senza uno stato valido ({', '.join(STATI_RICHIESTA)})")
         aree = [x.strip() for x in aree.split(",")]
         for k in aree:
             if k not in codici:
                 sys.exit(f"richieste.md, richiesta {m.group(1)}: il codice {k} non è in elenco.md")
         righe.append({"n": m.group(1), "aree": aree, "a": a, "cosa": cosa, "inviata": data_lunga(inviata),
-                      "entro": data_lunga(entro), "e": [int(x) for x in reversed(entro.split("/"))], "t": [int(x) for x in reversed(inviata.split("/"))]})
-    return righe
+                      "entro": data_lunga(entro), "e": [int(x) for x in reversed(entro.split("/"))], "t": [int(x) for x in reversed(inviata.split("/"))],
+                      "es": stato.strip(), "et": testo.strip()})
+    return righe, data_lunga(agg.group(1))
 
 
 def leggi_fonti(body):
@@ -1413,11 +1424,13 @@ def main():
     # solo interventi/*.md: le schede in interventi/fuori-perimetro/ non vanno sul sito
     schede = [s for s in (leggi_scheda(p) for p in sorted((ROOT / "interventi").glob("*.md"))) if s]
     # le richieste di accesso agli atti: in ogni scheda quelle sui suoi codici, dalla più vecchia; in home il totale
-    richieste = leggi_richieste(elenco)
+    richieste, esiti_al = leggi_richieste(elenco)
     for s in schede:
         rr = [r for r in richieste if set(r["aree"]) & set(s["codes"])]
-        s["richieste"] = [{k: r[k] for k in ("n", "a", "cosa", "inviata", "entro", "e")} for r in sorted(rr, key=lambda r: (r["t"], int(r["n"])))]
+        s["richieste"] = [{k: r[k] for k in ("n", "a", "cosa", "inviata", "entro", "e", "es", "et")} for r in sorted(rr, key=lambda r: (r["t"], int(r["n"])))]
     enti = {re.sub(r"^(al|alla|ad|allo|all')\s*", "", r["a"]) for r in richieste}
+    # in home: quante richieste hanno già una risposta (per i numeri con più righe basta una riga con risposta)
+    risposte = {r["n"] for r in richieste if r["es"] in ("risposta arrivata", "risposta parziale", "respinta")}
     immagini = leggi_immagini()
     contesto = leggi_contesto()
     usate = contesto["storia"]["img"] + contesto["inquina"]["img"] + contesto["fabbrica"]["img"] + [s["immagine"] for s in schede if s["immagine"]]
@@ -1432,7 +1445,7 @@ def main():
     gruppo_di = {c: g for g, gg in (("A", gruppi_a), ("B", gruppi_b)) for _, cc in gg for c in cc}
     soldi_home = scrivi_soldi(fondi, schede, gruppo_di, short)
     data = {"elenco": elenco, "gruppiA": gruppi_a, "gruppiB": gruppi_b, "schede": schede, "contesto": contesto, "soldi": soldi_home,
-            "immagini": immagini, "richieste": {"n": len({r["n"] for r in richieste}), "enti": len(enti)},
+            "immagini": immagini, "richieste": {"n": len({r["n"] for r in richieste}), "enti": len(enti), "risposte": len(risposte), "al": esiti_al},
             "generato": OGGI.isoformat()}
     js = ("/* Generato da sito/costruisci.py leggendo elenco.md e le schede approvate: non modificare a mano. */\n"
           "const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")

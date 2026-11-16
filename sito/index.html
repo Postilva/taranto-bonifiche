@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202611121400">
+<link rel="stylesheet" href="stile.css?v=202611161800">
 
 <header class="topbar">
   <div class="in">
@@ -102,8 +102,8 @@
 <div id="sheets"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202611121400"></script>
-<script src="comune.js?v=202611121400"></script>
+<script src="dati.js?v=202611161800"></script>
+<script src="comune.js?v=202611161800"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -209,7 +209,7 @@ const PANNELLI = {
       <div class="voce"><b>Solo fonti ufficiali</b><p>Ministero, Commissari, ARPA, ISPRA, Regione, Provincia, tribunali, Parlamento. I giornali servono solo a trovare le fonti, non come fonte.</p></div>
       <div class="voce"><b>"Bonificato" solo con il certificato</b><p>Altrimenti scriviamo cosa è stato fatto davvero, per esempio "messo in sicurezza".</p></div>
       <div class="voce"><b>Quello che non si trova, lo diciamo</b><p>Ogni report ha una parte "Cosa non sappiamo": dati mancanti e fonti che si contraddicono.</p></div>
-      <div class="voce"><b>"Non verificato"</b><p>Quando un dato non si trova in un documento ufficiale non lo mostriamo. Se è importante, lo chiediamo all'ente con una richiesta di accesso agli atti (FOIA) e aggiorniamo il report quando arriva la risposta. Finora abbiamo inviato ${DATA.richieste.n} richieste a ${DATA.richieste.enti} enti: ogni report dice cosa abbiamo chiesto e a chi.</p></div>
+      <div class="voce"><b>"Non verificato"</b><p>Quando un dato non si trova in un documento ufficiale non lo mostriamo. Se è importante, lo chiediamo all'ente con una richiesta di accesso agli atti (FOIA) e aggiorniamo il report quando arriva la risposta. Finora abbiamo inviato ${DATA.richieste.n} richieste a ${DATA.richieste.enti} enti e ${DATA.richieste.risposte} hanno già una risposta (al ${DATA.richieste.al}): ogni report dice cosa abbiamo chiesto, a chi e com'è andata.</p></div>
       <div class="voce"><b>Aggiornamento</b><p>I dati sono aggiornati al ${OGGI}. Ogni report riporta la data dell'ultimo controllo.</p></div>
       <div class="voce"><b>Chi cura il sito</b><p>Antonio De Pace. Se trovi un errore, hai un documento che non abbiamo o vuoi segnalare un'area, scrivici: leggiamo tutto e, se serve, correggiamo il report indicando la fonte.</p><p><a class="btn contatto" href="#" target="_blank" rel="noopener">Scrivici →</a></p></div>
     </div>`],
