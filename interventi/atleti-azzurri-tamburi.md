@@ -1,5 +1,5 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
-*Stato scheda: approvata — aggiornata al 2 novembre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -172,7 +172,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
-**A:** Commissario straordinario per la bonifica di Taranto — la PEC commissario_bonifiche.taranto@pec.governo.it rifiuta la posta ordinaria (provato il 7/10/2026): email ordinaria ad Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (indirizzi della [pagina "Telefono e posta elettronica"](https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/organizzazione/telefono-e-posta-elettronica/), verificata il 7 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC commissario_bonifiche.taranto@pec.governo.it rifiuta la posta ordinaria (provato il 7/10/2026): email ordinaria all'ufficio di staff del Commissario, con un secondo indirizzo in copia (indirizzi nominativi in `.tmp/foia/REGISTRO.md`, presi dalla [pagina "Telefono e posta elettronica"](https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/organizzazione/telefono-e-posta-elettronica/), verificata il 7 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Decreto n. 23 del 03/10/2025, contributo di 86.876,20 € al Comune di Taranto per la caratterizzazione del sito Foglio 203, particella 502 (CIG B814D04423 – CUP E53B19000020001)
 >

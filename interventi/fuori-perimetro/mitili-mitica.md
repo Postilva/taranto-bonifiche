@@ -1,5 +1,5 @@
 # B16 – Cozze: studio sulla decontaminazione + progetto MITICA
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026* · ⚠ Non è un'opera ambientale: sono studi su allevamento e sicurezza alimentare delle cozze; il mare non viene ripulito.
+*Stato scheda: approvata — aggiornata al 16 novembre 2026* · ⚠ Non è un'opera ambientale: sono studi su allevamento e sicurezza alimentare delle cozze; il mare non viene ripulito.
 
 ## In breve
 Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce il mare**. Lo studio sulla decontaminazione (ARPA Puglia, ASL, CNR-IRSA, Capitaneria, Comune, Commissario) ha misurato quanto in fretta le cozze del 1° seno del Mar Piccolo, spostate nel Mar Grande, perdono diossine e PCB: secondo il comunicato del 6 luglio 2026 la contaminazione "si azzera stabilmente" tra 30 e 48 giorni, ma i numeri misurati non sono pubblici [3]. Il progetto MITICA (498.448 € in tutto, 400.000 € dalla Regione Puglia, con CNR e CoNISMa) non studia l'inquinamento: studia come far resistere le cozze al caldo e alla mancanza di ossigeno, e come ottenere crediti di carbonio [5][6].
@@ -152,7 +152,7 @@ Sono due progetti diversi sulle cozze di Taranto, e **nessuno dei due ripulisce 
 Ricerca online del 13 ottobre 2026 (ordinanza sulle cozze, tavolo tecnico, risultati MITICA): trovato il comunicato del 7 settembre 2026 [17]; nessun risultato pubblicato di MITICA dopo agosto 2026, nessuna nuova ordinanza.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive all'ufficio di staff: Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (vedi `.tmp/foia/canali.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive con l'email ordinaria all'ufficio di staff, con un secondo indirizzo in copia (indirizzi nominativi in `.tmp/foia/REGISTRO.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Studio "Valutazione dei tassi di decontaminazione in lotti di mitili trasferiti dal Primo Seno del Mar Piccolo al Mar Grande" (CUP J98C16000070001): relazione finale, dati analitici, costi e Tavolo Tecnico sull'ordinanza regionale
 >

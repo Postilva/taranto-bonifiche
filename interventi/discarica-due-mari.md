@@ -1,5 +1,5 @@
 # A3 – Discarica ex cava Due Mari
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -181,10 +181,10 @@ Nota: nell'archivio del Ministero (https://bonifichesiticontaminati.mite.gov.it/
 8. [fonti] **I fanghi dell'acciaieria sono dentro la discarica?** Un articolo di giornale online del luglio 2025 scrive che nella discarica Due Mari ci sarebbero fanghi dell'acciaieria e dell'altoforno: non verificato. Le fonti ufficiali trattano i fanghi in un'area separata (vedi scheda A5). Un indizio: nei rapporti di laboratorio di luglio 2023 sui materiali dell'area fanghi (scheda A5), il punto di prelievo si chiama "Area fanghi ex cava Due Mari – Baia 1" e "Ex cava Due Mari – baia 3" [17]. L'area dei fanghi sembra quindi trovarsi presso la ex cava Due Mari, ma nessuna fonte ufficiale dice che i fanghi siano dentro la discarica coperta.
 
 ### Richiesta di accesso civico (FOIA) — da inviare tu
-Sulle garanzie, la richiesta alla Provincia di Taranto è la **FOIA 19**, preparata nella scheda A4 (discarica Cementir): copre anche questa discarica e va inviata con l'email ordinaria (A: aniello.polignano@provincia.ta.it, Cc: info@provincia.ta.it). Testo completo in `.tmp/foia/19-*.md`.
+Sulle garanzie, la richiesta alla Provincia di Taranto è la **FOIA 19**, preparata nella scheda A4 (discarica Cementir): copre anche questa discarica e va inviata con l'email ordinaria (A: casella del dirigente del Settore, in `.tmp/foia/REGISTRO.md`; Cc: info@provincia.ta.it). Testo completo in `.tmp/foia/19-*.md`.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Provincia di Taranto, Settore Pianificazione Ambiente — email ordinaria aniello.polignano@provincia.ta.it, in copia info@provincia.ta.it (indirizzi verificati il 9 ottobre 2026 sulla [pagina Rifiuti](https://www.provincia.taranto.it/-/rifiuti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Provincia di Taranto, Settore Pianificazione Ambiente — email ordinaria al dirigente del Settore (indirizzo in `.tmp/foia/REGISTRO.md`), in copia info@provincia.ta.it (indirizzi verificati il 9 ottobre 2026 sulla [pagina Rifiuti](https://www.provincia.taranto.it/-/rifiuti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Discarica per rifiuti non pericolosi "ex cava Due Mari" di ILVA S.p.A. in A.S. (prescrizione UA5): autorizzazione, rifiuti conferiti, progetto di copertura e fine lavori
 >

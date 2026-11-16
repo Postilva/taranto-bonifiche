@@ -1,5 +1,5 @@
 # A5 + A6 – Stoccaggio fanghi dell'altoforno e dell'acciaieria (AFO/ACC) e aree vicine
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -202,7 +202,7 @@ Nota sul [10]: la relazione di fine 2024 è la fonte dei dati al 30 settembre 20
 ### Richieste di accesso civico (FOIA) n. 17 e 18 — inviate
 Il Ministero (Direzione valutazioni ambientali) ha solo la PEC: le domande vanno quindi a chi riceve gli stessi documenti da Ilva.
 
-**FOIA 17 — Provincia di Taranto**, Settore Pianificazione Ambiente (A: aniello.polignano@provincia.ta.it, Cc: info@provincia.ta.it)
+**FOIA 17 — Provincia di Taranto**, Settore Pianificazione Ambiente (A: casella del dirigente del Settore, in `.tmp/foia/REGISTRO.md`; Cc: info@provincia.ta.it)
 1. i resoconti annuali sui fanghi portati via dal deposito R13 trasmessi da Ilva nel 2026 (art. 1, comma 10, del decreto n. 50/2023) e ogni comunicazione sullo svuotamento completo entro il 23 agosto 2026;
 2. eventuali richieste di proroga e i relativi atti;
 3. l'importo della polizza fideiussoria n. 430358557 di Generali Italia e se è stata svincolata;

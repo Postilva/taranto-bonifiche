@@ -1,5 +1,5 @@
 # B15 – Filiere verdi (piante per ripulire il suolo, circa 90 ettari)
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## In breve
 "Filiere verdi" è un progetto del Commissario, pagato con il Just Transition Fund (il fondo europeo per la "transizione giusta"), che vuole provare a ripulire il suolo con le piante su circa 90 ettari di terreni pubblici e, in mare, a trattare i fondali del 1° seno del Mar Piccolo con alghe [1][2]. A marzo 2026 la Regione Puglia ha ammesso a finanziamento solo la parte a terra (22.976.046 €), a condizione che il Commissario ottenesse l'uso dei terreni; la parte a mare è rimasta in sospeso e il suo budget è stato tagliato da 10.659.480 € a 3.055.924 € [3][4]. È un'azione "dimostrativa" [2], senza obiettivi di riduzione dell'inquinamento né dati misurati che io abbia trovato, e il progetto è ancora in fase di scrittura (a fine settembre 2026 è stata affidata a Sogesid la parte tecnica) [8].
@@ -129,7 +129,7 @@ In breve: **oggi non è possibile saperlo, perché negli atti ufficiali che ho l
 Ricerca online del 13 ottobre 2026 (Filiere verdi, Sogesid, gara, Carabinieri Biodiversità, 90 ettari): solo rassegne stampa del Commissario, nessun atto nuovo. Elenco dei decreti 2026 del Commissario: dopo il n. 50 nessun nuovo decreto su Filiere verdi. Portali gare di Sogesid: nessun bando visibile.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive all'ufficio di staff: Armento.Rita@mase.gov.it, in copia v.uricchio@governo.it (vedi `.tmp/foia/canali.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive con l'email ordinaria all'ufficio di staff, con un secondo indirizzo in copia (indirizzi nominativi in `.tmp/foia/REGISTRO.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Intervento "Filiere Verdi: interventi di bio-rimedio fito-assistito per il risanamento di aree a terra e a mare dell'area vasta di Taranto" (PN JTF Italia 2021-2027, procedura 2.3.3, CUP J41J26000640006): terreni, analisi, obiettivi, disciplinare e quadro economico
 >

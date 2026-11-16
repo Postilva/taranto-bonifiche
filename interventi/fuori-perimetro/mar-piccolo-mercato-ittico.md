@@ -1,5 +1,5 @@
 # B4 – Mar Piccolo: mercato ittico galleggiante affondato (rimosso)
-*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## In breve
 Il relitto di un mercato ittico galleggiante, affondato nel 1° seno del Mar Piccolo, è stato tolto dal fondale dall'impresa Serveco: i lavori sono finiti il 17 dicembre 2021 [2][3][4]. Il certificato di regolare esecuzione del 16 marzo 2022 dice che il lavoro è stato fatto bene secondo il contratto, e il saldo è stato pagato il 12 settembre 2022; l'impresa però chiede altri 960.139,68 € e ha fatto causa al Commissario [2][3][5]. **Togliere il relitto NON è bonificare i fanghi inquinati del fondale**: il contratto riguardava solo il relitto, e i fondali del 1° seno restano non bonificati [2][1].
@@ -85,7 +85,7 @@ Il relitto di un mercato ittico galleggiante, affondato nel 1° seno del Mar Pic
 ### Richiesta di accesso civico (FOIA) n. 28 — da inviare tu
 La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`).
 
-**FOIA 28 — Commissario straordinario bonifiche Taranto** (A: Armento.Rita@mase.gov.it, Cc: v.uricchio@governo.it)
+**FOIA 28 — Commissario straordinario bonifiche Taranto** (email ordinaria all'ufficio di staff; indirizzi in `.tmp/foia/REGISTRO.md`)
 1. relazione finale del direttore dell'esecuzione, conto finale e certificato di regolare esecuzione del 16/03/2022 con le riserve;
 2. quantità, tipo e destinazione dei materiali rimossi (formulari e registri);
 3. analisi del fondale prima o dopo la rimozione;

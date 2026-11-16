@@ -1,5 +1,5 @@
 # B1 – Ex Cemerad (Statte): deposito di rifiuti radioattivi
-*Stato scheda: approvata — aggiornata al 12 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## In breve
 L'ex Cemerad è un vecchio capannone in località Vocchiaro, a Statte (Taranto), dove un'azienda privata ha ammassato per anni fusti di rifiuti radioattivi e pericolosi di origine medica, industriale e di ricerca [5]. Tra il 2017 e il 29 gennaio 2025 sono stati portati via tutti i 16.640 fusti [5][6][7]. **Il sito però non è bonificato**: le analisi del terreno, la demolizione del capannone e la bonifica vera e propria sono ancora "da avviare" [5][8].
@@ -114,7 +114,7 @@ Secondo OpenCoesione, il progetto da 8,8 milioni € (quello che dovrebbe arriva
 ### Richiesta di accesso civico (FOIA) n. 30 — da inviare tu
 Il Commissario ex Cemerad indica sul suo sito solo una PEC (verificato il 12/10/2026): si prova a scrivere dalla Gmail ordinaria; se il messaggio viene respinto, si spedisce per raccomandata alla sede di Caserta (vedi `.tmp/foia/canali.md`).
 
-**FOIA 30 — Commissario straordinario ex Cemerad** (A: veracorbelli@pec.commissariostraordinariocemerad.it)
+**FOIA 30 — Commissario straordinario ex Cemerad** (A: la PEC del sito del Commissario, in `.tmp/foia/REGISTRO.md`)
 1. pagamenti divisi per destinatario e a cosa servono gli 1,8 milioni non ancora pagati del progetto da 8,8 milioni;
 2. cronoprogramma e atti per caratterizzazione, demolizione, bonifica radiologica e riqualificazione (progetto da 2,2 milioni);
 3. risultati della caratterizzazione radiologica iniziale e di quella del 2005;
