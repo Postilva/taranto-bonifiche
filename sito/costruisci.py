@@ -1377,6 +1377,44 @@ def leggi_scheda(path):
 
 
 # ---------- una pagina per report, sitemap e robots ----------
+def iso_data(upd):   # "8 ottobre 2026" → 2026-10-08
+    g, m, y = upd.split()
+    return f"{y}-{MESI[m.lower()]:02d}-{int(g):02d}"
+
+
+def testo_statico(s):
+    """Il testo del report scritto nella pagina, per chi la legge senza JavaScript (motori di ricerca, anteprime,
+    assistenti): gli stessi pezzi che vanno in dati.js, già filtrati, in ordine di lettura. Con JavaScript la pagina
+    lo nasconde e report.html lo sostituisce con il report vero."""
+    e = lambda v: html.escape(v, quote=False)
+    h = [f'<h1>{e(s["code"])} {e(s["title"])}</h1>']
+    if s["verdict"]:
+        h.append(f'<p><strong>{inline(s["verdict"])}</strong></p>')
+    h.append(f'<p>Aggiornato al {e(s["updated"])}.</p>')
+    if s["posto"]:
+        h.append("<h2>Che posto è</h2>" + s["posto"])
+    if s["perche"]:
+        h.append("<h2>Perché è inquinata</h2>" + s["perche"])
+    h.append("<h2>A che punto è</h2>" + "".join(f'<h3>{e(b["title"])}</h3>{b["html"]}' for b in s["punto"]))
+    if s["divieti"]:
+        h.append("<h2>Divieti e avvisi</h2><ul>" + "".join(f'<li><strong>{d["q"]}</strong> ({e(d["t"])}){d["h"]}</li>' for d in s["divieti"]) + "</ul>")
+    if s["fatto"]:
+        h.append("<h2>Cosa è stato fatto</h2>" + s["fatto"])
+    if s["soldiFrase"]:
+        h.append(f'<h2>Soldi, in breve</h2><p><strong>{inline(s["soldiFrase"])}</strong></p>')
+    for sec in s["sections"]:
+        if sec["title"].lower().startswith("date principali"):
+            continue   # le date sono qui sotto, già filtrate
+        h.append(f'<h2>{e(sec["title"])}</h2>{sec["html"]}')
+    if s["date"]:
+        h.append("<h2>Date principali</h2><ul>" + "".join(f'<li>{e(d["quando"])}: {d["cosa"]} {e(d["fonte"])}</li>' for d in s["date"]) + "</ul>")
+    if s["nonsappiamo"]:
+        h.append("<h2>Cosa non sappiamo</h2><ul>" + "".join(f'<li><strong>{d["q"]}</strong>{d["h"]}</li>' for d in s["nonsappiamo"]) + "</ul>")
+    if s["fonti"]:
+        h.append("<h2>Fonti</h2><ol>" + "".join(f'<li value="{f["n"]}">{f["html"]}</li>' for f in s["fonti"]) + "</ol>")
+    return '<article class="statico prose">' + "\n".join(h) + "</article>"
+
+
 def scrivi_pagine(schede):
     """sito/r/<id>.html per ogni scheda: lo stesso codice di report.html, con <title>, description e og: dell'area
     scritti nella pagina (per le anteprime su WhatsApp e per Google) e i percorsi relativi spostati di una cartella."""
@@ -1397,7 +1435,15 @@ def scrivi_pagine(schede):
         titolo = a(f'{s["code"]} {nome} · Bonifiche Ilva')
         desc = a(s["verdict"] or s["title"])
         url = f'{SITO}r/{s["id"]}.html'
-        cambi = [("<title>Report · Bonifiche Ilva</title>", f'<title>{titolo}</title>\n<link rel="canonical" href="{url}">'),
+        # dati per i motori di ricerca (schema.org): di cosa parla la pagina, chi la cura e quando è stata aggiornata
+        ld = json.dumps({"@context": "https://schema.org", "@type": "Article", "headline": f'{s["code"]} {nome}', "description": s["verdict"] or s["title"],
+                         "inLanguage": "it", "dateModified": iso_data(s["updated"]), "mainEntityOfPage": url, "image": SITO + "anteprima.jpg",
+                         "author": {"@type": "Person", "name": "Antonio De Pace"},
+                         "publisher": {"@type": "Organization", "name": "Bonifiche Ilva", "url": SITO}}, ensure_ascii=False).replace("</", "<\\/")
+        # con JavaScript il testo scritto nella pagina resta nascosto finché report.html non lo sostituisce (niente sfarfallio)
+        testa = (f'<title>{titolo}</title>\n<link rel="canonical" href="{url}">\n<script type="application/ld+json">{ld}</script>\n'
+                 '<script>document.documentElement.className = "js";</script>\n<style>.js .statico { display: none; }</style>')
+        cambi = [("<title>Report · Bonifiche Ilva</title>", testa),
                  ('<meta property="og:type" content="website">', '<meta property="og:type" content="article">'),
                  ('<meta property="og:title" content="Report · Bonifiche Ilva">', f'<meta property="og:title" content="{titolo}">'),
                  (f'<meta property="og:url" content="{SITO}report.html">', f'<meta property="og:url" content="{url}">'),
@@ -1408,11 +1454,13 @@ def scrivi_pagine(schede):
                 sys.exit(f"report.html è cambiata: non trovo {vecchio!r}")
             pg = pg.replace(vecchio, nuovo)
         pg = re.sub(r'(<meta (?:name|property)="(?:og:)?description" content=")[^"]*', lambda m: m.group(1) + desc, pg)
+        vuoto = f'data-scheda="{a(s["id"])}"></div>'
+        if pg.count(vuoto) != 1:
+            sys.exit(f"report.html è cambiata: non trovo {vuoto!r}")
+        pg = pg.replace(vuoto, vuoto[:-6] + "\n" + testo_statico(s) + "\n</div>")
         (cartella / f'{s["id"]}.html').write_text(pg, encoding="utf-8")
 
-    def iso(upd):   # "8 ottobre 2026" → 2026-10-08
-        g, m, y = upd.split()
-        return f"{y}-{MESI[m.lower()]:02d}-{int(g):02d}"
+    iso = iso_data
     urls = [(SITO, OGGI.isoformat()), (SITO + "mappa.html", OGGI.isoformat()), (SITO + "soldi.html", OGGI.isoformat())] + [(f'{SITO}r/{s["id"]}.html', iso(s["updated"])) for s in schede]
     (sito / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                       + "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in urls) + "</urlset>\n", encoding="utf-8")
