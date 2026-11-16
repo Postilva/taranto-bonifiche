@@ -21,10 +21,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Bonificare l'Ilva: a che punto siamo. Lo stabilimento e il quartiere Tamburi visti dal Mar Piccolo">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202611161800">
+<link rel="preload" href="font/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="stile.css?v=202611162000">
 
 <header class="topbar">
   <div class="in">
@@ -44,14 +42,14 @@
 <footer class="end">
   <div class="wrap">
     <p>Ogni frase viene da un documento ufficiale (Ministero, Regione, ARPA, ISPRA, Commissario…), citato con il suo numero, per esempio [1]. I giornali non sono usati come fonte.</p>
-    <p>A cura di Antonio De Pace<span class="contatto-sep"> · </span><a class="contatto" href="#" target="_blank" rel="noopener">Scrivici</a></p>
-    <p>Mappa: foto satellitare di Esri, Maxar, Earthstar Geographics; contorno dello stabilimento © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
+    <p>A cura di Antonio De Pace<span class="contatto-sep"> · </span><a class="contatto" href="#" target="_blank" rel="noopener">Scrivici</a><span class="contatto-sep"> · </span><a href="privacy.html">Privacy e crediti</a></p>
+    <p>Mappa: foto satellitare di Esri, Maxar, Earthstar Geographics (Powered by Esri); contorno dello stabilimento © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
   </div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202611161800"></script>
-<script src="comune.js?v=202611161800"></script>
+<script src="lib/leaflet.js"></script>
+<script src="dati.js?v=202611162000"></script>
+<script src="comune.js?v=202611162000"></script>
 <script>
 /* Report di un intervento: r/<id-scheda>.html (oppure #<id-scheda>-f<n> per aprire una fonte), scritta da costruisci.py
    a partire da questa pagina; i vecchi link report.html#<id-scheda> rimandano lì.
@@ -215,8 +213,8 @@ function render(s, sel){
   if (window.L && p) {
     // foto satellitare (Esri World Imagery) e vista iniziale allo zoom più vicino (a 19 qui la foto è sgranata)
     mini = L.map("minimap", {minZoom:12, maxZoom:18, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false, dragging:!L.Browser.mobile, tap:false});
-    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {maxZoom:18, attribution:"Foto satellitare: Esri, Maxar, Earthstar Geographics"}).addTo(mini);
-    L.polygon(STABILIMENTO, {color:"#c2410c", weight:1.5, fillColor:"#c2410c", fillOpacity:.06, interactive:false}).addTo(mini);
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {maxZoom:18, attribution:"Powered by Esri · Foto satellitare: Esri, Maxar, Earthstar Geographics"}).addTo(mini);
+    L.polygon(STABILIMENTO, {attribution:'Contorno dello stabilimento © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>', color:"#c2410c", weight:1.5, fillColor:"#c2410c", fillOpacity:.06, interactive:false}).addTo(mini);
     mini.setView(p.ll, 18, {animate:false});
     L.marker(p.ll, {icon:pinIcon(p, "sel"), interactive:false}).addTo(mini);
   }

@@ -19,10 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Bonificare l'Ilva: a che punto siamo. Lo stabilimento e il quartiere Tamburi visti dal Mar Piccolo">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="stile.css?v=202611161800">
+<link rel="preload" href="font/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="stile.css?v=202611162000">
 
 <header class="topbar">
   <div class="in">
@@ -86,6 +84,7 @@
           <li><a href="#metodo"><span class="ic">i</span><span class="tt"><b>Come lavoriamo</b><small>Solo fonti ufficiali, "bonificato" solo con il certificato</small></span><span class="go">›</span></a></li>
           <li><a href="#perche"><span class="ic">?</span><span class="tt"><b>Chi è nel censimento</b><small>Il criterio, i codici, Tamburi, Statte e Mar Piccolo, cosa non torna</small></span><span class="go">›</span></a></li>
           <li><a href="#fonti"><span class="ic">[1]</span><span class="tt"><b>Fonti e foto</b><small>I documenti di questa pagina e i crediti</small></span><span class="go">›</span></a></li>
+          <li><a href="privacy.html"><span class="ic">©</span><span class="tt"><b>Privacy e crediti</b><small>Niente cookie né statistiche; crediti; come riusare i contenuti</small></span><span class="go">›</span></a></li>
           <li><a class="contatto" href="#" target="_blank" rel="noopener"><span class="ic">@</span><span class="tt"><b>Scrivici</b><small>Un errore, un documento, un'area da segnalare</small></span><span class="go">›</span></a></li>
         </ul>
       </div>
@@ -96,14 +95,14 @@
 <footer class="end">
   <div class="wrap">
     <p>Ogni frase viene da un documento ufficiale (Ministero, Regione, ARPA, ISPRA, Commissario…), citato con il suo numero, per esempio [1]. I giornali non sono usati come fonte. Foto da Wikimedia Commons, con licenza libera. Mappa: © contributori di <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
-    <p>A cura di Antonio De Pace.</p>
+    <p>A cura di Antonio De Pace · <a href="privacy.html">Privacy e crediti</a></p>
   </div>
 </footer>
 <div id="sheets"></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="dati.js?v=202611161800"></script>
-<script src="comune.js?v=202611161800"></script>
+<script src="lib/leaflet.js"></script>
+<script src="dati.js?v=202611162000"></script>
+<script src="comune.js?v=202611162000"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -274,7 +273,7 @@ function mappaFabbrica(d){
   if (fm) { fm.invalidateSize(); return; }
   fm = L.map(d.querySelector("#fabmap"), {minZoom:11, maxZoom:17, maxBounds:TILE_BOUNDS, maxBoundsViscosity:1, scrollWheelZoom:false});
   addSat(fm);   // foto satellitare come nella mappa grande
-  const poly = L.polygon(STABILIMENTO, {color:"#fb923c", weight:2, dashArray:"6 4", fill:false, interactive:false}).addTo(fm);
+  const poly = L.polygon(STABILIMENTO, {attribution:'Contorno dello stabilimento © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>', color:"#fb923c", weight:2, dashArray:"6 4", fill:false, interactive:false}).addTo(fm);
   const pts = PTS.filter(p => GRUPPO[p.code] === "A");
   const mk = [];
   pts.forEach(p => {

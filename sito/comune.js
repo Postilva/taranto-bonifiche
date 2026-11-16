@@ -316,9 +316,11 @@ document.addEventListener("click", e => {
   b.setAttribute("aria-expanded", open); document.getElementById(b.getAttribute("aria-controls")).hidden = !open;
 });
 
-/* ---------- mappa: tile locali (sito/tiles) e segnaposti ---------- */
-// tile scaricati per ogni zoom: [x min, x max, y min, y max]. Agli zoom lontani la zona è più ampia, così la vista d'insieme riempie lo schermo.
-// 15 e 16 (anche oltre, nella mappa grande): la zona dei pallini con un po' di margine, solo per limitare lo spostamento
+/* ---------- mappa: zona visibile e segnaposti ---------- */
+// zona in cui ci si può spostare, per ogni zoom, in quadretti della mappa: [x min, x max, y min, y max] (erano i tile di
+// OpenStreetMap salvati in sito/tiles, tolti il 16/11/2026 perché da tempo la mappa usa solo la foto satellitare).
+// Agli zoom lontani la zona è più ampia, così la vista d'insieme riempie lo schermo; 15 e 16 (anche oltre): la zona dei
+// pallini con un po' di margine
 const TILES = {11:[1119,1124,769,773], 12:[2239,2249,1538,1547], 13:[4481,4495,3081,3091], 14:[8969,8984,6166,6177], 15:[17945,17957,12332,12348], 16:[35891,35915,24665,24697]};
 function tileBounds(z){
   const zz = Math.max(11, Math.min(16, Math.round(z))), [x0,x1,y0,y1] = TILES[zz], n = 2 ** zz;
@@ -326,15 +328,6 @@ function tileBounds(z){
   return L.latLngBounds([lat(y1 + 1), lon(x0)], [lat(y0), lon(x1 + 1)]);
 }
 const TILE_BOUNDS = window.L ? tileBounds(11) : null;   // zona più ampia (zoom 11)
-// aggiunge i tile alla mappa e, a ogni zoom, limita lo spostamento alla zona coperta a quello zoom
-function addTiles(m){
-  const lock = () => m.setMaxBounds(tileBounds(m.getZoom()));
-  m.options.maxBoundsViscosity = 1;
-  m.on("zoomend", lock);
-  m.whenReady(lock);
-  // oltre lo zoom 14 (solo la mappa grande) Leaflet ingrandisce i tile del 14: un po' sfocati, ma i pallini vicini si separano
-  return L.tileLayer(RADICE + "tiles/{z}/{x}/{y}.png", {minZoom:11, maxZoom:16, maxNativeZoom:14, bounds:TILE_BOUNDS, attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(m);
-}
 // foto satellitare della mappa grande: Esri World Imagery, come la mappa piccola dei report. Sui telefoni (schermi ad alta
 // densità) quadretti dello zoom successivo a metà grandezza, così la vista d'insieme è più nitida
 function addSat(m){
@@ -343,7 +336,7 @@ function addSat(m){
   m.on("zoomend", lock); m.whenReady(lock);
   m.getContainer().classList.add("sat");
   const hd = L.Browser.retina;
-  return new SatEsri("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {className: hd ? "satl hd" : "satl", minZoom:11, ...(hd ? {detectRetina:true, maxZoom:19, maxNativeZoom:17} : {maxZoom:18}), attribution:"Foto satellitare: Esri, Maxar, Earthstar Geographics"}).addTo(m);
+  return new SatEsri("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {className: hd ? "satl hd" : "satl", minZoom:11, ...(hd ? {detectRetina:true, maxZoom:19, maxNativeZoom:17} : {maxZoom:18}), attribution:"Powered by Esri · Foto satellitare: Esri, Maxar, Earthstar Geographics"}).addTo(m);
 }
 // Esri usa attorno a Taranto foto più scure e grigie di quelle intorno: un rettangolo con i bordi qui sotto, uguale agli
 // zoom 12-14 (trovato da noi sui mosaici, script .tmp/lavoro/esri_bordi.py). Fuori dal rettangolo i colori si avvicinano
