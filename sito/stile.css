@@ -297,6 +297,15 @@ th.num{white-space:normal;font-family:inherit;font-size:.75rem}
 .chiesto .q{display:block;font:700 .78rem/1.3 var(--f-body);color:var(--gA);margin-bottom:2px}
 .chiesto p{margin:0}
 .chiesto small{display:block;margin-top:4px;color:var(--ink-3);font-size:.82rem}
+/* com'è andata: etichetta colorata e, sotto, l'esito in parole semplici */
+.chiesto .esito{margin-top:8px;padding-top:8px;border-top:1px solid var(--line)}
+.chiesto .esito p{margin-top:4px;color:var(--ink-2);font-size:.92rem}
+.chiesto .es{display:inline-block;font:700 .72rem/1 var(--f-body);letter-spacing:.02em;text-transform:uppercase;padding:4px 8px;border-radius:999px;color:var(--on-g);background:var(--s-no)}
+.chiesto .es-risposta-arrivata{background:var(--s-done)}
+.chiesto .es-risposta-parziale{background:var(--s-part)}
+.chiesto .es-respinta,.chiesto .es-in-ritardo{background:var(--s-todo)}
+.chiesto .es-in-corso{background:var(--m-st)}
+.chiesto .es-in-attesa{background:var(--surface);color:var(--ink-2);box-shadow:inset 0 0 0 1px var(--line)}
 .unk.altra>li{background:var(--surface-2)}
 .unk.altra>li::before{color:var(--ink-2)}
 .unk-fonti{margin-top:18px;border:1px dashed var(--ink-3);border-radius:14px;padding:4px 12px 12px}
