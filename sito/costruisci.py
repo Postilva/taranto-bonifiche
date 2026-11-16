@@ -27,7 +27,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OGGI = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date.today()
 
-SITO = "https://bonifiche-ilva.vercel.app/"
+SITO = "https://bonifiche.postilva.it/"
 FILTRO = re.compile(r"non verificat|\bgiornal[ei]\b|\bstampa\b|quotidian|noinotizie|legambiente", re.I)
 ESCLUSE = re.compile(r"^(fonti|cosa non sappiamo|bozza)", re.I)
 

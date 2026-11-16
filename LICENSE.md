@@ -2,7 +2,7 @@
 
 ## Testi, schede e dati: CC BY 4.0
 
-I testi del sito Bonifiche Ilva (https://bonifiche-ilva.vercel.app/) e di questo repository sono © 2026 Antonio De Pace, con licenza [Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.it). La licenza vale per le schede in `interventi/`, per `elenco.md`, `fondi.md`, `contesto.md`, `richieste.md`, per i disegni nostri in `sito/img/*.svg` e per le cifre, le tabelle e le coordinate messe insieme da noi.
+I testi del sito Bonifiche Ilva (https://bonifiche.postilva.it/) e di questo repository sono © 2026 Antonio De Pace, con licenza [Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.it). La licenza vale per le schede in `interventi/`, per `elenco.md`, `fondi.md`, `contesto.md`, `richieste.md`, per i disegni nostri in `sito/img/*.svg` e per le cifre, le tabelle e le coordinate messe insieme da noi.
 
 Si possono copiare, ridistribuire e modificare, anche per scopi commerciali, citando "Bonifiche Ilva" con il link al sito e indicando se sono stati modificati.
 
