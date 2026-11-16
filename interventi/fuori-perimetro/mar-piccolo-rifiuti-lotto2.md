@@ -1,5 +1,5 @@
 # B11 – Mar Piccolo: rifiuti sul fondale del 1° seno, 2° lotto
-*Stato scheda: approvata — aggiornata al 24 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## In breve
 Il 2° lotto serve a togliere altri rifiuti dal fondale del 1° seno del Mar Piccolo, dopo quelli già tolti nel 1° lotto, e sarà fatto con il Comune di Taranto [1][5]. Per ora esiste solo l'idea: l'opuscolo del Commissario (maggio 2026) dice che si sta ancora "perfezionando la programmazione finanziaria" e che il progetto verrà dopo [1]. La Regione Puglia nel 2024 indicava 4,7 milioni € per questa prosecuzione, e a dicembre 2025 ha chiesto al Governo circa 5 milioni € per togliere i rifiuti dal fondale del 1° seno [2][6]. I fondali da pulire sono quelli davanti al "waterfront Mar Piccolo", un progetto del Comune da 6 milioni € che va da via Nuova al piazzale Democrate e che a giugno 2026 era ancora "in affidamento" [1][7][8]. Il **21 ottobre 2026**, con il decreto n. 56, il Commissario ha reso l'intervento "prioritario", con un costo stimato di **5.224.848,56 €**, e ha nominato il responsabile unico del progetto (ing. Francesco Voltasio) e la responsabile della gara (dott.ssa Emanuela Fiucci) [9]. I soldi sono gli ultimi rimasti dei 21 milioni della Regione per la messa in sicurezza dei fanghi del Mar Piccolo (CUP J56J14000460001, scheda B13) [9]. **Non è partito nessun lavoro, e togliere rifiuti non è bonificare: i fanghi inquinati del 1° seno restano dove sono** [1][9].
@@ -81,7 +81,7 @@ Il 2° lotto serve a togliere altri rifiuti dal fondale del 1° seno del Mar Pic
 ### Richieste di accesso civico (FOIA) n. 25 e 26 — da inviare tu
 La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`). Sostituiscono il punto 4 della vecchia bozza comune nella scheda B5.
 
-**FOIA 25 — Commissario straordinario bonifiche Taranto** (A: [indirizzo nel registro privato], Cc: [indirizzo nel registro privato])
+**FOIA 25 — Commissario straordinario bonifiche Taranto** (email ordinaria all'ufficio di staff; indirizzi in `.tmp/foia/REGISTRO.md`)
 1. gli atti di programmazione del 2° lotto, la stima dei costi (4,7 milioni € nel 2024, 5.041.858,30 € nella proposta regionale del 2025) e la richiesta di finanziamento, con la fonte prevista;
 2. la zona del fondale da pulire e la stima dei rifiuti rimasti (rilievi fatti nel 1° lotto e nel completamento);
 3. se il "II stralcio – parte a mare" da 250.000 € del decreto 43/2026 fa parte del 2° lotto, e a che punto è.

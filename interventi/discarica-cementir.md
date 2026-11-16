@@ -1,5 +1,5 @@
 # A4 – Discarica ex cava Cementir
-*Stato scheda: approvata — aggiornata all'11 novembre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -234,7 +234,7 @@ Nota: questa discarica non segue la normale procedura di bonifica del SIN. I suo
 ### Richieste di accesso civico (FOIA) n. 19 e 20 — da inviare tu
 Il Ministero ha solo la PEC: le domande vanno alla Provincia e ad ARPA, con l'email ordinaria.
 
-**FOIA 19 — Provincia di Taranto**, Settore Pianificazione Ambiente (A: [indirizzo nel registro privato], Cc: info@provincia.ta.it). Vale anche per la discarica Due Mari (A3).
+**FOIA 19 — Provincia di Taranto**, Settore Pianificazione Ambiente (A: casella del dirigente del Settore, in `.tmp/foia/REGISTRO.md`; Cc: info@provincia.ta.it). Vale anche per la discarica Due Mari (A3).
 1. le note del 7 e del 12 maggio 2025 e la determina di non accettazione delle garanzie trasmessa il 26 maggio 2025;
 2. la nota del 19 giugno 2025 sulla certificazione, l'eventuale domanda di Ilva, la relazione di ARPA e l'eventuale certificato;
 3. l'importo delle garanzie richieste per le due discariche e lo stato attuale delle garanzie;

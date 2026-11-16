@@ -1,5 +1,5 @@
 # B8 – Cimitero San Brunone (Taranto): bonifica delle aree non pavimentate
-*Stato scheda: approvata — aggiornata al 2 novembre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -216,7 +216,7 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
     - la Commissione parlamentare scrive che il cimitero "è inclusa nel SIN di Taranto" [15], mentre la Regione lo indica fuori dal perimetro, tra le aree da aggiungere [2][16].
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
-**A:** Commissario straordinario per la bonifica di Taranto — la PEC commissario_bonifiche.taranto@pec.governo.it rifiuta la posta ordinaria (provato il 7/10/2026): email ordinaria ad [indirizzo nel registro privato], in copia [indirizzo nel registro privato] (indirizzi della [pagina "Telefono e posta elettronica"](https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/organizzazione/telefono-e-posta-elettronica/), verificata il 7 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC commissario_bonifiche.taranto@pec.governo.it rifiuta la posta ordinaria (provato il 7/10/2026): email ordinaria all'ufficio di staff del Commissario, con un secondo indirizzo in copia (indirizzi nominativi in `.tmp/foia/REGISTRO.md`, presi dalla [pagina "Telefono e posta elettronica"](https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/organizzazione/telefono-e-posta-elettronica/), verificata il 7 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Bonifica aree non pavimentate del Cimitero San Brunone, CUP J54G16000010001 – Decreto n. 18 del 17/04/2026
 >

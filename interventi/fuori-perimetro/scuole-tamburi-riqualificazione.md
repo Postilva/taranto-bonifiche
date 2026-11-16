@@ -1,5 +1,5 @@
 # B3 – Cinque scuole del quartiere Tamburi: lavori di riqualificazione, ventilazione e aree esterne
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026* · ⚠ Non è un'opera ambientale: lavori su edifici, aria delle aule e cortili, non su terreno o acqua inquinati.
+*Stato scheda: approvata — aggiornata al 16 novembre 2026* · ⚠ Non è un'opera ambientale: lavori su edifici, aria delle aule e cortili, non su terreno o acqua inquinati.
 
 ## In breve
 Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabelli e Giusti) hanno avuto tre tipi di lavori: ristrutturazione degli edifici con risparmio energetico, impianti che filtrano l'aria dentro le aule (la "ventilazione meccanica controllata") e rifacimento dei cortili e delle aree esterne [1][2]. **Non sono una bonifica**: nessuno di questi lavori ha tolto inquinamento dal terreno o dall'acqua, e nessun certificato di bonifica è collegato a questi lavori [1][4][9]. Secondo il Commissario sono tutti conclusi [1]: i lavori sulle aule sono documentati da atti ufficiali (fino al 2022), mentre per le aree esterne non ho trovato un documento finale [1][6][8].
@@ -118,7 +118,7 @@ Cinque scuole del quartiere Tamburi di Taranto (Deledda, De Carolis, Vico, Gabel
 Ricerca online del 13 ottobre 2026 (ventilazione e aree esterne delle scuole del Tamburi, Giampietruzzi, collaudo): solo l'articolo del Sole 24 Ore del 2021 [13]; nessun atto nuovo.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
-**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive all'ufficio di staff: [indirizzo nel registro privato], in copia [indirizzo nel registro privato] (vedi `.tmp/foia/canali.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive con l'email ordinaria all'ufficio di staff, con un secondo indirizzo in copia (indirizzi nominativi in `.tmp/foia/REGISTRO.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Interventi sulle scuole Deledda, De Carolis, Vico, Gabelli e Giusti del quartiere Tamburi: aree esterne (decreti n. 156 e n. 239 del 2019), riqualificazione ed efficientamento, ventilazione meccanica controllata (CUP J54G17000030001)
 >

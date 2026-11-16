@@ -1,5 +1,5 @@
 # B5 – Mar Piccolo: rifiuti sul fondale del 1° seno, 1° lotto (rimossi)
-*Stato scheda: approvata — aggiornata al 9 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## In breve
 Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati tolti dal fondale del 1° seno in due tranche: una prima con la Sogesid (circa 500 tonnellate, 2017–2018) e un "completamento" assegnato nel 2021 per 3,33 milioni € più IVA, con lavori finiti l'8 agosto 2023 [1][2][3][4][6]. L'opuscolo del Commissario (maggio 2026) dice "intervento concluso" per entrambe, ma ha dovuto ricostruire i conti per pagare il saldo alla Sogesid (pagato il 5 dicembre 2025), e non ho trovato il certificato finale del completamento [1][4][5][6][13]. **Togliere rifiuti dal fondale NON è bonificare: i fanghi inquinati sotto non sono stati toccati e il 1° seno non è bonificato** [1][2].
@@ -120,7 +120,7 @@ Auto, pneumatici, relitti metallici, reti da pesca e altri rifiuti sono stati to
 ### Richiesta di accesso civico (FOIA) n. 24 — da inviare tu
 La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`).
 
-**FOIA 24 — Commissario straordinario bonifiche Taranto** (A: [indirizzo nel registro privato], Cc: [indirizzo nel registro privato])
+**FOIA 24 — Commissario straordinario bonifiche Taranto** (email ordinaria all'ufficio di staff; indirizzi in `.tmp/foia/REGISTRO.md`)
 1. prima tranche (Sogesid): la relazione di verifica di conformità del 15/02/2019, l'attestazione di regolare esecuzione o il certificato di verifica di conformità rifatti dopo il parere dell'Avvocatura del 2021, e le quantità tolte per tipo di rifiuto, con gli impianti di destinazione;
 2. completamento: la relazione sullo stato finale del direttore dell'esecuzione e il certificato di collaudo (dicembre 2023), con le quantità tolte per tipo di rifiuto e gli impianti di destinazione.
 

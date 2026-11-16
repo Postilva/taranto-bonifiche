@@ -1,5 +1,5 @@
 # A7 – Discarica Nuove Vasche
-*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -131,7 +131,7 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 8. [fonti] **Una data che non torna.** Il verbale del Ministero scrive che il "piano di adeguamento" della nota Ilva del 27 marzo 2014 è stato approvato dalla Provincia con una determinazione del 6 marzo 2008, cioè sei anni prima [3]. Probabilmente si confondono due atti diversi: non verificato.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
-**A:** Provincia di Taranto, Settore Pianificazione Ambiente — email ordinaria [indirizzo nel registro privato], in copia info@provincia.ta.it (indirizzi verificati il 9 ottobre 2026 sulla [pagina Rifiuti](https://www.provincia.taranto.it/-/rifiuti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Provincia di Taranto, Settore Pianificazione Ambiente — email ordinaria al dirigente del Settore (indirizzo in `.tmp/foia/REGISTRO.md`), in copia info@provincia.ta.it (indirizzi verificati il 9 ottobre 2026 sulla [pagina Rifiuti](https://www.provincia.taranto.it/-/rifiuti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Discarica per rifiuti pericolosi "Nuove Vasche" (vasche V1, V2, V3, area cava Mater Gratiae) di ILVA S.p.A. in A.S. (prescrizione UP8): rifiuti smaltiti, chiusura, controlli e garanzie della gestione post-operativa
 >

@@ -1,5 +1,5 @@
 # B12 – Mar Piccolo: bonifica dell'"Area 170 ha" con ecodragaggio (con la Marina Militare)
-*Stato scheda: approvata — aggiornata al 12 novembre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -177,7 +177,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 
 [22] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
-[23] Ministero dell'Ambiente e della Sicurezza Energetica, Direzione generale Economia circolare e bonifiche, Divisione V, *ID 7 SIN Taranto – Richiesta di accesso civico generalizzato – SIN Taranto: copertura finanziaria dell'intervento "Messa in sicurezza/bonifica area PIP Statte" nell'Accordo per la Coesione del Ministero (CUP J72B25002080003) e risorse dell'Accordo di Programma Quadro dell'11 giugno 2004 per l'Area 170 ha del Mar Piccolo*, nota ECB-05-760_2026-0074, prot. 235228 del 12/11/2026 (firmata l'11/11/2026), punto 2 (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-11_mase_riscontro-foia-pip-statte-area-170-mar-piccolo.pdf`
+[23] Ministero dell'Ambiente e della Sicurezza Energetica, Direzione generale Economia circolare e bonifiche, Divisione V, *ID 7 SIN Taranto – Richiesta di accesso civico generalizzato – SIN Taranto: copertura finanziaria dell'intervento "Messa in sicurezza/bonifica area PIP Statte" nell'Accordo per la Coesione del Ministero (CUP J72B25002080003) e risorse dell'Accordo di Programma Quadro dell'11 giugno 2004 per l'Area 170 ha del Mar Piccolo*, nota ECB-05-760_2026-0074, prot. 235228 del 12/11/2026 (il numero è nell'oggetto della PEC e nel nome della segnatura, non nella lettera; firmata l'11/11/2026), punto 2 (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-11_mase_riscontro-foia-pip-statte-area-170-mar-piccolo.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Che cosa prevede l'accordo con la Marina del 2025–2026?** Non abbiamo trovato nessun atto firmato sull'Area 170 ha: né l'accordo, né il piano di indagini, né chi lo paga, né il costo [1][2]. L'opuscolo dice che i ruoli sono ancora da "formalizzare" [1]. Non abbiamo trovato nemmeno il "nulla osta tecnico" di ISPRA del 24 novembre 2025 né gli atti della bonifica da ordigni bellici iniziata a gennaio 2026 [16]. Il 9 ottobre 2026 due ricerche sul web non hanno trovato altro. Non verificato.
@@ -195,7 +195,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 ### Richiesta di accesso civico (FOIA) n. 23 — da inviare tu
 La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`). Il Ministero della Difesa ha solo la PEC: per ora la domanda sui lavori della base resta fuori.
 
-**FOIA 23 — Commissario straordinario bonifiche Taranto** (A: [indirizzo nel registro privato], Cc: [indirizzo nel registro privato])
+**FOIA 23 — Commissario straordinario bonifiche Taranto** (email ordinaria all'ufficio di staff; indirizzi in `.tmp/foia/REGISTRO.md`)
 1. gli accordi con la Marina Militare per l'Area 170 ha (quello del 2015 e quelli dal 2025), con le integrazioni;
 2. il "nulla osta tecnico" di ISPRA del 24 novembre 2025 e la richiesta a cui risponde;
 3. gli atti della bonifica da ordigni bellici iniziata a gennaio 2026: chi la fa, dove, costo e risultati;

@@ -1,5 +1,5 @@
 # B6 – Mar Piccolo: studi, indagini, sorvolo lidar (conclusi)
-*Stato scheda: approvata — aggiornata all'11 novembre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -121,7 +121,7 @@ Gli studi riguardano i fanghi inquinati del fondale; tra gli studi precedenti ci
 ### Richiesta di accesso civico (FOIA) n. 27 — da inviare tu
 La PEC del Commissario rifiuta la posta ordinaria: si scrive all'ufficio di staff (vedi `.tmp/foia/canali.md`).
 
-**FOIA 27 — Commissario straordinario bonifiche Taranto** (A: [indirizzo nel registro privato], Cc: [indirizzo nel registro privato])
+**FOIA 27 — Commissario straordinario bonifiche Taranto** (email ordinaria all'ufficio di staff; indirizzi in `.tmp/foia/REGISTRO.md`)
 1. elenco degli accordi "conclusi anche finanziariamente", con importi previsti e pagati e atto di chiusura;
 2. affidamento, importo e certificato di regolare esecuzione della campagna geognostica del 1° seno; cosa sono i "servizi miticoltura";
 3. risultati: concentrazioni nei sedimenti, zonazione e modello concettuale (2018), analisi IRSA-CNR sui 12 campioni di falda (2020);

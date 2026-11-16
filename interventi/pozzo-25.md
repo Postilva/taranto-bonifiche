@@ -1,5 +1,5 @@
 # A17 – Area Pozzo 25 (il pozzo che irriga le Collinette ecologiche)
-*Stato scheda: approvata — aggiornata al 29 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 16 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -172,7 +172,7 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 8. [fonti] **La concessione del 2022 è la n. 468 o la n. 648?** Ilva scrive n. 468/2022 del 9 settembre 2022 [9]; la Provincia, nella lettera del 27 ottobre 2026, scrive «concessione 648/2022» con la stessa data [22]. Probabilmente due cifre invertite: lo vedremo quando avremo la concessione.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 1 — da inviare tu
-**A:** Provincia di Taranto, Settore Pianificazione Ambiente — email ordinaria del dirigente [indirizzo nel registro privato], in copia info@provincia.ta.it (indirizzi verificati il 9 ottobre 2026 sulla [pagina "Rifiuti"](https://www.provincia.taranto.it/-/rifiuti) del sito della Provincia). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Provincia di Taranto, Settore Pianificazione Ambiente — email ordinaria al dirigente del Settore (indirizzo in `.tmp/foia/REGISTRO.md`), in copia info@provincia.ta.it (indirizzi verificati il 9 ottobre 2026 sulla [pagina "Rifiuti"](https://www.provincia.taranto.it/-/rifiuti) del sito della Provincia). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – "Pozzo 25" di ILVA S.p.A. in A.S. (Foglio 202, p.lla 4, Comune di Taranto; irrigazione delle Collinette ecologiche): concessione n. 468/2022, superamento dei solfati e scarico dell'impianto a osmosi inversa
 >

@@ -1,5 +1,5 @@
 # B17 – Sea Hub, Arco Nord del 2° seno del Mar Piccolo (rimozione di pontili e relitti, passerella in legno)
-*Stato scheda: approvata — aggiornata al 13 ottobre 2026* · ⚠ Non è un'opera ambientale: è una riqualificazione della costa (demolizione di pontili e strutture, passerella in legno).
+*Stato scheda: approvata — aggiornata al 16 novembre 2026* · ⚠ Non è un'opera ambientale: è una riqualificazione della costa (demolizione di pontili e strutture, passerella in legno).
 
 ## In breve
 Il progetto "Arco Nord" prevede di togliere dalla costa nord del 2° seno del Mar Piccolo 89 pontili, 33 strutture in muratura, 10 container, 4 relitti, 4 boe arenate e 90 boe galleggianti, e di costruire una passerella in legno con una strada verde [1]. Costa 13.203.555,90 € (stima del Commissario) e fa parte del "Sea Hub", una procedura da 55.203.555,90 € del Just Transition Fund (fondo europeo per la "transizione giusta"), ma **non è ancora finanziato**: il Commissario ha presentato la candidatura il 30 settembre 2026 e la Regione deve ancora decidere [2][4]. Non c'è ancora un progetto né una gara, e **non è una bonifica**: toglie rifiuti e strutture dalla riva, ma non ripulisce i fanghi del fondale [1][4].
@@ -152,7 +152,7 @@ Ricerca online del 13 ottobre 2026 (Sea Hub, Arco Nord, pulizia delle coste del 
 > [Luogo, data, firma] — allegare copia di un documento d'identità.
 
 ### Bozza di richiesta di accesso civico (FOIA) n. 2 — da inviare tu
-**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive all'ufficio di staff: [indirizzo nel registro privato], in copia [indirizzo nel registro privato] (vedi `.tmp/foia/canali.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
+**A:** Commissario straordinario per la bonifica di Taranto — la PEC della Struttura rifiuta la posta ordinaria, quindi si scrive con l'email ordinaria all'ufficio di staff, con un secondo indirizzo in copia (indirizzi nominativi in `.tmp/foia/REGISTRO.md`). La richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Intervento "Riqualificazione ambientale e rinaturalizzazione dell'Area Arco Nord del Secondo Seno del Mar Piccolo" (procedura "Sea Hub", PN JTF Italia 2021-2027, decreto n. 51 del 29/09/2026) e "Misure di prevenzione su coste, arenili e fondali del Mar Piccolo" (CUP J51J26001250001)
 >
