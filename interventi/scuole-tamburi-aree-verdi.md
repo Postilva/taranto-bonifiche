@@ -1,5 +1,5 @@
 # B2 – Aree verdi delle scuole Deledda, De Carolis e D'Aquino (quartiere Tamburi): analisi del terreno e analisi di rischio
-*Stato scheda: approvata — aggiornata al 16 novembre 2026*
+*Stato scheda: approvata — aggiornata al 17 novembre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -52,7 +52,10 @@ Nelle scuole Deledda e De Carolis, e in altre tre scuole del quartiere (Vico, Ga
 - **Cosa fanno.** Hanno filtri per le polveri sottili (PM10 e PM2.5) e un filtro elettrostatico per le polveri di ferro [2][3].
 - **Lavori e collaudo.** L'impresa ha finito i lavori il 25 luglio 2020; il Commissario ha approvato il collaudo con il decreto n. 5424 del 28 gennaio 2022 [12].
 - **Soldi.** Costo pubblico 3.430.793,78 €, di cui pagati 2.607.447,69 € (dati al 30/06/2026) [14]. Sono fondi diversi da quelli delle analisi del terreno: vengono dal Piano Operativo Ambiente (delibera CIPE 55/2016) [2].
-- **Funzionano oggi?** Nessun documento trovato dice se gli impianti sono accesi e usati, chi li mantiene e se l'aria nelle aule è migliorata. Non verificato.
+- **Quando si accendono.** Non ogni giorno di scuola: il Comune li accende nei giorni di «Wind day» comunicati da ARPA Puglia, come prevede l'ordinanza del Sindaco n. 2 del 27 gennaio 2018 [22][23]. Secondo la tabella che ci ha mandato il Comune sono stati accesi 11 giorni nel 2024, 16 nel 2025 e 10 nel 2026 fino al 3 novembre; negli altri Wind day le scuole erano chiuse o l'avviso era stato revocato [24] (conteggio nostro sulla tabella).
+- **Chi li mantiene.** Dal 2022 il Comune, con soldi del proprio bilancio. A maggio 2022 ha affidato la manutenzione per un anno, rinnovabile, al Consorzio stabile Soledil, l'impresa che aveva costruito gli impianti (spesa prevista 50.000 €) [22]. Dal 7 settembre 2023 se ne occupa, con un incarico urgente, SIRAM, la società che gestisce già gli impianti delle scuole comunali; a novembre 2024 il Comune ha impegnato 800.000 € per il 2024 e il 2025, IVA compresa: 222.541,40 € per adeguare gli impianti alle norme antincendio, 356.482,19 € di canone per gestione e manutenzione delle cinque scuole, 42.500 € per i progetti antincendio da presentare ai Vigili del fuoco, il resto imprevisti e IVA [23]. Per il 2026 non abbiamo visto nessun atto.
+- **Pulizia.** Tra dicembre 2025 e gennaio 2026 una ditta incaricata da SIRAM ha pulito e sanificato le condotte e le macchine che trattano l'aria nelle cinque scuole; nella Deledda ha trovato un «lieve velo di polvere» nelle condotte e, dopo la pulizia, nessuna contaminazione da microbi [21][25].
+- **L'aria nelle aule.** Il Comune non ci ha mandato misure delle polveri nelle aule né il verbale con cui ha preso in consegna gli impianti, e non ha scritto se li ha [21]. Le relazioni sulla pulizia misurano la polvere dentro le condotte, non l'aria delle aule [25]. Non verificato.
 
 ## Dove si trova e quanto è grande
 - **Coordinate** indicate dalla Regione: 688944,1196 m E – 4485371,139 m N, nel sistema UTM-WGS84 fuso 33 Nord [8]; per la Regione è il punto centrale ("centroide") del poligono del "Comprensorio scolastico via Deledda", che misura 24.836 m² [8]. In gradi sono circa **40,498° N – 17,230° E** (conversione nostra).
@@ -91,6 +94,9 @@ Nelle scuole Deledda e De Carolis, e in altre tre scuole del quartiere (Vico, Ga
 | aprile 2020 | Nell'anagrafe regionale l'area è tra i "siti non contaminati – rischio accettabile" | [8] |
 | 25 luglio 2020 | Finiti i lavori dei filtri dell'aria nelle aule (non è una bonifica) | [12] |
 | 28 gennaio 2022 | Il Commissario approva il collaudo dei filtri dell'aria | [12] |
+| 19 maggio 2022 | Il Comune affida per un anno la manutenzione dei filtri dell'aria all'impresa che li ha costruiti | [22] |
+| 7 settembre 2023 | SIRAM prende in carico i filtri dell'aria, con urgenza, per l'anno scolastico 2023/2024 | [23] |
+| 15 novembre 2024 | Il Comune impegna 800.000 € per gestione, manutenzione e adeguamento antincendio dei filtri dell'aria nel 2024 e nel 2025 | [23] |
 | maggio 2022 | Pagati 75.751,33 € su 106.240,30 €; per la Commissione parlamentare l'intervento è "completato" | [9] |
 | maggio 2026 | L'opuscolo del Commissario segna l'intervento come "concluso dal precedente commissario" | [1] |
 | 19 ottobre 2026 | La Regione risponde alla nostra richiesta: dopo la determina n. 145 nessun altro atto | [11] |
@@ -98,6 +104,7 @@ Nelle scuole Deledda e De Carolis, e in altre tre scuole del quartiere (Vico, Ga
 | 2 novembre 2026 | Nell'anagrafe di ARPA il sito ha «rischio accettabile» per una «D.D.197 del 30lug2018» | [17] |
 | 9 novembre 2026 | La Regione: la determina 197 del 2018 approva l'analisi di rischio della falda del quartiere | [19] |
 | 16 novembre 2026 | La Regione ci manda la determina 197: la falda è contaminata in tutta l'area studiata, scuole comprese | [20] |
+| 17 novembre 2026 | Il Comune risponde alla nostra richiesta sui filtri dell'aria: atti di manutenzione, giorni di accensione, relazioni sulla pulizia | [21] |
 
 ## Fonti
 
@@ -141,10 +148,20 @@ Nelle scuole Deledda e De Carolis, e in altre tre scuole del quartiere (Vico, Ga
 
 [20] Regione Puglia, Sezione Ciclo rifiuti e bonifiche, Servizio Bonifiche e Pianificazione, *Determinazione dirigenziale n. 197 del 30 luglio 2018*, «approvazione dell'analisi di rischio condotta sulla sola matrice acque sotterranee» del quartiere Tamburi, pagine 3–4 (scansione, mandata dalla Regione il 16 novembre 2026 dopo la nostra richiesta di accesso n. 63; non pubblicata online) — copia in `fonti/2018-07_regione-puglia_determina-197-2018-analisi-rischio-falda-tamburi.pdf`
 
+[21] Comune di Taranto, Direzione Lavori pubblici – Infrastrutture, U.O. Edilizia scolastica, risposta alla nostra richiesta di accesso civico n. 47 sugli impianti di ventilazione delle scuole Deledda, De Carolis, Vico, Gabelli e Giusti, prot. 0274815/2026 (PEC del 17 novembre 2026; la lettera porta la data del 16/10/2026): «si riscontra... con quanto in ns possesso allegato alla presente», senza elenco dei documenti. Allegati: determine 3833/2022 e 8522/2024, tabella dei Wind day 2024–2026, schede mensili dei controlli di luglio–dicembre 2025 e relazioni sulla pulizia delle cinque scuole (dicembre 2025 – gennaio 2026) — copia della lettera in `fonti/2026-11_comune-taranto_riscontro-foia-47-vmc-scuole-tamburi.pdf`
+
+[22] Comune di Taranto, Direzione Lavori pubblici, *Determinazione n. 3833 del 19 maggio 2022*, «Impianto di ventilazione meccanica dell'aria nelle scuole del quartiere Tamburi… Manutenzione degli impianti» (CUP E51J22000010004), pagine 2–5 (scansione, mandata dal Comune il 17 novembre 2026) — copia in `fonti/2022-05_comune-taranto_dd-3833-manutenzione-vmc-scuole-tamburi.pdf`
+
+[23] Comune di Taranto, Direzione Lavori pubblici, *Determinazione n. 8522 del 15 novembre 2024*, modifica n. 2 del contratto con SIRAM per servizi supplementari (CUP E57D18000480003), premesse e punti 2–4 (mandata dal Comune il 17 novembre 2026) — copia in `fonti/2024-11_comune-taranto_dd-8522-siram-vmc-scuole-tamburi.pdf`
+
+[24] Comune di Taranto, tabella *Wind day* 2024, 2025 e 2026 (giorno, comunicazione di ARPA, colonna «accesso», note «scuole chiuse» o «revocato»), una pagina, mandata dal Comune il 17 novembre 2026 — copia in `fonti/2026-11_comune-taranto_accensioni-vmc-wind-day-2024-2026.pdf`
+
+[25] AV Sanification per SIRAM, *Intervento di pulizia e sanificazione degli impianti HVAC – Plesso Deledda, 12–19 dicembre 2025*, capitoli 1.1.c, 1.1.d e attestato (mandata dal Comune il 17 novembre 2026; relazioni uguali per De Carolis, Vico, Giusti e Gabelli, tra il 1° dicembre 2025 e il 22 gennaio 2026) — copia in `fonti/2025-12_siram_relazione-pulizia-vmc-scuola-deledda.pdf`
+
 ## Cosa non sappiamo
 1. [altra] **Che cosa c'è nel terreno?** Non abbiamo trovato le sostanze cercate né i valori misurati. Il Commissario scrive solo che i risultati sono stati approvati da ARPA, che "non c'è rischio sanitario per i suoli" [2][3] e che nel terreno superficiale ci sono idrocarburi (C19–C36 alifatici) [15]. Non è la stessa cosa che dire "il terreno è pulito": l'analisi di rischio dice se le sostanze presenti sono pericolose per chi usa l'area, non se ci sono. La Regione non ha agli atti il parere di validazione di ARPA e rimanda ad ARPA; non ci ha dato i dati, perché secondo lei raccoglierli richiederebbe una rielaborazione sproporzionata [11]. Non verificato.
 2. [blocca] **Gli obiettivi di bonifica per la falda sono mai stati fissati?** Nel 2016 la Regione li ha rimandati all'analisi di rischio dell'acqua sotterranea di tutto il quartiere, che il Comune prevedeva per novembre 2016 [15]. Per questo sito, dopo la determina, la Regione non ha adottato nessun altro atto [11]. Finché non ci sono gli obiettivi, non si sa se il terreno delle scuole vada bonificato per proteggere la falda (scheda D6).
-3. [altra] **I filtri dell'aria nelle aule funzionano?** Non sappiamo chi li mantiene né se ci sono misure dell'aria nelle aule dopo i lavori. Lo abbiamo chiesto al Comune di Taranto (richiesta di accesso del 13/10/2026, in corso). Non verificato.
+3. [altra] **I filtri dell'aria nelle aule migliorano l'aria?** Si accendono solo nei Wind day, da 10 a 16 giorni l'anno tra il 2024 e il 2026 [24]. Il Comune non ci ha mandato misure delle polveri nelle aule né il verbale di presa in consegna degli impianti, e non ha scritto se li ha [21]. Non verificato.
 4. [altra] **Quali ordinanze hanno limitato l'uso dei giardini delle scuole?** La Commissione parlamentare le cita senza numeri né date [9]. Non sappiamo se riguardassero anche queste tre scuole: nessun atto trovato.
 5. [altra] **Quando sono state fatte le analisi, e da chi?** Nessuna delle fonti trovate lo dice. Non verificato.
 6. [altra] **Quanto è costato alla fine?** A maggio 2022 erano stati pagati 75.751,33 € su 106.240,30 € [9]; il resto e il motivo del calo da 165.000 € non risultano. Non verificato.
