@@ -1,5 +1,5 @@
 # B12 – Mar Piccolo: bonifica dell'"Area 170 ha" con ecodragaggio (con la Marina Militare)
-*Stato scheda: approvata — aggiornata al 16 novembre 2026*
+*Stato scheda: approvata — aggiornata al 17 novembre 2026*
 
 **Immagine:** tramonto-mar-piccolo-2010.jpg
 
@@ -175,7 +175,7 @@ Le analisi ufficiali del 2005 hanno trovato un inquinamento "esteso e rilevante"
 
 [21] Regione Puglia, comunicato *Mitilicoltura Taranto, prorogate le misure sanitarie straordinarie di controllo del rischio per diossina e policlorobifenili*, 5 settembre 2024 (ordinanza n. 379 del 5 settembre 2024), https://press.regione.puglia.it/-/mitilicoltura-taranto-prorogate-le-misure-sanitarie-straordinarie-di-controllo-del-rischio-per-diossina-e-policlorobifenili — copia in `fonti/2024-09_regione-puglia_comunicato-ordinanza-379-2024-mitili.html`
 
-[22] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
+[22] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, che accoglie il calendario da noi proposto con la nostra nota del 23 ottobre 2026 (protocollata dal Commissario come COMMTA-0000761-A); il calendario è nella nostra nota, non nella lettera (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 [23] Ministero dell'Ambiente e della Sicurezza Energetica, Direzione generale Economia circolare e bonifiche, Divisione V, *ID 7 SIN Taranto – Richiesta di accesso civico generalizzato – SIN Taranto: copertura finanziaria dell'intervento "Messa in sicurezza/bonifica area PIP Statte" nell'Accordo per la Coesione del Ministero (CUP J72B25002080003) e risorse dell'Accordo di Programma Quadro dell'11 giugno 2004 per l'Area 170 ha del Mar Piccolo*, nota ECB-05-760_2026-0074, prot. 235228 del 12/11/2026 (il numero è nell'oggetto della PEC e nel nome della segnatura, non nella lettera; firmata l'11/11/2026), punto 2 (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-11_mase_riscontro-foia-pip-statte-area-170-mar-piccolo.pdf`
 

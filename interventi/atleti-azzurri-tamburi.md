@@ -1,9 +1,9 @@
 # B9 – Impianto sportivo "Atleti Azzurri d'Italia" (quartiere Tamburi, Taranto)
-*Stato scheda: approvata — aggiornata al 16 novembre 2026*
+*Stato scheda: approvata — aggiornata al 17 novembre 2026*
 
 ## A che punto è
 ### Finora
-Nel maggio 2024 il Comune ha comunicato di aver trovato piombo e IPA nel terreno del campo, e lo ha fatto recintare con lavori di somma urgenza [3][14]. La Regione ha approvato il piano delle analisi il 7 luglio 2025 e il Commissario ha dato al Comune 86.876,20 € per farle [2][3]. Il Commissario ha annunciato la consegna del cantiere per i prelievi per il 20 ottobre 2025, e a maggio 2026 i campionamenti erano iniziati [1][13].
+Nel maggio 2024 il Comune ha comunicato di aver trovato piombo e IPA nel terreno del campo, e lo ha fatto recintare con lavori di somma urgenza [3][14]. La Regione ha approvato il piano delle analisi il 7 luglio 2025 e il Commissario ha concesso e impegnato per il Comune 86.876,20 € per farle [2][3]. Il Commissario ha annunciato la consegna del cantiere per i prelievi per il 20 ottobre 2025, e a maggio 2026 i campionamenti erano iniziati [1][13].
 
 ### Cosa manca
 Nessun risultato delle analisi è pubblico: a gennaio 2026 erano annunciate per marzo, a fine giugno il Commissario le descriveva ancora «in via di completamento» [9][10]. Nell'anagrafe aggiornata da ARPA a settembre 2026 il campo è un «sito contaminato», con l'analisi di rischio «trasmessa» [17], ma nessun atto dice che le analisi siano finite e approvate. Il campo non è messo in sicurezza né bonificato.
@@ -31,7 +31,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 - La società **Apogeo S.r.l.** di Altamura ha fatto per il Comune le indagini preliminari sulle strutture e ha avuto l'incarico di fare prelievi e analisi del terreno (affidamento diretto, CIG B814D04423) [14].
 
 ## Cosa è stato fatto
-**Né bonificato né messo in sicurezza: il campo è recintato dal 2024 per piombo e IPA nel terreno, e le analisi approvate nel 2025 non sono finite.** [2][3][9][10][14] Il Commissario ha dato al Comune 86.876,20 € per farle [2][3].
+**Campo recintato e chiuso dal 2024 per piombo e IPA nel terreno; le analisi per decidere l'intervento, approvate nel 2025, non risultano finite. Non è ancora né bonificato né messo in sicurezza.** [2][3][9][10][14] Il Commissario ha concesso e impegnato per il Comune 86.876,20 € per farle [2][3].
 
 **Chi ha trovato piombo e IPA, e quando**
 - Li ha trovati il Comune di Taranto, durante le "indagini preliminari per la valutazione dello stato delle strutture", cioè studi fatti per il progetto di riqualificazione dell'impianto: ha misurato il superamento dei limiti (CSC) nel suolo per piombo e IPA [3]. Il Comune aveva affidato queste indagini ad Apogeo S.r.l. (CIG ZE13843B09) [14].
@@ -74,7 +74,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 - **Nell'anagrafe dei siti da bonificare** (ARPA, settembre 2026) il campo è un sito a parte dentro il sottoperimetro SP4 del quartiere (scheda D1–D5), «Risanamento Q.re Tamburi SP4 – Foglio 203 particella 502 – campo sportivo»: 25.499 m², punto centrale 689302,8 m E – 4485245,6 m N, circa 36 m dal nostro (calcolo nostro) [17].
 
 ## Soldi
-**Nell'ottobre 2025 il Commissario ha messo a disposizione 86.876,20 € per le analisi, ma a ottobre 2026 nessun decreto pubblicato ne paga una parte. Il costo di una bonifica non c'è ancora: prima servono le analisi.** [2][3][7][8]
+**Nell'ottobre 2025 il Commissario ha messo a disposizione 86.876,20 € per le analisi, che il Comune riceve a rate: il primo 40% su sua domanda, dopo il contratto con l'impresa e l'avvio delle analisi. Fino al decreto n. 54 del 2 ottobre 2026 nessun pagamento risulta, e non sappiamo se il Comune l'abbia chiesto. Il costo di una bonifica non c'è ancora: prima servono le analisi.** [2][3][7][8]
 
 - [costo] non c'è · il costo di una bonifica non esiste ancora: prima servono analisi e analisi di rischio [3]
 - [disponibili] 86.876,20 € · Decreto del Commissario · ottobre 2025 [2] per le analisi
@@ -99,7 +99,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 | 7 luglio 2025 | La Regione approva il piano delle analisi (determinazione n. 146) | [3] |
 | 15 luglio 2025 | Il Commissario dà la disponibilità a trovare i fondi (nota COMMTA-314) | [2] |
 | 24 settembre 2025 | Nulla osta del Ministero dell'Ambiente | [2] |
-| 3 ottobre 2025 | Decreto commissariale n. 23: 86.876,20 € al Comune | [2][7] |
+| 3 ottobre 2025 | Decreto commissariale n. 23: 86.876,20 € concessi e impegnati per il Comune | [2][7] |
 | 20 ottobre 2025 | Consegna del cantiere per i prelievi (annunciata dal Commissario il 17 ottobre) | [13] |
 | 30 gennaio 2026 | Vertice in Prefettura: il Responsabile del CIS annuncia la fine delle analisi entro marzo 2026 | [9] |
 | maggio 2026 | L'opuscolo dice che i campionamenti sono iniziati | [1] |
@@ -138,7 +138,7 @@ Durante gli studi per il progetto il Comune ha trovato nel terreno piombo e IPA 
 
 [15] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Taranto, foglio 203, particella 502; centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
-[16] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
+[16] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, che accoglie il calendario da noi proposto con la nostra nota del 23 ottobre 2026 (protocollata dal Commissario come COMMTA-0000761-A); il calendario è nella nostra nota, non nella lettera (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 [17] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera) e Allegato 3, sito TA088 "Risanamento Q.re Tamburi SP4 - Foglio 203 particella 502-campo sportivo" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
 

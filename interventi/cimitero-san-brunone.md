@@ -1,5 +1,5 @@
 # B8 – Cimitero San Brunone (Taranto): bonifica delle aree non pavimentate
-*Stato scheda: approvata — aggiornata al 16 novembre 2026*
+*Stato scheda: approvata — aggiornata al 17 novembre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
@@ -8,10 +8,10 @@
 La terra dei campi e delle aiuole è stata analizzata e, secondo il Commissario, ARPA ha convalidato i risultati [5]. Nel 2016 la Regione ha approvato l'analisi di rischio e nel 2017–2018 il progetto: togliere la terra inquinata e sostituirla con materiale di cava [3][4][5][8]. I lavori sono partiti nel maggio 2020 [3].
 
 ### Cosa manca
-I lavori si sono fermati dopo tre mesi e il 6 maggio 2021 il Commissario ha annullato la gara, per errori nei conti del progetto [3][10]. Sul posto restano recinzioni e teloni sulla terra scavata [3][10][11]. Il Commissario scrive che la messa in sicurezza d'emergenza è «completata» [14], ma nessun atto la descrive: non è verificata [3][15].
+I lavori si sono fermati il 21 agosto 2020, alla scadenza del mandato della Commissaria Corbelli senza un successore [3]. Il 6 maggio 2021 il Commissario di allora, Martino, ha annullato in autotutela la gara: secondo il nuovo responsabile del procedimento e un parere dell'ANAC, il quadro economico del progetto non era conforme alle norme sui contratti pubblici [3][15]. Nel 2022–2023 sul posto restavano recinzioni e la terra scavata coperta da teli [3][10][11]; oggi non sappiamo. Il Commissario scrive che la messa in sicurezza d'emergenza è «completata» [14]: non abbiamo trovato un atto che la approvi o ne certifichi la fine; gli atti trovati parlano di messa in sicurezza solo per i cumuli di terra coperti con teli nel 2022 [3][11].
 
 ### Adesso
-Dal 2026 Sogesid sta rifacendo il progetto [3]. Costa circa 17,5 milioni di euro e ce ne sono circa 9,4 [1][3]; nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha avuto nulla [12]. Il 29 ottobre 2026 il Commissario ha accettato di mandarci entro il 30 novembre 2026 i risultati delle analisi e l'analisi di rischio arrivati dal Comune nel febbraio 2026 e l'atto che chiude la messa in sicurezza d'emergenza [20].
+Da aprile 2026 Sogesid aggiorna il progetto esecutivo [3]; ad agosto l'aggiornamento era ancora in corso [14]. Il costo è stimato in circa 17,5 milioni di euro e ce ne sono circa 9,4 [1][3]; nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha avuto nulla [12]. Il 29 ottobre 2026 il Commissario ha accolto il calendario che gli abbiamo proposto: entro il 30 novembre 2026 i risultati delle analisi e l'analisi di rischio (del 2015), che il Comune gli ha trasmesso il 2 febbraio 2026, e l'atto che chiude la messa in sicurezza d'emergenza [20].
 
 ## Che posto è
 Il cimitero storico di Taranto, nel quartiere Tamburi, vicino all'ex Ilva: la contaminazione riguarda il terreno dei campi dove si seppelliscono i morti e delle aiuole [1][2][4].
@@ -32,7 +32,7 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 - **Attenzione:** il cimitero è **fuori dal perimetro del SIN** di Taranto (il "Sito di interesse nazionale" da bonificare), anche se gli sta accanto. È però **nell'elenco degli interventi del SIN di Taranto** [2], ed è per questo che se ne occupa il Commissario per la bonifica di Taranto.
 
 ## Cosa è stato fatto
-**Non bonificato: i lavori per togliere la terra inquinata sono partiti a maggio 2020 e si sono fermati dopo tre mesi; restano recinzioni e teloni.** [3]
+**Non bonificato: i lavori per togliere la terra inquinata sono stati consegnati l'11 maggio 2020 e sospesi il 21 agosto 2020; nel 2022–2023 restavano recinzioni e terra coperta da teli.** [3][11]
 
 **Messo in sicurezza? Le fonti non tornano.** La pagina del Commissario sul CIS Taranto (aggiornata ad agosto 2026) dice: "completata la fase di Messa in Sicurezza d'Emergenza (MISE) sui suoli non pavimentati finanziata da risorse MASE e CIPE 55/2016" [14]. Ma il decreto n. 18 di aprile 2026 scrive che l'intervento "risulta interrotto" e parla di "messa in sicurezza" solo per i cumuli di terra coperti con teloni nel 2022 [3]; la Commissione parlamentare sui rifiuti, dopo il sopralluogo del 12 luglio 2022, scrive che la bonifica "deve essere ancora completata" [15]. Non ho trovato nessun atto che approvi o descriva una messa in sicurezza d'emergenza dei campi. Non verificato.
 
@@ -192,7 +192,7 @@ L'opuscolo del Commissario scrive che la contaminazione dipende "anche" dalla vi
 
 [19] Commissario straordinario per la bonifica di Taranto, *Decreto n. 30 del 12 maggio 2026* (premesse: Protocollo d'intesa del 28 febbraio 2018 sui fondi FSC 2014-2020 della delibera CIPE 55/2016, pag. 4 del PDF), elenco dei decreti 2026: https://commissari.gov.it/commta/trasparenza/amministrazione-trasparente/provvedimenti/decreti-2026/ — copia in `fonti/2026-05_commissario-taranto_decreto-30-vmc-scuole-tamburi.pdf`
 
-[20] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, con il calendario dei documenti che ci manderà (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
+[20] Commissario straordinario per la bonifica di Taranto, *Esito della richiesta di attivazione del dialogo cooperativo – Accoglimento della proposta dell'istante*, nota prot. COMMTA-0000776-P del 29 ottobre 2026, che accoglie il calendario da noi proposto con la nostra nota del 23 ottobre 2026 (protocollata dal Commissario come COMMTA-0000761-A); il calendario è nella nostra nota, non nella lettera (risposta a nostre richieste, non pubblicata online) — copia in `fonti/2026-10_commissario-taranto_accoglimento-calendario-richieste.pdf`
 
 [21] ARPA Puglia, Direzione scientifica, UO Acqua e Suolo, *Anagrafe regionale dei siti da bonificare: estratto aggiornato per i Comuni di Taranto e Statte*, risposta alla nostra richiesta di accesso civico n. 53, prot. 0069451/2026 del 2 novembre 2026, Allegato 1 (elenco "aggiornato al 31 settembre 2026", data scritta così nella lettera), sito TA063 "Cimitero S. Brunone Q.re Tamburi - Matrice suolo" — copia in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_lettera-prot-69451.pdf` e `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.ods` (anche in `fonti/2026-11_arpa-puglia_anagrafe-siti-taranto-statte_allegato-1.csv`)
 
