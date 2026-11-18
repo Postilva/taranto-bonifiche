@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/:pagina(index|mappa|soldi|report|privacy)", "destination": "/:pagina.html", "permanent": true },
+    { "source": "/:pagina(index|mappa|soldi|report|privacy)/", "destination": "/:pagina.html", "permanent": true },
+    { "source": "/r/:scheda([^./]+)", "destination": "/r/:scheda.html", "permanent": true },
+    { "source": "/r/:scheda([^./]+)/", "destination": "/r/:scheda.html", "permanent": true }
+  ]
+}
