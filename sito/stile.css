@@ -908,3 +908,18 @@ a.parola{color:inherit;text-decoration:underline dotted var(--ink-3);text-underl
 .pv-cta:hover{background:#ef3b3d}
 @media (max-width:359px){.pv-chi{display:none}}
 @media (prefers-reduced-motion:reduce){.topbar{transition:none}}
+
+/* Mappa sul telefono (20/11/2026): i crediti obbligatori (Esri, OpenStreetMap) non coprono più la mappa.
+   Restano raggiungibili da un tondo «i» in basso a sinistra, che si apre al tocco, e per intero in fondo a «Elenco e filtri». */
+.pn-crediti{display:none}
+@media (max-width:899px){
+  .pn-crediti{display:block;margin-top:4px;font-size:.8rem;color:var(--ink-3)}
+  .pn-crediti summary{cursor:pointer;padding:6px 0;color:var(--ink-2)}
+  .pn-crediti p{margin:0 0 6px;font-size:.75rem;line-height:1.45}
+  .pn-crediti a{color:var(--ink-2)}
+  #map .leaflet-bottom.leaflet-right{right:auto;left:0}
+  #map .leaflet-control-attribution:not(.aperti){width:26px;height:26px;padding:0;border-radius:50%;font-size:0;overflow:hidden;cursor:pointer;margin:0 0 8px 8px;display:grid;place-items:center;opacity:1}
+  #map .leaflet-control-attribution:not(.aperti)::before{content:"i";font:700 13px/1 var(--f-mono);color:var(--ink)}
+  #map .leaflet-control-attribution:not(.aperti) *{display:none}
+  #map .leaflet-control-attribution.aperti{max-width:calc(100vw - 16px);margin:0 0 8px 8px;border-radius:8px;padding:4px 8px;cursor:pointer}
+}

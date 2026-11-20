@@ -22,7 +22,7 @@
 <meta property="og:image:alt" content="Bonificare l'Ilva: a che punto siamo. Lo stabilimento e il quartiere Tamburi visti dal Mar Piccolo">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="font/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="stile.css?v=202611201130">
+<link rel="stylesheet" href="stile.css?v=202611201200">
 <body class="mappa">
 
 <header class="topbar">
@@ -54,6 +54,7 @@
       <div class="filters" id="filters" role="group" aria-label="Filtri"></div>
       <input id="q" class="search" type="search" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un'area">
       <p class="lcount"><span id="lcount"></span> · <button type="button" class="linkbtn" id="fuori-open" aria-haspopup="dialog">Cosa non è sulla mappa?</button></p>
+      <details class="pn-crediti"><summary>Crediti della mappa</summary><p><a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> · Powered by Esri · Foto satellitare: Esri, Maxar, Earthstar Geographics · Contorno dello stabilimento © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · <a href="privacy.html">Privacy e crediti</a></p></details>
     </div>
     <ul class="list" id="list"></ul>
   </aside>
@@ -208,6 +209,8 @@ function deselect(){
   L.control.zoom({position:"topright"}).addTo(map);
   map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> · <a href="privacy.html">Privacy e crediti</a>');
   addSat(map);
+  // sul telefono i crediti stanno in un tondo «i» che si apre al tocco (e per intero in fondo all'elenco, 20/11/2026)
+  map.attributionControl.getContainer().addEventListener("click", e => { if (!e.target.closest("a")) e.currentTarget.classList.toggle("aperti"); });
   L.polygon(STABILIMENTO, {attribution:'Contorno dello stabilimento © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>', color:"#fb923c", weight:2, dashArray:"6 4", fill:false, interactive:false}).addTo(map);
   addLuoghi(map);
   // vista iniziale = tutti i punti (a destra del pannello, sopra il bottone dell'elenco sul telefono), con zoom a quarti
