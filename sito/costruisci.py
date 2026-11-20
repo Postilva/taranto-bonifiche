@@ -1438,7 +1438,7 @@ def scrivi_pagine(schede):
         # dati per i motori di ricerca (schema.org): di cosa parla la pagina, chi la cura e quando è stata aggiornata
         ld = json.dumps({"@context": "https://schema.org", "@type": "Article", "headline": f'{s["code"]} {nome}', "description": s["verdict"] or s["title"],
                          "inLanguage": "it", "dateModified": iso_data(s["updated"]), "mainEntityOfPage": url, "image": SITO + "anteprima.jpg",
-                         "author": {"@type": "Person", "name": "Antonio De Pace"},
+                         "author": {"@type": "Organization", "name": "Postilva", "url": "https://www.postilva.it/"},
                          "publisher": {"@type": "Organization", "name": "Bonifiche Ilva", "url": SITO}}, ensure_ascii=False).replace("</", "<\\/")
         # con JavaScript il testo scritto nella pagina resta nascosto finché report.html non lo sostituisce (niente sfarfallio)
         testa = (f'<title>{titolo}</title>\n<link rel="canonical" href="{url}">\n<script type="application/ld+json">{ld}</script>\n'
