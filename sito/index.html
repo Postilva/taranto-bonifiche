@@ -128,7 +128,7 @@ function fontiDi(id, html, tutte = false){
   const usate = new Set([...html.matchAll(new RegExp(`"#${id}-f(\\d+)(?:-(\\d+))?"`, "g"))].flatMap(m => Array.from({length: +(m[2] || m[1]) - m[1] + 1}, (_, k) => +m[1] + k)));
   const lista = C.fonti.filter(f => tutte || usate.has(f.n));
   if (!lista.length) return "";
-  return `<div class="sh-fonti"><h3>Fonti</h3><ol class="fonti">${lista.map(f => `<li id="${id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri</a>` : ""}</span></li>`).join("")}</ol></div>`;
+  return `<div class="sh-fonti"><h3>Fonti</h3><ol class="fonti">${lista.map(f => `<li id="${id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri</a>` : ""}${f.copia ? ` · <a href="${esc(f.copia)}" target="_blank" rel="noopener">copia Postilva</a>` : ""}</span></li>`).join("")}</ol></div>`;
 }
 // codici in una frase: numeri di fila uniti ("D1–D6 e D8", "A5 e A6")
 const elencoCodici = cs => {

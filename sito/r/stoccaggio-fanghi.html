@@ -223,7 +223,7 @@ function render(s, sel){
   // le coordinate ufficiali stanno sotto la fonte che le dà (sulla mappa resta solo il numero della fonte)
   const coord = n => s.codes.map(k => PT[k]).filter(q => q && q.official && q.src.n === n)
     .map(q => `<small class="coord">Coordinate${s.codes.length > 1 ? ` di ${q.code}` : ""}: ${esc(q.src.text)}</small>`).join("");
-  accs.push(acc("Fonti", `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}${coord(f.n)}</span></li>`).join("")}</ol>`, {id: "fonti", sub: `${s.fonti.length} documenti ufficiali`}));
+  accs.push(acc("Fonti", `<ol class="fonti">${s.fonti.map(f => `<li id="${s.id}-f${f.n}"><span>[${f.n}]</span><span>${f.html}${f.url ? ` · <a href="${esc(f.url)}" target="_blank" rel="noopener">apri il documento</a>` : ""}${f.copia ? ` · <a href="${esc(f.copia)}" target="_blank" rel="noopener">copia Postilva</a>` : ""}${coord(f.n)}</span></li>`).join("")}</ol>`, {id: "fonti", sub: `${s.fonti.length} documenti ufficiali`}));
   h += `<div class="accs">${accs.join("")}</div>`;
   const nav = `<nav class="rp-nav" aria-label="Altri report">${prev ? `<a href="${reportUrl(prev)}"><small>← ${prev.code}</small>${esc(prev.short)}</a>` : ""}${next ? `<a class="next" href="${reportUrl(next)}"><small>${next.code} →</small>${esc(next.short)}</a>` : ""}</nav>`;
   $("#rp").classList.toggle("due", largo);

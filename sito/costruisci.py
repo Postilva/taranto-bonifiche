@@ -23,6 +23,7 @@ import html, json, math, re, sys
 from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 OGGI = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else date.today()
@@ -440,8 +441,21 @@ def leggi_fonti(body):
         url = re.search(r"https?://(?:[^\s()]|\([^\s()]*\))+", raw)   # le parentesi dentro l'indirizzo restano (es. DECRETI(R).0000225)
         testo = re.split(r"\s+—\s+copi[ae]", raw)[0]
         testo = re.sub(r",?\s*https?://\S+", "", testo).strip(" ,")
-        fon.append({"n": int(fm.group(1)), "html": inline(testo), "url": url.group(0).rstrip(".,;") if url else None})
+        u = url.group(0).rstrip(".,;") if url else None
+        fon.append({"n": int(fm.group(1)), "html": inline(testo), "url": u, "copia": copia_ministero(u, raw)})
     return fon
+
+
+# Il sito del Ministero dell'Ambiente (mite.gov.it, mase.gov.it) a volte non risponde o rifiuta la connessione
+# (segnalato il 22/11/2026): per le sue fonti si mostra anche la nostra copia in PDF, già pubblica nel repository.
+COPIE = "https://github.com/Postilva/taranto-bonifiche/blob/main/"
+def copia_ministero(url, raw):
+    if not url or not re.match(r"https?://[^/]*\b(mite|mase)\.gov\.it/", url):
+        return None
+    m = re.search(r"copi[ae] in `(fonti/[^`]+\.pdf)`", raw)
+    if not m or not (ROOT / m.group(1)).is_file():
+        return None
+    return COPIE + quote(m.group(1))
 
 
 def immagini_di(lines):
@@ -1166,9 +1180,9 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
                     + (f'<div class="unk-fonti"><h4 class="unk-h">Le fonti non concordano</h4>{ol(fo)}</div>' if fo else "") + "</div></details>")
     if parole:
         dopo.append(parole)
-    apri_doc = lambda u: f' · <a href="{html.escape(u)}" target="_blank" rel="noopener">apri il documento</a>' if u else ""
+    apri_doc = lambda u, c=None: (f' · <a href="{html.escape(u)}" target="_blank" rel="noopener">apri il documento</a>' if u else "") + (f' · <a href="{html.escape(c)}" target="_blank" rel="noopener">copia Postilva</a>' if c else "")
     dopo.append(f'<details class="acc" id="fonti"><summary><span>Fonti<small>{len(fondi["fonti"])} documenti ufficiali</small></span></summary><div class="body"><ol class="fonti">'
-                + "".join(f'<li id="fondi-f{x["n"]}"><span>[{x["n"]}]</span><span>{x["html"]}{apri_doc(x["url"])}</span></li>' for x in fondi["fonti"])
+                + "".join(f'<li id="fondi-f{x["n"]}"><span>[{x["n"]}]</span><span>{x["html"]}{apri_doc(x["url"], x.get("copia"))}</span></li>' for x in fondi["fonti"])
                 + "</ol></div></details>")
     corpo = ('<header class="sd-head"><h1>I soldi della bonifica</h1>'
              '<p class="lead">Quanti soldi ci sono per la bonifica delle aree dell\'Ilva, quanti ne sono stati spesi e da dove vengono. '
