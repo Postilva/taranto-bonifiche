@@ -38,8 +38,8 @@ def inline(t):
     t = re.sub(r"`([^`]+)`", r"<code>\1</code>", t)
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<em>\1</em>", t)
-    t = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r'<a href="\2" target="_blank" rel="noopener">\1</a>', t)
-    t = re.sub(r'(?<!href=")(?<!">)(https?://[^\s<)]+[^\s<).,;])', r'<a href="\1" target="_blank" rel="noopener">link</a>', t)
+    t = re.sub(r"\[([^\]]+)\]\((https?://(?:[^()\s]|\([^()\s]*\))+)\)", r'<a href="\2" target="_blank" rel="noopener">\1</a>', t)
+    t = re.sub(r'(?<!href=")(?<!">)(https?://(?:[^\s<()]|\([^\s<()]*\))*(?:[^\s<().,;]|\([^\s<()]*\)))', r'<a href="\1" target="_blank" rel="noopener">link</a>', t)
     return t
 
 
@@ -437,7 +437,7 @@ def leggi_fonti(body):
     joined, fon = "\n".join(body), []
     for fm in re.finditer(r"^\[(\d+)\]\s+(.+?)(?=\n\s*\n|^\[\d+\]\s|\Z)", joined, re.M | re.S):
         raw = " ".join(fm.group(2).split())
-        url = re.search(r"https?://[^\s)]+", raw)
+        url = re.search(r"https?://(?:[^\s()]|\([^\s()]*\))+", raw)   # le parentesi dentro l'indirizzo restano (es. DECRETI(R).0000225)
         testo = re.split(r"\s+—\s+copi[ae]", raw)[0]
         testo = re.sub(r",?\s*https?://\S+", "", testo).strip(" ,")
         fon.append({"n": int(fm.group(1)), "html": inline(testo), "url": url.group(0).rstrip(".,;") if url else None})
