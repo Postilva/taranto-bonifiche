@@ -437,3 +437,38 @@ function glossarioIn(testo){
     return new RegExp("(^|[^\\wàèéìòù])" + p.replace(/[()]/g, "\\$&") + "($|[^\\wàèéìòù])", sigla ? "" : "i").test(t);
   }));
 }
+
+/* ---------- finestra sopra la pagina (fonti e sostanze), senza spostare la pagina: chiusa, si resta dove si era (22/11/2026) ---------- */
+// sul telefono sale dal basso, sul computer al centro (stile .nb-d di stile.css); si chiude con ×, toccando fuori o con Esc
+function finestra(sopra, titolo, corpo){
+  let d = document.getElementById("finestra");
+  if (!d) {
+    d = document.createElement("dialog");
+    d.id = "finestra"; d.className = "nb-d"; d.style.setProperty("--sc", "var(--ink-3)"); d.setAttribute("aria-labelledby", "finestra-t");
+    d.innerHTML = `<header class="nb-dh"><div><small></small><b id="finestra-t"></b></div><button type="button" class="nb-x" aria-label="Chiudi">×</button></header><div class="nb-p"></div>`;
+    document.body.appendChild(d);
+    d.querySelector(".nb-x").addEventListener("click", () => d.close());
+    d.addEventListener("click", e => {
+      if (e.target === d) { d.close(); return; }   // tocco fuori dal riquadro
+      const a = e.target.closest('a[href^="#"]'); if (!a) return;
+      const lis = fontiLi(d, a.getAttribute("href").slice(1)); if (!lis.length) return;
+      e.preventDefault(); lis[0].scrollIntoView({block:"center", behavior:"smooth"});
+      lis.forEach(li => { li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1600); });
+    });
+  }
+  d.querySelector(".nb-dh small").textContent = sopra;
+  d.querySelector("#finestra-t").textContent = titolo;
+  d.querySelector(".nb-p").innerHTML = corpo;
+  if (!d.open) d.showModal();
+  d.querySelector(".nb-p").scrollTop = 0; d.scrollTop = 0;
+  return d;
+}
+// le fonti indicate da un richiamo ([3] o [3–6]) in una finestra; "Tutte le fonti" porta all'elenco in fondo
+function finestraFonti(root, id, tutte){
+  const lis = fontiLi(root, id); if (!lis.length) return false;
+  const voci = lis.map(li => { const c = li.cloneNode(true); c.removeAttribute("id"); c.classList.remove("flash"); return c.outerHTML; }).join("");
+  const n = lis.length === 1 ? "Fonte " + lis[0].firstElementChild.textContent : `Fonti ${lis[0].firstElementChild.textContent}–${lis[lis.length - 1].firstElementChild.textContent}`;
+  const d = finestra("Da dove viene", n, `<ol class="fonti">${voci}</ol>${tutte ? `<p><a class="more-link" href="#${esc(id)}" data-tutte>Tutte le fonti →</a></p>` : ""}`);
+  d.querySelector("[data-tutte]")?.addEventListener("click", e => { e.preventDefault(); d.close(); tutte(); });
+  return true;
+}

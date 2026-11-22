@@ -22,7 +22,7 @@
 <meta property="og:image:alt" content="Bonificare l'Ilva: a che punto siamo. Lo stabilimento e il quartiere Tamburi visti dal Mar Piccolo">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="font/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="stile.css?v=202611201200">
+<link rel="stylesheet" href="stile.css?v=202611221800">
 <body class="mappa">
 
 <header class="topbar">
@@ -44,6 +44,7 @@
     <div class="ph">
       <h1><span class="n-tot">37</span> aree</h1>
       <button type="button" class="close" id="panel-close" aria-label="Chiudi l'elenco">✕</button>
+      <button type="button" class="grande" id="panel-big" aria-pressed="false">Allarga</button>
       <p id="intro">Tocca un punto per leggere il report; avvicinati per leggere i codici.</p>
       <div class="seg" role="radiogroup" aria-label="Colori e filtri per">
         <button type="button" role="radio" data-c="fase" aria-checked="true">Tappa</button>
@@ -77,7 +78,7 @@
 
 <script src="lib/leaflet.js"></script>
 <script src="dati.js?v=202611172030"></script>
-<script src="comune.js?v=202611171700"></script>
+<script src="comune.js?v=202611221800"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
@@ -86,6 +87,12 @@ const panelW = () => panelOpen() && !isNarrow() ? $("#panel").offsetWidth + 24 :
 function setPanel(on){ document.body.classList.toggle("panel-off", !on); setTimeout(placePv, 220); }
 $("#panel-close").addEventListener("click", () => setPanel(false));
 $("#panel-open").addEventListener("click", () => setPanel(true));
+// elenco più grande: sul telefono sale fino in cima, sul computer si allarga su due colonne (22/11/2026)
+$("#panel-big").addEventListener("click", e => {
+  const on = document.body.classList.toggle("panel-big");
+  e.currentTarget.textContent = on ? "Riduci" : "Allarga"; e.currentTarget.setAttribute("aria-pressed", on);
+  setTimeout(() => { map.invalidateSize(); placePv(); }, 220);
+});
 if (isNarrow()) setPanel(false);   // telefono: si parte dalla mappa, l'elenco si apre col bottone
 
 let map, markers = {}, selected = null, pv, pvLL = null;

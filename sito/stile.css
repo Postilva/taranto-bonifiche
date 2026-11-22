@@ -923,3 +923,20 @@ a.parola{color:inherit;text-decoration:underline dotted var(--ink-3);text-underl
   #map .leaflet-control-attribution:not(.aperti) *{display:none}
   #map .leaflet-control-attribution.aperti{max-width:calc(100vw - 16px);margin:0 0 8px 8px;border-radius:8px;padding:4px 8px;cursor:pointer}
 }
+
+/* finestra sopra la pagina per fonti e sostanze (finestra() in comune.js, 22/11/2026) */
+#finestra .nb-p{gap:10px}
+#finestra ol.fonti{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:.88rem;line-height:1.45;color:var(--ink-2)}
+#finestra .fin-h{margin-top:6px;font:700 .72rem/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+#finestra .prose{color:var(--ink-2)}
+
+/* mappa: elenco delle aree più grande (pulsante "Allarga", 22/11/2026) */
+.panel .grande{position:absolute;top:12px;right:60px;height:40px;padding:0 14px;border-radius:999px;border:0;background:var(--surface-2);color:var(--ink);cursor:pointer;font:600 .85rem/40px var(--f-body)}
+.panel .grande:hover{background:var(--line)}
+body.panel-big .panel{height:calc(100% - 8px)}
+.panel .ph h1{padding-right:150px}
+@media (min-width:900px){
+  body.panel-big .panel{width:min(640px,calc(100vw - 48px));height:auto}
+  body.panel-big .list{grid-template-columns:1fr 1fr;column-gap:6px}
+  body.panel-big .list li.sub,body.panel-big .list li.empty{grid-column:1/-1}
+}
