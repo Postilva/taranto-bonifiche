@@ -4,5 +4,8 @@
     { "source": "/:pagina(index|mappa|soldi|report|privacy)/", "destination": "/:pagina.html", "permanent": true },
     { "source": "/r/:scheda([^./]+)", "destination": "/r/:scheda.html", "permanent": true },
     { "source": "/r/:scheda([^./]+)/", "destination": "/r/:scheda.html", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/fonti/:file", "destination": "https://cdn.jsdelivr.net/gh/Postilva/taranto-bonifiche@main/fonti/:file" }
   ]
 }
