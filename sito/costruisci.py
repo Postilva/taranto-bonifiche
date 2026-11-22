@@ -442,21 +442,20 @@ def leggi_fonti(body):
         testo = re.split(r"\s+—\s+copi[ae]", raw)[0]
         testo = re.sub(r",?\s*https?://\S+", "", testo).strip(" ,")
         u = url.group(0).rstrip(".,;") if url else None
-        fon.append({"n": int(fm.group(1)), "html": inline(testo), "url": u, "copia": copia_ministero(u, raw)})
+        fon.append({"n": int(fm.group(1)), "html": inline(testo), "url": u, "copia": copia_pdf(u, raw)})
     return fon
 
 
 # Il sito del Ministero dell'Ambiente (mite.gov.it, mase.gov.it) a volte non risponde o rifiuta la connessione
-# (segnalato il 22/11/2026): per le sue fonti il link "leggi" apre la nostra copia in PDF, già pubblica nel repository.
+# (segnalato il 22/11/2026): per ogni fonte di cui abbiamo il PDF il link "leggi" apre la nostra copia in PDF, già pubblica nel repository.
 # Sul sito l'indirizzo è bonifiche.postilva.it/fonti/...: vercel.json lo gira a jsDelivr, che legge il repository e manda
 # il PDF da aprire nel browser (nessun documento caricato su Vercel). jsDelivr non serve file sopra i 20 MB: per quelli GitHub.
 # COPIE_BASE (variabile d'ambiente) cambia l'indirizzo, per le anteprime fuori da Vercel.
 import os
 COPIE = os.environ.get("COPIE_BASE", "https://bonifiche.postilva.it/")
 COPIE_GRANDI = "https://github.com/Postilva/taranto-bonifiche/blob/main/"
-def copia_ministero(url, raw):
-    if not url or not re.match(r"https?://[^/]*\b(mite|mase)\.gov\.it/", url):
-        return None
+def copia_pdf(url, raw):
+    # dal 22/11/2026 per tutte le fonti, non solo per quelle del Ministero (Antonio)
     m = re.search(r"copi[ae]\b[^`]*?\bin `(fonti/[^`]+\.pdf)`", raw)
     if not m or not (ROOT / m.group(1)).is_file():
         return None
@@ -1186,8 +1185,8 @@ def scrivi_soldi(fondi, schede, gruppo_di, short):
                     + (f'<div class="unk-fonti"><h4 class="unk-h">Le fonti non concordano</h4>{ol(fo)}</div>' if fo else "") + "</div></details>")
     if parole:
         dopo.append(parole)
-    apri_doc = lambda u, c=None: (f' · <a href="{html.escape(c)}" target="_blank" rel="noopener">leggi</a> · <a href="{html.escape(u)}" target="_blank" rel="noopener">originale</a>' if c
-                                   else f' · <a href="{html.escape(u)}" target="_blank" rel="noopener">apri il documento</a>' if u else "")
+    apri_doc = lambda u, c=None: ((f' · <a href="{html.escape(c)}" target="_blank" rel="noopener">leggi</a>' if c else "")
+                                  + (f' · <a href="{html.escape(u)}" target="_blank" rel="noopener">{"originale" if c else "apri il documento"}</a>' if u else ""))
     dopo.append(f'<details class="acc" id="fonti"><summary><span>Fonti<small>{len(fondi["fonti"])} documenti ufficiali</small></span></summary><div class="body"><ol class="fonti">'
                 + "".join(f'<li id="fondi-f{x["n"]}"><span>[{x["n"]}]</span><span>{x["html"]}{apri_doc(x["url"], x.get("copia"))}</span></li>' for x in fondi["fonti"])
                 + "</ol></div></details>")
