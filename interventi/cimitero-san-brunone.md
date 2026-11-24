@@ -1,14 +1,14 @@
 # B8 – Cimitero San Brunone (Taranto): bonifica delle aree non pavimentate
-*Stato scheda: approvata — aggiornata al 17 novembre 2026*
+*Stato scheda: approvata — aggiornata al 24 novembre 2026*
 
 **Immagine:** ilva-2007-mar-piccolo.jpg
 
 ## A che punto è
 ### Finora
-La terra dei campi e delle aiuole è stata analizzata e, secondo il Commissario, ARPA ha convalidato i risultati [5]. Nel 2016 la Regione ha approvato l'analisi di rischio e nel 2017–2018 il progetto: togliere la terra inquinata e sostituirla con materiale di cava [3][4][5][8]. I lavori sono partiti nel maggio 2020 [3].
+Le prime analisi di ARPA Puglia (2012–2013) e quelle fatte fare dal Comune nel 2014 hanno trovato nella terra dei campi e delle aiuole metalli, idrocarburi policiclici aromatici, diossine e PCB oltre i limiti; secondo il Comune, ARPA ha convalidato i risultati nel 2015 [22]. L'analisi di rischio del Comune (ottobre 2015) conclude che il primo metro di terreno è un rischio per chi visita il cimitero e per chi ci lavora e che "è necessaria una bonifica" [22]; la Regione l'ha approvata nel 2016 e nel 2017–2018 ha approvato il progetto: togliere la terra inquinata e sostituirla con materiale di cava [3][4][5][8]. I lavori sono partiti nel maggio 2020 [3].
 
 ### Cosa manca
-I lavori si sono fermati il 21 agosto 2020, alla scadenza del mandato della Commissaria Corbelli senza un successore [3]. Il 6 maggio 2021 il Commissario di allora, Martino, ha annullato in autotutela la gara: secondo il nuovo responsabile del procedimento e un parere dell'ANAC, il quadro economico del progetto non era conforme alle norme sui contratti pubblici [3][15]. Nel 2022–2023 sul posto restavano recinzioni e la terra scavata coperta da teli [3][10][11]; oggi non sappiamo. Il Commissario scrive che la messa in sicurezza d'emergenza è «completata» [14]: non abbiamo trovato un atto che la approvi o ne certifichi la fine; gli atti trovati parlano di messa in sicurezza solo per i cumuli di terra coperti con teli nel 2022 [3][11].
+I lavori si sono fermati il 21 agosto 2020, alla scadenza del mandato della Commissaria Corbelli senza un successore [3]. Il 6 maggio 2021 il Commissario di allora, Martino, ha annullato in autotutela la gara: secondo il nuovo responsabile del procedimento e un parere dell'ANAC, il quadro economico del progetto non era conforme alle norme sui contratti pubblici [3][15]. Nel 2022–2023 sul posto restavano recinzioni e la terra scavata coperta da teli [3][10][11]; oggi non sappiamo. Il Commissario scrive che la messa in sicurezza d'emergenza è «completata» [14], ma quando gli abbiamo chiesto l'atto che la chiude ci ha mandato solo il decreto del 2022 sui teli per i cumuli di terra scavata, scrivendo di non avere gli altri atti perché il Commissario precedente non gli ha passato le carte [24][25]. Nel 2013 il Comune, come misura di emergenza, aveva vietato l'accesso alle aiuole e ai campi [22].
 
 ### Adesso
 Da aprile 2026 Sogesid aggiorna il progetto esecutivo [3]; ad agosto l'aggiornamento era ancora in corso [14]. Il costo è stimato in circa 17,5 milioni di euro e ce ne sono circa 9,4 [1][3]; nell'ultima ripartizione dei fondi del Ministero (novembre 2025) il cimitero non ha avuto nulla [12]. Il 29 ottobre 2026 il Commissario ha accolto il calendario che gli abbiamo proposto: entro il 30 novembre 2026 i risultati delle analisi e l'analisi di rischio (del 2015), che il Comune gli ha trasmesso il 2 febbraio 2026, e l'atto che chiude la messa in sicurezza d'emergenza [20].
