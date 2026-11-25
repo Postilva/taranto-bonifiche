@@ -111,7 +111,7 @@
 
 <script src="lib/leaflet.js"></script>
 <script src="dati.js?v=202611172030"></script>
-<script src="comune.js?v=202611221800"></script>
+<script src="comune.js?v=202611251900"></script>
 <script>
 /* vecchi link della pagina unica: #<id-scheda> → report, #esplora/#mappa → mappa */
 (function(){
@@ -259,7 +259,7 @@ function pannello(id){
   return cache[id] = d;
 }
 let aperto = null, daClick = false;
-function chiudi(){ if (daClick) history.back(); else { history.replaceState(null, "", location.pathname); route(); } }
+function chiudi(){ if (daClick) history.back(); else { history.replaceState(history.state, "", location.pathname); route(); } }
 function route(){
   let h = decodeURIComponent(location.hash.slice(1)), voce = null;
   if (h.startsWith("g-")) { voce = h; h = "glossario"; }

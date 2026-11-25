@@ -73,7 +73,7 @@
 
 <script src="../lib/leaflet.js"></script>
 <script src="../dati.js?v=202611172030"></script>
-<script src="../comune.js?v=202611221800"></script>
+<script src="../comune.js?v=202611251900"></script>
 <script>
 /* Report di un intervento: r/<id-scheda>.html (oppure #<id-scheda>-f<n> per aprire una fonte), scritta da costruisci.py
    a partire da questa pagina; i vecchi link report.html#<id-scheda> rimandano lì.
@@ -199,7 +199,7 @@ function render(s, sel){
   const i = SCHEDE.indexOf(s), prev = SCHEDE[i-1], next = SCHEDE[i+1];
   const extra = s.sections.filter(x => !/^date principali/i.test(x.title));
   const g = GRUPPO[s.code] || "A";
-  let h = `<a class="back" href="${RADICE}mappa.html${p ? "#" + s.code : ""}">← Mappa</a>
+  let h = `${INDIETRO.link(`${RADICE}mappa.html${p ? "#" + s.code : ""}`)}
     <header class="rp-head g${g}">
       <div class="meta"><span class="codes">${s.codes.join(" + ")}</span><span>${grpLabel(s.code)}</span>${DA_VERIFICARE.has(s.code) ? `<span class="badge expl">Legame con l'Ilva da verificare</span>` : ""}</div>
       <h1>${esc(s.title)}</h1>

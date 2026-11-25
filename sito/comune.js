@@ -472,3 +472,42 @@ function finestraFonti(root, id, tutte){
   d.querySelector("[data-tutte]")?.addEventListener("click", e => { e.preventDefault(); d.close(); tutte(); });
   return true;
 }
+
+/* ---------- torna indietro (25/11/2026) ----------
+   Ogni pagina conta nella cronologia del browser i passi fatti dentro di sé con gli # (history.state.pd):
+   «← …» del report torna alla pagina da cui si è arrivati saltandoli, come il tasto indietro, e dice dove porta
+   (Inizio, Mappa, Soldi, il report di prima). Chi arriva da fuori (Google, un link) va alla mappa.
+   «Mappa» nel menu riporta alla mappa com'era (filtri, ricerca, inquadratura); «Apri la mappa» la apre pulita. */
+const INDIETRO = (() => {
+  let pd = 0;
+  const st = () => history.state || {};
+  const segna = () => { try { history.replaceState({...st(), pd}, ""); } catch {} };
+  if (st().pd == null) segna(); else pd = st().pd;
+  addEventListener("hashchange", () => { if (st().pd == null) { pd++; segna(); } else pd = st().pd; });
+  // la pagina da cui si è arrivati, se è di questo sito
+  function da(){
+    let u; try { u = new URL(document.referrer); } catch { return null; }
+    if (u.origin !== location.origin || u.pathname === location.pathname) return null;
+    const p = u.pathname.replace(/\.html$/, ""), m = p.match(/\/r\/([^/]+)$/);
+    let testo = "Indietro";
+    if (/\/(index)?$/.test(p)) testo = "Inizio";
+    else if (/\/mappa$/.test(p)) testo = "Mappa";
+    else if (/\/soldi$/.test(p)) testo = "Soldi";
+    else if (/\/privacy$/.test(p)) testo = "Privacy";
+    else if (m && typeof SCHEDE !== "undefined") { const s = SCHEDE.find(x => x.id === m[1]); testo = s ? s.codes.join(" + ") : "Report"; }
+    return {href: u.pathname + u.search + u.hash, testo};
+  }
+  // il pulsante: chi arriva da fuori va a «perDifetto» (la mappa)
+  function link(perDifetto, cls = "back"){
+    const d = da();
+    return d ? `<a class="${cls}" href="${esc(d.href)}" data-indietro>← ${esc(d.testo)}</a>` : `<a class="${cls}" href="${esc(perDifetto)}">← Mappa</a>`;
+  }
+  document.addEventListener("click", e => {
+    const a = e.target.closest("a[data-indietro]"); if (!a || e.ctrlKey || e.metaKey || e.shiftKey) return;
+    if (history.length > pd + 1) { e.preventDefault(); history.go(-(pd + 1)); }
+  });
+  // «Mappa» nel menu: la mappa com'era l'ultima volta in questa finestra
+  const menu = () => { try { const m = sessionStorage.getItem("ultima-mappa"); if (m) document.querySelectorAll('.topbar nav a[href$="mappa.html"]').forEach(a => a.setAttribute("href", a.getAttribute("href").replace(/[?#].*$/, "") + m)); } catch {} };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", menu); else menu();
+  return {link, passi: () => pd};
+})();

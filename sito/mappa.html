@@ -54,7 +54,7 @@
         <button type="button" role="radio" data-c="gruppo" aria-checked="false">Gruppo</button>
       </div>
       <div class="filters" id="filters" role="group" aria-label="Filtri"></div>
-      <input id="q" class="search" type="search" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un'area">
+      <input id="q" class="search" type="search" autocomplete="off" placeholder="Cerca: Mar Piccolo, A15, Statte…" aria-label="Cerca un'area">
       <p class="lcount"><span id="lcount"></span> · <button type="button" class="linkbtn" id="fuori-open" aria-haspopup="dialog">Cosa non è sulla mappa?</button></p>
       <details class="pn-crediti"><summary>Crediti della mappa</summary><p><a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> · Powered by Esri · Foto satellitare: Esri, Maxar, Earthstar Geographics · Contorno dello stabilimento © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · <a href="privacy.html">Privacy e crediti</a></p></details>
     </div>
@@ -81,13 +81,13 @@
 
 <script src="lib/leaflet.js"></script>
 <script src="dati.js?v=202611172030"></script>
-<script src="comune.js?v=202611221800"></script>
+<script src="comune.js?v=202611251900"></script>
 <script>
 /* Mappa a schermo intero. mappa.html#<codice> apre la mappa con quel pallino selezionato (es. dal "Torna alla mappa" del report). */
 document.querySelectorAll(".n-tot").forEach(el => el.textContent = TOTAL);
 const panelOpen = () => !document.body.classList.contains("panel-off");
 const panelW = () => panelOpen() && !isNarrow() ? $("#panel").offsetWidth + 24 : 0;
-function setPanel(on){ document.body.classList.toggle("panel-off", !on); setTimeout(placePv, 220); }
+function setPanel(on){ document.body.classList.toggle("panel-off", !on); setTimeout(placePv, 220); if (on) setTimeout(rimettiLy, 0); }
 $("#panel-close").addEventListener("click", () => setPanel(false));
 $("#panel-open").addEventListener("click", () => setPanel(true));
 // elenco più grande: sul telefono sale fino in cima, sul computer si allarga su due colonne (22/11/2026)
@@ -99,6 +99,32 @@ $("#panel-big").addEventListener("click", e => {
 if (isNarrow()) setPanel(false);   // telefono: si parte dalla mappa, l'elenco si apre col bottone
 
 let map, markers = {}, selected = null, pv, pvLL = null;
+/* indirizzo della mappa (25/11/2026): mappa.html?t=analisi&q=discarica&z=14.5&c=40.49,17.21#A2
+   t tappa, g gruppo (colori=gruppo se si colora per gruppo senza filtro), v=ok solo verificati, q ricerca,
+   z e c inquadratura (solo dopo che chi guarda ha mosso la mappa), #codice l'area aperta. Si aggiorna con replaceState:
+   il tasto indietro non ripercorre i filtri, ricaricare o condividere il link mostra la stessa mappa. */
+const URLM = new URLSearchParams(location.search);
+let mossa = false, vistaURL = null, tScrivi = null, utente = false;
+{ const z = parseFloat(URLM.get("z")), c = (URLM.get("c") || "").split(",").map(Number);
+  if (isFinite(z) && c.length === 2 && c.every(isFinite)) vistaURL = {ll: c, z}; }
+function indirizzo(){
+  const q = [];
+  if (colore === "gruppo") q.push(F.g ? "g=" + F.g : "colori=gruppo");
+  if (F.t) q.push("t=" + encodeURIComponent(F.t));
+  if (F.v) q.push("v=" + encodeURIComponent(F.v));
+  if (F.q) q.push("q=" + encodeURIComponent(F.q));
+  if (mossa && map) { const c = map.getCenter(); q.push("z=" + +map.getZoom().toFixed(2), "c=" + c.lat.toFixed(5) + "," + c.lng.toFixed(5)); }
+  return (q.length ? "?" + q.join("&") : "") + (selected ? "#" + selected : "");
+}
+function scriviIndirizzo(subito){
+  clearTimeout(tScrivi);
+  if (!subito) { tScrivi = setTimeout(() => scriviIndirizzo(true), 200); return; }
+  const fine = indirizzo();
+  try { history.replaceState(history.state, "", location.pathname + fine); sessionStorage.setItem("ultima-mappa", fine); } catch {}
+}
+// l'elenco ricorda dove era scorso (history.state.ly): tornando dal report lo si ritrova lì, anche riaprendolo sul telefono
+let lyDaRimettere = (history.state || {}).ly || 0;
+function rimettiLy(){ if (lyDaRimettere && panelOpen()) { $("#list").scrollTop = lyDaRimettere; lyDaRimettere = 0; } }
 const pinOf = c => markers[c]?.getElement()?.querySelector(".pin");
 /* colori e filtri: per tappa (tre colori: arancione la 1, giallo dalla 2 alla 4, verde in fondo) o per gruppo. Si ricorda la scelta. */
 // le tappe del percorso (TAPPE, tappaDi, tappaSub) sono in comune.js, uguali al grafico della home
@@ -138,7 +164,7 @@ function setColore(c, ricorda = true){
   if (listaPronta) renderList();
   if (ricorda) try { localStorage.setItem("mappa-colore", c); } catch {}
 }
-document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => setColore(b.dataset.c)));
+document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { setColore(b.dataset.c); scriviIndirizzo(); }));
 setColore(colore, false);
 // computer: legenda sempre aperta (senza titolo); telefono: chiusa, si apre col tocco
 { const pc = matchMedia("(min-width:900px)"), apri = () => { if (pc.matches) $("#legenda").open = true; }; pc.addEventListener("change", apri); apri(); }
@@ -200,13 +226,14 @@ function select(code, opts={}){
   pinOf(code)?.classList.add("sel");
   centra(p.ll);
   placePv();
-  history.replaceState(null, "", "#" + code);
+  scriviIndirizzo(true);
 }
 function deselect(){
   if (selected){ pinOf(selected)?.classList.remove("sel"); markers[selected]?.setZIndexOffset(PT[selected].ok ? 500 : 0); }
   document.querySelectorAll(".list li.sel").forEach(e => e.classList.remove("sel"));
-  if (selected) history.replaceState(null, "", location.pathname);
-  selected = null; pvLL = null; if (pv) pv.hidden = true;
+  const c = selected;
+  selected = null;
+  if (c) scriviIndirizzo(true); pvLL = null; if (pv) pv.hidden = true;
   window.lockMin?.();
   document.body.classList.remove("pv-on");
 }
@@ -247,7 +274,11 @@ function deselect(){
   fit();
   let touched = false;
   ["mousedown","touchstart","wheel","keydown"].forEach(ev => $("#map").addEventListener(ev, () => touched = true, {passive:true}));
-  if (window.ResizeObserver) new ResizeObserver(() => { map.invalidateSize(); if (!touched) fit(); placePv(); }).observe($("#map"));
+  if (window.ResizeObserver) new ResizeObserver(() => { map.invalidateSize(); if (!touched && !mossa) fit(); placePv(); }).observe($("#map"));
+  // inquadratura dall'indirizzo; da quando chi guarda tocca la mappa, l'inquadratura va nell'indirizzo
+  if (vistaURL) { map.setView(vistaURL.ll, Math.max(vistaURL.z, map.getMinZoom()), {animate:false}); mossa = true; lockMin(); }
+  ["pointerdown","mousedown","touchstart","wheel","keydown"].forEach(ev => $("#map").addEventListener(ev, () => utente = true, {passive:true, capture:true}));   // capture: anche + e − dello zoom
+  map.on("moveend", () => { if (utente) mossa = true; if (mossa) scriviIndirizzo(); });
   // da lontano (sotto lo zoom 13) i pallini sono punti colorati senza codice, così non si coprono
   const zcls = () => { map.getContainer().classList.toggle("zlo", map.getZoom() < 13); map.getContainer().classList.toggle("zhi", map.getZoom() >= 15); };
   map.on("zoomend", zcls); zcls();
@@ -307,9 +338,11 @@ $("#filters").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
   const k = b.dataset.k, val = b.dataset.val;
   F[k] = (k === "v" && F.v === val) ? "" : val;   // "Solo verificati" si accende e si spegne
-  filtri(); renderList();
+  filtri(); renderList(); scriviIndirizzo();
 });
-$("#q").addEventListener("input", e => { F.q = e.target.value.trim(); renderList(); });
+$("#q").addEventListener("input", e => { F.q = e.target.value.trim(); renderList(); scriviIndirizzo(); });
+$("#list").addEventListener("scroll", () => { if (!panelOpen()) return; clearTimeout($("#list").t); $("#list").t = setTimeout(() => { if (!panelOpen()) return;   // chiuso, il telefono schiaccia lo scorrimento: non va salvato
+ try { history.replaceState({...(history.state || {}), ly: $("#list").scrollTop}, ""); } catch {} }, 200); }, {passive:true});
 $("#list").addEventListener("mouseover", e => { const c = e.target.closest("li[data-code]"); if (c) pinOf(c.dataset.code)?.classList.add("hl"); });
 $("#list").addEventListener("mouseout", e => { const c = e.target.closest("li[data-code]"); if (c && !c.contains(e.relatedTarget)) pinOf(c.dataset.code)?.classList.remove("hl"); });
 $("#list").addEventListener("click", e => {
@@ -319,8 +352,19 @@ $("#list").addEventListener("click", e => {
 });
 listaPronta = true;
 renderList();
-// mappa.html?g=A (o B) dalla home: si parte colorando per gruppo, con quel gruppo filtrato (senza cambiare la scelta ricordata)
-{ const g = new URLSearchParams(location.search).get("g"); if (g === "A" || g === "B") { setColore("gruppo", false); F.g = g; filtri(); renderList(); } }
+// filtri dall'indirizzo: mappa.html?g=A (o B) dalla home colora per gruppo con quel gruppo filtrato (senza cambiare la scelta
+// ricordata); t, v e q come scritti da indirizzo(). La casella di ricerca dice sempre quello che filtra l'elenco.
+{ const g = URLM.get("g"), t = URLM.get("t");
+  if (g === "A" || g === "B" || URLM.get("colori") === "gruppo") { setColore("gruppo", false); if (g === "A" || g === "B") F.g = g; }
+  else if (t && colore !== "fase") setColore("fase", false);
+  if (t && colore === "fase" && [...TAPPE.map(x => x[0]), "fuori"].includes(t)) F.t = t;
+  if (URLM.get("v") === "ok") F.v = "ok";
+  F.q = (URLM.get("q") || "").trim();
+  $("#q").value = F.q;
+  filtri(); renderList();
+  try { sessionStorage.setItem("ultima-mappa", location.search + location.hash); } catch {}
+  setTimeout(rimettiLy, 0);
+}
 {
   const lk = r => { const s = verified[r[0]]; return s ? `<a href="${reportHref(r[0])}">${r[0]} ${esc(s.short)}</a>` : r[0]; };
   const dv = ELENCO.B.items.filter(r => DA_VERIFICARE.has(r[0]));
