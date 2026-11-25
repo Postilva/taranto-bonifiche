@@ -1,5 +1,5 @@
 # A18 – Land I (area verde vicino all'Ospedale Nord)
-*Stato scheda: approvata — aggiornata al 25 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 25 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -9,7 +9,7 @@ Niente, per quanto risulta: nessuna analisi e nessun lavoro (Ilva scrive «nessu
 Non abbiamo trovato nessuna analisi del terreno o dell'acqua, né un atto pubblico che dica che l'area è pulita: il giudizio è solo di Ilva [1][2][5]. Secondo Ilva l'area è fuori dal SIN [2].
 
 ### Adesso
-Ilva pensa di cederla così com'è [1][5].
+Ilva pensa di cederla così com'è [1][5]. Abbiamo chiesto i documenti (catasto, analisi, cessione) al Ministero delle Imprese, che vigila su Ilva in A.S.: il 24 novembre 2026 ha risposto di non averli e che spettano ai commissari straordinari di Ilva [10].
 
 ## Che posto è
 Un piccolo terreno verde di circa 2.000 m², vicino all'"Ospedale Nord" e lontano dalla zona industriale [1][2].
@@ -65,6 +65,7 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 | luglio 2022 | Scheda di Ilva: 0,2 ettari, fuori dal SIN, nessuna criticità | [2] |
 | 2022–2025 | Ilva ripete che pensa di cederla così com'è | [5][1] |
 | dicembre 2024 | Ilva riduce i gruppi di aree da 4 a 3: Land I resta "cedibile" | [8] |
+| 24 novembre 2026 | Il Ministero delle Imprese: non ha catasto, analisi né atti della cessione, sono dei commissari di Ilva | [10] |
 
 ## Fonti
 [1] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pag. 48, https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
@@ -85,6 +86,8 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 
 [9] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 13 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
+[10] Ministero delle Imprese e del Made in Italy, Direzione generale per la politica industriale, Divisione VII (amministrazione straordinaria delle grandi imprese), risposta alla nostra richiesta di accesso civico n. 45, prot. 86510 del 24 novembre 2026: i documenti dei punti 1–4 «non risulta[no] nella disponibilità di questo Ufficio», perché catasto, verifiche ambientali e atti per la dismissione «rientrano nell'ambito delle competenze […] dei Commissari Straordinari della procedura» — copia in `fonti/2026-11_mimit_rigetto-foia-land-i.pdf`
+
 ## Cosa non sappiamo
 1. [altra] **Il terreno è davvero pulito?** Non c'è nessuna analisi pubblica: "senza problemi" è un giudizio di Ilva, non di un ente di controllo [1][2]. Non verificato.
 2. [altra] **Dove si trova esattamente, e a chi verrebbe ceduta?** Ilva pensa di cederla così com'è [1][5], ma nessuna fonte dice dove sia esattamente né a chi andrebbe [1][2]. Non verificato.
@@ -93,7 +96,7 @@ Non abbiamo trovato analisi del terreno: il giudizio "senza problemi" è solo di
 
 Ricerca online del 13 ottobre 2026 (Land I, Ospedale Nord, cessione di aree di Ilva in A.S.): nessun risultato sull'area.
 
-I commissari di Ilva in A.S. lavorano sotto la vigilanza del Ministero delle Imprese e del Made in Italy, che riceve le loro relazioni trimestrali. Per questo la richiesta va al Ministero.
+I commissari di Ilva in A.S. lavorano sotto la vigilanza del Ministero delle Imprese e del Made in Italy, che riceve le loro relazioni trimestrali. Per questo la richiesta è andata al Ministero, che il 24 novembre 2026 ha risposto di non avere i documenti e che spettano ai commissari di Ilva [10]. La bozza qui sotto è quella mandata il 13 ottobre 2026.
 
 ### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
 **A:** Ministero delle Imprese e del Made in Italy — email ordinaria dell'Ufficio relazioni con il pubblico urp@mise.gov.it, indicata per le domande di accesso sul [sito del Ministero](https://www.mimit.gov.it/it/urp) (verificata il 13 ottobre 2026). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
