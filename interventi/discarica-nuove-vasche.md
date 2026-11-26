@@ -9,7 +9,7 @@ La discarica è chiusa e coperta, ed è in «post-gestione»: Ilva deve sorvegli
 I risultati dei controlli non sono pubblici [1][8], e la Provincia dice di non aver ricevuto da Ilva i rapporti dei controlli dal 2018 [13]. ISPRA ha chiesto di verificare la rete che raccoglie l'acqua piovana, e secondo Ilva è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1] e alla Provincia il progetto non è arrivato [13]. Non sappiamo quali rifiuti ci siano nelle tre vasche: le fonti dicono solo che è una discarica per rifiuti pericolosi [3][4].
 
 ### Adesso
-Da dicembre 2025 ci sono 5 nuovi pozzi per controllare l'acqua sotterranea ogni tre mesi, insieme all'area dei fanghi, per almeno due anni [1][9]. Nessuna fonte dice quando partiranno i lavori per l'acqua piovana [1]. Il 27 ottobre 2026, rispondendo a una nostra richiesta, la Provincia ha elencato i documenti che ha sulla discarica e ha chiesto a Ilva se si oppone a darceli [13]. Non è una bonifica e non lo sarà: in una discarica i rifiuti restano dove sono.
+Da dicembre 2025 ci sono 5 nuovi pozzi per controllare l'acqua sotterranea ogni tre mesi, insieme all'area dei fanghi, per almeno due anni [1][9]. Nessuna fonte dice quando partiranno i lavori per l'acqua piovana [1]. Il 27 ottobre 2026, rispondendo a una nostra richiesta, la Provincia ha elencato i documenti che ha sulla discarica e ha chiesto a Ilva se si oppone a darceli [13]. Ilva si è opposta; la Provincia ha accolto la richiesta il 9 novembre e il 25 novembre il suo responsabile della trasparenza ha respinto il reclamo di Ilva: i documenti ci spettano, ma non sappiamo ancora quando arriveranno [14]. Non è una bonifica e non lo sarà: in una discarica i rifiuti restano dove sono.
 
 ## Che posto è
 Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal SIN, divisa in tre vasche chiamate V1, V2 e V3 [2][4][1].
@@ -90,6 +90,7 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 | 10 ottobre 2022 | Arriva il progetto, da modificare | [6] |
 | 19 giugno 2024 | Ilva manda il piano di controllo della falda di tutte le sue aree | [1] |
 | agosto 2025 | Ultimi controlli citati (acqua, percolato, polveri, fibre) | [1] |
+| 25 novembre 2026 | Il responsabile della trasparenza della Provincia respinge il reclamo di Ilva contro la nostra richiesta di documenti | [14] |
 | dicembre 2025 | Completati 5 nuovi pozzi di controllo della falda (insieme all'area fanghi) | [1] |
 | 31 luglio 2048 | Fine prevista della post-gestione | [2] |
 
@@ -119,6 +120,8 @@ Una discarica di circa 3,5 ettari nella zona della cava Mater Gratiae, fuori dal
 [12] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 11 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 [13] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44941 del 27 ottobre 2026, con l'elenco dei documenti della Provincia su rifiuti, chiusura, controlli e garanzia della discarica (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-nuove-vasche.pdf`
+
+[14] Provincia di Taranto, Segretario generale come responsabile della trasparenza (RPCT), *Opposizione all'accesso civico generalizzato ed accesso alle informazioni ambientali, prot. 47368 del 10.11.2026 di ILVA S.p.A. in A.S. – Riesame ex art. 5 comma 9 del d.lgs. 33/2013*, firmato e mandato il 25 novembre 2026 (prot. 49995), sulla nostra richiesta di accesso civico su rifiuti, chiusura, controlli, garanzia e acque piovane della discarica Nuove Vasche: Ilva si era opposta (nota arrivata il 2 novembre 2026), la Provincia aveva accolto la richiesta il 9 novembre 2026 (prot. 47005) e Ilva ha fatto reclamo. Il responsabile della trasparenza lo respinge («Il reclamo è rigettato»): la richiesta non è «massiva» e le obiezioni di Ilva non rientrano nei casi dell'art. 5-bis del d.lgs. 33/2013. Non dice quando arriveranno i documenti (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-11_provincia-taranto_riesame-respinge-reclamo-ilva-foia-nuove-vasche.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Quando partono i lavori per l'acqua piovana?** ISPRA ha chiesto di verificare la rete che raccoglie l'acqua piovana, e secondo Ilva è risultata troppo piccola: il progetto per potenziarla c'è, ma a fine 2025 i lavori non erano iniziati [1]. A ottobre 2026 il progetto non era arrivato alla Provincia [13]. Non sappiamo quando inizieranno, quanto costano, né se nel frattempo l'acqua che scorre sui fianchi abbia causato danni. Non verificato.

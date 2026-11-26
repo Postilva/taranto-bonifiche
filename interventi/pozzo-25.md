@@ -9,7 +9,7 @@ Nel 2022 Ilva ha analizzato terreno, materiale di riporto e acqua, con ARPA pres
 Lo stesso decreto dichiara «contaminata» l'acqua sotterranea dell'area [1]. Non è previsto nessun intervento: solo continuare i controlli su tutti e quattro i pozzetti e impedire l'accesso [1]. L'impianto per togliere il sale dall'acqua del pozzo, ordinato nel 2022, a fine 2025 non era ancora installato [12][13]; a ottobre 2026 la Provincia non aveva ricevuto da Ilva nessuna domanda per scaricarne l'acqua di scarto [22].
 
 ### Adesso
-Dopo il decreto non abbiamo trovato altri atti. Il 27 ottobre 2026, rispondendo a una nostra richiesta, la Provincia ha elencato le note di Ilva sul pozzo, l'ultima dell'8 agosto 2025, e ha chiesto a Ilva se si oppone a darcele [22]. L'ISS chiede di continuare i controlli anche per la popolazione, perché l'area è vicina al centro abitato [16].
+Dopo il decreto non abbiamo trovato altri atti. Il 27 ottobre 2026, rispondendo a una nostra richiesta, la Provincia ha elencato le note di Ilva sul pozzo, l'ultima dell'8 agosto 2025, e ha chiesto a Ilva se si oppone a darcele [22]. Ilva si è opposta; la Provincia ha accolto la richiesta il 9 novembre e il 25 novembre il suo responsabile della trasparenza ha respinto il reclamo di Ilva: i documenti ci spettano, ma non sappiamo ancora quando arriveranno [23]. L'ISS chiede di continuare i controlli anche per la popolazione, perché l'area è vicina al centro abitato [16].
 
 ## Che posto è
 Un piccolo terreno boscoso di circa 5.400 m² nella zona industriale di Taranto, circa 800 metri a nord del quartiere Tamburi, con un pozzo profondo 37 metri che serviva a irrigare le "Collinette ecologiche" [6][9][3].
@@ -112,6 +112,7 @@ Il terreno è sotto i limiti di legge, ma l'acqua sotterranea dell'area è, per 
 | agosto 2025 – gennaio 2026 | Pareri di ARPA, ISPRA, INAIL, ASL, ISS (sollecitati dal Ministero il 9 settembre 2025) | [1][10] |
 | 20 gennaio 2026 | Conferenza di servizi decisoria | [1] |
 | 24 marzo 2026 | Il Ministero comunica a Ilva le condizioni | [1] |
+| 25 novembre 2026 | Il responsabile della trasparenza della Provincia respinge il reclamo di Ilva contro la nostra richiesta di documenti | [23] |
 | **26 maggio 2026** | **Decreto n. 149: terreno nei limiti, acqua sotterranea "contaminata"** | [1] |
 
 ## Fonti
@@ -160,6 +161,8 @@ Tutti i documenti del Ministero su quest'area sono nell'archivio https://bonific
 [21] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 14 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
 
 [22] Provincia di Taranto, Settore Pianificazione e Ambiente, *Richiesta di accesso civico generalizzato – comunicazione ai controinteressati*, prot. n. 44942 del 27 ottobre 2026, con l'elenco dei documenti della Provincia su concessione, prelievi e scarico dell'impianto a osmosi del Pozzo 25 (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-10_provincia-taranto_controinteressati-foia-pozzo-25.pdf`
+
+[23] Provincia di Taranto, Segretario generale come responsabile della trasparenza (RPCT), *Opposizione all'accesso civico generalizzato ed accesso alle informazioni ambientali, prot. 47370 del 10.11.2026 di ILVA S.p.A. in A.S. – Riesame ex art. 5 comma 9 del d.lgs. 33/2013*, firmato e mandato il 25 novembre 2026 (prot. 50005), sulla nostra richiesta di accesso civico su concessione, prelievi e scarico dell'impianto a osmosi del Pozzo 25: Ilva si era opposta (nota arrivata il 2 novembre 2026), la Provincia aveva accolto la richiesta il 9 novembre 2026 (prot. 47010) e Ilva ha fatto reclamo. Il responsabile della trasparenza lo respinge («Il reclamo è rigettato»): la richiesta non è «massiva» e le obiezioni di Ilva non rientrano nei casi dell'art. 5-bis del d.lgs. 33/2013. Non dice quando arriveranno i documenti (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-11_provincia-taranto_riesame-respinge-reclamo-ilva-foia-pozzo-25.pdf`
 
 ## Cosa non sappiamo
 1. [blocca] **Che cosa succede ora che l'acqua è "contaminata"?** Nell'archivio del Ministero (area 3919), al 13 ottobre 2026, l'ultimo documento è il decreto del 26 maggio 2026; una ricerca online dello stesso giorno non ha trovato altro. Per legge, quando si superano le soglie calcolate con l'analisi di rischio servono messa in sicurezza e bonifica [11]. Il decreto però chiede solo controlli [1], e l'analisi di Ilva non ha calcolato quelle soglie, ma ha usato indizi [9]. Non sappiamo se il Ministero chiederà dei lavori, né se i controlli del 2026 siano stati fatti. Non verificato.

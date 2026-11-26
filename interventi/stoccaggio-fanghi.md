@@ -9,7 +9,7 @@ Tra il 2019 e l'agosto 2023 Ilva ha portato via circa 333.000 tonnellate di fang
 Il terreno sotto i fanghi non è ancora stato analizzato: le analisi si faranno solo dopo aver svuotato il deposito [1][2][6]. Il deposito doveva essere vuoto entro il 23 agosto 2026 [2]: il 27 luglio 2026 Ilva ha mandato alla Provincia una «comunicazione completamento UP3», che non abbiamo ancora letto, e non ha chiesto proroghe [21]. Nel 2025 l'invio dei fanghi si è fermato per alcuni mesi, dopo controlli della Procura [1].
 
 ### Adesso
-L'ultimo atto noto è la nota di Ilva del 27 luglio 2026 alla Provincia sul «completamento UP3» [21]. Quando il deposito sarà vuoto Ilva dovrà analizzare il terreno liberato [2].
+L'ultimo atto noto è la nota di Ilva del 27 luglio 2026 alla Provincia sul «completamento UP3» [21]. I documenti, compresa questa nota, li abbiamo chiesti alla Provincia: la richiesta è stata accolta il 4 novembre 2026 nonostante l'opposizione di Ilva, e il 25 novembre il responsabile della trasparenza della Provincia ha respinto il reclamo di Ilva; non sappiamo ancora quando arriveranno [24]. Quando il deposito sarà vuoto Ilva dovrà analizzare il terreno liberato [2].
 
 ## Che posto è
 Un piazzale nel Comune di Statte, vicino alla Strada provinciale 48 Taranto–Statte; accanto ci sono le "aree vicine", con quattro vasche per l'acqua piovana [4][7].
@@ -136,6 +136,7 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 | 11 marzo 2026 | Ilva manda alla Provincia il rapporto annuale 2026 | [21] |
 | 27 luglio 2026 | Ilva manda alla Provincia la «comunicazione completamento UP3» | [21] |
 | 23 agosto 2026 | Scadenza per svuotare del tutto il deposito; nessuna proroga chiesta | [2][21] |
+| 25 novembre 2026 | Il responsabile della trasparenza della Provincia respinge il reclamo di Ilva contro la nostra richiesta di documenti | [24] |
 
 ## Fonti
 [1] Ilva S.p.A. in amministrazione straordinaria, *Relazione trimestrale, 4° trimestre 2025*, pagine 32–33 (scansione), https://cdn.fallcoweb.it/sito_procedura/pdf/ilva/Relazione_Trimestrale_Gruppo_ILVA_IV_trim_2025_con_omissis_.pdf — copia in `fonti/2025-12_ilva-as_relazione-trimestrale-IV-2025.pdf`
@@ -183,6 +184,8 @@ Per anni qui sono stati ammucchiati, direttamente sul terreno, i fanghi prodotti
 [22] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 24; numeri delle particelle letti sulla mappa, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 [23] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 10 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
+[24] Provincia di Taranto, Segretario generale come responsabile della trasparenza (RPCT), *Opposizione all'accesso civico generalizzato ed accesso alle informazioni ambientali, prot. 46630 del 06.11.2026 di ILVA S.p.A. in A.S. – Riesame ex art. 5 comma 9 del d.lgs. 33/2013*, firmato e mandato il 25 novembre 2026 (prot. 49989), sulla nostra richiesta di accesso civico su svuotamento, proroghe, garanzia e spedizioni all'estero del deposito dei fanghi: Ilva si era opposta (nota arrivata il 28 ottobre 2026), la Provincia aveva accolto la richiesta il 4 novembre 2026 (prot. 46176) e Ilva ha fatto reclamo. Il responsabile della trasparenza lo respinge («Il reclamo è rigettato»): la richiesta non è «massiva» e le obiezioni di Ilva non rientrano nei casi dell'art. 5-bis del d.lgs. 33/2013. Non dice quando arriveranno i documenti (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-11_provincia-taranto_riesame-respinge-reclamo-ilva-foia-fanghi-up3.pdf`
 
 Nota sul [10]: la relazione di fine 2024 è la fonte dei dati al 30 settembre 2024 (17.371 t ancora nel deposito), coerenti con il [14].
 
