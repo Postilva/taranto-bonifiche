@@ -1,5 +1,5 @@
 # A3 – Discarica ex cava Due Mari
-*Stato scheda: approvata — aggiornata al 16 novembre 2026*
+*Stato scheda: approvata — aggiornata al 27 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -9,7 +9,7 @@ Secondo Ilva la discarica è stata coperta con terra e teli, con fossi per l'acq
 Nessun ente pubblico ha certificato che i lavori siano finiti e fatti bene [1][14]. La Provincia non rilascia il certificato senza garanzie economiche adeguate per i 30 anni di controlli dopo la chiusura, e i giudici le hanno dato ragione [1][3][4][5]. I risultati dei controlli sulla falda non sono pubblici [1][9]. I rifiuti restano dentro: non è una bonifica.
 
 ### Adesso
-Nel marzo 2025 Ilva ha chiesto di passare alla «post-gestione», i 30 anni di sorveglianza, ma la Provincia ha giudicato la richiesta inammissibile [1][7]. A marzo 2026 il Consiglio di Stato ha respinto anche l'ultimo ricorso di Ilva [5]. Il decreto-legge n. 154 del 28 agosto 2026 cambia le regole sulle garanzie per le società in amministrazione straordinaria [18]. Il 25 settembre 2026 Ilva ha chiesto alla Provincia di applicarlo [19]; non si sa ancora se basterà per il certificato. Due nostre richieste alla Provincia su questa discarica sono state accolte il 4 novembre 2026 nonostante l'opposizione di Ilva, e il 25 novembre il responsabile della trasparenza della Provincia ha respinto i reclami di Ilva: i documenti ci spettano, ma non sappiamo ancora quando arriveranno [23][24].
+Nel marzo 2025 Ilva ha chiesto di passare alla «post-gestione», i 30 anni di sorveglianza, ma la Provincia ha giudicato la richiesta inammissibile [1][7]. A marzo 2026 il Consiglio di Stato ha respinto anche l'ultimo ricorso di Ilva [5]. Il decreto-legge n. 154 del 28 agosto 2026 cambia le regole sulle garanzie per le società in amministrazione straordinaria [18]. Il 25 settembre 2026 Ilva ha chiesto alla Provincia di applicarlo [33]; la Provincia ha detto di no il 23 ottobre e di nuovo il 20 novembre 2026: per lei queste garanzie seguono una legge speciale e il decreto non vale, salvo un diverso parere del Ministero dell'Ambiente [34][36]. Contro il no del 2025 alle garanzie pendono due ricorsi di Ilva al TAR di Lecce [25]. Il 27 novembre 2026 la Provincia ci ha mandato i documenti delle nostre due richieste, dopo aver respinto due volte l'opposizione di Ilva [23][24][25][26]: non ha dati sui rifiuti messi in discarica e non ha ricevuto relazioni sui controlli dopo la chiusura [26].
 
 ## Che posto è
 Una vecchia cava fuori dalla fabbrica, rimasta a Ilva in amministrazione straordinaria; solo una parte è dentro il SIN [8][9][10].
@@ -52,7 +52,8 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 - Il 18 marzo 2025 Ilva ha chiesto alla Provincia di passare alla "post-gestione", cioè ai 30 anni di sorveglianza dopo la chiusura [7][1].
 - Il 7 maggio 2025 la Provincia ha risposto che la richiesta era **inammissibile e improcedibile**; il 12 maggio ha contestato le garanzie economiche di Ilva [1].
 - Il 26 maggio 2025 la Provincia ha mandato a Ilva la decisione di **non accettare le garanzie** per le discariche Due Mari e Cementir [1].
-- La decisione è la determina n. 683/2025. Il 30 maggio 2025 Ilva ha ripetuto la domanda di post-gestione e il 19 giugno la Provincia l'ha giudicata di nuovo improcedibile [19].
+- La decisione è la determina n. 683/2025. Il 30 maggio 2025 Ilva ha ripetuto la domanda di post-gestione e il 19 giugno la Provincia l'ha giudicata di nuovo improcedibile [19][29][30][31][32].
+- Perché improcedibile: per la Provincia la copertura della discarica è una «messa in sicurezza permanente», cioè una bonifica secondo la legge; Ilva deve prima adeguare le garanzie alla sentenza del Consiglio di Stato (n. 4442/2025) e poi chiedere la **certificazione**, che la Provincia rilascia sulla base di una relazione di ARPA. Le regole delle discariche (decreto legislativo 36/2003) qui non valgono: la Provincia l'aveva già scritto nel 2014 (determina n. 3 del 10 gennaio 2014) [32].
 - Fine 2025: Ilva ha finito nuovi pozzi di controllo e prepara un anno di controlli della falda, ogni tre mesi, chiesto dal Ministero [1].
 
 ### La messa in sicurezza è stata certificata?
@@ -76,11 +77,14 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 - I motivi principali: la polizza dura solo 5 anni e non si può incassare se Ilva non la rinnova; non è una garanzia "a prima richiesta", cioè pagabile subito senza discussioni [5].
 - 11 aprile 2023: il **TAR di Lecce** dà in gran parte ragione alla Provincia (sentenze n. 459 per Due Mari e n. 458 per Cementir). Dà ragione a Ilva solo su un punto: l'importo andava ridotto del 40% grazie a una certificazione ambientale (ISO 14001) che Ilva aveva nel 2015 [3][22].
 - 22 maggio 2025: il **Consiglio di Stato** respinge gli appelli di Ilva (sentenze n. 4442 per Due Mari e n. 4443 per Cementir) [4][5]. Scrive che, se la garanzia si interrompe, "in caso di insolvenza del gestore" i costi di un incidente ambientale ricadrebbero "sulla collettività" [4]. Ilva deve pagare le spese legali, 10.000 € per ciascuna causa [4].
-- 26 maggio 2025: la Provincia manda a Ilva una nuova decisione di non accettazione delle garanzie per le due discariche [1].
+- 26 maggio 2025: la Provincia manda a Ilva una nuova decisione di non accettazione delle garanzie per le due discariche (determina n. 683) [1][28]. La polizza per Due Mari (Generali Italia n. 450379989, emessa il 25 febbraio 2025) era di **8.388.000 €**, già ridotti del 40%, dal 12 maggio 2025 al 12 maggio 2030, e perdeva valore alla scadenza anche se Ilva non la rinnovava [27][28]. Motivi del no: copre solo la gestione dopo la chiusura e non anche chiusura e bonifica; non garantisce la continuità dopo i 5 anni; non è «a prima richiesta»; manca la verifica di un pubblico ufficiale sui poteri di chi la firma [27][28]. Contro la determina Ilva ha fatto due ricorsi al TAR di Lecce (n. 885/2025 e n. 886/2025), ancora pendenti a novembre 2026 [25][36].
 - 28 luglio 2025: Ilva chiede al Consiglio di Stato di annullare le sue stesse sentenze ("revocazione") e presenta un ricorso al Consiglio di Stato contro una sentenza del TAR di Lecce [1].
 - 26 marzo 2026: il Consiglio di Stato dichiara **inammissibili** le richieste di revocazione, perché Ilva ripete gli stessi argomenti dell'appello; Ilva paga altri 6.000 € di spese alla Provincia [5].
-- 28 agosto 2026: il **decreto-legge n. 154** permette alle società in amministrazione straordinaria "che gestiscono almeno un impianto dichiarato di interesse strategico nazionale" di dare garanzie per le discariche **di un anno alla volta** [18]. Il decreto non nomina Ilva: non sappiamo se vale per Ilva in amministrazione straordinaria, che l'acciaieria non la gestisce più (vedi scheda [A4](discarica-cementir.md)).
-- 25 settembre 2026: Ilva chiede alla Provincia di applicare il decreto-legge n. 154 alle discariche [19].
+- 28 agosto 2026: il **decreto-legge n. 154** permette alle società in amministrazione straordinaria "che gestiscono almeno un impianto dichiarato di interesse strategico nazionale" di dare garanzie per le discariche **di un anno alla volta** [18]. Il decreto non nomina Ilva; per la Provincia comunque non vale per queste garanzie (vedi sotto) [34][36].
+- 25 settembre 2026: Ilva chiede alla Provincia di applicare il decreto-legge n. 154 alle discariche, anche per riesaminare la determina n. 683/2025 [19][33].
+- 23 ottobre 2026: **la Provincia dice di no**: le due discariche sono fuori dalla vendita della fabbrica e dalla sua autorizzazione ambientale; sono messe in sicurezza rimaste a Ilva in A.S., con garanzie imposte da una legge speciale, non dalle regole delle discariche che il decreto-legge ha cambiato [34].
+- 4 novembre 2026: Ilva contesta: per lei valgono le regole delle discariche, perché i progetti di chiusura sono stati scritti così e approvati dal Ministero nel 2014 [35].
+- 20 novembre 2026: **la Provincia conferma il no**; non può riesaminare la determina perché ci sono i ricorsi al TAR; resta salvo un diverso parere del Ministero dell'Ambiente [36]. Più dettagli nella scheda [A4](discarica-cementir.md).
 
 **Cosa sosteneva Ilva:** che i lavori di messa in sicurezza erano "sostanzialmente conclusi" e che banche e assicurazioni non concedono garanzie di questo tipo [4]. Il Consiglio di Stato ha scritto che questa difficoltà non è stata dimostrata [5].
 
@@ -97,7 +101,7 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 - **Fino a luglio 2022 (secondo Ilva):** fondi previsti 5,05 milioni €; impegnati 5,95 milioni; pagati 5,39 milioni [8]. Sono dati di Ilva, non verificati da un ente pubblico.
 - **Fino a febbraio 2023 (secondo Ilva):** fondi previsti 5,05 milioni €; impegnati 6,20 milioni, 1,15 più del previsto; pagati 5,63 milioni; fatturati 5,70 milioni [21]. Dopo febbraio 2023 le fonti non danno cifre per quest'area.
 - **Da dove vengono i soldi:** le fonti non lo dicono. Non verificato.
-- **Importo della garanzia richiesta dalla Provincia:** non verificato.
+- **Garanzia:** l'ultima polizza di Ilva, rifiutata dalla Provincia, era di **8.388.000 €** per 5 anni, dopo lo sconto del 40% [28]. Quanto chieda la Provincia per tutti i lavori (chiusura, bonifica, 30 anni dopo la chiusura) le carte non lo dicono. Non verificato.
 - **Spese legali:** Ilva è stata condannata a pagare 10.000 € (2025) e 6.000 € più accessori (2026), quest'ultima cifra per entrambe le discariche insieme [4][5].
 
 ## Date principali
@@ -114,14 +118,17 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 | 18 marzo 2025 | Ilva chiede di passare alla post-gestione | [7] |
 | 7 maggio 2025 | La Provincia: richiesta inammissibile | [1] |
 | 22 maggio 2025 | Consiglio di Stato, sentenza n. 4442: appello di Ilva respinto | [4] |
-| 26 maggio 2025 | La Provincia non accetta le garanzie (nuova decisione) | [1] |
+| 26 maggio 2025 | La Provincia non accetta le garanzie (determina n. 683: polizza di 8,39 milioni € per Due Mari); Ilva ricorre al TAR | [1][28] |
 | 30 maggio 2025 | Ilva ripete la domanda di post-gestione; il 19 giugno la Provincia la giudica di nuovo improcedibile | [19] |
 | 19 giugno 2025 | La Provincia: serve la domanda di certificazione e garanzie adeguate | [1] |
 | 28 luglio 2025 | Ilva chiede la revocazione delle sentenze | [1] |
 | 3–4 novembre 2025 | Ultimo prelievo della falda citato da Ilva | [1] |
 | 26 marzo 2026 | Consiglio di Stato, sentenza n. 2519: revocazione inammissibile | [5] |
 | 28 agosto 2026 | Decreto-legge n. 154: garanzie di un anno per le società in amministrazione straordinaria che gestiscono impianti strategici | [18] |
-| 25 settembre 2026 | Ilva chiede alla Provincia di applicare il decreto-legge n. 154 | [19] |
+| 25 settembre 2026 | Ilva chiede alla Provincia di applicare il decreto-legge n. 154 | [33] |
+| 23 ottobre 2026 | La Provincia: il decreto-legge n. 154 non vale per queste garanzie | [34] |
+| 20 novembre 2026 | La Provincia conferma il no; resta salvo un diverso parere del Ministero | [36] |
+| 27 novembre 2026 | La Provincia ci manda i documenti: nessun dato sui rifiuti, nessuna relazione sui controlli | [25][26] |
 | 25 novembre 2026 | Il responsabile della trasparenza della Provincia respinge i reclami di Ilva contro le nostre due richieste di documenti | [23][24] |
 
 ## Fonti
@@ -175,20 +182,50 @@ Nota: nell'archivio del Ministero (https://bonifichesiticontaminati.mite.gov.it/
 
 [24] Provincia di Taranto, Segretario generale come responsabile della trasparenza (RPCT), *Opposizione all'accesso civico generalizzato ed accesso alle informazioni ambientali, prot. 46611 del 06.11.2026 di ILVA S.p.A. in A.S. – Riesame ex art. 5 comma 9 del d.lgs. 33/2013*, firmato e mandato il 25 novembre 2026 (prot. 49993), sulla nostra richiesta di accesso civico su autorizzazione, rifiuti, progetto di copertura e fine lavori della discarica Due Mari: Ilva si era opposta (nota arrivata il 28 ottobre 2026), la Provincia aveva accolto la richiesta il 4 novembre 2026 (prot. 46240) e Ilva ha fatto reclamo. Il responsabile della trasparenza lo respinge («Il reclamo è rigettato»): la richiesta non è «massiva» e le obiezioni di Ilva non rientrano nei casi dell'art. 5-bis del d.lgs. 33/2013. Non dice quando arriveranno i documenti (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-11_provincia-taranto_riesame-respinge-reclamo-ilva-foia-due-mari.pdf`
 
+[25] Provincia di Taranto, Settore Pianificazione e Ambiente, *Accesso civico generalizzato – consegna atti* (FOIA 19), firmata il 27 novembre 2026 e mandata lo stesso giorno (prot. 50409), sulla nostra richiesta su garanzie, post-gestione e certificazione delle discariche Cementir e Due Mari: elenca e manda i documenti dei quattro punti; «avverso la determina n. 683/2025 pendono i ricorsi al TAR Lecce n.885/2025 e n.886/2025» (risposta a una nostra richiesta, non pubblicata online) — copia in `fonti/2026-11_provincia-taranto_consegna-atti-foia-garanzie-cementir-due-mari.pdf`
+
+[26] Provincia di Taranto, Settore Pianificazione e Ambiente, *Accesso civico generalizzato – consegna atti* (FOIA 34), firmata il 27 novembre 2026 e mandata lo stesso giorno (prot. 50412), sulla nostra richiesta su autorizzazione, rifiuti conferiti, progetto di copertura e fine lavori della discarica Due Mari: decreto GAB/DEC/054/01 del 14 marzo 2001; dati sui rifiuti «non presenti»; progetto e relazione di fine lavori allegati alla nota di Ilva prot. 11547 del 18 marzo 2025, nota di Ilva prot. 23855 del 19 luglio 2022; nota MASE 114879 del 13 luglio 2023 e nota di Ilva prot. 35995 del 26 settembre 2023; «Non pervenute relazioni sull'esito dei controlli effettuati» (risposta a una nostra richiesta, non pubblicata online; gli allegati non sono ancora nel nostro archivio) — copia in `fonti/2026-11_provincia-taranto_consegna-atti-foia-due-mari.pdf`
+
+[27] Provincia di Taranto, Settore Pianificazione e Ambiente, *Nota prot. 19613 del 12 maggio 2025*, garanzie finanziarie per le prescrizioni UA25 «ex cava Cementir» e UA5 «ex cava Due Mari» – comunicazione dei motivi ostativi (avuta con la nostra richiesta di accesso) — copia in `fonti/2025-05_provincia-taranto_nota-19613-motivi-ostativi-garanzie-cementir-due-mari.pdf`
+
+[28] Provincia di Taranto, Settore Pianificazione e Ambiente, *Determinazione n. 683 del 26 maggio 2025*, «Società ILVA S.p.A. in amministrazione straordinaria, non accettazione delle garanzie finanziarie per le prescrizioni UA25 discarica "ex cava Cementir" e UA5 discarica "ex cava Due Mari"» (avuta con la nostra richiesta di accesso) — copia in `fonti/2025-05_provincia-taranto_determina-683-2025-garanzie-cementir-due-mari.pdf`
+
+[29] Ilva S.p.A. in A.S., *Discarica ex Cava Due Mari – Istanza volta all'avvio della post gestione*, 14 marzo 2025 (arrivata alla Provincia il 18 marzo 2025, prot. 11547) (avuta con la nostra richiesta di accesso) — copia in `fonti/2025-03_ilva-as_istanza-post-gestione-due-mari.pdf`
+
+[30] Ilva S.p.A. in A.S., *Nota del 30 maggio 2025* sulla discarica ex Cava Due Mari (arrivata alla Provincia il 4 giugno 2025, prot. 22880), che ripete la domanda di post-gestione (avuta con la nostra richiesta di accesso) — copia in `fonti/2025-06_ilva-as_nota-22880-post-gestione-due-mari.pdf`
+
+[31] Provincia di Taranto, Settore Pianificazione e Ambiente, *Nota prot. 18975 del 7 maggio 2025*, discarica «ex Cava Due Mari» – comunicazione di inammissibilità e improcedibilità dell'istanza (avuta con la nostra richiesta di accesso) — copia in `fonti/2025-05_provincia-taranto_nota-18975-improcedibile-due-mari.pdf`
+
+[32] Provincia di Taranto, Settore Pianificazione e Ambiente, *Nota prot. 25238 del 19 giugno 2025*, discarica «ex Cava Due Mari» – riscontro alla nota di Ilva del 3 giugno 2025 (avuta con la nostra richiesta di accesso) — copia in `fonti/2025-06_provincia-taranto_nota-25238-improcedibile-due-mari.pdf`
+
+[33] Ilva S.p.A. in A.S., *ex cava Cementir ed ex cava Due Mari – istanza di applicazione dell'art. 1 del D.L. n. 154 del 28.08.2026 anche in riesame della Determinazione Dirigenziale n. 683 del 26.05.2025*, Milano, 25 settembre 2026 (arrivata alla Provincia il 28 settembre 2026, prot. 39954) (avuta con la nostra richiesta di accesso) — copia in `fonti/2026-09_ilva-as_istanza-dl-154-2026-garanzie-cementir-due-mari.pdf`
+
+[34] Provincia di Taranto, Settore Pianificazione e Ambiente, *Nota prot. 44173 del 23 ottobre 2026*, «ILVA S.p.A. in A.S. – riscontro a nota acquisita al prot. 0039954 del 28/09/2026» (scansione; avuta con la nostra richiesta di accesso) — copia in `fonti/2026-10_provincia-taranto_nota-44173-dl-154-non-applicabile.pdf`
+
+[35] Ilva S.p.A. in A.S., *Riscontro alla nota prot. n. 0044173 del 23 ottobre 2026*, Milano, 4 novembre 2026 (arrivata alla Provincia il 6 novembre 2026, prot. 46623) (avuta con la nostra richiesta di accesso) — copia in `fonti/2026-11_ilva-as_osservazioni-46623-dl-154.pdf`
+
+[36] Provincia di Taranto, Settore Pianificazione e Ambiente, *Nota prot. 49084 del 23 novembre 2026* (firmata il 20 novembre), «ILVA S.p.A. in A.S. – riscontro a ulteriori osservazioni del 04/11/2026» (scansione; avuta con la nostra richiesta di accesso) — copia in `fonti/2026-11_provincia-taranto_nota-49084-dl-154-non-applicabile.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Ilva ha chiesto il certificato di fine messa in sicurezza, ed è stato rilasciato?** Nell'elenco dei documenti che la Provincia ha su questa discarica (ottobre 2026) ci sono due domande di Ilva per passare alla post-gestione, giudicate improcedibili, ma nessuna domanda di certificazione [19]: non risulta quindi nessun certificato. Nel marzo 2025 Ilva ha chiesto di passare alla «post-gestione», i 30 anni di sorveglianza, ma la Provincia ha giudicato la richiesta inammissibile [1][7]. Senza certificato non si può dire che il lavoro sia stato controllato da un ente pubblico.
-2. [blocca] **Ilva ha dato una garanzia valida?** La Provincia non rilascia il certificato senza garanzie adeguate per i 30 anni di controlli, e i giudici le hanno dato ragione [1][3][4][5]. Dopo la decisione della Provincia del 26 maggio 2025 non sappiamo se Ilva abbia presentato una garanzia valida, né di quanti soldi. Il 28 luglio 2025 Ilva ha fatto anche ricorso contro una sentenza del TAR di Lecce che non abbiamo identificato (forse sulla decisione del 2025): non verificato. Non sappiamo nemmeno se il decreto-legge n. 154/2026 sulle garanzie di un anno valga per Ilva in amministrazione straordinaria [18]: il 25 settembre 2026 Ilva ha chiesto alla Provincia di applicarlo, e non conosciamo la risposta [19].
-3. [altra] **L'acqua sotto la discarica è inquinata?** Ilva fa i controlli, ma i risultati non sono pubblici [1][9]. La Provincia ha una nota del Ministero del 13 luglio 2023 e le relazioni di Ilva dal settembre 2023 sui controlli dopo la chiusura [20].
-4. [altra] **Che cosa c'è dentro?** Le fonti dicono solo "rifiuti non pericolosi", e la Provincia non ha dati sui rifiuti messi in discarica [20]. Quali rifiuti, quanti, e da quando a quando la discarica è stata usata: non verificato.
+2. [blocca] **Ilva ha dato una garanzia valida?** La Provincia non rilascia il certificato senza garanzie adeguate per i 30 anni di controlli, e i giudici le hanno dato ragione [1][3][4][5]. Dopo il no della Provincia del 26 maggio 2025 alla polizza di 8.388.000 € [28], Ilva ha fatto due ricorsi al TAR di Lecce, ancora pendenti [25]. Per la Provincia il decreto-legge n. 154/2026 sulle garanzie di un anno non vale per questa discarica, salvo un diverso parere del Ministero dell'Ambiente [34][36]; Ilva sostiene il contrario [35]. Non sappiamo se il Ministero si sia espresso.
+3. [altra] **L'acqua sotto la discarica è inquinata?** Ilva fa i controlli, ma i risultati non sono pubblici [1][9]. La Provincia ha una nota del Ministero del 13 luglio 2023 e le comunicazioni di Ilva dal settembre 2023 sulle date dei prelievi, ma scrive di non aver ricevuto «relazioni sull'esito dei controlli effettuati» [20][26].
+4. [altra] **Che cosa c'è dentro?** Le fonti dicono solo "rifiuti non pericolosi", e la Provincia non ha dati sui rifiuti messi in discarica [20][26]. Ci ha mandato l'autorizzazione, un decreto del Ministro dell'Ambiente del 14 marzo 2001 (GAB/DEC/054/01), che non abbiamo ancora potuto leggere [26]. Quali rifiuti, quanti, e da quando a quando la discarica è stata usata: non verificato.
 5. [altra] **Che cosa succede se la garanzia manca?** Il TAR scrive che il Ministero potrebbe revocare le autorizzazioni di Ilva [3], ma non abbiamo trovato atti del Ministero su questo.
-6. [altra] **Dov'è il progetto approvato?** Secondo Ilva il progetto è stato approvato dal decreto-legge n. 1/2015 [15]. Non abbiamo però visto un documento pubblico (progetto o parere) con il contenuto tecnico approvato. Ilva cita anche "decreti di approvazione MISP" per Due Mari [8]: non trovati.
+6. [altra] **Dov'è il progetto approvato?** Secondo Ilva il progetto è stato approvato dal decreto-legge n. 1/2015 [15]. Non abbiamo però visto un documento pubblico (progetto o parere) con il contenuto tecnico approvato. Ilva cita anche "decreti di approvazione MISP" per Due Mari [8]: non trovati. La Provincia ci ha mandato il progetto e la relazione di fine lavori allegati alla domanda di Ilva del marzo 2025 [26]: non li abbiamo ancora letti, perché il file arrivato con la PEC è troppo grande per il nostro collegamento con la posta.
 7. [fonti] **Quanto è grande, ed è dentro il SIN?** Il Ministero nel 2017 parlava di circa 12,5 ettari, Ilva nel 2022 di 14 ettari [10][8]. Sul SIN, ARPA e Ilva dicono che la discarica è dentro solo in parte [9][8], mentre il documento del 2017 in un punto la mette tra le discariche del SIN e in un altro no [10]. Va verificato sulla mappa del SIN.
 8. [fonti] **I fanghi dell'acciaieria sono dentro la discarica?** Un articolo di giornale online del luglio 2025 scrive che nella discarica Due Mari ci sarebbero fanghi dell'acciaieria e dell'altoforno: non verificato. Le fonti ufficiali trattano i fanghi in un'area separata (vedi scheda A5). Un indizio: nei rapporti di laboratorio di luglio 2023 sui materiali dell'area fanghi (scheda A5), il punto di prelievo si chiama "Area fanghi ex cava Due Mari – Baia 1" e "Ex cava Due Mari – baia 3" [17]. L'area dei fanghi sembra quindi trovarsi presso la ex cava Due Mari, ma nessuna fonte ufficiale dice che i fanghi siano dentro la discarica coperta.
 
-### Richiesta di accesso civico (FOIA) — da inviare tu
+### Richiesta di accesso civico (FOIA) n. 19 — inviata
+**Risposta della Provincia:** arrivata il 27 novembre 2026 [25], con polizze, motivi del no e determina n. 683/2025 [27][28], domande di post-gestione di Ilva e risposte della Provincia [29][30][31][32], domanda di Ilva sul decreto-legge n. 154 e i due no della Provincia [33][34][35][36]. Non c'è una domanda di certificazione né un certificato.
+
 Sulle garanzie, la richiesta alla Provincia di Taranto è la **FOIA 19**, preparata nella scheda A4 (discarica Cementir): copre anche questa discarica e va inviata con l'email ordinaria (A: casella del dirigente del Settore, in `.tmp/foia/REGISTRO.md`; Cc: info@provincia.ta.it). Testo completo in `.tmp/foia/19-*.md`.
 
-### Bozza di richiesta di accesso civico (FOIA) — da inviare tu
+### Richiesta di accesso civico (FOIA) n. 34 — inviata
+**Risposta della Provincia:** arrivata il 27 novembre 2026 [26]. 1) Autorizzazione: decreto del Ministro dell'Ambiente GAB/DEC/054/01 del 14 marzo 2001. 2) Rifiuti messi in discarica: «non presenti». 3) Progetto e fine lavori: gli allegati alla domanda di Ilva del 18 marzo 2025 e una nota di Ilva del 19 luglio 2022 (prot. 23855). 4) Controlli dopo la chiusura: nota del Ministero n. 114879 del 13 luglio 2023 e nota di Ilva del 26 settembre 2023 (prot. 35995) con le date dei prelievi; «Non pervenute relazioni sull'esito dei controlli effettuati». I documenti dei punti 1, 3 e 4 sono in un archivio di 17 MB che non abbiamo ancora potuto scaricare.
+
+Testo della richiesta inviata:
+
 **A:** Provincia di Taranto, Settore Pianificazione Ambiente — email ordinaria al dirigente del Settore (indirizzo in `.tmp/foia/REGISTRO.md`), in copia info@provincia.ta.it (indirizzi verificati il 9 ottobre 2026 sulla [pagina Rifiuti](https://www.provincia.taranto.it/-/rifiuti)). Con l'email ordinaria la richiesta va firmata e accompagnata dalla copia di un documento d'identità.
 
 > Oggetto: Richiesta di accesso civico generalizzato e di accesso all'informazione ambientale – Discarica per rifiuti non pericolosi "ex cava Due Mari" di ILVA S.p.A. in A.S. (prescrizione UA5): autorizzazione, rifiuti conferiti, progetto di copertura e fine lavori
