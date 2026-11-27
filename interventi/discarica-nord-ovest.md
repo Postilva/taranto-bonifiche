@@ -1,5 +1,5 @@
 # A2 – Discarica Nord-Ovest (con area ex Fintecna e aree vicine)
-*Stato scheda: approvata — aggiornata al 27 ottobre 2026*
+*Stato scheda: approvata — aggiornata al 27 novembre 2026*
 
 ## A che punto è
 ### Finora
@@ -64,7 +64,12 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 
 **Ci sono stati lavori sul posto?** Sì, ma solo preparatori, non la messa in sicurezza: sondaggi e analisi, il controllo dei pozzi della falda e la sistemazione dei piezometri chiesta da Procura, Ministero, ARPA e ISPRA [1][17].
 
-**La falda sotto la discarica.** Ilva controlla la falda profonda una volta l'anno, anche se dice di non esserne più obbligata [22]. Da giugno 2022, "considerati gli esiti del monitoraggio", lo fa ogni tre mesi "a scopo cautelativo" [24]. I risultati non sono pubblicati.
+**La falda sotto la discarica.** Ilva controlla la falda profonda una volta l'anno, anche se dice di non esserne più obbligata [22]. Da giugno 2022, "considerati gli esiti del monitoraggio", lo fa ogni tre mesi "a scopo cautelativo" [24]. Nel 2023 Ilva ha mandato al Ministero il riepilogo dei controlli dal 2018 al 2022, fatti su sei pozzi, dove l'acqua sta a circa 88–105 metri sotto il suolo; dal 2019 ARPA ha assistito ai prelievi e in qualche caso ha preso un campione suo [29]. Valori oltre i limiti di legge, secondo Ilva [29]:
+- 2018: nessuno; 2019: due solventi della famiglia del cloroformio in un pozzo;
+- 2020: **ferro** in tre pozzi (fino a 3.150 µg/l), **benzo(a)pirene** e un altro IPA in due pozzi, **PCB** in un pozzo, solventi clorurati in tre pozzi;
+- 2021: ferro (4.500 µg/l) e manganese;
+- settembre 2022: manganese e **nichel** (160 µg/l), un valore «anomalo» rispetto al passato; confermato a novembre 2022 (125 µg/l) e a febbraio 2023 (62 µg/l). Per questo Ilva è passata ai controlli ogni tre mesi [29].
+Il 13 luglio 2023 il Ministero ha girato il riepilogo a Provincia e ARPA, perché facessero i controlli, e ha chiesto a Ilva di mandare a loro i risultati successivi [30]. I risultati dal 2023 in poi non sono pubblicati, e i rapporti di laboratorio del riepilogo non li abbiamo. Nel 2023 l'area era ancora sotto sequestro (procedimento penale n. 2318/13) [29].
 
 ## Rapporto con la Gravina di Leucaspide (A1)
 - **Sono aree vicine e unite dallo stesso sequestro.** Le relazioni di Ilva le trattano insieme, in un'unica sezione, come "aree sotto sequestro con interventi in corso" [1][18]. Il sequestro riguarda il procedimento penale n. 2318/13 della Procura di Taranto [14], lo stesso citato per le indagini sui "rilevati Vecchie Vasche" della Gravina [6].
@@ -179,6 +184,10 @@ Il decreto dice anche che i lavori non devono impedire una bonifica vera in futu
 [27] Agenzia delle Entrate, *Cartografia catastale*, servizio di consultazione WMS (dato pubblico, licenza CC BY 4.0), consultato il 23 ottobre 2026: Comune di Statte, foglio 7, particelle 41, 869, 870, 872, 875, 1052, 1054, e foglio 24, particelle 1 e 110; centro e superficie calcolati da noi disegnando i confini delle particelle, https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-cartografia-catastale/servizio-consultazione-cartografia
 
 [28] Ilva S.p.A. in A.S., *Aggiornamento Piano Ambientale Aree Escluse – Osservatorio del 29.03.2023* (aggiornato al 22 marzo 2023, dati finanziari al 28 febbraio 2023), pag. 4 e 11 del PDF ("Recap interventi in corso o pianificati"), trasmesso al Ministero dell'Ambiente con nota dei Commissari straordinari del 23 marzo 2023 (prot. MASE 44917 del 24/03/2023), https://osservatorioilva.mite.gov.it/it/Home/DocumentDownload?IdDocumento=330 (archivio zip) — copia in `fonti/2023-03_ilva-as_aggiornamento-osservatorio-ilva-aree-escluse.pdf`
+
+[29] Ilva S.p.A. in A.S., *Rapporto monitoraggi – Ex cava Due Mari, Discarica Nord Ovest*, 2023 (riepilogo dei controlli della falda profonda 2018–2022; i rapporti di prova citati come allegati non sono nella copia ricevuta), mandato al Ministero dell'Ambiente il 31 maggio 2023 (avuto dalla Provincia di Taranto con la nostra richiesta di accesso sulla discarica Due Mari) — copia in `fonti/2023-05_ilva-as_rapporto-monitoraggi-due-mari-nord-ovest-2018-2022.pdf`
+
+[30] Ministero dell'Ambiente e della Sicurezza energetica, Direzione generale uso sostenibile del suolo e delle risorse idriche, *Nota prot. 114879 del 13 luglio 2023* a Provincia di Taranto, ARPA Puglia e commissari di Ilva in A.S., «ex cava Due Mari, Discarica Nord Ovest – Trasmissione degli esiti degli autocontrolli effettuati dal 2018 al 2022» (avuta dalla Provincia con la nostra richiesta di accesso) — copia in `fonti/2023-07_mase_nota-114879-autocontrolli-due-mari-nord-ovest.pdf`
 
 Tutti i documenti del Ministero si trovano anche nell'archivio https://bonifichesiticontaminati.mite.gov.it/ricerca/ scegliendo SIN "Taranto" e Area "3000". Alcuni pareri del 2023–2024, per esempio [6], [7] e [8], sono archiviati sotto "3000, 3004": è la stessa pratica, quindi cercando l'area 3004 si trovano anche quelli (controllato il 30 ottobre 2026).
 

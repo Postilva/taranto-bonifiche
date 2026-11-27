@@ -3,10 +3,10 @@
 
 ## A che punto è
 ### Finora
-Secondo Ilva la discarica è stata coperta con terra e teli, con fossi per l'acqua piovana e alberi, e i lavori erano completati a luglio 2022 [1][8]. Ilva controlla l'acqua sotterranea ogni tre mesi [1].
+La discarica ha smesso di ricevere rifiuti nell'aprile 2001, dopo un'ordinanza del Ministro dell'Ambiente [37][44]. Tra il 2019 e il gennaio 2022 Ilva l'ha coperta con argilla, pietrisco e terra, con fossi per l'acqua piovana e alberi; il 22 aprile 2022 il direttore dei lavori pagato da Ilva ha certificato la fine dei lavori [44][45]. Ilva controlla l'acqua sotterranea ogni tre mesi; dal 2017 al 2022 ha trovato pochi valori oltre i limiti [1][47].
 
 ### Cosa manca
-Nessun ente pubblico ha certificato che i lavori siano finiti e fatti bene [1][14]. La Provincia non rilascia il certificato senza garanzie economiche adeguate per i 30 anni di controlli dopo la chiusura, e i giudici le hanno dato ragione [1][3][4][5]. I risultati dei controlli sulla falda non sono pubblici [1][9]. I rifiuti restano dentro: non è una bonifica.
+Nessun ente pubblico ha certificato che i lavori siano finiti e fatti bene [1][14]. La Provincia non rilascia il certificato senza garanzie economiche adeguate per i 30 anni di controlli dopo la chiusura, e i giudici le hanno dato ragione [1][3][4][5]. Dopo il 2022 Ilva ha comunicato agli enti solo le date dei prelievi, non i risultati [26][50][53]. I rifiuti restano dentro: non è una bonifica.
 
 ### Adesso
 Nel marzo 2025 Ilva ha chiesto di passare alla «post-gestione», i 30 anni di sorveglianza, ma la Provincia ha giudicato la richiesta inammissibile [1][7]. A marzo 2026 il Consiglio di Stato ha respinto anche l'ultimo ricorso di Ilva [5]. Il decreto-legge n. 154 del 28 agosto 2026 cambia le regole sulle garanzie per le società in amministrazione straordinaria [18]. Il 25 settembre 2026 Ilva ha chiesto alla Provincia di applicarlo [33]; la Provincia ha detto di no il 23 ottobre e di nuovo il 20 novembre 2026: per lei queste garanzie seguono una legge speciale e il decreto non vale, salvo un diverso parere del Ministero dell'Ambiente [34][36]. Contro il no del 2025 alle garanzie pendono due ricorsi di Ilva al TAR di Lecce [25]. Il 27 novembre 2026 la Provincia ci ha mandato i documenti delle nostre due richieste, dopo aver respinto due volte l'opposizione di Ilva [23][24][25][26]: non ha dati sui rifiuti messi in discarica e non ha ricevuto relazioni sui controlli dopo la chiusura [26].
@@ -29,11 +29,13 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 
 **Che cos'è.** Nel 2017 il Ministero dell'Ambiente la descriveva come una discarica non più in uso, di circa 125.000 m² e con una capacità di circa 4 milioni di m³ [10]. Ilva nel 2022 indicava un'estensione di 14 ettari [8]. ARPA Puglia la chiama "discarica per rifiuti non pericolosi" e scrive che è solo in parte dentro il SIN [9].
 
-**Cosa c'è dentro.** Le fonti ufficiali trovate dicono solo che è una discarica "per rifiuti non pericolosi" e che la copertura è stata fatta secondo le regole per quel tipo di discarica [9][1]. Che rifiuti siano esattamente, e in che quantità, **non verificato**. Anche la Provincia non ha dati sui rifiuti messi in discarica [20]. La discarica era stata autorizzata con un decreto del Ministro dell'Ambiente del 14 marzo 2001 (GAB/DEC/054/01), che non abbiamo ancora visto [20].
+**Cosa c'è dentro.** ARPA la chiama discarica "per rifiuti non pericolosi" [9]. Secondo il direttore dei lavori della copertura, era una ex cava di calcare dove Ilva metteva "rifiuti solidi secchi": scorie dell'acciaieria, terra di scavo, demolizioni, mattoni refrattari, polveri, polietilene, gomma, lana di roccia [44]. Ha cominciato a riceverli prima delle prime regole nazionali sui rifiuti (1982–1984) e ha smesso nell'aprile 2001 [44]. Le quantità **non sono verificate**: la Provincia non ha dati sui rifiuti messi in discarica [20][26].
+
+**L'ordinanza del 2001.** Alla nostra domanda sull'autorizzazione la Provincia ha risposto mandando un'ordinanza urgente del Ministro dell'Ambiente del 14 marzo 2001 (GAB/DEC/054/01) [26][37]. Il Ministro scrive che le autorizzazioni delle tre discariche di Ilva (Cementir, Due Mari, Nuove Vasche) «non sono mai state riviste ed aggiornate» e che questo è «un pericolo concreto ed attuale di grave danno ambientale» [37]. Ordina: le discariche possono continuare solo se entro il 10 aprile 2001 il Commissario per l'emergenza ambientale (il Presidente della Regione) accerta le condizioni per una nuova autorizzazione, «altrimenti» l'attività è sospesa dall'11 aprile 2001; Ilva deve fare la messa in sicurezza d'emergenza; l'ANPA (oggi ISPRA) deve analizzare il suolo e i rifiuti [37]. Nella copia che abbiamo manca il punto 4 dell'ordinanza. Non sappiamo se le analisi dell'ANPA siano state fatte.
 
 **Perché la deve chiudere Ilva.** Il Piano ambientale per l'Ilva (decreto del Presidente del Consiglio del 29 settembre 2017) mette la chiusura della discarica "ex cava Due Mari" (prescrizione **UA5**) tra i lavori che restano ai commissari di Ilva in amministrazione straordinaria, e non ai nuovi gestori della fabbrica [2]. L'obbligo viene da un documento del 2014 del sub-commissario Ilva, reso legge nel 2015, che parla di "chiusura, bonifica e gestione post-operativa" della discarica [4].
 
-**Il progetto.** Secondo Ilva il progetto definitivo della copertura è stato approvato direttamente dalla legge, con il decreto-legge n. 1 del 5 gennaio 2015 (poi legge n. 20 del 4 marzo 2015), e non con un decreto del Ministero [15].
+**Il progetto.** Il progetto definitivo della copertura è del dicembre 2012, scritto dallo Studio Geotecnico Italiano per Ilva [38][44]. È stato approvato direttamente dalla legge, con il decreto-legge n. 1 del 5 gennaio 2015 (poi legge n. 20 del 4 marzo 2015), e non con un decreto del Ministero [15][44]. Il Ministero lo conferma: per queste discariche «l'approvazione degli interventi … è avvenuta ex lege», i lavori e la vigilanza spettano ai commissari di Ilva, e i controlli ad ARPA e Provincia [48][49]. Sopra la vecchia copertura (60 cm di terra su 50 cm di loppa e calcare) il progetto mette, dal basso: un telo, 50 cm di argilla e limo poco permeabili, un telo, 50 cm di pietrisco drenante, un telo, 1 metro di terra vegetale [44]. I rifiuti restano dove sono: è una copertura, non una bonifica [44].
 
 **I lavori, secondo Ilva** [1][6][8]:
 1. tolta la terra vegetale in superficie;
@@ -43,10 +45,15 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 5. costruite una vasca di sedimentazione, una trincea drenante e vasche di raccolta dell'acqua per l'irrigazione;
 6. costruita una strada fino in cima e piantati alberi.
 
-**Quando.** A fine 2020 la copertura era fatta per circa l'80% e l'argine nord era ancora da iniziare [9]. A luglio 2022 Ilva scriveva "attività completata" e diceva che il direttore dei lavori aveva scritto la relazione di fine lavori [8]. La data esatta di fine lavori **non è verificata**.
+**Quando.** Le fonti non sono d'accordo sull'inizio: nel 2016 Ilva aveva scritto al Ministero e alla Provincia che i lavori sarebbero partiti il 14 marzo 2016 [43]; la relazione del direttore dei lavori dice invece che sono iniziati il **25 novembre 2019** [44]. Secondo la relazione [44]:
+- 25 novembre 2019: inizio, ditta Sinnica Service; fermi per il Covid dal 17 marzo al 7 maggio 2020;
+- a fine 2020 la copertura era fatta per circa l'80% e l'argine nord era ancora da iniziare [9];
+- 9 aprile 2021: lavori sull'argine nord; 22 aprile 2021: vasca per l'acqua piovana (ditta Dalmar);
+- novembre 2021 – 5 gennaio 2022: aratura e alberi (ditta Levangarden);
+- 10 gennaio 2022: cantiere finito [45]; **22 aprile 2022**: il direttore dei lavori, un ingegnere incaricato da Ilva dal giugno 2021, firma la relazione di chiusura e «certifica» che i lavori sono fatti a regola d'arte «per quanto di sua competenza» [44]. È un tecnico pagato da Ilva, non un ente di controllo: il certificato che conta per la legge è quello della Provincia, che non c'è [14][26].
 
 **Dopo i lavori.**
-- Fino al 2023 mancava la corrente elettrica per il cantiere: Ilva aspettava da e-distribuzione un nuovo allacciamento [8][12][13].
+- Fino al 2023 mancava la corrente elettrica per le pompe della vasca e dell'irrigazione: Ilva l'aveva chiesta a e-distribuzione nel marzo 2020 (ordine n. 504) e scriveva che senza corrente non poteva chiudere la discarica e partire con la post-gestione [8][12][13][45][47].
 - Il progetto approvato prevede, dopo i lavori, controlli della falda e dell'acqua di drenaggio ogni sei mesi e controlli della forma della discarica (per vedere se si abbassa) ogni anno per i primi tre anni e poi ogni cinque [15]. Nel 2022 Ilva aveva affidato i controlli delle acque (ordini n. 8/22 e 102/22) e diceva che quelli della forma sarebbero partiti entro il 31 dicembre 2022 [15]; nel 2023 un nuovo ordine (n. 9 del 16 gennaio 2023) e un prelievo il 19 luglio 2023 [16].
 - Ilva controlla la falda (l'acqua sotto terra) ogni tre mesi; l'ultimo prelievo citato è del 3–4 novembre 2025 [1].
 - Il 18 marzo 2025 Ilva ha chiesto alla Provincia di passare alla "post-gestione", cioè ai 30 anni di sorveglianza dopo la chiusura [7][1].
@@ -63,7 +70,12 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 - Nessuna fonte dice che Ilva abbia presentato la domanda o che il certificato sia stato rilasciato. Non verificato.
 
 ### La falda è inquinata?
-**Non verificato.** Ilva dice che fa i controlli [1][6], ma nessun risultato è pubblicato nelle fonti trovate. ARPA scrive solo che nella fabbrica Ilva, in generale, la falda è inquinata da molte sostanze, senza dire nulla di questa discarica [9].
+**Poco, secondo i controlli di Ilva fino al 2022; dopo non si sa.** [47]
+- Ilva controlla tre pozzi, dove l'acqua sta a circa 46–55 metri sotto il suolo: uno a monte (10/129/I/FP, nell'area di Acciaierie d'Italia) e due a valle (7/109/I/FP e MF3), ogni tre mesi, perché la post-gestione non è mai partita [47]. Cerca metalli, idrocarburi, IPA, cianuri, fenoli, solventi e altro [47].
+- Nel 2023 Ilva ha mandato al Ministero il riepilogo dal 2017 al 2022 [46][47]. Valori oltre i limiti di legge: nel 2019, nel pozzo a valle MF3, **ferro** (902 µg/l) e **manganese** (403 µg/l); nel 2022, nel pozzo a monte, quattro solventi della famiglia del cloroformio, in quantità piccole (0,30–0,64 µg/l). Per Ilva questi ultimi non vengono dalla discarica, perché il pozzo è a monte, e a gennaio e aprile 2023 non c'erano più [47]. Sono dati di Ilva: i rapporti di laboratorio erano allegati, ma noi abbiamo solo il riepilogo.
+- Il 13 luglio 2023 il Ministero ha girato il riepilogo a Provincia e ARPA, perché facessero i controlli, e ha chiesto a Ilva di mandare a loro i risultati dei controlli successivi [48].
+- La Provincia, a novembre 2026, scrive di non aver ricevuto «relazioni sull'esito dei controlli»: nelle sue carte ci sono solo le lettere di Ilva con le date dei prelievi (settembre 2023, gennaio e luglio 2025, febbraio 2026) [26][50][51][52][53]. I risultati dal 2023 in poi non li abbiamo trovati.
+- ARPA scrive che nella fabbrica Ilva, in generale, la falda è inquinata da molte sostanze, senza dire nulla di questa discarica [9].
 
 ## La lite con la Provincia sulle garanzie (comune con la discarica Cementir, A4)
 **Cos'è la garanzia.** Chi gestisce una discarica deve dare all'ente pubblico una polizza o fideiussione: se non fa i controlli e la manutenzione dopo la chiusura, l'ente incassa i soldi e fa i lavori al suo posto. Per la fase dopo la chiusura la garanzia deve valere **30 anni** [4].
@@ -108,11 +120,19 @@ Nella cava sono stati messi i rifiuti dell'acciaieria [8][9][10]. Secondo Ilva s
 | Data | Cosa succede | Fonte |
 |---|---|---|
 | 14 marzo 2001 | Decreto del Ministro dell'Ambiente che autorizza la discarica (GAB/DEC/054/01) | [20] |
+| 14 marzo 2001 | Ordinanza del Ministro dell'Ambiente: autorizzazioni «mai riviste», discariche sospese dall'11 aprile 2001 senza nuova autorizzazione | [37] |
+| aprile 2001 | La discarica smette di ricevere rifiuti | [44] |
+| dicembre 2012 | Progetto definitivo della copertura | [38][44] |
 | 11 dicembre 2014 | Il sub-commissario Ilva fissa le regole su rifiuti, discariche e garanzie (poi rese legge nel 2015) | [4] |
+| 25 novembre 2019 | Iniziano i lavori di copertura (Ilva aveva annunciato il 14 marzo 2016) | [43][44] |
 | 2015 | Prima garanzia di Ilva, senza rilievi della Provincia | [4] |
 | 29 settembre 2017 | Il Piano ambientale lascia la chiusura della discarica (UA5) ai commissari di Ilva | [2] |
 | fine 2020 | Copertura fatta all'80% circa, argine nord da iniziare | [9] |
 | 15 luglio 2020 | La Provincia non accetta la garanzia (determina n. 583) | [3] |
+| 10 gennaio 2022 | Finito il cantiere della copertura | [45] |
+| 22 aprile 2022 | Il direttore dei lavori certifica la fine dei lavori (non è il certificato della Provincia) | [44] |
+| 31 maggio 2023 | Ilva manda al Ministero i controlli della falda 2017–2022 | [46][47] |
+| 13 luglio 2023 | Il Ministero li gira a Provincia e ARPA e chiede a Ilva di mandare a loro i prossimi risultati | [48] |
 | luglio 2022 | Ilva: lavori completati, relazione di fine lavori scritta | [8] |
 | 11 aprile 2023 | Sentenza del TAR di Lecce n. 459: ragione in gran parte alla Provincia | [3] |
 | 18 marzo 2025 | Ilva chiede di passare alla post-gestione | [7] |
@@ -206,13 +226,47 @@ Nota: nell'archivio del Ministero (https://bonifichesiticontaminati.mite.gov.it/
 
 [36] Provincia di Taranto, Settore Pianificazione e Ambiente, *Nota prot. 49084 del 23 novembre 2026* (firmata il 20 novembre), «ILVA S.p.A. in A.S. – riscontro a ulteriori osservazioni del 04/11/2026» (scansione; avuta con la nostra richiesta di accesso) — copia in `fonti/2026-11_provincia-taranto_nota-49084-dl-154-non-applicabile.pdf`
 
+[37] Ministro dell'Ambiente, *Ordinanza GAB/DEC/054/01 del 14 marzo 2001* sull'attività di esercizio da parte dell'Ilva S.p.A. delle discariche «ex cava Cementir», «ex cava Due Mari» e «Nuove Vasche», con la lettera di trasmissione del Capo di Gabinetto al Presidente della Provincia di Taranto (scansione via fax; nella copia manca la pagina con il punto 4) (avuta dalla Provincia con la nostra richiesta di accesso) — copia in `fonti/2001-03_ministro-ambiente_ordinanza-gab-dec-054-01-discariche-ilva.pdf`
+
+[38] Ilva S.p.A. (Studio Geotecnico Italiano), *Interventi per la chiusura della discarica "ex cava Due Mari" – progetto definitivo di capping e sistemazione finale*, documento 08539-002R01, *Relazione illustrativa* (allegato alla domanda di post-gestione di Ilva del 14 marzo 2025, avuto con la nostra richiesta di accesso) — copia in `fonti/2012-12_ilva_progetto-capping-due-mari-relazione-illustrativa.pdf`
+
+[39] Ilva S.p.A. (Studio Geotecnico Italiano), *Interventi per la chiusura della discarica "ex cava Due Mari" – progetto definitivo di capping e sistemazione finale*, documento 08539-002R02, *Relazione tecnica generale* (come sopra) — copia in `fonti/2012-12_ilva_progetto-capping-due-mari-relazione-tecnica-generale.pdf`
+
+[40] Ilva S.p.A. (Studio Geotecnico Italiano), *Interventi per la chiusura della discarica "ex cava Due Mari" – progetto definitivo di capping e sistemazione finale*, documento 08539-002R03, *Relazione geotecnica* (come sopra) — copia in `fonti/2012-12_ilva_progetto-capping-due-mari-relazione-geotecnica.pdf`
+
+[41] Ilva S.p.A. (Studio Geotecnico Italiano), *Interventi per la chiusura della discarica "ex cava Due Mari" – progetto definitivo di capping e sistemazione finale*, documento 08539-002R04, *Relazione idraulica* (come sopra) — copia in `fonti/2012-12_ilva_progetto-capping-due-mari-relazione-idraulica.pdf`
+
+[42] Ilva S.p.A. (Studio Geotecnico Italiano), *Interventi per la chiusura della discarica "ex cava Due Mari" – progetto definitivo di capping e sistemazione finale*, documento 08539-002R05, *Disciplinare tecnico prestazionale* (come sopra) — copia in `fonti/2012-12_ilva_progetto-capping-due-mari-disciplinare-tecnico.pdf`
+
+[43] Ilva S.p.A. in A.S., Stabilimento di Taranto, *Nota Dir 86/2016 del 10 marzo 2016* al Ministero dell'Ambiente e alla Provincia di Taranto: i lavori di copertura e sistemazione finale «avranno inizio in data 14/03/2016» (avuta con la nostra richiesta di accesso) — copia in `fonti/2016-03_ilva-as_nota-dir-86-inizio-lavori-due-mari.pdf`
+
+[44] Direttore dei lavori per Ilva S.p.A. in A.S., *Relazione di chiusura lavori – Direzione lavori per capping e sistemazione finale ex discarica ex cava Due Mari*, 22 aprile 2022 (copia con codice fiscale, telefono ed email del professionista oscurati; avuta con la nostra richiesta di accesso) — copia in `fonti/2022-04_direzione-lavori_relazione-chiusura-lavori-due-mari.pdf`
+
+[45] Ilva S.p.A. in A.S., *Nota del 15 luglio 2022* al Ministero della Transizione ecologica, ISPRA, ARPA, Regione e Provincia (arrivata alla Provincia il 19 luglio 2022, prot. 23855), sulla fine dei lavori della prescrizione UA5 (avuta con la nostra richiesta di accesso) — copia in `fonti/2022-07_ilva-as_nota-23855-fine-lavori-due-mari.pdf`
+
+[46] Ilva S.p.A. in A.S., *Nota del 31 maggio 2023* al Ministero dell'Ambiente, «ex cava Due Mari, Discarica Nord Ovest – Trasmissione degli esiti degli autocontrolli effettuati dal 2018 al 2022» (allegata alla nota del Ministero [48]; avuta con la nostra richiesta di accesso) — copia in `fonti/2023-05_ilva-as_nota-trasmissione-autocontrolli-due-mari-nord-ovest.pdf`
+
+[47] Ilva S.p.A. in A.S., *Rapporto monitoraggi – Ex cava Due Mari, Discarica Nord Ovest*, 2023 (riepilogo dei controlli della falda 2017–2022 e soggiacenza fino al 2023; i rapporti di prova citati come allegati 1–4 non sono nella copia ricevuta) (avuto con la nostra richiesta di accesso) — copia in `fonti/2023-05_ilva-as_rapporto-monitoraggi-due-mari-nord-ovest-2018-2022.pdf`
+
+[48] Ministero dell'Ambiente e della Sicurezza energetica, Direzione generale uso sostenibile del suolo e delle risorse idriche, *Nota prot. 114879 del 13 luglio 2023* a Provincia di Taranto, ARPA Puglia e commissari di Ilva in A.S., «Aree di competenza ILVA S.p.A. in A.S. – ex cava Due Mari, Discarica Nord Ovest – Trasmissione degli esiti degli autocontrolli effettuati dal 2018 al 2022» (avuta con la nostra richiesta di accesso) — copia in `fonti/2023-07_mase_nota-114879-autocontrolli-due-mari-nord-ovest.pdf`
+
+[49] Ministero dell'Ambiente (MATTM/MiTE), *Nota prot. 131440 del 25 novembre 2021*, allegata alla nota [48], che la cita: l'approvazione degli interventi sulle discariche «è avvenuta ex lege» e i controlli spettano ad ARPA e Provincia (scansione) — copia in `fonti/2021-11_mattm_nota-131440-discariche-ilva-approvazione-ex-lege.pdf`
+
+[50] Ilva S.p.A. in A.S., *Nota del 25 settembre 2023* ad ARPA e Provincia (prot. Provincia 35995 del 26 settembre 2023), date dei prelievi in autocontrollo alle discariche Due Mari, Cementir e Nuove Vasche (avuta con la nostra richiesta di accesso) — copia in `fonti/2023-09_ilva-as_nota-35995-date-campionamenti-discariche.pdf`
+
+[51] Ilva S.p.A. in A.S., *Nota del 23 gennaio 2025* (prot. Provincia 3535 del 27 gennaio 2025), date dei prelievi del 1° trimestre 2025 (avuta con la nostra richiesta di accesso) — copia in `fonti/2025-01_ilva-as_nota-3535-date-campionamenti-discariche.pdf`
+
+[52] Ilva S.p.A. in A.S., *Nota del 29 luglio 2025* (prot. Provincia 30688), date dei prelievi del 3° trimestre 2025: 26 agosto 2025 per Due Mari (avuta con la nostra richiesta di accesso) — copia in `fonti/2025-07_ilva-as_nota-30688-date-campionamenti-discariche.pdf`
+
+[53] Ilva S.p.A. in A.S., *Nota del 4 febbraio 2026* (prot. Provincia 4815), date dei prelievi del 1° trimestre 2026: 16 e 17 febbraio 2026 per Due Mari (avuta con la nostra richiesta di accesso) — copia in `fonti/2026-02_ilva-as_nota-4815-date-campionamenti-discariche.pdf`
+
 ## Cosa non sappiamo
 1. [blocca] **Ilva ha chiesto il certificato di fine messa in sicurezza, ed è stato rilasciato?** Nell'elenco dei documenti che la Provincia ha su questa discarica (ottobre 2026) ci sono due domande di Ilva per passare alla post-gestione, giudicate improcedibili, ma nessuna domanda di certificazione [19]: non risulta quindi nessun certificato. Nel marzo 2025 Ilva ha chiesto di passare alla «post-gestione», i 30 anni di sorveglianza, ma la Provincia ha giudicato la richiesta inammissibile [1][7]. Senza certificato non si può dire che il lavoro sia stato controllato da un ente pubblico.
 2. [blocca] **Ilva ha dato una garanzia valida?** La Provincia non rilascia il certificato senza garanzie adeguate per i 30 anni di controlli, e i giudici le hanno dato ragione [1][3][4][5]. Dopo il no della Provincia del 26 maggio 2025 alla polizza di 8.388.000 € [28], Ilva ha fatto due ricorsi al TAR di Lecce, ancora pendenti [25]. Per la Provincia il decreto-legge n. 154/2026 sulle garanzie di un anno non vale per questa discarica, salvo un diverso parere del Ministero dell'Ambiente [34][36]; Ilva sostiene il contrario [35]. Non sappiamo se il Ministero si sia espresso.
-3. [altra] **L'acqua sotto la discarica è inquinata?** Ilva fa i controlli, ma i risultati non sono pubblici [1][9]. La Provincia ha una nota del Ministero del 13 luglio 2023 e le comunicazioni di Ilva dal settembre 2023 sulle date dei prelievi, ma scrive di non aver ricevuto «relazioni sull'esito dei controlli effettuati» [20][26].
-4. [altra] **Che cosa c'è dentro?** Le fonti dicono solo "rifiuti non pericolosi", e la Provincia non ha dati sui rifiuti messi in discarica [20][26]. Ci ha mandato l'autorizzazione, un decreto del Ministro dell'Ambiente del 14 marzo 2001 (GAB/DEC/054/01), che non abbiamo ancora potuto leggere [26]. Quali rifiuti, quanti, e da quando a quando la discarica è stata usata: non verificato.
+3. [altra] **Che cosa dicono i controlli della falda dopo il 2022?** Fino al 2022, secondo Ilva, pochi superamenti (ferro e manganese nel 2019, a valle) [47]. Il Ministero ha chiesto a Ilva di mandare i risultati successivi a Provincia e ARPA [48], ma la Provincia scrive di non aver ricevuto «relazioni sull'esito dei controlli effettuati»: solo le date dei prelievi [26][50][53]. Non sappiamo se li abbia ARPA, né se un ente abbia mai controllato i dati di Ilva.
+4. [altra] **Che cosa c'è dentro?** Sappiamo i tipi di rifiuti, dal direttore dei lavori [44], ma non le quantità: la Provincia non ha dati [20][26]. Non sappiamo nemmeno se l'ANPA abbia mai fatto le analisi del suolo e dei rifiuti ordinate dal Ministro nel 2001 [37]. Quali rifiuti, quanti, e da quando a quando la discarica è stata usata: non verificato.
 5. [altra] **Che cosa succede se la garanzia manca?** Il TAR scrive che il Ministero potrebbe revocare le autorizzazioni di Ilva [3], ma non abbiamo trovato atti del Ministero su questo.
-6. [altra] **Dov'è il progetto approvato?** Secondo Ilva il progetto è stato approvato dal decreto-legge n. 1/2015 [15]. Non abbiamo però visto un documento pubblico (progetto o parere) con il contenuto tecnico approvato. Ilva cita anche "decreti di approvazione MISP" per Due Mari [8]: non trovati. La Provincia ci ha mandato il progetto e la relazione di fine lavori allegati alla domanda di Ilva del marzo 2025 [26]: non li abbiamo ancora letti, perché il file arrivato con la PEC è troppo grande per il nostro collegamento con la posta.
+6. [altra] **Dov'è il progetto approvato?** Secondo Ilva il progetto è stato approvato dal decreto-legge n. 1/2015 [15]. Non abbiamo però visto un documento pubblico (progetto o parere) con il contenuto tecnico approvato. Ora l'abbiamo: il progetto è del dicembre 2012 [38] e il Ministero conferma che è stato approvato direttamente dalla legge, senza un decreto [48][49]. Ilva cita anche "decreti di approvazione MISP" per Due Mari [8]: non trovati. Resta una domanda: un progetto del 2012 scritto secondo le regole delle discariche è adatto a una «messa in sicurezza permanente», come la chiama la Provincia [32]?
 7. [fonti] **Quanto è grande, ed è dentro il SIN?** Il Ministero nel 2017 parlava di circa 12,5 ettari, Ilva nel 2022 di 14 ettari [10][8]. Sul SIN, ARPA e Ilva dicono che la discarica è dentro solo in parte [9][8], mentre il documento del 2017 in un punto la mette tra le discariche del SIN e in un altro no [10]. Va verificato sulla mappa del SIN.
 8. [fonti] **I fanghi dell'acciaieria sono dentro la discarica?** Un articolo di giornale online del luglio 2025 scrive che nella discarica Due Mari ci sarebbero fanghi dell'acciaieria e dell'altoforno: non verificato. Le fonti ufficiali trattano i fanghi in un'area separata (vedi scheda A5). Un indizio: nei rapporti di laboratorio di luglio 2023 sui materiali dell'area fanghi (scheda A5), il punto di prelievo si chiama "Area fanghi ex cava Due Mari – Baia 1" e "Ex cava Due Mari – baia 3" [17]. L'area dei fanghi sembra quindi trovarsi presso la ex cava Due Mari, ma nessuna fonte ufficiale dice che i fanghi siano dentro la discarica coperta.
 
@@ -222,7 +276,7 @@ Nota: nell'archivio del Ministero (https://bonifichesiticontaminati.mite.gov.it/
 Sulle garanzie, la richiesta alla Provincia di Taranto è la **FOIA 19**, preparata nella scheda A4 (discarica Cementir): copre anche questa discarica e va inviata con l'email ordinaria (A: casella del dirigente del Settore, in `.tmp/foia/REGISTRO.md`; Cc: info@provincia.ta.it). Testo completo in `.tmp/foia/19-*.md`.
 
 ### Richiesta di accesso civico (FOIA) n. 34 — inviata
-**Risposta della Provincia:** arrivata il 27 novembre 2026 [26]. 1) Autorizzazione: decreto del Ministro dell'Ambiente GAB/DEC/054/01 del 14 marzo 2001. 2) Rifiuti messi in discarica: «non presenti». 3) Progetto e fine lavori: gli allegati alla domanda di Ilva del 18 marzo 2025 e una nota di Ilva del 19 luglio 2022 (prot. 23855). 4) Controlli dopo la chiusura: nota del Ministero n. 114879 del 13 luglio 2023 e nota di Ilva del 26 settembre 2023 (prot. 35995) con le date dei prelievi; «Non pervenute relazioni sull'esito dei controlli effettuati». I documenti dei punti 1, 3 e 4 sono in un archivio di 17 MB che non abbiamo ancora potuto scaricare.
+**Risposta della Provincia:** arrivata il 27 novembre 2026 [26]. 1) Autorizzazione: decreto del Ministro dell'Ambiente GAB/DEC/054/01 del 14 marzo 2001. 2) Rifiuti messi in discarica: «non presenti». 3) Progetto e fine lavori: gli allegati alla domanda di Ilva del 18 marzo 2025 e una nota di Ilva del 19 luglio 2022 (prot. 23855). 4) Controlli dopo la chiusura: nota del Ministero n. 114879 del 13 luglio 2023 e nota di Ilva del 26 settembre 2023 (prot. 35995) con le date dei prelievi; «Non pervenute relazioni sull'esito dei controlli effettuati». Sono arrivati anche gli allegati: l'ordinanza del 2001 [37], il progetto [38][39][40][41][42], l'avvio dei lavori [43], la relazione di chiusura [44], la nota di Ilva del 2022 [45], il riepilogo dei controlli 2017–2022 con le note di Ilva e del Ministero [46][47][48][49] e le lettere di Ilva con le date dei prelievi [50][51][52][53].
 
 Testo della richiesta inviata:
 
