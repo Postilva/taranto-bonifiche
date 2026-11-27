@@ -956,3 +956,16 @@ body.panel-big .panel{height:calc(100% - 8px)}
 
 /* Titolo grosso della home in Anton, come il logo e come su postilva.it (Antonio, 26/11/2026). Anton ha un solo peso (400). */
 .hero h1.titolo{font-family:Anton,Impact,var(--f-body);font-weight:400;letter-spacing:.005em;line-height:1}
+
+/* Elenco sul telefono (Antonio, 27/11/2026): c'era troppo poco spazio per l'elenco nel pannello ridotto.
+   Pannello più alto, niente riga di istruzioni, intestazione più stretta: l'elenco ha almeno metà del pannello. */
+@media (max-width:899px){
+  .panel{height:78svh}
+  .panel .ph{gap:8px;padding:10px 12px 8px}
+  .panel .ph h1{font-size:1.1rem;line-height:40px}
+  .panel #intro{display:none}
+  .panel .search{min-height:40px}
+  .seg button{min-height:32px}
+  .panel .filters{flex-wrap:nowrap;overflow-x:auto}
+  .panel .filters .chip{flex:none}
+}
